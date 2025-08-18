@@ -195,6 +195,14 @@ public class Main {
 
         System.out.println("Kept: " + kept + "  Skipped: " + skipped);
 
+        var mip = new dexgen.parser.MoveTypeParser();
+        Map<String, Map<String,Object>> moveInfo =
+                mip.parse(resourcePath("data/input_data/moves_info.h"));
+
+        M.writeValue(dataOut.resolve("move_types.json").toFile(), moveInfo);
+
+
+
 
         // 4) write index.json sorted by dex
         index.sort(Comparator.<Map<String,Object>, Integer>comparing(o -> (Integer)o.get("dex"))

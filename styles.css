@@ -106,6 +106,143 @@ main{padding:1rem}
 .evo-card.active{border-color:var(--accent)}
 .evo-arrow{opacity:.75;font-size:1.4rem;padding:0 .2rem}
 
+/* evolution tree */
+.evo-grid{
+  display:flex; gap:.8rem; align-items:flex-start;
+  overflow-x:auto;            /* keep horizontal scroll */
+  overflow-y:visible;         /* don't clip glow vertically */
+  padding:.25rem .5rem;       /* NEW: space on both sides for box-shadow */
+}
+.evo-col{
+  display:flex; flex-direction:column; gap:.5rem;
+  width:160px;               /* fixed card column */
+  flex:0 0 160px;            /* don't stretch */
+}
+.evo-col.spacer{             /* the arrow column */
+  width:auto; flex:0 0 auto; min-width:auto; justify-content:center;
+}
+.evo-node{border:1px solid #2b2f35;background:#161617;border-radius:12px;padding:.4rem}
+.evo-node .thumb{width:100%;aspect-ratio:1/1;border-radius:8px}
+.evo-edge{display:flex;align-items:center;gap:.5rem;opacity:.85}
+.evo-note{font-size:.82rem;opacity:.8;margin:.15rem 0 0}
+.chips{display:flex;gap:.35rem;flex-wrap:wrap;margin:.35rem 0 0}
+a.badge{ text-decoration:none; color:var(--fg); }
+a.badge:hover{ border-color:var(--accent); }
+.evo-node.active {
+  border-color: var(--accent);
+  box-shadow: 0 0 6px var(--accent);
+}
+.hero {
+  border-color: var(--accent);
+  box-shadow:
+    0 0 0 2px var(--accent),      /* crisp outline */
+    0 0 14px var(--accent);       /* soft glow */
+  transition: box-shadow .2s, border-color .2s;
+}
+
+/* --- EV COLOURS --- */
+:root{
+  --ev-hp:#ef4444; --ev-atk:#f59e0b; --ev-def:#10b981;
+  --ev-spa:#60a5fa; --ev-spd:#a78bfa; --ev-spe:#22d3ee;
+}
+
+/* EV chips: set per-stat fills */
+.badge.ev.hp  { --chip-fill: var(--ev-hp); }
+.badge.ev.atk { --chip-fill: var(--ev-atk); }
+.badge.ev.def { --chip-fill: var(--ev-def); }
+.badge.ev.spa { --chip-fill: var(--ev-spa); }
+.badge.ev.spd { --chip-fill: var(--ev-spd); }
+.badge.ev.spe { --chip-fill: var(--ev-spe); }
+
+/* allow EV chips to actually fill */
+.badge.ev.filled{
+  background: var(--chip-fill);
+  border-color: var(--chip-fill);
+  color:#0e0f11;
+}
+
+/* TM/Move icon inside chips */
+.badge.move .icon{
+  width:14px;height:14px; margin-right:.4rem; display:inline-block; vertical-align:-2px;
+}
+
+
+/* --- TYPE COLOURS --- */
+:root{
+  --type-Normal:#A8A77A; --type-Fire:#EE8130; --type-Water:#6390F0; --type-Electric:#F7D02C;
+  --type-Grass:#7AC74C; --type-Ice:#96D9D6; --type-Fighting:#C22E28; --type-Poison:#A33EA1;
+  --type-Ground:#E2BF65; --type-Flying:#A98FF3; --type-Psychic:#F95587; --type-Bug:#A6B91A;
+  --type-Rock:#B6A136; --type-Ghost:#735797; --type-Dragon:#6F35FC; --type-Dark:#705746;
+  --type-Steel:#B7B7CE; --type-Fairy:#D685AD;
+}
+
+/* per-chip fill var so background doesn’t follow text color */
+.pill, .badge { --chip-fill: transparent; }
+
+/* map type -> color + fill */
+.pill.type-Normal, .badge.type-Normal{ color:var(--type-Normal); --chip-fill:var(--type-Normal); }
+.pill.type-Fire,   .badge.type-Fire  { color:var(--type-Fire);   --chip-fill:var(--type-Fire); }
+.pill.type-Water,  .badge.type-Water { color:var(--type-Water);  --chip-fill:var(--type-Water); }
+.pill.type-Electric,.badge.type-Electric{ color:var(--type-Electric); --chip-fill:var(--type-Electric); }
+.pill.type-Grass,  .badge.type-Grass { color:var(--type-Grass);  --chip-fill:var(--type-Grass); }
+.pill.type-Ice,    .badge.type-Ice   { color:var(--type-Ice);    --chip-fill:var(--type-Ice); }
+.pill.type-Fighting,.badge.type-Fighting{ color:var(--type-Fighting); --chip-fill:var(--type-Fighting); }
+.pill.type-Poison, .badge.type-Poison{ color:var(--type-Poison); --chip-fill:var(--type-Poison); }
+.pill.type-Ground, .badge.type-Ground{ color:var(--type-Ground); --chip-fill:var(--type-Ground); }
+.pill.type-Flying, .badge.type-Flying{ color:var(--type-Flying); --chip-fill:var(--type-Flying); }
+.pill.type-Psychic,.badge.type-Psychic{ color:var(--type-Psychic); --chip-fill:var(--type-Psychic); }
+.pill.type-Bug,    .badge.type-Bug   { color:var(--type-Bug);    --chip-fill:var(--type-Bug); }
+.pill.type-Rock,   .badge.type-Rock  { color:var(--type-Rock);   --chip-fill:var(--type-Rock); }
+.pill.type-Ghost,  .badge.type-Ghost { color:var(--type-Ghost);  --chip-fill:var(--type-Ghost); }
+.pill.type-Dragon, .badge.type-Dragon{ color:var(--type-Dragon); --chip-fill:var(--type-Dragon); }
+.pill.type-Dark,   .badge.type-Dark  { color:var(--type-Dark);   --chip-fill:var(--type-Dark); }
+.pill.type-Steel,  .badge.type-Steel { color:var(--type-Steel);  --chip-fill:var(--type-Steel); }
+.pill.type-Fairy,  .badge.type-Fairy { color:var(--type-Fairy);  --chip-fill:var(--type-Fairy); }
+
+/* outlined chips (tinted) */
+.pill[class*="type-"]:not(.filled),
+.badge[class*="type-"]:not(.filled){
+  border-color: var(--chip-fill);
+  background: color-mix(in oklab, var(--chip-fill) 12%, transparent);
+}
+
+/* Only apply solid fill when a type-* class is present */
+.pill[class*="type-"].filled,
+.badge[class*="type-"].filled{
+  background: var(--chip-fill);
+  border-color: var(--chip-fill);
+  color:#0e0f11;
+}
+
+/* Keep text readable for non-typed chips that happen to have .filled */
+.pill.filled:not([class*="type-"]),
+.badge.filled:not([class*="type-"]){
+  background: transparent;           /* no accidental “invisible text” */
+  border-color: #2b2f35;
+  color: var(--fg);
+}
+/* boost contrast on dark fills */
+.pill.filled.type-Dark,.pill.filled.type-Ghost,.pill.filled.type-Dragon,
+.pill.filled.type-Poison,.pill.filled.type-Fighting,.pill.filled.type-Rock,.pill.filled.type-Steel,
+.badge.filled.type-Dark,.badge.filled.type-Ghost,.badge.filled.type-Dragon,
+.badge.filled.type-Poison,.badge.filled.type-Fighting,.badge.filled.type-Rock,.badge.filled.type-Steel{
+  color:#fff;
+}
+
+/* Move chips (clickable placeholder for future pages) */
+a.badge.move{ cursor:pointer; text-decoration:none; border-color:#2b2f35; }
+a.badge.move:hover{ border-color:var(--accent) }
+a.badge.move:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+a.badge.move:not([class*="type-"]){
+  --chip-fill: color-mix(in oklab, var(--fg) 10%, transparent);
+  background: var(--chip-fill);
+  border-color:#2b2f35;
+  color: var(--fg);
+}
+a.badge.move:not([class*="type-"]):hover{ border-color:var(--accent); }
+
+
+
 
 /* stats */
 .statrow{display:grid;grid-template-columns:84px 1fr 48px;gap:.5rem;align-items:center}

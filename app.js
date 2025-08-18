@@ -8,6 +8,7 @@ const DATA_DIR = 'data/';
 const SPRITE_DIR = 'sprites/'; // if missing we fall back to placeholder
 let INDEX = [];
 let I18N = { area:{}, bucket:{} };
+let MOVE_TYPES = {};
 
 window.addEventListener('hashchange', route);
 searchBox.addEventListener('input', () => { if(location.hash==='#dex') renderDexList(); });
@@ -22,18 +23,27 @@ async function init(){
     I18N.bucket = i.bucket || {};
   } catch(_) {}
   route(); // render after i18n is ready
+  try {
+    MOVE_TYPES = await fetchJSON(DATA_DIR + 'move_types.json');
+  } catch(_) {}
 }
 function tArea(key, fallback){ return (I18N.area && I18N.area[key]) || fallback || key; }
 function tBucket(key, fallback){ return (I18N.bucket && I18N.bucket[key]) || fallback || key; }
 
 function route(){
   const hash = location.hash.replace(/^#/,'');
-  // toggle search visibility
-  if (hash === 'dex') searchBox.classList.remove('hidden');
-  else searchBox.classList.add('hidden');
+  // dex list (supports #dex and #dex?q=...)
+  if (hash === 'dex' || hash.startsWith('dex?')) {
+    // prefill search from query if present
+    const m = hash.match(/^dex\?q=(.*)$/);
+    searchBox.classList.remove('hidden');
+    if (m) searchBox.value = decodeURIComponent(m[1] || '');
+    return renderDexList();
+  }
+  // toggle search otherwise
+  searchBox.classList.add('hidden');
 
   if (!hash) return renderHome();
-  if (hash === 'dex') return renderDexList();
   const m = hash.match(/^dex\/(\d+)(?:\/([A-Z0-9_]+))?$/);
   if (m) return renderDexDetail(Number(m[1]), m[2] || null);
   renderNotFound();
@@ -58,82 +68,182 @@ function renderHome(){
   `;
 }
 
-// cache per-species JSON so we don't refetch
-const SPECIES_CACHE = new Map();
+function reqLabel(method, param){
+  const p = prettyParam(param);
+  const m = (method||'').toLowerCase();
 
-function bySpeciesId(id){ return INDEX.find(x => x.speciesId === id); }
+  switch(m){
+    case 'level':              return `Lv. ${p}`;
+    case 'level_atk_gt_def':   return `Lv. ${p} (Atk > Def)`;
+    case 'level_def_gt_atk':   return `Lv. ${p} (Def > Atk)`;
+    case 'level_night':        return `Lv. ${p} (Night)`;
+    case 'level_day':          return `Lv. ${p} (Day)`;
+    case 'level_beauty':       return `Beauty ${p}`;
+    case 'item':               return p;
+    case 'trade':              return 'Trade';
+    case 'trade_item':         return `Trade + ${p}`;
+    case 'friendship':         return 'High Friendship';
+    case 'friendship_day':     return 'High Friendship (Day)';
+    case 'friendship_night':   return 'High Friendship (Night)';
+    case 'move':               return `Know Move: ${p}`;
+    case 'map':                return `Location: ${p}`;
+    case 'weather':            return `Weather: ${p}`;
+    case 'critical_hits':      return `${p} Critical Hits`;
+    case 'party':              return `Party has ${p}`;
+    case 'type_in_party':      return `Party Type: ${p}`;
+    case 'use_move':           return `Use Move: ${p}`;
+    default:                   return [prettyMethod(method), p].filter(Boolean).join(': ');
+  }
+}
 
-async function getSpeciesDataById(id){
-  if (SPECIES_CACHE.has(id)) return SPECIES_CACHE.get(id);
-  const idx = bySpeciesId(id);
+// stub for future routing – makes chips “clickable” later
+function chipHref(label){
+  // items will become #item/<slug> later; for now, keep it inert or link to search
+  return `#dex?q=${encodeURIComponent(label)}`;
+}
+function moveInfo(name){ return MOVE_TYPES?.[name] || null; }
+
+function moveIcon(category){
+  const c = (category || '').toLowerCase();
+  if (c === 'physical' || c === 'special')
+    return `<img class="icon" src="assets/icons/move-${c}.png" alt="${category}">`;
+  return '';
+}
+
+// colored chip for a move (egg or TM)
+function moveChip(name){
+  const info   = moveInfo(name);
+  const typeCls = info ? `type-${info.type}` : '';
+  const icon    = moveIcon(info?.category); // always show when phys/special
+  const slug    = name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
+  return `<a class="badge move ${typeCls} filled" href="#move/${slug}">${icon}${name}</a>`;
+}
+
+// EV chips
+function renderEvChips(ev){
+  const map = {hp:'HP', atk:'Atk', def:'Def', spa:'SpA', spd:'SpD', spe:'Spe'};
+  const cls = {hp:'hp', atk:'atk', def:'def', spa:'spa', spd:'spd', spe:'spe'};
+  const chips = Object.entries(ev||{})
+    .filter(([,v])=>Number(v)>0)
+    .map(([k,v])=>`<span class="badge ev ${cls[k]||k} filled">${v} ${map[k]||k.toUpperCase()}</span>`)
+    .join('');
+  return chips || '—';
+}
+
+
+// --- evolution helpers ---
+const SPECIES_CACHE = new Map(); // speciesId -> JSON
+async function loadSpecies(speciesId){
+  if (SPECIES_CACHE.has(speciesId)) return SPECIES_CACHE.get(speciesId);
+  const idx = INDEX.find(x => x.speciesId === speciesId);
   if (!idx) return null;
-  const file = idx.file || (String(idx.dex).padStart(3,'0') + '_' + idx.speciesId + '.json');
-  const data = await fetchJSON(DATA_DIR + file);
-  SPECIES_CACHE.set(id, data);
+  const data = await fetchJSON(DATA_DIR + (idx.file || `${String(idx.dex).padStart(3,'0')}_${idx.speciesId}.json`));
+  SPECIES_CACHE.set(speciesId, data);
   return data;
 }
-
-/** Walk to root via preEvolutionId */
-async function findRootId(startId){
-  let cur = startId, seen = new Set();
-  while (true){
-    if (seen.has(cur)) break; // safety
-    seen.add(cur);
-    const d = await getSpeciesDataById(cur);
-    if (!d || !d.preEvolutionId) return cur;
-    cur = d.preEvolutionId;
+async function ascendRoot(s){ // follow preEvolutionId to the root
+  let cur = s;
+  while (cur.preEvolutionId){
+    const p = await loadSpecies(cur.preEvolutionId);
+    if (!p) break;
+    cur = p;
   }
-  return startId;
+  return cur;
+}
+function uniqBy(arr, key){ const m=new Set(), out=[]; for(const x of arr){const k=key(x); if(!m.has(k)){m.add(k); out.push(x);} } return out; }
+
+function titleize(s){ return s.toLowerCase().replace(/(^|[\s-])\w/g,m=>m.toUpperCase()); }
+function niceEnumToken(tok,prefix){ return titleize(tok.replace(prefix,'').replace(/_/g,' ')); }
+function prettyParam(param){
+  if (!param) return '';
+  if (/^ITEM_/.test(param))   return niceEnumToken(param,'ITEM_');
+  if (/^SPECIES_/.test(param))return niceEnumToken(param,'SPECIES_');
+  if (/^MOVE_/.test(param))   return niceEnumToken(param,'MOVE_');
+  if (/^ABILITY_/.test(param))return niceEnumToken(param,'ABILITY_');
+  return param;
+}
+function prettyMethod(method){
+  if (!method) return '';
+  return titleize(method.replace(/^evo_?/i,'').replace(/_/g,' '));
 }
 
-/** Build a linear chain from root by always taking the 1st next evolution.
- * If a stage branches, we show "+N" on the arrow. Returns array of data objects. */
-async function buildLinearChainFrom(rootId){
-  const chain = [];
-  let cur = rootId;
-  const guard = new Set();
+async function buildEvolutionLayers(startSpecies){
+  const root = await ascendRoot(startSpecies);
 
-  while (cur && !guard.has(cur)){
-    guard.add(cur);
-    const d = await getSpeciesDataById(cur);
-    if (!d) break;
-    chain.push(d);
+  // BFS layers: [[root], [children...], [grandchildren...]]
+  const layers = [[root]];
+  const edges  = []; // {from,to,method,param}
 
-    const evos = (d.evolution||[]);
-    if (!evos.length) break;
-    // choose first branch for the visual line, but remember branch count
-    const first = evos[0];
-    cur = first.toSpeciesId;
-    // stash branchCount onto the element we just pushed (for arrow label)
-    chain[chain.length-1]._branchCount = Math.max(0, evos.length-1);
-    chain[chain.length-1]._firstMethod = first.method;
-    chain[chain.length-1]._firstParam  = first.param;
+  const MAX_DEPTH = 4; // enough for known chains
+  for (let d=0; d<MAX_DEPTH; d++){
+    const cur = layers[d]; if (!cur || !cur.length) break;
+    const next = [];
+    for (const node of cur){
+      for (const e of (node.evolution||[])){
+        const child = await loadSpecies(e.toSpeciesId);
+        if (!child) continue;
+        next.push(child);
+        edges.push({ from: node.speciesId, to: child.speciesId, method: e.method, param: e.param });
+      }
+    }
+    if (!next.length) break;
+    layers.push(uniqBy(next, x=>x.speciesId));
   }
-  return chain;
+  return {layers, edges, root};
 }
 
-function renderEvolutionRow(chain, currentId){
-  if (!chain || !chain.length) return '<div>No known evolution.</div>';
+function evoReqChips(edges, fromId, toId){
+  const reqs = edges
+    .filter(e => e.from === fromId && e.to === toId)
+    .map(e => reqLabel(e.method, e.param));
 
-  const bits = [];
-  for (let i=0;i<chain.length;i++){
-    const s = chain[i];
-    const dex3 = String(s.dex).padStart(3,'0');
-    const img = spriteUrlOrPlaceholder(dex3, s.name);
-    const active = s.speciesId === currentId ? ' active' : '';
-    const href = `#dex/${s.dex}/${s.speciesId}`;
-    bits.push(`
-      <div class="evo-card${active}" onclick="location.hash='${href}'" title="${s.name}">
-        <img src="${img}" alt="${s.name}">
-      </div>
-    `);
-    if (i < chain.length-1){
-      const b = s._branchCount ? ` <small>(+${s._branchCount})</small>` : '';
-      const label = s._firstMethod ? `<small style="opacity:.8">${s._firstMethod}${s._firstParam?': '+s._firstParam:''}${b}</small>` : (b||'');
-      bits.push(`<div class="evo-arrow">➜<br>${label}</div>`);
+  if (!reqs.length) return '';
+  const chips = reqs.map(r => `<a class="badge" href="${chipHref(r)}">${r}</a>`).join('');
+  return `<div class="chips">${chips}</div>`;
+}
+
+
+function evoCard(s){
+  const dex3 = String(s.dex).padStart(3,'0');
+  const img = spriteUrlOrPlaceholder(dex3, s.name);
+
+  const isActive = location.hash.includes(`/${s.dex}/${s.speciesId}`);
+  const cls = "evo-node" + (isActive ? " active" : "");
+
+  return `
+    <div class="${cls}" onclick="location.hash='#dex/${s.dex}/${s.speciesId}'" title="${s.name}">
+      <div class="thumb"><img src="${img}" alt="${s.name}"></div>
+      <div class="name" style="text-align:center;margin-top:.35rem">${s.name}</div>
+    </div>`;
+}
+
+async function renderEvolutionTree(current){
+  const {layers, edges} = await buildEvolutionLayers(current);
+  if (layers.length===1 && !(layers[0][0].evolution||[]).length) {
+    return '<div>No known evolution.</div>';
+  }
+
+  // columns
+  let html = '<div class="evo-grid">';
+  for (let c=0; c<layers.length; c++){
+    html += `<div class="evo-col">`;
+    for (const node of layers[c]){
+      html += evoCard(node);
+      // show edge note from any parent in previous column (use the first that matches)
+      if (c > 0){
+        const parent = layers[c-1].find(p =>
+          edges.some(e => e.from === p.speciesId && e.to === node.speciesId)
+        );
+        if (parent) html += evoReqChips(edges, parent.speciesId, node.speciesId);
+      }
+    }
+    html += `</div>`;
+    if (c < layers.length - 1) {
+      html += `<div class="evo-col spacer"><div class="evo-edge">➜</div></div>`;
     }
   }
-  return `<div class="evo-row">${bits.join('')}</div>`;
+  html += '</div>';
+  return html;
 }
 
 
@@ -152,7 +262,9 @@ function renderDexList(){
   const cards = list.map(s=>{
     const dex3 = String(s.dex).padStart(3,'0');
     const img = spriteUrlOrPlaceholder(dex3, s.name);
-    const types = (s.types||[]).filter(Boolean).map(t=>`<span class="pill">${t}</span>`).join('');
+    const types = (s.types||[]).filter(Boolean)
+    .map(t=>`<span class="pill type-${t} filled">${t}</span>`)
+    .join('');
     return `
       <div class="card" onclick="location.hash='#dex/${s.dex}/${s.speciesId}'" title="${s.name}">
         <div class="thumb"><img src="${img}" alt="${s.name}" loading="lazy"></div>
@@ -185,22 +297,28 @@ async function renderDexDetail(dex, speciesId){
   const dex3 = String(data.dex).padStart(3,'0');
   const img = spriteUrlOrPlaceholder(dex3, data.name);
 
-  const types = (data.types||[]).filter(Boolean).map(t=>`<span class="pill">${t}</span>`).join('');
+  // util: slugify once
+  const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
+
+  // TODO: when you have move->type data, also add `type-${moveType}` to color by move type.
+  const eggs  = (data.eggMoves || []).map(m => moveChip(m)).join('');
+  const teach = (data.teachableMoves || []).map(m => moveChip(m)).join('');
+
+
+
+  const types = (data.types||[]).filter(Boolean).map(t =>
+    `<span class="pill type-${t} filled">${t}</span>`
+  ).join('');
   const abilities = (data.abilities||[]).filter(Boolean).map(a=>`<span class="badge">${a}</span>`).join('');
   const stats = renderStats(data.baseStats||{});
 
-  const rootId = await findRootId(s.speciesId);
-  const evoChain = await buildLinearChainFrom(rootId);
-  const evoHTML = renderEvolutionRow(evoChain, s.speciesId);
-
   const levelUps = (data.levelUpMoves||[]).map(m=>`<tr><td>${m.level}</td><td>${m.move}</td></tr>`).join('');
-  const eggs = (data.eggMoves||[]).map(m=>`<span class="badge">${m}</span>`).join('');
-  const teach = (data.teachableMoves||[]).map(m=>`<span class="badge">${m}</span>`).join('');
   const enc = (data.encounters||[]).map(e=>{
     const areaLabel   = tArea(e.areaKey,   e.area);    // prefer translation, else prettified fallback from JSON
     const bucketLabel = tBucket(e.bucketKey, e.bucket);
     return `<tr><td>${areaLabel}</td><td>${bucketLabel}</td><td>${e.min}–${e.max}</td><td>${e.slot}</td><td>${e.rateBase??''}</td></tr>`;
   }).join('');
+  const evoHTML = await renderEvolutionTree(data);
 
   app.innerHTML = `
     <div class="detail">
@@ -281,7 +399,9 @@ function renderNotFound(){ app.innerHTML = `<p>Not found.</p>`; }
 // helpers
 async function fetchJSON(url){ const r=await fetch(url,{cache:'no-store'}); if(!r.ok) throw new Error(`Failed ${url}`); return r.json(); }
 
-function spriteUrlOrPlaceholder(dex3,name){ return SPRITE_DIR + dex3 + '.png#maybe'; }
+function spriteUrlOrPlaceholder(dex3, name){
+  return SPRITE_DIR + dex3 + '.png#maybe';
+}
 
 window.addEventListener('error',(e)=>{
   const n=e.target;
