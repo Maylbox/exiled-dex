@@ -92,6 +92,8 @@ function reqLabel(method, param){
     case 'party':              return `Party has ${p}`;
     case 'type_in_party':      return `Party Type: ${p}`;
     case 'use_move':           return `Use Move: ${p}`;
+    case 'mega':
+    case 'mega_evolution': return 'Mega Evolution';
     default:                   return [prettyMethod(method), p].filter(Boolean).join(': ');
   }
 }
@@ -166,31 +168,63 @@ function prettyMethod(method){
   if (!method) return '';
   return titleize(method.replace(/^evo_?/i,'').replace(/_/g,' '));
 }
+function isMega(spec){
+  if (!spec) return false;
+  return /(^|_)MEGA(_|$)/.test(spec.speciesId || '') || / - Mega$/i.test(spec.name || '');
+}
+function baseFormOf(spec){
+  const cand = INDEX.find(x => x.dex === spec.dex && !isMega(x));
+  return cand ? cand : spec;
+}
+function megasFor(spec){
+  if (!spec || spec.dex == null) return [];
+  return INDEX.filter(x => x.dex === spec.dex && isMega(x));
+}
+
 
 async function buildEvolutionLayers(startSpecies){
-  const root = await ascendRoot(startSpecies);
+  // anchor on base if user opened a Mega page
+  const start = isMega(startSpecies)
+    ? (await loadSpecies(baseFormOf(startSpecies).speciesId))
+    : startSpecies;
+  let root = await ascendRoot(start);
+  if (!root.evolution) root = await loadSpecies(root.speciesId);
 
-  // BFS layers: [[root], [children...], [grandchildren...]]
   const layers = [[root]];
-  const edges  = []; // {from,to,method,param}
+  const edges  = [];
 
-  const MAX_DEPTH = 4; // enough for known chains
+  const MAX_DEPTH = 4;
   for (let d=0; d<MAX_DEPTH; d++){
     const cur = layers[d]; if (!cur || !cur.length) break;
     const next = [];
+
     for (const node of cur){
+      // real children from data
       for (const e of (node.evolution||[])){
         const child = await loadSpecies(e.toSpeciesId);
         if (!child) continue;
         next.push(child);
         edges.push({ from: node.speciesId, to: child.speciesId, method: e.method, param: e.param });
       }
+
+      // synthetic Mega branches (only if node is not already a Mega)
+      const baseIdx = INDEX.find(x => x.speciesId === node.speciesId);
+      if (baseIdx && !isMega(baseIdx)) {
+        for (const m of megasFor(baseIdx)) {
+          const megaFull = await loadSpecies(m.speciesId);
+          next.push(megaFull);
+          edges.push({ from: node.speciesId, to: m.speciesId, method: 'mega', param: null });
+        }
+      }
     }
+
     if (!next.length) break;
     layers.push(uniqBy(next, x=>x.speciesId));
   }
+
   return {layers, edges, root};
 }
+
 
 function evoReqChips(edges, fromId, toId){
   const reqs = edges
@@ -203,19 +237,20 @@ function evoReqChips(edges, fromId, toId){
 }
 
 
-function evoCard(s){
+function evoCard(s, activeId){
   const dex3 = String(s.dex).padStart(3,'0');
   const img = spriteUrlOrPlaceholder(dex3, s.name);
-
-  const isActive = location.hash.includes(`/${s.dex}/${s.speciesId}`);
+  const isActive = s.speciesId === activeId;   // exact match only
   const cls = "evo-node" + (isActive ? " active" : "");
-
   return `
     <div class="${cls}" onclick="location.hash='#dex/${s.dex}/${s.speciesId}'" title="${s.name}">
       <div class="thumb"><img src="${img}" alt="${s.name}"></div>
       <div class="name" style="text-align:center;margin-top:.35rem">${s.name}</div>
     </div>`;
 }
+
+
+
 
 async function renderEvolutionTree(current){
   const {layers, edges} = await buildEvolutionLayers(current);
@@ -225,10 +260,11 @@ async function renderEvolutionTree(current){
 
   // columns
   let html = '<div class="evo-grid">';
+  const activeId = current.speciesId;
   for (let c=0; c<layers.length; c++){
     html += `<div class="evo-col">`;
     for (const node of layers[c]){
-      html += evoCard(node);
+      html += evoCard(node, activeId);
       // show edge note from any parent in previous column (use the first that matches)
       if (c > 0){
         const parent = layers[c-1].find(p =>
