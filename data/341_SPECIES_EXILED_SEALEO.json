@@ -1,0 +1,105 @@
+{
+  "dex" : 341,
+  "speciesId" : "SPECIES_EXILED_SEALEO",
+  "name" : "Sealeo",
+  "types" : [ "Ice", "Water" ],
+  "abilities" : [ "Oblivious", "Motor Drive", "Triage" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.1,
+  "weightKg" : 87.6,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Ball Roll",
+  "friendship" : 70,
+  "description" : "Sealeo live in herds on ice floes. Using its\npowerful flippers, it shatters ice.\nIt dives into the sea to hunt prey five\ntimes a day.",
+  "preEvolutionId" : "SPECIES_EXILED_SPHEAL",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_WALREIN",
+    "method" : "level",
+    "param" : "44"
+  } ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 60,
+    "def" : 70,
+    "spe" : 45,
+    "spa" : 75,
+    "spd" : 70
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Nuzzle"
+  }, {
+    "level" : 4,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 6,
+    "move" : "Spiky Shield"
+  }, {
+    "level" : 9,
+    "move" : "Flash"
+  }, {
+    "level" : 11,
+    "move" : "Rollout"
+  }, {
+    "level" : 13,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 16,
+    "move" : "Charge Beam"
+  }, {
+    "level" : 20,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 22,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 26,
+    "move" : "Shock Wave"
+  }, {
+    "level" : 31,
+    "move" : "Energy Ball"
+  }, {
+    "level" : 37,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 38,
+    "move" : "Discharge"
+  }, {
+    "level" : 40,
+    "move" : "Apple Acid"
+  }, {
+    "level" : 44,
+    "move" : "Parabolic Charge"
+  }, {
+    "level" : 46,
+    "move" : "Cotton Guard"
+  }, {
+    "level" : 49,
+    "move" : "Thunderclap"
+  }, {
+    "level" : 51,
+    "move" : "Grassy Terrain"
+  }, {
+    "level" : 55,
+    "move" : "Thunder Cage"
+  }, {
+    "level" : 70,
+    "move" : "Seed Flare"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Press", "Calm Mind", "Charge Beam", "Dark Pulse", "Dazzling Gleam", "Dive", "Earth Power", "Electroweb", "Energy Ball", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Hidden Power", "Ice Beam", "Icicle Crash", "Iron Defense", "Light Screen", "Meteor Beam", "Protect", "Psyshock", "Return", "Rock Smash", "Safeguard", "Scald", "Shock Wave", "Sludge Wave", "Solar Beam", "Strength", "Substitute", "Surf", "Thunder", "Thunder Fang", "Thunder Wave", "Thunderbolt", "Trick Room", "Venoshock", "Volt Switch", "Volt Tackle", "Waterfall", "Wild Charge" ],
+  "encounters" : [ ]
+}

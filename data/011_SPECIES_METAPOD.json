@@ -1,0 +1,48 @@
+{
+  "dex" : 11,
+  "speciesId" : "SPECIES_METAPOD",
+  "name" : "Metapod",
+  "types" : [ "Bug", null ],
+  "abilities" : [ "Shed Skin", "None", "None" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 72,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.7,
+  "weightKg" : 9.9,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Cocoon",
+  "friendship" : 70,
+  "description" : "Its shell is as hard as an iron slab.\nA Metapod does not move very much\nbecause it is preparing its soft innards\nfor evolution inside the shell.",
+  "preEvolutionId" : "SPECIES_CATERPIE",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BUTTERFREE",
+    "method" : "level",
+    "param" : "10"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 20,
+    "def" : 55,
+    "spe" : 30,
+    "spa" : 25,
+    "spd" : 25
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Electroweb", "Iron Defense" ],
+  "encounters" : [ ]
+}

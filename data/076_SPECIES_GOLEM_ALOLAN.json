@@ -1,0 +1,87 @@
+{
+  "dex" : 76,
+  "speciesId" : "SPECIES_GOLEM_ALOLAN",
+  "name" : "Golem",
+  "types" : [ "Rock", "Electric" ],
+  "abilities" : [ "Magnet Pull", "Sturdy", "Galvanize" ],
+  "evYield" : {
+    "def" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.7,
+  "weightKg" : 316.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Megaton",
+  "friendship" : 70,
+  "description" : "It fires rocks charged with electricity.\nEven if the rock isn't fired that\naccurately, just grazing an opponent\nwill cause numbness and fainting.",
+  "preEvolutionId" : "SPECIES_GRAVELER_ALOLAN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "def" : 130,
+    "spe" : 45,
+    "spa" : 55,
+    "spd" : 65
+  },
+  "heldItems" : {
+    "common" : "Cell Battery"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Charge"
+  }, {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 1,
+    "move" : "Rock Polish"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 12,
+    "move" : "Spark"
+  }, {
+    "level" : 16,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 18,
+    "move" : "Smack Down"
+  }, {
+    "level" : 22,
+    "move" : "Thunder Punch"
+  }, {
+    "level" : 24,
+    "move" : "Self Destruct"
+  }, {
+    "level" : 30,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 34,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 40,
+    "move" : "Discharge"
+  }, {
+    "level" : 44,
+    "move" : "Explosion"
+  }, {
+    "level" : 50,
+    "move" : "Double Edge"
+  }, {
+    "level" : 54,
+    "move" : "Stone Edge"
+  } ],
+  "eggMoves" : [ "Autotomize", "Block", "Counter", "Curse", "Endure", "Flail", "Magnet Rise", "Rock Climb", "Screech", "Wide Guard" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Charge Beam", "Counter", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Electroweb", "Endure", "Explosion", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Gyro Ball", "Hyper Beam", "Iron Defense", "Iron Head", "Mega Punch", "Meteor Beam", "Metronome", "Mud Slap", "Protect", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Seismic Toss", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Swagger", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,107 @@
+{
+  "dex" : 545,
+  "speciesId" : "SPECIES_GRENINJA_ASH",
+  "name" : "Greninja",
+  "types" : [ "Water", "Dark" ],
+  "abilities" : [ "Battle Bond", "None", "None" ],
+  "evYield" : {
+    "spe" : 3
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 45,
+  "baseExp" : 288,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 40.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Ninja",
+  "friendship" : 70,
+  "description" : null,
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 72,
+    "atk" : 145,
+    "def" : 67,
+    "spe" : 132,
+    "spa" : 153,
+    "spd" : 71
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Water Shuriken"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Haze"
+  }, {
+    "level" : 1,
+    "move" : "Mat Block"
+  }, {
+    "level" : 1,
+    "move" : "Night Slash"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Role Play"
+  }, {
+    "level" : 1,
+    "move" : "Water Shuriken"
+  }, {
+    "level" : 5,
+    "move" : "Bubble"
+  }, {
+    "level" : 8,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 10,
+    "move" : "Lick"
+  }, {
+    "level" : 12,
+    "move" : "Aerial Ace"
+  }, {
+    "level" : 14,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 20,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 23,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 28,
+    "move" : "Spikes"
+  }, {
+    "level" : 33,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 43,
+    "move" : "Substitute"
+  }, {
+    "level" : 49,
+    "move" : "Extrasensory"
+  }, {
+    "level" : 52,
+    "move" : "Double Team"
+  }, {
+    "level" : 56,
+    "move" : "Haze"
+  }, {
+    "level" : 60,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 70,
+    "move" : "Night Slash"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Blizzard", "Brick Break", "Counter", "Cut", "Dark Pulse", "Dig", "Dive", "Double Team", "Endure", "Facade", "False Swipe", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Low Kick", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Scald", "Sleep Talk", "Sludge Wave", "Smack Down", "Snatch", "Snore", "Snowscape", "Strength", "Surf", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Toxic", "Trailblaze", "U Turn", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

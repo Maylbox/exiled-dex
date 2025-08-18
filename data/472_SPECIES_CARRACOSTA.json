@@ -1,0 +1,132 @@
+{
+  "dex" : 472,
+  "speciesId" : "SPECIES_CARRACOSTA",
+  "name" : "Carracosta",
+  "types" : [ "Water", "Rock" ],
+  "abilities" : [ "Solid Rock", "Sturdy", "Swift Swim" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 173,
+  "eggGroups" : [ "Water 1", "Water 3" ],
+  "hatchSteps" : 7680,
+  "heightM" : 1.2,
+  "weightKg" : 81.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Prototurtle",
+  "friendship" : 70,
+  "description" : "They can live both in the ocean and\non land. Incredible jaw strength enables\nthem to chew up steel beams and rocks\nalong with their prey.",
+  "preEvolutionId" : "SPECIES_TIRTOUGA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 74,
+    "atk" : 108,
+    "def" : 133,
+    "spe" : 32,
+    "spa" : 83,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Waterfall"
+  }, {
+    "level" : 1,
+    "move" : "Bide"
+  }, {
+    "level" : 1,
+    "move" : "Rollout"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 1,
+    "move" : "Waterfall"
+  }, {
+    "level" : 1,
+    "move" : "Withdraw"
+  }, {
+    "level" : 5,
+    "move" : "Rollout"
+  }, {
+    "level" : 8,
+    "move" : "Bite"
+  }, {
+    "level" : 11,
+    "move" : "Protect"
+  }, {
+    "level" : 15,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 18,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 21,
+    "move" : "Crunch"
+  }, {
+    "level" : 25,
+    "move" : "Wide Guard"
+  }, {
+    "level" : 28,
+    "move" : "Brine"
+  }, {
+    "level" : 31,
+    "move" : "Smack Down"
+  }, {
+    "level" : 35,
+    "move" : "Curse"
+  }, {
+    "level" : 40,
+    "move" : "Shell Smash"
+  }, {
+    "level" : 44,
+    "move" : "Salt Cure"
+  }, {
+    "level" : 47,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 51,
+    "move" : "Wave Crash"
+  }, {
+    "level" : 56,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 61,
+    "move" : "Hydro Pump"
+  } ],
+  "eggMoves" : [ "Bide", "Body Slam", "Flail", "Guard Swap", "Iron Defense", "Knock Off", "Liquidation", "Rock Throw", "Slam", "Water Pulse", "Whirlpool" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Crunch", "Dig", "Dive", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Meteor Beam", "Protect", "Rain Dance", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Scald", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "area" : "Mirage Tower_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 7
+  }, {
+    "area" : "Mirage Tower_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 2
+  }, {
+    "area" : "Mirage Tower_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 2
+  }, {
+    "area" : "Mirage Tower_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 2
+  } ]
+}

@@ -1,0 +1,149 @@
+{
+  "dex" : 527,
+  "speciesId" : "SPECIES_HYDREIGON",
+  "name" : "Hydreigon",
+  "types" : [ "Dark", "Dragon" ],
+  "abilities" : [ "Levitate", "None", "None" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Dragon" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.8,
+  "weightKg" : 160.0,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Brutal",
+  "friendship" : 35,
+  "description" : "This brutal Pokémon travels the skies on\nits six wings. The heads on their arms do\nnot have brains. They use all three heads\nto consume and destroy everything.",
+  "preEvolutionId" : "SPECIES_ZWEILOUS",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 92,
+    "atk" : 105,
+    "def" : 90,
+    "spe" : 98,
+    "spa" : 125,
+    "spd" : 90
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Double Hit"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 1,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Tri Attack"
+  }, {
+    "level" : 12,
+    "move" : "Roar"
+  }, {
+    "level" : 16,
+    "move" : "Assurance"
+  }, {
+    "level" : 20,
+    "move" : "Headbutt"
+  }, {
+    "level" : 24,
+    "move" : "Work Up"
+  }, {
+    "level" : 28,
+    "move" : "Slam"
+  }, {
+    "level" : 32,
+    "move" : "Crunch"
+  }, {
+    "level" : 36,
+    "move" : "Scary Face"
+  }, {
+    "level" : 40,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 44,
+    "move" : "Body Slam"
+  }, {
+    "level" : 48,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 54,
+    "move" : "Dragon Rush"
+  }, {
+    "level" : 60,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 68,
+    "move" : "Outrage"
+  }, {
+    "level" : 72,
+    "move" : "Fiery Wrath"
+  }, {
+    "level" : 75,
+    "move" : "Esper Wing"
+  }, {
+    "level" : 76,
+    "move" : "Sludge Bomb"
+  }, {
+    "level" : 84,
+    "move" : "Draco Meteor"
+  } ],
+  "eggMoves" : [ "Assurance", "Astonish", "Belch", "Dark Pulse", "Double Hit", "Earth Power", "Fire Fang", "Head Smash", "Ice Fang", "Screech", "Thunder Fang" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Body Slam", "Bulldoze", "Charge Beam", "Crunch", "Dark Pulse", "Defog", "Double Team", "Draco Meteor", "Dragon Pulse", "Dragon Tail", "Dual Wingbeat", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Flash Cannon", "Fly", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Fang", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Shock Wave", "Sleep Talk", "Snore", "Stealth Rock", "Steel Wing", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Taunt", "Thief", "Thunder Fang", "Thunder Wave", "Torment", "Toxic", "U Turn" ],
+  "encounters" : [ {
+    "area" : "Meteor Falls_B1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 1
+  }, {
+    "area" : "Meteor Falls_1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 1
+  }, {
+    "area" : "Meteor Falls_B1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 1
+  }, {
+    "area" : "Sky Pillar_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 7
+  }, {
+    "area" : "Sky Pillar_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 7
+  }, {
+    "area" : "Sky Pillar_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 7
+  } ]
+}

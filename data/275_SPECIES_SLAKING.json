@@ -1,0 +1,107 @@
+{
+  "dex" : 275,
+  "speciesId" : "SPECIES_SLAKING",
+  "name" : "Slaking",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Truant", "None", "Slow Start" ],
+  "evYield" : {
+    "hp" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 210,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 3840,
+  "heightM" : 2.0,
+  "weightKg" : 130.5,
+  "growthRate" : "Slow",
+  "color" : "Brown",
+  "category" : "Lazy",
+  "friendship" : 70,
+  "description" : "Hordes of Slaking gather around trees\nwhen fruits come into season. They wait\naround patiently for ripened fruits to fall\nout of the trees.",
+  "preEvolutionId" : "SPECIES_VIGOROTH",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 150,
+    "atk" : 160,
+    "def" : 100,
+    "spe" : 100,
+    "spa" : 95,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Body Slam"
+  }, {
+    "level" : 1,
+    "move" : "Body Slam"
+  }, {
+    "level" : 1,
+    "move" : "Encore"
+  }, {
+    "level" : 1,
+    "move" : "Fling"
+  }, {
+    "level" : 1,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 1,
+    "move" : "Punishment"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "Slack Off"
+  }, {
+    "level" : 1,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 1,
+    "move" : "Yawn"
+  }, {
+    "level" : 6,
+    "move" : "Encore"
+  }, {
+    "level" : 9,
+    "move" : "Slack Off"
+  }, {
+    "level" : 14,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 17,
+    "move" : "Amnesia"
+  }, {
+    "level" : 23,
+    "move" : "Covet"
+  }, {
+    "level" : 27,
+    "move" : "Chip Away"
+  }, {
+    "level" : 36,
+    "move" : "Swagger"
+  }, {
+    "level" : 39,
+    "move" : "Flail"
+  }, {
+    "level" : 47,
+    "move" : "Knock Off"
+  }, {
+    "level" : 50,
+    "move" : "Throat Chop"
+  }, {
+    "level" : 53,
+    "move" : "Punishment"
+  }, {
+    "level" : 61,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 66,
+    "move" : "Double Edge"
+  } ],
+  "eggMoves" : [ "After You", "Body Slam", "Crush Claw", "Curse", "Hammer Arm", "Night Slash", "Pursuit", "Slash", "Sleep Talk", "Snore", "Tickle" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Covet", "Cut", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Giga Impact", "High Horsepower", "Hone Claws", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Play Rough", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Water Pulse", "Wild Charge", "X Scissor" ],
+  "encounters" : [ ]
+}

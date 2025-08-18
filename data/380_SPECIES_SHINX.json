@@ -1,0 +1,84 @@
+{
+  "dex" : 380,
+  "speciesId" : "SPECIES_SHINX",
+  "name" : "Shinx",
+  "types" : [ "Electric", null ],
+  "abilities" : [ "Rivalry", "Intimidate", "Guts" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 235,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 9.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Flash",
+  "friendship" : 70,
+  "description" : "It rapidly contracts and relaxes its\nmuscles to generate electricity. Its\nbody shines if endangered. It flees\nwhile the foe is momentarily blinded.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_LUXIO",
+    "method" : "level",
+    "param" : "15"
+  } ],
+  "baseStats" : {
+    "hp" : 45,
+    "atk" : 65,
+    "def" : 34,
+    "spe" : 45,
+    "spa" : 40,
+    "spd" : 34
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Leer"
+  }, {
+    "level" : 6,
+    "move" : "Charge"
+  }, {
+    "level" : 9,
+    "move" : "Bite"
+  }, {
+    "level" : 11,
+    "move" : "Spark"
+  }, {
+    "level" : 13,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 17,
+    "move" : "Bite"
+  }, {
+    "level" : 21,
+    "move" : "Roar"
+  }, {
+    "level" : 25,
+    "move" : "Swagger"
+  }, {
+    "level" : 29,
+    "move" : "Thunder Fang"
+  }, {
+    "level" : 33,
+    "move" : "Crunch"
+  }, {
+    "level" : 37,
+    "move" : "Scary Face"
+  }, {
+    "level" : 41,
+    "move" : "Discharge"
+  }, {
+    "level" : 45,
+    "move" : "Wild Charge"
+  } ],
+  "eggMoves" : [ "Double Kick", "Eerie Impulse", "Fake Tears", "Fire Fang", "Helping Hand", "Howl", "Ice Fang", "Night Slash", "Quick Attack", "Shock Wave", "Signal Beam", "Swift", "Take Down", "Thunder Fang" ],
+  "teachableMoves" : [ "Attract", "Charge Beam", "Crunch", "Double Edge", "Double Team", "Electroweb", "Endure", "Facade", "Fire Fang", "Flash", "Fury Cutter", "Ice Fang", "Light Screen", "Mud Slap", "Play Rough", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Fang", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ ]
+}

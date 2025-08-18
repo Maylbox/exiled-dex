@@ -1,0 +1,90 @@
+{
+  "dex" : 314,
+  "speciesId" : "SPECIES_EXILED_BARBOACH",
+  "name" : "Barboach",
+  "types" : [ "Dragon", "Fairy" ],
+  "abilities" : [ "Super Luck", "Anticipation", "Misty Surge" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 2" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.4,
+  "weightKg" : 1.9,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Whiskers",
+  "friendship" : 70,
+  "description" : "Its body is covered with a slimy film.\nThe film acts as a barrier to prevent germs\nin muddy water from entering the\nBarboach's body.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_WHISCASH",
+    "method" : "level",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 37,
+    "atk" : 30,
+    "def" : 54,
+    "spe" : 48,
+    "spa" : 65,
+    "spd" : 54
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Fairy Wind"
+  }, {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "Twister"
+  }, {
+    "level" : 6,
+    "move" : "Water Spout"
+  }, {
+    "level" : 10,
+    "move" : "Dragon Rage"
+  }, {
+    "level" : 13,
+    "move" : "Amnesia"
+  }, {
+    "level" : 17,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 21,
+    "move" : "Mud Bomb"
+  }, {
+    "level" : 23,
+    "move" : "Rest"
+  }, {
+    "level" : 23,
+    "move" : "Sleep Talk"
+  }, {
+    "level" : 25,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 28,
+    "move" : "Dragonbreath"
+  }, {
+    "level" : 31,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 34,
+    "move" : "Alluring Voice"
+  }, {
+    "level" : 36,
+    "move" : "Charm"
+  }, {
+    "level" : 40,
+    "move" : "Night Shade"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Aura Sphere", "Aurora Veil", "Blizzard", "Body Press", "Bulk Up", "Calm Mind", "Covet", "Dark Pulse", "Dazzling Gleam", "Draco Meteor", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Energy Ball", "Fire Blast", "Flamethrower", "Flash", "Flash Cannon", "Flip Turn", "Focus Blast", "Grass Knot", "Hex", "Hidden Power", "Ice Beam", "Iron Defense", "Light Screen", "Meteor Beam", "Mirror Coat", "Mystical Fire", "Protect", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Return", "Safeguard", "Scald", "Secret Power", "Shadow Ball", "Silver Wind", "Sleep Talk", "Sludge Bomb", "Snatch", "Substitute", "Surf", "Taunt", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Water Pulse", "Will O Wisp" ],
+  "encounters" : [ ]
+}

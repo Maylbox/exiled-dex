@@ -1,0 +1,92 @@
+{
+  "dex" : 730,
+  "speciesId" : "SPECIES_GHOLDENGO",
+  "name" : "Gholdengo",
+  "types" : [ "Steel", "Ghost" ],
+  "abilities" : [ "Good As Gold", "None", "None" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 45,
+  "baseExp" : 275,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 12800,
+  "heightM" : 1.2,
+  "weightKg" : 30.0,
+  "growthRate" : "Slow",
+  "color" : "Yellow",
+  "category" : "Coin Entity",
+  "friendship" : 70,
+  "description" : "It has a sturdy body made up of\nstacked coins. Gholdengo overwhelms\nits enemies by firing coin after coin\nat them in quick succession.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 87,
+    "atk" : 60,
+    "def" : 95,
+    "spe" : 84,
+    "spa" : 133,
+    "spd" : 91
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Night Shade"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 7,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 15,
+    "move" : "Substitute"
+  }, {
+    "level" : 21,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 27,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 35,
+    "move" : "Recover"
+  }, {
+    "level" : 37,
+    "move" : "Power Gem"
+  }, {
+    "level" : 45,
+    "move" : "Make It Rain"
+  }, {
+    "level" : 48,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 51,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 56,
+    "move" : "Focus Blast"
+  }, {
+    "level" : 58,
+    "move" : "Psyshock"
+  }, {
+    "level" : 61,
+    "move" : "Aura Sphere"
+  }, {
+    "level" : 65,
+    "move" : "Thunderbolt"
+  }, {
+    "level" : 69,
+    "move" : "Surf"
+  }, {
+    "level" : 99,
+    "move" : "Astral Barrage"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Charge Beam", "Dazzling Gleam", "Endure", "Flash Cannon", "Focus Blast", "Giga Impact", "Hex", "Hyper Beam", "Iron Head", "Light Screen", "Low Kick", "Protect", "Psychic", "Psyshock", "Reflect", "Rest", "Sandstorm", "Shadow Ball", "Sleep Talk", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt" ],
+  "encounters" : [ ]
+}

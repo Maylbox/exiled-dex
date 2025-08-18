@@ -1,0 +1,112 @@
+{
+  "dex" : 68,
+  "speciesId" : "SPECIES_EXILED_MACHAMP",
+  "name" : "Machamp",
+  "types" : [ "Grass", "Fighting" ],
+  "abilities" : [ "Overgrow", "Harvest", "Seed Sower" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.6,
+  "weightKg" : 130.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Gray",
+  "category" : "Botonist",
+  "friendship" : 70,
+  "description" : "It is impossible to defend against punches\nand chops doled out by its four arms.\nIts fighting spirit flares up when it faces\na tough opponent.",
+  "preEvolutionId" : "SPECIES_EXILED_MACHOKE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 79,
+    "atk" : 95,
+    "def" : 94,
+    "spe" : 59,
+    "spa" : 121,
+    "spd" : 102
+  },
+  "heldItems" : {
+    "common" : "Focus Band"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Aura Sphere"
+  }, {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Aura Sphere"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Petal Blizzard"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 6,
+    "move" : "Comet Punch"
+  }, {
+    "level" : 9,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 13,
+    "move" : "Bullet Seed"
+  }, {
+    "level" : 17,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 21,
+    "move" : "Grasswhistle"
+  }, {
+    "level" : 24,
+    "move" : "Sleep Powder"
+  }, {
+    "level" : 27,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 31,
+    "move" : "Growth"
+  }, {
+    "level" : 37,
+    "move" : "Grassy Glide"
+  }, {
+    "level" : 43,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 45,
+    "move" : "Grass Knot"
+  }, {
+    "level" : 47,
+    "move" : "Grassy Terrain"
+  }, {
+    "level" : 51,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 55,
+    "move" : "Wood Hammer"
+  }, {
+    "level" : 59,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 61,
+    "move" : "Calm Mind"
+  }, {
+    "level" : 66,
+    "move" : "Focus Blast"
+  }, {
+    "level" : 70,
+    "move" : "Close Combat"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Aura Sphere", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Bullet Seed", "Calm Mind", "Cut", "Double Team", "Drain Punch", "Energy Ball", "Facade", "False Swipe", "First Impression", "Flash", "Focus Blast", "Giga Drain", "Grass Knot", "Grassy Glide", "Hone Claws", "Hyper Beam", "Knock Off", "Low Kick", "Poison Jab", "Power Up Punch", "Power Whip", "Protect", "Reflect", "Rest", "Return", "Rock Smash", "Safeguard", "Sludge Bomb", "Solar Beam", "Solar Blade", "Strength", "Substitute", "Sunny Day", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "Triple Axel", "Venoshock", "Wild Charge" ],
+  "encounters" : [ ]
+}

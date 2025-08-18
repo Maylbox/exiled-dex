@@ -1,0 +1,106 @@
+{
+  "dex" : 467,
+  "speciesId" : "SPECIES_CRUSTLE",
+  "name" : "Crustle",
+  "types" : [ "Bug", "Rock" ],
+  "abilities" : [ "Sturdy", "Shell Armor", "Weak Armor" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug", "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.4,
+  "weightKg" : 200.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Stone Home",
+  "friendship" : 70,
+  "description" : "Competing for territory, Crustle fight\nviciously. The one whose boulder is\nbroken is the loser of the battle and\nbegins to weaken.",
+  "preEvolutionId" : "SPECIES_DWEBBLE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 105,
+    "def" : 125,
+    "spe" : 45,
+    "spa" : 65,
+    "spd" : 75
+  },
+  "heldItems" : {
+    "common" : "Hard Stone"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 1,
+    "move" : "Pounce"
+  }, {
+    "level" : 1,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Shell Smash"
+  }, {
+    "level" : 1,
+    "move" : "Withdraw"
+  }, {
+    "level" : 5,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 7,
+    "move" : "Withdraw"
+  }, {
+    "level" : 11,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 13,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 17,
+    "move" : "Smack Down"
+  }, {
+    "level" : 19,
+    "move" : "Rock Polish"
+  }, {
+    "level" : 23,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 24,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 29,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 31,
+    "move" : "Slash"
+  }, {
+    "level" : 38,
+    "move" : "X Scissor"
+  }, {
+    "level" : 43,
+    "move" : "Flail"
+  }, {
+    "level" : 55,
+    "move" : "Rock Wrecker"
+  }, {
+    "level" : 61,
+    "move" : "Body Press"
+  }, {
+    "level" : 67,
+    "move" : "Shell Smash"
+  }, {
+    "level" : 72,
+    "move" : "Stone Axe"
+  } ],
+  "eggMoves" : [ "Block", "Counter", "Curse", "Endure", "Iron Defense", "Night Slash", "Rototiller", "Sand Tomb", "Spikes", "Wide Guard" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Press", "Bulldoze", "Counter", "Cut", "Dig", "Double Team", "Earthquake", "Endure", "Facade", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Iron Defense", "Knock Off", "Meteor Beam", "Poison Jab", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Shadow Claw", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Solar Blade", "Stealth Rock", "Stone Edge", "Strength", "Swagger", "Swords Dance", "Toxic", "X Scissor" ],
+  "encounters" : [ ]
+}

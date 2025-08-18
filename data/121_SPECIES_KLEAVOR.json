@@ -1,0 +1,80 @@
+{
+  "dex" : 121,
+  "speciesId" : "SPECIES_KLEAVOR",
+  "name" : "Kleavor",
+  "types" : [ "Bug", "Rock" ],
+  "abilities" : [ "Swarm", "Sheer Force", "Sharpness" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 15,
+  "baseExp" : 175,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.8,
+  "weightKg" : 89.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Axe",
+  "friendship" : 70,
+  "description" : "A violent creature that fells trees with\nits crude axes and shields itself with hard\nstone. Should one encounter this Pokémon\nin the wild, one's only recourse is to flee.",
+  "preEvolutionId" : "SPECIES_SCYTHER",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 135,
+    "def" : 95,
+    "spe" : 85,
+    "spa" : 45,
+    "spd" : 70
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Stone Axe"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 4,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 8,
+    "move" : "False Swipe"
+  }, {
+    "level" : 12,
+    "move" : "Smack Down"
+  }, {
+    "level" : 16,
+    "move" : "Double Team"
+  }, {
+    "level" : 20,
+    "move" : "Double Hit"
+  }, {
+    "level" : 24,
+    "move" : "Slash"
+  }, {
+    "level" : 28,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 32,
+    "move" : "Agility"
+  }, {
+    "level" : 36,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 40,
+    "move" : "X Scissor"
+  }, {
+    "level" : 44,
+    "move" : "Swords Dance"
+  } ],
+  "eggMoves" : [ "Baton Pass", "Bug Buzz", "Counter", "Defog", "Endure", "Night Slash", "Quick Guard", "Razor Wind", "Reversal", "Silver Wind", "Steel Wing" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Brick Break", "Calm Mind", "Counter", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "False Swipe", "Fury Cutter", "Giga Impact", "Hyper Beam", "Light Screen", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Silver Wind", "Sleep Talk", "Smack Down", "Stealth Rock", "Stone Edge", "Sunny Day", "Swift", "Swords Dance", "Thief", "Trailblaze", "U Turn", "X Scissor" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,96 @@
+{
+  "dex" : 562,
+  "speciesId" : "SPECIES_AMAURA",
+  "name" : "Amaura",
+  "types" : [ "Rock", "Ice" ],
+  "abilities" : [ "Refrigerate", "None", "Snow Warning" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 72,
+  "eggGroups" : [ "Monster" ],
+  "hatchSteps" : 7680,
+  "heightM" : 1.3,
+  "weightKg" : 25.2,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Tundra",
+  "friendship" : 70,
+  "description" : "This ancient Pokémon was restored from\npart of its body that had been frozen in\nice for over 100 million years. It lived in a\ncold land where there were no predators.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_AURORUS",
+    "method" : "level",
+    "param" : "35"
+  } ],
+  "baseStats" : {
+    "hp" : 77,
+    "atk" : 59,
+    "def" : 50,
+    "spe" : 46,
+    "spa" : 67,
+    "spd" : 63
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 5,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 10,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 13,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 15,
+    "move" : "Take Down"
+  }, {
+    "level" : 18,
+    "move" : "Mist"
+  }, {
+    "level" : 20,
+    "move" : "Aurora Beam"
+  }, {
+    "level" : 26,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 30,
+    "move" : "Round"
+  }, {
+    "level" : 34,
+    "move" : "Avalanche"
+  }, {
+    "level" : 38,
+    "move" : "Snowscape"
+  }, {
+    "level" : 41,
+    "move" : "Nature Power"
+  }, {
+    "level" : 44,
+    "move" : "Encore"
+  }, {
+    "level" : 47,
+    "move" : "Light Screen"
+  }, {
+    "level" : 50,
+    "move" : "Ice Beam"
+  }, {
+    "level" : 57,
+    "move" : "Hyper Beam"
+  }, {
+    "level" : 65,
+    "move" : "Blizzard"
+  } ],
+  "eggMoves" : [ "Barrier", "Discharge", "Haze", "Magnet Rise", "Mirror Coat" ],
+  "teachableMoves" : [ "Attract", "Aurora Veil", "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Calm Mind", "Charge Beam", "Dark Pulse", "Double Team", "Dragon Tail", "Dream Eater", "Earth Power", "Endure", "Facade", "Flash", "Flash Cannon", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Iron Head", "Light Screen", "Meteor Beam", "Mirror Coat", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Sandstorm", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Swagger", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse" ],
+  "encounters" : [ ]
+}

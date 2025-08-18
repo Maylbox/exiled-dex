@@ -1,0 +1,100 @@
+{
+  "dex" : 396,
+  "speciesId" : "SPECIES_BUNEARY",
+  "name" : "Buneary",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Run Away", "Defiant", "Limber" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field", "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.4,
+  "weightKg" : 5.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Rabbit",
+  "friendship" : null,
+  "description" : "You can tell how it feels by the way\nit rolls its ears. When it's scared,\nboth ears are rolled up. When it senses\ndanger, it perks them up.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_LOPUNNY",
+    "method" : "friendship",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 66,
+    "def" : 44,
+    "spe" : 85,
+    "spa" : 44,
+    "spd" : 56
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Fake Out"
+  }, {
+    "level" : 1,
+    "move" : "Foresight"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 6,
+    "move" : "Endure"
+  }, {
+    "level" : 13,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 16,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 23,
+    "move" : "Jump Kick"
+  }, {
+    "level" : 26,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 33,
+    "move" : "Agility"
+  }, {
+    "level" : 36,
+    "move" : "Dizzy Punch"
+  }, {
+    "level" : 43,
+    "move" : "After You"
+  }, {
+    "level" : 46,
+    "move" : "Charm"
+  }, {
+    "level" : 50,
+    "move" : "Entrainment"
+  }, {
+    "level" : 56,
+    "move" : "Bounce"
+  }, {
+    "level" : 63,
+    "move" : "Healing Wish"
+  }, {
+    "level" : 69,
+    "move" : "Double Edge"
+  } ],
+  "eggMoves" : [ "Circle Throw", "Copycat", "Cosmic Power", "Double Hit", "Encore", "Fake Out", "Fake Tears", "Fire Punch", "Flail", "Focus Punch", "Ice Punch", "Low Kick", "Mud Sport", "Power Up Punch", "Sky Uppercut", "Sweet Kiss", "Switcheroo", "Teeter Dance", "Thunder Punch" ],
+  "teachableMoves" : [ "Attract", "Charge Beam", "Covet", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Endure", "Facade", "Fire Punch", "Grass Knot", "Ice Beam", "Ice Punch", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Smash", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Triple Axel", "Water Pulse" ],
+  "encounters" : [ {
+    "area" : "Route 104",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 7,
+    "slot" : 9
+  } ]
+}

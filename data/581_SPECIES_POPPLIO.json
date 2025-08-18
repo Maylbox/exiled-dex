@@ -1,0 +1,97 @@
+{
+  "dex" : 581,
+  "speciesId" : "SPECIES_POPPLIO",
+  "name" : "Popplio",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Torrent", "Hydration", "Liquid Voice" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 64,
+  "eggGroups" : [ "Water 1", "Field" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.4,
+  "weightKg" : 7.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Sea Lion",
+  "friendship" : 70,
+  "description" : "This Pokémon snorts body fluids from\nits nose, blowing balloons to smash into\nits foes. It practices diligently so it can\nlearn to make big bubbles.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BRIONNE",
+    "method" : "level",
+    "param" : "17"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 54,
+    "def" : 54,
+    "spe" : 40,
+    "spa" : 66,
+    "spd" : 56
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 4,
+    "move" : "Growl"
+  }, {
+    "level" : 8,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 11,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 14,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 16,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 18,
+    "move" : "Encore"
+  }, {
+    "level" : 22,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 25,
+    "move" : "Sing"
+  }, {
+    "level" : 29,
+    "move" : "Doubleslap"
+  }, {
+    "level" : 32,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 36,
+    "move" : "Moonblast"
+  }, {
+    "level" : 39,
+    "move" : "Captivate"
+  }, {
+    "level" : 43,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 46,
+    "move" : "Misty Terrain"
+  } ],
+  "eggMoves" : [ "Amnesia", "Aqua Ring", "Aromatic Mist", "Charm", "Perish Song", "Wonder Room" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Blizzard", "Covet", "Dive", "Double Team", "Endure", "Facade", "Flip Turn", "Ice Beam", "Icy Wind", "Play Rough", "Protect", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Toxic", "Triple Axel", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "area" : "Route 106",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 1
+  } ]
+}

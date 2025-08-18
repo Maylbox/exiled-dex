@@ -1,0 +1,94 @@
+{
+  "dex" : 62,
+  "speciesId" : "SPECIES_POLITOED",
+  "name" : "Politoed",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Water Absorb", "Damp", "Drizzle" ],
+  "evYield" : {
+    "spd" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 185,
+  "eggGroups" : [ "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.1,
+  "weightKg" : 33.9,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Frog",
+  "friendship" : 70,
+  "description" : "The curled hair on its head proves its\nstatus as a king. It is said that the\nlonger and curlier the hair, the more\nrespect it earns from its peers.",
+  "preEvolutionId" : "SPECIES_POLIWHIRL",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 75,
+    "def" : 75,
+    "spe" : 70,
+    "spa" : 95,
+    "spd" : 115
+  },
+  "heldItems" : {
+    "common" : "Kings Rock"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Scald"
+  }, {
+    "level" : 1,
+    "move" : "Belly Drum"
+  }, {
+    "level" : 1,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 1,
+    "move" : "Circle Throw"
+  }, {
+    "level" : 1,
+    "move" : "Double Edge"
+  }, {
+    "level" : 1,
+    "move" : "Doubleslap"
+  }, {
+    "level" : 1,
+    "move" : "Earth Power"
+  }, {
+    "level" : 1,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 1,
+    "move" : "Hypnosis"
+  }, {
+    "level" : 1,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 1,
+    "move" : "Perish Song"
+  }, {
+    "level" : 1,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 1,
+    "move" : "Scald"
+  }, {
+    "level" : 1,
+    "move" : "Submission"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 27,
+    "move" : "Swagger"
+  }, {
+    "level" : 37,
+    "move" : "Bounce"
+  }, {
+    "level" : 48,
+    "move" : "Hyper Voice"
+  } ],
+  "eggMoves" : [ "Bubble Beam", "Encore", "Endeavor", "Endure", "Haze", "Ice Ball", "Mind Reader", "Mist", "Mud Shot", "Refresh", "Splash", "Water Pulse", "Water Sport" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Rock Smash", "Scald", "Seismic Toss", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

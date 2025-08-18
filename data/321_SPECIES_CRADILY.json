@@ -1,0 +1,110 @@
+{
+  "dex" : 321,
+  "speciesId" : "SPECIES_CRADILY",
+  "name" : "Cradily",
+  "types" : [ "Rock", "Grass" ],
+  "abilities" : [ "Suction Cups", "None", "Storm Drain" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 201,
+  "eggGroups" : [ "Water 3" ],
+  "hatchSteps" : 7680,
+  "heightM" : 1.5,
+  "weightKg" : 60.4,
+  "growthRate" : "Erratic",
+  "color" : "Green",
+  "category" : "Barnacle",
+  "friendship" : 70,
+  "description" : "It drags its heavy body along the\nseafloor. It makes its nest in the shallows\nof warm seas. Cradily can be seen on\nbeaches when the tide goes out.",
+  "preEvolutionId" : "SPECIES_LILEEP",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 86,
+    "atk" : 81,
+    "def" : 97,
+    "spe" : 43,
+    "spa" : 81,
+    "spd" : 107
+  },
+  "heldItems" : {
+    "common" : "Big Root"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Acid"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Constrict"
+  }, {
+    "level" : 1,
+    "move" : "Ingrain"
+  }, {
+    "level" : 1,
+    "move" : "Wring Out"
+  }, {
+    "level" : 5,
+    "move" : "Acid"
+  }, {
+    "level" : 7,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 9,
+    "move" : "Ingrain"
+  }, {
+    "level" : 13,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 17,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 21,
+    "move" : "Brine"
+  }, {
+    "level" : 26,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 31,
+    "move" : "Gastro Acid"
+  }, {
+    "level" : 36,
+    "move" : "Amnesia"
+  }, {
+    "level" : 44,
+    "move" : "Energy Ball"
+  }, {
+    "level" : 52,
+    "move" : "Spit Up"
+  }, {
+    "level" : 52,
+    "move" : "Stockpile"
+  }, {
+    "level" : 52,
+    "move" : "Swallow"
+  }, {
+    "level" : 61,
+    "move" : "Strength Sap"
+  }, {
+    "level" : 68,
+    "move" : "Sappy Seed"
+  }, {
+    "level" : 72,
+    "move" : "Scald"
+  } ],
+  "eggMoves" : [ "Barrier", "Curse", "Endure", "Mega Drain", "Mirror Coat", "Recover", "Stealth Rock", "Tickle", "Wring Out" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Bullet Seed", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Grass Knot", "Hyper Beam", "Meteor Beam", "Mirror Coat", "Mud Slap", "Power Whip", "Protect", "Psych Up", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Smack Down", "Snore", "Solar Beam", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic" ],
+  "encounters" : [ {
+    "area" : "Mirage Tower_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 4
+  } ]
+}

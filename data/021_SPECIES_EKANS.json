@@ -1,0 +1,100 @@
+{
+  "dex" : 21,
+  "speciesId" : "SPECIES_EKANS",
+  "name" : "Ekans",
+  "types" : [ "Poison", "Dark" ],
+  "abilities" : [ "Intimidate", "Shed Skin", "Unnerve" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.0,
+  "weightKg" : 6.9,
+  "growthRate" : "Medium Fast",
+  "color" : "Purple",
+  "category" : "Snake",
+  "friendship" : 70,
+  "description" : "An Ekans curls itself up in a spiral while\nit rests. This position allows it to quickly\nrespond to an enemy from any direction\nwith a threat from its upraised head.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_ARBOK",
+    "method" : "level",
+    "param" : "22"
+  } ],
+  "baseStats" : {
+    "hp" : 35,
+    "atk" : 60,
+    "def" : 44,
+    "spe" : 55,
+    "spa" : 40,
+    "spd" : 54
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Wrap"
+  }, {
+    "level" : 4,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 9,
+    "move" : "Bite"
+  }, {
+    "level" : 12,
+    "move" : "Glare"
+  }, {
+    "level" : 15,
+    "move" : "Poison Tail"
+  }, {
+    "level" : 20,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 25,
+    "move" : "Spit Up"
+  }, {
+    "level" : 25,
+    "move" : "Stockpile"
+  }, {
+    "level" : 25,
+    "move" : "Swallow"
+  }, {
+    "level" : 28,
+    "move" : "Poison Fang"
+  }, {
+    "level" : 33,
+    "move" : "Coil"
+  }, {
+    "level" : 36,
+    "move" : "Gastro Acid"
+  }, {
+    "level" : 38,
+    "move" : "Belch"
+  }, {
+    "level" : 41,
+    "move" : "Haze"
+  }, {
+    "level" : 44,
+    "move" : "Snarl"
+  }, {
+    "level" : 49,
+    "move" : "Gunk Shot"
+  } ],
+  "eggMoves" : [ "Beat Up", "Disable", "Iron Tail", "Poison Fang", "Poison Tail", "Pursuit", "Scary Face", "Slam", "Snatch", "Spite", "Sucker Punch", "Switcheroo" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Crunch", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "Fire Fang", "Giga Drain", "Knock Off", "Leech Life", "Mud Slap", "Poison Jab", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snatch", "Snore", "Strength", "Sunny Day", "Swagger", "Thief", "Torment", "Toxic", "Trailblaze", "Venoshock" ],
+  "encounters" : [ {
+    "area" : "Route 116",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 4
+  } ]
+}

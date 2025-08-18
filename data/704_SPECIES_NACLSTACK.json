@@ -1,0 +1,90 @@
+{
+  "dex" : 704,
+  "speciesId" : "SPECIES_NACLSTACK",
+  "name" : "Naclstack",
+  "types" : [ "Rock", null ],
+  "abilities" : [ "Purifying Salt", "Sturdy", "Clear Body" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 124,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 105.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Rock Salt",
+  "friendship" : 70,
+  "description" : "It compresses rock salt inside its\nbody and shoots out hardened salt\npellets with enough force to\nperforate an iron sheet.",
+  "preEvolutionId" : "SPECIES_NACLI",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GARGANACL",
+    "method" : "level",
+    "param" : "38"
+  } ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 60,
+    "def" : 100,
+    "spe" : 35,
+    "spa" : 35,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Salt Cure"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 1,
+    "move" : "Salt Cure"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Rock Polish"
+  }, {
+    "level" : 12,
+    "move" : "Smack Down"
+  }, {
+    "level" : 15,
+    "move" : "Headbutt"
+  }, {
+    "level" : 19,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 23,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 26,
+    "move" : "Recover"
+  }, {
+    "level" : 29,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 32,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 34,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 39,
+    "move" : "Earthquake"
+  }, {
+    "level" : 42,
+    "move" : "Stone Edge"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Curse", "Fissure", "Power Gem" ],
+  "teachableMoves" : [ "Body Press", "Body Slam", "Bulldoze", "Dig", "Double Edge", "Earth Power", "Earthquake", "Endure", "Facade", "Flash Cannon", "Giga Impact", "Hyper Beam", "Iron Defense", "Iron Head", "Meteor Beam", "Protect", "Rain Dance", "Rest", "Rock Polish", "Rock Slide", "Sandstorm", "Sleep Talk", "Smack Down", "Stealth Rock", "Stone Edge", "Sunny Day" ],
+  "encounters" : [ ]
+}

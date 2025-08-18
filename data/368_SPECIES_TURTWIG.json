@@ -1,0 +1,85 @@
+{
+  "dex" : 368,
+  "speciesId" : "SPECIES_TURTWIG",
+  "name" : "Turtwig",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Overgrow", "Shell Armor", "Reckless" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 64,
+  "eggGroups" : [ "Monster", "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.4,
+  "weightKg" : 10.2,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Tiny Leaf",
+  "friendship" : 70,
+  "description" : "The shell on its back is made of soil. \nOn a very healthy Turtwig, the shell \nshould feel moist. The leaf on its head\nwilts if it is thirsty.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GROTLE",
+    "method" : "level",
+    "param" : "18"
+  } ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 68,
+    "def" : 64,
+    "spe" : 31,
+    "spa" : 45,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Withdraw"
+  }, {
+    "level" : 9,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 13,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 17,
+    "move" : "Curse"
+  }, {
+    "level" : 21,
+    "move" : "Bite"
+  }, {
+    "level" : 25,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 29,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 33,
+    "move" : "Synthesis"
+  }, {
+    "level" : 37,
+    "move" : "Crunch"
+  }, {
+    "level" : 41,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 45,
+    "move" : "Leaf Storm"
+  } ],
+  "eggMoves" : [ "Amnesia", "Body Slam", "Double Edge", "Earth Power", "Grassy Terrain", "Growth", "Heavy Slam", "Sand Tomb", "Seed Bomb", "Spit Up", "Stockpile", "Superpower", "Swallow", "Thrash", "Tickle", "Wide Guard", "Worry Seed" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Bullet Seed", "Crunch", "Cut", "Double Edge", "Double Team", "Earth Power", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Iron Head", "Light Screen", "Mud Slap", "Protect", "Reflect", "Rest", "Roar", "Rock Smash", "Safeguard", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "area" : "Deep Woods0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 3
+  } ]
+}

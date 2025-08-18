@@ -1,0 +1,203 @@
+{
+  "dex" : 679,
+  "speciesId" : "SPECIES_DRACOVISH",
+  "name" : "Dracovish",
+  "types" : [ "Water", "Dragon" ],
+  "abilities" : [ "Water Absorb", "Strong Jaw", "Sand Rush" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 45,
+  "baseExp" : 177,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 8960,
+  "heightM" : 2.3,
+  "weightKg" : 215.0,
+  "growthRate" : "Slow",
+  "color" : "Green",
+  "category" : "Fossil",
+  "friendship" : 70,
+  "description" : "Powerful legs and jaws made it the apex\npredator of its time. Its own overhunting\nof its prey was what drove it to\nextinction.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 90,
+    "def" : 100,
+    "spe" : 75,
+    "spa" : 70,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 7,
+    "move" : "Protect"
+  }, {
+    "level" : 14,
+    "move" : "Brutal Swing"
+  }, {
+    "level" : 21,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 28,
+    "move" : "Bite"
+  }, {
+    "level" : 35,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 42,
+    "move" : "Stomp"
+  }, {
+    "level" : 49,
+    "move" : "Super Fang"
+  }, {
+    "level" : 56,
+    "move" : "Crunch"
+  }, {
+    "level" : 63,
+    "move" : "Fishious Rend"
+  }, {
+    "level" : 70,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 77,
+    "move" : "Dragon Rush"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Body Slam", "Bulldoze", "Crunch", "Dive", "Draco Meteor", "Dragon Pulse", "Earth Power", "Earthquake", "Endure", "Facade", "Giga Impact", "Hyper Beam", "Ice Fang", "Iron Head", "Leech Life", "Low Kick", "Mega Kick", "Meteor Beam", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Scald", "Sleep Talk", "Snore", "Stone Edge", "Surf", "Waterfall" ],
+  "encounters" : [ {
+    "area" : "Seafloor Cavern_Room1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 11
+  }, {
+    "area" : "Seafloor Cavern_Room2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 11
+  }, {
+    "area" : "Seafloor Cavern_Room3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 11
+  }, {
+    "area" : "Seafloor Cavern_Room4",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 11
+  }, {
+    "area" : "Seafloor Cavern_Room5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 11
+  }, {
+    "area" : "Seafloor Cavern_Room6",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 11
+  }, {
+    "area" : "Seafloor Cavern_Room7",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 11
+  }, {
+    "area" : "Magma Hideout_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 11
+  }, {
+    "area" : "Magma Hideout_2F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 11
+  }, {
+    "area" : "Magma Hideout_2F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 11
+  }, {
+    "area" : "Magma Hideout_3F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 11
+  }, {
+    "area" : "Magma Hideout_3F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 11
+  }, {
+    "area" : "Magma Hideout_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 11
+  }, {
+    "area" : "Magma Hideout_3F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 11
+  }, {
+    "area" : "Magma Hideout_2F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 11
+  }, {
+    "area" : "Mirage Tower_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 8
+  }, {
+    "area" : "Mirage Tower_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 8
+  }, {
+    "area" : "Mirage Tower_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 8
+  } ]
+}

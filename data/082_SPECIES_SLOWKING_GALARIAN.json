@@ -1,0 +1,110 @@
+{
+  "dex" : 82,
+  "speciesId" : "SPECIES_SLOWKING_GALARIAN",
+  "name" : "Slowking",
+  "types" : [ "Poison", "Psychic" ],
+  "abilities" : [ "Curious Medicine", "Own Tempo", "Regenerator" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 70,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.8,
+  "weightKg" : 79.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Pink",
+  "category" : "Hexpert",
+  "friendship" : 70,
+  "description" : "A combination of toxins and the shock of\nevolving has increased Shellder's\nintelligence to the point that Shellder\nnow controls Slowking.",
+  "preEvolutionId" : "SPECIES_SLOWPOKE_GALARIAN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 65,
+    "def" : 80,
+    "spe" : 30,
+    "spa" : 110,
+    "spd" : 110
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Eerie Spell"
+  }, {
+    "level" : 1,
+    "move" : "Acid"
+  }, {
+    "level" : 1,
+    "move" : "Chilly Reception"
+  }, {
+    "level" : 1,
+    "move" : "Curse"
+  }, {
+    "level" : 1,
+    "move" : "Future Sight"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 1,
+    "move" : "Power Gem"
+  }, {
+    "level" : 1,
+    "move" : "Swagger"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Toxic"
+  }, {
+    "level" : 9,
+    "move" : "Yawn"
+  }, {
+    "level" : 12,
+    "move" : "Confusion"
+  }, {
+    "level" : 15,
+    "move" : "Disable"
+  }, {
+    "level" : 18,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 21,
+    "move" : "Headbutt"
+  }, {
+    "level" : 24,
+    "move" : "Zen Headbutt"
+  }, {
+    "level" : 27,
+    "move" : "Amnesia"
+  }, {
+    "level" : 30,
+    "move" : "Surf"
+  }, {
+    "level" : 33,
+    "move" : "Slack Off"
+  }, {
+    "level" : 36,
+    "move" : "Psychic"
+  }, {
+    "level" : 39,
+    "move" : "Psych Up"
+  }, {
+    "level" : 42,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 45,
+    "move" : "Heal Pulse"
+  } ],
+  "eggMoves" : [ "Belch", "Belly Drum", "Block", "Stomp" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Calm Mind", "Dig", "Dive", "Drain Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Grass Knot", "Hex", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Iron Defense", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Poison Jab", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Rest", "Safeguard", "Scald", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Snowscape", "Sunny Day", "Surf", "Swagger", "Swift", "Taunt", "Thunder Punch", "Thunder Wave", "Toxic", "Trick Room", "Venoshock", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

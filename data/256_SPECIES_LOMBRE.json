@@ -1,0 +1,99 @@
+{
+  "dex" : 256,
+  "speciesId" : "SPECIES_LOMBRE",
+  "name" : "Lombre",
+  "types" : [ "Water", "Grass" ],
+  "abilities" : [ "Swift Swim", "Rain Dish", "Own Tempo" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Grass" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.2,
+  "weightKg" : 32.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Jolly",
+  "friendship" : 70,
+  "description" : "In the evening, it takes great delight in\npopping out of rivers and startling people.\nIt feeds on aquatic moss that grows on\nrocks in the riverbed.",
+  "preEvolutionId" : "SPECIES_LOTAD",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_LUDICOLO",
+    "method" : "item",
+    "param" : "ITEM_WATER_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 50,
+    "def" : 50,
+    "spe" : 50,
+    "spa" : 60,
+    "spd" : 70
+  },
+  "heldItems" : {
+    "common" : "Mental Herb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 3,
+    "move" : "Growl"
+  }, {
+    "level" : 6,
+    "move" : "Absorb"
+  }, {
+    "level" : 9,
+    "move" : "Bubble"
+  }, {
+    "level" : 12,
+    "move" : "Aurora Beam"
+  }, {
+    "level" : 16,
+    "move" : "Fake Out"
+  }, {
+    "level" : 19,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 21,
+    "move" : "Apple Acid"
+  }, {
+    "level" : 24,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 28,
+    "move" : "Nature Power"
+  }, {
+    "level" : 32,
+    "move" : "Uproar"
+  }, {
+    "level" : 36,
+    "move" : "Knock Off"
+  }, {
+    "level" : 40,
+    "move" : "Zen Headbutt"
+  }, {
+    "level" : 44,
+    "move" : "Hydro Pump"
+  } ],
+  "eggMoves" : [ "Counter", "Flail", "Giga Drain", "Leech Seed", "Razor Leaf", "Sweet Scent", "Synthesis", "Teeter Dance", "Tickle", "Water Gun" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bullet Seed", "Counter", "Dive", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Fire Punch", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Hone Claws", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Smash", "Scald", "Sleep Talk", "Snore", "Solar Beam", "Strength", "Sunny Day", "Surf", "Swagger", "Swords Dance", "Thief", "Thunder Punch", "Toxic", "Trailblaze", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "area" : "Verdanturf Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 21,
+    "max" : 25,
+    "slot" : 0
+  } ]
+}

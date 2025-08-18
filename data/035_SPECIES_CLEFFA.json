@@ -1,0 +1,82 @@
+{
+  "dex" : 35,
+  "speciesId" : "SPECIES_CLEFFA",
+  "name" : "Cleffa",
+  "types" : [ ],
+  "abilities" : [ "Cute Charm", "Magic Guard", "Friend Guard" ],
+  "evYield" : {
+    "spd" : 1
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 150,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 2560,
+  "heightM" : 0.3,
+  "weightKg" : 3.0,
+  "growthRate" : "Fast",
+  "color" : "Pink",
+  "category" : "Star Shape",
+  "friendship" : 140,
+  "description" : "On nights with many shooting stars,\nCleffa can be seen dancing in a ring.\nThey dance until daybreak, when they\nquench their thirst with the morning dew.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CLEFAIRY",
+    "method" : "friendship",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 25,
+    "def" : 28,
+    "spe" : 15,
+    "spa" : 45,
+    "spd" : 55
+  },
+  "heldItems" : {
+    "common" : "Moon Stone"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Copycat"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Splash"
+  }, {
+    "level" : 4,
+    "move" : "Sing"
+  }, {
+    "level" : 8,
+    "move" : "Sweet Kiss"
+  }, {
+    "level" : 12,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 16,
+    "move" : "Encore"
+  }, {
+    "level" : 20,
+    "move" : "Charm"
+  } ],
+  "eggMoves" : [ "Amnesia", "Aromatherapy", "Belly Drum", "Covet", "Fake Tears", "Heal Pulse", "Metronome", "Mimic", "Misty Terrain", "Present", "Splash", "Stored Power", "Tickle", "Wish" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Counter", "Covet", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Fire Blast", "Flamethrower", "Flash", "Grass Knot", "Icy Wind", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rollout", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Soft Boiled", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thunder Wave", "Toxic", "Water Pulse" ],
+  "encounters" : [ {
+    "area" : "Granite Cave_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 13,
+    "max" : 15,
+    "slot" : 8
+  }, {
+    "area" : "Granite Cave_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 13,
+    "max" : 15,
+    "slot" : 9
+  } ]
+}

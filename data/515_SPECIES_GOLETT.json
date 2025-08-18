@@ -1,0 +1,92 @@
+{
+  "dex" : 515,
+  "speciesId" : "SPECIES_GOLETT",
+  "name" : "Golett",
+  "types" : [ "Ground", "Ghost" ],
+  "abilities" : [ "Iron Fist", "Klutz", "No Guard" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 190,
+  "baseExp" : 61,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 6400,
+  "heightM" : 1.0,
+  "weightKg" : 92.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Automaton",
+  "friendship" : 70,
+  "description" : "These Pokémon are thought to have\nbeen created by the science of an\nancient and mysterious civilization.\nIt's been active for thousands of years.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GOLURK",
+    "method" : "level",
+    "param" : "43"
+  } ],
+  "baseStats" : {
+    "hp" : 59,
+    "atk" : 74,
+    "def" : 50,
+    "spe" : 35,
+    "spa" : 35,
+    "spd" : 50
+  },
+  "heldItems" : {
+    "common" : "Light Clay"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 5,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 9,
+    "move" : "Rollout"
+  }, {
+    "level" : 13,
+    "move" : "Shadow Punch"
+  }, {
+    "level" : 17,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 21,
+    "move" : "Stomping Tantrum"
+  }, {
+    "level" : 25,
+    "move" : "Mega Punch"
+  }, {
+    "level" : 30,
+    "move" : "Magnitude"
+  }, {
+    "level" : 35,
+    "move" : "Dynamic Punch"
+  }, {
+    "level" : 40,
+    "move" : "Night Shade"
+  }, {
+    "level" : 45,
+    "move" : "Curse"
+  }, {
+    "level" : 50,
+    "move" : "Earthquake"
+  }, {
+    "level" : 55,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 61,
+    "move" : "Focus Punch"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Body Slam", "Brick Break", "Bulldoze", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Punch", "Flash", "Focus Blast", "Grass Knot", "Gyro Ball", "Hex", "Ice Beam", "Ice Punch", "Icy Wind", "Iron Defense", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Safeguard", "Sandstorm", "Shadow Ball", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Thief", "Thunder Punch", "Toxic" ],
+  "encounters" : [ ]
+}

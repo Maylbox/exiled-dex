@@ -1,0 +1,69 @@
+{
+  "dex" : 646,
+  "speciesId" : "SPECIES_APPLIN",
+  "name" : "Applin",
+  "types" : [ "Grass", "Dragon" ],
+  "abilities" : [ "Ripen", "Gluttony", "Bulletproof" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 52,
+  "eggGroups" : [ "Grass", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.2,
+  "weightKg" : 0.5,
+  "growthRate" : "Erratic",
+  "color" : "Green",
+  "category" : "Apple Core",
+  "friendship" : 70,
+  "description" : "It spends its entire life inside an\napple. It hides from its natural enemies,\nbird Pokémon, by pretending it's just an\napple and nothing more.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_FLAPPLE",
+    "method" : "item",
+    "param" : "ITEM_TART_APPLE"
+  }, {
+    "toSpeciesId" : "SPECIES_APPLETUN",
+    "method" : "item",
+    "param" : "ITEM_SWEET_APPLE"
+  }, {
+    "toSpeciesId" : "SPECIES_DIPPLIN",
+    "method" : "item",
+    "param" : "ITEM_SYRUPY_APPLE"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 40,
+    "def" : 80,
+    "spe" : 20,
+    "spa" : 40,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 1,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 1,
+    "move" : "Withdraw"
+  } ],
+  "eggMoves" : [ "Defense Curl", "Recycle", "Rollout", "Sucker Punch" ],
+  "teachableMoves" : [ "Attract", "Defense Curl", "Draco Meteor", "Grassy Glide", "Rollout" ],
+  "encounters" : [ {
+    "area" : "Petalburg Woods",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 7,
+    "slot" : 2
+  } ]
+}

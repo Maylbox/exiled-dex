@@ -1,0 +1,135 @@
+{
+  "dex" : 105,
+  "speciesId" : "SPECIES_RHYHORN",
+  "name" : "Rhyhorn",
+  "types" : [ "Ground", "Rock" ],
+  "abilities" : [ "Lightning Rod", "Rock Head", "Reckless" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 115.0,
+  "growthRate" : "Slow",
+  "color" : "Gray",
+  "category" : "Spikes",
+  "friendship" : 70,
+  "description" : "Once it starts running, it doesn't stop.\nIts tiny brain makes it so stupid that it\ncan't remember why it started running in\nthe first place.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_RHYDON",
+    "method" : "level",
+    "param" : "42"
+  } ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 85,
+    "def" : 95,
+    "spe" : 25,
+    "spa" : 30,
+    "spd" : 30
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 1,
+    "move" : "Horn Attack"
+  }, {
+    "level" : 1,
+    "move" : "Scary Face"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 5,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 9,
+    "move" : "Scary Face"
+  }, {
+    "level" : 13,
+    "move" : "Smack Down"
+  }, {
+    "level" : 17,
+    "move" : "Stomp"
+  }, {
+    "level" : 21,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 25,
+    "move" : "Chip Away"
+  }, {
+    "level" : 29,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 33,
+    "move" : "Drill Run"
+  }, {
+    "level" : 37,
+    "move" : "Take Down"
+  }, {
+    "level" : 41,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 45,
+    "move" : "Earthquake"
+  }, {
+    "level" : 49,
+    "move" : "Megahorn"
+  }, {
+    "level" : 53,
+    "move" : "Horn Drill"
+  } ],
+  "eggMoves" : [ "Counter", "Crunch", "Crush Claw", "Curse", "Dragon Rush", "Fire Fang", "Guard Split", "Ice Fang", "Iron Tail", "Magnitude", "Metal Burst", "Reversal", "Rock Climb", "Rototiller", "Skull Bash", "Thunder Fang" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Press", "Body Slam", "Bulldoze", "Counter", "Crunch", "Dig", "Double Edge", "Double Team", "Dragon Pulse", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Giga Impact", "High Horsepower", "Ice Beam", "Ice Fang", "Icy Wind", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Shock Wave", "Sleep Talk", "Smack Down", "Smart Strike", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Thunder", "Thunder Fang", "Thunderbolt", "Toxic" ],
+  "encounters" : [ {
+    "area" : "Route 112",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 28,
+    "max" : 32,
+    "slot" : 9
+  }, {
+    "area" : "Granite Cave_B2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 16,
+    "max" : 17,
+    "slot" : 0
+  }, {
+    "area" : "Granite Cave_B2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 16,
+    "max" : 17,
+    "slot" : 3
+  }, {
+    "area" : "Safari Zone_Northwest",
+    "bucket" : "Land",
+    "rateBase" : 25,
+    "min" : 27,
+    "max" : 27,
+    "slot" : 0
+  }, {
+    "area" : "Safari Zone_Northwest",
+    "bucket" : "Land",
+    "rateBase" : 25,
+    "min" : 29,
+    "max" : 29,
+    "slot" : 2
+  }, {
+    "area" : "Fallarbor Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 29,
+    "max" : 33,
+    "slot" : 10
+  } ]
+}

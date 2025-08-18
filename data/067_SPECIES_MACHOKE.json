@@ -1,0 +1,105 @@
+{
+  "dex" : 67,
+  "speciesId" : "SPECIES_MACHOKE",
+  "name" : "Machoke",
+  "types" : [ "Fighting", null ],
+  "abilities" : [ "Guts", "No Guard", "Steadfast" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 90,
+  "baseExp" : 0,
+  "eggGroups" : [ "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 70.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Gray",
+  "category" : "Superpower",
+  "friendship" : 70,
+  "description" : "A belt is worn by a Machoke to keep its\noverwhelming power under control.\nBecause it is so dangerous, no one has\never removed the belt.",
+  "preEvolutionId" : "SPECIES_MACHOP",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MACHAMP",
+    "method" : "trade",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_MACHAMP",
+    "method" : "item",
+    "param" : "ITEM_LINKING_CORD"
+  } ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 100,
+    "def" : 70,
+    "spe" : 45,
+    "spa" : 50,
+    "spd" : 60
+  },
+  "heldItems" : {
+    "common" : "Focus Band"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 1,
+    "move" : "Karate Chop"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Low Kick"
+  }, {
+    "level" : 3,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 7,
+    "move" : "Karate Chop"
+  }, {
+    "level" : 9,
+    "move" : "Foresight"
+  }, {
+    "level" : 13,
+    "move" : "Low Sweep"
+  }, {
+    "level" : 15,
+    "move" : "Seismic Toss"
+  }, {
+    "level" : 19,
+    "move" : "Revenge"
+  }, {
+    "level" : 21,
+    "move" : "Knock Off"
+  }, {
+    "level" : 25,
+    "move" : "Vital Throw"
+  }, {
+    "level" : 27,
+    "move" : "Wake Up Slap"
+  }, {
+    "level" : 33,
+    "move" : "Dual Chop"
+  }, {
+    "level" : 37,
+    "move" : "Submission"
+  }, {
+    "level" : 43,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 47,
+    "move" : "Cross Chop"
+  }, {
+    "level" : 53,
+    "move" : "Scary Face"
+  }, {
+    "level" : 57,
+    "move" : "Dynamic Punch"
+  } ],
+  "eggMoves" : [ "Bullet Punch", "Close Combat", "Counter", "Encore", "Fire Punch", "Heavy Slam", "Ice Punch", "Knock Off", "Meditate", "Power Trick", "Quick Guard", "Rolling Kick", "Smelling Salts", "Thunder Punch", "Tickle" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Ice Punch", "Knock Off", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Strength", "Sunny Day", "Swagger", "Thief", "Thunder Punch", "Toxic" ],
+  "encounters" : [ ]
+}

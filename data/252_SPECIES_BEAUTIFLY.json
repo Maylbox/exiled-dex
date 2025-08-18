@@ -1,0 +1,88 @@
+{
+  "dex" : 252,
+  "speciesId" : "SPECIES_BEAUTIFLY",
+  "name" : "Beautifly",
+  "types" : [ "Bug", "Flying" ],
+  "abilities" : [ "Swarm", "Sap Sipper", "Rivalry" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 161,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.0,
+  "weightKg" : 28.4,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Butterfly",
+  "friendship" : 70,
+  "description" : "Its colorfully patterned wings are its\nmost prominent feature. It flies through\nflower-covered fields collecting pollen.\nIt attacks ferociously when angered.",
+  "preEvolutionId" : "SPECIES_SILCOON",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 60,
+    "def" : 55,
+    "spe" : 90,
+    "spa" : 110,
+    "spd" : 55
+  },
+  "heldItems" : {
+    "common" : "Shed Shell"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Air Slash"
+  }, {
+    "level" : 1,
+    "move" : "Bleakwind Storm"
+  }, {
+    "level" : 10,
+    "move" : "Gust"
+  }, {
+    "level" : 12,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 13,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 15,
+    "move" : "Signal Beam"
+  }, {
+    "level" : 17,
+    "move" : "Morning Sun"
+  }, {
+    "level" : 20,
+    "move" : "Air Cutter"
+  }, {
+    "level" : 22,
+    "move" : "U Turn"
+  }, {
+    "level" : 25,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 27,
+    "move" : "Attract"
+  }, {
+    "level" : 30,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 32,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 35,
+    "move" : "Psychic"
+  }, {
+    "level" : 37,
+    "move" : "Rage"
+  }, {
+    "level" : 40,
+    "move" : "Quiver Dance"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Defog", "Double Edge", "Double Team", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Hyper Beam", "Iron Defense", "Leech Life", "Protect", "Psychic", "Rest", "Roost", "Safeguard", "Shadow Ball", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn", "Venoshock" ],
+  "encounters" : [ ]
+}

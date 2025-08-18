@@ -1,0 +1,168 @@
+{
+  "dex" : 65,
+  "speciesId" : "SPECIES_EXILED_ALAKAZAM",
+  "name" : "Alakazam",
+  "types" : [ "Psychic", "Ice" ],
+  "abilities" : [ "Ice Body", "Snow Warning", "Magic Guard" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 50,
+  "baseExp" : 186,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 48.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Psi",
+  "friendship" : 70,
+  "description" : "While it has strong psychic abilities and\nhigh intelligence, an Alakazam's muscles\nare very weak. It uses psychic power to\nmove its body.",
+  "preEvolutionId" : "SPECIES_EXILED_KADABRA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 69,
+    "atk" : 50,
+    "def" : 46,
+    "spe" : 141,
+    "spa" : 155,
+    "spd" : 58
+  },
+  "heldItems" : {
+    "common" : "Twisted Spoon"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Freeze Dry"
+  }, {
+    "level" : 0,
+    "move" : "Psychic"
+  }, {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Freeze Dry"
+  }, {
+    "level" : 1,
+    "move" : "Hidden Power"
+  }, {
+    "level" : 1,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 1,
+    "move" : "Psychic"
+  }, {
+    "level" : 1,
+    "move" : "Teleport"
+  }, {
+    "level" : 18,
+    "move" : "Aurora Veil"
+  }, {
+    "level" : 21,
+    "move" : "Frost Breath"
+  }, {
+    "level" : 23,
+    "move" : "Gravity"
+  }, {
+    "level" : 26,
+    "move" : "Light Screen"
+  }, {
+    "level" : 30,
+    "move" : "Psyshock"
+  }, {
+    "level" : 33,
+    "move" : "Recover"
+  }, {
+    "level" : 41,
+    "move" : "Ice Beam"
+  }, {
+    "level" : 43,
+    "move" : "Role Play"
+  }, {
+    "level" : 45,
+    "move" : "Future Sight"
+  }, {
+    "level" : 48,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 52,
+    "move" : "Freezing Glare"
+  }, {
+    "level" : 57,
+    "move" : "Mist Ball"
+  }, {
+    "level" : 59,
+    "move" : "Blizzard"
+  }, {
+    "level" : 62,
+    "move" : "Moonblast"
+  }, {
+    "level" : 65,
+    "move" : "Aura Sphere"
+  }, {
+    "level" : 89,
+    "move" : "Psystrike"
+  } ],
+  "eggMoves" : [ "Ally Switch", "Barrier", "Encore", "Fire Punch", "Guard Split", "Guard Swap", "Ice Punch", "Knock Off", "Power Trick", "Psychic Terrain", "Psycho Shift", "Skill Swap", "Thunder Punch" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Counter", "Dazzling Gleam", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Fire Punch", "Flash", "Grass Knot", "Ice Punch", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Punch", "Thunder Wave", "Torment", "Toxic", "Trick Room" ],
+  "encounters" : [ {
+    "area" : "Meteor Falls_B1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 10
+  }, {
+    "area" : "Meteor Falls_1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 10
+  }, {
+    "area" : "Meteor Falls_B1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 10
+  }, {
+    "area" : "Shoal Cave_Low Tide Stairs Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 11
+  }, {
+    "area" : "Shoal Cave_Low Tide Lower Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 11
+  }, {
+    "area" : "Shoal Cave_Low Tide Inner Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 11
+  }, {
+    "area" : "Shoal Cave_Low Tide Entrance Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 11
+  }, {
+    "area" : "Shoal Cave_Low Tide Ice Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 11
+  } ]
+}

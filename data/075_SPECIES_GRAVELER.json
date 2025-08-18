@@ -1,0 +1,154 @@
+{
+  "dex" : 75,
+  "speciesId" : "SPECIES_GRAVELER",
+  "name" : "Graveler",
+  "types" : [ "Rock", "Ground" ],
+  "abilities" : [ "Rock Head", "Sturdy", "Sand Veil" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.0,
+  "weightKg" : 105.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Rock",
+  "friendship" : 70,
+  "description" : "They descend from mountains by tumbling\ndown steep slopes. They are so brutal,\nthey smash aside obstructing trees and\nmassive boulders with thunderous tackles.",
+  "preEvolutionId" : "SPECIES_GEODUDE",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GOLEM",
+    "method" : "trade",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_GOLEM",
+    "method" : "item",
+    "param" : "ITEM_LINKING_CORD"
+  } ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 95,
+    "def" : 115,
+    "spe" : 35,
+    "spa" : 45,
+    "spd" : 45
+  },
+  "heldItems" : {
+    "common" : "Everstone"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Rock Polish"
+  }, {
+    "level" : 1,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 6,
+    "move" : "Rock Polish"
+  }, {
+    "level" : 10,
+    "move" : "Rollout"
+  }, {
+    "level" : 12,
+    "move" : "Magnitude"
+  }, {
+    "level" : 16,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 18,
+    "move" : "Smack Down"
+  }, {
+    "level" : 22,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 24,
+    "move" : "Self Destruct"
+  }, {
+    "level" : 30,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 34,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 40,
+    "move" : "Earthquake"
+  }, {
+    "level" : 44,
+    "move" : "Explosion"
+  }, {
+    "level" : 50,
+    "move" : "Double Edge"
+  }, {
+    "level" : 54,
+    "move" : "Stone Edge"
+  } ],
+  "eggMoves" : [ "Autotomize", "Block", "Curse", "Endure", "Flail", "Focus Punch", "Hammer Arm", "Mega Punch", "Rock Climb", "Wide Guard" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Gyro Ball", "High Horsepower", "Iron Defense", "Iron Head", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Thunder Punch", "Toxic" ],
+  "encounters" : [ {
+    "area" : "Jagged Pass",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 31,
+    "max" : 35,
+    "slot" : 1
+  }, {
+    "area" : "Victory Road_B1F",
+    "bucket" : "Rock Smash",
+    "rateBase" : 20,
+    "min" : 30,
+    "max" : 40,
+    "slot" : 0
+  }, {
+    "area" : "Victory Road_B1F",
+    "bucket" : "Rock Smash",
+    "rateBase" : 20,
+    "min" : 35,
+    "max" : 40,
+    "slot" : 2
+  }, {
+    "area" : "Victory Road_B1F",
+    "bucket" : "Rock Smash",
+    "rateBase" : 20,
+    "min" : 35,
+    "max" : 40,
+    "slot" : 3
+  }, {
+    "area" : "Victory Road_B1F",
+    "bucket" : "Rock Smash",
+    "rateBase" : 20,
+    "min" : 35,
+    "max" : 40,
+    "slot" : 4
+  }, {
+    "area" : "Meteor Falls_1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 0
+  }, {
+    "area" : "Fallarbor Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 29,
+    "max" : 33,
+    "slot" : 7
+  } ]
+}

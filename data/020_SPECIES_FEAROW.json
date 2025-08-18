@@ -1,0 +1,141 @@
+{
+  "dex" : 20,
+  "speciesId" : "SPECIES_FEAROW",
+  "name" : "Fearow",
+  "types" : [ "Flying", null ],
+  "abilities" : [ "Aerilate", "None", "No Guard" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 0,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.2,
+  "weightKg" : 38.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Beak",
+  "friendship" : 70,
+  "description" : "Its long neck and elongated beak are\nideal for catching prey in soil or water.\nIt deftly moves this extended and skinny\nbeak to pluck prey.",
+  "preEvolutionId" : "SPECIES_SPEAROW",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 67,
+    "atk" : 105,
+    "def" : 60,
+    "spe" : 110,
+    "spa" : 50,
+    "spd" : 50
+  },
+  "heldItems" : {
+    "common" : "Sharp Beak"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Double Hit"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Double Hit"
+  }, {
+    "level" : 1,
+    "move" : "Drill Run"
+  }, {
+    "level" : 1,
+    "move" : "Feather Dance"
+  }, {
+    "level" : 1,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Pluck"
+  }, {
+    "level" : 1,
+    "move" : "Pursuit"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 1,
+    "move" : "Razor Wind"
+  }, {
+    "level" : 1,
+    "move" : "Scary Face"
+  }, {
+    "level" : 1,
+    "move" : "Sky Attack"
+  }, {
+    "level" : 1,
+    "move" : "Steel Wing"
+  }, {
+    "level" : 1,
+    "move" : "Tri Attack"
+  }, {
+    "level" : 1,
+    "move" : "Uproar"
+  }, {
+    "level" : 1,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 4,
+    "move" : "Leer"
+  }, {
+    "level" : 8,
+    "move" : "Pursuit"
+  }, {
+    "level" : 15,
+    "move" : "Aerial Ace"
+  }, {
+    "level" : 18,
+    "move" : "Floaty Fall"
+  }, {
+    "level" : 23,
+    "move" : "Assurance"
+  }, {
+    "level" : 27,
+    "move" : "Agility"
+  }, {
+    "level" : 32,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 36,
+    "move" : "Roost"
+  }, {
+    "level" : 41,
+    "move" : "Drill Peck"
+  }, {
+    "level" : 45,
+    "move" : "Drill Run"
+  }, {
+    "level" : 48,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 53,
+    "move" : "Extreme Speed"
+  } ],
+  "eggMoves" : [ "Astonish", "Feather Dance", "Feint Attack", "Quick Attack", "Razor Wind", "Scary Face", "Sky Attack", "Steel Wing", "Tri Attack", "Uproar", "Whirlwind" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Defog", "Double Edge", "Double Team", "Endure", "Facade", "False Swipe", "Fly", "Giga Impact", "Hyper Beam", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic", "U Turn" ],
+  "encounters" : [ {
+    "area" : "Route 114",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 30,
+    "max" : 33,
+    "slot" : 1
+  }, {
+    "area" : "Fortree City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 50,
+    "max" : 53,
+    "slot" : 3
+  } ]
+}

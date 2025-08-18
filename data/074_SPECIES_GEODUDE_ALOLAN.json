@@ -1,0 +1,92 @@
+{
+  "dex" : 74,
+  "speciesId" : "SPECIES_GEODUDE_ALOLAN",
+  "name" : "Geodude",
+  "types" : [ "Rock", "Electric" ],
+  "abilities" : [ "Magnet Pull", "Sturdy", "Galvanize" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.4,
+  "weightKg" : 20.3,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Rock",
+  "friendship" : 70,
+  "description" : "Its body is a magnetic stone. Iron sand\nattach to parts of its body with stronger\nmagnetism. If you carelessly step on one,\nit will headbutt and shock you in anger.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GRAVELER_ALOLAN",
+    "method" : "level",
+    "param" : "25"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 80,
+    "def" : 100,
+    "spe" : 20,
+    "spa" : 30,
+    "spd" : 30
+  },
+  "heldItems" : {
+    "common" : "Cell Battery"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Charge"
+  }, {
+    "level" : 6,
+    "move" : "Rock Polish"
+  }, {
+    "level" : 10,
+    "move" : "Rollout"
+  }, {
+    "level" : 12,
+    "move" : "Spark"
+  }, {
+    "level" : 16,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 18,
+    "move" : "Smack Down"
+  }, {
+    "level" : 22,
+    "move" : "Thunder Punch"
+  }, {
+    "level" : 24,
+    "move" : "Self Destruct"
+  }, {
+    "level" : 28,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 30,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 34,
+    "move" : "Discharge"
+  }, {
+    "level" : 36,
+    "move" : "Explosion"
+  }, {
+    "level" : 40,
+    "move" : "Double Edge"
+  }, {
+    "level" : 42,
+    "move" : "Stone Edge"
+  } ],
+  "eggMoves" : [ "Autotomize", "Block", "Counter", "Curse", "Endure", "Flail", "Magnet Rise", "Rock Climb", "Screech", "Wide Guard" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulldoze", "Charge Beam", "Counter", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Electroweb", "Endure", "Explosion", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Gyro Ball", "High Horsepower", "Iron Defense", "Mud Slap", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Swagger", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ ]
+}

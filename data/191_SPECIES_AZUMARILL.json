@@ -1,0 +1,107 @@
+{
+  "dex" : 191,
+  "speciesId" : "SPECIES_AZUMARILL",
+  "name" : "Azumarill",
+  "types" : [ "Water", "Fairy" ],
+  "abilities" : [ "Thick Fat", "Huge Power", "Sap Sipper" ],
+  "evYield" : {
+    "hp" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 153,
+  "eggGroups" : [ "Water 1", "Fairy" ],
+  "hatchSteps" : 2560,
+  "heightM" : 0.8,
+  "weightKg" : 28.5,
+  "growthRate" : "Fast",
+  "color" : "Blue",
+  "category" : "Aqua Rabbit",
+  "friendship" : 70,
+  "description" : "It lives in water virtually all day long.\nIts body color and pattern act as\ncamouflage that makes it tough for\nenemies to spot in water.",
+  "preEvolutionId" : "SPECIES_MARILL",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 80,
+    "def" : 80,
+    "spe" : 50,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Ice Punch"
+  }, {
+    "level" : 1,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 1,
+    "move" : "Ice Punch"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 2,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 5,
+    "move" : "Water Sport"
+  }, {
+    "level" : 7,
+    "move" : "Bubble"
+  }, {
+    "level" : 10,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 10,
+    "move" : "Rollout"
+  }, {
+    "level" : 13,
+    "move" : "Covet"
+  }, {
+    "level" : 15,
+    "move" : "Body Slam"
+  }, {
+    "level" : 16,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 21,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 25,
+    "move" : "Play Rough"
+  }, {
+    "level" : 31,
+    "move" : "Aqua Ring"
+  }, {
+    "level" : 35,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 42,
+    "move" : "Double Edge"
+  }, {
+    "level" : 46,
+    "move" : "Superpower"
+  }, {
+    "level" : 55,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 60,
+    "move" : "Jet Punch"
+  } ],
+  "eggMoves" : [ "Body Slam", "Camouflage", "Copycat", "Encore", "Fake Tears", "Muddy Water", "Refresh", "Sing", "Slam", "Soak", "Tickle", "Water Sport" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Covet", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Dynamic Punch", "Endure", "Facade", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Play Rough", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Smash", "Rollout", "Scald", "Seismic Toss", "Sleep Talk", "Snore", "Snowscape", "Strength", "Surf", "Swagger", "Swift", "Toxic", "Trailblaze", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "area" : "Petalburg City",
+    "bucket" : "Water",
+    "rateBase" : 1,
+    "min" : 40,
+    "max" : 45,
+    "slot" : 1
+  } ]
+}

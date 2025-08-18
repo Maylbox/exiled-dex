@@ -1,0 +1,92 @@
+{
+  "dex" : 193,
+  "speciesId" : "SPECIES_AMBIPOM",
+  "name" : "Ambipom",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Technician", "Pickup", "Skill Link" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.2,
+  "weightKg" : 20.3,
+  "growthRate" : "Fast",
+  "color" : "Purple",
+  "category" : "Long Tail",
+  "friendship" : 100,
+  "description" : "They live on large trees. Split into two,\nthe tails are so adept at handling and\ndoing things, Ambipom rarely uses\nits hands now.",
+  "preEvolutionId" : "SPECIES_AIPOM",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 115,
+    "def" : 66,
+    "spe" : 115,
+    "spa" : 60,
+    "spd" : 66
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Dual Chop"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 1,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 4,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 8,
+    "move" : "Astonish"
+  }, {
+    "level" : 11,
+    "move" : "Baton Pass"
+  }, {
+    "level" : 13,
+    "move" : "Fake Out"
+  }, {
+    "level" : 15,
+    "move" : "Tickle"
+  }, {
+    "level" : 18,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 22,
+    "move" : "Slam"
+  }, {
+    "level" : 25,
+    "move" : "Screech"
+  }, {
+    "level" : 27,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 29,
+    "move" : "Agility"
+  }, {
+    "level" : 32,
+    "move" : "Double Hit"
+  }, {
+    "level" : 36,
+    "move" : "Fling"
+  }, {
+    "level" : 39,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 43,
+    "move" : "Last Resort"
+  }, {
+    "level" : 54,
+    "move" : "Arm Thrust"
+  } ],
+  "eggMoves" : [ "Agility", "Beat Up", "Bounce", "Counter", "Covet", "Double Slap", "Fake Out", "Pursuit", "Quick Guard", "Revenge", "Screech", "Slam", "Spite", "Switcheroo", "Tail Slap" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Brick Break", "Counter", "Covet", "Cut", "Dig", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Fire Punch", "Fury Cutter", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Ice Punch", "Knock Off", "Low Kick", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Smash", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Smack Down", "Snatch", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Triple Axel", "U Turn", "Water Pulse" ],
+  "encounters" : [ ]
+}

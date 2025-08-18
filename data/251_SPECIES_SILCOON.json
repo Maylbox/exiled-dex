@@ -1,0 +1,48 @@
+{
+  "dex" : 251,
+  "speciesId" : "SPECIES_SILCOON",
+  "name" : "Silcoon",
+  "types" : [ "Bug", null ],
+  "abilities" : [ "Shed Skin", "None", "None" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.6,
+  "weightKg" : 10.0,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Cocoon",
+  "friendship" : 70,
+  "description" : "It prepares for evolution using the\nenergy it stored while it was a Wurmple.\nIt keeps watch over the surroundings with\nits two eyes.",
+  "preEvolutionId" : "SPECIES_WURMPLE",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BEAUTIFLY",
+    "method" : "level",
+    "param" : "10"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 35,
+    "def" : 55,
+    "spe" : 15,
+    "spa" : 25,
+    "spd" : 25
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Electroweb", "Iron Defense" ],
+  "encounters" : [ ]
+}

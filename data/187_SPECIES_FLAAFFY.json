@@ -1,0 +1,97 @@
+{
+  "dex" : 187,
+  "speciesId" : "SPECIES_FLAAFFY",
+  "name" : "Flaaffy",
+  "types" : [ "Electric", null ],
+  "abilities" : [ "Static", "Fluffy", "Plus" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 13.3,
+  "growthRate" : "Medium Slow",
+  "color" : "Pink",
+  "category" : "Wool",
+  "friendship" : 70,
+  "description" : "Its fleece quality changes to generate\nstrong static electricity with a small\namount of wool. The bare, slick parts of its\nhide are shielded against electricity.",
+  "preEvolutionId" : "SPECIES_MAREEP",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_AMPHAROS",
+    "method" : "level",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 55,
+    "def" : 55,
+    "spe" : 45,
+    "spa" : 80,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Power Gem"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Parabolic Charge"
+  }, {
+    "level" : 9,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 11,
+    "move" : "Cotton Spore"
+  }, {
+    "level" : 16,
+    "move" : "Flash"
+  }, {
+    "level" : 20,
+    "move" : "Take Down"
+  }, {
+    "level" : 25,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 29,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 34,
+    "move" : "Power Gem"
+  }, {
+    "level" : 38,
+    "move" : "Discharge"
+  }, {
+    "level" : 43,
+    "move" : "Cotton Guard"
+  }, {
+    "level" : 47,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 52,
+    "move" : "Light Screen"
+  }, {
+    "level" : 56,
+    "move" : "Thunder"
+  } ],
+  "eggMoves" : [ "After You", "Agility", "Body Slam", "Charge", "Eerie Impulse", "Electric Terrain", "Flatter", "Iron Tail", "Odor Sleuth", "Sand Attack", "Screech", "Take Down" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Charge Beam", "Counter", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Fire Punch", "Flash", "Ice Punch", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Power Up Punch", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Smash", "Safeguard", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ {
+    "area" : "Mauville City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 22,
+    "max" : 24,
+    "slot" : 4
+  } ]
+}

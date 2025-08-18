@@ -1,0 +1,181 @@
+{
+  "dex" : 53,
+  "speciesId" : "SPECIES_PARASECT",
+  "name" : "Parasect",
+  "types" : [ "Ghost", "Grass" ],
+  "abilities" : [ "Effect Spore", "Dry Skin", "Adaptability" ],
+  "evYield" : {
+    "def" : 1,
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug", "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 29.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Mushroom",
+  "friendship" : 70,
+  "description" : "Parasect are known to infest the roots of\nlarge trees en masse and drain nutrients.\nWhen an infested tree dies, they move\nonto another tree all at once.",
+  "preEvolutionId" : "SPECIES_PARAS",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 95,
+    "def" : 90,
+    "spe" : 30,
+    "spa" : 80,
+    "spd" : 90
+  },
+  "heldItems" : {
+    "common" : "Tiny Mushroom",
+    "rare" : "Big Mushroom"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Agility"
+  }, {
+    "level" : 1,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 1,
+    "move" : "Counter"
+  }, {
+    "level" : 1,
+    "move" : "Cross Poison"
+  }, {
+    "level" : 1,
+    "move" : "Endure"
+  }, {
+    "level" : 1,
+    "move" : "Fell Stinger"
+  }, {
+    "level" : 1,
+    "move" : "Flail"
+  }, {
+    "level" : 1,
+    "move" : "Grassy Terrain"
+  }, {
+    "level" : 1,
+    "move" : "Leafage"
+  }, {
+    "level" : 1,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 1,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 1,
+    "move" : "Natural Gift"
+  }, {
+    "level" : 1,
+    "move" : "Poisonpowder"
+  }, {
+    "level" : 1,
+    "move" : "Psybeam"
+  }, {
+    "level" : 1,
+    "move" : "Pursuit"
+  }, {
+    "level" : 1,
+    "move" : "Rototiller"
+  }, {
+    "level" : 1,
+    "move" : "Screech"
+  }, {
+    "level" : 1,
+    "move" : "Strength Sap"
+  }, {
+    "level" : 1,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 1,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 1,
+    "move" : "Wide Guard"
+  }, {
+    "level" : 6,
+    "move" : "Poisonpowder"
+  }, {
+    "level" : 6,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 11,
+    "move" : "Leafage"
+  }, {
+    "level" : 14,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 17,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 22,
+    "move" : "Spore"
+  }, {
+    "level" : 27,
+    "move" : "Leech Life"
+  }, {
+    "level" : 29,
+    "move" : "Shadow Claw"
+  }, {
+    "level" : 37,
+    "move" : "Growth"
+  }, {
+    "level" : 44,
+    "move" : "Leaf Blade"
+  }, {
+    "level" : 47,
+    "move" : "Crabhammer"
+  }, {
+    "level" : 51,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 59,
+    "move" : "Rage Powder"
+  }, {
+    "level" : 62,
+    "move" : "Poltergeist"
+  }, {
+    "level" : 66,
+    "move" : "X Scissor"
+  }, {
+    "level" : 72,
+    "move" : "Sappy Seed"
+  } ],
+  "eggMoves" : [ "Agility", "Bug Bite", "Counter", "Cross Poison", "Endure", "Fell Stinger", "Flail", "Grassy Terrain", "Leech Seed", "Metal Claw", "Natural Gift", "Psybeam", "Pursuit", "Rototiller", "Screech", "Sweet Scent", "Wide Guard" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bullet Seed", "Counter", "Cut", "Dig", "Double Edge", "Double Team", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Knock Off", "Leech Life", "Light Screen", "Protect", "Reflect", "Rest", "Rock Smash", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic", "Venoshock", "X Scissor" ],
+  "encounters" : [ {
+    "area" : "Mt Pyre_Exterior",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 2
+  }, {
+    "area" : "Mt Pyre_Exterior",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 3
+  }, {
+    "area" : "Mt Pyre_Summit",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 2
+  }, {
+    "area" : "Mt Pyre_Summit",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 3
+  } ]
+}

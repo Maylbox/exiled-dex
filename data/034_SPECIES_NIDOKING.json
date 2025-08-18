@@ -1,0 +1,117 @@
+{
+  "dex" : 34,
+  "speciesId" : "SPECIES_NIDOKING",
+  "name" : "Nidoking",
+  "types" : [ "Poison", "Ground" ],
+  "abilities" : [ "Poison Point", "Guts", "Sheer Force" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 45,
+  "baseExp" : 195,
+  "eggGroups" : [ "Monster", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.4,
+  "weightKg" : 62.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Purple",
+  "category" : "Drill",
+  "friendship" : 70,
+  "description" : "A Nidoking's thick tail packs enormously\ndestructive power capable of toppling\na metal transmission tower. Once it goes\non a rampage, there is no stopping it.",
+  "preEvolutionId" : "SPECIES_NIDORINO",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 81,
+    "atk" : 92,
+    "def" : 77,
+    "spe" : 88,
+    "spa" : 92,
+    "spd" : 75
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Amnesia"
+  }, {
+    "level" : 1,
+    "move" : "Beat Up"
+  }, {
+    "level" : 1,
+    "move" : "Chip Away"
+  }, {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Counter"
+  }, {
+    "level" : 1,
+    "move" : "Disable"
+  }, {
+    "level" : 1,
+    "move" : "Double Kick"
+  }, {
+    "level" : 1,
+    "move" : "Endure"
+  }, {
+    "level" : 1,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 1,
+    "move" : "Head Smash"
+  }, {
+    "level" : 1,
+    "move" : "Iron Tail"
+  }, {
+    "level" : 1,
+    "move" : "Megahorn"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 1,
+    "move" : "Poison Tail"
+  }, {
+    "level" : 1,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 1,
+    "move" : "Take Down"
+  }, {
+    "level" : 1,
+    "move" : "Venom Drench"
+  }, {
+    "level" : 23,
+    "move" : "Chip Away"
+  }, {
+    "level" : 35,
+    "move" : "Thrash"
+  }, {
+    "level" : 43,
+    "move" : "Earth Power"
+  }, {
+    "level" : 58,
+    "move" : "Megahorn"
+  }, {
+    "level" : 64,
+    "move" : "No Retreat"
+  } ],
+  "eggMoves" : [ "Amnesia", "Beat Up", "Chip Away", "Confusion", "Counter", "Disable", "Endure", "Head Smash", "Iron Tail", "Poison Tail", "Sucker Punch", "Supersonic", "Take Down", "Venom Drench" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Giga Impact", "Hex", "High Horsepower", "Hone Claws", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Mega Kick", "Mega Punch", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Smack Down", "Smart Strike", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Torment", "Toxic", "Venoshock", "Water Pulse" ],
+  "encounters" : [ {
+    "area" : "Jagged Pass",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 31,
+    "max" : 35,
+    "slot" : 7
+  } ]
+}

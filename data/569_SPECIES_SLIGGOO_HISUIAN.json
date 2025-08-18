@@ -1,0 +1,90 @@
+{
+  "dex" : 569,
+  "speciesId" : "SPECIES_SLIGGOO_HISUIAN",
+  "name" : "Sliggoo",
+  "types" : [ "Dragon", "Steel" ],
+  "abilities" : [ "Sap Sipper", "Shell Armor", "Gooey" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 158,
+  "eggGroups" : [ "Dragon" ],
+  "hatchSteps" : 10240,
+  "heightM" : 0.7,
+  "weightKg" : 68.5,
+  "growthRate" : "Slow",
+  "color" : "Purple",
+  "category" : "Snail",
+  "friendship" : 35,
+  "description" : "A creature given to melancholy.\nIts metallic shell developed as a\nresult of the mucus on its skin reacting\nwith the iron in Hisui's water.",
+  "preEvolutionId" : "SPECIES_GOOMY",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GOODRA_HISUIAN",
+    "method" : "level",
+    "param" : "50"
+  }, {
+    "toSpeciesId" : "SPECIES_GOODRA_HISUIAN",
+    "method" : "level",
+    "param" : "50"
+  } ],
+  "baseStats" : {
+    "hp" : 58,
+    "atk" : 75,
+    "def" : 83,
+    "spe" : 40,
+    "spa" : 83,
+    "spd" : 113
+  },
+  "heldItems" : {
+    "common" : "Shed Shell"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Shelter"
+  }, {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Acid Armor"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 15,
+    "move" : "Protect"
+  }, {
+    "level" : 20,
+    "move" : "Flail"
+  }, {
+    "level" : 25,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 30,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 35,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 43,
+    "move" : "Curse"
+  }, {
+    "level" : 49,
+    "move" : "Iron Head"
+  }, {
+    "level" : 56,
+    "move" : "Muddy Water"
+  } ],
+  "eggMoves" : [ "Acid Armor", "Counter", "Curse", "Endure", "Iron Tail", "Poison Tail" ],
+  "teachableMoves" : [ "Blizzard", "Body Slam", "Counter", "Draco Meteor", "Dragon Pulse", "Endure", "Facade", "Flash Cannon", "Gyro Ball", "Ice Beam", "Iron Head", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Sunny Day", "Thunder", "Thunderbolt", "Water Pulse" ],
+  "encounters" : [ ]
+}

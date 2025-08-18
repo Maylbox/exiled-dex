@@ -1,0 +1,98 @@
+{
+  "dex" : 110,
+  "speciesId" : "SPECIES_BLISSEY",
+  "name" : "Blissey",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Natural Cure", "Serene Grace", "Healer" ],
+  "evYield" : { },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 30,
+  "baseExp" : 0,
+  "eggGroups" : [ "Fairy" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.5,
+  "weightKg" : 46.8,
+  "growthRate" : "Fast",
+  "color" : "Pink",
+  "category" : "Happiness",
+  "friendship" : 140,
+  "description" : "If it senses sadness with its fluffy fur,\na Blissey will rush over to the sad person,\nhowever far away, to share an egg of\nhappiness that brings a smile to any face.",
+  "preEvolutionId" : "SPECIES_CHANSEY",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 255,
+    "atk" : 10,
+    "def" : 10,
+    "spe" : 55,
+    "spa" : 75,
+    "spd" : 135
+  },
+  "heldItems" : {
+    "common" : "Lucky Egg"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Charm"
+  }, {
+    "level" : 1,
+    "move" : "Copycat"
+  }, {
+    "level" : 1,
+    "move" : "Covet"
+  }, {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Sweet Kiss"
+  }, {
+    "level" : 4,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 8,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 12,
+    "move" : "Life Dew"
+  }, {
+    "level" : 16,
+    "move" : "Sing"
+  }, {
+    "level" : 20,
+    "move" : "Fling"
+  }, {
+    "level" : 24,
+    "move" : "Take Down"
+  }, {
+    "level" : 28,
+    "move" : "Heal Pulse"
+  }, {
+    "level" : 32,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 36,
+    "move" : "Light Screen"
+  }, {
+    "level" : 40,
+    "move" : "Double Edge"
+  }, {
+    "level" : 44,
+    "move" : "Soft Boiled"
+  }, {
+    "level" : 48,
+    "move" : "Last Resort"
+  }, {
+    "level" : 52,
+    "move" : "Healing Wish"
+  } ],
+  "eggMoves" : [ "Aromatherapy", "Counter", "Endure", "Gravity", "Heal Bell", "Helping Hand", "Last Resort", "Metronome", "Mud Bomb", "Natural Gift", "Present" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Calm Mind", "Charge Beam", "Counter", "Covet", "Dazzling Gleam", "Defense Curl", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Flash", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Safeguard", "Sandstorm", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Snowscape", "Soft Boiled", "Solar Beam", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Water Pulse", "Wild Charge" ],
+  "encounters" : [ ]
+}

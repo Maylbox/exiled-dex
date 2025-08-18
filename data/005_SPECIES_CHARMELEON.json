@@ -1,0 +1,222 @@
+{
+  "dex" : 5,
+  "speciesId" : "SPECIES_CHARMELEON",
+  "name" : "Charmeleon",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Blaze", "Solar Power", "Flame Body" ],
+  "evYield" : {
+    "spa" : 1,
+    "spe" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 142,
+  "eggGroups" : [ "Monster", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.1,
+  "weightKg" : 19.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Flame",
+  "friendship" : 70,
+  "description" : "Without pity, its sharp claws destroy foes.\nIf it encounters a strong enemy, it\nbecomes agitated, and the flame on its\ntail flares with a bluish white color.",
+  "preEvolutionId" : "SPECIES_CHARMANDER",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CHARIZARD",
+    "method" : "level",
+    "param" : "36"
+  } ],
+  "baseStats" : {
+    "hp" : 58,
+    "atk" : 64,
+    "def" : 58,
+    "spe" : 80,
+    "spa" : 80,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Incinerate"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 7,
+    "move" : "Ember"
+  }, {
+    "level" : 9,
+    "move" : "Brick Break"
+  }, {
+    "level" : 12,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 15,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 24,
+    "move" : "Thunderpunch"
+  }, {
+    "level" : 32,
+    "move" : "Flame Burst"
+  }, {
+    "level" : 37,
+    "move" : "Slash"
+  }, {
+    "level" : 43,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 50,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 54,
+    "move" : "Inferno"
+  } ],
+  "eggMoves" : [ "Air Cutter", "Ancient Power", "Beat Up", "Belly Drum", "Bite", "Counter", "Crunch", "Dragon Dance", "Dragon Pulse", "Dragon Rush", "Flare Blitz", "Focus Punch", "Metal Claw", "Outrage" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Counter", "Crunch", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dynamic Punch", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Hone Claws", "Mega Kick", "Mega Punch", "Mud Slap", "Overheat", "Power Up Punch", "Protect", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thunder Punch", "Toxic", "Will O Wisp" ],
+  "encounters" : [ {
+    "area" : "Route 112",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 28,
+    "max" : 32,
+    "slot" : 8
+  }, {
+    "area" : "Fiery Path",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 28,
+    "max" : 32,
+    "slot" : 11
+  }, {
+    "area" : "Lavaridge Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 4
+  }, {
+    "area" : "Battle Pyramid_2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 9
+  }, {
+    "area" : "Battle Pyramid_2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 10
+  }, {
+    "area" : "Battle Pyramid_3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 6
+  }, {
+    "area" : "Battle Pyramid_3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 7
+  }, {
+    "area" : "Battle Pyramid_3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 8
+  }, {
+    "area" : "Battle Pyramid_3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 10
+  }, {
+    "area" : "Battle Pyramid_4",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 4
+  }, {
+    "area" : "Battle Pyramid_4",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 5
+  }, {
+    "area" : "Battle Pyramid_5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 0
+  }, {
+    "area" : "Battle Pyramid_5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 1
+  }, {
+    "area" : "Battle Pyramid_5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 2
+  }, {
+    "area" : "Battle Pyramid_5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 3
+  }, {
+    "area" : "Battle Pyramid_6",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 3
+  }, {
+    "area" : "Battle Pyramid_7",
+    "bucket" : "Land",
+    "rateBase" : 8,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 8
+  }, {
+    "area" : "Battle Pyramid_7",
+    "bucket" : "Land",
+    "rateBase" : 8,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 9
+  }, {
+    "area" : "Battle Pyramid_7",
+    "bucket" : "Land",
+    "rateBase" : 8,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 10
+  }, {
+    "area" : "Battle Pyramid_7",
+    "bucket" : "Land",
+    "rateBase" : 8,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 11
+  } ]
+}

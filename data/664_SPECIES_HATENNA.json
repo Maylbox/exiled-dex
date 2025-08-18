@@ -1,0 +1,89 @@
+{
+  "dex" : 664,
+  "speciesId" : "SPECIES_HATENNA",
+  "name" : "Hatenna",
+  "types" : [ "Psychic", null ],
+  "abilities" : [ "Healer", "Anticipation", "Magic Bounce" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 235,
+  "baseExp" : 53,
+  "eggGroups" : [ "Fairy" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.4,
+  "weightKg" : 3.4,
+  "growthRate" : "Slow",
+  "color" : "Pink",
+  "category" : "Calm",
+  "friendship" : 70,
+  "description" : "Via the protrusion on its head, it senses\nother creatures' emotions. If you don't\nhave a calm disposition, it will never\nwarm up to you.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_HATTREM",
+    "method" : "level",
+    "param" : "32"
+  } ],
+  "baseStats" : {
+    "hp" : 42,
+    "atk" : 30,
+    "def" : 45,
+    "spe" : 39,
+    "spa" : 56,
+    "spd" : 53
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Play Nice"
+  }, {
+    "level" : 5,
+    "move" : "Life Dew"
+  }, {
+    "level" : 10,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 15,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 20,
+    "move" : "Psybeam"
+  }, {
+    "level" : 25,
+    "move" : "Heal Pulse"
+  }, {
+    "level" : 30,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 34,
+    "move" : "Calm Mind"
+  }, {
+    "level" : 39,
+    "move" : "Psychic"
+  }, {
+    "level" : 40,
+    "move" : "Wish"
+  } ],
+  "eggMoves" : [ "After You", "Aromatic Mist", "Nuzzle", "Quash" ],
+  "teachableMoves" : [ "Attract", "Calm Mind", "Dark Pulse", "Dazzling Gleam", "Endure", "Facade", "Giga Drain", "Light Screen", "Metronome", "Mystical Fire", "Play Rough", "Protect", "Psych Up", "Psychic", "Psyshock", "Reflect", "Rest", "Safeguard", "Sleep Talk", "Snore", "Swift", "Thunder Wave", "Trick Room" ],
+  "encounters" : [ {
+    "area" : "Oldale Town0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 4,
+    "max" : 5,
+    "slot" : 7
+  }, {
+    "area" : "Oldale Town0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 4,
+    "max" : 5,
+    "slot" : 9
+  } ]
+}

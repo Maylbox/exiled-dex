@@ -1,0 +1,86 @@
+{
+  "dex" : 178,
+  "speciesId" : "SPECIES_LEDIAN",
+  "name" : "Ledian",
+  "types" : [ "Bug", "Flying" ],
+  "abilities" : [ "Swarm", "Early Bird", "Iron Fist" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.4,
+  "weightKg" : 35.6,
+  "growthRate" : "Fast",
+  "color" : "Red",
+  "category" : "Five Star",
+  "friendship" : 70,
+  "description" : "It is said that in lands with clean air,\nwhere the stars fill the sky, there live\nmany Ledian. For good reason, they use\nthe light of the stars as energy.",
+  "preEvolutionId" : "SPECIES_LEDYBA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 35,
+    "def" : 50,
+    "spe" : 85,
+    "spa" : 55,
+    "spd" : 110
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 1,
+    "move" : "Swift"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Supersonic"
+  }, {
+    "level" : 8,
+    "move" : "Swift"
+  }, {
+    "level" : 12,
+    "move" : "Light Screen"
+  }, {
+    "level" : 12,
+    "move" : "Reflect"
+  }, {
+    "level" : 12,
+    "move" : "Safeguard"
+  }, {
+    "level" : 15,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 20,
+    "move" : "Roost"
+  }, {
+    "level" : 24,
+    "move" : "Struggle Bug"
+  }, {
+    "level" : 29,
+    "move" : "Baton Pass"
+  }, {
+    "level" : 33,
+    "move" : "Agility"
+  }, {
+    "level" : 38,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 42,
+    "move" : "Air Slash"
+  }, {
+    "level" : 47,
+    "move" : "Double Edge"
+  } ],
+  "eggMoves" : [ "Bide", "Bug Bite", "Bug Buzz", "Counter", "Dizzy Punch", "Drain Punch", "Encore", "Endure", "Focus Punch", "Knock Off", "Psybeam", "Screech", "Silver Wind", "Tailwind" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brick Break", "Counter", "Defog", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Endure", "Facade", "Flash", "Focus Blast", "Giga Drain", "Giga Impact", "Hyper Beam", "Ice Punch", "Knock Off", "Light Screen", "Mega Punch", "Power Up Punch", "Protect", "Reflect", "Rest", "Rock Smash", "Rollout", "Roost", "Safeguard", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Thunder Punch", "Toxic", "U Turn" ],
+  "encounters" : [ ]
+}

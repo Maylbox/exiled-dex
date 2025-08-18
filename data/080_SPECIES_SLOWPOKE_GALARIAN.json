@@ -1,0 +1,97 @@
+{
+  "dex" : 80,
+  "speciesId" : "SPECIES_SLOWPOKE_GALARIAN",
+  "name" : "Slowpoke",
+  "types" : [ "Psychic", null ],
+  "abilities" : [ "Gluttony", "Own Tempo", "Regenerator" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.2,
+  "weightKg" : 36.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Pink",
+  "category" : "Dopey",
+  "friendship" : 70,
+  "description" : "Although it is normally zoned out, its\nexpression abruptly sharpens on occasion.\nThe cause seems to lie in Slowpoke's diet,\nwhich also give their tails a spicy flavor.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SLOWBRO_GALARIAN",
+    "method" : "item",
+    "param" : "ITEM_GALARICA_CUFF"
+  }, {
+    "toSpeciesId" : "SPECIES_SLOWKING_GALARIAN",
+    "method" : "item",
+    "param" : "ITEM_GALARICA_WREATH"
+  } ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 65,
+    "def" : 65,
+    "spe" : 15,
+    "spa" : 40,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Curse"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 3,
+    "move" : "Growl"
+  }, {
+    "level" : 6,
+    "move" : "Acid"
+  }, {
+    "level" : 9,
+    "move" : "Yawn"
+  }, {
+    "level" : 12,
+    "move" : "Confusion"
+  }, {
+    "level" : 15,
+    "move" : "Disable"
+  }, {
+    "level" : 18,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 21,
+    "move" : "Headbutt"
+  }, {
+    "level" : 24,
+    "move" : "Zen Headbutt"
+  }, {
+    "level" : 27,
+    "move" : "Amnesia"
+  }, {
+    "level" : 30,
+    "move" : "Surf"
+  }, {
+    "level" : 33,
+    "move" : "Slack Off"
+  }, {
+    "level" : 36,
+    "move" : "Psychic"
+  }, {
+    "level" : 39,
+    "move" : "Psych Up"
+  }, {
+    "level" : 42,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 45,
+    "move" : "Heal Pulse"
+  } ],
+  "eggMoves" : [ "Belch", "Belly Drum", "Block", "Stomp" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Calm Mind", "Dig", "Dive", "Earthquake", "Endure", "Facade", "Fire Blast", "Flamethrower", "Grass Knot", "Ice Beam", "Icy Wind", "Light Screen", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Rest", "Safeguard", "Scald", "Shadow Ball", "Sleep Talk", "Snore", "Snowscape", "Sunny Day", "Surf", "Swift", "Thunder Wave", "Trick Room", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

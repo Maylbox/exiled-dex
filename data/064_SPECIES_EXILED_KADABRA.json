@@ -1,0 +1,96 @@
+{
+  "dex" : 64,
+  "speciesId" : "SPECIES_EXILED_KADABRA",
+  "name" : "Kadabra",
+  "types" : [ "Psychic", "Ice" ],
+  "abilities" : [ "Ice Body", "Inner Focus", "Magic Guard" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 100,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.3,
+  "weightKg" : 56.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Psi",
+  "friendship" : 70,
+  "description" : "It is rumored that a boy with psychic\nabilities suddenly transformed into\nKadabra while he was assisting research\ninto extrasensory powers.",
+  "preEvolutionId" : "SPECIES_EXILED_ABRA",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_ALAKAZAM",
+    "method" : "trade",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_EXILED_ALAKAZAM",
+    "method" : "item",
+    "param" : "ITEM_LINKING_CORD"
+  } ],
+  "baseStats" : {
+    "hp" : 53,
+    "atk" : 39,
+    "def" : 35,
+    "spe" : 109,
+    "spa" : 119,
+    "spd" : 45
+  },
+  "heldItems" : {
+    "common" : "Twisted Spoon"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Confusion"
+  }, {
+    "level" : 0,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Hidden Power"
+  }, {
+    "level" : 1,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 1,
+    "move" : "Teleport"
+  }, {
+    "level" : 18,
+    "move" : "Aurora Veil"
+  }, {
+    "level" : 21,
+    "move" : "Frost Breath"
+  }, {
+    "level" : 23,
+    "move" : "Gravity"
+  }, {
+    "level" : 26,
+    "move" : "Light Screen"
+  }, {
+    "level" : 28,
+    "move" : "Psyshock"
+  }, {
+    "level" : 31,
+    "move" : "Recover"
+  }, {
+    "level" : 38,
+    "move" : "Ice Beam"
+  }, {
+    "level" : 41,
+    "move" : "Role Play"
+  }, {
+    "level" : 43,
+    "move" : "Future Sight"
+  }, {
+    "level" : 59,
+    "move" : "Blizzard"
+  } ],
+  "eggMoves" : [ "Ally Switch", "Barrier", "Encore", "Fire Punch", "Guard Split", "Guard Swap", "Ice Punch", "Knock Off", "Power Trick", "Psychic Terrain", "Psycho Shift", "Skill Swap", "Thunder Punch" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Counter", "Dazzling Gleam", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Fire Punch", "Flash", "Grass Knot", "Ice Punch", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Punch", "Thunder Wave", "Torment", "Toxic", "Trick Room" ],
+  "encounters" : [ ]
+}

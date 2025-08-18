@@ -1,0 +1,106 @@
+{
+  "dex" : 446,
+  "speciesId" : "SPECIES_VENIPEDE",
+  "name" : "Venipede",
+  "types" : [ "Bug", "Poison" ],
+  "abilities" : [ "Poison Point", "Swarm", "Speed Boost" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 52,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.4,
+  "weightKg" : 5.3,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Centipede",
+  "friendship" : 70,
+  "description" : "Using the feelers on its head and tail,\nit picks up vibrations in the air to\ndetermine its prey's location and state.\nIt is brutally aggressive.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_WHIRLIPEDE",
+    "method" : "level",
+    "param" : "22"
+  } ],
+  "baseStats" : {
+    "hp" : 30,
+    "atk" : 45,
+    "def" : 59,
+    "spe" : 57,
+    "spa" : 30,
+    "spd" : 39
+  },
+  "heldItems" : {
+    "common" : "Poison Barb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Pounce"
+  }, {
+    "level" : 1,
+    "move" : "Rollout"
+  }, {
+    "level" : 5,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 8,
+    "move" : "Screech"
+  }, {
+    "level" : 12,
+    "move" : "Pursuit"
+  }, {
+    "level" : 15,
+    "move" : "Protect"
+  }, {
+    "level" : 19,
+    "move" : "Poison Tail"
+  }, {
+    "level" : 22,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 26,
+    "move" : "Venoshock"
+  }, {
+    "level" : 29,
+    "move" : "Agility"
+  }, {
+    "level" : 33,
+    "move" : "Steamroller"
+  }, {
+    "level" : 36,
+    "move" : "Toxic"
+  }, {
+    "level" : 38,
+    "move" : "Venom Drench"
+  }, {
+    "level" : 40,
+    "move" : "Rock Climb"
+  }, {
+    "level" : 43,
+    "move" : "Double Edge"
+  } ],
+  "eggMoves" : [ "Pin Missile", "Rock Climb", "Spikes", "Take Down", "Toxic Spikes", "Twineedle" ],
+  "teachableMoves" : [ "Attract", "Defense Curl", "Double Edge", "Double Team", "Endure", "Facade", "Fury Cutter", "Gyro Ball", "Hex", "Iron Defense", "Poison Jab", "Protect", "Rest", "Rock Smash", "Rollout", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Toxic", "Venoshock" ],
+  "encounters" : [ {
+    "area" : "Oldale Town0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 4,
+    "max" : 5,
+    "slot" : 8
+  }, {
+    "area" : "Oldale Town0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 8,
+    "slot" : 10
+  } ]
+}

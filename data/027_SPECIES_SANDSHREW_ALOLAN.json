@@ -1,0 +1,95 @@
+{
+  "dex" : 27,
+  "speciesId" : "SPECIES_SANDSHREW_ALOLAN",
+  "name" : "Sandshrew",
+  "types" : [ "Ice", "Steel" ],
+  "abilities" : [ "Snow Cloak", "None", "Slush Rush" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.7,
+  "weightKg" : 40.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Mouse",
+  "friendship" : 70,
+  "description" : "Life on mountains covered with deep snow\nhas granted this Pokémon a body of ice\nthat's as hard as steel.\nPredators go after its soft belly.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SANDSLASH_ALOLAN",
+    "method" : "item",
+    "param" : "ITEM_ICE_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 75,
+    "def" : 90,
+    "spe" : 40,
+    "spa" : 10,
+    "spd" : 35
+  },
+  "heldItems" : {
+    "common" : "Grip Claw"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 3,
+    "move" : "Mist"
+  }, {
+    "level" : 6,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 9,
+    "move" : "Rollout"
+  }, {
+    "level" : 12,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 15,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 18,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 21,
+    "move" : "Swift"
+  }, {
+    "level" : 24,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 27,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 30,
+    "move" : "Slash"
+  }, {
+    "level" : 33,
+    "move" : "Iron Head"
+  }, {
+    "level" : 36,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 39,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 42,
+    "move" : "Snowscape"
+  }, {
+    "level" : 45,
+    "move" : "Blizzard"
+  } ],
+  "eggMoves" : [ "Amnesia", "Chip Away", "Counter", "Crush Claw", "Curse", "Endure", "Flail", "Hone Claws", "Icicle Crash", "Icicle Spear", "Metal Claw", "Night Slash" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Aurora Veil", "Avalanche", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "Flash Cannon", "Fury Cutter", "Gyro Ball", "Hone Claws", "Ice Beam", "Ice Punch", "Icicle Crash", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Leech Life", "Low Kick", "Mirror Coat", "Poison Jab", "Protect", "Rest", "Rock Slide", "Rock Tomb", "Rollout", "Safeguard", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Snore", "Snowscape", "Stealth Rock", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic", "Triple Axel", "X Scissor" ],
+  "encounters" : [ ]
+}

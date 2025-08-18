@@ -1,0 +1,128 @@
+{
+  "dex" : 550,
+  "speciesId" : "SPECIES_PANGORO",
+  "name" : "Pangoro",
+  "types" : [ "Fighting", "Dark" ],
+  "abilities" : [ "Iron Fist", "Mold Breaker", "Scrappy" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 65,
+  "baseExp" : 173,
+  "eggGroups" : [ "Field", "Human Like" ],
+  "hatchSteps" : 6400,
+  "heightM" : 2.1,
+  "weightKg" : 136.0,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Daunting",
+  "friendship" : 70,
+  "description" : "It boasts superb physical strength.\nThose who wish to become Pangoro's\nTrainer have no choice but to converse\nwith their fists.",
+  "preEvolutionId" : "SPECIES_PANCHAM",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 124,
+    "def" : 78,
+    "spe" : 58,
+    "spa" : 69,
+    "spd" : 74
+  },
+  "heldItems" : {
+    "common" : "Mental Herb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Knock Off"
+  }, {
+    "level" : 1,
+    "move" : "Arm Thrust"
+  }, {
+    "level" : 1,
+    "move" : "Bullet Punch"
+  }, {
+    "level" : 1,
+    "move" : "Entrainment"
+  }, {
+    "level" : 1,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 1,
+    "move" : "Knock Off"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Low Sweep"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Work Up"
+  }, {
+    "level" : 7,
+    "move" : "Arm Thrust"
+  }, {
+    "level" : 10,
+    "move" : "Work Up"
+  }, {
+    "level" : 12,
+    "move" : "Brick Break"
+  }, {
+    "level" : 15,
+    "move" : "Bite"
+  }, {
+    "level" : 20,
+    "move" : "Slash"
+  }, {
+    "level" : 25,
+    "move" : "Circle Throw"
+  }, {
+    "level" : 27,
+    "move" : "Vital Throw"
+  }, {
+    "level" : 32,
+    "move" : "Night Slash"
+  }, {
+    "level" : 35,
+    "move" : "Body Slam"
+  }, {
+    "level" : 42,
+    "move" : "Crunch"
+  }, {
+    "level" : 45,
+    "move" : "Entrainment"
+  }, {
+    "level" : 48,
+    "move" : "Parting Shot"
+  }, {
+    "level" : 52,
+    "move" : "Sky Uppercut"
+  }, {
+    "level" : 57,
+    "move" : "Low Sweep"
+  }, {
+    "level" : 65,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 68,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 70,
+    "move" : "Wicked Blow"
+  } ],
+  "eggMoves" : [ "Foul Play", "Me First", "Power Trip", "Quash", "Quick Guard", "Storm Throw" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Team", "Dragon Claw", "Drain Punch", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Punch", "Focus Blast", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Ice Punch", "Iron Head", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Swords Dance", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "X Scissor" ],
+  "encounters" : [ {
+    "area" : "Route 123",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 52,
+    "max" : 55,
+    "slot" : 9
+  } ]
+}

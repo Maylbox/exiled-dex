@@ -1,0 +1,92 @@
+{
+  "dex" : 88,
+  "speciesId" : "SPECIES_GRIMER_ALOLAN",
+  "name" : "Grimer",
+  "types" : [ "Poison", "Dark" ],
+  "abilities" : [ "Poison Touch", "Gluttony", "Power Of Alchemy" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.7,
+  "weightKg" : 42.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Sludge",
+  "friendship" : 70,
+  "description" : "There are a hundred or so of them living\nin Alola's waste-disposal site. They're all\nhard workers who eat a lot of trash. Grimer\nseems to relish any and all kinds of trash.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MUK_ALOLAN",
+    "method" : "level",
+    "param" : "38"
+  } ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 80,
+    "def" : 50,
+    "spe" : 25,
+    "spa" : 40,
+    "spd" : 50
+  },
+  "heldItems" : {
+    "common" : "Black Sludge"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Poison Gas"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 4,
+    "move" : "Harden"
+  }, {
+    "level" : 7,
+    "move" : "Bite"
+  }, {
+    "level" : 12,
+    "move" : "Disable"
+  }, {
+    "level" : 15,
+    "move" : "Acid Spray"
+  }, {
+    "level" : 18,
+    "move" : "Poison Fang"
+  }, {
+    "level" : 21,
+    "move" : "Minimize"
+  }, {
+    "level" : 26,
+    "move" : "Toxic"
+  }, {
+    "level" : 29,
+    "move" : "Knock Off"
+  }, {
+    "level" : 32,
+    "move" : "Crunch"
+  }, {
+    "level" : 37,
+    "move" : "Screech"
+  }, {
+    "level" : 40,
+    "move" : "Gunk Shot"
+  }, {
+    "level" : 43,
+    "move" : "Acid Armor"
+  }, {
+    "level" : 46,
+    "move" : "Belch"
+  }, {
+    "level" : 48,
+    "move" : "Memento"
+  } ],
+  "eggMoves" : [ "Assurance", "Clear Smog", "Curse", "Imprison", "Mean Look", "Power Up Punch", "Pursuit", "Scary Face", "Shadow Sneak", "Spit Up", "Spite", "Stockpile", "Swallow" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Crunch", "Dark Pulse", "Dig", "Double Team", "Drain Punch", "Endure", "Explosion", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Giga Drain", "Giga Impact", "Hex", "Hyper Beam", "Ice Punch", "Knock Off", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Sandstorm", "Shadow Ball", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Stone Edge", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Torment", "Toxic", "Venoshock" ],
+  "encounters" : [ ]
+}

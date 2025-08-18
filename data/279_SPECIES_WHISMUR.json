@@ -1,0 +1,119 @@
+{
+  "dex" : 279,
+  "speciesId" : "SPECIES_WHISMUR",
+  "name" : "Whismur",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Soundproof", "Punk Rock", "Rattled" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 16.3,
+  "growthRate" : "Medium Slow",
+  "color" : "Pink",
+  "category" : "Whisper",
+  "friendship" : 70,
+  "description" : "Its cries equal a jet plane in volume.\nIt inhales through its ear canals. Because\nof this system, it can cry continually\nwithout having to catch its breath.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_LOUDRED",
+    "method" : "level",
+    "param" : "20"
+  } ],
+  "baseStats" : {
+    "hp" : 64,
+    "atk" : 51,
+    "def" : 23,
+    "spe" : 28,
+    "spa" : 51,
+    "spd" : 23
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 4,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 8,
+    "move" : "Astonish"
+  }, {
+    "level" : 11,
+    "move" : "Howl"
+  }, {
+    "level" : 15,
+    "move" : "Screech"
+  }, {
+    "level" : 18,
+    "move" : "Supersonic"
+  }, {
+    "level" : 22,
+    "move" : "Stomp"
+  }, {
+    "level" : 25,
+    "move" : "Uproar"
+  }, {
+    "level" : 29,
+    "move" : "Roar"
+  }, {
+    "level" : 32,
+    "move" : "Rest"
+  }, {
+    "level" : 36,
+    "move" : "Sleep Talk"
+  }, {
+    "level" : 39,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 43,
+    "move" : "Synchronoise"
+  } ],
+  "eggMoves" : [ "Circle Throw", "Disarming Voice", "Endeavor", "Extrasensory", "Fake Tears", "Hammer Arm", "Smelling Salts", "Smokescreen", "Snore", "Take Down", "Whirlwind" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Counter", "Defense Curl", "Double Edge", "Double Team", "Dynamic Punch", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Ice Beam", "Ice Punch", "Icy Wind", "Mega Kick", "Mega Punch", "Mud Slap", "Protect", "Psych Up", "Rain Dance", "Rest", "Roar", "Rollout", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Thunder Punch", "Toxic", "Water Pulse" ],
+  "encounters" : [ {
+    "area" : "Route 116",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 6
+  }, {
+    "area" : "Route 116",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 7
+  }, {
+    "area" : "Desert Underpass",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 35,
+    "max" : 35,
+    "slot" : 1
+  }, {
+    "area" : "Desert Underpass",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 36,
+    "max" : 36,
+    "slot" : 5
+  }, {
+    "area" : "Desert Underpass",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 38,
+    "max" : 38,
+    "slot" : 8
+  } ]
+}

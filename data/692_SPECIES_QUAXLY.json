@@ -1,0 +1,75 @@
+{
+  "dex" : 692,
+  "speciesId" : "SPECIES_QUAXLY",
+  "name" : "Quaxly",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Torrent", "None", "Moxie" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 62,
+  "eggGroups" : [ "Flying", "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 6.1,
+  "growthRate" : "Medium Slow",
+  "color" : "White",
+  "category" : "Duckling",
+  "friendship" : 70,
+  "description" : "Its strong legs let it easily swim\naround in even fast-flowing rivers.\nIt likes to keep things tidy and is\nprone to overthinking things.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_QUAXWELL",
+    "method" : "level",
+    "param" : "16"
+  } ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 65,
+    "def" : 45,
+    "spe" : 50,
+    "spa" : 50,
+    "spd" : 45
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 6,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 8,
+    "move" : "Work Up"
+  }, {
+    "level" : 10,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 12,
+    "move" : "Double Hit"
+  }, {
+    "level" : 16,
+    "move" : "Aqua Cutter"
+  }, {
+    "level" : 20,
+    "move" : "Air Slash"
+  }, {
+    "level" : 22,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 26,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 30,
+    "move" : "Liquidation"
+  } ],
+  "eggMoves" : [ "Detect", "Last Resort", "Rapid Spin", "Roost" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Brave Bird", "Endure", "Facade", "Low Kick", "Protect", "Psych Up", "Rain Dance", "Rest", "Roost", "Sleep Talk", "Surf", "Swift" ],
+  "encounters" : [ ]
+}

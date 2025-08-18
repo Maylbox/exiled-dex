@@ -1,0 +1,84 @@
+{
+  "dex" : 16,
+  "speciesId" : "SPECIES_PIDGEY",
+  "name" : "Pidgey",
+  "types" : [ "Normal", "Flying" ],
+  "abilities" : [ "Keen Eye", "Tangled Feet", "Big Pecks" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.3,
+  "weightKg" : 1.8,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Tiny Bird",
+  "friendship" : 70,
+  "description" : "It has an extremely sharp sense of\ndirection. It can unerringly return home to\nits nest, however far it may be removed\nfrom its familiar surroundings.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_PIDGEOTTO",
+    "method" : "level",
+    "param" : "18"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 45,
+    "def" : 40,
+    "spe" : 56,
+    "spa" : 35,
+    "spd" : 35
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Featherdance"
+  }, {
+    "level" : 9,
+    "move" : "Gust"
+  }, {
+    "level" : 13,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 15,
+    "move" : "Take Down"
+  }, {
+    "level" : 21,
+    "move" : "Return"
+  }, {
+    "level" : 23,
+    "move" : "Roost"
+  }, {
+    "level" : 29,
+    "move" : "Agility"
+  }, {
+    "level" : 33,
+    "move" : "Fly"
+  }, {
+    "level" : 41,
+    "move" : "Tailwind"
+  }, {
+    "level" : 41,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 45,
+    "move" : "Mirror Move"
+  }, {
+    "level" : 49,
+    "move" : "Air Slash"
+  }, {
+    "level" : 53,
+    "move" : "Hurricane"
+  } ],
+  "eggMoves" : [ "Air Cutter", "Air Slash", "Brave Bird", "Defog", "Feint Attack", "Foresight", "Pursuit", "Steel Wing", "Uproar" ],
+  "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Defog", "Double Edge", "Double Team", "Endure", "Facade", "Fly", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ],
+  "encounters" : [ ]
+}

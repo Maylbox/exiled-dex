@@ -1,0 +1,123 @@
+{
+  "dex" : 280,
+  "speciesId" : "SPECIES_LOUDRED",
+  "name" : "Loudred",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Soundproof", "Punk Rock", "Scrappy" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 126,
+  "eggGroups" : [ "Monster", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 40.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Big Voice",
+  "friendship" : 70,
+  "description" : "It positions the round speakers on its\nhead to assail foes with ultrasonic waves\nat massive volume. It builds power by\nstomping the ground.",
+  "preEvolutionId" : "SPECIES_WHISMUR",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXPLOUD",
+    "method" : "level",
+    "param" : "40"
+  } ],
+  "baseStats" : {
+    "hp" : 84,
+    "atk" : 71,
+    "def" : 43,
+    "spe" : 48,
+    "spa" : 71,
+    "spd" : 43
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Howl"
+  }, {
+    "level" : 1,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Shock Wave"
+  }, {
+    "level" : 1,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 4,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 9,
+    "move" : "Astonish"
+  }, {
+    "level" : 11,
+    "move" : "Howl"
+  }, {
+    "level" : 15,
+    "move" : "Screech"
+  }, {
+    "level" : 18,
+    "move" : "Supersonic"
+  }, {
+    "level" : 20,
+    "move" : "Bite"
+  }, {
+    "level" : 23,
+    "move" : "Stomp"
+  }, {
+    "level" : 27,
+    "move" : "Uproar"
+  }, {
+    "level" : 32,
+    "move" : "Roar"
+  }, {
+    "level" : 36,
+    "move" : "Rest"
+  }, {
+    "level" : 41,
+    "move" : "Sleep Talk"
+  }, {
+    "level" : 45,
+    "move" : "Synchronoise"
+  } ],
+  "eggMoves" : [ "Circle Throw", "Disarming Voice", "Endeavor", "Extrasensory", "Fake Tears", "Hammer Arm", "Smelling Salts", "Smokescreen", "Snore", "Take Down", "Whirlwind" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Defense Curl", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Ice Beam", "Ice Punch", "Icy Wind", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Overheat", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Taunt", "Thunder Punch", "Torment", "Toxic", "Water Pulse" ],
+  "encounters" : [ {
+    "area" : "Desert Underpass",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 40,
+    "max" : 40,
+    "slot" : 3
+  }, {
+    "area" : "Desert Underpass",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 38,
+    "max" : 38,
+    "slot" : 6
+  }, {
+    "area" : "Desert Underpass",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 44,
+    "max" : 44,
+    "slot" : 10
+  } ]
+}

@@ -1,0 +1,81 @@
+{
+  "dex" : 661,
+  "speciesId" : "SPECIES_SINISTEA_PHONY",
+  "name" : "Sinistea",
+  "types" : [ "Ghost", null ],
+  "abilities" : [ "Weak Armor", "None", "Cursed Body" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 120,
+  "baseExp" : 62,
+  "eggGroups" : [ "Mineral", "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.1,
+  "weightKg" : 0.2,
+  "growthRate" : "Medium Fast",
+  "color" : "Purple",
+  "category" : "Black Tea",
+  "friendship" : 70,
+  "description" : "This Pokémon is said to have been born\nwhen a lonely spirit possessed a cold,\nleftover cup of tea.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_POLTEAGEIST_PHONY",
+    "method" : "item",
+    "param" : "ITEM_CRACKED_POT"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 45,
+    "def" : 45,
+    "spe" : 50,
+    "spa" : 74,
+    "spd" : 54
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Ominous Wind"
+  }, {
+    "level" : 1,
+    "move" : "Withdraw"
+  }, {
+    "level" : 6,
+    "move" : "Aromatic Mist"
+  }, {
+    "level" : 12,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 16,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 18,
+    "move" : "Detect"
+  }, {
+    "level" : 24,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 30,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 36,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 42,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 48,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 54,
+    "move" : "Psyshock"
+  }, {
+    "level" : 60,
+    "move" : "Shell Smash"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Calm Mind", "Dark Pulse", "Endure", "Facade", "Giga Drain", "Hex", "Metronome", "Protect", "Psychic", "Psyshock", "Rest", "Shadow Ball", "Sleep Talk", "Snore", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ ]
+}

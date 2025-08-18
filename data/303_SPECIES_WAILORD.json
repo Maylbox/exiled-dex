@@ -1,0 +1,92 @@
+{
+  "dex" : 303,
+  "speciesId" : "SPECIES_WAILORD",
+  "name" : "Wailord",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Water Veil", "Oblivious", "Pressure" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field", "Water 2" ],
+  "hatchSteps" : 10240,
+  "heightM" : 14.5,
+  "weightKg" : 398.0,
+  "growthRate" : "Fluctuating",
+  "color" : "Blue",
+  "category" : "Float Whale",
+  "friendship" : 70,
+  "description" : "It breathes through nostrils that it\nraises above the sea. By inhaling to its\nmaximum capacity, a Wailord can dive close\nto 10,000 feet beneath the waves.",
+  "preEvolutionId" : "SPECIES_WAILMER",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 170,
+    "atk" : 90,
+    "def" : 45,
+    "spe" : 60,
+    "spa" : 90,
+    "spd" : 45
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Noble Roar"
+  }, {
+    "level" : 1,
+    "move" : "Soak"
+  }, {
+    "level" : 1,
+    "move" : "Splash"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 15,
+    "move" : "Mist"
+  }, {
+    "level" : 18,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 21,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 24,
+    "move" : "Brine"
+  }, {
+    "level" : 27,
+    "move" : "Whirlpool"
+  }, {
+    "level" : 30,
+    "move" : "Dive"
+  }, {
+    "level" : 33,
+    "move" : "Bounce"
+  }, {
+    "level" : 36,
+    "move" : "Body Slam"
+  }, {
+    "level" : 39,
+    "move" : "Rest"
+  }, {
+    "level" : 44,
+    "move" : "Amnesia"
+  }, {
+    "level" : 49,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 54,
+    "move" : "Water Spout"
+  } ],
+  "eggMoves" : [ "Aqua Ring", "Body Slam", "Clear Smog", "Curse", "Defense Curl", "Double Edge", "Fissure", "Sleep Talk", "Snore", "Soak", "Thrash", "Tickle", "Zen Headbutt" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Bulldoze", "Defense Curl", "Dive", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Head", "Protect", "Rain Dance", "Rest", "Roar", "Rock Smash", "Rock Tomb", "Rollout", "Scald", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

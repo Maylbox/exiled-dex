@@ -1,0 +1,78 @@
+{
+  "dex" : 634,
+  "speciesId" : "SPECIES_SCORBUNNY",
+  "name" : "Scorbunny",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Blaze", "None", "Libero" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 62,
+  "eggGroups" : [ "Field", "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 4.5,
+  "growthRate" : "Medium Slow",
+  "color" : "White",
+  "category" : "Rabbit",
+  "friendship" : 70,
+  "description" : "A warm-up of running around gets fire\nenergy coursing through this Pokémon's\nbody. Once that happens, it's ready to\nfight at full power.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_RABOOT",
+    "method" : "level",
+    "param" : "16"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 71,
+    "def" : 40,
+    "spe" : 69,
+    "spa" : 40,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Ember"
+  }, {
+    "level" : 8,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 12,
+    "move" : "Double Kick"
+  }, {
+    "level" : 14,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 17,
+    "move" : "Flame Charge"
+  }, {
+    "level" : 20,
+    "move" : "Agility"
+  }, {
+    "level" : 24,
+    "move" : "Headbutt"
+  }, {
+    "level" : 28,
+    "move" : "Counter"
+  }, {
+    "level" : 32,
+    "move" : "Bounce"
+  }, {
+    "level" : 36,
+    "move" : "Double Edge"
+  } ],
+  "eggMoves" : [ "High Jump Kick", "Sand Attack", "Sucker Punch", "Super Fang" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Blaze Kick", "Counter", "Double Edge", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Low Kick", "Mega Kick", "Overheat", "Protect", "Rest", "Sleep Talk", "Snore", "Sunny Day", "Swift", "Taunt", "Trailblaze", "U Turn" ],
+  "encounters" : [ ]
+}

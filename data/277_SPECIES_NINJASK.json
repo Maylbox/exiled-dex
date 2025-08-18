@@ -1,0 +1,114 @@
+{
+  "dex" : 277,
+  "speciesId" : "SPECIES_NINJASK",
+  "name" : "Ninjask",
+  "types" : [ "Bug", "Flying" ],
+  "abilities" : [ "Speed Boost", "None", "Infiltrator" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.8,
+  "weightKg" : 12.0,
+  "growthRate" : "Erratic",
+  "color" : "Yellow",
+  "category" : "Ninja",
+  "friendship" : 70,
+  "description" : "Because it darts about vigorously at high\nspeed, it is very difficult to see. Hearing\nits distinctive cries for too long induces\na headache.",
+  "preEvolutionId" : "SPECIES_NINCADA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 61,
+    "atk" : 90,
+    "def" : 45,
+    "spe" : 160,
+    "spa" : 50,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Aerial Ace"
+  }, {
+    "level" : 0,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 0,
+    "move" : "Screech"
+  }, {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 1,
+    "move" : "Double Team"
+  }, {
+    "level" : 1,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "Screech"
+  }, {
+    "level" : 5,
+    "move" : "Absorb"
+  }, {
+    "level" : 9,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 13,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 17,
+    "move" : "Agility"
+  }, {
+    "level" : 23,
+    "move" : "Slash"
+  }, {
+    "level" : 28,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 29,
+    "move" : "Mind Reader"
+  }, {
+    "level" : 33,
+    "move" : "Pounce"
+  }, {
+    "level" : 36,
+    "move" : "First Impression"
+  }, {
+    "level" : 41,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 47,
+    "move" : "X Scissor"
+  }, {
+    "level" : 54,
+    "move" : "Night Slash"
+  } ],
+  "eggMoves" : [ "Bug Bite", "Bug Buzz", "Endure", "Feint Attack", "Final Gambit", "Gust", "Night Slash", "Silver Wind" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Cut", "Defog", "Dig", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "False Swipe", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Hone Claws", "Hyper Beam", "Leech Life", "Mud Slap", "Protect", "Rest", "Roost", "Sandstorm", "Shadow Ball", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic", "U Turn", "X Scissor" ],
+  "encounters" : [ {
+    "area" : "Route 113",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 29,
+    "max" : 33,
+    "slot" : 0
+  } ]
+}

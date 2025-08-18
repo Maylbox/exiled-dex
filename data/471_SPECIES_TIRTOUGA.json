@@ -1,0 +1,96 @@
+{
+  "dex" : 471,
+  "speciesId" : "SPECIES_TIRTOUGA",
+  "name" : "Tirtouga",
+  "types" : [ "Water", "Rock" ],
+  "abilities" : [ "Solid Rock", "Sturdy", "Swift Swim" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 71,
+  "eggGroups" : [ "Water 1", "Water 3" ],
+  "hatchSteps" : 7680,
+  "heightM" : 0.7,
+  "weightKg" : 16.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Prototurtle",
+  "friendship" : 70,
+  "description" : "Reputed to be the ancestor of most\nturtle Pokémon, it lived in warm seas\nabout a hundred million years ago.\nIt was restored from a fossil.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CARRACOSTA",
+    "method" : "level",
+    "param" : "37"
+  } ],
+  "baseStats" : {
+    "hp" : 54,
+    "atk" : 78,
+    "def" : 103,
+    "spe" : 22,
+    "spa" : 53,
+    "spd" : 45
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bide"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 1,
+    "move" : "Withdraw"
+  }, {
+    "level" : 5,
+    "move" : "Rollout"
+  }, {
+    "level" : 8,
+    "move" : "Bite"
+  }, {
+    "level" : 11,
+    "move" : "Protect"
+  }, {
+    "level" : 15,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 18,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 21,
+    "move" : "Crunch"
+  }, {
+    "level" : 25,
+    "move" : "Wide Guard"
+  }, {
+    "level" : 28,
+    "move" : "Brine"
+  }, {
+    "level" : 31,
+    "move" : "Smack Down"
+  }, {
+    "level" : 35,
+    "move" : "Curse"
+  }, {
+    "level" : 38,
+    "move" : "Shell Smash"
+  }, {
+    "level" : 41,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 45,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 48,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 50,
+    "move" : "Hydro Pump"
+  } ],
+  "eggMoves" : [ "Bide", "Body Slam", "Flail", "Guard Swap", "Iron Defense", "Knock Off", "Liquidation", "Rock Throw", "Slam", "Water Pulse", "Whirlpool" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Crunch", "Dig", "Dive", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Ice Beam", "Icy Wind", "Iron Defense", "Knock Off", "Meteor Beam", "Protect", "Rain Dance", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Scald", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

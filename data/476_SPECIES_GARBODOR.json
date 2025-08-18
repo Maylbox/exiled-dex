@@ -1,0 +1,114 @@
+{
+  "dex" : 476,
+  "speciesId" : "SPECIES_GARBODOR",
+  "name" : "Garbodor",
+  "types" : [ "Poison", null ],
+  "abilities" : [ "Stench", "Weak Armor", "Aftermath" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 166,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.9,
+  "weightKg" : 107.3,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Trash Heap",
+  "friendship" : 70,
+  "description" : "Beware the poisonous liquid it shoots\nfrom its right arm. If even a little of it\ngets on you, you'll experience the full\neffects of this unidentified toxin.",
+  "preEvolutionId" : "SPECIES_TRUBBISH",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 98,
+    "atk" : 102,
+    "def" : 91,
+    "spe" : 58,
+    "spa" : 60,
+    "spd" : 91
+  },
+  "heldItems" : {
+    "common" : "Silk Scarf",
+    "rare" : "Black Sludge"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Dire Claw"
+  }, {
+    "level" : 1,
+    "move" : "Dire Claw"
+  }, {
+    "level" : 1,
+    "move" : "Poison Gas"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Recycle"
+  }, {
+    "level" : 1,
+    "move" : "Toxic Spikes"
+  }, {
+    "level" : 3,
+    "move" : "Recycle"
+  }, {
+    "level" : 7,
+    "move" : "Toxic Spikes"
+  }, {
+    "level" : 12,
+    "move" : "Acid Spray"
+  }, {
+    "level" : 14,
+    "move" : "Doubleslap"
+  }, {
+    "level" : 18,
+    "move" : "Sludge"
+  }, {
+    "level" : 23,
+    "move" : "Stockpile"
+  }, {
+    "level" : 23,
+    "move" : "Swallow"
+  }, {
+    "level" : 25,
+    "move" : "Body Slam"
+  }, {
+    "level" : 29,
+    "move" : "Sludge Bomb"
+  }, {
+    "level" : 34,
+    "move" : "Clear Smog"
+  }, {
+    "level" : 39,
+    "move" : "Toxic"
+  }, {
+    "level" : 42,
+    "move" : "Recover"
+  }, {
+    "level" : 46,
+    "move" : "Amnesia"
+  }, {
+    "level" : 49,
+    "move" : "Knock Off"
+  }, {
+    "level" : 54,
+    "move" : "Gunk Shot"
+  }, {
+    "level" : 59,
+    "move" : "Explosion"
+  } ],
+  "eggMoves" : [ "Autotomize", "Curse", "Haze", "Mud Sport", "Rock Blast", "Rollout", "Sand Attack", "Self Destruct", "Spikes" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Dark Pulse", "Double Team", "Drain Punch", "Endure", "Explosion", "Facade", "Focus Blast", "Giga Drain", "Giga Impact", "Hyper Beam", "Protect", "Psychic", "Rain Dance", "Rest", "Rock Polish", "Rollout", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Smack Down", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Thief", "Thunderbolt", "Toxic", "Venoshock" ],
+  "encounters" : [ {
+    "area" : "Lilycove City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 53,
+    "max" : 55,
+    "slot" : 2
+  } ]
+}

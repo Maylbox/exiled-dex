@@ -1,0 +1,44 @@
+{
+  "dex" : 729,
+  "speciesId" : "SPECIES_GIMMIGHOUL_CHEST",
+  "name" : "Gimmighoul",
+  "types" : [ "Ghost", null ],
+  "abilities" : [ "Rattled", "None", "None" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 45,
+  "baseExp" : 60,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 12800,
+  "heightM" : 0.3,
+  "weightKg" : 5.0,
+  "growthRate" : "Slow",
+  "color" : "Red",
+  "category" : "Coin Chest",
+  "friendship" : 70,
+  "description" : "It lives inside an old treasure\nchest. Sometimes it gets left in shop\ncorners since no one realizes it's\nactually a Pokémon.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 45,
+    "atk" : 30,
+    "def" : 70,
+    "spe" : 10,
+    "spa" : 75,
+    "spd" : 70
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Endure", "Hex", "Light Screen", "Protect", "Reflect", "Rest", "Shadow Ball", "Sleep Talk", "Thief" ],
+  "encounters" : [ ]
+}

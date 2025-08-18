@@ -1,0 +1,115 @@
+{
+  "dex" : 331,
+  "speciesId" : "SPECIES_BANETTE_MEGA",
+  "name" : "Banette - Mega",
+  "types" : [ "Ghost", null ],
+  "abilities" : [ "Prankster", "Prankster", "Prankster" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 194,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 6400,
+  "heightM" : 1.2,
+  "weightKg" : 13.0,
+  "growthRate" : "Fast",
+  "color" : "Black",
+  "category" : "Marionette",
+  "friendship" : 35,
+  "description" : "Extraordinary energy amplifies its\ncursing power to such an extent that it\ncan't help but curse its own Trainer.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 64,
+    "atk" : 165,
+    "def" : 75,
+    "spe" : 75,
+    "spa" : 93,
+    "spd" : 83
+  },
+  "heldItems" : {
+    "common" : "Spell Tag"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Rage Fist"
+  }, {
+    "level" : 1,
+    "move" : "Knock Off"
+  }, {
+    "level" : 1,
+    "move" : "Night Shade"
+  }, {
+    "level" : 1,
+    "move" : "Phantom Force"
+  }, {
+    "level" : 1,
+    "move" : "Screech"
+  }, {
+    "level" : 1,
+    "move" : "Spite"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 4,
+    "move" : "Screech"
+  }, {
+    "level" : 7,
+    "move" : "Night Shade"
+  }, {
+    "level" : 10,
+    "move" : "Spite"
+  }, {
+    "level" : 13,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 16,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 19,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 22,
+    "move" : "Hex"
+  }, {
+    "level" : 26,
+    "move" : "Curse"
+  }, {
+    "level" : 30,
+    "move" : "Play Rough"
+  }, {
+    "level" : 34,
+    "move" : "Embargo"
+  }, {
+    "level" : 40,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 46,
+    "move" : "Bitter Blade"
+  }, {
+    "level" : 52,
+    "move" : "Shadow Claw"
+  }, {
+    "level" : 58,
+    "move" : "Trick"
+  }, {
+    "level" : 64,
+    "move" : "Poltergeist"
+  }, {
+    "level" : 69,
+    "move" : "Double Edge"
+  }, {
+    "level" : 72,
+    "move" : "Tidy Up"
+  }, {
+    "level" : 75,
+    "move" : "Ceaseless Edge"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Dark Pulse", "Dazzling Gleam", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Giga Impact", "Hex", "Hyper Beam", "Icy Wind", "Knock Off", "Metronome", "Mud Slap", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trailblaze", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ ]
+}

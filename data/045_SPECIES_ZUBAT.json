@@ -1,0 +1,360 @@
+{
+  "dex" : 45,
+  "speciesId" : "SPECIES_ZUBAT",
+  "name" : "Zubat",
+  "types" : [ "Poison", "Flying" ],
+  "abilities" : [ "Inner Focus", "Sniper", "Infiltrator" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.8,
+  "weightKg" : 7.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Purple",
+  "category" : "Bat",
+  "friendship" : 70,
+  "description" : "While living in pitch-black caverns, their\neyes gradually grew shut and deprived\nthem of vision. They use ultrasonic waves\nto detect obstacles.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GOLBAT",
+    "method" : "level",
+    "param" : "22"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 45,
+    "def" : 35,
+    "spe" : 55,
+    "spa" : 30,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 5,
+    "move" : "Supersonic"
+  }, {
+    "level" : 7,
+    "move" : "Astonish"
+  }, {
+    "level" : 11,
+    "move" : "Bite"
+  }, {
+    "level" : 13,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 17,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 19,
+    "move" : "Air Cutter"
+  }, {
+    "level" : 23,
+    "move" : "Mean Look"
+  }, {
+    "level" : 25,
+    "move" : "Poison Fang"
+  }, {
+    "level" : 29,
+    "move" : "Leech Life"
+  }, {
+    "level" : 31,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 35,
+    "move" : "Haze"
+  }, {
+    "level" : 37,
+    "move" : "Venoshock"
+  }, {
+    "level" : 41,
+    "move" : "Air Slash"
+  }, {
+    "level" : 43,
+    "move" : "Quick Guard"
+  } ],
+  "eggMoves" : [ "Brave Bird", "Curse", "Defog", "Feint Attack", "Giga Drain", "Gust", "Hypnosis", "Nasty Plot", "Pursuit", "Quick Attack", "Steel Wing", "Venom Drench", "Whirlwind", "Zen Headbutt" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Crunch", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "Fly", "Giga Drain", "Leech Life", "Protect", "Rain Dance", "Rest", "Roost", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "U Turn", "Venoshock" ],
+  "encounters" : [ {
+    "area" : "Granite Cave_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 13,
+    "max" : 15,
+    "slot" : 0
+  }, {
+    "area" : "Granite Cave_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 13,
+    "max" : 15,
+    "slot" : 2
+  }, {
+    "area" : "Seafloor Cavern_Room6",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 35,
+    "slot" : 1
+  }, {
+    "area" : "Seafloor Cavern_Room6",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 2
+  }, {
+    "area" : "Seafloor Cavern_Room7",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 35,
+    "slot" : 1
+  }, {
+    "area" : "Seafloor Cavern_Room7",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 2
+  }, {
+    "area" : "Seafloor Cavern_Entrance",
+    "bucket" : "Water",
+    "rateBase" : 0,
+    "min" : 5,
+    "max" : 35,
+    "slot" : 1
+  }, {
+    "area" : "Seafloor Cavern_Entrance",
+    "bucket" : "Water",
+    "rateBase" : 0,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 2
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 30,
+    "max" : 30,
+    "slot" : 0
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 31,
+    "max" : 31,
+    "slot" : 1
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 32,
+    "max" : 32,
+    "slot" : 2
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 33,
+    "max" : 33,
+    "slot" : 6
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 34,
+    "max" : 34,
+    "slot" : 7
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 30,
+    "max" : 30,
+    "slot" : 0
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 31,
+    "max" : 31,
+    "slot" : 1
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 32,
+    "max" : 32,
+    "slot" : 2
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 33,
+    "max" : 33,
+    "slot" : 6
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 34,
+    "max" : 34,
+    "slot" : 7
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 30,
+    "max" : 30,
+    "slot" : 0
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 31,
+    "max" : 31,
+    "slot" : 1
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 32,
+    "max" : 32,
+    "slot" : 2
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 33,
+    "max" : 33,
+    "slot" : 6
+  }, {
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 34,
+    "max" : 34,
+    "slot" : 7
+  }, {
+    "area" : "Meteor Falls_1F_1R",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 35,
+    "slot" : 0
+  }, {
+    "area" : "Meteor Falls_1F_1R",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 1
+  }, {
+    "area" : "Shoal Cave_Low Tide Inner Room",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 35,
+    "slot" : 1
+  }, {
+    "area" : "Shoal Cave_Low Tide Entrance Room",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 35,
+    "slot" : 1
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 10,
+    "max" : 10,
+    "slot" : 0
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 12,
+    "max" : 12,
+    "slot" : 1
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 8,
+    "max" : 8,
+    "slot" : 2
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 14,
+    "max" : 14,
+    "slot" : 3
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 10,
+    "max" : 10,
+    "slot" : 4
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 12,
+    "max" : 12,
+    "slot" : 5
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 16,
+    "max" : 16,
+    "slot" : 6
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 6,
+    "max" : 6,
+    "slot" : 7
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 8,
+    "max" : 8,
+    "slot" : 8
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 14,
+    "max" : 14,
+    "slot" : 9
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 8,
+    "max" : 8,
+    "slot" : 10
+  }, {
+    "area" : "Altering Cave1",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 14,
+    "max" : 14,
+    "slot" : 11
+  } ]
+}

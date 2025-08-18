@@ -1,0 +1,90 @@
+{
+  "dex" : 442,
+  "speciesId" : "SPECIES_PALPITOAD",
+  "name" : "Palpitoad",
+  "types" : [ "Water", "Ground" ],
+  "abilities" : [ "Swift Swim", "Hydration", "Water Absorb" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 134,
+  "eggGroups" : [ "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 17.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Vibration",
+  "friendship" : 70,
+  "description" : "It lives in the water and on land.\nWhen they vibrate the bumps on their\nheads, they can make waves in water\nor earthquake-like vibrations on land.",
+  "preEvolutionId" : "SPECIES_TYMPOLE",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SEISMITOAD",
+    "method" : "level",
+    "param" : "36"
+  } ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 65,
+    "def" : 55,
+    "spe" : 69,
+    "spa" : 65,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bubble"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Round"
+  }, {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 5,
+    "move" : "Supersonic"
+  }, {
+    "level" : 9,
+    "move" : "Round"
+  }, {
+    "level" : 12,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 16,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 20,
+    "move" : "Aqua Ring"
+  }, {
+    "level" : 23,
+    "move" : "Uproar"
+  }, {
+    "level" : 28,
+    "move" : "Muddy Water"
+  }, {
+    "level" : 33,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 37,
+    "move" : "Flail"
+  }, {
+    "level" : 42,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 47,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 51,
+    "move" : "Hyper Voice"
+  } ],
+  "eggMoves" : [ "After You", "Earth Power", "Mist", "Mud Bomb", "Mud Sport", "Refresh", "Sleep Talk", "Snore", "Venom Drench", "Water Pulse" ],
+  "teachableMoves" : [ "Attract", "Bulldoze", "Double Team", "Earth Power", "Endure", "Facade", "Icy Wind", "Mud Slap", "Power Whip", "Protect", "Rain Dance", "Rest", "Rock Smash", "Scald", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Stealth Rock", "Surf", "Swagger", "Toxic", "Water Pulse" ],
+  "encounters" : [ ]
+}

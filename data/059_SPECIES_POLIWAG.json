@@ -1,0 +1,81 @@
+{
+  "dex" : 59,
+  "speciesId" : "SPECIES_POLIWAG",
+  "name" : "Poliwag",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Water Absorb", "Damp", "Swift Swim" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 12.4,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Tadpole",
+  "friendship" : 70,
+  "description" : "It is possible to see this Pokémon's spiral\ninnards right through its thin skin.\nHowever, the skin is also very flexible.\nEven sharp fangs bounce right off it.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_POLIWHIRL",
+    "method" : "level",
+    "param" : "25"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 50,
+    "def" : 40,
+    "spe" : 90,
+    "spa" : 40,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Water Sport"
+  }, {
+    "level" : 5,
+    "move" : "Water Gun"
+  }, {
+    "level" : 8,
+    "move" : "Hypnosis"
+  }, {
+    "level" : 11,
+    "move" : "Bubble"
+  }, {
+    "level" : 15,
+    "move" : "Doubleslap"
+  }, {
+    "level" : 18,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 21,
+    "move" : "Body Slam"
+  }, {
+    "level" : 25,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 28,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 31,
+    "move" : "Belly Drum"
+  }, {
+    "level" : 35,
+    "move" : "Wake Up Slap"
+  }, {
+    "level" : 38,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 41,
+    "move" : "Mud Bomb"
+  } ],
+  "eggMoves" : [ "Bubble Beam", "Encore", "Endeavor", "Endure", "Haze", "Ice Ball", "Mind Reader", "Mist", "Mud Shot", "Refresh", "Splash", "Water Pulse", "Water Sport" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Earth Power", "Endure", "Facade", "Ice Beam", "Icy Wind", "Low Kick", "Mud Slap", "Protect", "Psychic", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Thief", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

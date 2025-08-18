@@ -1,0 +1,117 @@
+{
+  "dex" : 81,
+  "speciesId" : "SPECIES_SLOWBRO",
+  "name" : "Slowbro",
+  "types" : [ "Water", "Psychic" ],
+  "abilities" : [ "Oblivious", "Own Tempo", "Regenerator" ],
+  "evYield" : { },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.6,
+  "weightKg" : 78.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Pink",
+  "category" : "Hermit Crab",
+  "friendship" : 70,
+  "description" : "Its tail has a Shellder firmly attached\nwith a bite. As a result, the tail can't be\nused for fishing anymore. This forces it\nto reluctantly swim and catch prey.",
+  "preEvolutionId" : "SPECIES_SLOWPOKE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 75,
+    "def" : 110,
+    "spe" : 30,
+    "spa" : 100,
+    "spd" : 80
+  },
+  "heldItems" : {
+    "common" : "Kings Rock"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Curse"
+  }, {
+    "level" : 1,
+    "move" : "Heal Pulse"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Teleport"
+  }, {
+    "level" : 1,
+    "move" : "Withdraw"
+  }, {
+    "level" : 1,
+    "move" : "Yawn"
+  }, {
+    "level" : 5,
+    "move" : "Growl"
+  }, {
+    "level" : 9,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 14,
+    "move" : "Confusion"
+  }, {
+    "level" : 17,
+    "move" : "Disable"
+  }, {
+    "level" : 20,
+    "move" : "Headbutt"
+  }, {
+    "level" : 24,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 28,
+    "move" : "Psybeam"
+  }, {
+    "level" : 32,
+    "move" : "Zen Headbutt"
+  }, {
+    "level" : 36,
+    "move" : "Slack Off"
+  }, {
+    "level" : 37,
+    "move" : "Withdraw"
+  }, {
+    "level" : 43,
+    "move" : "Amnesia"
+  }, {
+    "level" : 49,
+    "move" : "Psychic"
+  }, {
+    "level" : 55,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 59,
+    "move" : "Psychic Noise"
+  }, {
+    "level" : 62,
+    "move" : "Psych Up"
+  }, {
+    "level" : 68,
+    "move" : "Heal Pulse"
+  }, {
+    "level" : 73,
+    "move" : "Mystical Power"
+  }, {
+    "level" : 76,
+    "move" : "Bouncy Bubble"
+  } ],
+  "eggMoves" : [ "Belch", "Belly Drum", "Block", "Future Sight", "Me First", "Mud Sport", "Sleep Talk", "Snore", "Stomp", "Wonder Room", "Zen Headbutt" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Calm Mind", "Counter", "Dig", "Dive", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Flamethrower", "Flash", "Focus Blast", "Fury Cutter", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Iron Defense", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Safeguard", "Scald", "Seismic Toss", "Shadow Ball", "Sleep Talk", "Snore", "Snowscape", "Strength", "Sunny Day", "Surf", "Swagger", "Swift", "Thunder Wave", "Toxic", "Trick Room", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "area" : "Sootopolis City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 1
+  } ]
+}

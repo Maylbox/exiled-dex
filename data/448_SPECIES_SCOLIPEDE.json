@@ -1,0 +1,122 @@
+{
+  "dex" : 448,
+  "speciesId" : "SPECIES_SCOLIPEDE",
+  "name" : "Scolipede",
+  "types" : [ "Bug", "Poison" ],
+  "abilities" : [ "Poison Point", "Swarm", "Speed Boost" ],
+  "evYield" : {
+    "spe" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 214,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.5,
+  "weightKg" : 200.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Megapede",
+  "friendship" : 70,
+  "description" : "With quick movements, it chases down\nits foes, attacking relentlessly with its\nhorns until it prevails. Then it finishes\nthem off with deadly poison.",
+  "preEvolutionId" : "SPECIES_WHIRLIPEDE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 115,
+    "def" : 89,
+    "spe" : 112,
+    "spa" : 55,
+    "spd" : 69
+  },
+  "heldItems" : {
+    "common" : "Poison Barb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "First Impression"
+  }, {
+    "level" : 1,
+    "move" : "Baton Pass"
+  }, {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "First Impression"
+  }, {
+    "level" : 1,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 1,
+    "move" : "Megahorn"
+  }, {
+    "level" : 1,
+    "move" : "Mortal Spin"
+  }, {
+    "level" : 1,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 1,
+    "move" : "Pounce"
+  }, {
+    "level" : 1,
+    "move" : "Rollout"
+  }, {
+    "level" : 1,
+    "move" : "Screech"
+  }, {
+    "level" : 5,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 8,
+    "move" : "Screech"
+  }, {
+    "level" : 12,
+    "move" : "Pursuit"
+  }, {
+    "level" : 15,
+    "move" : "Protect"
+  }, {
+    "level" : 19,
+    "move" : "Poison Tail"
+  }, {
+    "level" : 23,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 30,
+    "move" : "Baton Pass"
+  }, {
+    "level" : 33,
+    "move" : "Agility"
+  }, {
+    "level" : 39,
+    "move" : "Steamroller"
+  }, {
+    "level" : 44,
+    "move" : "Toxic"
+  }, {
+    "level" : 47,
+    "move" : "Venom Drench"
+  }, {
+    "level" : 50,
+    "move" : "Rock Climb"
+  }, {
+    "level" : 55,
+    "move" : "Double Edge"
+  }, {
+    "level" : 65,
+    "move" : "Megahorn"
+  } ],
+  "eggMoves" : [ "Pin Missile", "Rock Climb", "Spikes", "Take Down", "Toxic Spikes", "Twineedle" ],
+  "teachableMoves" : [ "Attract", "Bulldoze", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "Fury Cutter", "Giga Impact", "Gyro Ball", "Hex", "Hyper Beam", "Iron Defense", "Poison Jab", "Protect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sleep Talk", "Sludge Bomb", "Smart Strike", "Snatch", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Venoshock", "X Scissor" ],
+  "encounters" : [ {
+    "area" : "Route 123",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 52,
+    "max" : 55,
+    "slot" : 1
+  } ]
+}

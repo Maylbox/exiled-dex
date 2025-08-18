@@ -1,0 +1,100 @@
+{
+  "dex" : 525,
+  "speciesId" : "SPECIES_DEINO",
+  "name" : "Deino",
+  "types" : [ "Dark", "Dragon" ],
+  "abilities" : [ "Hustle", "None", "None" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 60,
+  "eggGroups" : [ "Dragon" ],
+  "hatchSteps" : 10240,
+  "heightM" : 0.8,
+  "weightKg" : 17.3,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Irate",
+  "friendship" : 35,
+  "description" : "Lacking sight, it's unaware of its\nsurroundings, so it bumps into things and\neats anything that moves. Approaching\nit carelessly is dangerous.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_ZWEILOUS",
+    "method" : "level",
+    "param" : "35"
+  } ],
+  "baseStats" : {
+    "hp" : 52,
+    "atk" : 65,
+    "def" : 50,
+    "spe" : 38,
+    "spa" : 45,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 8,
+    "move" : "Bite"
+  }, {
+    "level" : 12,
+    "move" : "Roar"
+  }, {
+    "level" : 16,
+    "move" : "Assurance"
+  }, {
+    "level" : 20,
+    "move" : "Headbutt"
+  }, {
+    "level" : 24,
+    "move" : "Work Up"
+  }, {
+    "level" : 28,
+    "move" : "Slam"
+  }, {
+    "level" : 32,
+    "move" : "Crunch"
+  }, {
+    "level" : 36,
+    "move" : "Scary Face"
+  }, {
+    "level" : 40,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 44,
+    "move" : "Body Slam"
+  }, {
+    "level" : 48,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 52,
+    "move" : "Dragon Rush"
+  }, {
+    "level" : 56,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 60,
+    "move" : "Outrage"
+  } ],
+  "eggMoves" : [ "Assurance", "Astonish", "Belch", "Dark Pulse", "Double Hit", "Earth Power", "Fire Fang", "Head Smash", "Ice Fang", "Screech", "Thunder Fang" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Crunch", "Dark Pulse", "Double Team", "Draco Meteor", "Dragon Pulse", "Dragon Tail", "Earth Power", "Endure", "Facade", "Fire Fang", "Ice Fang", "Protect", "Psych Up", "Rain Dance", "Rest", "Roar", "Rock Smash", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Fang", "Thunder Wave", "Torment", "Toxic" ],
+  "encounters" : [ {
+    "area" : "Meteor Falls_1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 2
+  } ]
+}

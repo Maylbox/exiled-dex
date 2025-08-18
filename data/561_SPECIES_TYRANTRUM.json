@@ -1,0 +1,218 @@
+{
+  "dex" : 561,
+  "speciesId" : "SPECIES_TYRANTRUM",
+  "name" : "Tyrantrum",
+  "types" : [ "Rock", "Dragon" ],
+  "abilities" : [ "Strong Jaw", "None", "Rock Head" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 182,
+  "eggGroups" : [ "Monster", "Dragon" ],
+  "hatchSteps" : 7680,
+  "heightM" : 2.5,
+  "weightKg" : 270.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Despot",
+  "friendship" : 70,
+  "description" : "Thanks to its gargantuan jaws, which could\nshred thick metal plates as if they were\npaper, it was invincible in the ancient\nworld it once inhabited.",
+  "preEvolutionId" : "SPECIES_TYRUNT",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 82,
+    "atk" : 121,
+    "def" : 119,
+    "spe" : 80,
+    "spa" : 69,
+    "spd" : 59
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 1,
+    "move" : "Head Smash"
+  }, {
+    "level" : 1,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 1,
+    "move" : "Stomp"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 6,
+    "move" : "Roar"
+  }, {
+    "level" : 10,
+    "move" : "Stomp"
+  }, {
+    "level" : 12,
+    "move" : "Bide"
+  }, {
+    "level" : 15,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 17,
+    "move" : "Bite"
+  }, {
+    "level" : 20,
+    "move" : "Charm"
+  }, {
+    "level" : 26,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 30,
+    "move" : "Dragon Tail"
+  }, {
+    "level" : 34,
+    "move" : "Crunch"
+  }, {
+    "level" : 37,
+    "move" : "Dragon Claw"
+  }, {
+    "level" : 42,
+    "move" : "Thrash"
+  }, {
+    "level" : 47,
+    "move" : "Earthquake"
+  }, {
+    "level" : 53,
+    "move" : "Accelerock"
+  }, {
+    "level" : 58,
+    "move" : "Head Smash"
+  }, {
+    "level" : 62,
+    "move" : "Scale Shot"
+  }, {
+    "level" : 64,
+    "move" : "Dragon Dance"
+  }, {
+    "level" : 69,
+    "move" : "Volt Tackle"
+  }, {
+    "level" : 73,
+    "move" : "Flare Blitz"
+  }, {
+    "level" : 77,
+    "move" : "Dragon Hammer"
+  } ],
+  "eggMoves" : [ "Curse", "Dragon Dance", "Fire Fang", "Ice Fang", "Poison Fang", "Rock Polish", "Thunder Fang" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Crunch", "Dark Pulse", "Dig", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Fang", "Giga Impact", "High Horsepower", "Hone Claws", "Hyper Beam", "Ice Fang", "Iron Defense", "Iron Head", "Meteor Beam", "Play Rough", "Protect", "Psychic Fangs", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Thunder Fang", "Toxic" ],
+  "encounters" : [ {
+    "area" : "Magma Hideout_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 10
+  }, {
+    "area" : "Magma Hideout_2F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 10
+  }, {
+    "area" : "Magma Hideout_2F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 10
+  }, {
+    "area" : "Magma Hideout_3F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 10
+  }, {
+    "area" : "Magma Hideout_3F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 10
+  }, {
+    "area" : "Magma Hideout_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 10
+  }, {
+    "area" : "Magma Hideout_3F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 10
+  }, {
+    "area" : "Magma Hideout_2F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 10
+  }, {
+    "area" : "Mirage Tower_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 9
+  }, {
+    "area" : "Mirage Tower_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 4
+  }, {
+    "area" : "Mirage Tower_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 6
+  }, {
+    "area" : "Mirage Tower_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 4
+  }, {
+    "area" : "Mirage Tower_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 6
+  }, {
+    "area" : "Mirage Tower_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 4
+  }, {
+    "area" : "Mirage Tower_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 6
+  } ]
+}

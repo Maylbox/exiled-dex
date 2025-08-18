@@ -1,0 +1,128 @@
+{
+  "dex" : 498,
+  "speciesId" : "SPECIES_GALVANTULA",
+  "name" : "Galvantula",
+  "types" : [ "Bug", "Electric" ],
+  "abilities" : [ "Compound Eyes", "Unnerve", "Swarm" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 165,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 14.3,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "EleSpider",
+  "friendship" : 70,
+  "description" : "It creates barriers from electrified silk\nthat stun foes. This works as a weapon as\nwell as a defense. While it is immobilized\nby shock, they leisurely consume it.",
+  "preEvolutionId" : "SPECIES_JOLTIK",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 77,
+    "def" : 60,
+    "spe" : 108,
+    "spa" : 97,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Sticky Web"
+  }, {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Earth Power"
+  }, {
+    "level" : 1,
+    "move" : "Spider Web"
+  }, {
+    "level" : 1,
+    "move" : "Sticky Web"
+  }, {
+    "level" : 1,
+    "move" : "String Shot"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 1,
+    "move" : "Wildbolt Storm"
+  }, {
+    "level" : 4,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 7,
+    "move" : "Screech"
+  }, {
+    "level" : 12,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 15,
+    "move" : "Electroweb"
+  }, {
+    "level" : 18,
+    "move" : "Struggle Bug"
+  }, {
+    "level" : 23,
+    "move" : "Gastro Acid"
+  }, {
+    "level" : 26,
+    "move" : "Silver Wind"
+  }, {
+    "level" : 34,
+    "move" : "Signal Beam"
+  }, {
+    "level" : 36,
+    "move" : "Volt Tackle"
+  }, {
+    "level" : 40,
+    "move" : "Agility"
+  }, {
+    "level" : 46,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 50,
+    "move" : "Discharge"
+  }, {
+    "level" : 53,
+    "move" : "Parabolic Charge"
+  }, {
+    "level" : 55,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 62,
+    "move" : "Thunder Cage"
+  } ],
+  "eggMoves" : [ "Camouflage", "Cross Poison", "Disable", "Feint Attack", "Lunge", "Pin Missile", "Poison Sting", "Pursuit", "Rock Climb" ],
+  "teachableMoves" : [ "Attract", "Charge Beam", "Cut", "Double Team", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Hyper Beam", "Leech Life", "Light Screen", "Poison Jab", "Protect", "Rain Dance", "Rest", "Shock Wave", "Sleep Talk", "Snore", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge", "X Scissor" ],
+  "encounters" : [ {
+    "area" : "New Mauville_Inside",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 55,
+    "max" : 57,
+    "slot" : 8
+  }, {
+    "area" : "Route 120",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 51,
+    "max" : 54,
+    "slot" : 7
+  }, {
+    "area" : "New Mauville_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 55,
+    "max" : 57,
+    "slot" : 8
+  } ]
+}

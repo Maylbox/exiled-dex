@@ -1,0 +1,58 @@
+{
+  "dex" : 13,
+  "speciesId" : "SPECIES_WEEDLE",
+  "name" : "Weedle",
+  "types" : [ "Bug", "Poison" ],
+  "abilities" : [ "Shield Dust", "None", "Run Away" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.3,
+  "weightKg" : 3.2,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Hairy Bug",
+  "friendship" : 70,
+  "description" : "A Weedle has an extremely acute sense\nof smell. It distinguishes its favorite\nkinds of leaves from those it dislikes by\nsniffing with its big red nose.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_KAKUNA",
+    "method" : "level",
+    "param" : "7"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 35,
+    "def" : 30,
+    "spe" : 50,
+    "spa" : 20,
+    "spd" : 20
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 1,
+    "move" : "String Shot"
+  }, {
+    "level" : 9,
+    "move" : "Bug Bite"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Electroweb" ],
+  "encounters" : [ {
+    "area" : "Petalburg Woods",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 7,
+    "slot" : 1
+  } ]
+}

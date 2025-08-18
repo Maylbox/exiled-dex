@@ -1,0 +1,89 @@
+{
+  "dex" : 89,
+  "speciesId" : "SPECIES_MUK_ALOLAN",
+  "name" : "Muk",
+  "types" : [ "Poison", "Dark" ],
+  "abilities" : [ "Poison Touch", "Gluttony", "Power Of Alchemy" ],
+  "evYield" : {
+    "hp" : 1,
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 52.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Sludge",
+  "friendship" : 70,
+  "description" : "While it's unexpectedly quiet and friendly,\nif it's not fed any trash for a while,,\nit will smash its Trainer's furnishings,\nand eat up the fragments.",
+  "preEvolutionId" : "SPECIES_GRIMER_ALOLAN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 105,
+    "atk" : 105,
+    "def" : 75,
+    "spe" : 50,
+    "spa" : 65,
+    "spd" : 100
+  },
+  "heldItems" : {
+    "common" : "Black Sludge"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Poison Gas"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 12,
+    "move" : "Disable"
+  }, {
+    "level" : 15,
+    "move" : "Acid Spray"
+  }, {
+    "level" : 18,
+    "move" : "Poison Fang"
+  }, {
+    "level" : 21,
+    "move" : "Minimize"
+  }, {
+    "level" : 26,
+    "move" : "Toxic"
+  }, {
+    "level" : 29,
+    "move" : "Knock Off"
+  }, {
+    "level" : 32,
+    "move" : "Crunch"
+  }, {
+    "level" : 37,
+    "move" : "Screech"
+  }, {
+    "level" : 40,
+    "move" : "Gunk Shot"
+  }, {
+    "level" : 46,
+    "move" : "Acid Armor"
+  }, {
+    "level" : 52,
+    "move" : "Belch"
+  }, {
+    "level" : 57,
+    "move" : "Memento"
+  } ],
+  "eggMoves" : [ "Assurance", "Clear Smog", "Curse", "Imprison", "Mean Look", "Power Up Punch", "Pursuit", "Scary Face", "Shadow Sneak", "Spit Up", "Spite", "Stockpile", "Swallow" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Crunch", "Dark Pulse", "Dig", "Double Team", "Drain Punch", "Endure", "Explosion", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Drain", "Giga Impact", "Hex", "Hyper Beam", "Ice Punch", "Knock Off", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Sandstorm", "Shadow Ball", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Stone Edge", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Torment", "Toxic", "Venoshock" ],
+  "encounters" : [ ]
+}

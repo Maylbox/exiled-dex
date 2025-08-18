@@ -1,0 +1,99 @@
+{
+  "dex" : 505,
+  "speciesId" : "SPECIES_LAMPENT",
+  "name" : "Lampent",
+  "types" : [ "Ghost", "Fire" ],
+  "abilities" : [ "Flash Fire", "Flame Body", "Infiltrator" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 130,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 13.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Black",
+  "category" : "Lamp",
+  "friendship" : 70,
+  "description" : "This ominous Pokémon is feared.\nThrough cities it wanders, searching\nfor the spirits of the fallen. The spirits\nit absorbs fuel its baleful fire.",
+  "preEvolutionId" : "SPECIES_LITWICK",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CHANDELURE",
+    "method" : "item",
+    "param" : "ITEM_DUSK_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 40,
+    "def" : 60,
+    "spe" : 55,
+    "spa" : 95,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Minimize"
+  }, {
+    "level" : 1,
+    "move" : "Smog"
+  }, {
+    "level" : 3,
+    "move" : "Minimize"
+  }, {
+    "level" : 5,
+    "move" : "Smog"
+  }, {
+    "level" : 7,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 10,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 13,
+    "move" : "Night Shade"
+  }, {
+    "level" : 16,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 20,
+    "move" : "Flame Burst"
+  }, {
+    "level" : 24,
+    "move" : "Imprison"
+  }, {
+    "level" : 28,
+    "move" : "Hex"
+  }, {
+    "level" : 33,
+    "move" : "Memento"
+  }, {
+    "level" : 38,
+    "move" : "Inferno"
+  }, {
+    "level" : 45,
+    "move" : "Curse"
+  }, {
+    "level" : 53,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 61,
+    "move" : "Pain Split"
+  }, {
+    "level" : 69,
+    "move" : "Overheat"
+  } ],
+  "eggMoves" : [ "Acid", "Acid Armor", "Captivate", "Clear Smog", "Endure", "Haze", "Heat Wave", "Power Split" ],
+  "teachableMoves" : [ "Attract", "Calm Mind", "Dark Pulse", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Fire Blast", "Flamethrower", "Flash", "Hex", "Mystical Fire", "Overheat", "Protect", "Psych Up", "Psychic", "Rest", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Taunt", "Thief", "Toxic", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ ]
+}

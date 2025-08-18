@@ -1,0 +1,124 @@
+{
+  "dex" : 12,
+  "speciesId" : "SPECIES_EXILED_BUTTERFREE",
+  "name" : "Butterfree",
+  "types" : [ "Normal", "Steel" ],
+  "abilities" : [ "Levitate", "Technician", "Tinted Lens" ],
+  "evYield" : {
+    "spa" : 2,
+    "spd" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.1,
+  "weightKg" : 32.0,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Butterfly",
+  "friendship" : 70,
+  "description" : "It has a superior ability to search for\ndelicious honey from flowers. It can seek,\nextract, and carry honey from flowers\nblooming over six miles away.",
+  "preEvolutionId" : "SPECIES_EXILED_METAPOD",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 87,
+    "def" : 66,
+    "spe" : 123,
+    "spa" : 114,
+    "spd" : 80
+  },
+  "heldItems" : {
+    "common" : "Silver Powder"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Mirror Shot"
+  }, {
+    "level" : 1,
+    "move" : "Aeroblast"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 1,
+    "move" : "Mirror Shot"
+  }, {
+    "level" : 1,
+    "move" : "String Shot"
+  }, {
+    "level" : 11,
+    "move" : "Gust"
+  }, {
+    "level" : 13,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 15,
+    "move" : "Struggle Bug"
+  }, {
+    "level" : 18,
+    "move" : "Hidden Power"
+  }, {
+    "level" : 23,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 26,
+    "move" : "Air Cutter"
+  }, {
+    "level" : 29,
+    "move" : "Draining Kiss"
+  }, {
+    "level" : 32,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 35,
+    "move" : "Electroweb"
+  }, {
+    "level" : 38,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 42,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 45,
+    "move" : "Tri Attack"
+  }, {
+    "level" : 48,
+    "move" : "Extremespeed"
+  }, {
+    "level" : 51,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 55,
+    "move" : "Shift Gear"
+  }, {
+    "level" : 67,
+    "move" : "Boomburst"
+  }, {
+    "level" : 69,
+    "move" : "Tachyon Cutter"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Calm Mind", "Charge Beam", "Cut", "Dark Pulse", "Dazzling Gleam", "Defog", "Double Team", "Dual Wingbeat", "Electroweb", "First Impression", "Flash", "Flash Cannon", "Fly", "Giga Impact", "Hidden Power", "Iron Defense", "Iron Head", "Light Screen", "Meteor Beam", "Mirror Coat", "Protect", "Reflect", "Return", "Safeguard", "Shadow Ball", "Shock Wave", "Silver Wind", "Smart Strike", "Steel Wing", "Substitute", "Taunt", "Thunder", "Thunder Wave", "Thunderbolt", "Volt Switch", "Volt Tackle" ],
+  "encounters" : [ {
+    "area" : "New Mauville_Inside",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 55,
+    "max" : 57,
+    "slot" : 11
+  }, {
+    "area" : "New Mauville_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 55,
+    "max" : 57,
+    "slot" : 11
+  } ]
+}

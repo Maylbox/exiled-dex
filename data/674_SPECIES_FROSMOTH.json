@@ -1,0 +1,195 @@
+{
+  "dex" : 674,
+  "speciesId" : "SPECIES_FROSMOTH",
+  "name" : "Frosmoth",
+  "types" : [ "Ice", "Bug" ],
+  "abilities" : [ "Shield Dust", "None", "Ice Scales" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 166,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.3,
+  "weightKg" : 42.0,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Frost Moth",
+  "friendship" : 70,
+  "description" : "Icy scales fall from its wings like snow\nas it flies over fields and mountains.\nThe temperature of its wings is less than\n-290 degrees Fahrenheit.",
+  "preEvolutionId" : "SPECIES_SNOM",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 65,
+    "def" : 60,
+    "spe" : 65,
+    "spa" : 125,
+    "spd" : 90
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 1,
+    "move" : "Attract"
+  }, {
+    "level" : 1,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 1,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 1,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 1,
+    "move" : "Struggle Bug"
+  }, {
+    "level" : 4,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 8,
+    "move" : "Infestation"
+  }, {
+    "level" : 10,
+    "move" : "Mist"
+  }, {
+    "level" : 13,
+    "move" : "Defog"
+  }, {
+    "level" : 18,
+    "move" : "Featherdance"
+  }, {
+    "level" : 21,
+    "move" : "Aurora Beam"
+  }, {
+    "level" : 28,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 32,
+    "move" : "Aurora Veil"
+  }, {
+    "level" : 38,
+    "move" : "Frost Breath"
+  }, {
+    "level" : 42,
+    "move" : "Tailwind"
+  }, {
+    "level" : 45,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 49,
+    "move" : "Wide Guard"
+  }, {
+    "level" : 52,
+    "move" : "Blizzard"
+  }, {
+    "level" : 57,
+    "move" : "Quiver Dance"
+  }, {
+    "level" : 62,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 68,
+    "move" : "Moonblast"
+  } ],
+  "eggMoves" : [ "Bug Bite", "Fairy Wind", "Mirror Coat" ],
+  "teachableMoves" : [ "Acrobatics", "Air Slash", "Attract", "Aurora Veil", "Avalanche", "Blizzard", "Calm Mind", "Dazzling Gleam", "Defog", "Dual Wingbeat", "Endure", "Facade", "Giga Drain", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Leech Life", "Light Screen", "Mirror Coat", "Play Rough", "Protect", "Reflect", "Rest", "Safeguard", "Sleep Talk", "Snore", "Snowscape", "Swift", "Triple Axel", "U Turn" ],
+  "encounters" : [ {
+    "area" : "Seafloor Cavern_Room1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 9
+  }, {
+    "area" : "Seafloor Cavern_Room2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 9
+  }, {
+    "area" : "Seafloor Cavern_Room3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 9
+  }, {
+    "area" : "Seafloor Cavern_Room4",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 9
+  }, {
+    "area" : "Seafloor Cavern_Room5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 9
+  }, {
+    "area" : "Seafloor Cavern_Room6",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 9
+  }, {
+    "area" : "Seafloor Cavern_Room7",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 9
+  }, {
+    "area" : "Seafloor Cavern_Room8",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 9
+  }, {
+    "area" : "Shoal Cave_Low Tide Stairs Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 2
+  }, {
+    "area" : "Shoal Cave_Low Tide Lower Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 2
+  }, {
+    "area" : "Shoal Cave_Low Tide Inner Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 2
+  }, {
+    "area" : "Shoal Cave_Low Tide Entrance Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 2
+  }, {
+    "area" : "Shoal Cave_Low Tide Ice Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 2
+  } ]
+}

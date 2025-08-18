@@ -1,0 +1,87 @@
+{
+  "dex" : 19,
+  "speciesId" : "SPECIES_SPEAROW",
+  "name" : "Spearow",
+  "types" : [ "Flying", null ],
+  "abilities" : [ "Keen Eye", "None", "Sniper" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.3,
+  "weightKg" : 2.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Tiny Bird",
+  "friendship" : 70,
+  "description" : "Its loud cry can be heard over half a mile\naway. If its high, keening cry is heard\nechoing all around, it is a sign that they\nare warning each other of danger.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_FEAROW",
+    "method" : "level",
+    "param" : "20"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 60,
+    "def" : 30,
+    "spe" : 70,
+    "spa" : 31,
+    "spd" : 31
+  },
+  "heldItems" : {
+    "common" : "Sharp Beak"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 4,
+    "move" : "Leer"
+  }, {
+    "level" : 8,
+    "move" : "Pursuit"
+  }, {
+    "level" : 11,
+    "move" : "Pluck"
+  }, {
+    "level" : 15,
+    "move" : "Aerial Ace"
+  }, {
+    "level" : 18,
+    "move" : "Floaty Fall"
+  }, {
+    "level" : 22,
+    "move" : "Assurance"
+  }, {
+    "level" : 25,
+    "move" : "Agility"
+  }, {
+    "level" : 29,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 32,
+    "move" : "Roost"
+  }, {
+    "level" : 36,
+    "move" : "Drill Peck"
+  } ],
+  "eggMoves" : [ "Astonish", "Feather Dance", "Feint Attack", "Quick Attack", "Razor Wind", "Scary Face", "Sky Attack", "Steel Wing", "Tri Attack", "Uproar", "Whirlwind" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Defog", "Double Edge", "Double Team", "Endure", "Facade", "False Swipe", "Fly", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ],
+  "encounters" : [ {
+    "area" : "Route 104",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 7,
+    "slot" : 3
+  } ]
+}

@@ -1,0 +1,122 @@
+{
+  "dex" : 239,
+  "speciesId" : "SPECIES_SCEPTILE_MEGA",
+  "name" : "Sceptile - Mega",
+  "types" : [ "Grass", "Dragon" ],
+  "abilities" : [ "Lightning Rod", "Lightning Rod", "Lightning Rod" ],
+  "evYield" : {
+    "spe" : 3
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.9,
+  "weightKg" : 55.2,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Forest",
+  "friendship" : 70,
+  "description" : "Thanks to the power in its quick legs,\nMega Sceptile can be on its opponent in a\nflash. It can cut off a portion of its tail\nto fire it like a missile at an opponent.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 110,
+    "def" : 75,
+    "spe" : 145,
+    "spa" : 145,
+    "spd" : 85
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Dual Chop"
+  }, {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Breaking Swipe"
+  }, {
+    "level" : 1,
+    "move" : "Dual Chop"
+  }, {
+    "level" : 1,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 1,
+    "move" : "Leaf Storm"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Night Slash"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 5,
+    "move" : "Absorb"
+  }, {
+    "level" : 9,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 13,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 18,
+    "move" : "Pursuit"
+  }, {
+    "level" : 23,
+    "move" : "Seismic Toss"
+  }, {
+    "level" : 25,
+    "move" : "Leaf Blade"
+  }, {
+    "level" : 28,
+    "move" : "Agility"
+  }, {
+    "level" : 36,
+    "move" : "Dual Chop"
+  }, {
+    "level" : 37,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 39,
+    "move" : "Detect"
+  }, {
+    "level" : 45,
+    "move" : "X Scissor"
+  }, {
+    "level" : 50,
+    "move" : "Aspen Slash"
+  }, {
+    "level" : 57,
+    "move" : "Quick Guard"
+  }, {
+    "level" : 63,
+    "move" : "Leaf Storm"
+  }, {
+    "level" : 65,
+    "move" : "Screech"
+  }, {
+    "level" : 67,
+    "move" : "Secret Sword"
+  }, {
+    "level" : 70,
+    "move" : "Scale Shot"
+  }, {
+    "level" : 89,
+    "move" : "Shed Tail"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Bullet Seed", "Counter", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Drain Punch", "Dynamic Punch", "Earthquake", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Focus Blast", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hone Claws", "Hyper Beam", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Seismic Toss", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Thunder Punch", "Toxic", "Trailblaze", "X Scissor" ],
+  "encounters" : [ ]
+}

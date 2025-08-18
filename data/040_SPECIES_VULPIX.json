@@ -1,0 +1,104 @@
+{
+  "dex" : 40,
+  "speciesId" : "SPECIES_VULPIX",
+  "name" : "Vulpix",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Flash Fire", "None", "Drought" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 9.9,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Fox",
+  "friendship" : 70,
+  "description" : "It can freely control fire, making fiery\norbs fly like will-o'-the-wisps. Just\nbefore evolution, its six tails grow hot \nas if on fire.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_NINETALES",
+    "method" : "item",
+    "param" : "ITEM_FIRE_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 38,
+    "atk" : 41,
+    "def" : 40,
+    "spe" : 65,
+    "spa" : 50,
+    "spd" : 65
+  },
+  "heldItems" : {
+    "common" : "Charcoal"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Incinerate"
+  }, {
+    "level" : 1,
+    "move" : "Psybeam"
+  }, {
+    "level" : 7,
+    "move" : "Roar"
+  }, {
+    "level" : 9,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 10,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 12,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 15,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 18,
+    "move" : "Payback"
+  }, {
+    "level" : 20,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 23,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 26,
+    "move" : "Hex"
+  }, {
+    "level" : 28,
+    "move" : "Flame Burst"
+  }, {
+    "level" : 31,
+    "move" : "Extrasensory"
+  }, {
+    "level" : 34,
+    "move" : "Safeguard"
+  }, {
+    "level" : 36,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 39,
+    "move" : "Imprison"
+  }, {
+    "level" : 42,
+    "move" : "Fire Blast"
+  }, {
+    "level" : 44,
+    "move" : "Grudge"
+  }, {
+    "level" : 47,
+    "move" : "Captivate"
+  }, {
+    "level" : 50,
+    "move" : "Inferno"
+  } ],
+  "eggMoves" : [ "Captivate", "Disable", "Extrasensory", "Feint Attack", "Flail", "Flare Blitz", "Heat Wave", "Hex", "Howl", "Hypnosis", "Power Swap", "Secret Power", "Spite", "Tail Slap" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Covet", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Endure", "Energy Ball", "Facade", "Fire Blast", "Flamethrower", "Hex", "Mystical Fire", "Overheat", "Protect", "Psych Up", "Reflect", "Rest", "Roar", "Safeguard", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Toxic", "Will O Wisp" ],
+  "encounters" : [ ]
+}

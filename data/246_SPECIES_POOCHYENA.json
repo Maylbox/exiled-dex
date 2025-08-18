@@ -1,0 +1,101 @@
+{
+  "dex" : 246,
+  "speciesId" : "SPECIES_POOCHYENA",
+  "name" : "Poochyena",
+  "types" : [ "Dark", null ],
+  "abilities" : [ "Run Away", "Quick Feet", "Rattled" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 55,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.5,
+  "weightKg" : 13.6,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Bite",
+  "friendship" : 70,
+  "description" : "It savagely threatens foes with bared\nfangs. It chases after fleeing targets\ntenaciously. It turns tail and runs,\nhowever, if the foe strikes back.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MIGHTYENA",
+    "method" : "level",
+    "param" : "18"
+  } ],
+  "baseStats" : {
+    "hp" : 35,
+    "atk" : 55,
+    "def" : 35,
+    "spe" : 35,
+    "spa" : 30,
+    "spd" : 30
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Howl"
+  }, {
+    "level" : 7,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 10,
+    "move" : "Bite"
+  }, {
+    "level" : 13,
+    "move" : "Leer"
+  }, {
+    "level" : 16,
+    "move" : "Roar"
+  }, {
+    "level" : 19,
+    "move" : "Swagger"
+  }, {
+    "level" : 22,
+    "move" : "Assurance"
+  }, {
+    "level" : 25,
+    "move" : "Scary Face"
+  }, {
+    "level" : 28,
+    "move" : "Taunt"
+  }, {
+    "level" : 31,
+    "move" : "Crunch"
+  }, {
+    "level" : 34,
+    "move" : "Yawn"
+  }, {
+    "level" : 36,
+    "move" : "Take Down"
+  }, {
+    "level" : 40,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 44,
+    "move" : "Play Rough"
+  } ],
+  "eggMoves" : [ "Astonish", "Covet", "Fire Fang", "Ice Fang", "Leer", "Me First", "Play Rough", "Poison Fang", "Sleep Talk", "Snatch", "Sucker Punch", "Thunder Fang", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Counter", "Covet", "Crunch", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "Fire Fang", "Ice Fang", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Rock Smash", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Fang", "Torment", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "area" : "Oldale Town0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 4,
+    "max" : 5,
+    "slot" : 1
+  }, {
+    "area" : "Oldale Town0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 4,
+    "max" : 5,
+    "slot" : 3
+  } ]
+}

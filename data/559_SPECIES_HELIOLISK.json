@@ -1,0 +1,94 @@
+{
+  "dex" : 559,
+  "speciesId" : "SPECIES_HELIOLISK",
+  "name" : "Heliolisk",
+  "types" : [ "Electric", "Normal" ],
+  "abilities" : [ "Dry Skin", "Sand Veil", "Solar Power" ],
+  "evYield" : {
+    "spa" : 1,
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 168,
+  "eggGroups" : [ "Monster", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 21.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Generator",
+  "friendship" : 70,
+  "description" : "A single Heliolisk can generate sufficient\nelectricity to power a skyscraper. It can\nstimulate its muscles with electricity,\nboosting the strength in its legs.",
+  "preEvolutionId" : "SPECIES_HELIOPTILE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 68,
+    "atk" : 55,
+    "def" : 52,
+    "spe" : 119,
+    "spa" : 119,
+    "spd" : 94
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 1,
+    "move" : "Charge"
+  }, {
+    "level" : 1,
+    "move" : "Discharge"
+  }, {
+    "level" : 1,
+    "move" : "Eerie Impulse"
+  }, {
+    "level" : 1,
+    "move" : "Electrify"
+  }, {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "Parabolic Charge"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 1,
+    "move" : "Thunder"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 1,
+    "move" : "Thunderbolt"
+  }, {
+    "level" : 1,
+    "move" : "Volt Switch"
+  }, {
+    "level" : 65,
+    "move" : "Boomburst"
+  } ],
+  "eggMoves" : [ "Agility", "Camouflage", "Electric Terrain", "Glare" ],
+  "teachableMoves" : [ "Attract", "Bulldoze", "Charge Beam", "Cut", "Dark Pulse", "Dig", "Double Team", "Dragon Pulse", "Dragon Tail", "Electroweb", "Endure", "Facade", "Fire Punch", "Flash", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Surf", "Swagger", "Swift", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "U Turn", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ {
+    "area" : "Route 111",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 46,
+    "slot" : 10
+  } ]
+}

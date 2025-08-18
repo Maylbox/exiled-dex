@@ -1,0 +1,168 @@
+{
+  "dex" : 7,
+  "speciesId" : "SPECIES_SQUIRTLE",
+  "name" : "Squirtle",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Torrent", "Battle Armor", "Swift Swim" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 9.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Tiny Turtle",
+  "friendship" : 70,
+  "description" : "Its shell is not just for protection.\nIts rounded shape and the grooves on its\nsurface minimize resistance in water,\nenabling Squirtle to swim at high speeds.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_WARTORTLE",
+    "method" : "level",
+    "param" : "16"
+  } ],
+  "baseStats" : {
+    "hp" : 44,
+    "atk" : 48,
+    "def" : 65,
+    "spe" : 43,
+    "spa" : 50,
+    "spd" : 64
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 7,
+    "move" : "Water Gun"
+  }, {
+    "level" : 10,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 13,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 16,
+    "move" : "Bite"
+  }, {
+    "level" : 19,
+    "move" : "Fake Out"
+  }, {
+    "level" : 22,
+    "move" : "Protect"
+  }, {
+    "level" : 25,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 28,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 31,
+    "move" : "Skull Bash"
+  }, {
+    "level" : 34,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 37,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 40,
+    "move" : "Hydro Pump"
+  } ],
+  "eggMoves" : [ "Aqua Jet", "Aqua Ring", "Aura Sphere", "Brine", "Dragon Pulse", "Fake Out", "Flail", "Foresight", "Haze", "Mirror Coat", "Mist", "Mud Sport", "Muddy Water", "Refresh", "Water Spout", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Aura Sphere", "Blizzard", "Body Slam", "Brick Break", "Counter", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Dragon Pulse", "Dynamic Punch", "Endure", "Facade", "False Swipe", "Flip Turn", "Gyro Ball", "Ice Beam", "Ice Punch", "Icy Wind", "Iron Defense", "Mega Kick", "Mega Punch", "Mirror Coat", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Scald", "Seismic Toss", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "area" : "Dewford Town",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 0
+  }, {
+    "area" : "Battle Pyramid_4",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 9
+  }, {
+    "area" : "Battle Pyramid_4",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 11
+  }, {
+    "area" : "Battle Pyramid_5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 6
+  }, {
+    "area" : "Battle Pyramid_5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 7
+  }, {
+    "area" : "Battle Pyramid_5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 8
+  }, {
+    "area" : "Battle Pyramid_5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 10
+  }, {
+    "area" : "Battle Pyramid_6",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 4
+  }, {
+    "area" : "Battle Pyramid_6",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 5
+  }, {
+    "area" : "Battle Pyramid_7",
+    "bucket" : "Land",
+    "rateBase" : 8,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 2
+  }, {
+    "area" : "Battle Pyramid_7",
+    "bucket" : "Land",
+    "rateBase" : 8,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 3
+  }, {
+    "area" : "Battle Pyramid_7",
+    "bucket" : "Land",
+    "rateBase" : 8,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 4
+  } ]
+}

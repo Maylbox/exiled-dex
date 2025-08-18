@@ -1,0 +1,133 @@
+{
+  "dex" : 678,
+  "speciesId" : "SPECIES_ARCTOZOLT",
+  "name" : "Arctozolt",
+  "types" : [ "Electric", "Ice" ],
+  "abilities" : [ "Volt Absorb", "Static", "Slush Rush" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 45,
+  "baseExp" : 177,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 8960,
+  "heightM" : 2.3,
+  "weightKg" : 150.0,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Fossil",
+  "friendship" : 70,
+  "description" : "The shaking of its freezing upper half is\nwhat generates its electricity. It has a\nhard time walking around.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 100,
+    "def" : 90,
+    "spe" : 55,
+    "spa" : 90,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 7,
+    "move" : "Charge"
+  }, {
+    "level" : 14,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 21,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 28,
+    "move" : "Pluck"
+  }, {
+    "level" : 35,
+    "move" : "Avalanche"
+  }, {
+    "level" : 42,
+    "move" : "Freeze Dry"
+  }, {
+    "level" : 49,
+    "move" : "Slam"
+  }, {
+    "level" : 56,
+    "move" : "Discharge"
+  }, {
+    "level" : 63,
+    "move" : "Bolt Beak"
+  }, {
+    "level" : 70,
+    "move" : "Icicle Crash"
+  }, {
+    "level" : 77,
+    "move" : "Blizzard"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Endure", "Facade", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Fang", "Icicle Crash", "Icy Wind", "Low Kick", "Mega Kick", "Mega Punch", "Meteor Beam", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sleep Talk", "Snore", "Stone Edge", "Surf", "Taunt", "Thunder", "Thunder Fang", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Wild Charge" ],
+  "encounters" : [ {
+    "area" : "Shoal Cave_Low Tide Stairs Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 7
+  }, {
+    "area" : "Shoal Cave_Low Tide Lower Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 7
+  }, {
+    "area" : "Shoal Cave_Low Tide Inner Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 7
+  }, {
+    "area" : "Shoal Cave_Low Tide Entrance Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 7
+  }, {
+    "area" : "Shoal Cave_Low Tide Ice Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 7
+  }, {
+    "area" : "Mirage Tower_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 11
+  }, {
+    "area" : "Mirage Tower_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 11
+  }, {
+    "area" : "Mirage Tower_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 11
+  } ]
+}

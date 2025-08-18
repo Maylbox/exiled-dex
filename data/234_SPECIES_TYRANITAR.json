@@ -1,0 +1,135 @@
+{
+  "dex" : 234,
+  "speciesId" : "SPECIES_TYRANITAR",
+  "name" : "Tyranitar",
+  "types" : [ "Rock", "Dark" ],
+  "abilities" : [ "Sand Stream", "Intimidate", "Unnerve" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 218,
+  "eggGroups" : [ "Monster" ],
+  "hatchSteps" : 10240,
+  "heightM" : 2.0,
+  "weightKg" : 202.0,
+  "growthRate" : "Slow",
+  "color" : "Green",
+  "category" : "Armor",
+  "friendship" : 35,
+  "description" : "A Tyranitar is so overwhelmingly powerful,\nit can bring down a whole mountain to make\nits nest. It roams in mountains seeking\nnew opponents to fight.",
+  "preEvolutionId" : "SPECIES_PUPITAR",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 134,
+    "def" : 110,
+    "spe" : 61,
+    "spa" : 95,
+    "spd" : 100
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Dark Pulse"
+  }, {
+    "level" : 1,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 1,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 1,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Payback"
+  }, {
+    "level" : 1,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Fang"
+  }, {
+    "level" : 9,
+    "move" : "Bite"
+  }, {
+    "level" : 12,
+    "move" : "Scary Face"
+  }, {
+    "level" : 15,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 18,
+    "move" : "Stomping Tantrum"
+  }, {
+    "level" : 21,
+    "move" : "Screech"
+  }, {
+    "level" : 24,
+    "move" : "Smack Down"
+  }, {
+    "level" : 27,
+    "move" : "Crunch"
+  }, {
+    "level" : 33,
+    "move" : "Earthquake"
+  }, {
+    "level" : 37,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 42,
+    "move" : "Thrash"
+  }, {
+    "level" : 47,
+    "move" : "Sandstorm"
+  }, {
+    "level" : 52,
+    "move" : "Hyper Beam"
+  }, {
+    "level" : 59,
+    "move" : "Giga Impact"
+  }, {
+    "level" : 68,
+    "move" : "Mountain Gale"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Assurance", "Curse", "Dragon Dance", "Focus Energy", "Iron Defense", "Iron Head", "Iron Tail", "Outrage", "Pursuit", "Stealth Rock", "Stomp" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Giga Impact", "High Horsepower", "Hone Claws", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Seismic Toss", "Shadow Claw", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Taunt", "Thunder", "Thunder Fang", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Water Pulse" ],
+  "encounters" : [ {
+    "area" : "Meteor Falls_B1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 7
+  }, {
+    "area" : "Victory Road_B1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 1
+  }, {
+    "area" : "Meteor Falls_1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 7
+  }, {
+    "area" : "Meteor Falls_B1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 7
+  } ]
+}

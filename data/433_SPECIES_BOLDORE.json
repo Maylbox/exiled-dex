@@ -1,0 +1,114 @@
+{
+  "dex" : 433,
+  "speciesId" : "SPECIES_BOLDORE",
+  "name" : "Boldore",
+  "types" : [ "Rock", null ],
+  "abilities" : [ "Sturdy", "Weak Armor", "Sand Force" ],
+  "evYield" : {
+    "def" : 1,
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 137,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.9,
+  "weightKg" : 102.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Ore",
+  "friendship" : 70,
+  "description" : "Its orange crystal is a mass of energy.\nJust one crystal fragment would provide\nenough fuel for a hundred dump trucks.\nWhen it is healthy, its core sticks out.",
+  "preEvolutionId" : "SPECIES_ROGGENROLA",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GIGALITH",
+    "method" : "trade",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_GIGALITH",
+    "method" : "item",
+    "param" : "ITEM_LINKING_CORD"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 105,
+    "def" : 105,
+    "spe" : 20,
+    "spa" : 50,
+    "spd" : 40
+  },
+  "heldItems" : {
+    "common" : "Everstone",
+    "rare" : "Hard Stone"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Stomping Tantrum"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Headbutt"
+  }, {
+    "level" : 1,
+    "move" : "Power Gem"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Stomping Tantrum"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Harden"
+  }, {
+    "level" : 7,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 10,
+    "move" : "Headbutt"
+  }, {
+    "level" : 14,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 17,
+    "move" : "Magnitude"
+  }, {
+    "level" : 20,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 23,
+    "move" : "Smack Down"
+  }, {
+    "level" : 25,
+    "move" : "Power Gem"
+  }, {
+    "level" : 36,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 42,
+    "move" : "Sandstorm"
+  }, {
+    "level" : 48,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 55,
+    "move" : "Explosion"
+  } ],
+  "eggMoves" : [ "Autotomize", "Curse", "Gravity", "Heavy Slam", "Lock On", "Magnitude", "Rock Tomb", "Take Down", "Wide Guard" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Bulldoze", "Double Team", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Flash Cannon", "Iron Defense", "Meteor Beam", "Mud Slap", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Swagger", "Toxic" ],
+  "encounters" : [ {
+    "area" : "Meteor Falls_1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 6
+  } ]
+}

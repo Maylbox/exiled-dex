@@ -1,0 +1,109 @@
+{
+  "dex" : 611,
+  "speciesId" : "SPECIES_TSAREENA",
+  "name" : "Tsareena",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Leaf Guard", "Queenly Majesty", "Sweet Veil" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.2,
+  "weightKg" : 21.4,
+  "growthRate" : "Medium Slow",
+  "color" : "Purple",
+  "category" : "Fruit",
+  "friendship" : 70,
+  "description" : "Its long, striking legs aren't just for\nshow but to be used to kick with skill.\nIn victory, it shows off by kicking the\ndefeated, laughing boisterously.",
+  "preEvolutionId" : "SPECIES_STEENEE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 72,
+    "atk" : 120,
+    "def" : 98,
+    "spe" : 82,
+    "spa" : 50,
+    "spd" : 98
+  },
+  "heldItems" : {
+    "common" : "Grassy Seed"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Trop Kick"
+  }, {
+    "level" : 1,
+    "move" : "Punishment"
+  }, {
+    "level" : 1,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 1,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 1,
+    "move" : "Seed Bomb"
+  }, {
+    "level" : 1,
+    "move" : "Splash"
+  }, {
+    "level" : 1,
+    "move" : "Swagger"
+  }, {
+    "level" : 1,
+    "move" : "Trop Kick"
+  }, {
+    "level" : 5,
+    "move" : "Swagger"
+  }, {
+    "level" : 9,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 13,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 17,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 21,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 25,
+    "move" : "Teeter Dance"
+  }, {
+    "level" : 29,
+    "move" : "Stomp"
+  }, {
+    "level" : 29,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 33,
+    "move" : "Aromatic Mist"
+  }, {
+    "level" : 37,
+    "move" : "Captivate"
+  }, {
+    "level" : 41,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 45,
+    "move" : "Leaf Storm"
+  }, {
+    "level" : 49,
+    "move" : "Hi Jump Kick"
+  }, {
+    "level" : 53,
+    "move" : "Power Whip"
+  }, {
+    "level" : 66,
+    "move" : "Grav Apple"
+  } ],
+  "eggMoves" : [ "Acupressure", "Charm", "Feint", "Grass Whistle", "Play Rough", "Synthesis" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Bullet Seed", "Covet", "Dazzling Gleam", "Double Team", "Endure", "Energy Ball", "Facade", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Knock Off", "Light Screen", "Low Kick", "Mega Kick", "Play Rough", "Power Whip", "Protect", "Reflect", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Sunny Day", "Swagger", "Swift", "Taunt", "Toxic", "Trailblaze", "Triple Axel", "U Turn" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,103 @@
+{
+  "dex" : 15,
+  "speciesId" : "SPECIES_BEEDRILL",
+  "name" : "Beedrill",
+  "types" : [ "Bug", "Poison" ],
+  "abilities" : [ "Speed Boost", "Adaptability", "Sniper" ],
+  "evYield" : {
+    "spd" : 1,
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 159,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.0,
+  "weightKg" : 29.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Poison Bee",
+  "friendship" : 70,
+  "description" : "A Beedrill is extremely territorial.\nFor safety reasons, no one should ever\napproach its nest. If angered, they will\nattack in a swarm.",
+  "preEvolutionId" : "SPECIES_KAKUNA",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MAMMOTREE",
+    "method" : "level",
+    "param" : "100"
+  } ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 100,
+    "def" : 55,
+    "spe" : 90,
+    "spa" : 45,
+    "spd" : 80
+  },
+  "heldItems" : {
+    "common" : "Poison Barb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Twineedle"
+  }, {
+    "level" : 1,
+    "move" : "Twineedle"
+  }, {
+    "level" : 10,
+    "move" : "Twineedle"
+  }, {
+    "level" : 11,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 14,
+    "move" : "Rage"
+  }, {
+    "level" : 17,
+    "move" : "Pursuit"
+  }, {
+    "level" : 20,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 23,
+    "move" : "Venoshock"
+  }, {
+    "level" : 26,
+    "move" : "Attack Order"
+  }, {
+    "level" : 29,
+    "move" : "Toxic Spikes"
+  }, {
+    "level" : 32,
+    "move" : "Pin Missile"
+  }, {
+    "level" : 35,
+    "move" : "Poison Jab"
+  }, {
+    "level" : 38,
+    "move" : "Agility"
+  }, {
+    "level" : 41,
+    "move" : "Endeavor"
+  }, {
+    "level" : 44,
+    "move" : "Fell Stinger"
+  }, {
+    "level" : 57,
+    "move" : "Megahorn"
+  }, {
+    "level" : 63,
+    "move" : "Thousand Arrows"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Brick Break", "Cut", "Defog", "Double Edge", "Double Team", "Electroweb", "Endure", "Facade", "False Swipe", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Hyper Beam", "Knock Off", "Poison Jab", "Protect", "Reflect", "Rest", "Rock Smash", "Roost", "Silver Wind", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic", "U Turn", "Venoshock", "X Scissor" ],
+  "encounters" : [ {
+    "area" : "Fortree City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 50,
+    "max" : 53,
+    "slot" : 9
+  } ]
+}

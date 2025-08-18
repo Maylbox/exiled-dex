@@ -1,0 +1,137 @@
+{
+  "dex" : 18,
+  "speciesId" : "SPECIES_PIDGEOT_MEGA",
+  "name" : "Pidgeot - Mega",
+  "types" : [ "Normal", "Flying" ],
+  "abilities" : [ "No Guard", "No Guard", "No Guard" ],
+  "evYield" : {
+    "spe" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 3840,
+  "heightM" : 2.2,
+  "weightKg" : 50.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Bird",
+  "friendship" : 70,
+  "description" : "With its muscular strength now greatly\nincreased, it can fly continuously\nfor two weeks without resting.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 83,
+    "atk" : 80,
+    "def" : 80,
+    "spe" : 130,
+    "spa" : 135,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 1,
+    "move" : "Air Cutter"
+  }, {
+    "level" : 1,
+    "move" : "Air Slash"
+  }, {
+    "level" : 1,
+    "move" : "Bleakwind Storm"
+  }, {
+    "level" : 1,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 1,
+    "move" : "Defog"
+  }, {
+    "level" : 1,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 1,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 1,
+    "move" : "Foresight"
+  }, {
+    "level" : 1,
+    "move" : "Heat Wave"
+  }, {
+    "level" : 1,
+    "move" : "Hurricane"
+  }, {
+    "level" : 1,
+    "move" : "Pursuit"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 1,
+    "move" : "Steel Wing"
+  }, {
+    "level" : 1,
+    "move" : "Uproar"
+  }, {
+    "level" : 7,
+    "move" : "Featherdance"
+  }, {
+    "level" : 9,
+    "move" : "Gust"
+  }, {
+    "level" : 13,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 17,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 23,
+    "move" : "Return"
+  }, {
+    "level" : 26,
+    "move" : "Roost"
+  }, {
+    "level" : 32,
+    "move" : "Agility"
+  }, {
+    "level" : 38,
+    "move" : "Air Slash"
+  }, {
+    "level" : 44,
+    "move" : "Heat Wave"
+  }, {
+    "level" : 50,
+    "move" : "Tailwind"
+  }, {
+    "level" : 54,
+    "move" : "Tri Attack"
+  }, {
+    "level" : 56,
+    "move" : "Mirror Move"
+  }, {
+    "level" : 62,
+    "move" : "U Turn"
+  }, {
+    "level" : 68,
+    "move" : "Hurricane"
+  }, {
+    "level" : 72,
+    "move" : "Focus Blast"
+  }, {
+    "level" : 76,
+    "move" : "Wildbolt Storm"
+  }, {
+    "level" : 79,
+    "move" : "Sandsear Storm"
+  }, {
+    "level" : 83,
+    "move" : "Bleakwind Storm"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Defog", "Double Edge", "Double Team", "Endure", "Facade", "Fly", "Giga Impact", "Hyper Beam", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ],
+  "encounters" : [ ]
+}

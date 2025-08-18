@@ -1,0 +1,98 @@
+{
+  "dex" : 585,
+  "speciesId" : "SPECIES_EXILED_CHARJABUG",
+  "name" : "Charjabug",
+  "types" : [ "Bug", "Ground" ],
+  "abilities" : [ "Solid Rock", "None", "Earth Eater" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 140,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.5,
+  "weightKg" : 10.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Battery",
+  "friendship" : 70,
+  "description" : "From the food it digests, it generates\nelectricity, and it stores this energy in\nits electric sac. On camping trips, people\nare grateful to have one around.",
+  "preEvolutionId" : "SPECIES_EXILED_GRUBBIN",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_VIKAVOLT",
+    "method" : "level",
+    "param" : "37"
+  } ],
+  "baseStats" : {
+    "hp" : 51,
+    "atk" : 122,
+    "def" : 77,
+    "spe" : 33,
+    "spa" : 45,
+    "spd" : 75
+  },
+  "heldItems" : {
+    "common" : "Cell Battery"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "String Shot"
+  }, {
+    "level" : 1,
+    "move" : "Vicegrip"
+  }, {
+    "level" : 4,
+    "move" : "String Shot"
+  }, {
+    "level" : 7,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 10,
+    "move" : "Bite"
+  }, {
+    "level" : 13,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 16,
+    "move" : "Hyper Fang"
+  }, {
+    "level" : 19,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 20,
+    "move" : "Super Fang"
+  }, {
+    "level" : 25,
+    "move" : "Crunch"
+  }, {
+    "level" : 31,
+    "move" : "X Scissor"
+  }, {
+    "level" : 37,
+    "move" : "Dig"
+  }, {
+    "level" : 43,
+    "move" : "Leech Life"
+  }, {
+    "level" : 49,
+    "move" : "Iron Defense"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Crunch", "Cut", "Dig", "Dual Wingbeat", "Earthquake", "Facade", "Fire Fang", "First Impression", "High Horsepower", "Hone Claws", "Ice Fang", "Iron Defense", "Iron Head", "Knock Off", "Leech Life", "Play Rough", "Protect", "Psychic Fangs", "Reflect", "Rest", "Return", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Safeguard", "Secret Power", "Sleep Talk", "Smack Down", "Smart Strike", "Stealth Rock", "Steel Wing", "Stone Edge", "Strength", "Substitute", "Swords Dance", "Taunt", "Thunder Fang", "Torment", "Trailblaze", "U Turn", "Volt Tackle", "Wild Charge", "X Scissor" ],
+  "encounters" : [ ]
+}

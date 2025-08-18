@@ -1,0 +1,119 @@
+{
+  "dex" : 267,
+  "speciesId" : "SPECIES_GARDEVOIR",
+  "name" : "Gardevoir",
+  "types" : [ "Psychic", "Fairy" ],
+  "abilities" : [ "Synchronize", "Trace", "Fairy Aura" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 208,
+  "eggGroups" : [ ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.6,
+  "weightKg" : 48.4,
+  "growthRate" : "Slow",
+  "color" : "White",
+  "category" : "Embrace",
+  "friendship" : 35,
+  "description" : "It apparently does not feel the pull of\ngravity because it supports itself with\npsychic power. It will give its life to\nprotect its Trainer.",
+  "preEvolutionId" : "SPECIES_KIRLIA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 68,
+    "atk" : 65,
+    "def" : 65,
+    "spe" : 80,
+    "spa" : 125,
+    "spd" : 115
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Double Team"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Healing Wish"
+  }, {
+    "level" : 1,
+    "move" : "Misty Terrain"
+  }, {
+    "level" : 1,
+    "move" : "Moonblast"
+  }, {
+    "level" : 1,
+    "move" : "Stored Power"
+  }, {
+    "level" : 1,
+    "move" : "Teleport"
+  }, {
+    "level" : 4,
+    "move" : "Confusion"
+  }, {
+    "level" : 6,
+    "move" : "Double Team"
+  }, {
+    "level" : 9,
+    "move" : "Teleport"
+  }, {
+    "level" : 11,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 14,
+    "move" : "Wish"
+  }, {
+    "level" : 17,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 19,
+    "move" : "Heal Pulse"
+  }, {
+    "level" : 23,
+    "move" : "Draining Kiss"
+  }, {
+    "level" : 30,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 32,
+    "move" : "Psychic Noise"
+  }, {
+    "level" : 35,
+    "move" : "Imprison"
+  }, {
+    "level" : 40,
+    "move" : "Future Sight"
+  }, {
+    "level" : 44,
+    "move" : "Captivate"
+  }, {
+    "level" : 49,
+    "move" : "Hypnosis"
+  }, {
+    "level" : 53,
+    "move" : "Dream Eater"
+  }, {
+    "level" : 58,
+    "move" : "Stored Power"
+  }, {
+    "level" : 62,
+    "move" : "Moonblast"
+  }, {
+    "level" : 70,
+    "move" : "Recover"
+  } ],
+  "eggMoves" : [ "Ally Switch", "Confuse Ray", "Destiny Bond", "Disable", "Encore", "Grudge", "Mean Look", "Memento", "Misty Terrain", "Shadow Sneak", "Skill Swap", "Synchronoise" ],
+  "teachableMoves" : [ "Attract", "Aura Sphere", "Body Slam", "Calm Mind", "Charge Beam", "Dazzling Gleam", "Defense Curl", "Double Edge", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Fire Punch", "Flash", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Mystical Fire", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Triple Axel", "Will O Wisp" ],
+  "encounters" : [ ]
+}

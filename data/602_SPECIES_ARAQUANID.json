@@ -1,0 +1,107 @@
+{
+  "dex" : 602,
+  "speciesId" : "SPECIES_ARAQUANID",
+  "name" : "Araquanid",
+  "types" : [ "Water", "Bug" ],
+  "abilities" : [ "Water Bubble", "None", "Water Absorb" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 100,
+  "baseExp" : 159,
+  "eggGroups" : [ "Water 1", "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.8,
+  "weightKg" : 82.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Water Bubble",
+  "friendship" : 70,
+  "description" : null,
+  "preEvolutionId" : "SPECIES_DEWPIDER",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 68,
+    "atk" : 70,
+    "def" : 92,
+    "spe" : 42,
+    "spa" : 50,
+    "spd" : 132
+  },
+  "heldItems" : {
+    "common" : "Mystic Water"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bubble"
+  }, {
+    "level" : 1,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 1,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 1,
+    "move" : "Infestation"
+  }, {
+    "level" : 1,
+    "move" : "Soak"
+  }, {
+    "level" : 1,
+    "move" : "Spider Web"
+  }, {
+    "level" : 1,
+    "move" : "Wide Guard"
+  }, {
+    "level" : 5,
+    "move" : "Infestation"
+  }, {
+    "level" : 8,
+    "move" : "Spider Web"
+  }, {
+    "level" : 13,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 16,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 21,
+    "move" : "Bite"
+  }, {
+    "level" : 26,
+    "move" : "Aqua Ring"
+  }, {
+    "level" : 33,
+    "move" : "Leech Life"
+  }, {
+    "level" : 34,
+    "move" : "Crunch"
+  }, {
+    "level" : 38,
+    "move" : "Lunge"
+  }, {
+    "level" : 41,
+    "move" : "Mirror Coat"
+  }, {
+    "level" : 44,
+    "move" : "Liquidation"
+  }, {
+    "level" : 50,
+    "move" : "Wave Crash"
+  }, {
+    "level" : 54,
+    "move" : "Entrainment"
+  } ],
+  "eggMoves" : [ "Aurora Beam", "Power Split", "Spit Up", "Sticky Web", "Stockpile" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Crunch", "Dive", "Double Team", "Endure", "Facade", "Giga Drain", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Leech Life", "Mirror Coat", "Poison Jab", "Protect", "Rain Dance", "Reflect", "Rest", "Safeguard", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Toxic", "Trailblaze", "Water Pulse", "Waterfall", "X Scissor" ],
+  "encounters" : [ {
+    "area" : "Route 119",
+    "bucket" : "Land",
+    "rateBase" : 15,
+    "min" : 50,
+    "max" : 54,
+    "slot" : 5
+  } ]
+}

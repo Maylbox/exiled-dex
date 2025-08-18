@@ -1,0 +1,122 @@
+{
+  "dex" : 429,
+  "speciesId" : "SPECIES_DEWOTT",
+  "name" : "Dewott",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Torrent", "Shell Armor", "Hydration" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 145,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 24.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Discipline",
+  "friendship" : 70,
+  "description" : "Strict training and disclipine leads it\nto master its flowing double-scalchop\ntechnique. Scalchop techniques differ\nfrom one Dewott to another.",
+  "preEvolutionId" : "SPECIES_OSHAWOTT",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SAMUROTT",
+    "method" : "level",
+    "param" : "36"
+  }, {
+    "toSpeciesId" : "SPECIES_SAMUROTT_HISUIAN",
+    "method" : "none",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 75,
+    "def" : 60,
+    "spe" : 60,
+    "spa" : 83,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 1,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 1,
+    "move" : "Revenge"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 1,
+    "move" : "Water Sport"
+  }, {
+    "level" : 5,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 7,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 11,
+    "move" : "Water Sport"
+  }, {
+    "level" : 13,
+    "move" : "Aerial Ace"
+  }, {
+    "level" : 17,
+    "move" : "Razor Shell"
+  }, {
+    "level" : 19,
+    "move" : "Knock Off"
+  }, {
+    "level" : 21,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 25,
+    "move" : "Scald"
+  }, {
+    "level" : 28,
+    "move" : "Revenge"
+  }, {
+    "level" : 33,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 36,
+    "move" : "Encore"
+  }, {
+    "level" : 41,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 44,
+    "move" : "Retaliate"
+  }, {
+    "level" : 49,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 52,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 70,
+    "move" : "Razor Shell"
+  } ],
+  "eggMoves" : [ "Air Slash", "Assurance", "Brine", "Copycat", "Detect", "Night Slash", "Sacred Sword", "Screech", "Trump Card" ],
+  "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Avalanche", "Blizzard", "Brick Break", "Covet", "Cut", "Dig", "Dive", "Double Team", "Endure", "Facade", "False Swipe", "Flip Turn", "Fury Cutter", "Grass Knot", "Ice Beam", "Icy Wind", "Knock Off", "Protect", "Rain Dance", "Rest", "Rock Smash", "Scald", "Sleep Talk", "Snore", "Snowscape", "Surf", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Toxic", "Water Pulse", "Waterfall", "X Scissor" ],
+  "encounters" : [ {
+    "area" : "Verdanturf Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 21,
+    "max" : 25,
+    "slot" : 8
+  } ]
+}

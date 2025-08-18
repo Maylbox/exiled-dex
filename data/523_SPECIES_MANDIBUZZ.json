@@ -1,0 +1,103 @@
+{
+  "dex" : 523,
+  "speciesId" : "SPECIES_MANDIBUZZ",
+  "name" : "Mandibuzz",
+  "types" : [ "Dark", "Flying" ],
+  "abilities" : [ "Big Pecks", "Overcoat", "Weak Armor" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 60,
+  "baseExp" : 179,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.2,
+  "weightKg" : 39.5,
+  "growthRate" : "Slow",
+  "color" : "Brown",
+  "category" : "Bone Vulture",
+  "friendship" : 35,
+  "description" : "They adorn themselves beautifully with\nbones. This is supposedly an effort to\nattract males, but no male Mandibuzz\nhave ever been found.",
+  "preEvolutionId" : "SPECIES_VULLABY",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 110,
+    "atk" : 65,
+    "def" : 105,
+    "spe" : 80,
+    "spa" : 55,
+    "spd" : 95
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Bone Rush"
+  }, {
+    "level" : 1,
+    "move" : "Flatter"
+  }, {
+    "level" : 1,
+    "move" : "Gust"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Pluck"
+  }, {
+    "level" : 1,
+    "move" : "Sky Attack"
+  }, {
+    "level" : 1,
+    "move" : "Toxic"
+  }, {
+    "level" : 18,
+    "move" : "Tailwind"
+  }, {
+    "level" : 24,
+    "move" : "Knock Off"
+  }, {
+    "level" : 30,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 36,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 42,
+    "move" : "Air Slash"
+  }, {
+    "level" : 48,
+    "move" : "Dark Pulse"
+  }, {
+    "level" : 57,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 64,
+    "move" : "Defog"
+  }, {
+    "level" : 72,
+    "move" : "Attract"
+  }, {
+    "level" : 80,
+    "move" : "Brave Bird"
+  } ],
+  "eggMoves" : [ "Fake Tears", "Foul Play", "Knock Off", "Mean Look", "Roost", "Scary Face", "Steel Wing" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Cut", "Dark Pulse", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "Fly", "Giga Impact", "Hyper Beam", "Iron Defense", "Knock Off", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Smash", "Rock Tomb", "Roost", "Sandstorm", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "U Turn" ],
+  "encounters" : [ {
+    "area" : "Route 119",
+    "bucket" : "Land",
+    "rateBase" : 15,
+    "min" : 50,
+    "max" : 54,
+    "slot" : 7
+  }, {
+    "area" : "Fortree City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 50,
+    "max" : 53,
+    "slot" : 7
+  } ]
+}

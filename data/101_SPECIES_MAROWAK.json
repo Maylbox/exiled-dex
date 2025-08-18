@@ -1,0 +1,118 @@
+{
+  "dex" : 101,
+  "speciesId" : "SPECIES_MAROWAK",
+  "name" : "Marowak",
+  "types" : [ "Ground", null ],
+  "abilities" : [ "Rock Head", "Lightning Rod", "Battle Armor" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 45.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Bone Keeper",
+  "friendship" : 70,
+  "description" : "A Marowak is the evolved form of a Cubone\nthat has grown tough by overcoming the\ngrief of losing its mother. Its tempered\nand hardened spirit is not easily broken.",
+  "preEvolutionId" : "SPECIES_CUBONE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 85,
+    "def" : 110,
+    "spe" : 90,
+    "spa" : 50,
+    "spd" : 80
+  },
+  "heldItems" : {
+    "common" : "Thick Club"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bone Club"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Headbutt"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 3,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 7,
+    "move" : "Bone Club"
+  }, {
+    "level" : 11,
+    "move" : "Headbutt"
+  }, {
+    "level" : 13,
+    "move" : "Leer"
+  }, {
+    "level" : 17,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 21,
+    "move" : "Bonemerang"
+  }, {
+    "level" : 23,
+    "move" : "Rage"
+  }, {
+    "level" : 28,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 33,
+    "move" : "Thrash"
+  }, {
+    "level" : 37,
+    "move" : "Fling"
+  }, {
+    "level" : 43,
+    "move" : "Stomping Tantrum"
+  }, {
+    "level" : 49,
+    "move" : "Endeavor"
+  }, {
+    "level" : 53,
+    "move" : "Double Edge"
+  }, {
+    "level" : 59,
+    "move" : "Retaliate"
+  }, {
+    "level" : 65,
+    "move" : "Bone Rush"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Belly Drum", "Chip Away", "Curse", "Detect", "Double Kick", "Endure", "Iron Head", "Perish Song", "Screech", "Skull Bash" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Thunder Punch", "Toxic" ],
+  "encounters" : [ {
+    "area" : "Victory Road_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 6
+  }, {
+    "area" : "Route 123",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 52,
+    "max" : 55,
+    "slot" : 2
+  }, {
+    "area" : "Victory Road_B1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 6
+  } ]
+}

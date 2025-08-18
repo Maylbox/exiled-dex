@@ -1,0 +1,97 @@
+{
+  "dex" : 81,
+  "speciesId" : "SPECIES_SLOWBRO_GALARIAN",
+  "name" : "Slowbro",
+  "types" : [ "Poison", "Psychic" ],
+  "abilities" : [ "Quick Draw", "Own Tempo", "Regenerator" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 172,
+  "eggGroups" : [ "Monster", "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.6,
+  "weightKg" : 70.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Pink",
+  "category" : "Hermit Crab",
+  "friendship" : 70,
+  "description" : "A Shellder bite set off a chemical reaction\nwith the spices inside Slowbro's body,\ncausing Slowbro to become a\nPoison-type Pokémon.",
+  "preEvolutionId" : "SPECIES_SLOWPOKE_GALARIAN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 100,
+    "def" : 95,
+    "spe" : 30,
+    "spa" : 100,
+    "spd" : 70
+  },
+  "heldItems" : {
+    "common" : "Kings Rock"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Shell Side Arm"
+  }, {
+    "level" : 1,
+    "move" : "Acid"
+  }, {
+    "level" : 1,
+    "move" : "Curse"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Withdraw"
+  }, {
+    "level" : 9,
+    "move" : "Yawn"
+  }, {
+    "level" : 12,
+    "move" : "Confusion"
+  }, {
+    "level" : 15,
+    "move" : "Disable"
+  }, {
+    "level" : 18,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 21,
+    "move" : "Headbutt"
+  }, {
+    "level" : 24,
+    "move" : "Zen Headbutt"
+  }, {
+    "level" : 27,
+    "move" : "Amnesia"
+  }, {
+    "level" : 30,
+    "move" : "Surf"
+  }, {
+    "level" : 33,
+    "move" : "Slack Off"
+  }, {
+    "level" : 36,
+    "move" : "Psychic"
+  }, {
+    "level" : 39,
+    "move" : "Psych Up"
+  }, {
+    "level" : 42,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 45,
+    "move" : "Heal Pulse"
+  } ],
+  "eggMoves" : [ "Belch", "Belly Drum", "Block", "Stomp" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Calm Mind", "Dig", "Dive", "Double Edge", "Drain Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Flamethrower", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Iron Defense", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Poison Jab", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Rest", "Safeguard", "Sandstorm", "Scald", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Smack Down", "Snore", "Snowscape", "Sunny Day", "Surf", "Swift", "Thunder Wave", "Toxic", "Trick Room", "Venoshock", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

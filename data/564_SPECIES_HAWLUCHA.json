@@ -1,0 +1,108 @@
+{
+  "dex" : 564,
+  "speciesId" : "SPECIES_HAWLUCHA",
+  "name" : "Hawlucha",
+  "types" : [ "Fighting", "Flying" ],
+  "abilities" : [ "Limber", "Unburden", "Mold Breaker" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 100,
+  "baseExp" : 175,
+  "eggGroups" : [ "Flying", "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 21.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Wrestling",
+  "friendship" : 70,
+  "description" : "With its wings, it controls its position in\nthe air. Its proficient fighting skills\nenable it to keep up with big bruisers\nlike Machamp and Hariyama.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 78,
+    "atk" : 92,
+    "def" : 75,
+    "spe" : 118,
+    "spa" : 74,
+    "spd" : 63
+  },
+  "heldItems" : {
+    "common" : "Kings Rock"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Detect"
+  }, {
+    "level" : 1,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Karate Chop"
+  }, {
+    "level" : 8,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 12,
+    "move" : "Roost"
+  }, {
+    "level" : 16,
+    "move" : "Aerial Ace"
+  }, {
+    "level" : 20,
+    "move" : "Encore"
+  }, {
+    "level" : 24,
+    "move" : "Fling"
+  }, {
+    "level" : 28,
+    "move" : "Flying Press"
+  }, {
+    "level" : 32,
+    "move" : "Bounce"
+  }, {
+    "level" : 36,
+    "move" : "Endeavor"
+  }, {
+    "level" : 40,
+    "move" : "Featherdance"
+  }, {
+    "level" : 44,
+    "move" : "Hi Jump Kick"
+  }, {
+    "level" : 48,
+    "move" : "Sky Attack"
+  }, {
+    "level" : 55,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 60,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 65,
+    "move" : "Acrobatics"
+  } ],
+  "eggMoves" : [ "Agility", "Ally Switch", "Baton Pass", "Entrainment", "Feint", "Me First", "Mud Sport", "Quick Guard" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Press", "Body Slam", "Brave Bird", "Brick Break", "Bulk Up", "Cut", "Defog", "Dig", "Double Team", "Drain Punch", "Dual Wingbeat", "Endure", "Facade", "False Swipe", "Fire Punch", "Fly", "Focus Blast", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Iron Head", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "Trailblaze", "U Turn", "X Scissor" ],
+  "encounters" : [ {
+    "area" : "Dewford Town",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 10,
+    "max" : 12,
+    "slot" : 10
+  }, {
+    "area" : "Dewford Town",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 10,
+    "max" : 12,
+    "slot" : 11
+  } ]
+}

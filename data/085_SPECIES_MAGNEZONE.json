@@ -1,0 +1,112 @@
+{
+  "dex" : 85,
+  "speciesId" : "SPECIES_MAGNEZONE",
+  "name" : "Magnezone",
+  "types" : [ "Electric", "Steel" ],
+  "abilities" : [ "Levitate", "Sturdy", "Analytic" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 30,
+  "baseExp" : 211,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.2,
+  "weightKg" : 180.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Magnet Area",
+  "friendship" : 70,
+  "description" : "As it zooms through the sky, this\nPokémon seems to be receiving signals\nof unknown origin, while transmitting its\nown signals of unknown purpose.",
+  "preEvolutionId" : "SPECIES_MAGNETON",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 70,
+    "def" : 115,
+    "spe" : 60,
+    "spa" : 130,
+    "spd" : 90
+  },
+  "heldItems" : {
+    "common" : "Metal Coat"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Barrier"
+  }, {
+    "level" : 1,
+    "move" : "Electric Terrain"
+  }, {
+    "level" : 1,
+    "move" : "Magnetic Flux"
+  }, {
+    "level" : 1,
+    "move" : "Mirror Coat"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Zap Cannon"
+  }, {
+    "level" : 5,
+    "move" : "Supersonic"
+  }, {
+    "level" : 5,
+    "move" : "Thundershock"
+  }, {
+    "level" : 7,
+    "move" : "Magnet Bomb"
+  }, {
+    "level" : 11,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 13,
+    "move" : "Light Screen"
+  }, {
+    "level" : 17,
+    "move" : "Sonicboom"
+  }, {
+    "level" : 19,
+    "move" : "Spark"
+  }, {
+    "level" : 23,
+    "move" : "Mirror Shot"
+  }, {
+    "level" : 25,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 29,
+    "move" : "Parabolic Charge"
+  }, {
+    "level" : 33,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 39,
+    "move" : "Screech"
+  }, {
+    "level" : 43,
+    "move" : "Discharge"
+  }, {
+    "level" : 49,
+    "move" : "Lock On"
+  }, {
+    "level" : 53,
+    "move" : "Magnet Rise"
+  }, {
+    "level" : 59,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 63,
+    "move" : "Zap Cannon"
+  }, {
+    "level" : 67,
+    "move" : "Thunderclap"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Body Press", "Body Slam", "Charge Beam", "Double Edge", "Double Team", "Electroweb", "Endure", "Explosion", "Facade", "Flash", "Flash Cannon", "Giga Impact", "Gyro Ball", "Hyper Beam", "Iron Defense", "Iron Head", "Light Screen", "Mirror Coat", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Rollout", "Sandstorm", "Shock Wave", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ ]
+}

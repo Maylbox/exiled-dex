@@ -1,0 +1,186 @@
+{
+  "dex" : 708,
+  "speciesId" : "SPECIES_CERULEDGE",
+  "name" : "Ceruledge",
+  "types" : [ "Fire", "Ghost" ],
+  "abilities" : [ "Flash Fire", "None", "Weak Armor" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 25,
+  "baseExp" : 263,
+  "eggGroups" : [ "Human Like" ],
+  "hatchSteps" : 8960,
+  "heightM" : 1.6,
+  "weightKg" : 62.0,
+  "growthRate" : "Slow",
+  "color" : "Purple",
+  "category" : "Fire Blades",
+  "friendship" : 20,
+  "description" : "The fiery blades on its arms burn\nfiercely with the lingering\nresentment of a sword wielder who fell\nbefore accomplishing their goal.",
+  "preEvolutionId" : "SPECIES_CHARCADET",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 125,
+    "def" : 80,
+    "spe" : 85,
+    "spa" : 60,
+    "spd" : 100
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Shadow Claw"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Night Slash"
+  }, {
+    "level" : 1,
+    "move" : "Quick Guard"
+  }, {
+    "level" : 1,
+    "move" : "Shadow Claw"
+  }, {
+    "level" : 1,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 1,
+    "move" : "Solar Blade"
+  }, {
+    "level" : 1,
+    "move" : "Wide Guard"
+  }, {
+    "level" : 8,
+    "move" : "Clear Smog"
+  }, {
+    "level" : 12,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 17,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 21,
+    "move" : "Night Shade"
+  }, {
+    "level" : 24,
+    "move" : "Flame Charge"
+  }, {
+    "level" : 28,
+    "move" : "Incinerate"
+  }, {
+    "level" : 32,
+    "move" : "Lava Plume"
+  }, {
+    "level" : 36,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 44,
+    "move" : "Flare Blitz"
+  }, {
+    "level" : 48,
+    "move" : "Bitter Blade"
+  }, {
+    "level" : 52,
+    "move" : "Psycho Cut"
+  }, {
+    "level" : 57,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 61,
+    "move" : "Cut"
+  }, {
+    "level" : 65,
+    "move" : "Poltergeist"
+  }, {
+    "level" : 68,
+    "move" : "X Scissor"
+  }, {
+    "level" : 71,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 75,
+    "move" : "Close Combat"
+  } ],
+  "eggMoves" : [ "Destiny Bond", "Disable", "Spite" ],
+  "teachableMoves" : [ "Brick Break", "Bulk Up", "Dragon Claw", "Endure", "Facade", "False Swipe", "Fire Blast", "Flamethrower", "Hex", "Iron Defense", "Iron Head", "Light Screen", "Overheat", "Poison Jab", "Protect", "Psych Up", "Reflect", "Rest", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Solar Blade", "Sunny Day", "Swords Dance", "Taunt", "Will O Wisp", "X Scissor" ],
+  "encounters" : [ {
+    "area" : "Mt Pyre_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 7
+  }, {
+    "area" : "Route 123",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 52,
+    "max" : 55,
+    "slot" : 7
+  }, {
+    "area" : "Mt Pyre_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 7
+  }, {
+    "area" : "Mt Pyre_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 7
+  }, {
+    "area" : "Mt Pyre_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 7
+  }, {
+    "area" : "Mt Pyre_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 7
+  }, {
+    "area" : "Mt Pyre_6F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 7
+  }, {
+    "area" : "Mt Pyre_Exterior",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 4
+  }, {
+    "area" : "Mt Pyre_Summit",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 4
+  }, {
+    "area" : "Scorched Slab0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 51,
+    "max" : 54,
+    "slot" : 0
+  } ]
+}

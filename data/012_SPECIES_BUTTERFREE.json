@@ -1,0 +1,108 @@
+{
+  "dex" : 12,
+  "speciesId" : "SPECIES_BUTTERFREE",
+  "name" : "Butterfree",
+  "types" : [ "Bug", "Flying" ],
+  "abilities" : [ "Compound Eyes", "None", "Tinted Lens" ],
+  "evYield" : {
+    "spa" : 2,
+    "spd" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.1,
+  "weightKg" : 32.0,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Butterfly",
+  "friendship" : 70,
+  "description" : "It has a superior ability to search for\ndelicious honey from flowers. It can seek,\nextract, and carry honey from flowers\nblooming over six miles away.",
+  "preEvolutionId" : "SPECIES_METAPOD",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 45,
+    "def" : 55,
+    "spe" : 95,
+    "spa" : 100,
+    "spd" : 80
+  },
+  "heldItems" : {
+    "common" : "Silver Powder"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Aeroblast"
+  }, {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Gust"
+  }, {
+    "level" : 10,
+    "move" : "Gust"
+  }, {
+    "level" : 11,
+    "move" : "Psybeam"
+  }, {
+    "level" : 13,
+    "move" : "Poisonpowder"
+  }, {
+    "level" : 13,
+    "move" : "Sleep Powder"
+  }, {
+    "level" : 13,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 16,
+    "move" : "Struggle Bug"
+  }, {
+    "level" : 19,
+    "move" : "Silver Wind"
+  }, {
+    "level" : 23,
+    "move" : "Supersonic"
+  }, {
+    "level" : 25,
+    "move" : "Heal Order"
+  }, {
+    "level" : 27,
+    "move" : "Air Cutter"
+  }, {
+    "level" : 31,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 35,
+    "move" : "Rage Powder"
+  }, {
+    "level" : 37,
+    "move" : "Twin Beam"
+  }, {
+    "level" : 41,
+    "move" : "Tailwind"
+  }, {
+    "level" : 43,
+    "move" : "Hurricane"
+  }, {
+    "level" : 47,
+    "move" : "Quiver Dance"
+  }, {
+    "level" : 53,
+    "move" : "Bleakwind Storm"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Defog", "Double Edge", "Double Team", "Dream Eater", "Dual Wingbeat", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Hyper Beam", "Iron Defense", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Roost", "Safeguard", "Shadow Ball", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn", "Venoshock" ],
+  "encounters" : [ {
+    "area" : "Fortree City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 50,
+    "max" : 53,
+    "slot" : 8
+  } ]
+}

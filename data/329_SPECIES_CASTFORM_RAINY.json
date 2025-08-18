@@ -1,0 +1,80 @@
+{
+  "dex" : 329,
+  "speciesId" : "SPECIES_CASTFORM_RAINY",
+  "name" : "Castform",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Forecast", "None", "None" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Fairy", "Amorphous" ],
+  "hatchSteps" : 6400,
+  "heightM" : 0.3,
+  "weightKg" : 0.8,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Weather",
+  "friendship" : 70,
+  "description" : "This is Castform's form while it's raining.\nIn an experiment where it was placed in a\nshower, it didn't change to this form. Its\nbody is soft, slightly swollen with water.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 70,
+    "def" : 70,
+    "spe" : 70,
+    "spa" : 70,
+    "spd" : 70
+  },
+  "heldItems" : {
+    "common" : "Mystic Water",
+    "rare" : "Mystic Water"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 10,
+    "move" : "Ember"
+  }, {
+    "level" : 10,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 10,
+    "move" : "Water Gun"
+  }, {
+    "level" : 15,
+    "move" : "Headbutt"
+  }, {
+    "level" : 20,
+    "move" : "Hail"
+  }, {
+    "level" : 20,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 20,
+    "move" : "Sunny Day"
+  }, {
+    "level" : 25,
+    "move" : "Weather Ball"
+  }, {
+    "level" : 35,
+    "move" : "Blizzard"
+  }, {
+    "level" : 35,
+    "move" : "Fire Blast"
+  }, {
+    "level" : 35,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 45,
+    "move" : "Hurricane"
+  } ],
+  "eggMoves" : [ "Amnesia", "Clear Smog", "Cosmic Power", "Disable", "Future Sight", "Guard Swap", "Hex", "Lucky Chant", "Ominous Wind", "Reflect Type" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Defense Curl", "Defog", "Double Edge", "Double Team", "Endure", "Energy Ball", "Facade", "Fire Blast", "Flamethrower", "Flash", "Hex", "Ice Beam", "Icy Wind", "Protect", "Psych Up", "Rain Dance", "Rest", "Sandstorm", "Scald", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse" ],
+  "encounters" : [ ]
+}

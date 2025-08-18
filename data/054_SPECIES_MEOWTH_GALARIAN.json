@@ -1,0 +1,81 @@
+{
+  "dex" : 54,
+  "speciesId" : "SPECIES_MEOWTH_GALARIAN",
+  "name" : "Meowth",
+  "types" : [ "Steel", null ],
+  "abilities" : [ "Pickup", "Tough Claws", "Unnerve" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.4,
+  "weightKg" : 7.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Scratch Cat",
+  "friendship" : 70,
+  "description" : "Living with a savage, seafaring people has\nhardened its body so much that parts of it\nturned to iron. Darker coins are harder\nand garner more respect among Meowth.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_PERRSERKER",
+    "method" : "level",
+    "param" : "28"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 65,
+    "def" : 55,
+    "spe" : 40,
+    "spa" : 40,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Fake Out"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 4,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 8,
+    "move" : "Scratch"
+  }, {
+    "level" : 12,
+    "move" : "Pay Day"
+  }, {
+    "level" : 16,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 20,
+    "move" : "Taunt"
+  }, {
+    "level" : 24,
+    "move" : "Swagger"
+  }, {
+    "level" : 29,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 32,
+    "move" : "Screech"
+  }, {
+    "level" : 36,
+    "move" : "Slash"
+  }, {
+    "level" : 40,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 44,
+    "move" : "Thrash"
+  } ],
+  "eggMoves" : [ "Covet", "Curse", "Double Edge", "Flail", "Night Slash", "Spite" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Covet", "Crunch", "Dark Pulse", "Dig", "Double Edge", "Endure", "Facade", "False Swipe", "Flash Cannon", "Gyro Ball", "Hone Claws", "Iron Defense", "Iron Head", "Knock Off", "Metronome", "Play Rough", "Protect", "Rain Dance", "Rest", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snore", "Stealth Rock", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Thief", "Thunder", "Thunderbolt", "Trailblaze", "U Turn", "X Scissor" ],
+  "encounters" : [ ]
+}

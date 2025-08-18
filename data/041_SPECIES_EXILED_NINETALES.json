@@ -1,0 +1,107 @@
+{
+  "dex" : 41,
+  "speciesId" : "SPECIES_EXILED_NINETALES",
+  "name" : "Ninetales",
+  "types" : [ "Psychic", "Fairy" ],
+  "abilities" : [ "Flash Fire", "None", "Drought" ],
+  "evYield" : {
+    "spd" : 1,
+    "spe" : 1
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.1,
+  "weightKg" : 19.9,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Fox",
+  "friendship" : 70,
+  "description" : "It has long been said that each of the\nnine tails embody an enchanted power.\nA long-lived Ninetales will have fur that\nshines like gold.",
+  "preEvolutionId" : "SPECIES_EXILED_VULPIX",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 46,
+    "atk" : 42,
+    "def" : 116,
+    "spe" : 81,
+    "spa" : 119,
+    "spd" : 141
+  },
+  "heldItems" : {
+    "common" : "Charcoal"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Moonblast"
+  }, {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Cosmic Power"
+  }, {
+    "level" : 1,
+    "move" : "Moonblast"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Teleport"
+  }, {
+    "level" : 5,
+    "move" : "Fairy Wind"
+  }, {
+    "level" : 10,
+    "move" : "Psybeam"
+  }, {
+    "level" : 15,
+    "move" : "Stored Power"
+  }, {
+    "level" : 20,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 25,
+    "move" : "Misty Terrain"
+  }, {
+    "level" : 30,
+    "move" : "Psychic"
+  }, {
+    "level" : 35,
+    "move" : "Wish"
+  }, {
+    "level" : 41,
+    "move" : "Calm Mind"
+  }, {
+    "level" : 44,
+    "move" : "Healing Wish"
+  }, {
+    "level" : 47,
+    "move" : "Meteor Beam"
+  }, {
+    "level" : 51,
+    "move" : "Future Sight"
+  }, {
+    "level" : 54,
+    "move" : "Moonlight"
+  }, {
+    "level" : 58,
+    "move" : "Gravity"
+  }, {
+    "level" : 63,
+    "move" : "Hypnosis"
+  }, {
+    "level" : 65,
+    "move" : "Dream Eater"
+  }, {
+    "level" : 68,
+    "move" : "Astral Barrage"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Aura Sphere", "Aurora Veil", "Blizzard", "Calm Mind", "Charge Beam", "Covet", "Dark Pulse", "Dazzling Gleam", "Draco Meteor", "Earth Power", "Flash", "Flash Cannon", "Focus Blast", "Hex", "Hidden Power", "Hyper Beam", "Ice Beam", "Light Screen", "Meteor Beam", "Mirror Coat", "Mystical Fire", "Protect", "Psychic", "Psyshock", "Reflect", "Rest", "Return", "Safeguard", "Secret Power", "Shadow Ball", "Shock Wave", "Sleep Talk", "Substitute", "Taunt", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Will O Wisp" ],
+  "encounters" : [ ]
+}

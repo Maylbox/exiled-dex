@@ -1,0 +1,104 @@
+{
+  "dex" : 572,
+  "speciesId" : "SPECIES_NOIBAT",
+  "name" : "Noibat",
+  "types" : [ "Flying", "Dragon" ],
+  "abilities" : [ "Frisk", "Infiltrator", "Telepathy" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 49,
+  "eggGroups" : [ "Flying", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 8.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Purple",
+  "category" : "Sound Wave",
+  "friendship" : 70,
+  "description" : "They live in pitch-black caves. Even a\nrobust wrestler will become dizzy and\nunable to stand when exposed to its\n200,000-hertz ultrasonic waves.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_NOIVERN",
+    "method" : "level",
+    "param" : "48"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 30,
+    "def" : 35,
+    "spe" : 55,
+    "spa" : 45,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Screech"
+  }, {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 5,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 11,
+    "move" : "Leech Life"
+  }, {
+    "level" : 13,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 16,
+    "move" : "Air Slash"
+  }, {
+    "level" : 18,
+    "move" : "Agility"
+  }, {
+    "level" : 23,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 27,
+    "move" : "Roost"
+  }, {
+    "level" : 31,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 35,
+    "move" : "Tailwind"
+  }, {
+    "level" : 40,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 43,
+    "move" : "Super Fang"
+  }, {
+    "level" : 48,
+    "move" : "Air Slash"
+  }, {
+    "level" : 58,
+    "move" : "Hurricane"
+  } ],
+  "eggMoves" : [ "Outrage", "Snatch", "Switcheroo", "Tailwind" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brick Break", "Cut", "Dark Pulse", "Defog", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dream Eater", "Dual Wingbeat", "Endure", "Facade", "Fly", "Leech Life", "Protect", "Psychic", "Rest", "Roost", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "U Turn", "Water Pulse", "Wild Charge", "X Scissor" ],
+  "encounters" : [ {
+    "area" : "Granite Cave_B1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 17,
+    "slot" : 8
+  }, {
+    "area" : "Granite Cave_B1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 17,
+    "slot" : 9
+  } ]
+}

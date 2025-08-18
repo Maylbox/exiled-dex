@@ -1,0 +1,69 @@
+{
+  "dex" : 108,
+  "speciesId" : "SPECIES_HAPPINY",
+  "name" : "Happiny",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Natural Cure", "Serene Grace", "Friend Guard" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 130,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 10240,
+  "heightM" : 0.6,
+  "weightKg" : 24.4,
+  "growthRate" : "Fast",
+  "color" : "Pink",
+  "category" : "Playhouse",
+  "friendship" : 140,
+  "description" : "It carries a round white rock in its\nbelly pouch. If it gets along well with\nsomeone, it will sometimes give that\nperson the rock.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CHANSEY",
+    "method" : "item_hold",
+    "param" : "ITEM_OVAL_STONE"
+  }, {
+    "toSpeciesId" : "SPECIES_CHANSEY",
+    "method" : "item",
+    "param" : "ITEM_OVAL_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 5,
+    "def" : 5,
+    "spe" : 30,
+    "spa" : 15,
+    "spd" : 65
+  },
+  "heldItems" : {
+    "common" : "Oval Stone"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Copycat"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 4,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 8,
+    "move" : "Sweet Kiss"
+  }, {
+    "level" : 12,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 16,
+    "move" : "Covet"
+  }, {
+    "level" : 20,
+    "move" : "Charm"
+  } ],
+  "eggMoves" : [ "Aromatherapy", "Counter", "Endure", "Gravity", "Heal Bell", "Helping Hand", "Last Resort", "Metronome", "Mud Bomb", "Natural Gift", "Present" ],
+  "teachableMoves" : [ "Attract", "Calm Mind", "Counter", "Covet", "Defense Curl", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Endure", "Facade", "Fire Blast", "Flamethrower", "Flash", "Grass Knot", "Icy Wind", "Light Screen", "Metronome", "Mud Slap", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Rollout", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Snowscape", "Soft Boiled", "Solar Beam", "Sunny Day", "Swagger", "Thunder Wave", "Toxic", "Water Pulse" ],
+  "encounters" : [ ]
+}

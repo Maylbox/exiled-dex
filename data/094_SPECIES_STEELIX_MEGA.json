@@ -1,0 +1,118 @@
+{
+  "dex" : 94,
+  "speciesId" : "SPECIES_STEELIX_MEGA",
+  "name" : "Steelix - Mega",
+  "types" : [ "Steel", "Ground" ],
+  "abilities" : [ "Sand Force", "Sand Force", "Sand Force" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 25,
+  "baseExp" : 214,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 6400,
+  "heightM" : 10.5,
+  "weightKg" : 740.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Iron Snake",
+  "friendship" : 70,
+  "description" : "The cells within its body, crystallized by\nthe energy produced from Mega Evolution,\nare stronger than any mineral and able\nto withstand any temperature.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 125,
+    "def" : 230,
+    "spe" : 30,
+    "spa" : 55,
+    "spd" : 95
+  },
+  "heldItems" : {
+    "common" : "Metal Coat"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bind"
+  }, {
+    "level" : 1,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 1,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Fang"
+  }, {
+    "level" : 4,
+    "move" : "Curse"
+  }, {
+    "level" : 7,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 10,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 13,
+    "move" : "Rage"
+  }, {
+    "level" : 16,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 19,
+    "move" : "Autotomize"
+  }, {
+    "level" : 20,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 22,
+    "move" : "Smack Down"
+  }, {
+    "level" : 25,
+    "move" : "Dragonbreath"
+  }, {
+    "level" : 28,
+    "move" : "Slam"
+  }, {
+    "level" : 31,
+    "move" : "Screech"
+  }, {
+    "level" : 34,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 37,
+    "move" : "Crunch"
+  }, {
+    "level" : 40,
+    "move" : "Iron Tail"
+  }, {
+    "level" : 43,
+    "move" : "Dig"
+  }, {
+    "level" : 46,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 49,
+    "move" : "Double Edge"
+  }, {
+    "level" : 52,
+    "move" : "Accelerock"
+  }, {
+    "level" : 60,
+    "move" : "Earthquake"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Bulldoze", "Crunch", "Cut", "Dark Pulse", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Fire Fang", "Flash Cannon", "Giga Impact", "Gyro Ball", "High Horsepower", "Hyper Beam", "Ice Fang", "Iron Defense", "Iron Head", "Meteor Beam", "Mud Slap", "Protect", "Psych Up", "Psychic Fangs", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thunder Fang", "Torment", "Toxic" ],
+  "encounters" : [ ]
+}
