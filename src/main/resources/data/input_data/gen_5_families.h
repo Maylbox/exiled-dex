@@ -9111,9 +9111,9 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 #if P_FAMILY_CRYOGONAL
     [SPECIES_CRYOGONAL] =
     {
-        .baseHP        = P_UPDATED_STATS >= GEN_7 ? 80 : 70,
+        .baseHP        = 100,
         .baseAttack    = 50,
-        .baseDefense   = P_UPDATED_STATS >= GEN_7 ? 50 : 30,
+        .baseDefense   = 100,
         .baseSpeed     = 105,
         .baseSpAttack  = 95,
         .baseSpDefense = 135,

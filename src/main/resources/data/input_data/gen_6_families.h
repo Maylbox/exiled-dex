@@ -2486,10 +2486,10 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     {
         .baseHP        = 60,
         .baseAttack    = 50,
-        .baseDefense   = AEGISLASH_MAIN_STAT,
+        .baseDefense   = 150,
         .baseSpeed     = 60,
         .baseSpAttack  = 50,
-        .baseSpDefense = AEGISLASH_MAIN_STAT,
+        .baseSpDefense = 150,
         .types = MON_TYPES(TYPE_STEEL, TYPE_GHOST),
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 250 : 234,
@@ -2549,10 +2549,10 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     [SPECIES_AEGISLASH_BLADE] =
     {
         .baseHP        = 60,
-        .baseAttack    = AEGISLASH_MAIN_STAT,
+        .baseAttack    = 150,
         .baseDefense   = 50,
         .baseSpeed     = 60,
-        .baseSpAttack  = AEGISLASH_MAIN_STAT,
+        .baseSpAttack  = 150,
         .baseSpDefense = 50,
         .types = MON_TYPES(TYPE_STEEL, TYPE_GHOST),
         .catchRate = 45,
