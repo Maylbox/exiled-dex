@@ -87,33 +87,5 @@
     "min" : 8,
     "max" : 10,
     "slot" : 0
-  }, {
-    "area" : "Battle Pyramid_1",
-    "bucket" : "Land",
-    "rateBase" : 4,
-    "min" : 5,
-    "max" : 5,
-    "slot" : 0
-  }, {
-    "area" : "Battle Pyramid_1",
-    "bucket" : "Land",
-    "rateBase" : 4,
-    "min" : 5,
-    "max" : 5,
-    "slot" : 1
-  }, {
-    "area" : "Battle Pyramid_1",
-    "bucket" : "Land",
-    "rateBase" : 4,
-    "min" : 5,
-    "max" : 5,
-    "slot" : 2
-  }, {
-    "area" : "Battle Pyramid_1",
-    "bucket" : "Land",
-    "rateBase" : 4,
-    "min" : 5,
-    "max" : 5,
-    "slot" : 3
   } ]
 }

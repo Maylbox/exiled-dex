@@ -64,6 +64,8 @@ public class Main {
         var encParser = new dexgen.parser.EncountersParser();
         Map<String, java.util.List<dexgen.model.Encounter>> enc =
                 encParser.parse(resourcePath("data/input_data/wild_encounters.h"));
+        enc.values().forEach(list -> list.removeIf(e -> e.area().startsWith("Battle Pyramid_")));
+        enc.entrySet().removeIf(e -> e.getValue().isEmpty());
 
 
         // 3) Join: keep only obtainable species (present in Excel by display name)

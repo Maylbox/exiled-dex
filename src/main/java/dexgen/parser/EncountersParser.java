@@ -9,6 +9,7 @@ public class EncountersParser {
             "const\\s+struct\\s+WildPokemon\\s+g([A-Za-z0-9_]+)_([A-Za-z]+)Mons\\s*\\[\\s*]\\s*=\\s*\\{([\\s\\S]*?)\\};");
     private static final Pattern ROW   = Pattern.compile(
             "\\{\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*SPECIES_([A-Z0-9_]+)\\s*}\\s*,?");
+    private static final Pattern EXCLUDE_AREA = Pattern.compile("(?i)^BattlePyramid_\\d+$"); // NEW
 
     public Map<String,List<Encounter>> parse(Path header) throws Exception {
         String text = Files.readString(header, StandardCharsets.UTF_8);
@@ -16,8 +17,9 @@ public class EncountersParser {
 
         Matcher b = BLOCK.matcher(text);
         while (b.find()) {
-            String areaRaw = b.group(1);         // e.g., Route111
-            String bucket  = b.group(2);         // Land | Water | Fishing | RockSmash ...
+            String areaRaw = b.group(1);
+            if (EXCLUDE_AREA.matcher(areaRaw).matches()) continue;
+            String bucket  = b.group(2);
             String body    = b.group(3);
 
             // find matching Info rate
