@@ -446,7 +446,12 @@ async function renderDexDetail(dex, speciesId){
   `;
 }
 
-function renderNotFound(){ app.innerHTML = `<p>Not found.</p>`; }
+function renderNotFound(){ app.innerHTML = `<footer>Work In Progress.<br>
+                                                     <span style="color:#55CDFC">Trans</span>
+                                                     <span style="color:#F7A8B8">Rights</span>
+                                                     <span style="color:#ffffff">are</span>
+                                                     <span style="color:#F7A8B8">Human</span>
+                                                     <span style="color:#55CDFC">Rights!</span></footer>`; }
 
 // helpers
 async function fetchJSON(url){ const r=await fetch(url,{cache:'no-store'}); if(!r.ok) throw new Error(`Failed ${url}`); return r.json(); }
