@@ -58,6 +58,85 @@ function renderHome(){
   `;
 }
 
+// cache per-species JSON so we don't refetch
+const SPECIES_CACHE = new Map();
+
+function bySpeciesId(id){ return INDEX.find(x => x.speciesId === id); }
+
+async function getSpeciesDataById(id){
+  if (SPECIES_CACHE.has(id)) return SPECIES_CACHE.get(id);
+  const idx = bySpeciesId(id);
+  if (!idx) return null;
+  const file = idx.file || (String(idx.dex).padStart(3,'0') + '_' + idx.speciesId + '.json');
+  const data = await fetchJSON(DATA_DIR + file);
+  SPECIES_CACHE.set(id, data);
+  return data;
+}
+
+/** Walk to root via preEvolutionId */
+async function findRootId(startId){
+  let cur = startId, seen = new Set();
+  while (true){
+    if (seen.has(cur)) break; // safety
+    seen.add(cur);
+    const d = await getSpeciesDataById(cur);
+    if (!d || !d.preEvolutionId) return cur;
+    cur = d.preEvolutionId;
+  }
+  return startId;
+}
+
+/** Build a linear chain from root by always taking the 1st next evolution.
+ * If a stage branches, we show "+N" on the arrow. Returns array of data objects. */
+async function buildLinearChainFrom(rootId){
+  const chain = [];
+  let cur = rootId;
+  const guard = new Set();
+
+  while (cur && !guard.has(cur)){
+    guard.add(cur);
+    const d = await getSpeciesDataById(cur);
+    if (!d) break;
+    chain.push(d);
+
+    const evos = (d.evolution||[]);
+    if (!evos.length) break;
+    // choose first branch for the visual line, but remember branch count
+    const first = evos[0];
+    cur = first.toSpeciesId;
+    // stash branchCount onto the element we just pushed (for arrow label)
+    chain[chain.length-1]._branchCount = Math.max(0, evos.length-1);
+    chain[chain.length-1]._firstMethod = first.method;
+    chain[chain.length-1]._firstParam  = first.param;
+  }
+  return chain;
+}
+
+function renderEvolutionRow(chain, currentId){
+  if (!chain || !chain.length) return '<div>No known evolution.</div>';
+
+  const bits = [];
+  for (let i=0;i<chain.length;i++){
+    const s = chain[i];
+    const dex3 = String(s.dex).padStart(3,'0');
+    const img = spriteUrlOrPlaceholder(dex3, s.name);
+    const active = s.speciesId === currentId ? ' active' : '';
+    const href = `#dex/${s.dex}/${s.speciesId}`;
+    bits.push(`
+      <div class="evo-card${active}" onclick="location.hash='${href}'" title="${s.name}">
+        <img src="${img}" alt="${s.name}">
+      </div>
+    `);
+    if (i < chain.length-1){
+      const b = s._branchCount ? ` <small>(+${s._branchCount})</small>` : '';
+      const label = s._firstMethod ? `<small style="opacity:.8">${s._firstMethod}${s._firstParam?': '+s._firstParam:''}${b}</small>` : (b||'');
+      bits.push(`<div class="evo-arrow">➜<br>${label}</div>`);
+    }
+  }
+  return `<div class="evo-row">${bits.join('')}</div>`;
+}
+
+
 function renderDexList(){
   const q = (searchBox.value||'').trim().toLowerCase();
   let list = INDEX;
@@ -110,8 +189,9 @@ async function renderDexDetail(dex, speciesId){
   const abilities = (data.abilities||[]).filter(Boolean).map(a=>`<span class="badge">${a}</span>`).join('');
   const stats = renderStats(data.baseStats||{});
 
-  const evoPrev = data.preEvolutionId ? `<div><strong>Pre-evo:</strong> ${data.preEvolutionId}</div>` : '';
-  const evoNext = (data.evolution||[]).map(e=>`<div>➜ ${e.toSpeciesId} <small>(${e.method}${e.param?': '+e.param:''})</small></div>`).join('') || '';
+  const rootId = await findRootId(s.speciesId);
+  const evoChain = await buildLinearChainFrom(rootId);
+  const evoHTML = renderEvolutionRow(evoChain, s.speciesId);
 
   const levelUps = (data.levelUpMoves||[]).map(m=>`<tr><td>${m.level}</td><td>${m.move}</td></tr>`).join('');
   const eggs = (data.eggMoves||[]).map(m=>`<span class="badge">${m}</span>`).join('');
@@ -164,9 +244,8 @@ async function renderDexDetail(dex, speciesId){
       </div>
 
       <div class="section">
-        <div class="h2">Evolution</div>
-        ${evoPrev}
-        ${evoNext || '<div>No further known evolution.</div>'}
+        <div class="h2">Evolution Line</div>
+        ${evoHTML}
       </div>
 
       <div class="section">
