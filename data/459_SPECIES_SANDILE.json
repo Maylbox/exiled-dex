@@ -94,5 +94,14 @@
   } ],
   "eggMoves" : [ "Beat Up", "Counter", "Double Edge", "Fire Fang", "Focus Energy", "Me First", "Mean Look", "Power Trip", "Pursuit", "Rock Climb", "Thunder Fang", "Uproar" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Fang", "Grass Knot", "Hone Claws", "Mud Slap", "Protect", "Rest", "Roar", "Rock Slide", "Rock Tomb", "Sandstorm", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Stealth Rock", "Stone Edge", "Swagger", "Taunt", "Thief", "Thunder Fang", "Torment", "Toxic" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route112",
+    "bucketKey" : "Land",
+    "area" : "Route 112",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 28,
+    "max" : 32,
+    "slot" : 4
+  } ]
 }

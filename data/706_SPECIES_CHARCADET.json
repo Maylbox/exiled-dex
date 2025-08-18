@@ -76,24 +76,6 @@
   "eggMoves" : [ "Destiny Bond", "Disable", "Spite" ],
   "teachableMoves" : [ "Endure", "Facade", "Fire Blast", "Flamethrower", "Overheat", "Protect", "Rest", "Sleep Talk", "Sunny Day", "Will O Wisp" ],
   "encounters" : [ {
-    "areaKey" : "RusturfTunnel",
-    "bucketKey" : "Land",
-    "area" : "Rusturf Tunnel",
-    "bucket" : "Land",
-    "rateBase" : 10,
-    "min" : 9,
-    "max" : 11,
-    "slot" : 5
-  }, {
-    "areaKey" : "RusturfTunnel",
-    "bucketKey" : "Land",
-    "area" : "Rusturf Tunnel",
-    "bucket" : "Land",
-    "rateBase" : 10,
-    "min" : 9,
-    "max" : 11,
-    "slot" : 7
-  }, {
     "areaKey" : "DewfordTown",
     "bucketKey" : "Land",
     "area" : "Dewford Town",

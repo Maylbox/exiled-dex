@@ -80,5 +80,14 @@
   } ],
   "eggMoves" : [ "Aromatherapy", "Defog", "Giga Drain", "Leaf Storm", "Weather Ball" ],
   "teachableMoves" : [ "Attract", "Bullet Seed", "Defog", "Double Team", "Endure", "Energy Ball", "Facade", "False Swipe", "Fury Cutter", "Giga Drain", "Grass Knot", "Grassy Glide", "Leech Life", "Poison Jab", "Protect", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze", "X Scissor" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
+    "area" : "Deep Woods0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 9
+  } ]
 }

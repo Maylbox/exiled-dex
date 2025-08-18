@@ -83,5 +83,14 @@
   } ],
   "eggMoves" : [ "Assurance", "Brave Bird", "Confuse Ray", "Drill Peck", "Feather Dance", "Feint Attack", "Flatter", "Mirror Move", "Perish Song", "Psycho Shift", "Punishment", "Roost", "Screech", "Sky Attack", "Whirlwind", "Wing Attack" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Calm Mind", "Dark Pulse", "Defog", "Double Edge", "Double Team", "Dream Eater", "Dual Wingbeat", "Endure", "Facade", "Fly", "Giga Impact", "Hex", "Hyper Beam", "Icy Wind", "Mud Slap", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Roost", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Wave", "Torment", "Toxic", "U Turn" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Land",
+    "area" : "Route 102",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 5,
+    "max" : 6,
+    "slot" : 4
+  } ]
 }

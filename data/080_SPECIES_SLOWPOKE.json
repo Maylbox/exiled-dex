@@ -105,5 +105,14 @@
   } ],
   "eggMoves" : [ "Belch", "Belly Drum", "Block", "Future Sight", "Me First", "Mud Sport", "Sleep Talk", "Snore", "Stomp", "Wonder Room", "Zen Headbutt" ],
   "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Calm Mind", "Dig", "Dive", "Double Edge", "Double Team", "Dream Eater", "Earthquake", "Endure", "Facade", "Fire Blast", "Flamethrower", "Flash", "Grass Knot", "Ice Beam", "Icy Wind", "Light Screen", "Mud Slap", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Scald", "Shadow Ball", "Sleep Talk", "Snore", "Snowscape", "Strength", "Sunny Day", "Surf", "Swagger", "Swift", "Thunder Wave", "Toxic", "Trick Room", "Water Pulse", "Waterfall" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route104",
+    "bucketKey" : "Fishing",
+    "area" : "Route 104",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 1
+  } ]
 }

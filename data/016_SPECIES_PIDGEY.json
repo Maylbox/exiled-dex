@@ -80,5 +80,23 @@
   } ],
   "eggMoves" : [ "Air Cutter", "Air Slash", "Brave Bird", "Defog", "Feint Attack", "Foresight", "Pursuit", "Steel Wing", "Uproar" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Defog", "Double Edge", "Double Team", "Endure", "Facade", "Fly", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route101",
+    "bucketKey" : "Land",
+    "area" : "Route 101",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 4,
+    "max" : 5,
+    "slot" : 8
+  }, {
+    "areaKey" : "Route101",
+    "bucketKey" : "Land",
+    "area" : "Route 101",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 4,
+    "max" : 5,
+    "slot" : 9
+  } ]
 }

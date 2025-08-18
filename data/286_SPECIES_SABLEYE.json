@@ -182,15 +182,6 @@
     "max" : 77,
     "slot" : 6
   }, {
-    "areaKey" : "CaveOfOrigin_Entrance",
-    "bucketKey" : "Land",
-    "area" : "Cave Of Origin_Entrance",
-    "bucket" : "Land",
-    "rateBase" : 4,
-    "min" : 75,
-    "max" : 77,
-    "slot" : 7
-  }, {
     "areaKey" : "CaveOfOrigin_1F",
     "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
@@ -199,15 +190,6 @@
     "min" : 75,
     "max" : 77,
     "slot" : 6
-  }, {
-    "areaKey" : "CaveOfOrigin_1F",
-    "bucketKey" : "Land",
-    "area" : "Cave Of Origin_1F",
-    "bucket" : "Land",
-    "rateBase" : 4,
-    "min" : 75,
-    "max" : 77,
-    "slot" : 7
   }, {
     "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
     "bucketKey" : "Land",

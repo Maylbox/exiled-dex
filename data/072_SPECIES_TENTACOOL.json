@@ -106,15 +106,6 @@
     "area" : "Route 103",
     "bucket" : "Fishing",
     "rateBase" : 30,
-    "min" : 5,
-    "max" : 10,
-    "slot" : 1
-  }, {
-    "areaKey" : "Route103",
-    "bucketKey" : "Fishing",
-    "area" : "Route 103",
-    "bucket" : "Fishing",
-    "rateBase" : 30,
     "min" : 10,
     "max" : 30,
     "slot" : 3
@@ -338,24 +329,6 @@
     "areaKey" : "Route121",
     "bucketKey" : "Fishing",
     "area" : "Route 121",
-    "bucket" : "Fishing",
-    "rateBase" : 30,
-    "min" : 10,
-    "max" : 30,
-    "slot" : 3
-  }, {
-    "areaKey" : "Route122",
-    "bucketKey" : "Fishing",
-    "area" : "Route 122",
-    "bucket" : "Fishing",
-    "rateBase" : 30,
-    "min" : 5,
-    "max" : 10,
-    "slot" : 1
-  }, {
-    "areaKey" : "Route122",
-    "bucketKey" : "Fishing",
-    "area" : "Route 122",
     "bucket" : "Fishing",
     "rateBase" : 30,
     "min" : 10,

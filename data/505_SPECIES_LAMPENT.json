@@ -95,5 +95,14 @@
   } ],
   "eggMoves" : [ "Acid", "Acid Armor", "Captivate", "Clear Smog", "Endure", "Haze", "Heat Wave", "Power Split" ],
   "teachableMoves" : [ "Attract", "Calm Mind", "Dark Pulse", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Fire Blast", "Flamethrower", "Flash", "Hex", "Mystical Fire", "Overheat", "Protect", "Psych Up", "Psychic", "Rest", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Taunt", "Thief", "Toxic", "Trick Room", "Will O Wisp" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
+    "area" : "Lavaridge Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 2
+  } ]
 }

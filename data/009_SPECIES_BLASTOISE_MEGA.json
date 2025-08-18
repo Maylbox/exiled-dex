@@ -2,7 +2,7 @@
   "dex" : 9,
   "speciesId" : "SPECIES_BLASTOISE_MEGA",
   "name" : "Blastoise - Mega",
-  "types" : [ "Water", null ],
+  "types" : [ "Water", "Steel" ],
   "abilities" : [ "Mega Launcher", "Mega Launcher", "Mega Launcher" ],
   "evYield" : {
     "spd" : 3

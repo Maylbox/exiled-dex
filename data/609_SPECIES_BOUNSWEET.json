@@ -70,5 +70,14 @@
   } ],
   "eggMoves" : [ "Acupressure", "Charm", "Feint", "Grass Whistle", "Play Rough", "Synthesis" ],
   "teachableMoves" : [ "Attract", "Bullet Seed", "Covet", "Dazzling Gleam", "Double Team", "Endure", "Energy Ball", "Facade", "Giga Drain", "Grass Knot", "Grassy Glide", "Light Screen", "Play Rough", "Protect", "Reflect", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Toxic", "Trailblaze" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
+    "area" : "Petalburg Woods",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 7,
+    "slot" : 9
+  } ]
 }

@@ -128,15 +128,6 @@
     "max" : 77,
     "slot" : 4
   }, {
-    "areaKey" : "CaveOfOrigin_Entrance",
-    "bucketKey" : "Land",
-    "area" : "Cave Of Origin_Entrance",
-    "bucket" : "Land",
-    "rateBase" : 4,
-    "min" : 75,
-    "max" : 77,
-    "slot" : 5
-  }, {
     "areaKey" : "CaveOfOrigin_1F",
     "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
@@ -145,15 +136,6 @@
     "min" : 75,
     "max" : 77,
     "slot" : 4
-  }, {
-    "areaKey" : "CaveOfOrigin_1F",
-    "bucketKey" : "Land",
-    "area" : "Cave Of Origin_1F",
-    "bucket" : "Land",
-    "rateBase" : 4,
-    "min" : 75,
-    "max" : 77,
-    "slot" : 5
   }, {
     "areaKey" : "MagmaHideout_1F",
     "bucketKey" : "Land",

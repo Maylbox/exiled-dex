@@ -16,7 +16,7 @@
   "hatchSteps" : 5120,
   "heightM" : 1.1,
   "weightKg" : 120.0,
-  "growthRate" : "Medium Fast",
+  "growthRate" : "Medium Slow",
   "color" : "Gray",
   "category" : "Armor",
   "friendship" : 70,

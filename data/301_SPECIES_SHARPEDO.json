@@ -124,15 +124,6 @@
     "max" : 35,
     "slot" : 5
   }, {
-    "areaKey" : "Route122",
-    "bucketKey" : "Fishing",
-    "area" : "Route 122",
-    "bucket" : "Fishing",
-    "rateBase" : 30,
-    "min" : 30,
-    "max" : 35,
-    "slot" : 5
-  }, {
     "areaKey" : "Route125",
     "bucketKey" : "Fishing",
     "area" : "Route 125",

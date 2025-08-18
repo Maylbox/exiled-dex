@@ -23,7 +23,9 @@
   "preEvolutionId" : null,
   "evolution" : [ ],
   "baseStats" : {
+    "hp" : 100,
     "atk" : 50,
+    "def" : 100,
     "spe" : 105,
     "spa" : 95,
     "spd" : 135

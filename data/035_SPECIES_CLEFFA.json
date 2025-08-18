@@ -2,7 +2,7 @@
   "dex" : 35,
   "speciesId" : "SPECIES_CLEFFA",
   "name" : "Cleffa",
-  "types" : [ ],
+  "types" : [ "Fairy", null ],
   "abilities" : [ "Cute Charm", "Magic Guard", "Friend Guard" ],
   "evYield" : {
     "spd" : 1

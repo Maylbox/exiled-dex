@@ -96,15 +96,6 @@
     "rateBase" : 10,
     "min" : 10,
     "max" : 12,
-    "slot" : 6
-  }, {
-    "areaKey" : "DewfordTown",
-    "bucketKey" : "Land",
-    "area" : "Dewford Town",
-    "bucket" : "Land",
-    "rateBase" : 10,
-    "min" : 10,
-    "max" : 12,
     "slot" : 7
   } ]
 }

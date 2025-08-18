@@ -3,7 +3,7 @@
   "speciesId" : "SPECIES_FLAREON",
   "name" : "Flareon",
   "types" : [ "Fire", null ],
-  "abilities" : [ "Flash Fire", "Flame Body", "Guts" ],
+  "abilities" : [ "Flash Fire", "Guts", "Thermal Exchange" ],
   "evYield" : {
     "atk" : 2
   },

@@ -80,5 +80,14 @@
   } ],
   "eggMoves" : [ "Assist", "Baby Doll Eyes", "Captivate", "Charm", "Covet", "Double Edge", "Focus Energy", "Iron Tail", "Last Resort", "Natural Gift", "Pursuit", "Reversal", "Slash", "Trick" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Charge Beam", "Covet", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Endure", "Facade", "Fire Punch", "Flamethrower", "Fury Cutter", "Grass Knot", "Hone Claws", "Ice Beam", "Ice Punch", "Knock Off", "Mud Slap", "Play Rough", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rollout", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Toxic", "Trailblaze", "U Turn", "Water Pulse" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Land",
+    "area" : "Route 102",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 5,
+    "max" : 6,
+    "slot" : 3
+  } ]
 }

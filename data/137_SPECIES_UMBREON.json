@@ -3,7 +3,7 @@
   "speciesId" : "SPECIES_UMBREON",
   "name" : "Umbreon",
   "types" : [ "Dark", null ],
-  "abilities" : [ "Poison Heal", "Regenerator", "Inner Focus" ],
+  "abilities" : [ "Poison Heal", "Regenerator", "Intimidate" ],
   "evYield" : {
     "spd" : 2
   },

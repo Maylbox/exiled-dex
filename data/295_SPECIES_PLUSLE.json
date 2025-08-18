@@ -96,5 +96,14 @@
   } ],
   "eggMoves" : [ "Charm", "Discharge", "Fake Tears", "Lucky Chant", "Sing", "Sweet Kiss", "Tearful Look", "Wish" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Charge Beam", "Counter", "Covet", "Defense Curl", "Double Edge", "Double Team", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Rest", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Swagger", "Swift", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Wild Charge" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
+    "area" : "Route 110",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 20,
+    "max" : 21,
+    "slot" : 11
+  } ]
 }

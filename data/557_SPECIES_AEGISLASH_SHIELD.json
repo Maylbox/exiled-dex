@@ -26,8 +26,10 @@
   "baseStats" : {
     "hp" : 60,
     "atk" : 50,
+    "def" : 150,
     "spe" : 60,
-    "spa" : 50
+    "spa" : 50,
+    "spd" : 150
   },
   "heldItems" : { },
   "levelUpMoves" : [ {

@@ -76,7 +76,7 @@
     "rateBase" : 30,
     "min" : 5,
     "max" : 10,
-    "slot" : 0
+    "slot" : 1
   }, {
     "areaKey" : "Route115",
     "bucketKey" : "Fishing",
@@ -85,6 +85,6 @@
     "rateBase" : 30,
     "min" : 5,
     "max" : 10,
-    "slot" : 0
+    "slot" : 1
   } ]
 }

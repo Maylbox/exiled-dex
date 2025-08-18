@@ -27,8 +27,10 @@
   "evolution" : [ ],
   "baseStats" : {
     "hp" : 60,
+    "atk" : 150,
     "def" : 50,
     "spe" : 60,
+    "spa" : 150,
     "spd" : 50
   },
   "heldItems" : { },

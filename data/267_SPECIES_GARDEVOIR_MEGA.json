@@ -2,7 +2,7 @@
   "dex" : 267,
   "speciesId" : "SPECIES_GARDEVOIR_MEGA",
   "name" : "Gardevoir - Mega",
-  "types" : [ "Psychic", null ],
+  "types" : [ "Psychic", "Fairy" ],
   "abilities" : [ "Pixilate", "Pixilate", "Pixilate" ],
   "evYield" : {
     "spa" : 3

@@ -92,15 +92,6 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Body Slam", "Bulldoze", "Calm Mind", "Charge Beam", "Double Team", "Dream Eater", "Earthquake", "Endure", "Facade", "Flash", "Flash Cannon", "Grass Knot", "Gyro Ball", "Hex", "Iron Defense", "Iron Head", "Light Screen", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Rollout", "Safeguard", "Sandstorm", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Stealth Rock", "Sunny Day", "Swagger", "Toxic", "Trick Room" ],
   "encounters" : [ {
-    "areaKey" : "Route112",
-    "bucketKey" : "Land",
-    "area" : "Route 112",
-    "bucket" : "Land",
-    "rateBase" : 20,
-    "min" : 28,
-    "max" : 32,
-    "slot" : 4
-  }, {
     "areaKey" : "RusturfTunnel",
     "bucketKey" : "Land",
     "area" : "Rusturf Tunnel",

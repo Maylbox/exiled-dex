@@ -27,7 +27,8 @@
     "atk" : 50,
     "def" : 65,
     "spe" : 150,
-    "spa" : 175
+    "spa" : 175,
+    "spd" : 105
   },
   "heldItems" : {
     "common" : "Twisted Spoon"

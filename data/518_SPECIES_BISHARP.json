@@ -106,5 +106,23 @@
   } ],
   "eggMoves" : [ "Headbutt", "Mean Look", "Psycho Cut", "Pursuit", "Quick Guard", "Revenge", "Stealth Rock", "Sucker Punch" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Brick Break", "Cut", "Dark Pulse", "Dig", "Double Team", "Endure", "Facade", "False Swipe", "Flash Cannon", "Focus Blast", "Fury Cutter", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Polish", "Rock Smash", "Rock Tomb", "Sandstorm", "Shadow Claw", "Sleep Talk", "Snatch", "Snore", "Stealth Rock", "Stone Edge", "Swagger", "Swords Dance", "Taunt", "Thief", "Thunder Wave", "Torment", "Toxic", "X Scissor" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 5
+  }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 5
+  } ]
 }

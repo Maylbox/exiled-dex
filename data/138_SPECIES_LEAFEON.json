@@ -3,7 +3,7 @@
   "speciesId" : "SPECIES_LEAFEON",
   "name" : "Leafeon",
   "types" : [ "Grass", null ],
-  "abilities" : [ "Leaf Guard", "Hustle", "Chlorophyll" ],
+  "abilities" : [ "Leaf Guard", "Chlorophyll", "Protosynthesis" ],
   "evYield" : {
     "def" : 2
   },

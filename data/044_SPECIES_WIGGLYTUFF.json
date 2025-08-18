@@ -27,6 +27,7 @@
     "atk" : 70,
     "def" : 45,
     "spe" : 45,
+    "spa" : 85,
     "spd" : 50
   },
   "heldItems" : {

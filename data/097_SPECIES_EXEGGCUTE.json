@@ -83,5 +83,14 @@
   } ],
   "eggMoves" : [ "Ancient Power", "Block", "Curse", "Giga Drain", "Grassy Terrain", "Ingrain", "Leaf Storm", "Lucky Chant", "Moonlight", "Natural Gift", "Nature Power", "Power Swap", "Skill Swap", "Synthesis" ],
   "teachableMoves" : [ "Attract", "Bullet Seed", "Double Edge", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Explosion", "Facade", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Light Screen", "Protect", "Psych Up", "Psychic", "Psyshock", "Reflect", "Rest", "Rollout", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic", "Trick Room" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
+    "area" : "Petalburg Woods",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 7,
+    "slot" : 11
+  } ]
 }

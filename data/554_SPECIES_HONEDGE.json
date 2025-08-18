@@ -80,5 +80,14 @@
   } ],
   "eggMoves" : [ "Destiny Bond", "Metal Sound", "Shadow Sneak", "Wide Guard" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Brick Break", "Cut", "Double Team", "Endure", "Facade", "False Swipe", "Flash Cannon", "Fury Cutter", "Gyro Ball", "Iron Defense", "Iron Head", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snore", "Solar Blade", "Swagger", "Swords Dance", "Toxic" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route116",
+    "bucketKey" : "Land",
+    "area" : "Route 116",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 9
+  } ]
 }

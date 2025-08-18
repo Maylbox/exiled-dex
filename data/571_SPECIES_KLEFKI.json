@@ -76,5 +76,14 @@
   } ],
   "eggMoves" : [ "Iron Defense", "Lock On", "Switcheroo", "Thief" ],
   "teachableMoves" : [ "Attract", "Calm Mind", "Covet", "Cut", "Dazzling Gleam", "Defog", "Double Team", "Endure", "Facade", "Flash Cannon", "Giga Impact", "Hyper Beam", "Iron Defense", "Light Screen", "Play Rough", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Sandstorm", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder Wave", "Torment", "Toxic", "Trick Room" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
+    "area" : "Route 114",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 30,
+    "max" : 33,
+    "slot" : 4
+  } ]
 }

@@ -98,7 +98,7 @@
   "dex" : 9,
   "speciesId" : "SPECIES_BLASTOISE_MEGA",
   "name" : "Blastoise - Mega",
-  "types" : [ "Water", null ],
+  "types" : [ "Water", "Steel" ],
   "abilities" : [ "Mega Launcher", "Mega Launcher", "Mega Launcher" ],
   "color" : "Blue",
   "file" : "009_SPECIES_BLASTOISE_MEGA.json"
@@ -474,7 +474,7 @@
   "dex" : 35,
   "speciesId" : "SPECIES_CLEFFA",
   "name" : "Cleffa",
-  "types" : [ ],
+  "types" : [ "Fairy", null ],
   "abilities" : [ "Cute Charm", "Magic Guard", "Friend Guard" ],
   "color" : "Pink",
   "file" : "035_SPECIES_CLEFFA.json"
@@ -482,7 +482,7 @@
   "dex" : 36,
   "speciesId" : "SPECIES_CLEFAIRY",
   "name" : "Clefairy",
-  "types" : [ ],
+  "types" : [ "Fairy", null ],
   "abilities" : [ "Cute Charm", "Magic Guard", "Friend Guard" ],
   "color" : "Pink",
   "file" : "036_SPECIES_CLEFAIRY.json"
@@ -490,7 +490,7 @@
   "dex" : 37,
   "speciesId" : "SPECIES_CLEFABLE",
   "name" : "Clefable",
-  "types" : [ ],
+  "types" : [ "Fairy", null ],
   "abilities" : [ "Cute Charm", "Magic Guard", "Unaware" ],
   "color" : "Pink",
   "file" : "037_SPECIES_CLEFABLE.json"
@@ -1483,7 +1483,7 @@
   "speciesId" : "SPECIES_VAPOREON",
   "name" : "Vaporeon",
   "types" : [ "Water", null ],
-  "abilities" : [ "Water Absorb", "Analytic", "Hydration" ],
+  "abilities" : [ "Water Absorb", "Analytic", "Water Bubble" ],
   "color" : "Blue",
   "file" : "133_SPECIES_VAPOREON.json"
 }, {
@@ -1491,7 +1491,7 @@
   "speciesId" : "SPECIES_JOLTEON",
   "name" : "Jolteon",
   "types" : [ "Electric", null ],
-  "abilities" : [ "Volt Absorb", "Motor Drive", "Quick Feet" ],
+  "abilities" : [ "Volt Absorb", "Motor Drive", "Transistor" ],
   "color" : "Yellow",
   "file" : "134_SPECIES_JOLTEON.json"
 }, {
@@ -1499,7 +1499,7 @@
   "speciesId" : "SPECIES_FLAREON",
   "name" : "Flareon",
   "types" : [ "Fire", null ],
-  "abilities" : [ "Flash Fire", "Flame Body", "Guts" ],
+  "abilities" : [ "Flash Fire", "Guts", "Thermal Exchange" ],
   "color" : "Red",
   "file" : "135_SPECIES_FLAREON.json"
 }, {
@@ -1515,7 +1515,7 @@
   "speciesId" : "SPECIES_UMBREON",
   "name" : "Umbreon",
   "types" : [ "Dark", null ],
-  "abilities" : [ "Poison Heal", "Regenerator", "Inner Focus" ],
+  "abilities" : [ "Poison Heal", "Regenerator", "Intimidate" ],
   "color" : "Black",
   "file" : "137_SPECIES_UMBREON.json"
 }, {
@@ -1523,7 +1523,7 @@
   "speciesId" : "SPECIES_LEAFEON",
   "name" : "Leafeon",
   "types" : [ "Grass", null ],
-  "abilities" : [ "Leaf Guard", "Hustle", "Chlorophyll" ],
+  "abilities" : [ "Leaf Guard", "Chlorophyll", "Protosynthesis" ],
   "color" : "Green",
   "file" : "138_SPECIES_LEAFEON.json"
 }, {
@@ -1531,7 +1531,7 @@
   "speciesId" : "SPECIES_GLACEON",
   "name" : "Glaceon",
   "types" : [ "Ice", null ],
-  "abilities" : [ "Snow Cloak", "Slush Rush", "Ice Body" ],
+  "abilities" : [ "Snow Cloak", "Slush Rush", "Ice Scales" ],
   "color" : "Blue",
   "file" : "139_SPECIES_GLACEON.json"
 }, {
@@ -2546,7 +2546,7 @@
   "dex" : 267,
   "speciesId" : "SPECIES_GARDEVOIR_MEGA",
   "name" : "Gardevoir - Mega",
-  "types" : [ "Psychic", null ],
+  "types" : [ "Psychic", "Fairy" ],
   "abilities" : [ "Pixilate", "Pixilate", "Pixilate" ],
   "color" : "White",
   "file" : "267_SPECIES_GARDEVOIR_MEGA.json"

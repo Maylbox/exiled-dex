@@ -99,15 +99,6 @@
     "rateBase" : 20,
     "min" : 7,
     "max" : 9,
-    "slot" : 10
-  }, {
-    "areaKey" : "Route104",
-    "bucketKey" : "Land",
-    "area" : "Route 104",
-    "bucket" : "Land",
-    "rateBase" : 20,
-    "min" : 7,
-    "max" : 9,
     "slot" : 11
   } ]
 }

@@ -80,5 +80,14 @@
   } ],
   "eggMoves" : [ "After You", "Earth Power", "Mist", "Mud Bomb", "Mud Sport", "Refresh", "Sleep Talk", "Snore", "Venom Drench", "Water Pulse" ],
   "teachableMoves" : [ "Attract", "Double Team", "Earth Power", "Endure", "Facade", "Icy Wind", "Mud Slap", "Protect", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Surf", "Swagger", "Toxic", "Water Pulse" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route103",
+    "bucketKey" : "Fishing",
+    "area" : "Route 103",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 0
+  } ]
 }

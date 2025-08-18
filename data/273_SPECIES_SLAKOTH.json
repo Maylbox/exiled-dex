@@ -80,14 +80,5 @@
     "min" : 6,
     "max" : 7,
     "slot" : 8
-  }, {
-    "areaKey" : "PetalburgWoods",
-    "bucketKey" : "Land",
-    "area" : "Petalburg Woods",
-    "bucket" : "Land",
-    "rateBase" : 20,
-    "min" : 6,
-    "max" : 7,
-    "slot" : 9
   } ]
 }

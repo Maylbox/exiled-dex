@@ -77,5 +77,32 @@
   } ],
   "eggMoves" : [ "Bubble Beam", "Encore", "Endeavor", "Endure", "Haze", "Ice Ball", "Mind Reader", "Mist", "Mud Shot", "Refresh", "Splash", "Water Pulse", "Water Sport" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Earth Power", "Endure", "Facade", "Ice Beam", "Icy Wind", "Low Kick", "Mud Slap", "Protect", "Psychic", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Thief", "Toxic", "Water Pulse", "Waterfall" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
+    "area" : "Route 102",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Land",
+    "area" : "Route 104",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 7,
+    "slot" : 4
+  }, {
+    "areaKey" : "Route115",
+    "bucketKey" : "Fishing",
+    "area" : "Route 115",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 0
+  } ]
 }

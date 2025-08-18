@@ -33,8 +33,10 @@
   "baseStats" : {
     "hp" : 35,
     "atk" : 55,
+    "def" : 40,
     "spe" : 90,
-    "spa" : 50
+    "spa" : 50,
+    "spd" : 50
   },
   "heldItems" : {
     "common" : "Light Ball"

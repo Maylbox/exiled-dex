@@ -3,7 +3,7 @@
   "speciesId" : "SPECIES_VAPOREON",
   "name" : "Vaporeon",
   "types" : [ "Water", null ],
-  "abilities" : [ "Water Absorb", "Analytic", "Hydration" ],
+  "abilities" : [ "Water Absorb", "Analytic", "Water Bubble" ],
   "evYield" : {
     "hp" : 2
   },

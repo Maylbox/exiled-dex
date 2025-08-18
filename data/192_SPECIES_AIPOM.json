@@ -99,15 +99,6 @@
     "max" : 7,
     "slot" : 10
   }, {
-    "areaKey" : "PetalburgWoods",
-    "bucketKey" : "Land",
-    "area" : "Petalburg Woods",
-    "bucket" : "Land",
-    "rateBase" : 20,
-    "min" : 6,
-    "max" : 7,
-    "slot" : 11
-  }, {
     "areaKey" : "SafariZone_Southeast",
     "bucketKey" : "Land",
     "area" : "Safari Zone_Southeast",

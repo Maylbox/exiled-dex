@@ -25,6 +25,7 @@
   "baseStats" : {
     "hp" : 90,
     "atk" : 95,
+    "def" : 105,
     "spe" : 45,
     "spa" : 165,
     "spd" : 110

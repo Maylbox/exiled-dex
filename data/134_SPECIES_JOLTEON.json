@@ -3,7 +3,7 @@
   "speciesId" : "SPECIES_JOLTEON",
   "name" : "Jolteon",
   "types" : [ "Electric", null ],
-  "abilities" : [ "Volt Absorb", "Motor Drive", "Quick Feet" ],
+  "abilities" : [ "Volt Absorb", "Motor Drive", "Transistor" ],
   "evYield" : {
     "spe" : 2
   },

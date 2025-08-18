@@ -86,14 +86,5 @@
     "min" : 8,
     "max" : 10,
     "slot" : 10
-  }, {
-    "areaKey" : "Route116",
-    "bucketKey" : "Land",
-    "area" : "Route 116",
-    "bucket" : "Land",
-    "rateBase" : 20,
-    "min" : 8,
-    "max" : 10,
-    "slot" : 11
   } ]
 }

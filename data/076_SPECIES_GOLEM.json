@@ -24,6 +24,7 @@
   "evolution" : [ ],
   "baseStats" : {
     "hp" : 80,
+    "atk" : 120,
     "def" : 130,
     "spe" : 45,
     "spa" : 55,

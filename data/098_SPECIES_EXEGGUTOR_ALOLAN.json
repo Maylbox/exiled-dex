@@ -27,7 +27,8 @@
     "atk" : 105,
     "def" : 85,
     "spe" : 45,
-    "spa" : 125
+    "spa" : 125,
+    "spd" : 80
   },
   "heldItems" : { },
   "levelUpMoves" : [ {

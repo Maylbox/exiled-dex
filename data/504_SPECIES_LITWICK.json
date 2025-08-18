@@ -89,5 +89,113 @@
   } ],
   "eggMoves" : [ "Acid", "Acid Armor", "Captivate", "Clear Smog", "Endure", "Haze", "Heat Wave", "Power Split" ],
   "teachableMoves" : [ "Attract", "Calm Mind", "Dark Pulse", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Fire Blast", "Flamethrower", "Flash", "Hex", "Mystical Fire", "Overheat", "Protect", "Psych Up", "Psychic", "Rest", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Taunt", "Thief", "Toxic", "Trick Room", "Will O Wisp" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 33,
+    "max" : 33,
+    "slot" : 0
+  }, {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 35,
+    "max" : 35,
+    "slot" : 1
+  }, {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 33,
+    "max" : 33,
+    "slot" : 2
+  }, {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 35,
+    "max" : 35,
+    "slot" : 3
+  }, {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 33,
+    "max" : 33,
+    "slot" : 4
+  }, {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 37,
+    "max" : 37,
+    "slot" : 5
+  }, {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 35,
+    "max" : 35,
+    "slot" : 6
+  }, {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 39,
+    "max" : 39,
+    "slot" : 7
+  }, {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 38,
+    "max" : 38,
+    "slot" : 8
+  }, {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 40,
+    "max" : 40,
+    "slot" : 9
+  }, {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 38,
+    "max" : 38,
+    "slot" : 10
+  }, {
+    "areaKey" : "MeteorFalls_StevensCave",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_Stevens Cave",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 40,
+    "max" : 40,
+    "slot" : 11
+  } ]
 }

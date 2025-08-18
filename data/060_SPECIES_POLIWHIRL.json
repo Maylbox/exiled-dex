@@ -93,5 +93,41 @@
   } ],
   "eggMoves" : [ "Bubble Beam", "Encore", "Endeavor", "Endure", "Haze", "Ice Ball", "Mind Reader", "Mist", "Mud Shot", "Refresh", "Splash", "Water Pulse", "Water Sport" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Ice Beam", "Ice Punch", "Icy Wind", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Rock Smash", "Scald", "Seismic Toss", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Toxic", "Water Pulse", "Waterfall" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
+    "area" : "Route 102",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 10,
+    "max" : 30,
+    "slot" : 4
+  }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
+    "area" : "Route 102",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 20,
+    "max" : 25,
+    "slot" : 7
+  }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
+    "area" : "Route 102",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 35,
+    "max" : 40,
+    "slot" : 8
+  }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
+    "area" : "Route 102",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 40,
+    "max" : 45,
+    "slot" : 9
+  } ]
 }

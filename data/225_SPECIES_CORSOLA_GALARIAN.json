@@ -27,9 +27,12 @@
     "param" : "38"
   } ],
   "baseStats" : {
+    "hp" : 60,
     "atk" : 55,
+    "def" : 100,
     "spe" : 30,
-    "spa" : 65
+    "spa" : 65,
+    "spd" : 100
   },
   "heldItems" : { },
   "levelUpMoves" : [ {
@@ -74,5 +77,95 @@
   } ],
   "eggMoves" : [ "Confuse Ray", "Destiny Bond", "Haze", "Head Smash", "Nature Power", "Water Pulse" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Calm Mind", "Dig", "Earth Power", "Earthquake", "Endure", "Facade", "Giga Drain", "Hex", "Ice Beam", "Icy Wind", "Iron Defense", "Light Screen", "Meteor Beam", "Mirror Coat", "Protect", "Psychic", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Tomb", "Safeguard", "Sandstorm", "Scald", "Shadow Ball", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Surf", "Water Pulse", "Will O Wisp" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 0
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 10,
+    "max" : 30,
+    "slot" : 2
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 10,
+    "max" : 30,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 10,
+    "max" : 30,
+    "slot" : 4
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 5
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 6
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 25,
+    "max" : 30,
+    "slot" : 7
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 35,
+    "max" : 40,
+    "slot" : 8
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 40,
+    "max" : 45,
+    "slot" : 9
+  } ]
 }

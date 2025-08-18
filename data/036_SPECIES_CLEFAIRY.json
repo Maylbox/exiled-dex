@@ -2,7 +2,7 @@
   "dex" : 36,
   "speciesId" : "SPECIES_CLEFAIRY",
   "name" : "Clefairy",
-  "types" : [ ],
+  "types" : [ "Fairy", null ],
   "abilities" : [ "Cute Charm", "Magic Guard", "Friend Guard" ],
   "evYield" : {
     "hp" : 2

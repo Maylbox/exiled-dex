@@ -88,5 +88,23 @@
   } ],
   "eggMoves" : [ ],
   "teachableMoves" : [ "Charge Beam", "Dazzling Gleam", "Endure", "Flash Cannon", "Focus Blast", "Giga Impact", "Hex", "Hyper Beam", "Iron Head", "Light Screen", "Low Kick", "Protect", "Psychic", "Psyshock", "Reflect", "Rest", "Sandstorm", "Shadow Ball", "Sleep Talk", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 7
+  }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 7
+  } ]
 }

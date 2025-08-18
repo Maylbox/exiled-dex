@@ -88,15 +88,6 @@
     "rateBase" : 20,
     "min" : 6,
     "max" : 7,
-    "slot" : 4
-  }, {
-    "areaKey" : "Route104",
-    "bucketKey" : "Land",
-    "area" : "Route 104",
-    "bucket" : "Land",
-    "rateBase" : 20,
-    "min" : 6,
-    "max" : 7,
     "slot" : 7
   }, {
     "areaKey" : "SafariZone_Northeast",

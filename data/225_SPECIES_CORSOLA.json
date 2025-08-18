@@ -24,9 +24,12 @@
   "preEvolutionId" : null,
   "evolution" : [ ],
   "baseStats" : {
+    "hp" : 65,
     "atk" : 55,
+    "def" : 95,
     "spe" : 35,
-    "spa" : 65
+    "spa" : 65,
+    "spd" : 95
   },
   "heldItems" : {
     "common" : "Luminous Moss"

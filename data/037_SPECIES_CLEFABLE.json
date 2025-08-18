@@ -2,7 +2,7 @@
   "dex" : 37,
   "speciesId" : "SPECIES_CLEFABLE",
   "name" : "Clefable",
-  "types" : [ ],
+  "types" : [ "Fairy", null ],
   "abilities" : [ "Cute Charm", "Magic Guard", "Unaware" ],
   "evYield" : {
     "hp" : 3
@@ -27,6 +27,7 @@
     "atk" : 70,
     "def" : 73,
     "spe" : 60,
+    "spa" : 95,
     "spd" : 90
   },
   "heldItems" : {

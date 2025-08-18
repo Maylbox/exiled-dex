@@ -76,5 +76,77 @@
   } ],
   "eggMoves" : [ "Coil", "Curse", "Metal Burst" ],
   "teachableMoves" : [ "Body Press", "Body Slam", "Bulldoze", "Dig", "Double Edge", "Earth Power", "Earthquake", "Endure", "Facade", "Flash Cannon", "Giga Impact", "High Horsepower", "Hyper Beam", "Iron Defense", "Iron Head", "Mud Slap", "Protect", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Stealth Rock" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "MagmaHideout_1F",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 8
+  }, {
+    "areaKey" : "MagmaHideout_2F_1R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 8
+  }, {
+    "areaKey" : "MagmaHideout_2F_2R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 8
+  }, {
+    "areaKey" : "MagmaHideout_3F_1R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 8
+  }, {
+    "areaKey" : "MagmaHideout_3F_2R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 8
+  }, {
+    "areaKey" : "MagmaHideout_4F",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 8
+  }, {
+    "areaKey" : "MagmaHideout_3F_3R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 8
+  }, {
+    "areaKey" : "MagmaHideout_2F_3R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 8
+  } ]
 }

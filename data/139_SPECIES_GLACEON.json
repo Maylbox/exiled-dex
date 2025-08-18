@@ -3,7 +3,7 @@
   "speciesId" : "SPECIES_GLACEON",
   "name" : "Glaceon",
   "types" : [ "Ice", null ],
-  "abilities" : [ "Snow Cloak", "Slush Rush", "Ice Body" ],
+  "abilities" : [ "Snow Cloak", "Slush Rush", "Ice Scales" ],
   "evYield" : {
     "spa" : 2
   },
