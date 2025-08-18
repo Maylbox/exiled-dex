@@ -97,6 +97,8 @@
   "eggMoves" : [ "Ancient Power", "Belly Drum", "Chip Away", "Curse", "Detect", "Double Kick", "Endure", "Iron Head", "Perish Song", "Screech", "Skull Bash" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Punch", "Flamethrower", "Fury Cutter", "Ice Beam", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Thunder Punch", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
     "area" : "Rusturf Tunnel",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -104,6 +106,8 @@
     "max" : 11,
     "slot" : 1
   }, {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
     "area" : "Rusturf Tunnel",
     "bucket" : "Land",
     "rateBase" : 10,

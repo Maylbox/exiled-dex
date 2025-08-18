@@ -59,6 +59,8 @@
   "eggMoves" : [ "Defense Curl", "Recycle", "Rollout", "Sucker Punch" ],
   "teachableMoves" : [ "Attract", "Defense Curl", "Draco Meteor", "Grassy Glide", "Rollout" ],
   "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
     "area" : "Petalburg Woods",
     "bucket" : "Land",
     "rateBase" : 20,

@@ -107,6 +107,8 @@
   "eggMoves" : [ "Belch", "Belly Drum", "Block", "Future Sight", "Me First", "Mud Sport", "Sleep Talk", "Snore", "Stomp", "Wonder Room", "Zen Headbutt" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Calm Mind", "Counter", "Dig", "Dive", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Flamethrower", "Flash", "Focus Blast", "Fury Cutter", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Iron Defense", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Safeguard", "Scald", "Seismic Toss", "Shadow Ball", "Sleep Talk", "Snore", "Snowscape", "Strength", "Sunny Day", "Surf", "Swagger", "Swift", "Thunder Wave", "Toxic", "Trick Room", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
     "area" : "Sootopolis City",
     "bucket" : "Land",
     "rateBase" : 10,

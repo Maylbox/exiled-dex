@@ -71,6 +71,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Counter", "Mirror Coat", "Safeguard" ],
   "encounters" : [ {
+    "areaKey" : "SafariZone_South",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_South",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -78,6 +80,8 @@
     "max" : 27,
     "slot" : 7
   }, {
+    "areaKey" : "SafariZone_South",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_South",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -85,6 +89,8 @@
     "max" : 27,
     "slot" : 9
   }, {
+    "areaKey" : "SafariZone_South",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_South",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -92,6 +98,8 @@
     "max" : 29,
     "slot" : 11
   }, {
+    "areaKey" : "SafariZone_Southwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Southwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -99,6 +107,8 @@
     "max" : 27,
     "slot" : 7
   }, {
+    "areaKey" : "SafariZone_Southwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Southwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -106,6 +116,8 @@
     "max" : 27,
     "slot" : 9
   }, {
+    "areaKey" : "SafariZone_Southwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Southwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -113,6 +125,8 @@
     "max" : 29,
     "slot" : 11
   }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_4",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -120,6 +134,8 @@
     "max" : 5,
     "slot" : 2
   }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_4",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -127,6 +143,8 @@
     "max" : 5,
     "slot" : 3
   }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_4",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -134,6 +152,8 @@
     "max" : 5,
     "slot" : 4
   }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_4",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -141,6 +161,8 @@
     "max" : 5,
     "slot" : 5
   }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_4",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -148,6 +170,8 @@
     "max" : 5,
     "slot" : 8
   }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_4",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -95,6 +95,8 @@
   "eggMoves" : [ "Astonish", "Clear Smog", "Disable", "Fire Punch", "Grudge", "Haze", "Ice Punch", "Perish Song", "Psywave", "Reflect Type", "Scary Face", "Smog", "Thunder Punch" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Counter", "Dark Pulse", "Dazzling Gleam", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Energy Ball", "Explosion", "Facade", "Fire Punch", "Focus Blast", "Giga Drain", "Giga Impact", "Hex", "Hyper Beam", "Ice Punch", "Icy Wind", "Knock Off", "Mega Kick", "Mega Punch", "Metronome", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Rock Smash", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snatch", "Snore", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Venoshock", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -102,6 +104,8 @@
     "max" : 56,
     "slot" : 0
   }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -109,6 +113,8 @@
     "max" : 56,
     "slot" : 0
   }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -116,6 +122,8 @@
     "max" : 56,
     "slot" : 0
   }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -123,6 +131,8 @@
     "max" : 56,
     "slot" : 0
   }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_5F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -130,6 +140,8 @@
     "max" : 56,
     "slot" : 0
   }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_6F",
     "bucket" : "Land",
     "rateBase" : 10,

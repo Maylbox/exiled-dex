@@ -87,6 +87,8 @@
   "eggMoves" : [ "Aurora Beam", "Power Split", "Spit Up", "Sticky Web", "Stockpile" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Crunch", "Double Team", "Endure", "Facade", "Giga Drain", "Ice Beam", "Icy Wind", "Iron Defense", "Leech Life", "Mirror Coat", "Poison Jab", "Protect", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Toxic", "Trailblaze", "Water Pulse", "Waterfall", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route104",
+    "bucketKey" : "Land",
     "area" : "Route 104",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -94,6 +96,8 @@
     "max" : 7,
     "slot" : 8
   }, {
+    "areaKey" : "Route111",
+    "bucketKey" : "Fishing",
     "area" : "Route 111",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -101,6 +105,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
     "area" : "Verdanturf Town0",
     "bucket" : "Land",
     "rateBase" : 10,

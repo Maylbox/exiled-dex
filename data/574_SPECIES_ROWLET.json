@@ -93,6 +93,8 @@
   "eggMoves" : [ "Baton Pass", "Confuse Ray", "Curse", "Defog", "Haze", "Ominous Wind" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Bullet Seed", "Covet", "Defog", "Double Team", "Dual Wingbeat", "Endure", "Energy Ball", "Facade", "False Swipe", "Giga Drain", "Grass Knot", "Grassy Glide", "Knock Off", "Light Screen", "Protect", "Rain Dance", "Rest", "Roost", "Safeguard", "Shadow Claw", "Sleep Talk", "Snore", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
     "area" : "Deep Woods0",
     "bucket" : "Land",
     "rateBase" : 10,

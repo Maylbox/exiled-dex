@@ -104,6 +104,8 @@
   "eggMoves" : [ "Memento", "Sucker Punch" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Charge Beam", "Electroweb", "Endure", "Facade", "Giga Impact", "Hex", "Hyper Beam", "Poison Jab", "Protect", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Venoshock", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Fishing",
     "area" : "Route 118",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -111,6 +113,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
     "area" : "Verdanturf Town0",
     "bucket" : "Land",
     "rateBase" : 10,

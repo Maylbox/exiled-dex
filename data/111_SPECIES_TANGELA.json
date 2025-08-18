@@ -96,6 +96,8 @@
   "eggMoves" : [ "Amnesia", "Confusion", "Endeavor", "Flail", "Giga Drain", "Leaf Storm", "Leech Seed", "Mega Drain", "Natural Gift", "Nature Power", "Power Swap", "Rage Powder", "Wake Up Slap" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bullet Seed", "Cut", "Double Edge", "Double Team", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Knock Off", "Power Whip", "Protect", "Psych Up", "Reflect", "Rest", "Rock Smash", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
     "area" : "Deep Woods0",
     "bucket" : "Land",
     "rateBase" : 10,

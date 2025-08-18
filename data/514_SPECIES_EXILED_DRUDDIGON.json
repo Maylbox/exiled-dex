@@ -112,6 +112,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Blaze Kick", "Body Press", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Crunch", "Cut", "Dig", "Dragon Claw", "Dragon Tail", "Drain Punch", "Dual Wingbeat", "Earthquake", "Facade", "Fire Fang", "Fire Punch", "First Impression", "Hone Claws", "Ice Fang", "Ice Punch", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Poison Jab", "Protect", "Psychic Fangs", "Reflect", "Rest", "Return", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Shadow Claw", "Sleep Talk", "Smack Down", "Smart Strike", "Stealth Rock", "Stone Edge", "Strength", "Substitute", "Swords Dance", "Thunder Fang", "Thunder Punch", "Trailblaze", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -119,6 +121,8 @@
     "max" : 85,
     "slot" : 11
   }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Entrance",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -126,6 +130,8 @@
     "max" : 77,
     "slot" : 11
   }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -133,6 +139,8 @@
     "max" : 77,
     "slot" : 11
   }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -140,6 +148,8 @@
     "max" : 85,
     "slot" : 11
   }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B2F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -147,6 +157,8 @@
     "max" : 85,
     "slot" : 11
   }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -154,6 +166,8 @@
     "max" : 76,
     "slot" : 11
   }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -161,6 +175,8 @@
     "max" : 76,
     "slot" : 11
   }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_5F",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -92,6 +92,8 @@
   "eggMoves" : [ "Aqua Tail", "Iron Tail", "Knock Off", "Power Whip" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Body Slam", "Crunch", "Double Edge", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Fire Fang", "Giga Impact", "Hyper Beam", "Iron Head", "Knock Off", "Mud Slap", "Overheat", "Power Whip", "Protect", "Rain Dance", "Rest", "Sleep Talk", "Sunny Day", "Taunt", "Thief", "Thunder Fang", "Thunderbolt", "Trailblaze", "U Turn", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route119",
+    "bucketKey" : "Land",
     "area" : "Route 119",
     "bucket" : "Land",
     "rateBase" : 15,

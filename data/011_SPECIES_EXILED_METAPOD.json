@@ -45,6 +45,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Electroweb", "Iron Defense" ],
   "encounters" : [ {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
     "area" : "Mauville City0",
     "bucket" : "Land",
     "rateBase" : 10,

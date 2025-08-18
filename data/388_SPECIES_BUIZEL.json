@@ -84,6 +84,8 @@
   "eggMoves" : [ "Aqua Ring", "Aqua Tail", "Baton Pass", "Double Slap", "Fury Cutter", "Fury Swipes", "Headbutt", "Helping Hand", "Me First", "Mud Slap", "Odor Sleuth", "Slash", "Soak", "Switcheroo", "Tail Slap" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Brick Break", "Bulk Up", "Crunch", "Dig", "Dive", "Double Team", "Endure", "Facade", "Flip Turn", "Fury Cutter", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Low Kick", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Smash", "Rock Tomb", "Scald", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Taunt", "Thief", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route103",
+    "bucketKey" : "Land",
     "area" : "Route 103",
     "bucket" : "Land",
     "rateBase" : 20,

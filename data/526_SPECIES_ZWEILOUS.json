@@ -93,6 +93,8 @@
   "eggMoves" : [ "Assurance", "Astonish", "Belch", "Dark Pulse", "Double Hit", "Earth Power", "Fire Fang", "Head Smash", "Ice Fang", "Screech", "Thunder Fang" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Crunch", "Dark Pulse", "Double Team", "Draco Meteor", "Dragon Pulse", "Dragon Tail", "Earth Power", "Endure", "Facade", "Fire Fang", "Ice Fang", "Protect", "Psych Up", "Rain Dance", "Rest", "Roar", "Rock Smash", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Fang", "Thunder Wave", "Torment", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
     "area" : "Route 115",
     "bucket" : "Land",
     "rateBase" : 20,

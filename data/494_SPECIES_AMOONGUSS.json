@@ -92,6 +92,8 @@
   "eggMoves" : [ "Body Slam", "Defense Curl", "Endure", "Gastro Acid", "Growth", "Poison Powder", "Rollout", "Stun Spore" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bullet Seed", "Defense Curl", "Double Team", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Grass Knot", "Hex", "Hyper Beam", "Protect", "Rain Dance", "Rest", "Rollout", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Toxic", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
     "area" : "Route 115",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -99,6 +101,8 @@
     "max" : 48,
     "slot" : 4
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
     "area" : "Route 120",
     "bucket" : "Land",
     "rateBase" : 20,

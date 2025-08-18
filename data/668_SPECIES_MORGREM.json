@@ -87,6 +87,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Attract", "Dark Pulse", "Dazzling Gleam", "Drain Punch", "Endure", "Facade", "Leech Life", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Play Rough", "Protect", "Reflect", "Rest", "Shadow Claw", "Sleep Talk", "Snore", "Swagger", "Taunt", "Thief", "Thunder Wave", "Torment", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -94,6 +96,8 @@
     "max" : 34,
     "slot" : 10
   }, {
+    "areaKey" : "FallarborTown0",
+    "bucketKey" : "Land",
     "area" : "Fallarbor Town0",
     "bucket" : "Land",
     "rateBase" : 10,

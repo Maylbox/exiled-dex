@@ -93,6 +93,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Brick Break", "Cut", "Defog", "Double Edge", "Double Team", "Electroweb", "Endure", "Facade", "False Swipe", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Hyper Beam", "Knock Off", "Poison Jab", "Protect", "Reflect", "Rest", "Rock Smash", "Roost", "Silver Wind", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic", "U Turn", "Venoshock", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "FortreeCity0",
+    "bucketKey" : "Land",
     "area" : "Fortree City0",
     "bucket" : "Land",
     "rateBase" : 10,

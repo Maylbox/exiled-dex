@@ -78,6 +78,8 @@
   "eggMoves" : [ "Acid Spray", "After You", "Ancient Power", "Body Slam", "Counter", "Curse", "Double Kick", "Eerie Impulse", "Encore", "Guard Swap", "Mud Sport", "Power Up Punch", "Recover", "Sleep Talk", "Spit Up", "Stockpile", "Swallow" ],
   "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Counter", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Flash", "Ice Beam", "Ice Punch", "Icy Wind", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Safeguard", "Sandstorm", "Scald", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Snowscape", "Stealth Rock", "Stone Edge", "Surf", "Swagger", "Toxic", "Trailblaze", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route103",
+    "bucketKey" : "Land",
     "area" : "Route 103",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -85,6 +87,8 @@
     "max" : 5,
     "slot" : 9
   }, {
+    "areaKey" : "SafariZone_Southeast",
+    "bucketKey" : "Water",
     "area" : "Safari Zone_Southeast",
     "bucket" : "Water",
     "rateBase" : 9,

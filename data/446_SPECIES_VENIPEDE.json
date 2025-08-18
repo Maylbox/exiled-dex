@@ -89,6 +89,8 @@
   "eggMoves" : [ "Pin Missile", "Rock Climb", "Spikes", "Take Down", "Toxic Spikes", "Twineedle" ],
   "teachableMoves" : [ "Attract", "Defense Curl", "Double Edge", "Double Team", "Endure", "Facade", "Fury Cutter", "Gyro Ball", "Hex", "Iron Defense", "Poison Jab", "Protect", "Rest", "Rock Smash", "Rollout", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Toxic", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "OldaleTown0",
+    "bucketKey" : "Land",
     "area" : "Oldale Town0",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -96,6 +98,8 @@
     "max" : 5,
     "slot" : 8
   }, {
+    "areaKey" : "OldaleTown0",
+    "bucketKey" : "Land",
     "area" : "Oldale Town0",
     "bucket" : "Land",
     "rateBase" : 20,

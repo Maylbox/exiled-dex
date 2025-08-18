@@ -81,6 +81,8 @@
   "eggMoves" : [ "Feint", "Ice Hammer", "Quash" ],
   "teachableMoves" : [ "Covet", "Endure", "Facade", "Flash Cannon", "Knock Off", "Light Screen", "Metronome", "Play Rough", "Protect", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Stealth Rock", "Stone Edge", "Swords Dance", "Thief", "Thunder Wave" ],
   "encounters" : [ {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -88,6 +90,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,

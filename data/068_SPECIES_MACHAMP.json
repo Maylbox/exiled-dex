@@ -109,6 +109,8 @@
   "eggMoves" : [ "Bullet Punch", "Close Combat", "Counter", "Encore", "Fire Punch", "Heavy Slam", "Ice Punch", "Knock Off", "Meditate", "Power Trick", "Quick Guard", "Rolling Kick", "Smelling Salts", "Thunder Punch", "Tickle" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "High Horsepower", "Hyper Beam", "Ice Punch", "Knock Off", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Thief", "Thunder Punch", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B1F",
     "bucket" : "Land",
     "rateBase" : 4,

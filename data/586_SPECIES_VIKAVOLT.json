@@ -104,6 +104,8 @@
   "eggMoves" : [ "Electroweb", "Endure", "Harden", "Mud Shot" ],
   "teachableMoves" : [ "Acrobatics", "Air Slash", "Attract", "Bulldoze", "Charge Beam", "Crunch", "Dig", "Double Team", "Dual Wingbeat", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash Cannon", "Fly", "Giga Impact", "Hyper Beam", "Iron Defense", "Light Screen", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Rest", "Roost", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "FortreeCity0",
+    "bucketKey" : "Land",
     "area" : "Fortree City0",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -110,6 +110,8 @@
   "eggMoves" : [ "After You", "Agility", "Body Slam", "Charge", "Eerie Impulse", "Electric Terrain", "Flatter", "Iron Tail", "Odor Sleuth", "Sand Attack", "Screech", "Take Down" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulldoze", "Charge Beam", "Counter", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Fire Punch", "Flash", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Punch", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Meteor Beam", "Power Up Punch", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Smash", "Safeguard", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "NewMauville_Inside",
+    "bucketKey" : "Land",
     "area" : "New Mauville_Inside",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -117,6 +119,8 @@
     "max" : 57,
     "slot" : 9
   }, {
+    "areaKey" : "NewMauville_Entrance",
+    "bucketKey" : "Land",
     "area" : "New Mauville_Entrance",
     "bucket" : "Land",
     "rateBase" : 10,

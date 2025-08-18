@@ -84,6 +84,8 @@
   "eggMoves" : [ "Brave Bird", "Curse", "Defog", "Feint Attack", "Giga Drain", "Gust", "Hypnosis", "Nasty Plot", "Pursuit", "Quick Attack", "Steel Wing", "Venom Drench", "Whirlwind", "Zen Headbutt" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Crunch", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "Fly", "Giga Drain", "Leech Life", "Protect", "Rain Dance", "Rest", "Roost", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "U Turn", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -91,6 +93,8 @@
     "max" : 15,
     "slot" : 0
   }, {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -98,6 +102,8 @@
     "max" : 15,
     "slot" : 2
   }, {
+    "areaKey" : "SeafloorCavern_Room6",
+    "bucketKey" : "Water",
     "area" : "Seafloor Cavern_Room6",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -105,6 +111,8 @@
     "max" : 35,
     "slot" : 1
   }, {
+    "areaKey" : "SeafloorCavern_Room6",
+    "bucketKey" : "Water",
     "area" : "Seafloor Cavern_Room6",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -112,6 +120,8 @@
     "max" : 35,
     "slot" : 2
   }, {
+    "areaKey" : "SeafloorCavern_Room7",
+    "bucketKey" : "Water",
     "area" : "Seafloor Cavern_Room7",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -119,6 +129,8 @@
     "max" : 35,
     "slot" : 1
   }, {
+    "areaKey" : "SeafloorCavern_Room7",
+    "bucketKey" : "Water",
     "area" : "Seafloor Cavern_Room7",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -126,6 +138,8 @@
     "max" : 35,
     "slot" : 2
   }, {
+    "areaKey" : "SeafloorCavern_Entrance",
+    "bucketKey" : "Water",
     "area" : "Seafloor Cavern_Entrance",
     "bucket" : "Water",
     "rateBase" : 0,
@@ -133,6 +147,8 @@
     "max" : 35,
     "slot" : 1
   }, {
+    "areaKey" : "SeafloorCavern_Entrance",
+    "bucketKey" : "Water",
     "area" : "Seafloor Cavern_Entrance",
     "bucket" : "Water",
     "rateBase" : 0,
@@ -140,6 +156,8 @@
     "max" : 35,
     "slot" : 2
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -147,6 +165,8 @@
     "max" : 30,
     "slot" : 0
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -154,6 +174,8 @@
     "max" : 31,
     "slot" : 1
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -161,6 +183,8 @@
     "max" : 32,
     "slot" : 2
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -168,6 +192,8 @@
     "max" : 33,
     "slot" : 6
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -175,6 +201,8 @@
     "max" : 34,
     "slot" : 7
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap2",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -182,6 +210,8 @@
     "max" : 30,
     "slot" : 0
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap2",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -189,6 +219,8 @@
     "max" : 31,
     "slot" : 1
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap2",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -196,6 +228,8 @@
     "max" : 32,
     "slot" : 2
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap2",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -203,6 +237,8 @@
     "max" : 33,
     "slot" : 6
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap2",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -210,6 +246,8 @@
     "max" : 34,
     "slot" : 7
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap3",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -217,6 +255,8 @@
     "max" : 30,
     "slot" : 0
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap3",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -224,6 +264,8 @@
     "max" : 31,
     "slot" : 1
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap3",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -231,6 +273,8 @@
     "max" : 32,
     "slot" : 2
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap3",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -238,6 +282,8 @@
     "max" : 33,
     "slot" : 6
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap3",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -245,6 +291,8 @@
     "max" : 34,
     "slot" : 7
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Water",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -252,6 +300,8 @@
     "max" : 35,
     "slot" : 0
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Water",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -259,6 +309,8 @@
     "max" : 35,
     "slot" : 1
   }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Water",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -266,6 +318,8 @@
     "max" : 35,
     "slot" : 1
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Water",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -273,6 +327,8 @@
     "max" : 35,
     "slot" : 1
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -280,6 +336,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -287,6 +345,8 @@
     "max" : 12,
     "slot" : 1
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -294,6 +354,8 @@
     "max" : 8,
     "slot" : 2
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -301,6 +363,8 @@
     "max" : 14,
     "slot" : 3
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -308,6 +372,8 @@
     "max" : 10,
     "slot" : 4
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -315,6 +381,8 @@
     "max" : 12,
     "slot" : 5
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -322,6 +390,8 @@
     "max" : 16,
     "slot" : 6
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -329,6 +399,8 @@
     "max" : 6,
     "slot" : 7
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -336,6 +408,8 @@
     "max" : 8,
     "slot" : 8
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -343,6 +417,8 @@
     "max" : 14,
     "slot" : 9
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -350,6 +426,8 @@
     "max" : 8,
     "slot" : 10
   }, {
+    "areaKey" : "AlteringCave1",
+    "bucketKey" : "Land",
     "area" : "Altering Cave1",
     "bucket" : "Land",
     "rateBase" : 7,

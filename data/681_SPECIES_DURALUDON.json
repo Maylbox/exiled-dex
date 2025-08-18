@@ -93,6 +93,8 @@
   "eggMoves" : [ "Mirror Coat", "Night Slash", "Slash" ],
   "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Brick Break", "Dark Pulse", "Double Edge", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Flash Cannon", "Giga Impact", "Gyro Ball", "Hone Claws", "Hyper Beam", "Iron Defense", "Iron Head", "Light Screen", "Mirror Coat", "Protect", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Snore", "Solar Beam", "Stealth Rock", "Stone Edge", "Swords Dance", "Thunder", "Thunder Wave", "Thunderbolt" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -99,6 +99,8 @@
   "eggMoves" : [ "Ancient Power", "Aqua Jet", "Block", "Crunch", "Dragon Dance", "Fake Tears", "Flatter", "Hydro Pump", "Ice Punch", "Metal Claw", "Mud Sport", "Thrash", "Water Pulse", "Water Sport" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Avalanche", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Dig", "Dive", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Flip Turn", "Focus Blast", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Scald", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swords Dance", "Thief", "Toxic", "Trailblaze", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "SeafloorCavern_Room1",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -106,6 +108,8 @@
     "max" : 75,
     "slot" : 5
   }, {
+    "areaKey" : "SeafloorCavern_Room2",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -113,6 +117,8 @@
     "max" : 75,
     "slot" : 5
   }, {
+    "areaKey" : "SeafloorCavern_Room3",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -120,6 +126,8 @@
     "max" : 75,
     "slot" : 5
   }, {
+    "areaKey" : "SeafloorCavern_Room4",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room4",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -127,6 +135,8 @@
     "max" : 75,
     "slot" : 5
   }, {
+    "areaKey" : "SeafloorCavern_Room5",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room5",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -134,6 +144,8 @@
     "max" : 75,
     "slot" : 5
   }, {
+    "areaKey" : "SeafloorCavern_Room6",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room6",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -141,6 +153,8 @@
     "max" : 75,
     "slot" : 5
   }, {
+    "areaKey" : "SeafloorCavern_Room7",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room7",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -148,6 +162,8 @@
     "max" : 75,
     "slot" : 5
   }, {
+    "areaKey" : "SeafloorCavern_Room8",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room8",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -155,6 +171,8 @@
     "max" : 75,
     "slot" : 5
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
     "area" : "Sootopolis City",
     "bucket" : "Land",
     "rateBase" : 10,

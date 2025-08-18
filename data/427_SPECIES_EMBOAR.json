@@ -107,6 +107,8 @@
   "eggMoves" : [ "Body Slam", "Burn Up", "Covet", "Curse", "Endeavor", "Heavy Slam", "Magnitude", "Sleep Talk", "Sucker Punch", "Superpower", "Thrash", "Yawn" ],
   "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Grass Knot", "Gyro Ball", "High Horsepower", "Hyper Beam", "Iron Head", "Knock Off", "Low Kick", "Mud Slap", "Overheat", "Poison Jab", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Scald", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thunder Punch", "Toxic", "Trailblaze", "Wild Charge", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
     "area" : "Scorched Slab0",
     "bucket" : "Land",
     "rateBase" : 20,

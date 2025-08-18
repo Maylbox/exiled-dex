@@ -77,6 +77,8 @@
   "eggMoves" : [ "Astonish", "Feather Dance", "Feint Attack", "Quick Attack", "Razor Wind", "Scary Face", "Sky Attack", "Steel Wing", "Tri Attack", "Uproar", "Whirlwind" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Defog", "Double Edge", "Double Team", "Endure", "Facade", "False Swipe", "Fly", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route104",
+    "bucketKey" : "Land",
     "area" : "Route 104",
     "bucket" : "Land",
     "rateBase" : 20,

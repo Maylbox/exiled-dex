@@ -93,6 +93,8 @@
   "eggMoves" : [ "Double Edge", "Feint", "Feint Attack", "Leech Life", "Pursuit", "Reversal", "Secret Power", "Signal Beam", "Silver Wind", "Whirlwind" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Defog", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Giga Drain", "Leech Life", "Protect", "Psych Up", "Psychic", "Rest", "Roost", "Shadow Ball", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -100,6 +102,8 @@
     "max" : 21,
     "slot" : 5
   }, {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,

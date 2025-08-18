@@ -104,6 +104,8 @@
   "eggMoves" : [ "Defense Curl", "Recycle", "Rollout", "Sucker Punch" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Bullet Seed", "Defense Curl", "Draco Meteor", "Dragon Pulse", "Dual Wingbeat", "Endure", "Energy Ball", "Facade", "Fly", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Iron Defense", "Protect", "Rest", "Rollout", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Trailblaze", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
     "area" : "Route 121",
     "bucket" : "Land",
     "rateBase" : 20,

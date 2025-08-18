@@ -78,6 +78,8 @@
   "eggMoves" : [ "Belch", "Curse", "Encore", "Slack Off" ],
   "teachableMoves" : [ "Body Slam", "Crunch", "Dig", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Mud Slap", "Overheat", "Protect", "Rest", "Roar", "Sleep Talk", "Sunny Day", "Thunder Fang", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
     "area" : "Lavaridge Town0",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -81,6 +81,8 @@
   "eggMoves" : [ "Body Slam", "Double Edge", "Dragon Breath", "Iron Head", "Iron Tail", "Metal Claw", "Mud Shot", "Outrage", "Rock Climb", "Sand Tomb", "Scary Face", "Thrash", "Twister" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Bulldoze", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Fang", "Flamethrower", "Fury Cutter", "Hone Claws", "Iron Head", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Shadow Claw", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thunder Fang", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
     "area" : "Route 111",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -88,6 +90,8 @@
     "max" : 46,
     "slot" : 8
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,

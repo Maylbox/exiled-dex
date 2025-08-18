@@ -48,6 +48,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ ],
   "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
     "area" : "Route 102",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -55,6 +57,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
     "area" : "Route 102",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -62,6 +66,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route103",
+    "bucketKey" : "Fishing",
     "area" : "Route 103",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -69,6 +75,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Fishing",
     "area" : "Route 104",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -76,6 +84,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Fishing",
     "area" : "Route 104",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -83,6 +93,8 @@
     "max" : 30,
     "slot" : 3
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Fishing",
     "area" : "Route 104",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -90,6 +102,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Fishing",
     "area" : "Route 104",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -97,6 +111,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Fishing",
     "area" : "Route 104",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -104,6 +120,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Fishing",
     "area" : "Route 104",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -111,6 +129,8 @@
     "max" : 25,
     "slot" : 7
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Fishing",
     "area" : "Route 104",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -118,6 +138,8 @@
     "max" : 40,
     "slot" : 8
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Fishing",
     "area" : "Route 104",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -125,6 +147,8 @@
     "max" : 45,
     "slot" : 9
   }, {
+    "areaKey" : "Route105",
+    "bucketKey" : "Fishing",
     "area" : "Route 105",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -132,6 +156,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route105",
+    "bucketKey" : "Fishing",
     "area" : "Route 105",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -139,6 +165,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route110",
+    "bucketKey" : "Fishing",
     "area" : "Route 110",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -146,6 +174,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route111",
+    "bucketKey" : "Fishing",
     "area" : "Route 111",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -153,6 +183,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "Fishing",
     "area" : "Route 114",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -160,6 +192,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "Fishing",
     "area" : "Route 114",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -167,6 +201,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route117",
+    "bucketKey" : "Fishing",
     "area" : "Route 117",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -174,6 +210,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route117",
+    "bucketKey" : "Fishing",
     "area" : "Route 117",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -181,6 +219,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Fishing",
     "area" : "Route 118",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -188,6 +228,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "AbandonedShip_Rooms_B1F",
+    "bucketKey" : "Fishing",
     "area" : "Abandoned Ship_Rooms_B1F",
     "bucket" : "Fishing",
     "rateBase" : 20,
@@ -195,6 +237,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "AbandonedShip_Rooms_B1F",
+    "bucketKey" : "Fishing",
     "area" : "Abandoned Ship_Rooms_B1F",
     "bucket" : "Fishing",
     "rateBase" : 20,
@@ -202,6 +246,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -209,6 +255,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -216,6 +264,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route107",
+    "bucketKey" : "Fishing",
     "area" : "Route 107",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -223,6 +273,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route108",
+    "bucketKey" : "Fishing",
     "area" : "Route 108",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -230,6 +282,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route108",
+    "bucketKey" : "Fishing",
     "area" : "Route 108",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -237,6 +291,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route109",
+    "bucketKey" : "Fishing",
     "area" : "Route 109",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -244,6 +300,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "Route109",
+    "bucketKey" : "Fishing",
     "area" : "Route 109",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -251,6 +309,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route115",
+    "bucketKey" : "Fishing",
     "area" : "Route 115",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -258,6 +318,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route119",
+    "bucketKey" : "Fishing",
     "area" : "Route 119",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -265,6 +327,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Fishing",
     "area" : "Route 120",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -272,6 +336,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Fishing",
     "area" : "Route 120",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -279,6 +345,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route121",
+    "bucketKey" : "Fishing",
     "area" : "Route 121",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -286,6 +354,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route121",
+    "bucketKey" : "Fishing",
     "area" : "Route 121",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -293,6 +363,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
     "area" : "Route 122",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -300,6 +372,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
     "area" : "Route 122",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -307,6 +381,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route123",
+    "bucketKey" : "Fishing",
     "area" : "Route 123",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -314,6 +390,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route123",
+    "bucketKey" : "Fishing",
     "area" : "Route 123",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -321,6 +399,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route125",
+    "bucketKey" : "Fishing",
     "area" : "Route 125",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -328,6 +408,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route125",
+    "bucketKey" : "Fishing",
     "area" : "Route 125",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -335,6 +417,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route126",
+    "bucketKey" : "Fishing",
     "area" : "Route 126",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -342,6 +426,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route126",
+    "bucketKey" : "Fishing",
     "area" : "Route 126",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -349,6 +435,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route127",
+    "bucketKey" : "Fishing",
     "area" : "Route 127",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -356,6 +444,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route127",
+    "bucketKey" : "Fishing",
     "area" : "Route 127",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -363,6 +453,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route128",
+    "bucketKey" : "Fishing",
     "area" : "Route 128",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -370,6 +462,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route128",
+    "bucketKey" : "Fishing",
     "area" : "Route 128",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -377,6 +471,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route129",
+    "bucketKey" : "Fishing",
     "area" : "Route 129",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -384,6 +480,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route129",
+    "bucketKey" : "Fishing",
     "area" : "Route 129",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -391,6 +489,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Fishing",
     "area" : "Route 130",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -398,6 +498,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Fishing",
     "area" : "Route 130",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -405,6 +507,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route131",
+    "bucketKey" : "Fishing",
     "area" : "Route 131",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -412,6 +516,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route131",
+    "bucketKey" : "Fishing",
     "area" : "Route 131",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -419,6 +525,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route132",
+    "bucketKey" : "Fishing",
     "area" : "Route 132",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -426,6 +534,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route132",
+    "bucketKey" : "Fishing",
     "area" : "Route 132",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -433,6 +543,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route133",
+    "bucketKey" : "Fishing",
     "area" : "Route 133",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -440,6 +552,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route133",
+    "bucketKey" : "Fishing",
     "area" : "Route 133",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -447,6 +561,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "Route134",
+    "bucketKey" : "Fishing",
     "area" : "Route 134",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -454,6 +570,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route134",
+    "bucketKey" : "Fishing",
     "area" : "Route 134",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -461,6 +579,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "AbandonedShip_HiddenFloorCorridors",
+    "bucketKey" : "Fishing",
     "area" : "Abandoned Ship_Hidden Floor Corridors",
     "bucket" : "Fishing",
     "rateBase" : 20,
@@ -468,6 +588,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "AbandonedShip_HiddenFloorCorridors",
+    "bucketKey" : "Fishing",
     "area" : "Abandoned Ship_Hidden Floor Corridors",
     "bucket" : "Fishing",
     "rateBase" : 20,
@@ -475,6 +597,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "SeafloorCavern_Room6",
+    "bucketKey" : "Fishing",
     "area" : "Seafloor Cavern_Room6",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -482,6 +606,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "SeafloorCavern_Room6",
+    "bucketKey" : "Fishing",
     "area" : "Seafloor Cavern_Room6",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -489,6 +615,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "SeafloorCavern_Room7",
+    "bucketKey" : "Fishing",
     "area" : "Seafloor Cavern_Room7",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -496,6 +624,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "SeafloorCavern_Room7",
+    "bucketKey" : "Fishing",
     "area" : "Seafloor Cavern_Room7",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -503,6 +633,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "SeafloorCavern_Entrance",
+    "bucketKey" : "Fishing",
     "area" : "Seafloor Cavern_Entrance",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -510,6 +642,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "SeafloorCavern_Entrance",
+    "bucketKey" : "Fishing",
     "area" : "Seafloor Cavern_Entrance",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -517,6 +651,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "SafariZone_Southwest",
+    "bucketKey" : "Fishing",
     "area" : "Safari Zone_Southwest",
     "bucket" : "Fishing",
     "rateBase" : 35,
@@ -524,6 +660,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "SafariZone_Southwest",
+    "bucketKey" : "Fishing",
     "area" : "Safari Zone_Southwest",
     "bucket" : "Fishing",
     "rateBase" : 35,
@@ -531,6 +669,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Fishing",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Fishing",
     "rateBase" : 35,
@@ -538,6 +678,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Fishing",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Fishing",
     "rateBase" : 35,
@@ -545,6 +687,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Fishing",
     "area" : "Victory Road_B2F",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -552,6 +696,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Fishing",
     "area" : "Victory Road_B2F",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -559,6 +705,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -566,6 +714,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -573,6 +723,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -580,6 +732,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -587,6 +741,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -594,6 +750,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -601,6 +759,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Fishing",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -608,6 +768,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Fishing",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -615,6 +777,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Fishing",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -622,6 +786,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Fishing",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -629,6 +795,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Fishing",
     "area" : "Lilycove City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -636,6 +804,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Fishing",
     "area" : "Dewford Town",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -643,6 +813,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Fishing",
     "area" : "Mossdeep City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -650,6 +822,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Fishing",
     "area" : "Mossdeep City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -657,6 +831,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "PacifidlogTown",
+    "bucketKey" : "Fishing",
     "area" : "Pacifidlog Town",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -664,6 +840,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "PacifidlogTown",
+    "bucketKey" : "Fishing",
     "area" : "Pacifidlog Town",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -671,6 +849,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "EverGrandeCity",
+    "bucketKey" : "Fishing",
     "area" : "Ever Grande City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -678,6 +858,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "EverGrandeCity",
+    "bucketKey" : "Fishing",
     "area" : "Ever Grande City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -685,6 +867,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Fishing",
     "area" : "Petalburg City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -692,6 +876,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Water",
     "area" : "Sootopolis City",
     "bucket" : "Water",
     "rateBase" : 1,
@@ -699,6 +885,8 @@
     "max" : 35,
     "slot" : 0
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Water",
     "area" : "Sootopolis City",
     "bucket" : "Water",
     "rateBase" : 1,
@@ -706,6 +894,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Water",
     "area" : "Sootopolis City",
     "bucket" : "Water",
     "rateBase" : 1,
@@ -713,6 +903,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Water",
     "area" : "Sootopolis City",
     "bucket" : "Water",
     "rateBase" : 1,
@@ -720,6 +912,8 @@
     "max" : 30,
     "slot" : 3
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Water",
     "area" : "Sootopolis City",
     "bucket" : "Water",
     "rateBase" : 1,
@@ -727,6 +921,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Fishing",
     "area" : "Sootopolis City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -734,6 +930,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Fishing",
     "area" : "Sootopolis City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -741,6 +939,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Fishing",
     "area" : "Sootopolis City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -748,6 +948,8 @@
     "max" : 30,
     "slot" : 3
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Fishing",
     "area" : "Sootopolis City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -755,6 +957,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Fishing",
     "area" : "Sootopolis City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -762,6 +966,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Fishing",
     "area" : "Sootopolis City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -769,6 +975,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "SafariZone_Southeast",
+    "bucketKey" : "Fishing",
     "area" : "Safari Zone_Southeast",
     "bucket" : "Fishing",
     "rateBase" : 35,
@@ -776,6 +984,8 @@
     "max" : 30,
     "slot" : 0
   }, {
+    "areaKey" : "SafariZone_Southeast",
+    "bucketKey" : "Fishing",
     "area" : "Safari Zone_Southeast",
     "bucket" : "Fishing",
     "rateBase" : 35,

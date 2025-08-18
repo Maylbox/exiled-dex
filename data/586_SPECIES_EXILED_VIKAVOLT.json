@@ -104,6 +104,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Crunch", "Cut", "Dig", "Dual Wingbeat", "Earthquake", "Facade", "Fire Fang", "First Impression", "High Horsepower", "Hone Claws", "Ice Fang", "Iron Defense", "Iron Head", "Knock Off", "Leech Life", "Play Rough", "Protect", "Psychic Fangs", "Reflect", "Rest", "Return", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Safeguard", "Secret Power", "Sleep Talk", "Smack Down", "Smart Strike", "Stealth Rock", "Steel Wing", "Stone Edge", "Strength", "Substitute", "Swords Dance", "Taunt", "Thunder Fang", "Torment", "Trailblaze", "U Turn", "Volt Tackle", "Wild Charge", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
     "area" : "Route 120",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -111,6 +113,8 @@
     "max" : 54,
     "slot" : 11
   }, {
+    "areaKey" : "FortreeCity0",
+    "bucketKey" : "Land",
     "area" : "Fortree City0",
     "bucket" : "Land",
     "rateBase" : 10,

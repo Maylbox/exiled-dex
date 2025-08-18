@@ -107,6 +107,8 @@
   "eggMoves" : [ "Assurance", "Baton Pass", "Curse", "Double Edge", "Feint Attack", "Hex", "Magic Coat", "Me First", "Mean Look", "Megahorn", "Perish Song", "Play Rough", "Punishment", "Sucker Punch", "Zen Headbutt" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Blizzard", "Body Slam", "Calm Mind", "Charge Beam", "Counter", "Cut", "Dark Pulse", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "False Swipe", "Fire Blast", "Flamethrower", "Flash", "Fury Cutter", "Giga Impact", "Hex", "Hone Claws", "Hyper Beam", "Ice Beam", "Icy Wind", "Knock Off", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Water Pulse", "Will O Wisp", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route112",
+    "bucketKey" : "Land",
     "area" : "Route 112",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -114,6 +116,8 @@
     "max" : 32,
     "slot" : 10
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
     "area" : "Route 120",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -121,6 +125,8 @@
     "max" : 54,
     "slot" : 8
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
     "area" : "Route 120",
     "bucket" : "Land",
     "rateBase" : 20,

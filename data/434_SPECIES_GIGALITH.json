@@ -98,6 +98,8 @@
   "eggMoves" : [ "Autotomize", "Curse", "Gravity", "Heavy Slam", "Lock On", "Magnitude", "Rock Tomb", "Take Down", "Wide Guard" ],
   "teachableMoves" : [ "Attract", "Body Press", "Bulldoze", "Double Team", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Flash Cannon", "Giga Impact", "Hyper Beam", "Iron Defense", "Iron Head", "Meteor Beam", "Mud Slap", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Stealth Rock", "Stone Edge", "Strength", "Swagger", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
     "area" : "Route 111",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -105,6 +107,8 @@
     "max" : 46,
     "slot" : 2
   }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Entrance",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -112,6 +116,8 @@
     "max" : 77,
     "slot" : 8
   }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
     "bucket" : "Land",
     "rateBase" : 4,

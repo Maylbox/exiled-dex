@@ -102,6 +102,8 @@
   "eggMoves" : [ "Autotomize", "Block", "Curse", "Endure", "Flail", "Focus Punch", "Hammer Arm", "Mega Punch", "Rock Climb", "Wide Guard" ],
   "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Gyro Ball", "High Horsepower", "Iron Defense", "Iron Head", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Thunder Punch", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "JaggedPass",
+    "bucketKey" : "Land",
     "area" : "Jagged Pass",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -109,6 +111,8 @@
     "max" : 35,
     "slot" : 1
   }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "RockSmash",
     "area" : "Victory Road_B1F",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -116,6 +120,8 @@
     "max" : 40,
     "slot" : 0
   }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "RockSmash",
     "area" : "Victory Road_B1F",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -123,6 +129,8 @@
     "max" : 40,
     "slot" : 2
   }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "RockSmash",
     "area" : "Victory Road_B1F",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -130,6 +138,8 @@
     "max" : 40,
     "slot" : 3
   }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "RockSmash",
     "area" : "Victory Road_B1F",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -137,6 +147,8 @@
     "max" : 40,
     "slot" : 4
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -144,6 +156,8 @@
     "max" : 34,
     "slot" : 0
   }, {
+    "areaKey" : "FallarborTown0",
+    "bucketKey" : "Land",
     "area" : "Fallarbor Town0",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -80,6 +80,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Brick Break", "Bulk Up", "Calm Mind", "Counter", "Dig", "Drain Punch", "Endure", "Facade", "False Swipe", "Fire Punch", "Focus Blast", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Low Kick", "Poison Jab", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Sunny Day", "Swift", "Swords Dance", "Taunt", "Thief", "Toxic", "Trailblaze", "U Turn", "Venoshock", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -87,6 +89,8 @@
     "max" : 85,
     "slot" : 9
   }, {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -94,6 +98,8 @@
     "max" : 85,
     "slot" : 10
   }, {
+    "areaKey" : "MagmaHideout_1F",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -101,6 +107,8 @@
     "max" : 59,
     "slot" : 7
   }, {
+    "areaKey" : "MagmaHideout_2F_1R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -108,6 +116,8 @@
     "max" : 59,
     "slot" : 7
   }, {
+    "areaKey" : "MagmaHideout_2F_2R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -115,6 +125,8 @@
     "max" : 59,
     "slot" : 7
   }, {
+    "areaKey" : "MagmaHideout_3F_1R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -122,6 +134,8 @@
     "max" : 59,
     "slot" : 7
   }, {
+    "areaKey" : "MagmaHideout_3F_2R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -129,6 +143,8 @@
     "max" : 59,
     "slot" : 7
   }, {
+    "areaKey" : "MagmaHideout_4F",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -136,6 +152,8 @@
     "max" : 59,
     "slot" : 7
   }, {
+    "areaKey" : "MagmaHideout_3F_3R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_3R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -143,6 +161,8 @@
     "max" : 59,
     "slot" : 7
   }, {
+    "areaKey" : "MagmaHideout_2F_3R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_3R",
     "bucket" : "Land",
     "rateBase" : 10,

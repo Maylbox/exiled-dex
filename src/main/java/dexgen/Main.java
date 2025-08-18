@@ -67,6 +67,8 @@ public class Main {
         enc.values().forEach(list -> list.removeIf(e -> e.area().startsWith("Battle Pyramid_")));
         enc.entrySet().removeIf(e -> e.getValue().isEmpty());
 
+        dexgen.TranslationIO.writeAreaBucketSkeleton(enc, dataOut);
+
 
         // 3) Join: keep only obtainable species (present in Excel by display name)
         List<Map<String,Object>> index = new ArrayList<>();
@@ -201,6 +203,7 @@ public class Main {
 
         System.out.println("Wrote JSON to: " + dataOut.toAbsolutePath());
     }
+
 
     // --- helpers ---
     private static String normalizeName(String n){

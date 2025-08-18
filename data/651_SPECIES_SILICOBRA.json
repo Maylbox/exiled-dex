@@ -81,6 +81,8 @@
   "eggMoves" : [ "Belch", "Dragon Rush", "Last Resort", "Mud Slap", "Poison Tail" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Dig", "Earth Power", "Earthquake", "Endure", "Facade", "Mud Slap", "Protect", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge" ],
   "encounters" : [ {
+    "areaKey" : "FallarborTown0",
+    "bucketKey" : "Land",
     "area" : "Fallarbor Town0",
     "bucket" : "Land",
     "rateBase" : 10,

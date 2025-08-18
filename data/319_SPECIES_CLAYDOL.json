@@ -109,6 +109,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Body Press", "Bulldoze", "Calm Mind", "Charge Beam", "Dazzling Gleam", "Dig", "Double Edge", "Double Team", "Dream Eater", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Flash", "Giga Impact", "Grass Knot", "Gyro Ball", "Hex", "Hyper Beam", "Ice Beam", "Iron Defense", "Light Screen", "Mud Slap", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Sandstorm", "Shadow Ball", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Toxic", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
     "area" : "Route 111",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -116,6 +118,8 @@
     "max" : 46,
     "slot" : 4
   }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -123,6 +127,8 @@
     "max" : 76,
     "slot" : 4
   }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -130,6 +136,8 @@
     "max" : 76,
     "slot" : 4
   }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_5F",
     "bucket" : "Land",
     "rateBase" : 10,

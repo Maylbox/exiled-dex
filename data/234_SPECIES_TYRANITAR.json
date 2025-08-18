@@ -104,6 +104,8 @@
   "eggMoves" : [ "Ancient Power", "Assurance", "Curse", "Dragon Dance", "Focus Energy", "Iron Defense", "Iron Head", "Iron Tail", "Outrage", "Pursuit", "Stealth Rock", "Stomp" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Giga Impact", "High Horsepower", "Hone Claws", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Seismic Toss", "Shadow Claw", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Taunt", "Thunder", "Thunder Fang", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -111,6 +113,8 @@
     "max" : 83,
     "slot" : 7
   }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -118,6 +122,8 @@
     "max" : 85,
     "slot" : 1
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -125,6 +131,8 @@
     "max" : 83,
     "slot" : 7
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,

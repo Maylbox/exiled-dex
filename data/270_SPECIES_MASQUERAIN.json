@@ -104,6 +104,8 @@
   "eggMoves" : [ "Aqua Jet", "Bug Bite", "Endure", "Fell Stinger", "Foresight", "Hydro Pump", "Lunge", "Mind Reader", "Mud Shot", "Power Split", "Psybeam", "Signal Beam" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Blizzard", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Leech Life", "Mud Slap", "Protect", "Psych Up", "Rain Dance", "Rest", "Roost", "Scald", "Shadow Ball", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Surf", "Swagger", "Swift", "Thief", "Toxic", "U Turn", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Water",
     "area" : "Petalburg City",
     "bucket" : "Water",
     "rateBase" : 1,
@@ -111,6 +113,8 @@
     "max" : 45,
     "slot" : 2
   }, {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Water",
     "area" : "Petalburg City",
     "bucket" : "Water",
     "rateBase" : 1,
@@ -118,6 +122,8 @@
     "max" : 45,
     "slot" : 3
   }, {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Water",
     "area" : "Petalburg City",
     "bucket" : "Water",
     "rateBase" : 1,

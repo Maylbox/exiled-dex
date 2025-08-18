@@ -99,6 +99,8 @@
   "eggMoves" : [ "Amnesia", "Aqua Ring", "Aromatic Mist", "Charm", "Perish Song", "Wonder Room" ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Blizzard", "Body Slam", "Covet", "Dive", "Double Team", "Endure", "Facade", "Flip Turn", "Ice Beam", "Icy Wind", "Play Rough", "Protect", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Toxic", "Triple Axel", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
     "area" : "Verdanturf Town0",
     "bucket" : "Land",
     "rateBase" : 10,

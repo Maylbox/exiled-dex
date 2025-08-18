@@ -90,6 +90,8 @@
   "eggMoves" : [ "Ally Switch", "Confuse Ray", "Destiny Bond", "Disable", "Encore", "Grudge", "Mean Look", "Memento", "Misty Terrain", "Shadow Sneak", "Skill Swap", "Synchronoise" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Dazzling Gleam", "Defense Curl", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Fire Punch", "Flash", "Grass Knot", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Mystical Fire", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Land",
     "area" : "Route 102",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -97,6 +99,8 @@
     "max" : 6,
     "slot" : 2
   }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Land",
     "area" : "Route 102",
     "bucket" : "Land",
     "rateBase" : 20,

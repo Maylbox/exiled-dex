@@ -90,6 +90,8 @@
   "eggMoves" : [ "Confuse Ray", "Curse", "Disable", "Double Team", "Dragon Tail", "Grudge", "Sucker Punch" ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Dive", "Double Edge", "Double Team", "Draco Meteor", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Fire Blast", "Flamethrower", "Hex", "Light Screen", "Protect", "Psychic Fangs", "Reflect", "Rest", "Scald", "Shadow Ball", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Surf", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "U Turn", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -97,6 +99,8 @@
     "max" : 56,
     "slot" : 8
   }, {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
     "area" : "Route 115",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -104,6 +108,8 @@
     "max" : 48,
     "slot" : 11
   }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -111,6 +117,8 @@
     "max" : 56,
     "slot" : 8
   }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -118,6 +126,8 @@
     "max" : 56,
     "slot" : 8
   }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -125,6 +135,8 @@
     "max" : 56,
     "slot" : 8
   }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_5F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -132,6 +144,8 @@
     "max" : 56,
     "slot" : 8
   }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_6F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -139,6 +153,8 @@
     "max" : 56,
     "slot" : 8
   }, {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -146,6 +162,8 @@
     "max" : 56,
     "slot" : 7
   }, {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -153,6 +171,8 @@
     "max" : 56,
     "slot" : 8
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -160,6 +180,8 @@
     "max" : 56,
     "slot" : 7
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -167,6 +189,8 @@
     "max" : 56,
     "slot" : 8
   }, {
+    "areaKey" : "MagmaHideout_1F",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -174,6 +198,8 @@
     "max" : 59,
     "slot" : 8
   }, {
+    "areaKey" : "MagmaHideout_2F_1R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -181,6 +207,8 @@
     "max" : 59,
     "slot" : 8
   }, {
+    "areaKey" : "MagmaHideout_2F_2R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -188,6 +216,8 @@
     "max" : 59,
     "slot" : 8
   }, {
+    "areaKey" : "MagmaHideout_3F_1R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -195,6 +225,8 @@
     "max" : 59,
     "slot" : 8
   }, {
+    "areaKey" : "MagmaHideout_3F_2R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -202,6 +234,8 @@
     "max" : 59,
     "slot" : 8
   }, {
+    "areaKey" : "MagmaHideout_4F",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -209,6 +243,8 @@
     "max" : 59,
     "slot" : 8
   }, {
+    "areaKey" : "MagmaHideout_3F_3R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_3R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -216,6 +252,8 @@
     "max" : 59,
     "slot" : 8
   }, {
+    "areaKey" : "MagmaHideout_2F_3R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_3R",
     "bucket" : "Land",
     "rateBase" : 10,

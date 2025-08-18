@@ -97,6 +97,8 @@
   "eggMoves" : [ "Body Slam", "Camouflage", "Copycat", "Encore", "Fake Tears", "Muddy Water", "Refresh", "Sing", "Slam", "Soak", "Tickle", "Water Sport" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Covet", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Dynamic Punch", "Endure", "Facade", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Play Rough", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Smash", "Rollout", "Scald", "Seismic Toss", "Sleep Talk", "Snore", "Snowscape", "Strength", "Surf", "Swagger", "Swift", "Toxic", "Trailblaze", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Water",
     "area" : "Petalburg City",
     "bucket" : "Water",
     "rateBase" : 1,

@@ -95,6 +95,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Charge Beam", "Double Edge", "Double Team", "Electroweb", "Endure", "Explosion", "Facade", "Flash", "Flash Cannon", "Gyro Ball", "Iron Defense", "Iron Head", "Light Screen", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Rollout", "Sandstorm", "Shock Wave", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
     "area" : "Mauville City0",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -102,6 +104,8 @@
     "max" : 24,
     "slot" : 0
   }, {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
     "area" : "Mauville City0",
     "bucket" : "Land",
     "rateBase" : 10,

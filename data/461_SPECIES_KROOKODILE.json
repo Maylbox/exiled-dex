@@ -106,6 +106,8 @@
   "eggMoves" : [ "Beat Up", "Counter", "Double Edge", "Fire Fang", "Focus Energy", "Me First", "Mean Look", "Power Trip", "Pursuit", "Rock Climb", "Thunder Fang", "Uproar" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Fang", "Focus Blast", "Giga Impact", "Grass Knot", "High Horsepower", "Hone Claws", "Hyper Beam", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Smack Down", "Snatch", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Swagger", "Taunt", "Thief", "Thunder Fang", "Torment", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
     "area" : "Route 111",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -113,6 +115,8 @@
     "max" : 46,
     "slot" : 0
   }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B2F",
     "bucket" : "Land",
     "rateBase" : 4,

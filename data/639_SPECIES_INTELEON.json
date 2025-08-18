@@ -95,6 +95,8 @@
   "eggMoves" : [ "Aqua Jet", "Aqua Ring", "Double Team", "Fell Stinger", "Haze", "Ice Shard", "Mist" ],
   "teachableMoves" : [ "Acrobatics", "Air Slash", "Attract", "Blizzard", "Dark Pulse", "Dive", "Double Team", "Endure", "Facade", "Flip Turn", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Light Screen", "Metronome", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Safeguard", "Scald", "Shadow Ball", "Sleep Talk", "Smack Down", "Snore", "Snowscape", "Surf", "Swift", "Swords Dance", "Taunt", "U Turn", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
     "area" : "Sootopolis City",
     "bucket" : "Land",
     "rateBase" : 10,

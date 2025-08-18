@@ -112,6 +112,8 @@
   "eggMoves" : [ "Air Slash", "Assurance", "Brine", "Copycat", "Detect", "Night Slash", "Sacred Sword", "Screech", "Trump Card" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Avalanche", "Blizzard", "Brick Break", "Covet", "Cut", "Dig", "Dive", "Double Team", "Endure", "Facade", "False Swipe", "Flip Turn", "Fury Cutter", "Grass Knot", "Ice Beam", "Icy Wind", "Knock Off", "Protect", "Rain Dance", "Rest", "Rock Smash", "Scald", "Sleep Talk", "Snore", "Snowscape", "Surf", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Toxic", "Water Pulse", "Waterfall", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
     "area" : "Verdanturf Town0",
     "bucket" : "Land",
     "rateBase" : 10,

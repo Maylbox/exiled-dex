@@ -107,6 +107,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Body Press", "Body Slam", "Bulldoze", "Calm Mind", "Charge Beam", "Double Team", "Dream Eater", "Earthquake", "Endure", "Explosion", "Facade", "Flash", "Flash Cannon", "Giga Impact", "Grass Knot", "Gyro Ball", "Hex", "Hyper Beam", "Iron Defense", "Iron Head", "Light Screen", "Meteor Beam", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Safeguard", "Sandstorm", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Toxic", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -114,6 +116,8 @@
     "max" : 56,
     "slot" : 0
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -121,6 +125,8 @@
     "max" : 56,
     "slot" : 0
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
     "area" : "Mossdeep City",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -128,6 +134,8 @@
     "max" : 69,
     "slot" : 6
   }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -135,6 +143,8 @@
     "max" : 76,
     "slot" : 1
   }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -142,6 +152,8 @@
     "max" : 76,
     "slot" : 1
   }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_5F",
     "bucket" : "Land",
     "rateBase" : 10,

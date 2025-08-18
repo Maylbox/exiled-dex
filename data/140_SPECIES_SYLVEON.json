@@ -86,6 +86,8 @@
   "eggMoves" : [ "Captivate", "Charm", "Covet", "Curse", "Detect", "Endure", "Fake Tears", "Flail", "Natural Gift", "Stored Power", "Synchronoise", "Tickle", "Wish", "Yawn" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Covet", "Cut", "Dazzling Gleam", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "Flash", "Giga Impact", "Hyper Beam", "Light Screen", "Mud Slap", "Mystical Fire", "Play Rough", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Smash", "Safeguard", "Shadow Ball", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
     "area" : "Mossdeep City",
     "bucket" : "Land",
     "rateBase" : 10,

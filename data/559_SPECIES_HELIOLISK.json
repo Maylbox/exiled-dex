@@ -84,6 +84,8 @@
   "eggMoves" : [ "Agility", "Camouflage", "Electric Terrain", "Glare" ],
   "teachableMoves" : [ "Attract", "Bulldoze", "Charge Beam", "Cut", "Dark Pulse", "Dig", "Double Team", "Dragon Pulse", "Dragon Tail", "Electroweb", "Endure", "Facade", "Fire Punch", "Flash", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Surf", "Swagger", "Swift", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "U Turn", "Volt Switch", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
     "area" : "Route 111",
     "bucket" : "Land",
     "rateBase" : 10,

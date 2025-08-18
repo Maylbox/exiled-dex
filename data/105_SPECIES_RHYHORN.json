@@ -90,6 +90,8 @@
   "eggMoves" : [ "Counter", "Crunch", "Crush Claw", "Curse", "Dragon Rush", "Fire Fang", "Guard Split", "Ice Fang", "Iron Tail", "Magnitude", "Metal Burst", "Reversal", "Rock Climb", "Rototiller", "Skull Bash", "Thunder Fang" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Press", "Body Slam", "Bulldoze", "Counter", "Crunch", "Dig", "Double Edge", "Double Team", "Dragon Pulse", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Giga Impact", "High Horsepower", "Ice Beam", "Ice Fang", "Icy Wind", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Shock Wave", "Sleep Talk", "Smack Down", "Smart Strike", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Thunder", "Thunder Fang", "Thunderbolt", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "Route112",
+    "bucketKey" : "Land",
     "area" : "Route 112",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -97,6 +99,8 @@
     "max" : 32,
     "slot" : 9
   }, {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -104,6 +108,8 @@
     "max" : 17,
     "slot" : 0
   }, {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -111,6 +117,8 @@
     "max" : 17,
     "slot" : 3
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -118,6 +126,8 @@
     "max" : 27,
     "slot" : 0
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -125,6 +135,8 @@
     "max" : 29,
     "slot" : 2
   }, {
+    "areaKey" : "FallarborTown0",
+    "bucketKey" : "Land",
     "area" : "Fallarbor Town0",
     "bucket" : "Land",
     "rateBase" : 10,

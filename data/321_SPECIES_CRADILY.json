@@ -100,6 +100,8 @@
   "eggMoves" : [ "Barrier", "Curse", "Endure", "Mega Drain", "Mirror Coat", "Recover", "Stealth Rock", "Tickle", "Wring Out" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Bullet Seed", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Grass Knot", "Hyper Beam", "Meteor Beam", "Mirror Coat", "Mud Slap", "Power Whip", "Protect", "Psych Up", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Smack Down", "Snore", "Solar Beam", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "MirageTower_1F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_1F",
     "bucket" : "Land",
     "rateBase" : 10,

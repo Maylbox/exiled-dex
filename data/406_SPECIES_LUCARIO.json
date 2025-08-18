@@ -117,6 +117,8 @@
   "eggMoves" : [ "Agility", "Bite", "Blaze Kick", "Bullet Punch", "Circle Throw", "Cross Chop", "Crunch", "Detect", "Follow Me", "High Jump Kick", "Iron Defense", "Low Kick", "Meteor Mash", "Mind Reader", "Sky Uppercut", "Vacuum Wave" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Aura Sphere", "Blaze Kick", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Calm Mind", "Counter", "Crunch", "Dark Pulse", "Dig", "Double Team", "Dragon Pulse", "Drain Punch", "Earthquake", "Endure", "Facade", "Flash Cannon", "Focus Blast", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Ice Punch", "Iron Defense", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thunder Punch", "Toxic", "Trailblaze", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
     "area" : "Route 114",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -124,6 +126,8 @@
     "max" : 33,
     "slot" : 11
   }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B1F",
     "bucket" : "Land",
     "rateBase" : 4,

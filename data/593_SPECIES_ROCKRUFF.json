@@ -89,6 +89,8 @@
   "eggMoves" : [ "Crush Claw", "Fire Fang", "Sucker Punch", "Thrash", "Thunder Fang" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Covet", "Crunch", "Dig", "Double Edge", "Double Team", "Earth Power", "Endure", "Facade", "Fire Fang", "Iron Defense", "Iron Head", "Mud Slap", "Play Rough", "Protect", "Psychic Fangs", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Tomb", "Sandstorm", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Swagger", "Swords Dance", "Taunt", "Thunder Fang", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "Route112",
+    "bucketKey" : "Land",
     "area" : "Route 112",
     "bucket" : "Land",
     "rateBase" : 20,

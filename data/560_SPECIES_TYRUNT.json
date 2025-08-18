@@ -78,6 +78,8 @@
   "eggMoves" : [ "Curse", "Dragon Dance", "Fire Fang", "Ice Fang", "Poison Fang", "Rock Polish", "Thunder Fang" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Crunch", "Dark Pulse", "Dig", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Fang", "Hone Claws", "Ice Fang", "Iron Defense", "Iron Head", "Meteor Beam", "Play Rough", "Protect", "Psychic Fangs", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Thunder Fang", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "FieryPath",
+    "bucketKey" : "Land",
     "area" : "Fiery Path",
     "bucket" : "Land",
     "rateBase" : 10,

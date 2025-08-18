@@ -101,6 +101,8 @@
   "eggMoves" : [ "Captivate", "Feint", "Flatter", "Imprison", "Mean Look", "Metal Burst", "Moonlight", "Nasty Plot", "Recover", "Sucker Punch", "Trick" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Calm Mind", "Counter", "Cut", "Dark Pulse", "Dazzling Gleam", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Fire Punch", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Gyro Ball", "Hex", "Hone Claws", "Hyper Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Punch", "Thunder Wave", "Torment", "Toxic", "Water Pulse", "Will O Wisp", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -108,6 +110,8 @@
     "max" : 17,
     "slot" : 1
   }, {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -115,6 +119,8 @@
     "max" : 17,
     "slot" : 3
   }, {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -122,6 +128,8 @@
     "max" : 56,
     "slot" : 1
   }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -129,6 +137,8 @@
     "max" : 56,
     "slot" : 1
   }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -136,6 +146,8 @@
     "max" : 56,
     "slot" : 1
   }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -143,6 +155,8 @@
     "max" : 56,
     "slot" : 1
   }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_5F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -150,6 +164,8 @@
     "max" : 56,
     "slot" : 1
   }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_6F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -157,6 +173,8 @@
     "max" : 56,
     "slot" : 1
   }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Entrance",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -164,6 +182,8 @@
     "max" : 77,
     "slot" : 6
   }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Entrance",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -171,6 +191,8 @@
     "max" : 77,
     "slot" : 7
   }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -178,6 +200,8 @@
     "max" : 77,
     "slot" : 6
   }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -185,6 +209,8 @@
     "max" : 77,
     "slot" : 7
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -192,6 +218,8 @@
     "max" : 30,
     "slot" : 3
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -199,6 +227,8 @@
     "max" : 32,
     "slot" : 4
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -206,6 +236,8 @@
     "max" : 34,
     "slot" : 5
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap2",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -213,6 +245,8 @@
     "max" : 30,
     "slot" : 3
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap2",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -220,6 +254,8 @@
     "max" : 32,
     "slot" : 4
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap2",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -227,6 +263,8 @@
     "max" : 34,
     "slot" : 5
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap3",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -234,6 +272,8 @@
     "max" : 30,
     "slot" : 3
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap3",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -241,6 +281,8 @@
     "max" : 32,
     "slot" : 4
   }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap3",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -248,6 +290,8 @@
     "max" : 34,
     "slot" : 5
   }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -255,6 +299,8 @@
     "max" : 76,
     "slot" : 3
   }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -262,6 +308,8 @@
     "max" : 76,
     "slot" : 3
   }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_5F",
     "bucket" : "Land",
     "rateBase" : 10,

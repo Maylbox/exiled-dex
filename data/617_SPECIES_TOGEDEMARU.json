@@ -85,6 +85,8 @@
   "eggMoves" : [ "Disarming Voice", "Encore", "Fake Out", "Flail", "Present", "Reversal", "Tickle", "Twineedle", "Wish" ],
   "teachableMoves" : [ "Attract", "Charge Beam", "Covet", "Defense Curl", "Double Team", "Electroweb", "Endure", "Facade", "Giga Impact", "Grass Knot", "Gyro Ball", "Hyper Beam", "Iron Head", "Poison Jab", "Protect", "Reflect", "Rest", "Rollout", "Shock Wave", "Sleep Talk", "Snore", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "U Turn", "Volt Switch", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route113",
+    "bucketKey" : "Land",
     "area" : "Route 113",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -92,6 +94,8 @@
     "max" : 33,
     "slot" : 2
   }, {
+    "areaKey" : "NewMauville_Inside",
+    "bucketKey" : "Land",
     "area" : "New Mauville_Inside",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -99,6 +103,8 @@
     "max" : 57,
     "slot" : 4
   }, {
+    "areaKey" : "NewMauville_Entrance",
+    "bucketKey" : "Land",
     "area" : "New Mauville_Entrance",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -106,6 +112,8 @@
     "max" : 57,
     "slot" : 4
   }, {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
     "area" : "Mauville City0",
     "bucket" : "Land",
     "rateBase" : 10,

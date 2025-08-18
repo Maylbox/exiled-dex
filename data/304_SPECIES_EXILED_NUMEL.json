@@ -87,6 +87,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Aura Sphere", "Body Press", "Bulk Up", "Bulldoze", "Calm Mind", "Dive", "Earth Power", "Earthquake", "Energy Ball", "Fire Blast", "Flamethrower", "Flash Cannon", "Flip Turn", "Focus Blast", "Gyro Ball", "High Horsepower", "Iron Defense", "Iron Head", "Light Screen", "Meteor Beam", "Mystical Fire", "Overheat", "Protect", "Rain Dance", "Reflect", "Rest", "Return", "Rock Polish", "Rock Smash", "Rock Tomb", "Safeguard", "Scald", "Shadow Ball", "Sleep Talk", "Stealth Rock", "Stone Edge", "Strength", "Substitute", "Surf", "Swords Dance", "Trick Room", "Water Pulse", "Waterfall", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Underwater_Route126",
+    "bucketKey" : "Water",
     "area" : "Underwater_Route 126",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -94,6 +96,8 @@
     "max" : 35,
     "slot" : 4
   }, {
+    "areaKey" : "Underwater_Route124",
+    "bucketKey" : "Water",
     "area" : "Underwater_Route 124",
     "bucket" : "Water",
     "rateBase" : 4,

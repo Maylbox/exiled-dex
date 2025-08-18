@@ -72,6 +72,8 @@
   "eggMoves" : [ "After You", "Body Slam", "Crush Claw", "Curse", "Hammer Arm", "Night Slash", "Pursuit", "Slash", "Sleep Talk", "Snore", "Tickle" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulk Up", "Counter", "Covet", "Cut", "Double Edge", "Double Team", "Dynamic Punch", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Punch", "Flamethrower", "Fury Cutter", "Hone Claws", "Ice Beam", "Ice Punch", "Icy Wind", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Play Rough", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Toxic", "Water Pulse", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
     "area" : "Petalburg Woods",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -79,6 +81,8 @@
     "max" : 7,
     "slot" : 8
   }, {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
     "area" : "Petalburg Woods",
     "bucket" : "Land",
     "rateBase" : 20,

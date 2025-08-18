@@ -87,6 +87,8 @@
   "eggMoves" : [ "Close Combat", "Crunch", "Double Edge", "Fake Tears", "Feint Attack", "Fire Fang", "Focus Punch", "Heal Bell", "Ice Fang", "Metronome", "Mimic", "Present", "Smelling Salts", "Snore", "Thunder Fang" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Covet", "Crunch", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Ice Fang", "Ice Punch", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Overheat", "Play Rough", "Power Up Punch", "Protect", "Psychic Fangs", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Smash", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder", "Thunder Fang", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trailblaze", "Water Pulse", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "SafariZone_Southeast",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Southeast",
     "bucket" : "Land",
     "rateBase" : 25,

@@ -101,6 +101,8 @@
   "eggMoves" : [ "Captivate", "Copycat", "Counter", "Dark Pulse", "Detect", "Extrasensory", "Memento", "Snatch", "Sucker Punch" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Calm Mind", "Counter", "Covet", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Team", "Endure", "Facade", "Flamethrower", "Focus Blast", "Giga Impact", "Grass Knot", "Hex", "Hone Claws", "Hyper Beam", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Roar", "Rock Smash", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Torment", "Toxic", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -108,6 +110,8 @@
     "max" : 56,
     "slot" : 9
   }, {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -115,6 +119,8 @@
     "max" : 56,
     "slot" : 10
   }, {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
     "area" : "Route 115",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -122,6 +128,8 @@
     "max" : 48,
     "slot" : 9
   }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -129,6 +137,8 @@
     "max" : 56,
     "slot" : 9
   }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -136,6 +146,8 @@
     "max" : 56,
     "slot" : 10
   }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -143,6 +155,8 @@
     "max" : 56,
     "slot" : 9
   }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -150,6 +164,8 @@
     "max" : 56,
     "slot" : 10
   }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -157,6 +173,8 @@
     "max" : 56,
     "slot" : 9
   }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -164,6 +182,8 @@
     "max" : 56,
     "slot" : 10
   }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_5F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -171,6 +191,8 @@
     "max" : 56,
     "slot" : 9
   }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_5F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -178,6 +200,8 @@
     "max" : 56,
     "slot" : 10
   }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_6F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -185,6 +209,8 @@
     "max" : 56,
     "slot" : 9
   }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_6F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -192,6 +218,8 @@
     "max" : 56,
     "slot" : 10
   }, {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -199,6 +227,8 @@
     "max" : 56,
     "slot" : 9
   }, {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -206,6 +236,8 @@
     "max" : 56,
     "slot" : 10
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -213,6 +245,8 @@
     "max" : 56,
     "slot" : 9
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,

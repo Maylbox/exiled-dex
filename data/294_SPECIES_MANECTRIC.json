@@ -95,6 +95,8 @@
   "eggMoves" : [ "Crunch", "Curse", "Discharge", "Eerie Impulse", "Electro Ball", "Fire Fang", "Flame Burst", "Headbutt", "Ice Fang", "Shock Wave", "Swift", "Switcheroo", "Thunder Fang", "Uproar" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Charge Beam", "Crunch", "Double Edge", "Double Team", "Endure", "Facade", "Fire Fang", "Flamethrower", "Flash", "Giga Impact", "Hyper Beam", "Ice Fang", "Light Screen", "Mud Slap", "Overheat", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Swagger", "Swift", "Thief", "Thunder", "Thunder Fang", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "NewMauville_Inside",
+    "bucketKey" : "Land",
     "area" : "New Mauville_Inside",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -102,6 +104,8 @@
     "max" : 57,
     "slot" : 1
   }, {
+    "areaKey" : "NewMauville_Entrance",
+    "bucketKey" : "Land",
     "area" : "New Mauville_Entrance",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -110,6 +110,8 @@
   "eggMoves" : [ "Feint", "Ice Hammer", "Quash" ],
   "teachableMoves" : [ "Brick Break", "Bulldoze", "Covet", "Endure", "Facade", "Flash Cannon", "Knock Off", "Light Screen", "Metronome", "Play Rough", "Protect", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Smack Down", "Stealth Rock", "Stone Edge", "Swords Dance", "Thief", "Thunder Wave" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B2F",
     "bucket" : "Land",
     "rateBase" : 4,

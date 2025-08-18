@@ -110,6 +110,8 @@
   "eggMoves" : [ "Barrier", "Discharge", "Haze", "Magnet Rise", "Mirror Coat" ],
   "teachableMoves" : [ "Attract", "Aurora Veil", "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Calm Mind", "Charge Beam", "Dark Pulse", "Double Team", "Dragon Tail", "Dream Eater", "Earth Power", "Earthquake", "Endure", "Facade", "Flash", "Flash Cannon", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Iron Head", "Light Screen", "Meteor Beam", "Mirror Coat", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Sandstorm", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Swagger", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Entrance",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -117,6 +119,8 @@
     "max" : 77,
     "slot" : 10
   }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -124,6 +128,8 @@
     "max" : 77,
     "slot" : 10
   }, {
+    "areaKey" : "MirageTower_1F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -131,6 +137,8 @@
     "max" : 45,
     "slot" : 10
   }, {
+    "areaKey" : "MirageTower_1F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -138,6 +146,8 @@
     "max" : 45,
     "slot" : 11
   }, {
+    "areaKey" : "MirageTower_2F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -145,6 +155,8 @@
     "max" : 45,
     "slot" : 5
   }, {
+    "areaKey" : "MirageTower_2F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -152,6 +164,8 @@
     "max" : 45,
     "slot" : 7
   }, {
+    "areaKey" : "MirageTower_3F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -159,6 +173,8 @@
     "max" : 45,
     "slot" : 5
   }, {
+    "areaKey" : "MirageTower_3F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -166,6 +182,8 @@
     "max" : 45,
     "slot" : 7
   }, {
+    "areaKey" : "MirageTower_4F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -173,6 +191,8 @@
     "max" : 45,
     "slot" : 5
   }, {
+    "areaKey" : "MirageTower_4F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_4F",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -104,6 +104,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Crunch", "Dark Pulse", "Dazzling Gleam", "Drain Punch", "Endure", "Facade", "Fire Punch", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Punch", "Leech Life", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Play Rough", "Power Up Punch", "Power Whip", "Protect", "Reflect", "Rest", "Shadow Claw", "Sleep Talk", "Snore", "Swagger", "Taunt", "Thief", "Thunder Punch", "Thunder Wave", "Torment", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -111,6 +113,8 @@
     "max" : 85,
     "slot" : 3
   }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Entrance",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -118,6 +122,8 @@
     "max" : 77,
     "slot" : 3
   }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -125,6 +131,8 @@
     "max" : 77,
     "slot" : 3
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
     "area" : "Mossdeep City",
     "bucket" : "Land",
     "rateBase" : 10,

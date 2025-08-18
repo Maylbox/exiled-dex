@@ -129,6 +129,8 @@
   "eggMoves" : [ "After You", "Charm", "Flail", "Ingrain", "Nature Power", "Razor Leaf", "Secret Power", "Strength Sap", "Synthesis", "Teeter Dance", "Tickle" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bullet Seed", "Cut", "Dazzling Gleam", "Double Edge", "Double Team", "Drain Punch", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Protect", "Reflect", "Rest", "Safeguard", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Solar Beam", "Solar Blade", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "Route119",
+    "bucketKey" : "Land",
     "area" : "Route 119",
     "bucket" : "Land",
     "rateBase" : 15,

@@ -90,6 +90,8 @@
   "eggMoves" : [ "Curse", "Destiny Bond", "Grudge", "Pain Split", "Psybeam", "Psywave", "Screech", "Spit Up", "Spite", "Stockpile", "Swallow", "Toxic Spikes", "Venom Drench" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Dark Pulse", "Double Team", "Endure", "Explosion", "Facade", "Fire Blast", "Flamethrower", "Flash", "Gyro Ball", "Protect", "Rain Dance", "Rest", "Rollout", "Shadow Ball", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder", "Thunderbolt", "Torment", "Toxic", "Venoshock", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "FieryPath",
+    "bucketKey" : "Land",
     "area" : "Fiery Path",
     "bucket" : "Land",
     "rateBase" : 10,

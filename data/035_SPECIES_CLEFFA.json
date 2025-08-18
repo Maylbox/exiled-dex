@@ -65,6 +65,8 @@
   "eggMoves" : [ "Amnesia", "Aromatherapy", "Belly Drum", "Covet", "Fake Tears", "Heal Pulse", "Metronome", "Mimic", "Misty Terrain", "Present", "Splash", "Stored Power", "Tickle", "Wish" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Counter", "Covet", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Fire Blast", "Flamethrower", "Flash", "Grass Knot", "Icy Wind", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rollout", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Soft Boiled", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thunder Wave", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -72,6 +74,8 @@
     "max" : 15,
     "slot" : 8
   }, {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_1F",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -89,6 +89,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Aura Sphere", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Bullet Seed", "Calm Mind", "Cut", "Double Team", "Drain Punch", "Energy Ball", "Facade", "False Swipe", "First Impression", "Flash", "Focus Blast", "Giga Drain", "Grass Knot", "Grassy Glide", "Hone Claws", "Hyper Beam", "Knock Off", "Low Kick", "Poison Jab", "Power Up Punch", "Power Whip", "Protect", "Reflect", "Rest", "Return", "Rock Smash", "Safeguard", "Sludge Bomb", "Solar Beam", "Solar Blade", "Strength", "Substitute", "Sunny Day", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "Triple Axel", "Venoshock", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
     "area" : "Deep Woods0",
     "bucket" : "Land",
     "rateBase" : 10,

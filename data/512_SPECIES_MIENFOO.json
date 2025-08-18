@@ -93,6 +93,8 @@
   "eggMoves" : [ "Ally Switch", "Baton Pass", "Endure", "Feint", "Knock Off", "Low Kick", "Me First", "Smelling Salts", "Vital Throw" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Aura Sphere", "Brick Break", "Bulk Up", "Calm Mind", "Dig", "Double Team", "Drain Punch", "Endure", "Facade", "Focus Blast", "Grass Knot", "Hone Claws", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -100,6 +102,8 @@
     "max" : 21,
     "slot" : 8
   }, {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
     "area" : "Dewford Town",
     "bucket" : "Land",
     "rateBase" : 10,

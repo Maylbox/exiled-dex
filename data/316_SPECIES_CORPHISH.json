@@ -87,6 +87,8 @@
   "eggMoves" : [ "Ancient Power", "Aqua Jet", "Body Slam", "Chip Away", "Double Edge", "Dragon Dance", "Endeavor", "Knock Off", "Metal Claw", "Mud Sport", "Superpower", "Switcheroo", "Trump Card" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Blizzard", "Body Slam", "Brick Break", "Counter", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "False Swipe", "Fury Cutter", "Hone Claws", "Ice Beam", "Icy Wind", "Iron Defense", "Knock Off", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Scald", "Sleep Talk", "Sludge Bomb", "Snore", "Strength", "Surf", "Swagger", "Swords Dance", "Taunt", "Thief", "Toxic", "Water Pulse", "Waterfall", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
     "area" : "Route 102",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -94,6 +96,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
     "area" : "Route 102",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -101,6 +105,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
     "area" : "Route 102",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -108,6 +114,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
     "area" : "Route 102",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -115,6 +123,8 @@
     "max" : 25,
     "slot" : 7
   }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
     "area" : "Route 102",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -122,6 +132,8 @@
     "max" : 40,
     "slot" : 8
   }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
     "area" : "Route 102",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -129,6 +141,8 @@
     "max" : 45,
     "slot" : 9
   }, {
+    "areaKey" : "Route117",
+    "bucketKey" : "Fishing",
     "area" : "Route 117",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -136,6 +150,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "Route117",
+    "bucketKey" : "Fishing",
     "area" : "Route 117",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -143,6 +159,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "Route117",
+    "bucketKey" : "Fishing",
     "area" : "Route 117",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -150,6 +168,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "Route117",
+    "bucketKey" : "Fishing",
     "area" : "Route 117",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -157,6 +177,8 @@
     "max" : 25,
     "slot" : 7
   }, {
+    "areaKey" : "Route117",
+    "bucketKey" : "Fishing",
     "area" : "Route 117",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -164,6 +186,8 @@
     "max" : 40,
     "slot" : 8
   }, {
+    "areaKey" : "Route117",
+    "bucketKey" : "Fishing",
     "area" : "Route 117",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -171,6 +195,8 @@
     "max" : 45,
     "slot" : 9
   }, {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Fishing",
     "area" : "Petalburg City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -178,6 +204,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Fishing",
     "area" : "Petalburg City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -185,6 +213,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Fishing",
     "area" : "Petalburg City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -192,6 +222,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Fishing",
     "area" : "Petalburg City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -199,6 +231,8 @@
     "max" : 25,
     "slot" : 7
   }, {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Fishing",
     "area" : "Petalburg City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -206,6 +240,8 @@
     "max" : 40,
     "slot" : 8
   }, {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Fishing",
     "area" : "Petalburg City",
     "bucket" : "Fishing",
     "rateBase" : 10,

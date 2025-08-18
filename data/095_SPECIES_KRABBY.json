@@ -84,6 +84,8 @@
   "eggMoves" : [ "Agility", "Ally Switch", "Amnesia", "Ancient Power", "Bide", "Chip Away", "Endure", "Flail", "Haze", "Knock Off", "Slam", "Tickle" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Cut", "Dig", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "False Swipe", "Fury Cutter", "Hone Claws", "Ice Beam", "Icy Wind", "Iron Defense", "Knock Off", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Scald", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swords Dance", "Thief", "Toxic", "Water Pulse", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route103",
+    "bucketKey" : "Land",
     "area" : "Route 103",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -91,6 +93,8 @@
     "max" : 5,
     "slot" : 1
   }, {
+    "areaKey" : "Route103",
+    "bucketKey" : "Land",
     "area" : "Route 103",
     "bucket" : "Land",
     "rateBase" : 20,

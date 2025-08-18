@@ -86,6 +86,8 @@
   "eggMoves" : [ "Body Slam", "Double Edge", "Dragon Breath", "Iron Head", "Iron Tail", "Metal Claw", "Mud Shot", "Outrage", "Rock Climb", "Sand Tomb", "Scary Face", "Thrash", "Twister" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Fang", "Flamethrower", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Iron Head", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Shadow Claw", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Swift", "Swords Dance", "Thunder Fang", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -93,6 +95,8 @@
     "max" : 83,
     "slot" : 0
   }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -100,6 +104,8 @@
     "max" : 85,
     "slot" : 0
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -107,6 +113,8 @@
     "max" : 83,
     "slot" : 0
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -114,6 +122,8 @@
     "max" : 83,
     "slot" : 0
   }, {
+    "areaKey" : "MagmaHideout_1F",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -121,6 +131,8 @@
     "max" : 59,
     "slot" : 4
   }, {
+    "areaKey" : "MagmaHideout_2F_1R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -128,6 +140,8 @@
     "max" : 59,
     "slot" : 4
   }, {
+    "areaKey" : "MagmaHideout_2F_2R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -135,6 +149,8 @@
     "max" : 59,
     "slot" : 4
   }, {
+    "areaKey" : "MagmaHideout_3F_1R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -142,6 +158,8 @@
     "max" : 59,
     "slot" : 4
   }, {
+    "areaKey" : "MagmaHideout_3F_2R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -149,6 +167,8 @@
     "max" : 59,
     "slot" : 4
   }, {
+    "areaKey" : "MagmaHideout_4F",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -156,6 +176,8 @@
     "max" : 59,
     "slot" : 4
   }, {
+    "areaKey" : "MagmaHideout_3F_3R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_3R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -163,6 +185,8 @@
     "max" : 59,
     "slot" : 4
   }, {
+    "areaKey" : "MagmaHideout_2F_3R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_3R",
     "bucket" : "Land",
     "rateBase" : 10,

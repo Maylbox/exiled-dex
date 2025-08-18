@@ -85,6 +85,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Aerial Ace", "Blizzard", "Charge Beam", "Double Edge", "Double Team", "Dream Eater", "Electroweb", "Endure", "Facade", "Flash", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "NewMauville_Entrance",
+    "bucketKey" : "Land",
     "area" : "New Mauville_Entrance",
     "bucket" : "Land",
     "rateBase" : 10,

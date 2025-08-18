@@ -101,6 +101,8 @@
   "eggMoves" : [ "Body Slam", "Curse", "Dragon Rush", "Endeavor", "Head Smash", "Iron Head", "Reversal", "Screech", "Smelling Salts", "Stealth Rock", "Stomp", "Superpower" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Press", "Body Slam", "Bulldoze", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Fury Cutter", "Hone Claws", "Iron Defense", "Iron Head", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,

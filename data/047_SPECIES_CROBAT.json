@@ -140,6 +140,8 @@
   "eggMoves" : [ "Brave Bird", "Curse", "Defog", "Feint Attack", "Giga Drain", "Gust", "Hypnosis", "Nasty Plot", "Pursuit", "Quick Attack", "Steel Wing", "Venom Drench", "Whirlwind", "Zen Headbutt" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Crunch", "Dark Pulse", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "Fly", "Giga Drain", "Giga Impact", "Hex", "Hyper Beam", "Leech Life", "Protect", "Rain Dance", "Rest", "Roost", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "U Turn", "Venoshock", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "SeafloorCavern_Room1",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -147,6 +149,8 @@
     "max" : 75,
     "slot" : 4
   }, {
+    "areaKey" : "SeafloorCavern_Room2",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -154,6 +158,8 @@
     "max" : 75,
     "slot" : 4
   }, {
+    "areaKey" : "SeafloorCavern_Room3",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -161,6 +167,8 @@
     "max" : 75,
     "slot" : 4
   }, {
+    "areaKey" : "SeafloorCavern_Room4",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room4",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -168,6 +176,8 @@
     "max" : 75,
     "slot" : 4
   }, {
+    "areaKey" : "SeafloorCavern_Room5",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room5",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -175,6 +185,8 @@
     "max" : 75,
     "slot" : 4
   }, {
+    "areaKey" : "SeafloorCavern_Room6",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room6",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -182,6 +194,8 @@
     "max" : 75,
     "slot" : 4
   }, {
+    "areaKey" : "SeafloorCavern_Room7",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room7",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -189,6 +203,8 @@
     "max" : 75,
     "slot" : 4
   }, {
+    "areaKey" : "SeafloorCavern_Room8",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room8",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -196,6 +212,8 @@
     "max" : 75,
     "slot" : 4
   }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Entrance",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -203,6 +221,8 @@
     "max" : 77,
     "slot" : 1
   }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
     "bucket" : "Land",
     "rateBase" : 4,

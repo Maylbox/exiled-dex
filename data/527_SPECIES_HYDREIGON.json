@@ -104,6 +104,8 @@
   "eggMoves" : [ "Assurance", "Astonish", "Belch", "Dark Pulse", "Double Hit", "Earth Power", "Fire Fang", "Head Smash", "Ice Fang", "Screech", "Thunder Fang" ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Body Slam", "Bulldoze", "Charge Beam", "Crunch", "Dark Pulse", "Defog", "Double Team", "Draco Meteor", "Dragon Pulse", "Dragon Tail", "Dual Wingbeat", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Flash Cannon", "Fly", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Fang", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Shock Wave", "Sleep Talk", "Snore", "Stealth Rock", "Steel Wing", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Taunt", "Thief", "Thunder Fang", "Thunder Wave", "Torment", "Toxic", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -111,6 +113,8 @@
     "max" : 83,
     "slot" : 1
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -118,6 +122,8 @@
     "max" : 83,
     "slot" : 1
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -125,6 +131,8 @@
     "max" : 83,
     "slot" : 1
   }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -132,6 +140,8 @@
     "max" : 76,
     "slot" : 7
   }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -139,6 +149,8 @@
     "max" : 76,
     "slot" : 7
   }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_5F",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -95,6 +95,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bullet Seed", "Covet", "Crunch", "Dig", "Earthquake", "Facade", "False Swipe", "Fire Fang", "First Impression", "Gyro Ball", "Hidden Power", "Hone Claws", "Ice Fang", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Play Rough", "Reflect", "Rest", "Return", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Smack Down", "Snatch", "Stealth Rock", "Stone Edge", "Strength", "Substitute", "Swords Dance", "Taunt", "Thief", "Thunder Fang", "Torment", "Trailblaze", "U Turn", "Volt Tackle", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route113",
+    "bucketKey" : "Land",
     "area" : "Route 113",
     "bucket" : "Land",
     "rateBase" : 20,

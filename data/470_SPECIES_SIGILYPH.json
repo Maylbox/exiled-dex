@@ -89,6 +89,8 @@
   "eggMoves" : [ "Ancient Power", "Future Sight", "Psycho Shift", "Roost", "Skill Swap", "Steel Wing", "Stored Power" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Calm Mind", "Charge Beam", "Dark Pulse", "Dazzling Gleam", "Defog", "Double Team", "Dream Eater", "Dual Wingbeat", "Endure", "Energy Ball", "Facade", "Flash", "Flash Cannon", "Fly", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Light Screen", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Roost", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Steel Wing", "Swagger", "Swift", "Thief", "Thunder Wave", "Toxic", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
     "area" : "Route 121",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -96,6 +98,8 @@
     "max" : 55,
     "slot" : 3
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
     "area" : "Mossdeep City",
     "bucket" : "Land",
     "rateBase" : 10,

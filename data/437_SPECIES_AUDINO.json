@@ -104,6 +104,8 @@
   "eggMoves" : [ "Amnesia", "Bestow", "Draining Kiss", "Encore", "Heal Bell", "Healing Wish", "Lucky Chant", "Sleep Talk", "Sweet Kiss", "Wish", "Yawn" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Calm Mind", "Charge Beam", "Covet", "Dazzling Gleam", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Flash", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Sunny Day", "Surf", "Swagger", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trick Room", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Land",
     "area" : "Lilycove City",
     "bucket" : "Land",
     "rateBase" : 10,

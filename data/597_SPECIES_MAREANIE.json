@@ -77,6 +77,8 @@
   "eggMoves" : [ "Haze", "Spit Up", "Stockpile", "Swallow" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Covet", "Double Team", "Endure", "Facade", "Ice Beam", "Icy Wind", "Iron Defense", "Knock Off", "Poison Jab", "Protect", "Rain Dance", "Rest", "Safeguard", "Scald", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snatch", "Snore", "Surf", "Swagger", "Toxic", "Venoshock", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Fishing",
     "area" : "Route 111",
     "bucket" : "Fishing",
     "rateBase" : 30,

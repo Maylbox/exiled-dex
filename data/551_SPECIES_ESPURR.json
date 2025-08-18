@@ -73,6 +73,8 @@
   "eggMoves" : [ "Assist", "Barrier", "Trick", "Yawn" ],
   "teachableMoves" : [ "Attract", "Calm Mind", "Charge Beam", "Covet", "Cut", "Dark Pulse", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Light Screen", "Play Rough", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Land",
     "area" : "Route 102",
     "bucket" : "Land",
     "rateBase" : 20,

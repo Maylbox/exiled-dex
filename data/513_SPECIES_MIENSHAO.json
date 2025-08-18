@@ -98,6 +98,8 @@
   "eggMoves" : [ "Ally Switch", "Baton Pass", "Endure", "Feint", "Knock Off", "Low Kick", "Me First", "Smelling Salts", "Vital Throw" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Aura Sphere", "Blaze Kick", "Brick Break", "Bulk Up", "Calm Mind", "Dig", "Double Edge", "Double Team", "Drain Punch", "Endure", "Facade", "Focus Blast", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "Triple Axel", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
     "area" : "Route 115",
     "bucket" : "Land",
     "rateBase" : 20,

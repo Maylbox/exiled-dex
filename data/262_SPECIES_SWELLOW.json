@@ -95,6 +95,8 @@
   "eggMoves" : [ "Boomburst", "Brave Bird", "Defog", "Hurricane", "Mirror Move", "Pursuit", "Rage", "Refresh", "Roost", "Sky Attack", "Steel Wing", "Supersonic", "Whirlwind" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Counter", "Defog", "Double Edge", "Double Team", "Endure", "Facade", "Fly", "Giga Impact", "Hyper Beam", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "FortreeCity0",
+    "bucketKey" : "Land",
     "area" : "Fortree City0",
     "bucket" : "Land",
     "rateBase" : 10,

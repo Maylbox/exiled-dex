@@ -99,6 +99,8 @@
   "eggMoves" : [ "Body Slam", "Crunch", "Fake Out", "Heat Wave", "Nasty Plot", "Power Trip", "Revenge" ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Body Slam", "Bulk Up", "Covet", "Crunch", "Double Edge", "Double Team", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Leech Life", "Overheat", "Protect", "Rest", "Roar", "Shadow Claw", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Torment", "Toxic", "Trailblaze", "U Turn", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
     "area" : "Lavaridge Town0",
     "bucket" : "Land",
     "rateBase" : 10,

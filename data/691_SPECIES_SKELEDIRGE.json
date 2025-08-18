@@ -107,6 +107,8 @@
   "eggMoves" : [ "Belch", "Curse", "Encore", "Slack Off" ],
   "teachableMoves" : [ "Body Slam", "Crunch", "Dig", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Giga Impact", "Hex", "Hyper Beam", "Mud Slap", "Overheat", "Protect", "Rest", "Roar", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Solar Beam", "Sunny Day", "Thunder Fang", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
     "area" : "Scorched Slab0",
     "bucket" : "Land",
     "rateBase" : 20,

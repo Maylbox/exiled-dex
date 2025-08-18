@@ -90,6 +90,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Attract", "Aura Sphere", "Calm Mind", "Charge Beam", "Cut", "Dark Pulse", "Dazzling Gleam", "Dig", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Fire Punch", "Flamethrower", "Flash", "Flash Cannon", "Focus Blast", "Grass Knot", "Gyro Ball", "Hex", "Hidden Power", "Ice Beam", "Ice Punch", "Iron Defense", "Light Screen", "Meteor Beam", "Mirror Coat", "Mystical Fire", "Play Rough", "Poison Jab", "Protect", "Psychic", "Psyshock", "Reflect", "Rock Polish", "Rock Smash", "Scald", "Secret Power", "Shadow Ball", "Sludge Bomb", "Sludge Wave", "Stealth Rock", "Strength", "Surf", "Taunt", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Trick Room", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "FallarborTown0",
+    "bucketKey" : "Land",
     "area" : "Fallarbor Town0",
     "bucket" : "Land",
     "rateBase" : 10,

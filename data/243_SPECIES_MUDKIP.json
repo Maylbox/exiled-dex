@@ -81,6 +81,8 @@
   "eggMoves" : [ "Ancient Power", "Avalanche", "Barrier", "Bite", "Counter", "Curse", "Double Edge", "Ice Ball", "Mirror Coat", "Mud Bomb", "Refresh", "Sludge", "Stomp", "Uproar", "Whirlpool", "Wide Guard", "Yawn" ],
   "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Counter", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Earth Power", "Endure", "Facade", "Ice Beam", "Icy Wind", "Low Kick", "Mirror Coat", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Scald", "Sleep Talk", "Sludge Wave", "Snore", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Fishing",
     "area" : "Petalburg City",
     "bucket" : "Fishing",
     "rateBase" : 10,

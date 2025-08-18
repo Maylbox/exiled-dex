@@ -86,6 +86,8 @@
   "eggMoves" : [ "Acid Spray", "Bullet Seed", "Gravity", "Leech Seed", "Rock Climb", "Seed Bomb", "Spikes", "Stealth Rock", "Worry Seed" ],
   "teachableMoves" : [ "Attract", "Bullet Seed", "Double Team", "Endure", "Energy Ball", "Explosion", "Facade", "Flash", "Flash Cannon", "Giga Drain", "Gyro Ball", "Hone Claws", "Iron Defense", "Iron Head", "Knock Off", "Poison Jab", "Protect", "Rest", "Rock Polish", "Rock Smash", "Rollout", "Sleep Talk", "Snore", "Solar Beam", "Stealth Rock", "Sunny Day", "Swagger", "Thunder Wave", "Thunderbolt", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -93,6 +95,8 @@
     "max" : 15,
     "slot" : 5
   }, {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -100,6 +104,8 @@
     "max" : 15,
     "slot" : 7
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -89,6 +89,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Acrobatics", "Air Slash", "Attract", "Aura Sphere", "Blaze Kick", "Calm Mind", "Charge Beam", "Covet", "Cut", "Dark Pulse", "Dazzling Gleam", "Defog", "Earth Power", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hex", "Hidden Power", "Light Screen", "Meteor Beam", "Mirror Coat", "Mystical Fire", "Overheat", "Play Rough", "Power Whip", "Protect", "Psychic", "Psyshock", "Return", "Rock Smash", "Safeguard", "Scald", "Secret Power", "Shadow Ball", "Sludge Bomb", "Solar Beam", "Solar Blade", "Stone Edge", "Strength", "Substitute", "Sunny Day", "Swords Dance", "Taunt", "Thunder", "Thunderbolt", "Torment", "Toxic", "Trailblaze", "U Turn", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Route112",
+    "bucketKey" : "Land",
     "area" : "Route 112",
     "bucket" : "Land",
     "rateBase" : 20,

@@ -81,6 +81,8 @@
   "eggMoves" : [ "After You", "Aromatic Mist", "Nuzzle", "Quash" ],
   "teachableMoves" : [ "Attract", "Calm Mind", "Dark Pulse", "Dazzling Gleam", "Endure", "Facade", "Giga Drain", "Light Screen", "Metronome", "Mystical Fire", "Play Rough", "Protect", "Psych Up", "Psychic", "Psyshock", "Reflect", "Rest", "Safeguard", "Sleep Talk", "Snore", "Swift", "Thunder Wave", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -88,6 +90,8 @@
     "max" : 34,
     "slot" : 9
   }, {
+    "areaKey" : "FallarborTown0",
+    "bucketKey" : "Land",
     "area" : "Fallarbor Town0",
     "bucket" : "Land",
     "rateBase" : 10,

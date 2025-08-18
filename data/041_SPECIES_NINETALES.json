@@ -167,6 +167,8 @@
   "eggMoves" : [ "Captivate", "Disable", "Extrasensory", "Feint Attack", "Flail", "Flare Blitz", "Heat Wave", "Hex", "Howl", "Hypnosis", "Power Swap", "Secret Power", "Spite", "Tail Slap" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Covet", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Fire Blast", "Flamethrower", "Giga Impact", "Hex", "Hyper Beam", "Mystical Fire", "Overheat", "Protect", "Psych Up", "Psyshock", "Reflect", "Rest", "Roar", "Safeguard", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Toxic", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -174,6 +176,8 @@
     "max" : 56,
     "slot" : 5
   }, {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -181,6 +185,8 @@
     "max" : 56,
     "slot" : 6
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -188,6 +194,8 @@
     "max" : 56,
     "slot" : 5
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -195,6 +203,8 @@
     "max" : 56,
     "slot" : 6
   }, {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
     "area" : "Lavaridge Town0",
     "bucket" : "Land",
     "rateBase" : 10,

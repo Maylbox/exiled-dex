@@ -66,6 +66,8 @@
   "eggMoves" : [ "Aqua Ring", "Barrier", "Body Slam", "Brine", "Confuse Ray", "Endure", "Mud Sport", "Muddy Water", "Refresh", "Supersonic", "Water Pulse" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "Ice Beam", "Icy Wind", "Iron Defense", "Protect", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Underwater_Route126",
+    "bucketKey" : "Water",
     "area" : "Underwater_Route 126",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -73,6 +75,8 @@
     "max" : 30,
     "slot" : 0
   }, {
+    "areaKey" : "Underwater_Route126",
+    "bucketKey" : "Water",
     "area" : "Underwater_Route 126",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -80,6 +84,8 @@
     "max" : 35,
     "slot" : 2
   }, {
+    "areaKey" : "Underwater_Route124",
+    "bucketKey" : "Water",
     "area" : "Underwater_Route 124",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -87,6 +93,8 @@
     "max" : 30,
     "slot" : 0
   }, {
+    "areaKey" : "Underwater_Route124",
+    "bucketKey" : "Water",
     "area" : "Underwater_Route 124",
     "bucket" : "Water",
     "rateBase" : 4,

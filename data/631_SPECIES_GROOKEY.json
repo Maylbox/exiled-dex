@@ -75,6 +75,8 @@
   "eggMoves" : [ "Fake Out", "Growth", "Hammer Arm", "Leech Seed", "Nature Power", "Strength", "Worry Seed" ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Body Slam", "Bullet Seed", "Drain Punch", "Endure", "Energy Ball", "Facade", "False Swipe", "Giga Drain", "Grass Knot", "Grassy Glide", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Protect", "Rest", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Strength", "Sunny Day", "Swift", "Swords Dance", "Taunt", "Thief", "Trailblaze", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
     "area" : "Deep Woods0",
     "bucket" : "Land",
     "rateBase" : 10,

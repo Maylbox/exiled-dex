@@ -99,6 +99,8 @@
   "eggMoves" : [ "Circle Throw", "Disarming Voice", "Endeavor", "Extrasensory", "Fake Tears", "Hammer Arm", "Smelling Salts", "Smokescreen", "Snore", "Take Down", "Whirlwind" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Defense Curl", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Ice Beam", "Ice Punch", "Icy Wind", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Overheat", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Taunt", "Thunder Punch", "Torment", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "DesertUnderpass",
+    "bucketKey" : "Land",
     "area" : "Desert Underpass",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -106,6 +108,8 @@
     "max" : 40,
     "slot" : 3
   }, {
+    "areaKey" : "DesertUnderpass",
+    "bucketKey" : "Land",
     "area" : "Desert Underpass",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -113,6 +117,8 @@
     "max" : 38,
     "slot" : 6
   }, {
+    "areaKey" : "DesertUnderpass",
+    "bucketKey" : "Land",
     "area" : "Desert Underpass",
     "bucket" : "Land",
     "rateBase" : 10,

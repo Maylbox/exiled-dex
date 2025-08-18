@@ -84,6 +84,8 @@
   "eggMoves" : [ "High Jump Kick", "Sand Attack", "Sucker Punch", "Super Fang" ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Blaze Kick", "Bulk Up", "Counter", "Double Edge", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Low Kick", "Mega Kick", "Overheat", "Protect", "Rest", "Sleep Talk", "Snore", "Sunny Day", "Swift", "Swords Dance", "Taunt", "Trailblaze", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
     "area" : "Lavaridge Town0",
     "bucket" : "Land",
     "rateBase" : 10,

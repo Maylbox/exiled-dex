@@ -80,6 +80,8 @@
   "eggMoves" : [ "Circle Throw", "Counter", "Crush Claw", "Disable", "Double Edge", "Endeavor", "Focus Energy", "Focus Punch", "Foresight", "Hammer Arm", "Stomp", "Trump Card", "Uproar" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Avalanche", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Covet", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Sandstorm", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Strength", "Sunny Day", "Surf", "Swagger", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "Route113",
+    "bucketKey" : "Land",
     "area" : "Route 113",
     "bucket" : "Land",
     "rateBase" : 20,

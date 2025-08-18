@@ -92,6 +92,8 @@
   "eggMoves" : [ "Autotomize", "Curse", "Haze", "Mud Sport", "Rock Blast", "Rollout", "Sand Attack", "Self Destruct", "Spikes" ],
   "teachableMoves" : [ "Attract", "Dark Pulse", "Double Team", "Drain Punch", "Endure", "Explosion", "Facade", "Giga Drain", "Protect", "Rain Dance", "Rest", "Rollout", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Sunny Day", "Swagger", "Thief", "Toxic", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "Route109",
+    "bucketKey" : "Fishing",
     "area" : "Route 109",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -99,6 +101,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Land",
     "area" : "Slateport City",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -106,6 +110,8 @@
     "max" : 20,
     "slot" : 0
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Land",
     "area" : "Slateport City",
     "bucket" : "Land",
     "rateBase" : 10,

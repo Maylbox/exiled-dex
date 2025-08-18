@@ -89,6 +89,8 @@
   "eggMoves" : [ "Counter", "Flail", "Giga Drain", "Leech Seed", "Razor Leaf", "Sweet Scent", "Synthesis", "Teeter Dance", "Tickle", "Water Gun" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bullet Seed", "Counter", "Dive", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Fire Punch", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Hone Claws", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Smash", "Scald", "Sleep Talk", "Snore", "Solar Beam", "Strength", "Sunny Day", "Surf", "Swagger", "Swords Dance", "Thief", "Thunder Punch", "Toxic", "Trailblaze", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
     "area" : "Verdanturf Town0",
     "bucket" : "Land",
     "rateBase" : 10,

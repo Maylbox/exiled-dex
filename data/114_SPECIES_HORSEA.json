@@ -80,6 +80,8 @@
   "eggMoves" : [ "Aurora Beam", "Clear Smog", "Disable", "Dragon Breath", "Dragon Rage", "Flail", "Muddy Water", "Octazooka", "Outrage", "Razor Wind", "Signal Beam", "Splash", "Water Pulse" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Dive", "Double Edge", "Double Team", "Dragon Pulse", "Endure", "Facade", "Flash Cannon", "Flip Turn", "Ice Beam", "Icy Wind", "Protect", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route132",
+    "bucketKey" : "Fishing",
     "area" : "Route 132",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -87,6 +89,8 @@
     "max" : 30,
     "slot" : 7
   }, {
+    "areaKey" : "Route133",
+    "bucketKey" : "Fishing",
     "area" : "Route 133",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -94,6 +98,8 @@
     "max" : 30,
     "slot" : 7
   }, {
+    "areaKey" : "Route134",
+    "bucketKey" : "Fishing",
     "area" : "Route 134",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -101,6 +107,8 @@
     "max" : 30,
     "slot" : 7
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Fishing",
     "area" : "Slateport City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -108,6 +116,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Fishing",
     "area" : "Slateport City",
     "bucket" : "Fishing",
     "rateBase" : 10,

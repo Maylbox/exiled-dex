@@ -97,6 +97,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
     "area" : "Route 111",
     "bucket" : "Land",
     "rateBase" : 10,

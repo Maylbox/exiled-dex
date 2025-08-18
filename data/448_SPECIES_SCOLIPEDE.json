@@ -112,6 +112,8 @@
   "eggMoves" : [ "Pin Missile", "Rock Climb", "Spikes", "Take Down", "Toxic Spikes", "Twineedle" ],
   "teachableMoves" : [ "Attract", "Bulldoze", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "Fury Cutter", "Giga Impact", "Gyro Ball", "Hex", "Hyper Beam", "Iron Defense", "Poison Jab", "Protect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sleep Talk", "Sludge Bomb", "Smart Strike", "Snatch", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Venoshock", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route123",
+    "bucketKey" : "Land",
     "area" : "Route 123",
     "bucket" : "Land",
     "rateBase" : 20,

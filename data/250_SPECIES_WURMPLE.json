@@ -58,6 +58,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Electroweb", "Snore" ],
   "encounters" : [ {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -65,6 +67,8 @@
     "max" : 10,
     "slot" : 5
   }, {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,

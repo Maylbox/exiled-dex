@@ -92,6 +92,8 @@
   "eggMoves" : [ "Acid Spray", "Curse", "Haze", "Imprison", "Lick", "Mean Look", "Power Up Punch", "Scary Face", "Shadow Punch", "Shadow Sneak", "Spit Up", "Stockpile", "Swallow" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Dig", "Double Team", "Drain Punch", "Dynamic Punch", "Endure", "Explosion", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Giga Drain", "Hex", "Ice Punch", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Shadow Ball", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Torment", "Toxic", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "Route116",
+    "bucketKey" : "Land",
     "area" : "Route 116",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -99,6 +101,8 @@
     "max" : 10,
     "slot" : 5
   }, {
+    "areaKey" : "FieryPath",
+    "bucketKey" : "Land",
     "area" : "Fiery Path",
     "bucket" : "Land",
     "rateBase" : 10,

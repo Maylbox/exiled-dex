@@ -115,6 +115,8 @@
   "eggMoves" : [ "Assurance", "Brave Bird", "Endeavor", "Feint Attack", "Flail", "Haze", "Mirror Move", "Natural Gift", "Quick Attack", "Supersonic" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brave Bird", "Double Edge", "Double Team", "Endure", "Facade", "Fly", "Knock Off", "Low Kick", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
     "area" : "Route 118",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -122,6 +124,8 @@
     "max" : 5,
     "slot" : 11
   }, {
+    "areaKey" : "Route119",
+    "bucketKey" : "Land",
     "area" : "Route 119",
     "bucket" : "Land",
     "rateBase" : 15,
@@ -129,6 +133,8 @@
     "max" : 54,
     "slot" : 11
   }, {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -136,6 +142,8 @@
     "max" : 56,
     "slot" : 11
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,

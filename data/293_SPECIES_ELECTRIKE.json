@@ -81,6 +81,8 @@
   "eggMoves" : [ "Crunch", "Curse", "Discharge", "Eerie Impulse", "Electro Ball", "Fire Fang", "Flame Burst", "Headbutt", "Ice Fang", "Shock Wave", "Swift", "Switcheroo", "Thunder Fang", "Uproar" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Charge Beam", "Crunch", "Double Edge", "Double Team", "Endure", "Facade", "Fire Fang", "Flamethrower", "Flash", "Ice Fang", "Light Screen", "Mud Slap", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Swagger", "Swift", "Thief", "Thunder", "Thunder Fang", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -88,6 +90,8 @@
     "max" : 21,
     "slot" : 1
   }, {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -95,6 +99,8 @@
     "max" : 21,
     "slot" : 3
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Land",
     "area" : "Slateport City",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -102,6 +108,8 @@
     "max" : 20,
     "slot" : 8
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Land",
     "area" : "Slateport City",
     "bucket" : "Land",
     "rateBase" : 10,

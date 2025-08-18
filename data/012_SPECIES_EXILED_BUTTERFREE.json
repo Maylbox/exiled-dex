@@ -107,6 +107,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Calm Mind", "Charge Beam", "Cut", "Dark Pulse", "Dazzling Gleam", "Defog", "Double Team", "Dual Wingbeat", "Electroweb", "First Impression", "Flash", "Flash Cannon", "Fly", "Giga Impact", "Hidden Power", "Iron Defense", "Iron Head", "Light Screen", "Meteor Beam", "Mirror Coat", "Protect", "Reflect", "Return", "Safeguard", "Shadow Ball", "Shock Wave", "Silver Wind", "Smart Strike", "Steel Wing", "Substitute", "Taunt", "Thunder", "Thunder Wave", "Thunderbolt", "Volt Switch", "Volt Tackle" ],
   "encounters" : [ {
+    "areaKey" : "NewMauville_Inside",
+    "bucketKey" : "Land",
     "area" : "New Mauville_Inside",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -114,6 +116,8 @@
     "max" : 57,
     "slot" : 11
   }, {
+    "areaKey" : "NewMauville_Entrance",
+    "bucketKey" : "Land",
     "area" : "New Mauville_Entrance",
     "bucket" : "Land",
     "rateBase" : 10,

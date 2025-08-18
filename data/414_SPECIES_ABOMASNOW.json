@@ -95,6 +95,8 @@
   "eggMoves" : [ "Avalanche", "Bullet Seed", "Double Edge", "Growth", "Leech Seed", "Magical Leaf", "Mist", "Natural Gift", "Seed Bomb", "Skull Bash", "Stomp" ],
   "teachableMoves" : [ "Attract", "Aurora Veil", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Bullet Seed", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Energy Ball", "Facade", "Flash", "Focus Blast", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Ice Beam", "Ice Punch", "Icicle Crash", "Icy Wind", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Shadow Ball", "Sleep Talk", "Snore", "Snowscape", "Solar Beam", "Strength", "Swagger", "Swords Dance", "Toxic", "Trailblaze", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "ShoalCave_LowTideStairsRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Stairs Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -102,6 +104,8 @@
     "max" : 71,
     "slot" : 5
   }, {
+    "areaKey" : "ShoalCave_LowTideLowerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Lower Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -109,6 +113,8 @@
     "max" : 71,
     "slot" : 5
   }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -116,6 +122,8 @@
     "max" : 71,
     "slot" : 5
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -123,6 +131,8 @@
     "max" : 71,
     "slot" : 5
   }, {
+    "areaKey" : "ShoalCave_LowTideIceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Ice Room",
     "bucket" : "Land",
     "rateBase" : 4,

@@ -115,6 +115,8 @@
   "eggMoves" : [ "Bounce", "Bullet Seed", "Grass Whistle", "Grassy Terrain", "Leech Seed", "Seed Bomb", "Spikes", "Wood Hammer", "Worry Seed" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Bullet Seed", "Double Team", "Drain Punch", "Endure", "Energy Ball", "Facade", "Giga Drain", "Grass Knot", "Grassy Glide", "Knock Off", "Poison Jab", "Protect", "Rain Dance", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
     "area" : "Route 111",
     "bucket" : "Land",
     "rateBase" : 10,

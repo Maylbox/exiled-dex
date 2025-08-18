@@ -87,6 +87,8 @@
   "eggMoves" : [ "Extrasensory", "Foresight", "Future Sight", "Lucky Chant", "Mirror Move", "Morning Sun", "Nasty Plot", "Peck", "Present", "Psycho Shift", "Secret Power", "Stored Power" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Calm Mind", "Counter", "Covet", "Dazzling Gleam", "Defense Curl", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Fire Blast", "Flamethrower", "Flash", "Grass Knot", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Mystical Fire", "Play Rough", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Soft Boiled", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thunder Wave", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -94,6 +96,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,

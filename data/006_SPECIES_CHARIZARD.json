@@ -140,6 +140,8 @@
   "eggMoves" : [ "Air Cutter", "Ancient Power", "Beat Up", "Belly Drum", "Bite", "Counter", "Crunch", "Dragon Dance", "Dragon Pulse", "Dragon Rush", "Flare Blitz", "Focus Punch", "Metal Claw", "Outrage" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Blaze Kick", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Defense Curl", "Defog", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dual Wingbeat", "Dynamic Punch", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Fly", "Focus Blast", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Mega Kick", "Mega Punch", "Mud Slap", "Mystical Fire", "Overheat", "Power Up Punch", "Protect", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Sandstorm", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Snore", "Solar Beam", "Steel Wing", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thunder Punch", "Toxic", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
     "area" : "Scorched Slab0",
     "bucket" : "Land",
     "rateBase" : 20,

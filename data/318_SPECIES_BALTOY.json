@@ -95,6 +95,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Bulldoze", "Calm Mind", "Charge Beam", "Dazzling Gleam", "Dig", "Double Edge", "Double Team", "Dream Eater", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Flash", "Grass Knot", "Gyro Ball", "Hex", "Ice Beam", "Light Screen", "Mud Slap", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Safeguard", "Sandstorm", "Shadow Ball", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Stealth Rock", "Sunny Day", "Swagger", "Toxic", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -102,6 +104,8 @@
     "max" : 15,
     "slot" : 6
   }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,

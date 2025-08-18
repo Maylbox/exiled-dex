@@ -125,6 +125,8 @@
   "eggMoves" : [ "Baton Pass", "Bullet Punch", "Drain Punch", "Dynamic Punch", "Fake Out", "Fire Punch", "Foresight", "Guard Swap", "Ice Punch", "Power Swap", "Psycho Cut", "Quick Guard", "Secret Power", "Thunder Punch" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Aura Sphere", "Body Slam", "Brick Break", "Bulk Up", "Calm Mind", "Counter", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Fire Punch", "Flash", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Punch", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Ball", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Punch", "Toxic", "Trailblaze", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -132,6 +134,8 @@
     "max" : 85,
     "slot" : 2
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
     "area" : "Mossdeep City",
     "bucket" : "Land",
     "rateBase" : 10,

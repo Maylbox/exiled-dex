@@ -88,6 +88,8 @@
   "eggMoves" : [ "Acupressure", "Bullet Punch", "Counter", "Cross Chop", "Drain Punch", "Dynamic Punch", "Fake Out", "Feint", "Headbutt", "Me First", "Meditate", "Quick Guard", "Smelling Salts", "Vacuum Wave", "Wake Up Slap" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Cut", "Dark Pulse", "Dig", "Double Team", "Drain Punch", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Focus Blast", "Fury Cutter", "Giga Impact", "Hyper Beam", "Ice Punch", "Icy Wind", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snatch", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "Venoshock", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
     "area" : "Route 120",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -95,6 +97,8 @@
     "max" : 54,
     "slot" : 3
   }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Land",
     "area" : "Lilycove City",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -95,6 +95,8 @@
   "eggMoves" : [ "Detect", "Last Resort", "Rapid Spin", "Roost" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Brave Bird", "Brick Break", "Bulk Up", "Counter", "Endure", "Facade", "Flip Turn", "Giga Impact", "Hyper Beam", "Icy Wind", "Knock Off", "Low Kick", "Mega Kick", "Protect", "Psych Up", "Rain Dance", "Rest", "Roost", "Sleep Talk", "Surf", "Swift", "Swords Dance", "Taunt", "Triple Axel", "U Turn", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
     "area" : "Sootopolis City",
     "bucket" : "Land",
     "rateBase" : 10,

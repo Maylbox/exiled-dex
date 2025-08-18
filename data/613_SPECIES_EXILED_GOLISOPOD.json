@@ -125,6 +125,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Cut", "Dragon Claw", "Drain Punch", "Earthquake", "Facade", "First Impression", "Flip Turn", "High Horsepower", "Hone Claws", "Iron Defense", "Iron Head", "Knock Off", "Leech Life", "Play Rough", "Poison Jab", "Power Up Punch", "Protect", "Psyshock", "Reflect", "Return", "Rock Slide", "Rock Smash", "Rock Tomb", "Secret Power", "Shadow Claw", "Smart Strike", "Stone Edge", "Strength", "Swords Dance", "Thief", "Trailblaze", "U Turn", "Volt Tackle", "Waterfall", "Wild Charge", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -132,6 +134,8 @@
     "max" : 83,
     "slot" : 11
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -139,6 +143,8 @@
     "max" : 83,
     "slot" : 11
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,

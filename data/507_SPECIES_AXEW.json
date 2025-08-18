@@ -87,6 +87,8 @@
   "eggMoves" : [ "Counter", "Dragon Pulse", "Endeavor", "Endure", "Focus Energy", "Harden", "Iron Tail", "Night Slash", "Razor Wind", "Reversal" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "False Swipe", "First Impression", "Giga Impact", "Hone Claws", "Iron Head", "Poison Jab", "Protect", "Rain Dance", "Rest", "Roar", "Rock Smash", "Rock Tomb", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Surf", "Swagger", "Swift", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -94,6 +96,8 @@
     "max" : 17,
     "slot" : 10
   }, {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B1F",
     "bucket" : "Land",
     "rateBase" : 10,

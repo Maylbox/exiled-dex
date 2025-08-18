@@ -101,6 +101,8 @@
   "eggMoves" : [ "Covet", "Crush Claw", "Double Edge", "Double Kick", "Extrasensory", "Flame Burst", "Flare Blitz", "Foresight", "Fury Swipes", "Howl", "Nature Power", "Quick Attack", "Reversal", "Thrash" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Covet", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Giga Impact", "Gyro Ball", "Hyper Beam", "Iron Head", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Overheat", "Play Rough", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder Punch", "Toxic", "Wild Charge", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
     "area" : "Scorched Slab0",
     "bucket" : "Land",
     "rateBase" : 20,

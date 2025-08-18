@@ -89,6 +89,8 @@
   "eggMoves" : [ "Bug Bite", "Earth Power", "Endure", "Flail", "Focus Energy", "Fury Cutter", "Gust", "Mud Shot", "Quick Attack", "Signal Beam" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Crunch", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "First Impression", "Fury Cutter", "Giga Drain", "Hyper Beam", "Mud Slap", "Protect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Snore", "Solar Beam", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
     "area" : "Rusturf Tunnel",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -96,6 +98,8 @@
     "max" : 11,
     "slot" : 0
   }, {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
     "area" : "Rusturf Tunnel",
     "bucket" : "Land",
     "rateBase" : 10,

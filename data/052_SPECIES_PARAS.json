@@ -84,6 +84,8 @@
   "eggMoves" : [ "Agility", "Bug Bite", "Counter", "Cross Poison", "Endure", "Fell Stinger", "Flail", "Grassy Terrain", "Leech Seed", "Metal Claw", "Natural Gift", "Psybeam", "Pursuit", "Rototiller", "Screech", "Sweet Scent", "Wide Guard" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bullet Seed", "Counter", "Cut", "Dig", "Double Edge", "Double Team", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Fury Cutter", "Giga Drain", "Grass Knot", "Hone Claws", "Knock Off", "Leech Life", "Light Screen", "Protect", "Reflect", "Rest", "Rock Smash", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic", "Venoshock", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -91,6 +93,8 @@
     "max" : 10,
     "slot" : 4
   }, {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,

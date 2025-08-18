@@ -86,6 +86,8 @@
   "eggMoves" : [ "High Jump Kick", "Sand Attack", "Sucker Punch", "Super Fang" ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Blaze Kick", "Bulk Up", "Counter", "Double Edge", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Hyper Beam", "Iron Head", "Low Kick", "Mega Kick", "Mud Slap", "Overheat", "Protect", "Rest", "Shadow Ball", "Sleep Talk", "Smack Down", "Snore", "Sunny Day", "Swift", "Swords Dance", "Taunt", "Trailblaze", "U Turn", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
     "area" : "Scorched Slab0",
     "bucket" : "Land",
     "rateBase" : 20,

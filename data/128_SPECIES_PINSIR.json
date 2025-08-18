@@ -89,6 +89,8 @@
   "eggMoves" : [ "Bug Bite", "Close Combat", "Feint", "Feint Attack", "Flail", "Fury Attack", "Me First", "Quick Attack", "Superpower" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Cut", "Dig", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "False Swipe", "Focus Blast", "Fury Cutter", "Giga Impact", "High Horsepower", "Hyper Beam", "Iron Defense", "Knock Off", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
     "area" : "Route 118",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -96,6 +98,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -103,6 +107,8 @@
     "max" : 27,
     "slot" : 9
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Land",
     "rateBase" : 25,

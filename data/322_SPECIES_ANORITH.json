@@ -87,6 +87,8 @@
   "eggMoves" : [ "Aqua Jet", "Cross Poison", "Curse", "Iron Defense", "Knock Off", "Rapid Spin", "Sand Attack", "Screech", "Water Pulse" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Cut", "Dig", "Double Edge", "Double Team", "Earth Power", "Endure", "Facade", "False Swipe", "Fury Cutter", "Hone Claws", "Iron Defense", "Knock Off", "Meteor Beam", "Mud Slap", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Water Pulse", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -94,6 +96,8 @@
     "max" : 15,
     "slot" : 2
   }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,

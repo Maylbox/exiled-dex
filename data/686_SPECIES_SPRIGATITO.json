@@ -78,6 +78,8 @@
   "eggMoves" : [ "Ally Switch", "Copycat", "Leech Seed", "Petal Blizzard", "Sucker Punch" ],
   "teachableMoves" : [ "Acrobatics", "Bullet Seed", "Endure", "Energy Ball", "Facade", "Giga Drain", "Grass Knot", "Grassy Glide", "Hone Claws", "Mud Slap", "Play Rough", "Protect", "Rest", "Shadow Claw", "Sleep Talk", "Solar Beam", "Swift", "Taunt", "Trailblaze", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
     "area" : "Deep Woods0",
     "bucket" : "Land",
     "rateBase" : 10,

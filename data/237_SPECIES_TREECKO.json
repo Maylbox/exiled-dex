@@ -84,6 +84,8 @@
   "eggMoves" : [ "Bullet Seed", "Crunch", "Crush Claw", "Double Kick", "Dragon Breath", "Endeavor", "Grass Whistle", "Grassy Terrain", "Leaf Storm", "Leech Seed", "Magical Leaf", "Mud Sport", "Natural Gift", "Razor Wind", "Synthesis", "Worry Seed" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bullet Seed", "Counter", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Dragon Tail", "Drain Punch", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Flash", "Fury Cutter", "Giga Drain", "Grass Knot", "Grassy Glide", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Seismic Toss", "Sleep Talk", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Thunder Punch", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
     "area" : "Deep Woods0",
     "bucket" : "Land",
     "rateBase" : 10,

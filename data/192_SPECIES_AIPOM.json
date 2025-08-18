@@ -90,6 +90,8 @@
   "eggMoves" : [ "Agility", "Beat Up", "Bounce", "Counter", "Covet", "Double Slap", "Fake Out", "Pursuit", "Quick Guard", "Revenge", "Screech", "Slam", "Spite", "Switcheroo", "Tail Slap" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Counter", "Covet", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dream Eater", "Dynamic Punch", "Endure", "Facade", "Fire Punch", "Fury Cutter", "Grass Knot", "Hone Claws", "Ice Punch", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Smash", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Smack Down", "Snatch", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "U Turn", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
     "area" : "Petalburg Woods",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -97,6 +99,8 @@
     "max" : 7,
     "slot" : 10
   }, {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
     "area" : "Petalburg Woods",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -104,6 +108,8 @@
     "max" : 7,
     "slot" : 11
   }, {
+    "areaKey" : "SafariZone_Southeast",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Southeast",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -111,6 +117,8 @@
     "max" : 34,
     "slot" : 4
   }, {
+    "areaKey" : "SafariZone_Northeast",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northeast",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -118,6 +126,8 @@
     "max" : 33,
     "slot" : 0
   }, {
+    "areaKey" : "SafariZone_Northeast",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northeast",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -125,6 +135,8 @@
     "max" : 35,
     "slot" : 2
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -132,6 +144,8 @@
     "max" : 22,
     "slot" : 0
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -139,6 +153,8 @@
     "max" : 24,
     "slot" : 1
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -146,6 +162,8 @@
     "max" : 20,
     "slot" : 2
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -153,6 +171,8 @@
     "max" : 26,
     "slot" : 3
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -160,6 +180,8 @@
     "max" : 22,
     "slot" : 4
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -167,6 +189,8 @@
     "max" : 24,
     "slot" : 5
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -174,6 +198,8 @@
     "max" : 28,
     "slot" : 6
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -181,6 +207,8 @@
     "max" : 18,
     "slot" : 7
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -188,6 +216,8 @@
     "max" : 20,
     "slot" : 8
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -195,6 +225,8 @@
     "max" : 26,
     "slot" : 9
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,
@@ -202,6 +234,8 @@
     "max" : 20,
     "slot" : 10
   }, {
+    "areaKey" : "AlteringCave6",
+    "bucketKey" : "Land",
     "area" : "Altering Cave6",
     "bucket" : "Land",
     "rateBase" : 7,

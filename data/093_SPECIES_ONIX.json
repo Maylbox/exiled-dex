@@ -109,6 +109,8 @@
   "eggMoves" : [ "Block", "Defense Curl", "Flail", "Heavy Slam", "Rock Blast", "Rock Climb", "Rollout", "Rototiller", "Stealth Rock", "Wide Guard" ],
   "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Bulldoze", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Flash Cannon", "Gyro Ball", "High Horsepower", "Iron Head", "Meteor Beam", "Mud Slap", "Protect", "Psych Up", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Torment", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -116,6 +118,8 @@
     "max" : 17,
     "slot" : 1
   }, {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B2F",
     "bucket" : "Land",
     "rateBase" : 10,

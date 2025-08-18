@@ -97,6 +97,8 @@
   "eggMoves" : [ "Bestow", "Bide", "Charge", "Disarming Voice", "Double Slap", "Electric Terrain", "Encore", "Endure", "Fake Out", "Flail", "Lucky Chant", "Present", "Reversal", "Thunder Punch", "Tickle", "Wish" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "SafariZone_South",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_South",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -104,6 +106,8 @@
     "max" : 25,
     "slot" : 8
   }, {
+    "areaKey" : "SafariZone_South",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_South",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -111,6 +115,8 @@
     "max" : 27,
     "slot" : 10
   }, {
+    "areaKey" : "SafariZone_Southwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Southwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -118,6 +124,8 @@
     "max" : 25,
     "slot" : 8
   }, {
+    "areaKey" : "SafariZone_Southwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Southwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -125,6 +133,8 @@
     "max" : 27,
     "slot" : 10
   }, {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
     "area" : "Mauville City0",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -97,6 +97,8 @@
   "eggMoves" : [ "Assist", "Blaze Kick", "Counter", "Double Kick", "Encore", "Fake Out", "Fire Punch", "Focus Energy", "Focus Punch", "Heat Wave", "Helping Hand", "Power Up Punch", "Quick Guard", "Submission", "Thunder Punch" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Blaze Kick", "Brick Break", "Bulk Up", "Counter", "Covet", "Cut", "Dig", "Double Edge", "Double Team", "Drain Punch", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Grass Knot", "Hone Claws", "Knock Off", "Low Kick", "Metronome", "Mud Slap", "Overheat", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Shadow Claw", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "U Turn", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
     "area" : "Lavaridge Town0",
     "bucket" : "Land",
     "rateBase" : 10,

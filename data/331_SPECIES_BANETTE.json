@@ -112,6 +112,8 @@
   "eggMoves" : [ "Astonish", "Confuse Ray", "Destiny Bond", "Disable", "Foresight", "Gunk Shot", "Imprison", "Ominous Wind", "Phantom Force", "Pursuit", "Shadow Sneak" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Dark Pulse", "Dazzling Gleam", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Giga Impact", "Hex", "Hyper Beam", "Icy Wind", "Knock Off", "Metronome", "Mud Slap", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trailblaze", "Trick Room", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -119,6 +121,8 @@
     "max" : 56,
     "slot" : 2
   }, {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
     "area" : "Route 121",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -126,6 +130,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -133,6 +139,8 @@
     "max" : 56,
     "slot" : 2
   }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -140,6 +148,8 @@
     "max" : 56,
     "slot" : 2
   }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -147,6 +157,8 @@
     "max" : 56,
     "slot" : 2
   }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_5F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -154,6 +166,8 @@
     "max" : 56,
     "slot" : 2
   }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_6F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -161,6 +175,8 @@
     "max" : 56,
     "slot" : 2
   }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -168,6 +184,8 @@
     "max" : 76,
     "slot" : 5
   }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -175,6 +193,8 @@
     "max" : 76,
     "slot" : 5
   }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_5F",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -89,6 +89,8 @@
   "eggMoves" : [ "Barrier", "Curse", "Endure", "Mega Drain", "Mirror Coat", "Recover", "Stealth Rock", "Tickle", "Wring Out" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bullet Seed", "Double Edge", "Double Team", "Earth Power", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Grass Knot", "Meteor Beam", "Mirror Coat", "Mud Slap", "Protect", "Psych Up", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Sandstorm", "Sleep Talk", "Sludge Bomb", "Smack Down", "Snore", "Solar Beam", "Stealth Rock", "Sunny Day", "Swagger", "Swords Dance", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -96,6 +98,8 @@
     "max" : 15,
     "slot" : 4
   }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,

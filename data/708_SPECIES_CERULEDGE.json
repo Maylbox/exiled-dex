@@ -113,6 +113,8 @@
   "eggMoves" : [ "Destiny Bond", "Disable", "Spite" ],
   "teachableMoves" : [ "Brick Break", "Bulk Up", "Dragon Claw", "Endure", "Facade", "False Swipe", "Fire Blast", "Flamethrower", "Hex", "Iron Defense", "Iron Head", "Light Screen", "Overheat", "Poison Jab", "Protect", "Psych Up", "Reflect", "Rest", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Solar Blade", "Sunny Day", "Swords Dance", "Taunt", "Will O Wisp", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -120,6 +122,8 @@
     "max" : 56,
     "slot" : 7
   }, {
+    "areaKey" : "Route123",
+    "bucketKey" : "Land",
     "area" : "Route 123",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -127,6 +131,8 @@
     "max" : 55,
     "slot" : 7
   }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -134,6 +140,8 @@
     "max" : 56,
     "slot" : 7
   }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -141,6 +149,8 @@
     "max" : 56,
     "slot" : 7
   }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -148,6 +158,8 @@
     "max" : 56,
     "slot" : 7
   }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_5F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -155,6 +167,8 @@
     "max" : 56,
     "slot" : 7
   }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_6F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -162,6 +176,8 @@
     "max" : 56,
     "slot" : 7
   }, {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -169,6 +185,8 @@
     "max" : 56,
     "slot" : 4
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -176,6 +194,8 @@
     "max" : 56,
     "slot" : 4
   }, {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
     "area" : "Scorched Slab0",
     "bucket" : "Land",
     "rateBase" : 20,

@@ -86,6 +86,8 @@
   "eggMoves" : [ "Fake Tears", "Foul Play", "Knock Off", "Mean Look", "Roost", "Scary Face", "Steel Wing" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Cut", "Dark Pulse", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "Fly", "Giga Impact", "Hyper Beam", "Iron Defense", "Knock Off", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Smash", "Rock Tomb", "Roost", "Sandstorm", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route119",
+    "bucketKey" : "Land",
     "area" : "Route 119",
     "bucket" : "Land",
     "rateBase" : 15,
@@ -93,6 +95,8 @@
     "max" : 54,
     "slot" : 7
   }, {
+    "areaKey" : "FortreeCity0",
+    "bucketKey" : "Land",
     "area" : "Fortree City0",
     "bucket" : "Land",
     "rateBase" : 10,

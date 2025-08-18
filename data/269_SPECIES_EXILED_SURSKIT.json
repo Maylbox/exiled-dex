@@ -104,6 +104,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Aura Sphere", "Blizzard", "Calm Mind", "Covet", "Dark Pulse", "Dazzling Gleam", "Defog", "Electroweb", "Energy Ball", "Facade", "First Impression", "Flip Turn", "Fly", "Focus Blast", "Giga Drain", "Hex", "Hidden Power", "Ice Beam", "Knock Off", "Leech Life", "Light Screen", "Meteor Beam", "Mirror Coat", "Mystical Fire", "Play Rough", "Protect", "Psychic", "Psyshock", "Rain Dance", "Roost", "Safeguard", "Scald", "Secret Power", "Shadow Ball", "Silver Wind", "Sludge Bomb", "Snatch", "Substitute", "Taunt", "Thunder", "Thunderbolt", "Torment", "Toxic", "Trick Room", "U Turn", "Water Pulse", "Will O Wisp", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Land",
     "area" : "Route 102",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -111,6 +113,8 @@
     "max" : 8,
     "slot" : 10
   }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Land",
     "area" : "Route 102",
     "bucket" : "Land",
     "rateBase" : 20,

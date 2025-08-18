@@ -84,6 +84,8 @@
   "eggMoves" : [ "Amnesia", "Growth", "Leech Seed", "Poison Powder", "Stun Spore" ],
   "teachableMoves" : [ "Attract", "Dazzling Gleam", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Grass Knot", "Light Screen", "Protect", "Rest", "Safeguard", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Thunder Wave", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
     "area" : "Petalburg Woods",
     "bucket" : "Land",
     "rateBase" : 20,

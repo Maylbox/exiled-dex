@@ -51,6 +51,8 @@
   "eggMoves" : [ "Confuse Ray", "Curse", "Disable", "Double Team", "Dragon Tail", "Grudge", "Sucker Punch" ],
   "teachableMoves" : [ "Attract", "Double Team", "Draco Meteor", "Dragon Tail", "Endure", "Facade", "Protect", "Rest", "Sleep Talk", "Snore", "Swift", "Thunder Wave" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,

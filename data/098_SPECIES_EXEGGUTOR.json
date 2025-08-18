@@ -92,6 +92,8 @@
   "eggMoves" : [ "Ancient Power", "Block", "Curse", "Giga Drain", "Grassy Terrain", "Ingrain", "Leaf Storm", "Lucky Chant", "Moonlight", "Natural Gift", "Nature Power", "Power Swap", "Skill Swap", "Synthesis" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Bullet Seed", "Calm Mind", "Double Edge", "Double Team", "Dream Eater", "Earthquake", "Endure", "Energy Ball", "Explosion", "Facade", "Flash", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Light Screen", "Low Kick", "Power Whip", "Protect", "Psych Up", "Psychic", "Psyshock", "Reflect", "Rest", "Rollout", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
     "area" : "Route 118",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -99,6 +101,8 @@
     "max" : 5,
     "slot" : 7
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
     "area" : "Route 120",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -106,6 +110,8 @@
     "max" : 54,
     "slot" : 1
   }, {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
     "area" : "Route 121",
     "bucket" : "Land",
     "rateBase" : 20,

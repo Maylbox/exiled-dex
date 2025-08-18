@@ -90,6 +90,8 @@
   "eggMoves" : [ "Camouflage", "Cross Poison", "Disable", "Feint Attack", "Lunge", "Pin Missile", "Poison Sting", "Pursuit", "Rock Climb" ],
   "teachableMoves" : [ "Attract", "Charge Beam", "Cut", "Double Team", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash", "Fury Cutter", "Giga Drain", "Leech Life", "Light Screen", "Poison Jab", "Protect", "Rain Dance", "Rest", "Shock Wave", "Sleep Talk", "Snore", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
     "area" : "Petalburg Woods",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -97,6 +99,8 @@
     "max" : 7,
     "slot" : 6
   }, {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
     "area" : "Petalburg Woods",
     "bucket" : "Land",
     "rateBase" : 20,

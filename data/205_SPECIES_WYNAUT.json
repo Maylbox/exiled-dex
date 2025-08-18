@@ -63,6 +63,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Counter", "Mirror Coat", "Safeguard" ],
   "encounters" : [ {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -70,6 +72,8 @@
     "max" : 30,
     "slot" : 0
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -77,6 +81,8 @@
     "max" : 35,
     "slot" : 1
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -84,6 +90,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -91,6 +99,8 @@
     "max" : 40,
     "slot" : 3
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -98,6 +108,8 @@
     "max" : 20,
     "slot" : 4
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -105,6 +117,8 @@
     "max" : 45,
     "slot" : 5
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -112,6 +126,8 @@
     "max" : 15,
     "slot" : 6
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -119,6 +135,8 @@
     "max" : 50,
     "slot" : 7
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -126,6 +144,8 @@
     "max" : 10,
     "slot" : 8
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -133,6 +153,8 @@
     "max" : 5,
     "slot" : 9
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -140,6 +162,8 @@
     "max" : 10,
     "slot" : 10
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
     "area" : "Route 130",
     "bucket" : "Land",
     "rateBase" : 20,

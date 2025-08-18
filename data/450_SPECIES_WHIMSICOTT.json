@@ -103,6 +103,8 @@
   "eggMoves" : [ "Beat Up", "Captivate", "Encore", "Fake Tears", "Grass Whistle", "Memento", "Misty Terrain", "Natural Gift", "Switcheroo", "Tickle", "Worry Seed" ],
   "teachableMoves" : [ "Attract", "Covet", "Dazzling Gleam", "Defog", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Knock Off", "Light Screen", "Play Rough", "Protect", "Psychic", "Rest", "Safeguard", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Toxic", "Trick Room", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
     "area" : "Route 121",
     "bucket" : "Land",
     "rateBase" : 20,

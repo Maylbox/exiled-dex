@@ -101,6 +101,8 @@
   "eggMoves" : [ "Acid Spray", "Amnesia", "Counter", "Detect", "Dragon Dance", "Drain Punch", "Fake Out", "Feint Attack", "Fire Punch", "Ice Punch", "Power Up Punch", "Quick Guard", "Thunder Punch", "Zen Headbutt" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Counter", "Crunch", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Drain Punch", "Endure", "Facade", "Fire Punch", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Punch", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Sludge Bomb", "Smack Down", "Snatch", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B2F",
     "bucket" : "Land",
     "rateBase" : 4,

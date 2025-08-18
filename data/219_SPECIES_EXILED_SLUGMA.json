@@ -81,6 +81,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Aurora Veil", "Avalanche", "Body Press", "Body Slam", "Bulk Up", "Bulldoze", "Calm Mind", "Dazzling Gleam", "Defog", "Earth Power", "Earthquake", "Facade", "Flash", "Focus Blast", "Giga Drain", "Giga Impact", "Gyro Ball", "Hidden Power", "Ice Fang", "Icicle Crash", "Iron Defense", "Iron Head", "Knock Off", "Leech Life", "Light Screen", "Meteor Beam", "Mirror Coat", "Poison Jab", "Protect", "Reflect", "Rest", "Return", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Secret Power", "Shadow Ball", "Sludge Bomb", "Sludge Wave", "Smack Down", "Snowscape", "Stealth Rock", "Stone Edge", "Strength", "Swords Dance", "Toxic", "Trick Room", "Triple Axel" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -88,6 +90,8 @@
     "max" : 18,
     "slot" : 10
   }, {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B2F",
     "bucket" : "Land",
     "rateBase" : 10,

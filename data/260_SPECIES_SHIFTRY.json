@@ -118,6 +118,8 @@
   "eggMoves" : [ "Amnesia", "Beat Up", "Bullet Seed", "Defog", "Foul Play", "Grassy Terrain", "Leech Seed", "Nasty Plot", "Power Swap", "Quick Attack", "Razor Wind", "Take Down", "Worry Seed" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Body Slam", "Brick Break", "Bullet Seed", "Cut", "Dark Pulse", "Defense Curl", "Defog", "Dig", "Double Edge", "Double Team", "Endure", "Energy Ball", "Explosion", "Facade", "False Swipe", "Flash", "Focus Blast", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hex", "Hyper Beam", "Icy Wind", "Knock Off", "Low Kick", "Mega Kick", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Shadow Ball", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Torment", "Toxic", "Trailblaze", "Will O Wisp", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
     "area" : "Route 120",
     "bucket" : "Land",
     "rateBase" : 20,

@@ -81,6 +81,8 @@
   "eggMoves" : [ "Block", "Explosion", "Mud Slap" ],
   "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Bulldoze", "Dig", "Endure", "Explosion", "Facade", "Fire Blast", "Flamethrower", "Gyro Ball", "High Horsepower", "Iron Defense", "Iron Head", "Meteor Beam", "Mud Slap", "Overheat", "Protect", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Sandstorm", "Scald", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "FieryPath",
+    "bucketKey" : "Land",
     "area" : "Fiery Path",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -101,6 +101,8 @@
   "eggMoves" : [ "Astonish", "Covet", "Fire Fang", "Ice Fang", "Leer", "Me First", "Play Rough", "Poison Fang", "Sleep Talk", "Snatch", "Sucker Punch", "Thunder Fang", "Yawn" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Counter", "Covet", "Crunch", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "Fire Fang", "Giga Impact", "Hyper Beam", "Ice Fang", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Rock Smash", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Fang", "Torment", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
     "area" : "Route 121",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -108,6 +110,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route123",
+    "bucketKey" : "Land",
     "area" : "Route 123",
     "bucket" : "Land",
     "rateBase" : 20,

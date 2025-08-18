@@ -95,6 +95,8 @@
   "eggMoves" : [ "Bide", "Curse", "Encore", "Endure", "Grass Whistle", "Grassy Terrain", "Helping Hand", "Ingrain", "Leech Seed", "Morning Sun", "Natural Gift", "Nature Power", "Sweet Scent" ],
   "teachableMoves" : [ "Attract", "Bullet Seed", "Cut", "Dazzling Gleam", "Double Edge", "Double Team", "Earth Power", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Light Screen", "Protect", "Rain Dance", "Rest", "Safeguard", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "Route117",
+    "bucketKey" : "Land",
     "area" : "Route 117",
     "bucket" : "Land",
     "rateBase" : 20,

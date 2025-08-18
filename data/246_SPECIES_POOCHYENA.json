@@ -84,6 +84,8 @@
   "eggMoves" : [ "Astonish", "Covet", "Fire Fang", "Ice Fang", "Leer", "Me First", "Play Rough", "Poison Fang", "Sleep Talk", "Snatch", "Sucker Punch", "Thunder Fang", "Yawn" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Counter", "Covet", "Crunch", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "Fire Fang", "Ice Fang", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Rock Smash", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Fang", "Torment", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "OldaleTown0",
+    "bucketKey" : "Land",
     "area" : "Oldale Town0",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -91,6 +93,8 @@
     "max" : 5,
     "slot" : 1
   }, {
+    "areaKey" : "OldaleTown0",
+    "bucketKey" : "Land",
     "area" : "Oldale Town0",
     "bucket" : "Land",
     "rateBase" : 20,

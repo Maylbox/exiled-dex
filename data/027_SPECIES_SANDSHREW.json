@@ -92,6 +92,8 @@
   "eggMoves" : [ "Chip Away", "Counter", "Crush Claw", "Endure", "Flail", "Hone Claws", "Metal Claw", "Mud Shot", "Night Slash", "Rapid Spin", "Rock Climb", "Rototiller" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Covet", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "False Swipe", "Fury Cutter", "Gyro Ball", "High Horsepower", "Hone Claws", "Knock Off", "Leech Life", "Low Kick", "Mud Slap", "Poison Jab", "Protect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Safeguard", "Sandstorm", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route113",
+    "bucketKey" : "Land",
     "area" : "Route 113",
     "bucket" : "Land",
     "rateBase" : 20,

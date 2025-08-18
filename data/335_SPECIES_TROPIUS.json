@@ -92,6 +92,8 @@
   "eggMoves" : [ "Bullet Seed", "Curse", "Dragon Dance", "Dragon Hammer", "Headbutt", "Leaf Blade", "Leaf Storm", "Leech Seed", "Natural Gift", "Nature Power", "Razor Wind", "Slam", "Synthesis" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Body Press", "Body Slam", "Bulldoze", "Bullet Seed", "Calm Mind", "Cut", "Defog", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Dual Wingbeat", "Earthquake", "Endure", "Energy Ball", "Facade", "Flash", "Fly", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Hyper Beam", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roar", "Rock Smash", "Roost", "Safeguard", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Steel Wing", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
     "area" : "Route 118",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -99,6 +101,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
     "area" : "Route 120",
     "bucket" : "Land",
     "rateBase" : 20,

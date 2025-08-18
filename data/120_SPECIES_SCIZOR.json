@@ -98,6 +98,8 @@
   "eggMoves" : [ "Baton Pass", "Bug Buzz", "Counter", "Defog", "Endure", "Night Slash", "Quick Guard", "Razor Wind", "Reversal", "Silver Wind", "Steel Wing" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brick Break", "Calm Mind", "Counter", "Cut", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "False Swipe", "Flash Cannon", "Fury Cutter", "Giga Impact", "Hyper Beam", "Iron Defense", "Iron Head", "Knock Off", "Light Screen", "Protect", "Rain Dance", "Rest", "Rock Smash", "Roost", "Safeguard", "Sandstorm", "Silver Wind", "Sleep Talk", "Snore", "Steel Wing", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic", "Trailblaze", "U Turn", "Venoshock", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B2F",
     "bucket" : "Land",
     "rateBase" : 4,

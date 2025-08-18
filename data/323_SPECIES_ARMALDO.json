@@ -95,6 +95,8 @@
   "eggMoves" : [ "Aqua Jet", "Cross Poison", "Curse", "Iron Defense", "Knock Off", "Rapid Spin", "Sand Attack", "Screech", "Water Pulse" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Cut", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "False Swipe", "Flash Cannon", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Iron Defense", "Knock Off", "Low Kick", "Meteor Beam", "Mud Slap", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Water Pulse", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "MirageTower_1F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_1F",
     "bucket" : "Land",
     "rateBase" : 10,

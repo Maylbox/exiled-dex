@@ -7,6 +7,7 @@ const searchBox = el('#q');
 const DATA_DIR = 'data/';
 const SPRITE_DIR = 'sprites/'; // if missing we fall back to placeholder
 let INDEX = [];
+let I18N = { area:{}, bucket:{} };
 
 window.addEventListener('hashchange', route);
 searchBox.addEventListener('input', () => { if(location.hash==='#dex') renderDexList(); });
@@ -15,8 +16,15 @@ init();
 
 async function init(){
   INDEX = await fetchJSON(DATA_DIR + 'index.json');
-  route();
+  try {
+    const i = await fetchJSON(DATA_DIR + 'i18n/areas.json');
+    I18N.area   = i.area   || {};
+    I18N.bucket = i.bucket || {};
+  } catch(_) {}
+  route(); // render after i18n is ready
 }
+function tArea(key, fallback){ return (I18N.area && I18N.area[key]) || fallback || key; }
+function tBucket(key, fallback){ return (I18N.bucket && I18N.bucket[key]) || fallback || key; }
 
 function route(){
   const hash = location.hash.replace(/^#/,'');
@@ -108,7 +116,11 @@ async function renderDexDetail(dex, speciesId){
   const levelUps = (data.levelUpMoves||[]).map(m=>`<tr><td>${m.level}</td><td>${m.move}</td></tr>`).join('');
   const eggs = (data.eggMoves||[]).map(m=>`<span class="badge">${m}</span>`).join('');
   const teach = (data.teachableMoves||[]).map(m=>`<span class="badge">${m}</span>`).join('');
-  const enc = (data.encounters||[]).map(e=>`<tr><td>${e.area}</td><td>${e.bucket}</td><td>${e.min}–${e.max}</td><td>${e.slot}</td><td>${e.rateBase??''}</td></tr>`).join('');
+  const enc = (data.encounters||[]).map(e=>{
+    const areaLabel   = tArea(e.areaKey,   e.area);    // prefer translation, else prettified fallback from JSON
+    const bucketLabel = tBucket(e.bucketKey, e.bucket);
+    return `<tr><td>${areaLabel}</td><td>${bucketLabel}</td><td>${e.min}–${e.max}</td><td>${e.slot}</td><td>${e.rateBase??''}</td></tr>`;
+  }).join('');
 
   app.innerHTML = `
     <div class="detail">

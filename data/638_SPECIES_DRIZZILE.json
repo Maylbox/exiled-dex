@@ -87,6 +87,8 @@
   "eggMoves" : [ "Aqua Jet", "Aqua Ring", "Double Team", "Fell Stinger", "Haze", "Ice Shard", "Mist" ],
   "teachableMoves" : [ "Attract", "Dive", "Double Team", "Endure", "Facade", "Light Screen", "Protect", "Rain Dance", "Reflect", "Rest", "Safeguard", "Sleep Talk", "Snore", "Surf", "Swift", "U Turn", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
     "area" : "Verdanturf Town0",
     "bucket" : "Land",
     "rateBase" : 10,

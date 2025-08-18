@@ -94,6 +94,8 @@
   "eggMoves" : [ "Haze", "Spit Up", "Stockpile", "Swallow" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Covet", "Double Team", "Endure", "Facade", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Knock Off", "Light Screen", "Poison Jab", "Protect", "Rain Dance", "Rest", "Safeguard", "Scald", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Smack Down", "Snatch", "Snore", "Surf", "Swagger", "Toxic", "Venoshock", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "Route105",
+    "bucketKey" : "Water",
     "area" : "Route 105",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -101,6 +103,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Water",
     "area" : "Route 118",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -108,6 +112,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route124",
+    "bucketKey" : "Water",
     "area" : "Route 124",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -115,6 +121,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route106",
+    "bucketKey" : "Water",
     "area" : "Route 106",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -122,6 +130,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route107",
+    "bucketKey" : "Water",
     "area" : "Route 107",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -129,6 +139,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route108",
+    "bucketKey" : "Water",
     "area" : "Route 108",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -136,6 +148,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route109",
+    "bucketKey" : "Water",
     "area" : "Route 109",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -143,6 +157,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route115",
+    "bucketKey" : "Water",
     "area" : "Route 115",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -150,6 +166,8 @@
     "max" : 55,
     "slot" : 3
   }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Water",
     "area" : "Route 122",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -157,6 +175,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route125",
+    "bucketKey" : "Water",
     "area" : "Route 125",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -164,6 +184,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route126",
+    "bucketKey" : "Water",
     "area" : "Route 126",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -171,6 +193,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route127",
+    "bucketKey" : "Water",
     "area" : "Route 127",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -178,6 +202,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route128",
+    "bucketKey" : "Water",
     "area" : "Route 128",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -185,6 +211,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route129",
+    "bucketKey" : "Water",
     "area" : "Route 129",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -192,6 +220,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Water",
     "area" : "Route 130",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -199,6 +229,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route131",
+    "bucketKey" : "Water",
     "area" : "Route 131",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -206,6 +238,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route132",
+    "bucketKey" : "Water",
     "area" : "Route 132",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -213,6 +247,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route133",
+    "bucketKey" : "Water",
     "area" : "Route 133",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -220,6 +256,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "Route134",
+    "bucketKey" : "Water",
     "area" : "Route 134",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -227,6 +265,8 @@
     "max" : 55,
     "slot" : 4
   }, {
+    "areaKey" : "SeafloorCavern_Room1",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -234,6 +274,8 @@
     "max" : 75,
     "slot" : 6
   }, {
+    "areaKey" : "SeafloorCavern_Room2",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -241,6 +283,8 @@
     "max" : 75,
     "slot" : 6
   }, {
+    "areaKey" : "SeafloorCavern_Room3",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -248,6 +292,8 @@
     "max" : 75,
     "slot" : 6
   }, {
+    "areaKey" : "SeafloorCavern_Room4",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room4",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -255,6 +301,8 @@
     "max" : 75,
     "slot" : 6
   }, {
+    "areaKey" : "SeafloorCavern_Room5",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room5",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -262,6 +310,8 @@
     "max" : 75,
     "slot" : 6
   }, {
+    "areaKey" : "SeafloorCavern_Room6",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room6",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -269,6 +319,8 @@
     "max" : 75,
     "slot" : 6
   }, {
+    "areaKey" : "SeafloorCavern_Room7",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room7",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -276,6 +328,8 @@
     "max" : 75,
     "slot" : 6
   }, {
+    "areaKey" : "SeafloorCavern_Room8",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room8",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -283,6 +337,8 @@
     "max" : 75,
     "slot" : 6
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
     "area" : "Sootopolis City",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -48,6 +48,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Electroweb" ],
   "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
     "area" : "Petalburg Woods",
     "bucket" : "Land",
     "rateBase" : 20,

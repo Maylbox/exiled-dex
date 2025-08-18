@@ -86,6 +86,8 @@
   "eggMoves" : [ "Dark Pulse", "Destiny Bond", "Feint Attack", "Grudge", "Haze", "Imprison", "Memento", "Ominous Wind", "Pain Split", "Skill Swap" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Calm Mind", "Charge Beam", "Dark Pulse", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Hex", "Ice Beam", "Icy Wind", "Leech Life", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Taunt", "Thief", "Torment", "Toxic", "Trick Room", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -93,6 +95,8 @@
     "max" : 17,
     "slot" : 4
   }, {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B1F",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -101,6 +101,8 @@
   "eggMoves" : [ "Acid Spray", "Curse", "Haze", "Imprison", "Lick", "Mean Look", "Power Up Punch", "Scary Face", "Shadow Punch", "Shadow Sneak", "Spit Up", "Stockpile", "Swallow" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Dark Pulse", "Dig", "Double Team", "Drain Punch", "Dynamic Punch", "Endure", "Explosion", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Drain", "Giga Impact", "Hex", "Hyper Beam", "Ice Punch", "Knock Off", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Shadow Ball", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Torment", "Toxic", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_1F",
     "bucket" : "Land",
     "rateBase" : 4,

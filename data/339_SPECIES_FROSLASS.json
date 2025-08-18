@@ -98,6 +98,8 @@
   "eggMoves" : [ "Avalanche", "Bide", "Block", "Disable", "Fake Tears", "Hex", "Rollout", "Spikes", "Switcheroo", "Weather Ball" ],
   "teachableMoves" : [ "Attract", "Aurora Veil", "Avalanche", "Blizzard", "Body Slam", "Crunch", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icicle Crash", "Icy Wind", "Light Screen", "Mud Slap", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Rollout", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Snowscape", "Swagger", "Taunt", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trailblaze", "Triple Axel", "Water Pulse", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "SeafloorCavern_Room1",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room1",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -105,6 +107,8 @@
     "max" : 75,
     "slot" : 10
   }, {
+    "areaKey" : "SeafloorCavern_Room2",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room2",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -112,6 +116,8 @@
     "max" : 75,
     "slot" : 10
   }, {
+    "areaKey" : "SeafloorCavern_Room3",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room3",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -119,6 +125,8 @@
     "max" : 75,
     "slot" : 10
   }, {
+    "areaKey" : "SeafloorCavern_Room4",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room4",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -126,6 +134,8 @@
     "max" : 75,
     "slot" : 10
   }, {
+    "areaKey" : "SeafloorCavern_Room5",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room5",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -133,6 +143,8 @@
     "max" : 75,
     "slot" : 10
   }, {
+    "areaKey" : "SeafloorCavern_Room6",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room6",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -140,6 +152,8 @@
     "max" : 75,
     "slot" : 10
   }, {
+    "areaKey" : "SeafloorCavern_Room7",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room7",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -147,6 +161,8 @@
     "max" : 75,
     "slot" : 10
   }, {
+    "areaKey" : "SeafloorCavern_Room8",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room8",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -154,6 +170,8 @@
     "max" : 75,
     "slot" : 10
   }, {
+    "areaKey" : "ShoalCave_LowTideStairsRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Stairs Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -161,6 +179,8 @@
     "max" : 71,
     "slot" : 3
   }, {
+    "areaKey" : "ShoalCave_LowTideLowerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Lower Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -168,6 +188,8 @@
     "max" : 71,
     "slot" : 3
   }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -175,6 +197,8 @@
     "max" : 71,
     "slot" : 3
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -182,6 +206,8 @@
     "max" : 71,
     "slot" : 3
   }, {
+    "areaKey" : "ShoalCave_LowTideIceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Ice Room",
     "bucket" : "Land",
     "rateBase" : 4,

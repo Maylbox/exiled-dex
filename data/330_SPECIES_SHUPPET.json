@@ -92,6 +92,8 @@
   "eggMoves" : [ "Astonish", "Confuse Ray", "Destiny Bond", "Disable", "Foresight", "Gunk Shot", "Imprison", "Ominous Wind", "Phantom Force", "Pursuit", "Shadow Sneak" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Dark Pulse", "Dazzling Gleam", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Hex", "Icy Wind", "Knock Off", "Metronome", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -99,6 +101,8 @@
     "max" : 10,
     "slot" : 8
   }, {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,

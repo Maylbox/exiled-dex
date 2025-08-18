@@ -44,6 +44,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Iron Defense", "Iron Head" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -51,6 +53,8 @@
     "max" : 15,
     "slot" : 8
   }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,

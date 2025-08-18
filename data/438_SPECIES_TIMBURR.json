@@ -87,6 +87,8 @@
   "eggMoves" : [ "Comet Punch", "Counter", "Detect", "Drain Punch", "Endure", "Force Palm", "Foresight", "Mach Punch", "Power Up Punch", "Reversal", "Smelling Salts", "Wide Guard" ],
   "teachableMoves" : [ "Attract", "Brick Break", "Bulk Up", "Counter", "Defog", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Endure", "Facade", "Fire Punch", "Focus Blast", "Grass Knot", "Ice Punch", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Smack Down", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Punch", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
     "area" : "Dewford Town",
     "bucket" : "Land",
     "rateBase" : 10,

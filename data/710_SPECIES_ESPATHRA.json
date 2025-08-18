@@ -104,6 +104,8 @@
   "eggMoves" : [ "Ally Switch", "Hypnosis", "Roost" ],
   "teachableMoves" : [ "Aerial Ace", "Body Slam", "Brave Bird", "Calm Mind", "Dazzling Gleam", "Double Edge", "Endure", "Energy Ball", "Facade", "Flash Cannon", "Giga Impact", "Hex", "Hyper Beam", "Light Screen", "Low Kick", "Mud Slap", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Roost", "Sandstorm", "Shadow Ball", "Sleep Talk", "Sunny Day", "Swift", "Thief", "Trick Room", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
     "area" : "Route 121",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -111,6 +113,8 @@
     "max" : 55,
     "slot" : 0
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
     "area" : "Mossdeep City",
     "bucket" : "Land",
     "rateBase" : 10,

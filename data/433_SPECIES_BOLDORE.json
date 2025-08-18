@@ -104,6 +104,8 @@
   "eggMoves" : [ "Autotomize", "Curse", "Gravity", "Heavy Slam", "Lock On", "Magnitude", "Rock Tomb", "Take Down", "Wide Guard" ],
   "teachableMoves" : [ "Attract", "Body Press", "Bulldoze", "Double Team", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Flash Cannon", "Iron Defense", "Meteor Beam", "Mud Slap", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Swagger", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,

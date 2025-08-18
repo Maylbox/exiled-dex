@@ -96,6 +96,8 @@
   "eggMoves" : [ "Ally Switch", "Barrier", "Encore", "Fire Punch", "Guard Split", "Guard Swap", "Ice Punch", "Knock Off", "Power Trick", "Psychic Terrain", "Psycho Shift", "Skill Swap", "Thunder Punch" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Counter", "Dazzling Gleam", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Fire Punch", "Flash", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Punch", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Punch", "Thunder Wave", "Torment", "Toxic", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -103,6 +105,8 @@
     "max" : 76,
     "slot" : 2
   }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -110,6 +114,8 @@
     "max" : 76,
     "slot" : 2
   }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_5F",
     "bucket" : "Land",
     "rateBase" : 10,

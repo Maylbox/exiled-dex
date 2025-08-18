@@ -101,6 +101,8 @@
   "eggMoves" : [ "Assist", "Avalanche", "Bite", "Counter", "Crush Claw", "Double Hit", "Fake Out", "Feint", "Foresight", "Ice Punch", "Ice Shard", "Icicle Crash", "Punishment", "Pursuit", "Spite", "Throat Chop" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Avalanche", "Blizzard", "Brick Break", "Calm Mind", "Counter", "Cut", "Dark Pulse", "Dig", "Double Team", "Dream Eater", "Endure", "Facade", "False Swipe", "Focus Blast", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Ice Beam", "Ice Punch", "Icicle Crash", "Icy Wind", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snatch", "Snore", "Snowscape", "Strength", "Sunny Day", "Surf", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Torment", "Toxic", "Trailblaze", "Triple Axel", "Water Pulse", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "ShoalCave_LowTideStairsRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Stairs Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -108,6 +110,8 @@
     "max" : 71,
     "slot" : 1
   }, {
+    "areaKey" : "ShoalCave_LowTideLowerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Lower Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -115,6 +119,8 @@
     "max" : 71,
     "slot" : 1
   }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -122,6 +128,8 @@
     "max" : 71,
     "slot" : 1
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -129,6 +137,8 @@
     "max" : 71,
     "slot" : 1
   }, {
+    "areaKey" : "ShoalCave_LowTideIceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Ice Room",
     "bucket" : "Land",
     "rateBase" : 4,

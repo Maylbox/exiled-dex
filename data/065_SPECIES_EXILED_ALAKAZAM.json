@@ -109,6 +109,8 @@
   "eggMoves" : [ "Ally Switch", "Barrier", "Encore", "Fire Punch", "Guard Split", "Guard Swap", "Ice Punch", "Knock Off", "Power Trick", "Psychic Terrain", "Psycho Shift", "Skill Swap", "Thunder Punch" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Counter", "Dazzling Gleam", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Fire Punch", "Flash", "Grass Knot", "Ice Punch", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Punch", "Thunder Wave", "Torment", "Toxic", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -116,6 +118,8 @@
     "max" : 83,
     "slot" : 10
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -123,6 +127,8 @@
     "max" : 83,
     "slot" : 10
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -130,6 +136,8 @@
     "max" : 83,
     "slot" : 10
   }, {
+    "areaKey" : "ShoalCave_LowTideStairsRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Stairs Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -137,6 +145,8 @@
     "max" : 71,
     "slot" : 11
   }, {
+    "areaKey" : "ShoalCave_LowTideLowerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Lower Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -144,6 +154,8 @@
     "max" : 71,
     "slot" : 11
   }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -151,6 +163,8 @@
     "max" : 71,
     "slot" : 11
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -158,6 +172,8 @@
     "max" : 71,
     "slot" : 11
   }, {
+    "areaKey" : "ShoalCave_LowTideIceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Ice Room",
     "bucket" : "Land",
     "rateBase" : 4,

@@ -74,6 +74,8 @@
   "eggMoves" : [ "Air Slash", "Astonish", "Baton Pass", "Charm", "Covet", "Ion Deluge", "Iron Tail", "Roost", "Shock Wave", "Speed Swap", "Tickle" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Charge Beam", "Covet", "Cut", "Defog", "Double Team", "Dual Wingbeat", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash", "Knock Off", "Light Screen", "Protect", "Rain Dance", "Rest", "Roost", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Swagger", "Swift", "Taunt", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "U Turn", "Volt Switch", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route119",
+    "bucketKey" : "Land",
     "area" : "Route 119",
     "bucket" : "Land",
     "rateBase" : 15,

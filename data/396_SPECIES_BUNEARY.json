@@ -90,6 +90,8 @@
   "eggMoves" : [ "Circle Throw", "Copycat", "Cosmic Power", "Double Hit", "Encore", "Fake Out", "Fake Tears", "Fire Punch", "Flail", "Focus Punch", "Ice Punch", "Low Kick", "Mud Sport", "Power Up Punch", "Sky Uppercut", "Sweet Kiss", "Switcheroo", "Teeter Dance", "Thunder Punch" ],
   "teachableMoves" : [ "Attract", "Charge Beam", "Covet", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Endure", "Facade", "Fire Punch", "Grass Knot", "Ice Beam", "Ice Punch", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Smash", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Triple Axel", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "Route104",
+    "bucketKey" : "Land",
     "area" : "Route 104",
     "bucket" : "Land",
     "rateBase" : 20,

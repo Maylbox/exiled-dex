@@ -118,6 +118,8 @@
   "eggMoves" : [ "Captivate", "Charm", "Covet", "Curse", "Detect", "Endure", "Fake Tears", "Flail", "Natural Gift", "Stored Power", "Synchronoise", "Tickle", "Wish", "Yawn" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Covet", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Shadow Ball", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "OldaleTown0",
+    "bucketKey" : "Land",
     "area" : "Oldale Town0",
     "bucket" : "Land",
     "rateBase" : 20,

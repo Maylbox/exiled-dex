@@ -81,6 +81,8 @@
   "eggMoves" : [ "Explosion", "Memento", "Toxic" ],
   "teachableMoves" : [ "Dazzling Gleam", "Endure", "Explosion", "Facade", "Iron Defense", "Light Screen", "Meteor Beam", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Sandstorm", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Smack Down", "Stealth Rock", "Stone Edge", "Sunny Day", "Toxic", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
     "area" : "Rusturf Tunnel",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -88,6 +90,8 @@
     "max" : 11,
     "slot" : 10
   }, {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
     "area" : "Rusturf Tunnel",
     "bucket" : "Land",
     "rateBase" : 10,

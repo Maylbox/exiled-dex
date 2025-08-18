@@ -92,6 +92,8 @@
   "eggMoves" : [ "Agility", "Confuse Ray", "Feint Attack", "Iron Tail", "Night Slash", "Poison Tail", "Pursuit", "Sand Attack", "Screech", "Slash", "Twineedle", "Whirlwind" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Brick Break", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Team", "Endure", "Facade", "False Swipe", "Flash", "Fury Cutter", "Hone Claws", "Knock Off", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Rest", "Rock Smash", "Rock Tomb", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snore", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Thief", "Torment", "Toxic", "Venoshock", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route113",
+    "bucketKey" : "Land",
     "area" : "Route 113",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -99,6 +101,8 @@
     "max" : 33,
     "slot" : 1
   }, {
+    "areaKey" : "JaggedPass",
+    "bucketKey" : "Land",
     "area" : "Jagged Pass",
     "bucket" : "Land",
     "rateBase" : 20,

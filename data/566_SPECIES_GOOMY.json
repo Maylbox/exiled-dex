@@ -81,6 +81,8 @@
   "eggMoves" : [ "Acid Armor", "Counter", "Curse", "Endure", "Iron Tail", "Poison Tail" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Counter", "Double Team", "Draco Meteor", "Dragon Pulse", "Endure", "Facade", "Protect", "Rain Dance", "Rest", "Rock Slide", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Sunny Day", "Swagger", "Thunderbolt", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Land",
     "area" : "Slateport City",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -88,6 +90,8 @@
     "max" : 20,
     "slot" : 5
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Land",
     "area" : "Slateport City",
     "bucket" : "Land",
     "rateBase" : 10,

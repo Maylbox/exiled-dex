@@ -118,6 +118,8 @@
   "eggMoves" : [ "Foul Play", "Me First", "Power Trip", "Quash", "Quick Guard", "Storm Throw" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Team", "Dragon Claw", "Drain Punch", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Punch", "Focus Blast", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Ice Punch", "Iron Head", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Swords Dance", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route123",
+    "bucketKey" : "Land",
     "area" : "Route 123",
     "bucket" : "Land",
     "rateBase" : 20,

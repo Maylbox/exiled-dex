@@ -81,6 +81,8 @@
   "eggMoves" : [ "Bide", "Bug Bite", "Bug Buzz", "Counter", "Dizzy Punch", "Drain Punch", "Encore", "Endure", "Focus Punch", "Knock Off", "Psybeam", "Screech", "Silver Wind", "Tailwind" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brick Break", "Counter", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Endure", "Facade", "Flash", "Giga Drain", "Ice Punch", "Knock Off", "Light Screen", "Mega Punch", "Power Up Punch", "Protect", "Reflect", "Rest", "Rollout", "Roost", "Safeguard", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Thunder Punch", "Toxic", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route104",
+    "bucketKey" : "Land",
     "area" : "Route 104",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -88,6 +90,8 @@
     "max" : 7,
     "slot" : 4
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Land",
     "area" : "Route 104",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -95,6 +99,8 @@
     "max" : 7,
     "slot" : 7
   }, {
+    "areaKey" : "SafariZone_Northeast",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northeast",
     "bucket" : "Land",
     "rateBase" : 25,

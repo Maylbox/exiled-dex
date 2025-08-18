@@ -87,6 +87,8 @@
   "eggMoves" : [ "Captivate", "Glare", "Grassy Terrain", "Iron Tail", "Magical Leaf", "Mean Look", "Mirror Coat", "Natural Gift", "Pursuit", "Sweet Scent", "Twister" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Bullet Seed", "Calm Mind", "Cut", "Defog", "Double Edge", "Double Team", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Knock Off", "Light Screen", "Mirror Coat", "Protect", "Reflect", "Rest", "Safeguard", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Torment", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
     "area" : "Deep Woods0",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -93,6 +93,8 @@
   "eggMoves" : [ "Agility", "Dragon Rush", "Feather Dance", "Haze", "Hyper Voice", "Play Rough", "Power Swap", "Pursuit", "Rage", "Roost", "Steel Wing" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brave Bird", "Dazzling Gleam", "Defog", "Double Edge", "Double Team", "Dragon Pulse", "Dream Eater", "Dual Wingbeat", "Endure", "Facade", "False Swipe", "Fly", "Ice Beam", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Rain Dance", "Rest", "Roost", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
     "area" : "Route 114",
     "bucket" : "Land",
     "rateBase" : 20,

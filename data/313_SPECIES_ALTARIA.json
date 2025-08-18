@@ -119,6 +119,8 @@
   "eggMoves" : [ "Agility", "Dragon Rush", "Feather Dance", "Haze", "Hyper Voice", "Play Rough", "Power Swap", "Pursuit", "Rage", "Roost", "Steel Wing" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brave Bird", "Bulldoze", "Dazzling Gleam", "Defog", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dream Eater", "Dual Wingbeat", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Blast", "Flamethrower", "Fly", "Giga Impact", "Hone Claws", "Hyper Beam", "Ice Beam", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Rain Dance", "Rest", "Roar", "Rock Smash", "Roost", "Safeguard", "Sleep Talk", "Snore", "Snowscape", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "Trailblaze", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
     "area" : "Route 115",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -126,6 +128,8 @@
     "max" : 48,
     "slot" : 2
   }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -133,6 +137,8 @@
     "max" : 76,
     "slot" : 9
   }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -140,6 +146,8 @@
     "max" : 76,
     "slot" : 10
   }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -147,6 +155,8 @@
     "max" : 76,
     "slot" : 9
   }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -154,6 +164,8 @@
     "max" : 76,
     "slot" : 10
   }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_5F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -161,6 +173,8 @@
     "max" : 76,
     "slot" : 9
   }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_5F",
     "bucket" : "Land",
     "rateBase" : 10,

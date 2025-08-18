@@ -95,6 +95,8 @@
   "eggMoves" : [ "Acid Armor", "Confuse Ray", "Constrict", "Mist", "Pain Split", "Recover" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Dark Pulse", "Dazzling Gleam", "Dive", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Icy Wind", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Safeguard", "Scald", "Shadow Ball", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Surf", "Swagger", "Taunt", "Toxic", "Trick Room", "Water Pulse", "Waterfall", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Route105",
+    "bucketKey" : "Water",
     "area" : "Route 105",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -102,6 +104,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Water",
     "area" : "Route 118",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -109,6 +113,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route124",
+    "bucketKey" : "Water",
     "area" : "Route 124",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -116,6 +122,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route106",
+    "bucketKey" : "Water",
     "area" : "Route 106",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -123,6 +131,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route107",
+    "bucketKey" : "Water",
     "area" : "Route 107",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -130,6 +140,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route108",
+    "bucketKey" : "Water",
     "area" : "Route 108",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -137,6 +149,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route109",
+    "bucketKey" : "Water",
     "area" : "Route 109",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -144,6 +158,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Water",
     "area" : "Route 122",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -151,6 +167,8 @@
     "max" : 55,
     "slot" : 2
   }, {
+    "areaKey" : "Route125",
+    "bucketKey" : "Water",
     "area" : "Route 125",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -158,6 +176,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route126",
+    "bucketKey" : "Water",
     "area" : "Route 126",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -165,6 +185,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route127",
+    "bucketKey" : "Water",
     "area" : "Route 127",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -172,6 +194,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route128",
+    "bucketKey" : "Water",
     "area" : "Route 128",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -179,6 +203,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route129",
+    "bucketKey" : "Water",
     "area" : "Route 129",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -186,6 +212,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Water",
     "area" : "Route 130",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -193,6 +221,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route131",
+    "bucketKey" : "Water",
     "area" : "Route 131",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -200,6 +230,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route132",
+    "bucketKey" : "Water",
     "area" : "Route 132",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -207,6 +239,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route133",
+    "bucketKey" : "Water",
     "area" : "Route 133",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -214,6 +248,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "Route134",
+    "bucketKey" : "Water",
     "area" : "Route 134",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -221,6 +257,8 @@
     "max" : 55,
     "slot" : 1
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Fishing",
     "area" : "Slateport City",
     "bucket" : "Fishing",
     "rateBase" : 10,

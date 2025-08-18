@@ -89,6 +89,8 @@
   "eggMoves" : [ "Autotomize", "Block", "Curse", "Endure", "Flail", "Focus Punch", "Hammer Arm", "Mega Punch", "Rock Climb", "Wide Guard" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Gyro Ball", "High Horsepower", "Iron Defense", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Thunder Punch", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "RockSmash",
     "area" : "Route 111",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -96,6 +98,8 @@
     "max" : 15,
     "slot" : 0
   }, {
+    "areaKey" : "Route111",
+    "bucketKey" : "RockSmash",
     "area" : "Route 111",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -103,6 +107,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "Route111",
+    "bucketKey" : "RockSmash",
     "area" : "Route 111",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -110,6 +116,8 @@
     "max" : 20,
     "slot" : 2
   }, {
+    "areaKey" : "Route111",
+    "bucketKey" : "RockSmash",
     "area" : "Route 111",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -117,6 +125,8 @@
     "max" : 20,
     "slot" : 3
   }, {
+    "areaKey" : "Route111",
+    "bucketKey" : "RockSmash",
     "area" : "Route 111",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -124,6 +134,8 @@
     "max" : 20,
     "slot" : 4
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "RockSmash",
     "area" : "Route 114",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -131,6 +143,8 @@
     "max" : 15,
     "slot" : 0
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "RockSmash",
     "area" : "Route 114",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -138,6 +152,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "RockSmash",
     "area" : "Route 114",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -145,6 +161,8 @@
     "max" : 20,
     "slot" : 2
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "RockSmash",
     "area" : "Route 114",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -152,6 +170,8 @@
     "max" : 20,
     "slot" : 3
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "RockSmash",
     "area" : "Route 114",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -159,6 +179,8 @@
     "max" : 20,
     "slot" : 4
   }, {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
     "area" : "Rusturf Tunnel",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -166,6 +188,8 @@
     "max" : 11,
     "slot" : 4
   }, {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
     "area" : "Rusturf Tunnel",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -173,6 +197,8 @@
     "max" : 11,
     "slot" : 6
   }, {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "RockSmash",
     "area" : "Granite Cave_B2F",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -180,6 +206,8 @@
     "max" : 15,
     "slot" : 0
   }, {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "RockSmash",
     "area" : "Granite Cave_B2F",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -187,6 +215,8 @@
     "max" : 10,
     "slot" : 2
   }, {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "RockSmash",
     "area" : "Granite Cave_B2F",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -194,6 +224,8 @@
     "max" : 20,
     "slot" : 3
   }, {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "RockSmash",
     "area" : "Granite Cave_B2F",
     "bucket" : "Rock Smash",
     "rateBase" : 20,
@@ -201,6 +233,8 @@
     "max" : 20,
     "slot" : 4
   }, {
+    "areaKey" : "SafariZone_North",
+    "bucketKey" : "RockSmash",
     "area" : "Safari Zone_North",
     "bucket" : "Rock Smash",
     "rateBase" : 25,
@@ -208,6 +242,8 @@
     "max" : 15,
     "slot" : 0
   }, {
+    "areaKey" : "SafariZone_North",
+    "bucketKey" : "RockSmash",
     "area" : "Safari Zone_North",
     "bucket" : "Rock Smash",
     "rateBase" : 25,
@@ -215,6 +251,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "SafariZone_North",
+    "bucketKey" : "RockSmash",
     "area" : "Safari Zone_North",
     "bucket" : "Rock Smash",
     "rateBase" : 25,
@@ -222,6 +260,8 @@
     "max" : 20,
     "slot" : 2
   }, {
+    "areaKey" : "SafariZone_North",
+    "bucketKey" : "RockSmash",
     "area" : "Safari Zone_North",
     "bucket" : "Rock Smash",
     "rateBase" : 25,
@@ -229,6 +269,8 @@
     "max" : 25,
     "slot" : 3
   }, {
+    "areaKey" : "SafariZone_North",
+    "bucketKey" : "RockSmash",
     "area" : "Safari Zone_North",
     "bucket" : "Rock Smash",
     "rateBase" : 25,
@@ -236,6 +278,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "RockSmash",
     "area" : "Victory Road_B1F",
     "bucket" : "Rock Smash",
     "rateBase" : 20,

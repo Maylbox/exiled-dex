@@ -150,6 +150,8 @@
   "eggMoves" : [ "Agility", "Bug Bite", "Counter", "Cross Poison", "Endure", "Fell Stinger", "Flail", "Grassy Terrain", "Leech Seed", "Metal Claw", "Natural Gift", "Psybeam", "Pursuit", "Rototiller", "Screech", "Sweet Scent", "Wide Guard" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bullet Seed", "Counter", "Cut", "Dig", "Double Edge", "Double Team", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Knock Off", "Leech Life", "Light Screen", "Protect", "Reflect", "Rest", "Rock Smash", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic", "Venoshock", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -157,6 +159,8 @@
     "max" : 56,
     "slot" : 2
   }, {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -164,6 +168,8 @@
     "max" : 56,
     "slot" : 3
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -171,6 +177,8 @@
     "max" : 56,
     "slot" : 2
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,

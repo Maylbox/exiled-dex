@@ -107,6 +107,8 @@
   "eggMoves" : [ "Outrage", "Snatch", "Switcheroo", "Tailwind" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Body Slam", "Brick Break", "Cut", "Dark Pulse", "Defog", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dream Eater", "Dual Wingbeat", "Endure", "Facade", "Flamethrower", "Fly", "Focus Blast", "Giga Impact", "Hone Claws", "Hyper Beam", "Leech Life", "Protect", "Psychic", "Rest", "Roost", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "U Turn", "Water Pulse", "Wild Charge", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Entrance",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -114,6 +116,8 @@
     "max" : 77,
     "slot" : 0
   }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
     "bucket" : "Land",
     "rateBase" : 4,

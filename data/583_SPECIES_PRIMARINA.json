@@ -98,6 +98,8 @@
   "eggMoves" : [ "Amnesia", "Aqua Ring", "Aromatic Mist", "Charm", "Perish Song", "Wonder Room" ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Blizzard", "Body Slam", "Calm Mind", "Covet", "Dazzling Gleam", "Dive", "Double Team", "Endure", "Energy Ball", "Facade", "Flip Turn", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Light Screen", "Play Rough", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Scald", "Shadow Ball", "Sleep Talk", "Snore", "Snowscape", "Surf", "Swagger", "Swift", "Toxic", "Triple Axel", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
     "area" : "Sootopolis City",
     "bucket" : "Land",
     "rateBase" : 10,

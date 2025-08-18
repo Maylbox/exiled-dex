@@ -104,6 +104,8 @@
   "eggMoves" : [ "Counter", "Skitter Smack" ],
   "teachableMoves" : [ "Aerial Ace", "Brick Break", "Counter", "Dark Pulse", "Double Edge", "Endure", "Facade", "First Impression", "Giga Impact", "Knock Off", "Leech Life", "Low Kick", "Protect", "Rain Dance", "Rest", "Sleep Talk", "Sunny Day", "Swords Dance", "Taunt", "Thief", "Trailblaze", "U Turn", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
     "area" : "Route 120",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -111,6 +113,8 @@
     "max" : 54,
     "slot" : 10
   }, {
+    "areaKey" : "Route123",
+    "bucketKey" : "Land",
     "area" : "Route 123",
     "bucket" : "Land",
     "rateBase" : 20,

@@ -81,6 +81,8 @@
   "eggMoves" : [ "Dragon Dance", "Earth Power", "Flail", "Hydro Pump", "Mud Shot", "Muddy Water", "Spark", "Take Down", "Thrash", "Whirlpool" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Bulldoze", "Dive", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "High Horsepower", "Ice Beam", "Icy Wind", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Scald", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Surf", "Swagger", "Swift", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Fishing",
     "area" : "Route 111",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -88,6 +90,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "Route111",
+    "bucketKey" : "Fishing",
     "area" : "Route 111",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -95,6 +99,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "Route111",
+    "bucketKey" : "Fishing",
     "area" : "Route 111",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -102,6 +108,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "Route111",
+    "bucketKey" : "Fishing",
     "area" : "Route 111",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -109,6 +117,8 @@
     "max" : 25,
     "slot" : 7
   }, {
+    "areaKey" : "Route111",
+    "bucketKey" : "Fishing",
     "area" : "Route 111",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -116,6 +126,8 @@
     "max" : 40,
     "slot" : 8
   }, {
+    "areaKey" : "Route111",
+    "bucketKey" : "Fishing",
     "area" : "Route 111",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -123,6 +135,8 @@
     "max" : 45,
     "slot" : 9
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "Fishing",
     "area" : "Route 114",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -130,6 +144,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "Fishing",
     "area" : "Route 114",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -137,6 +153,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "Fishing",
     "area" : "Route 114",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -144,6 +162,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "Fishing",
     "area" : "Route 114",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -151,6 +171,8 @@
     "max" : 25,
     "slot" : 7
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "Fishing",
     "area" : "Route 114",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -158,6 +180,8 @@
     "max" : 40,
     "slot" : 8
   }, {
+    "areaKey" : "Route114",
+    "bucketKey" : "Fishing",
     "area" : "Route 114",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -165,6 +189,8 @@
     "max" : 45,
     "slot" : 9
   }, {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -172,6 +198,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -179,6 +207,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -186,6 +216,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "Route115",
+    "bucketKey" : "Fishing",
     "area" : "Route 115",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -193,6 +225,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Fishing",
     "area" : "Route 120",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -200,6 +234,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Fishing",
     "area" : "Route 120",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -207,6 +243,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Fishing",
     "area" : "Route 120",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -214,6 +252,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Fishing",
     "area" : "Route 120",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -221,6 +261,8 @@
     "max" : 25,
     "slot" : 7
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Fishing",
     "area" : "Route 120",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -228,6 +270,8 @@
     "max" : 40,
     "slot" : 8
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Fishing",
     "area" : "Route 120",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -235,6 +279,8 @@
     "max" : 45,
     "slot" : 9
   }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Fishing",
     "area" : "Victory Road_B2F",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -242,6 +288,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Fishing",
     "area" : "Victory Road_B2F",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -249,6 +297,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Fishing",
     "area" : "Victory Road_B2F",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -256,6 +306,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -263,6 +315,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -270,6 +324,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -277,6 +333,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -284,6 +342,8 @@
     "max" : 25,
     "slot" : 7
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -291,6 +351,8 @@
     "max" : 40,
     "slot" : 8
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -298,6 +360,8 @@
     "max" : 45,
     "slot" : 9
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -305,6 +369,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -312,6 +378,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -319,6 +387,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -326,6 +396,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -333,6 +405,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Fishing",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Fishing",
     "rateBase" : 30,

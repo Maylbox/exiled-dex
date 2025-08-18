@@ -100,6 +100,8 @@
   "eggMoves" : [ "Belch", "Fake Out", "Knock Off", "Sand Attack", "Snatch" ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Body Slam", "Covet", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Giga Impact", "Hyper Beam", "Knock Off", "Leech Life", "Mud Slap", "Overheat", "Poison Jab", "Protect", "Rest", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Wave", "Torment", "Toxic", "Trailblaze", "Venoshock", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
     "area" : "Route 114",
     "bucket" : "Land",
     "rateBase" : 20,

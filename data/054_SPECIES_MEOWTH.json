@@ -92,6 +92,8 @@
   "eggMoves" : [ "Amnesia", "Assist", "Charm", "Flail", "Foul Play", "Hypnosis", "Iron Tail", "Last Resort", "Odor Sleuth", "Punishment", "Snatch", "Spite", "Tail Whip" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Covet", "Cut", "Dark Pulse", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "False Swipe", "Flash", "Hone Claws", "Icy Wind", "Knock Off", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Rain Dance", "Rest", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trailblaze", "U Turn", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "OldaleTown0",
+    "bucketKey" : "Land",
     "area" : "Oldale Town0",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -99,6 +101,8 @@
     "max" : 5,
     "slot" : 0
   }, {
+    "areaKey" : "OldaleTown0",
+    "bucketKey" : "Land",
     "area" : "Oldale Town0",
     "bucket" : "Land",
     "rateBase" : 20,

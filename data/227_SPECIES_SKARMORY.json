@@ -88,6 +88,8 @@
   "eggMoves" : [ "Assurance", "Brave Bird", "Curse", "Drill Peck", "Endure", "Guard Swap", "Pursuit", "Sky Attack", "Stealth Rock", "Whirlwind" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Body Press", "Brave Bird", "Counter", "Cut", "Dark Pulse", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "Flash", "Flash Cannon", "Fly", "Fury Cutter", "Giga Impact", "Hyper Beam", "Icy Wind", "Iron Defense", "Iron Head", "Mud Slap", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Sandstorm", "Sleep Talk", "Snore", "Stealth Rock", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Torment", "Toxic", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route113",
+    "bucketKey" : "Land",
     "area" : "Route 113",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -95,6 +97,8 @@
     "max" : 33,
     "slot" : 9
   }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
     "area" : "Route 118",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -102,6 +106,8 @@
     "max" : 5,
     "slot" : 9
   }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -109,6 +115,8 @@
     "max" : 15,
     "slot" : 10
   }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,

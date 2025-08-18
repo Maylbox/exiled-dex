@@ -95,6 +95,8 @@
   "eggMoves" : [ "Body Slam", "Curse", "Dragon Rush", "Endeavor", "Head Smash", "Iron Head", "Reversal", "Screech", "Smelling Salts", "Stealth Rock", "Stomp", "Superpower" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Press", "Body Slam", "Bulldoze", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Fury Cutter", "Hone Claws", "Iron Defense", "Iron Head", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snore", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -102,6 +104,8 @@
     "max" : 15,
     "slot" : 1
   }, {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -109,6 +113,8 @@
     "max" : 15,
     "slot" : 3
   }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -116,6 +122,8 @@
     "max" : 15,
     "slot" : 0
   }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_Stevens Room",
     "bucket" : "Land",
     "rateBase" : 10,

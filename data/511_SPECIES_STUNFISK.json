@@ -94,6 +94,8 @@
   "eggMoves" : [ "Astonish", "Curse", "Earth Power", "Eerie Impulse", "Me First", "Pain Split", "Reflect Type", "Shock Wave", "Sleep Talk", "Spark", "Spite", "Yawn" ],
   "teachableMoves" : [ "Attract", "Bulldoze", "Dig", "Double Team", "Earth Power", "Earthquake", "Electroweb", "Endure", "Facade", "Flash", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Scald", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Stealth Rock", "Stone Edge", "Surf", "Swagger", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "Route123",
+    "bucketKey" : "Land",
     "area" : "Route 123",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -101,6 +103,8 @@
     "max" : 55,
     "slot" : 10
   }, {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
     "area" : "Mauville City0",
     "bucket" : "Land",
     "rateBase" : 10,

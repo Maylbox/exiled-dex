@@ -75,6 +75,8 @@
   "eggMoves" : [ "Amnesia", "Body Slam", "Double Edge", "Earth Power", "Grassy Terrain", "Growth", "Heavy Slam", "Sand Tomb", "Seed Bomb", "Spit Up", "Stockpile", "Superpower", "Swallow", "Thrash", "Tickle", "Wide Guard", "Worry Seed" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Bullet Seed", "Crunch", "Cut", "Double Edge", "Double Team", "Earth Power", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Iron Head", "Light Screen", "Mud Slap", "Protect", "Reflect", "Rest", "Roar", "Rock Smash", "Safeguard", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
     "area" : "Deep Woods0",
     "bucket" : "Land",
     "rateBase" : 10,

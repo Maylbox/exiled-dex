@@ -101,6 +101,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Dazzling Gleam", "Dive", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Flash Cannon", "Flip Turn", "Giga Impact", "Grass Knot", "Gyro Ball", "Hyper Beam", "Ice Beam", "Icy Wind", "Light Screen", "Meteor Beam", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rollout", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Trick Room", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route105",
+    "bucketKey" : "Water",
     "area" : "Route 105",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -108,6 +110,8 @@
     "max" : 55,
     "slot" : 0
   }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Water",
     "area" : "Route 118",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -115,6 +119,8 @@
     "max" : 55,
     "slot" : 0
   }, {
+    "areaKey" : "Route106",
+    "bucketKey" : "Water",
     "area" : "Route 106",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -122,6 +128,8 @@
     "max" : 55,
     "slot" : 0
   }, {
+    "areaKey" : "Route107",
+    "bucketKey" : "Water",
     "area" : "Route 107",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -129,6 +137,8 @@
     "max" : 55,
     "slot" : 0
   }, {
+    "areaKey" : "Route108",
+    "bucketKey" : "Water",
     "area" : "Route 108",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -136,6 +146,8 @@
     "max" : 55,
     "slot" : 0
   }, {
+    "areaKey" : "Route109",
+    "bucketKey" : "Water",
     "area" : "Route 109",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -143,6 +155,8 @@
     "max" : 55,
     "slot" : 0
   }, {
+    "areaKey" : "Route115",
+    "bucketKey" : "Water",
     "area" : "Route 115",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -150,6 +164,8 @@
     "max" : 55,
     "slot" : 2
   }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Water",
     "area" : "Route 122",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -157,6 +173,8 @@
     "max" : 55,
     "slot" : 0
   }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Fishing",
     "area" : "Lilycove City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -164,6 +182,8 @@
     "max" : 30,
     "slot" : 7
   }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Fishing",
     "area" : "Lilycove City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -171,6 +191,8 @@
     "max" : 40,
     "slot" : 8
   }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Fishing",
     "area" : "Lilycove City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -178,6 +200,8 @@
     "max" : 45,
     "slot" : 9
   }, {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Fishing",
     "area" : "Dewford Town",
     "bucket" : "Fishing",
     "rateBase" : 10,

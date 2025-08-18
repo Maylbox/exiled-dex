@@ -75,6 +75,8 @@
   "eggMoves" : [ "Crunch", "Curse", "Double Edge", "Hammer Arm", "Iron Head", "Iron Tail", "Leer", "Slam", "Stomp", "Thrash", "Whirlwind" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Crunch", "Dig", "Double Edge", "Double Team", "Dragon Pulse", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Ice Beam", "Iron Head", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
     "area" : "Route 114",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -82,6 +84,8 @@
     "max" : 33,
     "slot" : 4
   }, {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -89,6 +93,8 @@
     "max" : 17,
     "slot" : 6
   }, {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B2F",
     "bucket" : "Land",
     "rateBase" : 10,

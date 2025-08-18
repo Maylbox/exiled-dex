@@ -75,6 +75,8 @@
   "eggMoves" : [ "Agility", "Bite", "Blaze Kick", "Bullet Punch", "Circle Throw", "Cross Chop", "Crunch", "Detect", "Follow Me", "High Jump Kick", "Iron Defense", "Low Kick", "Meteor Mash", "Mind Reader", "Sky Uppercut", "Vacuum Wave" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Aura Sphere", "Blaze Kick", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Crunch", "Dig", "Double Team", "Drain Punch", "Earthquake", "Endure", "Facade", "Focus Blast", "Fury Cutter", "Ice Punch", "Iron Defense", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Shadow Claw", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thunder Punch", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
     "area" : "Dewford Town",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -82,6 +84,8 @@
     "max" : 12,
     "slot" : 4
   }, {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -89,6 +93,8 @@
     "max" : 10,
     "slot" : 10
   }, {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
     "area" : "Rustboro City0",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -84,6 +84,8 @@
   "eggMoves" : [ "Ancient Power", "Body Slam", "Defense Curl", "Endure", "Growth", "Heat Wave", "Heavy Slam", "Howl", "Iron Head", "Mud Bomb", "Rollout", "Scary Face", "Spit Up", "Stockpile", "Stomp", "Swallow", "Yawn" ],
   "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Bulldoze", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Flamethrower", "Flash Cannon", "High Horsepower", "Iron Head", "Mud Slap", "Overheat", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Toxic", "Trailblaze", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Route112",
+    "bucketKey" : "Land",
     "area" : "Route 112",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -91,6 +93,8 @@
     "max" : 32,
     "slot" : 0
   }, {
+    "areaKey" : "JaggedPass",
+    "bucketKey" : "Land",
     "area" : "Jagged Pass",
     "bucket" : "Land",
     "rateBase" : 20,

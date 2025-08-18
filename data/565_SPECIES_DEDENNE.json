@@ -83,6 +83,8 @@
   "eggMoves" : [ "Covet", "Eerie Impulse", "Helping Hand", "Natural Gift", "Tearful Look" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Charge Beam", "Covet", "Cut", "Dazzling Gleam", "Dig", "Double Team", "Electroweb", "Endure", "Facade", "Flash", "Giga Impact", "Grass Knot", "Hyper Beam", "Light Screen", "Play Rough", "Protect", "Rain Dance", "Rest", "Shock Wave", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "U Turn", "Volt Switch", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route117",
+    "bucketKey" : "Land",
     "area" : "Route 117",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -90,6 +92,8 @@
     "max" : 24,
     "slot" : 5
   }, {
+    "areaKey" : "Route117",
+    "bucketKey" : "Land",
     "area" : "Route 117",
     "bucket" : "Land",
     "rateBase" : 20,

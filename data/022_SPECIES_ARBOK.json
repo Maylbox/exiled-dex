@@ -146,6 +146,8 @@
   "eggMoves" : [ "Beat Up", "Disable", "Iron Tail", "Poison Fang", "Poison Tail", "Pursuit", "Scary Face", "Slam", "Snatch", "Spite", "Sucker Punch", "Switcheroo" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Crunch", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dragon Tail", "Earthquake", "Endure", "Facade", "Fire Fang", "Giga Drain", "Giga Impact", "Hyper Beam", "Ice Fang", "Knock Off", "Leech Life", "Mud Slap", "Poison Jab", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snatch", "Snore", "Strength", "Sunny Day", "Swagger", "Thief", "Thunder Fang", "Torment", "Toxic", "Trailblaze", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "JaggedPass",
+    "bucketKey" : "Land",
     "area" : "Jagged Pass",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -153,6 +155,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Land",
     "area" : "Lilycove City",
     "bucket" : "Land",
     "rateBase" : 10,

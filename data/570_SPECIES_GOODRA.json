@@ -86,6 +86,8 @@
   "eggMoves" : [ "Acid Armor", "Counter", "Curse", "Endure", "Iron Tail", "Poison Tail" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Press", "Body Slam", "Bulldoze", "Counter", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Beam", "Knock Off", "Mega Kick", "Mega Punch", "Power Whip", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Scald", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Strength", "Sunny Day", "Surf", "Swagger", "Thunder", "Thunder Punch", "Thunderbolt", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -93,6 +95,8 @@
     "max" : 83,
     "slot" : 3
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -100,6 +104,8 @@
     "max" : 83,
     "slot" : 3
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,

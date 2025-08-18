@@ -155,6 +155,8 @@
   "eggMoves" : [ "Aqua Jet", "Aqua Ring", "Aura Sphere", "Brine", "Dragon Pulse", "Fake Out", "Flail", "Foresight", "Haze", "Mirror Coat", "Mist", "Mud Sport", "Muddy Water", "Refresh", "Water Spout", "Yawn" ],
   "teachableMoves" : [ "Attract", "Aura Sphere", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Dark Pulse", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Dynamic Punch", "Earthquake", "Endure", "Facade", "False Swipe", "Flash Cannon", "Flip Turn", "Focus Blast", "Giga Impact", "Gyro Ball", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Iron Defense", "Mega Kick", "Mega Punch", "Mirror Coat", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Scald", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
     "area" : "Sootopolis City",
     "bucket" : "Land",
     "rateBase" : 10,

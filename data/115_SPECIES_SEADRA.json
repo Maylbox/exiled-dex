@@ -85,6 +85,8 @@
   "eggMoves" : [ "Aurora Beam", "Clear Smog", "Disable", "Dragon Breath", "Dragon Rage", "Flail", "Muddy Water", "Octazooka", "Outrage", "Razor Wind", "Signal Beam", "Splash", "Water Pulse" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Dive", "Double Edge", "Double Team", "Dragon Pulse", "Endure", "Facade", "Flash Cannon", "Flip Turn", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Protect", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Snowscape", "Surf", "Swagger", "Swift", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Fishing",
     "area" : "Slateport City",
     "bucket" : "Fishing",
     "rateBase" : 10,

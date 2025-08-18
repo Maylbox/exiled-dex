@@ -79,6 +79,8 @@
   "eggMoves" : [ "Cotton Spore", "Extrasensory", "Giga Drain", "Grass Whistle", "Leaf Storm", "Mind Reader", "Natural Gift", "Pin Missile", "Razor Leaf", "Seed Bomb", "Sleep Powder", "Spikes", "Synthesis" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bullet Seed", "Covet", "Cut", "Dazzling Gleam", "Double Team", "Endure", "Energy Ball", "Facade", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Mud Slap", "Poison Jab", "Power Whip", "Protect", "Psych Up", "Rain Dance", "Rest", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Toxic", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
     "area" : "Route 121",
     "bucket" : "Land",
     "rateBase" : 20,

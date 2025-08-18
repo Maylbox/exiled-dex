@@ -98,6 +98,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Press", "Calm Mind", "Charge Beam", "Dark Pulse", "Dazzling Gleam", "Dive", "Earth Power", "Electroweb", "Energy Ball", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Hidden Power", "Ice Beam", "Icicle Crash", "Iron Defense", "Light Screen", "Meteor Beam", "Protect", "Psyshock", "Return", "Rock Smash", "Safeguard", "Scald", "Shock Wave", "Sludge Wave", "Solar Beam", "Strength", "Substitute", "Surf", "Thunder", "Thunder Fang", "Thunder Wave", "Thunderbolt", "Trick Room", "Venoshock", "Volt Switch", "Volt Tackle", "Waterfall", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "ShoalCave_LowTideStairsRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Stairs Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -105,6 +107,8 @@
     "max" : 71,
     "slot" : 10
   }, {
+    "areaKey" : "ShoalCave_LowTideLowerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Lower Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -112,6 +116,8 @@
     "max" : 71,
     "slot" : 10
   }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -119,6 +125,8 @@
     "max" : 71,
     "slot" : 10
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -126,6 +134,8 @@
     "max" : 71,
     "slot" : 10
   }, {
+    "areaKey" : "ShoalCave_LowTideIceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Ice Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -133,6 +143,8 @@
     "max" : 71,
     "slot" : 10
   }, {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
     "area" : "Sootopolis City",
     "bucket" : "Land",
     "rateBase" : 10,

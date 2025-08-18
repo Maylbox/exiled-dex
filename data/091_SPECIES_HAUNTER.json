@@ -106,6 +106,8 @@
   "eggMoves" : [ "Astonish", "Clear Smog", "Disable", "Fire Punch", "Grudge", "Haze", "Ice Punch", "Perish Song", "Psywave", "Reflect Type", "Scary Face", "Smog", "Thunder Punch" ],
   "teachableMoves" : [ "Attract", "Dark Pulse", "Dazzling Gleam", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Explosion", "Facade", "Fire Punch", "Focus Blast", "Giga Drain", "Hex", "Ice Punch", "Icy Wind", "Knock Off", "Metronome", "Poison Jab", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snatch", "Snore", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Venoshock", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
     "area" : "Route 114",
     "bucket" : "Land",
     "rateBase" : 20,

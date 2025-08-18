@@ -95,6 +95,8 @@
   "eggMoves" : [ "Avalanche", "Bide", "Block", "Disable", "Fake Tears", "Hex", "Rollout", "Spikes", "Switcheroo", "Weather Ball" ],
   "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Crunch", "Dark Pulse", "Defense Curl", "Double Edge", "Double Team", "Earthquake", "Endure", "Explosion", "Facade", "Flash", "Giga Impact", "Gyro Ball", "Hex", "Hyper Beam", "Ice Beam", "Ice Fang", "Icicle Crash", "Icy Wind", "Iron Head", "Light Screen", "Protect", "Rain Dance", "Rest", "Rollout", "Safeguard", "Shadow Ball", "Sleep Talk", "Snore", "Snowscape", "Swagger", "Taunt", "Torment", "Toxic", "Trailblaze", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "ShoalCave_LowTideStairsRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Stairs Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -102,6 +104,8 @@
     "max" : 71,
     "slot" : 4
   }, {
+    "areaKey" : "ShoalCave_LowTideLowerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Lower Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -109,6 +113,8 @@
     "max" : 71,
     "slot" : 4
   }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -116,6 +122,8 @@
     "max" : 71,
     "slot" : 4
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -123,6 +131,8 @@
     "max" : 71,
     "slot" : 4
   }, {
+    "areaKey" : "ShoalCave_LowTideIceRoom",
+    "bucketKey" : "Land",
     "area" : "Shoal Cave_Low Tide Ice Room",
     "bucket" : "Land",
     "rateBase" : 4,

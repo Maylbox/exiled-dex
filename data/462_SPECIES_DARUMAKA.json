@@ -87,6 +87,8 @@
   "eggMoves" : [ "Encore", "Endure", "Extrasensory", "Flame Wheel", "Focus Energy", "Focus Punch", "Hammer Arm", "Sleep Talk", "Snatch", "Take Down", "Yawn" ],
   "teachableMoves" : [ "Attract", "Brick Break", "Dig", "Double Team", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Grass Knot", "Gyro Ball", "Mega Kick", "Mega Punch", "Overheat", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Toxic", "U Turn", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "FieryPath",
+    "bucketKey" : "Land",
     "area" : "Fiery Path",
     "bucket" : "Land",
     "rateBase" : 10,

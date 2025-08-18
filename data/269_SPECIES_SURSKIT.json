@@ -77,6 +77,8 @@
   "eggMoves" : [ "Aqua Jet", "Bug Bite", "Endure", "Fell Stinger", "Foresight", "Hydro Pump", "Lunge", "Mind Reader", "Mud Shot", "Power Split", "Psybeam", "Signal Beam" ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Blizzard", "Double Edge", "Double Team", "Endure", "Facade", "Flash", "Giga Drain", "Ice Beam", "Icy Wind", "Leech Life", "Mud Slap", "Protect", "Psych Up", "Rain Dance", "Rest", "Scald", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Surf", "Swagger", "Swift", "Thief", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
     "area" : "Petalburg Woods",
     "bucket" : "Land",
     "rateBase" : 20,

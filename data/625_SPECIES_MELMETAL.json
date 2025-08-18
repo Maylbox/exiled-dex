@@ -83,6 +83,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Body Press", "Body Slam", "Brick Break", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Flash Cannon", "Giga Impact", "Gyro Ball", "High Horsepower", "Hyper Beam", "Ice Beam", "Ice Punch", "Iron Defense", "Iron Head", "Mega Kick", "Mega Punch", "Protect", "Rest", "Rock Slide", "Rock Tomb", "Sleep Talk", "Snore", "Solar Beam", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B2F",
     "bucket" : "Land",
     "rateBase" : 4,

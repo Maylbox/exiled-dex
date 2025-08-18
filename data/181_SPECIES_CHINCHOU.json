@@ -89,6 +89,8 @@
   "eggMoves" : [ "Agility", "Amnesia", "Brine", "Flail", "Mist", "Psybeam", "Screech", "Shock Wave", "Soak", "Water Pulse", "Whirlpool" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Charge Beam", "Dazzling Gleam", "Dive", "Double Edge", "Double Team", "Electroweb", "Endure", "Facade", "Flash", "Flip Turn", "Ice Beam", "Icy Wind", "Protect", "Rain Dance", "Rest", "Scald", "Shock Wave", "Sleep Talk", "Snore", "Surf", "Swagger", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Water Pulse", "Waterfall", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Fishing",
     "area" : "Route 118",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -96,6 +98,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Underwater_Route126",
+    "bucketKey" : "Water",
     "area" : "Underwater_Route 126",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -103,6 +107,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "Underwater_Route124",
+    "bucketKey" : "Water",
     "area" : "Underwater_Route 124",
     "bucket" : "Water",
     "rateBase" : 4,

@@ -95,6 +95,8 @@
   "eggMoves" : [ "After You", "Aromatic Mist", "Nuzzle", "Quash" ],
   "teachableMoves" : [ "Attract", "Calm Mind", "Dark Pulse", "Dazzling Gleam", "Endure", "Facade", "Giga Drain", "Giga Impact", "Hyper Beam", "Light Screen", "Metronome", "Mystical Fire", "Play Rough", "Power Whip", "Protect", "Psych Up", "Psychic", "Psyshock", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snore", "Swift", "Swords Dance", "Thunder Wave", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -102,6 +104,8 @@
     "max" : 85,
     "slot" : 2
   }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Entrance",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -109,6 +113,8 @@
     "max" : 77,
     "slot" : 2
   }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -116,6 +122,8 @@
     "max" : 77,
     "slot" : 2
   }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Land",
     "area" : "Lilycove City",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -123,6 +131,8 @@
     "max" : 55,
     "slot" : 5
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
     "area" : "Mossdeep City",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -130,6 +140,8 @@
     "max" : 69,
     "slot" : 2
   }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -137,6 +149,8 @@
     "max" : 76,
     "slot" : 6
   }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -144,6 +158,8 @@
     "max" : 76,
     "slot" : 6
   }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
     "area" : "Sky Pillar_5F",
     "bucket" : "Land",
     "rateBase" : 10,

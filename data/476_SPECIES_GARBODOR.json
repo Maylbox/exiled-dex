@@ -104,6 +104,8 @@
   "eggMoves" : [ "Autotomize", "Curse", "Haze", "Mud Sport", "Rock Blast", "Rollout", "Sand Attack", "Self Destruct", "Spikes" ],
   "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Dark Pulse", "Double Team", "Drain Punch", "Endure", "Explosion", "Facade", "Focus Blast", "Giga Drain", "Giga Impact", "Hyper Beam", "Protect", "Psychic", "Rain Dance", "Rest", "Rock Polish", "Rollout", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Smack Down", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Thief", "Thunderbolt", "Toxic", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Land",
     "area" : "Lilycove City",
     "bucket" : "Land",
     "rateBase" : 10,

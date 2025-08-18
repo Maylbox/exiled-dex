@@ -74,6 +74,8 @@
   "eggMoves" : [ "Amnesia", "Aqua Ring", "Barrier", "Bide", "Camouflage", "Confuse Ray", "Curse", "Head Smash", "Icicle Spear", "Ingrain", "Liquidation", "Mist", "Nature Power", "Screech", "Water Pulse" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Calm Mind", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Ice Beam", "Icy Wind", "Iron Defense", "Light Screen", "Mirror Coat", "Mud Slap", "Protect", "Psychic", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Safeguard", "Sandstorm", "Scald", "Shadow Ball", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "Route110",
+    "bucketKey" : "Fishing",
     "area" : "Route 110",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -81,6 +83,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "Route128",
+    "bucketKey" : "Fishing",
     "area" : "Route 128",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -88,6 +92,8 @@
     "max" : 35,
     "slot" : 7
   }, {
+    "areaKey" : "EverGrandeCity",
+    "bucketKey" : "Fishing",
     "area" : "Ever Grande City",
     "bucket" : "Fishing",
     "rateBase" : 10,

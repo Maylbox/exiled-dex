@@ -104,6 +104,8 @@
   "eggMoves" : [ "Bestow", "Camouflage", "Mind Reader", "Mud Sport", "Power Up Punch", "Toxic Spikes", "Water Sport" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Blizzard", "Brick Break", "Counter", "Cut", "Dark Pulse", "Dig", "Dive", "Double Team", "Endure", "Facade", "False Swipe", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Low Kick", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Scald", "Sleep Talk", "Sludge Wave", "Smack Down", "Snatch", "Snore", "Snowscape", "Strength", "Surf", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Toxic", "Trailblaze", "U Turn", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
     "area" : "Sootopolis City",
     "bucket" : "Land",
     "rateBase" : 10,

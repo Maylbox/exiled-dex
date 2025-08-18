@@ -117,6 +117,8 @@
   "eggMoves" : [ "Bug Bite", "Earth Power", "Endure", "Flail", "Focus Energy", "Fury Cutter", "Gust", "Mud Shot", "Quick Attack", "Signal Beam" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Body Slam", "Bulldoze", "Crunch", "Defog", "Dig", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dual Wingbeat", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "First Impression", "Flamethrower", "Fly", "Fury Cutter", "Giga Drain", "Giga Impact", "Hone Claws", "Hyper Beam", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Sandstorm", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Stealth Rock", "Steel Wing", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder Punch", "Toxic", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
     "area" : "Route 111",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -83,6 +83,8 @@
   "eggMoves" : [ "Ancient Power", "Brine", "Destiny Bond", "Double Edge", "Hydro Pump", "Psychic Fangs", "Swift", "Thrash" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Crunch", "Dark Pulse", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "Flip Turn", "Fury Cutter", "Ice Beam", "Ice Fang", "Icy Wind", "Mud Slap", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Fishing",
     "area" : "Route 118",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -90,6 +92,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Fishing",
     "area" : "Route 118",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -97,6 +101,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Fishing",
     "area" : "Route 118",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -104,6 +110,8 @@
     "max" : 25,
     "slot" : 7
   }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Fishing",
     "area" : "Route 118",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -111,6 +119,8 @@
     "max" : 40,
     "slot" : 8
   }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Fishing",
     "area" : "Route 118",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -118,6 +128,8 @@
     "max" : 45,
     "slot" : 9
   }, {
+    "areaKey" : "Route119",
+    "bucketKey" : "Fishing",
     "area" : "Route 119",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -125,6 +137,8 @@
     "max" : 30,
     "slot" : 4
   }, {
+    "areaKey" : "Route119",
+    "bucketKey" : "Fishing",
     "area" : "Route 119",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -132,6 +146,8 @@
     "max" : 30,
     "slot" : 5
   }, {
+    "areaKey" : "Route119",
+    "bucketKey" : "Fishing",
     "area" : "Route 119",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -139,6 +155,8 @@
     "max" : 35,
     "slot" : 6
   }, {
+    "areaKey" : "Route119",
+    "bucketKey" : "Fishing",
     "area" : "Route 119",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -146,6 +164,8 @@
     "max" : 25,
     "slot" : 7
   }, {
+    "areaKey" : "Route119",
+    "bucketKey" : "Fishing",
     "area" : "Route 119",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -153,6 +173,8 @@
     "max" : 40,
     "slot" : 8
   }, {
+    "areaKey" : "Route119",
+    "bucketKey" : "Fishing",
     "area" : "Route 119",
     "bucket" : "Fishing",
     "rateBase" : 30,

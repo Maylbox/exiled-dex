@@ -98,6 +98,8 @@
   "eggMoves" : [ "Ancient Power", "Aqua Jet", "Body Slam", "Chip Away", "Double Edge", "Dragon Dance", "Endeavor", "Knock Off", "Metal Claw", "Mud Sport", "Superpower", "Switcheroo", "Trump Card" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Avalanche", "Blizzard", "Body Slam", "Brick Break", "Counter", "Crunch", "Cut", "Dark Pulse", "Dig", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "False Swipe", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Knock Off", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Scald", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Strength", "Surf", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Toxic", "Water Pulse", "Waterfall", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Fishing",
     "area" : "Petalburg City",
     "bucket" : "Fishing",
     "rateBase" : 10,

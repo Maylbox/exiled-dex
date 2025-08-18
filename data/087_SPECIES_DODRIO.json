@@ -115,6 +115,8 @@
   "eggMoves" : [ "Assurance", "Brave Bird", "Endeavor", "Feint Attack", "Flail", "Haze", "Mirror Move", "Natural Gift", "Quick Attack", "Supersonic" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brave Bird", "Double Edge", "Double Team", "Endure", "Facade", "Fly", "Giga Impact", "Hyper Beam", "Knock Off", "Low Kick", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Torment", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
     "area" : "Route 118",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -122,6 +124,8 @@
     "max" : 5,
     "slot" : 6
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -129,6 +133,8 @@
     "max" : 29,
     "slot" : 8
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -136,6 +142,8 @@
     "max" : 31,
     "slot" : 10
   }, {
+    "areaKey" : "FortreeCity0",
+    "bucketKey" : "Land",
     "area" : "Fortree City0",
     "bucket" : "Land",
     "rateBase" : 10,

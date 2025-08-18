@@ -105,6 +105,8 @@
   "eggMoves" : [ "After You", "Charm", "Flail", "Ingrain", "Nature Power", "Razor Leaf", "Secret Power", "Strength Sap", "Synthesis", "Teeter Dance", "Tickle" ],
   "teachableMoves" : [ "Attract", "Bullet Seed", "Cut", "Dazzling Gleam", "Double Edge", "Double Team", "Drain Punch", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Protect", "Reflect", "Rest", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "SafariZone_South",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_South",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -112,6 +114,8 @@
     "max" : 25,
     "slot" : 6
   }, {
+    "areaKey" : "SafariZone_Southwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Southwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -119,6 +123,8 @@
     "max" : 25,
     "slot" : 6
   }, {
+    "areaKey" : "SafariZone_North",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_North",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -126,6 +132,8 @@
     "max" : 29,
     "slot" : 5
   }, {
+    "areaKey" : "SafariZone_North",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_North",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -133,6 +141,8 @@
     "max" : 31,
     "slot" : 6
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -140,6 +150,8 @@
     "max" : 29,
     "slot" : 5
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Land",
     "rateBase" : 25,

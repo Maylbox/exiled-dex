@@ -104,6 +104,8 @@
   "eggMoves" : [ "Camouflage", "Cross Poison", "Disable", "Feint Attack", "Lunge", "Pin Missile", "Poison Sting", "Pursuit", "Rock Climb" ],
   "teachableMoves" : [ "Attract", "Charge Beam", "Cut", "Double Team", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Hyper Beam", "Leech Life", "Light Screen", "Poison Jab", "Protect", "Rain Dance", "Rest", "Shock Wave", "Sleep Talk", "Snore", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "NewMauville_Inside",
+    "bucketKey" : "Land",
     "area" : "New Mauville_Inside",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -111,6 +113,8 @@
     "max" : 57,
     "slot" : 8
   }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
     "area" : "Route 120",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -118,6 +122,8 @@
     "max" : 54,
     "slot" : 7
   }, {
+    "areaKey" : "NewMauville_Entrance",
+    "bucketKey" : "Land",
     "area" : "New Mauville_Entrance",
     "bucket" : "Land",
     "rateBase" : 10,

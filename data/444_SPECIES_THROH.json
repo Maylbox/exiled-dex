@@ -85,6 +85,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Dig", "Double Team", "Earthquake", "Endure", "Facade", "Fire Punch", "Focus Blast", "Giga Impact", "Grass Knot", "Ice Punch", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Sleep Talk", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thunder Punch", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Land",
     "area" : "Lilycove City",
     "bucket" : "Land",
     "rateBase" : 10,

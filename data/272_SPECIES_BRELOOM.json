@@ -95,6 +95,8 @@
   "eggMoves" : [ "Bullet Seed", "Charm", "Drain Punch", "Fake Tears", "Focus Punch", "Helping Hand", "Natural Gift", "Seed Bomb", "Wake Up Slap", "Worry Seed" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Bullet Seed", "Counter", "Cut", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Focus Blast", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Hyper Beam", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Seismic Toss", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Solar Beam", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thunder Punch", "Toxic", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_3",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -102,6 +104,8 @@
     "max" : 5,
     "slot" : 2
   }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_3",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -109,6 +113,8 @@
     "max" : 5,
     "slot" : 3
   }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_3",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -116,6 +122,8 @@
     "max" : 5,
     "slot" : 4
   }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_3",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -123,6 +131,8 @@
     "max" : 5,
     "slot" : 5
   }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_3",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -130,6 +140,8 @@
     "max" : 5,
     "slot" : 8
   }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_3",
     "bucket" : "Land",
     "rateBase" : 10,

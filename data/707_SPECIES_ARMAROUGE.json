@@ -104,6 +104,8 @@
   "eggMoves" : [ "Destiny Bond", "Disable", "Spite" ],
   "teachableMoves" : [ "Aura Sphere", "Calm Mind", "Dark Pulse", "Dragon Pulse", "Endure", "Energy Ball", "Facade", "Fire Blast", "Flamethrower", "Flash Cannon", "Focus Blast", "Iron Defense", "Light Screen", "Meteor Beam", "Mystical Fire", "Overheat", "Protect", "Psych Up", "Psychic", "Psyshock", "Reflect", "Rest", "Shadow Ball", "Sleep Talk", "Solar Beam", "Sunny Day", "Taunt", "Trick Room", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Route123",
+    "bucketKey" : "Land",
     "area" : "Route 123",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -111,6 +113,8 @@
     "max" : 55,
     "slot" : 8
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
     "area" : "Mossdeep City",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -118,6 +122,8 @@
     "max" : 69,
     "slot" : 11
   }, {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
     "area" : "Scorched Slab0",
     "bucket" : "Land",
     "rateBase" : 20,

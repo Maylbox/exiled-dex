@@ -110,6 +110,8 @@
   "eggMoves" : [ "Air Slash", "Assurance", "Brine", "Copycat", "Detect", "Night Slash", "Sacred Sword", "Screech", "Trump Card" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Avalanche", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Covet", "Cut", "Dig", "Dive", "Double Team", "Dragon Tail", "Endure", "Facade", "False Swipe", "Flip Turn", "Fury Cutter", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Icy Wind", "Knock Off", "Protect", "Rain Dance", "Rest", "Rock Smash", "Scald", "Sleep Talk", "Smart Strike", "Snore", "Snowscape", "Strength", "Surf", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Toxic", "Water Pulse", "Waterfall", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
     "area" : "Sootopolis City",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -81,6 +81,8 @@
   "eggMoves" : [ "Crush Claw", "Earth Power", "Iron Defense", "Metal Sound", "Rapid Spin", "Rock Climb", "Skull Bash", "Submission" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Brick Break", "Bulldoze", "Cut", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "High Horsepower", "Hone Claws", "Iron Defense", "Mud Slap", "Poison Jab", "Protect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snore", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route112",
+    "bucketKey" : "Land",
     "area" : "Route 112",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -88,6 +90,8 @@
     "max" : 32,
     "slot" : 5
   }, {
+    "areaKey" : "FieryPath",
+    "bucketKey" : "Land",
     "area" : "Fiery Path",
     "bucket" : "Land",
     "rateBase" : 10,

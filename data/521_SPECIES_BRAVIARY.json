@@ -110,6 +110,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Body Slam", "Brave Bird", "Bulk Up", "Cut", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "Fly", "Giga Impact", "Hone Claws", "Hyper Beam", "Iron Head", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Shadow Claw", "Sleep Talk", "Snore", "Steel Wing", "Strength", "Sunny Day", "Swagger", "Swift", "Toxic", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
     "area" : "Route 118",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -117,6 +119,8 @@
     "max" : 55,
     "slot" : 2
   }, {
+    "areaKey" : "FortreeCity0",
+    "bucketKey" : "Land",
     "area" : "Fortree City0",
     "bucket" : "Land",
     "rateBase" : 10,

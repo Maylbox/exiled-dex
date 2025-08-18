@@ -72,6 +72,8 @@
   "eggMoves" : [ "Double Kick", "Eerie Impulse", "Fake Tears", "Fire Fang", "Helping Hand", "Howl", "Ice Fang", "Night Slash", "Quick Attack", "Shock Wave", "Signal Beam", "Swift", "Take Down", "Thunder Fang" ],
   "teachableMoves" : [ "Attract", "Charge Beam", "Crunch", "Double Edge", "Double Team", "Electroweb", "Endure", "Facade", "Fire Fang", "Flash", "Fury Cutter", "Ice Fang", "Light Screen", "Mud Slap", "Play Rough", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Fang", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -79,6 +81,8 @@
     "max" : 21,
     "slot" : 9
   }, {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -86,6 +90,8 @@
     "max" : 21,
     "slot" : 10
   }, {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,

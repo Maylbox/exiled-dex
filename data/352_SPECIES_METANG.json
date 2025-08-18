@@ -86,6 +86,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Aerial Ace", "Body Slam", "Brick Break", "Bulldoze", "Cut", "Defense Curl", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Explosion", "Facade", "Flash", "Flash Cannon", "Fury Cutter", "Giga Impact", "Grass Knot", "Gyro Ball", "Hone Claws", "Hyper Beam", "Ice Punch", "Icy Wind", "Iron Defense", "Iron Head", "Light Screen", "Meteor Beam", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snore", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder Punch", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
     "area" : "Route 115",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -93,6 +95,8 @@
     "max" : 48,
     "slot" : 6
   }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,

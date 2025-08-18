@@ -91,6 +91,8 @@
   "eggMoves" : [ "Ancient Power", "Aqua Jet", "Block", "Crunch", "Dragon Dance", "Fake Tears", "Flatter", "Hydro Pump", "Ice Punch", "Metal Claw", "Mud Sport", "Thrash", "Water Pulse", "Water Sport" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Blizzard", "Body Slam", "Brick Break", "Counter", "Crunch", "Cut", "Dig", "Dive", "Double Edge", "Double Team", "Dragon Claw", "Dynamic Punch", "Endure", "Facade", "Flip Turn", "Fury Cutter", "Hone Claws", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Scald", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swords Dance", "Thief", "Toxic", "Trailblaze", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
     "area" : "Verdanturf Town0",
     "bucket" : "Land",
     "rateBase" : 10,

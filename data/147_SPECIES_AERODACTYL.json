@@ -92,6 +92,8 @@
   "eggMoves" : [ "Assurance", "Curse", "Dragon Breath", "Foresight", "Pursuit", "Roost", "Steel Wing", "Tailwind", "Whirlwind", "Wide Guard" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Bulldoze", "Crunch", "Defog", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dual Wingbeat", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Fly", "Giga Impact", "Hone Claws", "Hyper Beam", "Ice Fang", "Iron Head", "Meteor Beam", "Protect", "Psychic Fangs", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Steel Wing", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Fang", "Torment", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B2F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -99,6 +101,8 @@
     "max" : 85,
     "slot" : 1
   }, {
+    "areaKey" : "MirageTower_1F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_1F",
     "bucket" : "Land",
     "rateBase" : 10,

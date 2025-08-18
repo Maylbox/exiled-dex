@@ -99,6 +99,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Attract", "Blizzard", "Dazzling Gleam", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "Flash", "Flash Cannon", "Flip Turn", "Gyro Ball", "Ice Beam", "Icy Wind", "Light Screen", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Rollout", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Fishing",
     "area" : "Lilycove City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -106,6 +108,8 @@
     "max" : 30,
     "slot" : 3
   }, {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Fishing",
     "area" : "Dewford Town",
     "bucket" : "Fishing",
     "rateBase" : 10,

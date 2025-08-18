@@ -92,6 +92,8 @@
   "eggMoves" : [ "Ancient Power", "Avalanche", "Barrier", "Bite", "Counter", "Curse", "Double Edge", "Ice Ball", "Mirror Coat", "Mud Bomb", "Refresh", "Sludge", "Stomp", "Uproar", "Whirlpool", "Wide Guard", "Yawn" ],
   "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Flip Turn", "Focus Blast", "Giga Impact", "High Horsepower", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mirror Coat", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Scald", "Seismic Toss", "Sleep Talk", "Sludge Wave", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
     "area" : "Sootopolis City",
     "bucket" : "Land",
     "rateBase" : 10,

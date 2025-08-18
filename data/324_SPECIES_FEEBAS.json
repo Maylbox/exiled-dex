@@ -56,6 +56,8 @@
   "eggMoves" : [ "Brine", "Captivate", "Confuse Ray", "Dragon Breath", "Dragon Pulse", "Haze", "Hypnosis", "Iron Tail", "Mirror Coat", "Mist", "Mud Sport", "Tickle" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Dive", "Double Edge", "Double Team", "Dragon Pulse", "Endure", "Facade", "Ice Beam", "Icy Wind", "Light Screen", "Mirror Coat", "Protect", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route104",
+    "bucketKey" : "Fishing",
     "area" : "Route 104",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -63,6 +65,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Fishing",
     "area" : "Route 104",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -70,6 +74,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "Route107",
+    "bucketKey" : "Fishing",
     "area" : "Route 107",
     "bucket" : "Fishing",
     "rateBase" : 30,

@@ -106,6 +106,8 @@
   "eggMoves" : [ "Ancient Power", "Brine", "Destiny Bond", "Double Edge", "Hydro Pump", "Psychic Fangs", "Swift", "Thrash" ],
   "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Bulldoze", "Crunch", "Dark Pulse", "Dive", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "Flip Turn", "Fury Cutter", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Fang", "Icy Wind", "Mud Slap", "Poison Jab", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Rock Smash", "Rock Tomb", "Scald", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route103",
+    "bucketKey" : "Fishing",
     "area" : "Route 103",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -113,6 +115,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Fishing",
     "area" : "Route 118",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -120,6 +124,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
     "area" : "Route 122",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -127,6 +133,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "Route125",
+    "bucketKey" : "Fishing",
     "area" : "Route 125",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -134,6 +142,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "Route126",
+    "bucketKey" : "Fishing",
     "area" : "Route 126",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -141,6 +151,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "Route127",
+    "bucketKey" : "Fishing",
     "area" : "Route 127",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -148,6 +160,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "Route129",
+    "bucketKey" : "Fishing",
     "area" : "Route 129",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -155,6 +169,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Fishing",
     "area" : "Route 130",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -162,6 +178,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "Route131",
+    "bucketKey" : "Fishing",
     "area" : "Route 131",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -169,6 +187,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "Route132",
+    "bucketKey" : "Fishing",
     "area" : "Route 132",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -176,6 +196,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "Route133",
+    "bucketKey" : "Fishing",
     "area" : "Route 133",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -183,6 +205,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "Route134",
+    "bucketKey" : "Fishing",
     "area" : "Route 134",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -190,6 +214,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Fishing",
     "area" : "Mossdeep City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -197,6 +223,8 @@
     "max" : 35,
     "slot" : 5
   }, {
+    "areaKey" : "PacifidlogTown",
+    "bucketKey" : "Fishing",
     "area" : "Pacifidlog Town",
     "bucket" : "Fishing",
     "rateBase" : 10,

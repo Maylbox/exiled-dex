@@ -90,6 +90,8 @@
   "eggMoves" : [ "Astonish", "Crunch", "Double Edge", "Flame Burst", "Foul Play", "Haze", "Iron Tail", "Leer", "Play Rough", "Punishment", "Pursuit", "Scary Face", "Smog" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Crunch", "Cut", "Dark Pulse", "Defog", "Dig", "Double Edge", "Double Team", "Endure", "Explosion", "Facade", "Fire Blast", "Flamethrower", "Fury Cutter", "Hex", "Hone Claws", "Knock Off", "Mud Slap", "Play Rough", "Poison Jab", "Protect", "Rain Dance", "Rest", "Roar", "Rock Smash", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "Trailblaze", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -97,6 +99,8 @@
     "max" : 21,
     "slot" : 4
   }, {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,

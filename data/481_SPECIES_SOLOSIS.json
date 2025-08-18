@@ -90,6 +90,8 @@
   "eggMoves" : [ "Acid Armor", "Astonish", "Confuse Ray", "Helping Hand", "Imprison", "Night Shade", "Secret Power", "Trick" ],
   "teachableMoves" : [ "Attract", "Calm Mind", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Explosion", "Facade", "Flash", "Flash Cannon", "Gyro Ball", "Iron Defense", "Light Screen", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Tomb", "Rollout", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Thunder", "Thunder Wave", "Toxic", "Trick Room" ],
   "encounters" : [ {
+    "areaKey" : "Route113",
+    "bucketKey" : "Land",
     "area" : "Route 113",
     "bucket" : "Land",
     "rateBase" : 20,

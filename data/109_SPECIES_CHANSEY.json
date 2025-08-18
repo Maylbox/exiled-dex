@@ -101,6 +101,8 @@
   "eggMoves" : [ "Aromatherapy", "Counter", "Endure", "Gravity", "Heal Bell", "Helping Hand", "Metronome", "Mud Bomb", "Natural Gift", "Present", "Seismic Toss" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Calm Mind", "Charge Beam", "Counter", "Covet", "Dazzling Gleam", "Defense Curl", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Flash", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Safeguard", "Sandstorm", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Snowscape", "Soft Boiled", "Solar Beam", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Water Pulse", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
     "area" : "Route 115",
     "bucket" : "Land",
     "rateBase" : 20,

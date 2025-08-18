@@ -75,6 +75,8 @@
   "eggMoves" : [ "Endure", "Foresight", "Harden", "Magnet Rise", "Morning Sun", "String Shot", "Zen Headbutt" ],
   "teachableMoves" : [ "Acrobatics", "Attract", "Body Slam", "Calm Mind", "Double Edge", "Double Team", "Endure", "Facade", "Fire Blast", "Flamethrower", "Giga Drain", "Leech Life", "Light Screen", "Overheat", "Protect", "Psychic", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Toxic", "Trailblaze", "U Turn", "Wild Charge", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
     "area" : "Route 114",
     "bucket" : "Land",
     "rateBase" : 20,

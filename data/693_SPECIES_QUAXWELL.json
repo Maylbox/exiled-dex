@@ -78,6 +78,8 @@
   "eggMoves" : [ "Detect", "Last Resort", "Rapid Spin", "Roost" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Brave Bird", "Endure", "Facade", "Flip Turn", "Low Kick", "Protect", "Psych Up", "Rain Dance", "Rest", "Roost", "Sleep Talk", "Surf", "Swift", "Triple Axel", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
     "area" : "Verdanturf Town0",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -104,6 +104,8 @@
   "eggMoves" : [ "Brine", "Captivate", "Confuse Ray", "Dragon Breath", "Dragon Pulse", "Haze", "Hypnosis", "Iron Tail", "Mirror Coat", "Mist", "Mud Sport", "Tickle" ],
   "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Dive", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Flip Turn", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Head", "Light Screen", "Mirror Coat", "Mud Slap", "Protect", "Psych Up", "Rain Dance", "Rest", "Safeguard", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Toxic", "Triple Axel", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_1",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -111,6 +113,8 @@
     "max" : 5,
     "slot" : 1
   }, {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_1",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -118,6 +122,8 @@
     "max" : 5,
     "slot" : 7
   }, {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_1",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -125,6 +131,8 @@
     "max" : 5,
     "slot" : 11
   }, {
+    "areaKey" : "BattlePike_2",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_2",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -132,6 +140,8 @@
     "max" : 5,
     "slot" : 1
   }, {
+    "areaKey" : "BattlePike_2",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_2",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -139,6 +149,8 @@
     "max" : 5,
     "slot" : 7
   }, {
+    "areaKey" : "BattlePike_2",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_2",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -146,6 +158,8 @@
     "max" : 5,
     "slot" : 11
   }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_3",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -153,6 +167,8 @@
     "max" : 5,
     "slot" : 1
   }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_3",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -160,6 +176,8 @@
     "max" : 5,
     "slot" : 7
   }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_3",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -167,6 +185,8 @@
     "max" : 5,
     "slot" : 11
   }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_4",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -174,6 +194,8 @@
     "max" : 5,
     "slot" : 1
   }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_4",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -181,6 +203,8 @@
     "max" : 5,
     "slot" : 7
   }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
     "area" : "Battle Pike_4",
     "bucket" : "Land",
     "rateBase" : 10,

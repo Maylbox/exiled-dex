@@ -81,6 +81,8 @@
   "eggMoves" : [ "Belly Drum", "Curse", "Defense Curl", "Power Up Punch", "Quick Guard", "Rollout", "Spikes", "Synthesis" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Bullet Seed", "Cut", "Defense Curl", "Dig", "Double Team", "Drain Punch", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Gyro Ball", "Iron Defense", "Iron Head", "Low Kick", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Smack Down", "Snore", "Solar Beam", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thunder Punch", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
     "area" : "Deep Woods0",
     "bucket" : "Land",
     "rateBase" : 10,

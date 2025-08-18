@@ -84,6 +84,8 @@
   "eggMoves" : [ "Fake Out", "Mach Punch", "Sweet Kiss", "Wish" ],
   "teachableMoves" : [ "Charge Beam", "Crunch", "Dig", "Electroweb", "Endure", "Facade", "Play Rough", "Protect", "Rain Dance", "Rest", "Sleep Talk", "Sunny Day", "Swift", "Thief", "Thunder", "Thunder Fang", "Thunder Wave", "Thunderbolt", "Volt Switch", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route116",
+    "bucketKey" : "Land",
     "area" : "Route 116",
     "bucket" : "Land",
     "rateBase" : 20,

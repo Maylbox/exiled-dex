@@ -147,6 +147,8 @@
   "eggMoves" : [ "Amnesia", "Aromatherapy", "Belly Drum", "Covet", "Fake Tears", "Heal Pulse", "Metronome", "Mimic", "Misty Terrain", "Present", "Splash", "Stored Power", "Tickle", "Wish" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dual Wingbeat", "Dynamic Punch", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Flash", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Meteor Beam", "Metronome", "Mud Slap", "Mystical Fire", "Play Rough", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Soft Boiled", "Solar Beam", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
     "area" : "Mossdeep City",
     "bucket" : "Land",
     "rateBase" : 10,

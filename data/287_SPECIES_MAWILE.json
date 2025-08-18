@@ -101,6 +101,8 @@
   "eggMoves" : [ "Ancient Power", "Captivate", "Fire Fang", "Guard Swap", "Ice Fang", "Metal Burst", "Misty Terrain", "Poison Fang", "Power Up Punch", "Punishment", "Seismic Toss", "Slam", "Sucker Punch", "Thunder Fang", "Tickle" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Charge Beam", "Counter", "Crunch", "Dark Pulse", "Double Edge", "Double Team", "Dynamic Punch", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Fang", "Flamethrower", "Flash Cannon", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Power Up Punch", "Protect", "Psych Up", "Psychic Fangs", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Seismic Toss", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Solar Beam", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Thunder Fang", "Thunder Punch", "Torment", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -108,6 +110,8 @@
     "max" : 17,
     "slot" : 0
   }, {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -115,6 +119,8 @@
     "max" : 17,
     "slot" : 2
   }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Entrance",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -122,6 +128,8 @@
     "max" : 77,
     "slot" : 4
   }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_Entrance",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -129,6 +137,8 @@
     "max" : 77,
     "slot" : 5
   }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -136,6 +146,8 @@
     "max" : 77,
     "slot" : 4
   }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
     "area" : "Cave Of Origin_1F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -143,6 +155,8 @@
     "max" : 77,
     "slot" : 5
   }, {
+    "areaKey" : "MagmaHideout_1F",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -150,6 +164,8 @@
     "max" : 59,
     "slot" : 3
   }, {
+    "areaKey" : "MagmaHideout_2F_1R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -157,6 +173,8 @@
     "max" : 59,
     "slot" : 3
   }, {
+    "areaKey" : "MagmaHideout_2F_2R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -164,6 +182,8 @@
     "max" : 59,
     "slot" : 3
   }, {
+    "areaKey" : "MagmaHideout_3F_1R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_1R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -171,6 +191,8 @@
     "max" : 59,
     "slot" : 3
   }, {
+    "areaKey" : "MagmaHideout_3F_2R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -178,6 +200,8 @@
     "max" : 59,
     "slot" : 3
   }, {
+    "areaKey" : "MagmaHideout_4F",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -185,6 +209,8 @@
     "max" : 59,
     "slot" : 3
   }, {
+    "areaKey" : "MagmaHideout_3F_3R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_3F_3R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -192,6 +218,8 @@
     "max" : 59,
     "slot" : 3
   }, {
+    "areaKey" : "MagmaHideout_2F_3R",
+    "bucketKey" : "Land",
     "area" : "Magma Hideout_2F_3R",
     "bucket" : "Land",
     "rateBase" : 10,

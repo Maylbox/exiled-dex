@@ -107,6 +107,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Attract", "Aura Sphere", "Aurora Veil", "Blizzard", "Body Press", "Bulk Up", "Calm Mind", "Covet", "Dark Pulse", "Dazzling Gleam", "Draco Meteor", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Energy Ball", "Fire Blast", "Flamethrower", "Flash", "Flash Cannon", "Flip Turn", "Focus Blast", "Grass Knot", "Hex", "Hidden Power", "Ice Beam", "Iron Defense", "Light Screen", "Meteor Beam", "Mirror Coat", "Mystical Fire", "Protect", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Return", "Safeguard", "Scald", "Secret Power", "Shadow Ball", "Silver Wind", "Sleep Talk", "Sludge Bomb", "Snatch", "Substitute", "Surf", "Taunt", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Water Pulse", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "SeafloorCavern_Room8",
+    "bucketKey" : "Land",
     "area" : "Seafloor Cavern_Room8",
     "bucket" : "Land",
     "rateBase" : 4,

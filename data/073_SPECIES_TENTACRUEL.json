@@ -103,6 +103,8 @@
   "eggMoves" : [ "Acupressure", "Aqua Ring", "Aurora Beam", "Bubble", "Confuse Ray", "Haze", "Knock Off", "Mirror Coat", "Muddy Water", "Rapid Spin", "Tickle" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Cut", "Dazzling Gleam", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "Flip Turn", "Giga Drain", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Icy Wind", "Knock Off", "Mirror Coat", "Poison Jab", "Protect", "Rain Dance", "Reflect", "Rest", "Safeguard", "Scald", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Surf", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic", "Venoshock", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "AbandonedShip_Rooms_B1F",
+    "bucketKey" : "Water",
     "area" : "Abandoned Ship_Rooms_B1F",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -110,6 +112,8 @@
     "max" : 35,
     "slot" : 4
   }, {
+    "areaKey" : "AbandonedShip_Rooms_B1F",
+    "bucketKey" : "Fishing",
     "area" : "Abandoned Ship_Rooms_B1F",
     "bucket" : "Fishing",
     "rateBase" : 20,
@@ -117,6 +121,8 @@
     "max" : 35,
     "slot" : 7
   }, {
+    "areaKey" : "AbandonedShip_Rooms_B1F",
+    "bucketKey" : "Fishing",
     "area" : "Abandoned Ship_Rooms_B1F",
     "bucket" : "Fishing",
     "rateBase" : 20,
@@ -124,6 +130,8 @@
     "max" : 30,
     "slot" : 8
   }, {
+    "areaKey" : "AbandonedShip_Rooms_B1F",
+    "bucketKey" : "Fishing",
     "area" : "Abandoned Ship_Rooms_B1F",
     "bucket" : "Fishing",
     "rateBase" : 20,
@@ -131,6 +139,8 @@
     "max" : 25,
     "slot" : 9
   }, {
+    "areaKey" : "AbandonedShip_HiddenFloorCorridors",
+    "bucketKey" : "Water",
     "area" : "Abandoned Ship_Hidden Floor Corridors",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -138,6 +148,8 @@
     "max" : 35,
     "slot" : 4
   }, {
+    "areaKey" : "AbandonedShip_HiddenFloorCorridors",
+    "bucketKey" : "Fishing",
     "area" : "Abandoned Ship_Hidden Floor Corridors",
     "bucket" : "Fishing",
     "rateBase" : 20,
@@ -145,6 +157,8 @@
     "max" : 35,
     "slot" : 7
   }, {
+    "areaKey" : "AbandonedShip_HiddenFloorCorridors",
+    "bucketKey" : "Fishing",
     "area" : "Abandoned Ship_Hidden Floor Corridors",
     "bucket" : "Fishing",
     "rateBase" : 20,
@@ -152,6 +166,8 @@
     "max" : 30,
     "slot" : 8
   }, {
+    "areaKey" : "AbandonedShip_HiddenFloorCorridors",
+    "bucketKey" : "Fishing",
     "area" : "Abandoned Ship_Hidden Floor Corridors",
     "bucket" : "Fishing",
     "rateBase" : 20,

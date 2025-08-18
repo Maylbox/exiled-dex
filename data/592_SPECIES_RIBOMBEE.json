@@ -94,6 +94,8 @@
   "eggMoves" : [ "Baton Pass", "Bestow", "Moonblast", "Powder", "Skill Swap", "Speed Swap", "Sticky Web" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Calm Mind", "Covet", "Dazzling Gleam", "Defog", "Double Team", "Dream Eater", "Dual Wingbeat", "Endure", "Energy Ball", "Facade", "Giga Impact", "Grass Knot", "Hyper Beam", "Leech Life", "Light Screen", "Play Rough", "Protect", "Psych Up", "Psychic", "Reflect", "Rest", "Roost", "Safeguard", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "Trailblaze", "U Turn" ],
   "encounters" : [ {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Land",
     "area" : "Lilycove City",
     "bucket" : "Land",
     "rateBase" : 10,

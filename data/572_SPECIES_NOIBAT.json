@@ -87,6 +87,8 @@
   "eggMoves" : [ "Outrage", "Snatch", "Switcheroo", "Tailwind" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brick Break", "Cut", "Dark Pulse", "Defog", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dream Eater", "Dual Wingbeat", "Endure", "Facade", "Fly", "Leech Life", "Protect", "Psychic", "Rest", "Roost", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "U Turn", "Water Pulse", "Wild Charge", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -94,6 +96,8 @@
     "max" : 17,
     "slot" : 8
   }, {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
     "area" : "Granite Cave_B1F",
     "bucket" : "Land",
     "rateBase" : 10,

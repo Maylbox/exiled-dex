@@ -90,6 +90,8 @@
   "eggMoves" : [ "Beat Up", "Disable", "Iron Tail", "Poison Fang", "Poison Tail", "Pursuit", "Scary Face", "Slam", "Snatch", "Spite", "Sucker Punch", "Switcheroo" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Crunch", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "Fire Fang", "Giga Drain", "Knock Off", "Leech Life", "Mud Slap", "Poison Jab", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snatch", "Snore", "Strength", "Sunny Day", "Swagger", "Thief", "Torment", "Toxic", "Trailblaze", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "Route116",
+    "bucketKey" : "Land",
     "area" : "Route 116",
     "bucket" : "Land",
     "rateBase" : 20,

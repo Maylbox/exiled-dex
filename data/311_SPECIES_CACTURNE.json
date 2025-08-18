@@ -110,6 +110,8 @@
   "eggMoves" : [ "Acid", "Belch", "Block", "Counter", "Disable", "Dynamic Punch", "Fell Stinger", "Grass Whistle", "Low Kick", "Magical Leaf", "Nasty Plot", "Power Up Punch", "Rototiller", "Seed Bomb", "Smelling Salts", "Switcheroo", "Teeter Dance", "Worry Seed" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulldoze", "Bullet Seed", "Counter", "Cut", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Flash", "Focus Blast", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Sandstorm", "Seismic Toss", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Thunder Punch", "Toxic", "Trailblaze", "Venoshock" ],
   "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
     "area" : "Route 111",
     "bucket" : "Land",
     "rateBase" : 10,

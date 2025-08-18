@@ -91,6 +91,8 @@
   "eggMoves" : [ "Agility", "Ally Switch", "Baton Pass", "Entrainment", "Feint", "Me First", "Mud Sport", "Quick Guard" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Press", "Body Slam", "Brave Bird", "Brick Break", "Bulk Up", "Cut", "Defog", "Dig", "Double Team", "Drain Punch", "Dual Wingbeat", "Endure", "Facade", "False Swipe", "Fire Punch", "Fly", "Focus Blast", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Iron Head", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "Trailblaze", "U Turn", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
     "area" : "Dewford Town",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -98,6 +100,8 @@
     "max" : 12,
     "slot" : 10
   }, {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
     "area" : "Dewford Town",
     "bucket" : "Land",
     "rateBase" : 10,

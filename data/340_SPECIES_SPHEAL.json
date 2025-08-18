@@ -87,6 +87,8 @@
   "eggMoves" : [ "Aqua Ring", "Belly Drum", "Curse", "Fissure", "Rollout", "Signal Beam", "Sleep Talk", "Spit Up", "Stockpile", "Swallow", "Water Pulse", "Water Sport", "Yawn" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Defense Curl", "Dive", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "Ice Beam", "Icy Wind", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Water",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -94,6 +96,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Water",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -101,6 +105,8 @@
     "max" : 30,
     "slot" : 3
   }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Water",
     "area" : "Shoal Cave_Low Tide Inner Room",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -108,6 +114,8 @@
     "max" : 35,
     "slot" : 4
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Water",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -115,6 +123,8 @@
     "max" : 30,
     "slot" : 2
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Water",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -122,6 +132,8 @@
     "max" : 30,
     "slot" : 3
   }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Water",
     "area" : "Shoal Cave_Low Tide Entrance Room",
     "bucket" : "Water",
     "rateBase" : 4,

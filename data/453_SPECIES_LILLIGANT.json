@@ -106,6 +106,8 @@
   "eggMoves" : [ "Bide", "Charm", "Encore", "Endure", "Grass Whistle", "Healing Wish", "Ingrain", "Natural Gift", "Sweet Scent", "Worry Seed" ],
   "teachableMoves" : [ "Attract", "Bullet Seed", "Covet", "Cut", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Light Screen", "Protect", "Psych Up", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
     "area" : "Route 118",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -113,6 +115,8 @@
     "max" : 55,
     "slot" : 3
   }, {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
     "area" : "Route 121",
     "bucket" : "Land",
     "rateBase" : 20,

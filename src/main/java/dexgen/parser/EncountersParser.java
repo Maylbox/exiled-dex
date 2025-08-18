@@ -35,8 +35,13 @@ public class EncountersParser {
                 int max = Integer.parseInt(r.group(2));
                 String speciesId = "SPECIES_" + r.group(3);
 
+                String areaKey   = areaRaw;                 // raw
+                String bucketKey = bucket;                  // raw
+                String areaNice  = prettify(areaRaw);       // fallback label
+                String buckNice  = prettifyBucket(bucket);  // fallback label
+
                 out.computeIfAbsent(speciesId, k -> new ArrayList<>())
-                        .add(new Encounter(prettify(areaRaw), prettifyBucket(bucket), rateBase, min, max, slot++));
+                        .add(new Encounter(areaKey, bucketKey, areaNice, buckNice, rateBase, min, max, slot++));
             }
         }
         return out;

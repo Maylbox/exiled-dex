@@ -78,6 +78,8 @@
   "eggMoves" : [ "Beat Up", "Charm", "Chip Away", "Counter", "Disable", "Endure", "Focus Energy", "Iron Tail", "Poison Tail", "Pursuit", "Skull Bash", "Supersonic", "Take Down", "Venom Drench" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Blizzard", "Body Slam", "Counter", "Crunch", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Endure", "Facade", "Hone Claws", "Ice Beam", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Shadow Claw", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Snore", "Strength", "Sunny Day", "Swagger", "Thief", "Thunder", "Thunderbolt", "Toxic", "Venoshock", "Water Pulse" ],
   "encounters" : [ {
+    "areaKey" : "FallarborTown0",
+    "bucketKey" : "Land",
     "area" : "Fallarbor Town0",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -83,6 +83,8 @@
   "eggMoves" : [ "Aqua Jet", "Dragon Breath", "Dragon Dance", "Dragon Pulse", "Dragon Rush", "Extreme Speed", "Haze", "Iron Tail", "Mist", "Supersonic", "Water Pulse" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Double Edge", "Double Team", "Draco Meteor", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Fire Blast", "Flamethrower", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Head", "Light Screen", "Protect", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shock Wave", "Sleep Talk", "Snore", "Sunny Day", "Surf", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
     "area" : "Route 114",
     "bucket" : "Land",
     "rateBase" : 20,

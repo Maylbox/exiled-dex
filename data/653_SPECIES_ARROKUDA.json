@@ -69,6 +69,8 @@
   "eggMoves" : [ "Acupressure", "Night Slash", "Slash", "Thrash" ],
   "teachableMoves" : [ "Attract", "Brick Break", "Crunch", "Dive", "Double Edge", "Endure", "Facade", "Flip Turn", "Ice Fang", "Poison Jab", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swift", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route103",
+    "bucketKey" : "Fishing",
     "area" : "Route 103",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -76,6 +78,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route115",
+    "bucketKey" : "Fishing",
     "area" : "Route 115",
     "bucket" : "Fishing",
     "rateBase" : 30,

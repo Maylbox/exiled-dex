@@ -87,6 +87,8 @@
   "eggMoves" : [ "Baton Pass", "Disable", "Electroweb", "Lunge", "Megahorn", "Night Slash", "Psybeam", "Pursuit", "Rage Powder", "Signal Beam", "Sonic Boom", "Toxic Spikes", "Twineedle" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Dig", "Double Edge", "Double Team", "Electroweb", "Endure", "Facade", "Flash", "Giga Drain", "Hex", "Hone Claws", "Knock Off", "Leech Life", "Poison Jab", "Protect", "Psychic", "Rest", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Thief", "Toxic", "Trailblaze", "Venoshock", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "Route104",
+    "bucketKey" : "Land",
     "area" : "Route 104",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -94,6 +96,8 @@
     "max" : 7,
     "slot" : 1
   }, {
+    "areaKey" : "SafariZone_Southeast",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Southeast",
     "bucket" : "Land",
     "rateBase" : 25,

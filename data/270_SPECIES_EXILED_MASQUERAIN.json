@@ -119,6 +119,8 @@
   "eggMoves" : [ ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Aura Sphere", "Blizzard", "Calm Mind", "Covet", "Dark Pulse", "Dazzling Gleam", "Defog", "Electroweb", "Energy Ball", "Facade", "First Impression", "Flip Turn", "Fly", "Focus Blast", "Giga Drain", "Hex", "Hidden Power", "Ice Beam", "Knock Off", "Leech Life", "Light Screen", "Meteor Beam", "Mirror Coat", "Mystical Fire", "Play Rough", "Protect", "Psychic", "Psyshock", "Rain Dance", "Roost", "Safeguard", "Scald", "Secret Power", "Shadow Ball", "Silver Wind", "Sludge Bomb", "Snatch", "Substitute", "Taunt", "Thunder", "Thunderbolt", "Torment", "Toxic", "Trick Room", "U Turn", "Water Pulse", "Will O Wisp", "X Scissor" ],
   "encounters" : [ {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -126,6 +128,8 @@
     "max" : 56,
     "slot" : 11
   }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -133,6 +137,8 @@
     "max" : 56,
     "slot" : 11
   }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -140,6 +146,8 @@
     "max" : 56,
     "slot" : 11
   }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_4F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -147,6 +155,8 @@
     "max" : 56,
     "slot" : 11
   }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_5F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -154,6 +164,8 @@
     "max" : 56,
     "slot" : 11
   }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_6F",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -94,6 +94,8 @@
   "eggMoves" : [ "Amnesia", "Ancient Power", "Curse", "Destiny Bond", "Spit Up", "Stockpile", "Swallow" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Double Team", "Earth Power", "Earthquake", "Endure", "Energy Ball", "Facade", "Flash Cannon", "Giga Drain", "Giga Impact", "Hex", "Hyper Beam", "Iron Defense", "Mud Slap", "Protect", "Psychic", "Rain Dance", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Sandstorm", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Swagger", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Land",
     "area" : "Lilycove City",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -78,6 +78,8 @@
   "eggMoves" : [ "Agility", "Camouflage", "Electric Terrain", "Glare" ],
   "teachableMoves" : [ "Attract", "Bulldoze", "Charge Beam", "Cut", "Dark Pulse", "Dig", "Double Team", "Dragon Tail", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Light Screen", "Mud Slap", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Shock Wave", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "U Turn", "Volt Switch", "Wild Charge" ],
   "encounters" : [ {
+    "areaKey" : "Route116",
+    "bucketKey" : "Land",
     "area" : "Route 116",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -85,6 +87,8 @@
     "max" : 10,
     "slot" : 8
   }, {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
     "area" : "Mauville City0",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -92,6 +96,8 @@
     "max" : 24,
     "slot" : 1
   }, {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
     "area" : "Mauville City0",
     "bucket" : "Land",
     "rateBase" : 10,

@@ -103,6 +103,8 @@
   "eggMoves" : [ "Aqua Jet", "Dragon Breath", "Dragon Dance", "Dragon Pulse", "Dragon Rush", "Extreme Speed", "Haze", "Iron Tail", "Mist", "Supersonic", "Water Pulse" ],
   "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Cut", "Defog", "Dive", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dual Wingbeat", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Fly", "Focus Blast", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Iron Head", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Safeguard", "Sandstorm", "Shock Wave", "Sleep Talk", "Snore", "Snowscape", "Steel Wing", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Swift", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -110,6 +112,8 @@
     "max" : 83,
     "slot" : 5
   }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
     "area" : "Victory Road_B2F",
     "bucket" : "Land",
     "rateBase" : 4,
@@ -117,6 +121,8 @@
     "max" : 85,
     "slot" : 0
   }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_1F_2R",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -124,6 +130,8 @@
     "max" : 83,
     "slot" : 5
   }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Land",
     "area" : "Meteor Falls_B1F_1R",
     "bucket" : "Land",
     "rateBase" : 10,

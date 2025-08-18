@@ -86,6 +86,8 @@
   "eggMoves" : [ "Crunch", "Curse", "Double Edge", "Hammer Arm", "Iron Head", "Iron Tail", "Leer", "Slam", "Stomp", "Thrash", "Whirlwind" ],
   "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Beam", "Iron Head", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Swords Dance", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Toxic", "Trailblaze" ],
   "encounters" : [ {
+    "areaKey" : "MirageTower_1F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_1F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -93,6 +95,8 @@
     "max" : 45,
     "slot" : 6
   }, {
+    "areaKey" : "MirageTower_2F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_2F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -100,6 +104,8 @@
     "max" : 45,
     "slot" : 1
   }, {
+    "areaKey" : "MirageTower_3F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_3F",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -107,6 +113,8 @@
     "max" : 45,
     "slot" : 1
   }, {
+    "areaKey" : "MirageTower_4F",
+    "bucketKey" : "Land",
     "area" : "Mirage Tower_4F",
     "bucket" : "Land",
     "rateBase" : 10,

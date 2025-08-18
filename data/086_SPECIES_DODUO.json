@@ -92,6 +92,8 @@
   "eggMoves" : [ "Assurance", "Brave Bird", "Endeavor", "Feint Attack", "Flail", "Haze", "Mirror Move", "Natural Gift", "Quick Attack", "Supersonic" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brave Bird", "Double Edge", "Double Team", "Endure", "Facade", "Fly", "Knock Off", "Low Kick", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -99,6 +101,8 @@
     "max" : 21,
     "slot" : 0
   }, {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
     "area" : "Route 110",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -106,6 +110,8 @@
     "max" : 21,
     "slot" : 2
   }, {
+    "areaKey" : "SafariZone_South",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_South",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -113,6 +119,8 @@
     "max" : 25,
     "slot" : 5
   }, {
+    "areaKey" : "JaggedPass",
+    "bucketKey" : "Land",
     "area" : "Jagged Pass",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -120,6 +128,8 @@
     "max" : 35,
     "slot" : 10
   }, {
+    "areaKey" : "SafariZone_Southwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Southwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -127,6 +137,8 @@
     "max" : 27,
     "slot" : 5
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Land",
     "rateBase" : 25,
@@ -134,6 +146,8 @@
     "max" : 27,
     "slot" : 4
   }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
     "area" : "Safari Zone_Northwest",
     "bucket" : "Land",
     "rateBase" : 25,

@@ -75,6 +75,8 @@
   "eggMoves" : [ "Acid Spray", "After You", "Ancient Power", "Counter", "Curse", "Double Kick", "Haze", "Mist", "Recover", "Spit Up", "Stockpile", "Swallow" ],
   "teachableMoves" : [ "Body Press", "Body Slam", "Bulldoze", "Counter", "Dig", "Double Edge", "Earth Power", "Earthquake", "Endure", "Facade", "Low Kick", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Stealth Rock", "Stone Edge", "Surf", "Toxic", "Trailblaze", "Venoshock", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route116",
+    "bucketKey" : "Land",
     "area" : "Route 116",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -82,6 +84,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "Route116",
+    "bucketKey" : "Land",
     "area" : "Route 116",
     "bucket" : "Land",
     "rateBase" : 20,

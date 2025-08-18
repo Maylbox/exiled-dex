@@ -113,6 +113,8 @@
   "eggMoves" : [ "Heat Wave", "Hypnosis", "Magic Coat", "Psychic Terrain", "Wish" ],
   "teachableMoves" : [ "Attract", "Calm Mind", "Covet", "Cut", "Dazzling Gleam", "Double Team", "Dream Eater", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Grass Knot", "Hex", "Hyper Beam", "Light Screen", "Low Kick", "Metronome", "Mud Slap", "Mystical Fire", "Overheat", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder Punch", "Toxic", "Trick Room", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
     "area" : "Scorched Slab0",
     "bucket" : "Land",
     "rateBase" : 20,

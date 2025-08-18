@@ -101,6 +101,8 @@
   "eggMoves" : [ "Body Slam", "Clear Smog", "Defog", "Destiny Bond", "Disable", "Haze", "Hypnosis", "Memento", "Tailwind", "Weather Ball" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Cut", "Defog", "Double Team", "Dream Eater", "Endure", "Explosion", "Facade", "Flash", "Fly", "Giga Impact", "Gyro Ball", "Hex", "Hyper Beam", "Icy Wind", "Knock Off", "Mud Slap", "Mystical Fire", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Rollout", "Shadow Ball", "Shock Wave", "Silver Wind", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Trick Room", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Exterior",
     "bucket" : "Land",
     "rateBase" : 10,
@@ -108,6 +110,8 @@
     "max" : 56,
     "slot" : 1
   }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
     "area" : "Mt Pyre_Summit",
     "bucket" : "Land",
     "rateBase" : 10,

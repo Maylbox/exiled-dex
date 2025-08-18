@@ -84,6 +84,8 @@
   "eggMoves" : [ "Feint", "Ice Hammer", "Quash" ],
   "teachableMoves" : [ "Brick Break", "Covet", "Endure", "Facade", "Flash Cannon", "Knock Off", "Light Screen", "Metronome", "Play Rough", "Protect", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Stealth Rock", "Stone Edge", "Swords Dance", "Thief", "Thunder Wave" ],
   "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
     "area" : "Route 114",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -91,6 +93,8 @@
     "max" : 33,
     "slot" : 8
   }, {
+    "areaKey" : "FieryPath",
+    "bucketKey" : "Land",
     "area" : "Fiery Path",
     "bucket" : "Land",
     "rateBase" : 10,

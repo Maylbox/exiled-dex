@@ -102,6 +102,8 @@
   "eggMoves" : [ "Body Slam", "Burn Up", "Covet", "Curse", "Endeavor", "Heavy Slam", "Magnitude", "Sleep Talk", "Sucker Punch", "Superpower", "Thrash", "Yawn" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Grass Knot", "Gyro Ball", "High Horsepower", "Knock Off", "Low Kick", "Mud Slap", "Overheat", "Poison Jab", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sleep Talk", "Snore", "Solar Beam", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thunder Punch", "Toxic", "Trailblaze", "Wild Charge", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
     "area" : "Lavaridge Town0",
     "bucket" : "Land",
     "rateBase" : 10,

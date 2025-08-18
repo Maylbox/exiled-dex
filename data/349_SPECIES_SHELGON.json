@@ -83,6 +83,8 @@
   "eggMoves" : [ "Defense Curl", "Dragon Dance", "Dragon Pulse", "Dragon Rage", "Dragon Rush", "Endure", "Fire Fang", "Hydro Pump", "Thrash", "Twister" ],
   "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Crunch", "Cut", "Defense Curl", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Fury Cutter", "Hone Claws", "Iron Defense", "Iron Head", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Shadow Claw", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Thunder Fang", "Toxic" ],
   "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
     "area" : "Route 115",
     "bucket" : "Land",
     "rateBase" : 20,

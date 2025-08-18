@@ -84,6 +84,8 @@
   "eggMoves" : [ "Acid Armor", "Confuse Ray", "Constrict", "Mist", "Pain Split", "Recover" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Dark Pulse", "Dazzling Gleam", "Dive", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Hex", "Ice Beam", "Icy Wind", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Safeguard", "Scald", "Shadow Ball", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Surf", "Swagger", "Taunt", "Toxic", "Trick Room", "Water Pulse", "Waterfall", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Route106",
+    "bucketKey" : "Fishing",
     "area" : "Route 106",
     "bucket" : "Fishing",
     "rateBase" : 30,
@@ -91,6 +93,8 @@
     "max" : 10,
     "slot" : 0
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Fishing",
     "area" : "Slateport City",
     "bucket" : "Fishing",
     "rateBase" : 10,
@@ -98,6 +102,8 @@
     "max" : 10,
     "slot" : 1
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Fishing",
     "area" : "Slateport City",
     "bucket" : "Fishing",
     "rateBase" : 10,

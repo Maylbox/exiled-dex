@@ -90,6 +90,8 @@
   "eggMoves" : [ "Acid Armor", "Curse", "Earth Power", "Guard Swap", "Heat Wave", "Inferno", "Memento", "Rollout", "Smokescreen", "Spit Up", "Stockpile", "Swallow" ],
   "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Defense Curl", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Flamethrower", "High Horsepower", "Iron Defense", "Light Screen", "Mud Slap", "Overheat", "Protect", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Swagger", "Toxic", "Will O Wisp" ],
   "encounters" : [ {
+    "areaKey" : "Route113",
+    "bucketKey" : "Land",
     "area" : "Route 113",
     "bucket" : "Land",
     "rateBase" : 20,

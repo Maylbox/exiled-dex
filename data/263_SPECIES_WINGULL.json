@@ -83,6 +83,8 @@
   "eggMoves" : [ "Agility", "Aqua Ring", "Brine", "Gust", "Knock Off", "Mist", "Roost", "Soak", "Twister", "Water Sport", "Wide Guard" ],
   "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Blizzard", "Brave Bird", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "Fly", "Ice Beam", "Icy Wind", "Knock Off", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roost", "Scald", "Shock Wave", "Sleep Talk", "Snore", "Snowscape", "Steel Wing", "Surf", "Swagger", "Swift", "Thief", "Toxic", "U Turn", "Water Pulse", "Waterfall" ],
   "encounters" : [ {
+    "areaKey" : "Route103",
+    "bucketKey" : "Land",
     "area" : "Route 103",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -90,6 +92,8 @@
     "max" : 5,
     "slot" : 0
   }, {
+    "areaKey" : "Route103",
+    "bucketKey" : "Land",
     "area" : "Route 103",
     "bucket" : "Land",
     "rateBase" : 20,
@@ -97,6 +101,8 @@
     "max" : 5,
     "slot" : 2
   }, {
+    "areaKey" : "Route103",
+    "bucketKey" : "Water",
     "area" : "Route 103",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -104,6 +110,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "Route103",
+    "bucketKey" : "Water",
     "area" : "Route 103",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -111,6 +119,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Water",
     "area" : "Route 104",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -118,6 +128,8 @@
     "max" : 30,
     "slot" : 0
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Water",
     "area" : "Route 104",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -125,6 +137,8 @@
     "max" : 25,
     "slot" : 1
   }, {
+    "areaKey" : "Route104",
+    "bucketKey" : "Water",
     "area" : "Route 104",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -132,6 +146,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "Route110",
+    "bucketKey" : "Water",
     "area" : "Route 110",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -139,6 +155,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "Route110",
+    "bucketKey" : "Water",
     "area" : "Route 110",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -146,6 +164,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "Route119",
+    "bucketKey" : "Water",
     "area" : "Route 119",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -153,6 +173,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "Route119",
+    "bucketKey" : "Water",
     "area" : "Route 119",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -160,6 +182,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "Route121",
+    "bucketKey" : "Water",
     "area" : "Route 121",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -167,6 +191,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "Route121",
+    "bucketKey" : "Water",
     "area" : "Route 121",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -174,6 +200,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "Route123",
+    "bucketKey" : "Water",
     "area" : "Route 123",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -181,6 +209,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "Route123",
+    "bucketKey" : "Water",
     "area" : "Route 123",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -188,6 +218,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Water",
     "area" : "Lilycove City",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -195,6 +227,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Water",
     "area" : "Lilycove City",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -202,6 +236,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Water",
     "area" : "Dewford Town",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -209,6 +245,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Water",
     "area" : "Dewford Town",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -216,6 +254,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Water",
     "area" : "Slateport City",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -223,6 +263,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Water",
     "area" : "Slateport City",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -230,6 +272,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Water",
     "area" : "Mossdeep City",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -237,6 +281,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Water",
     "area" : "Mossdeep City",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -244,6 +290,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "PacifidlogTown",
+    "bucketKey" : "Water",
     "area" : "Pacifidlog Town",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -251,6 +299,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "PacifidlogTown",
+    "bucketKey" : "Water",
     "area" : "Pacifidlog Town",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -258,6 +308,8 @@
     "max" : 25,
     "slot" : 2
   }, {
+    "areaKey" : "EverGrandeCity",
+    "bucketKey" : "Water",
     "area" : "Ever Grande City",
     "bucket" : "Water",
     "rateBase" : 4,
@@ -265,6 +317,8 @@
     "max" : 30,
     "slot" : 1
   }, {
+    "areaKey" : "EverGrandeCity",
+    "bucketKey" : "Water",
     "area" : "Ever Grande City",
     "bucket" : "Water",
     "rateBase" : 4,
