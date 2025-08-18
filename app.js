@@ -56,6 +56,21 @@ function renderHome(){
         <div class="name">Pokédex</div>
         <div class="dex">${INDEX.length} species</div>
       </div>
+
+      <div class="card" onclick="location.hash='#moves'">
+        <div class="name">Moves</div>
+        <div class="dex">Work In Progress</div>
+      </div>
+
+      <div class="card" onclick="location.hash='#items'">
+        <div class="name">Items</div>
+        <div class="dex">Work In Progress</div>
+      </div>
+
+      <div class="card" onclick="location.hash='#trainers'">
+        <div class="name">Trainers</div>
+        <div class="dex">Work In Progress</div>
+      </div>
     </div>
     <footer>
       Work In Progress.<br>
@@ -67,6 +82,7 @@ function renderHome(){
     </footer>
   `;
 }
+
 
 function reqLabel(method, param){
   const p = prettyParam(param);
