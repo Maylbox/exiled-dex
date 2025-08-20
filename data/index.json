@@ -2762,7 +2762,7 @@
   "dex" : 287,
   "speciesId" : "SPECIES_MAWILE",
   "name" : "Mawile",
-  "types" : [ ],
+  "types" : [ "Steel", "Fairy" ],
   "abilities" : [ "Strong Jaw", "Intimidate", "Sheer Force" ],
   "color" : "Black",
   "file" : "287_SPECIES_MAWILE.json"
@@ -2770,7 +2770,7 @@
   "dex" : 287,
   "speciesId" : "SPECIES_MAWILE_MEGA",
   "name" : "Mawile - Mega",
-  "types" : [ ],
+  "types" : [ "Steel", "Fairy" ],
   "abilities" : [ "Huge Power", "Huge Power", "Huge Power" ],
   "color" : "Black",
   "file" : "287_SPECIES_MAWILE_MEGA.json"

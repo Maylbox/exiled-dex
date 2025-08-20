@@ -2,7 +2,7 @@
   "dex" : 287,
   "speciesId" : "SPECIES_MAWILE",
   "name" : "Mawile",
-  "types" : [ ],
+  "types" : [ "Steel", "Fairy" ],
   "abilities" : [ "Strong Jaw", "Intimidate", "Sheer Force" ],
   "evYield" : {
     "def" : 1,

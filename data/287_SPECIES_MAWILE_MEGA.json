@@ -2,7 +2,7 @@
   "dex" : 287,
   "speciesId" : "SPECIES_MAWILE_MEGA",
   "name" : "Mawile - Mega",
-  "types" : [ ],
+  "types" : [ "Steel", "Fairy" ],
   "abilities" : [ "Huge Power", "Huge Power", "Huge Power" ],
   "evYield" : {
     "def" : 1,

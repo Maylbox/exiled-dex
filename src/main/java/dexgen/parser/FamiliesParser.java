@@ -23,7 +23,8 @@ public class FamiliesParser {
             Pattern.compile("description\\s*=\\s*COMPOUND_STRING\\(([^)]*)\\)");
     private static final Pattern P_QSTR =
             Pattern.compile("\"([\\s\\S]*?)\"");
-    private static final Pattern P_TYPES = Pattern.compile("types\\s*=\\s*MON_TYPES\\(([^)]+)\\)");
+    private static final Pattern P_TYPES =
+            Pattern.compile("\\.?types\\s*=\\s*MON_TYPES\\s*\\(([^)]+)\\)");
     private static final Pattern P_ABIL     = Pattern.compile("abilities\\s*=\\s*\\{\\s*(ABILITY_[A-Z_]+)(?:\\s*,\\s*(ABILITY_[A-Z_]+))?(?:\\s*,\\s*(ABILITY_[A-Z_]+))?\\s*}");
     private static final Pattern P_COLOR    = Pattern.compile("bodyColor\\s*=\\s*(BODY_COLOR_[A-Z_]+)");
     private static final Pattern P_GROWTH   = Pattern.compile("growthRate\\s*=\\s*(GROWTH_[A-Z_]+)");
