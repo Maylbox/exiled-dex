@@ -245,12 +245,32 @@ async function buildEvolutionLayers(startSpecies){
 function evoReqChips(edges, fromId, toId){
   const reqs = edges
     .filter(e => e.from === fromId && e.to === toId)
-    .map(e => reqLabel(e.method, e.param));
+    .map(e => ({ label: reqLabel(e.method, e.param), method: (e.method||'').toLowerCase() }));
 
   if (!reqs.length) return '';
-  const chips = reqs.map(r => `<a class="badge" href="${chipHref(r)}">${r}</a>`).join('');
+
+  // any chip whose label/method contains one of these substrings is non-clickable
+  const NON_CLICKABLE_SUBSTRINGS = [
+    'level',
+    'mega',
+    'friendship',
+    'move type'
+  ];
+
+  const chips = reqs.map(r => {
+    const labelLc = r.label.toLowerCase();
+    const methodLc = r.method.toLowerCase();
+    const isLocked = NON_CLICKABLE_SUBSTRINGS.some(sub =>
+      labelLc.includes(sub) || methodLc.includes(sub)
+    );
+    return isLocked
+      ? `<span class="badge" aria-disabled="true">${r.label}</span>`
+      : `<a class="badge" href="${chipHref(r.label)}">${r.label}</a>`;
+  }).join('');
+
   return `<div class="chips">${chips}</div>`;
 }
+
 
 
 function evoCard(s, activeId){
