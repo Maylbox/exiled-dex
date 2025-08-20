@@ -1,0 +1,89 @@
+{
+  "dex" : 138,
+  "speciesId" : "SPECIES_GLACEON",
+  "name" : "Glaceon",
+  "types" : [ "Ice", null ],
+  "abilities" : [ "Snow Cloak", "Slush Rush", "Ice Scales" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 8960,
+  "heightM" : 0.8,
+  "weightKg" : 25.9,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Fresh Snow",
+  "friendship" : 35,
+  "description" : "It can control its body temperature\nat will. This enables it to freeze the\nmoisture in the atmosphere, creating\nflurries of diamond dust.",
+  "preEvolutionId" : "SPECIES_EEVEE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 60,
+    "def" : 110,
+    "spe" : 65,
+    "spa" : 130,
+    "spd" : 95
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 1,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 5,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 9,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 13,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 17,
+    "move" : "Bite"
+  }, {
+    "level" : 20,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 25,
+    "move" : "Ice Shard"
+  }, {
+    "level" : 29,
+    "move" : "Barrier"
+  }, {
+    "level" : 33,
+    "move" : "Mirror Coat"
+  }, {
+    "level" : 37,
+    "move" : "Snowscape"
+  }, {
+    "level" : 41,
+    "move" : "Freeze Dry"
+  }, {
+    "level" : 45,
+    "move" : "Blizzard"
+  }, {
+    "level" : 50,
+    "move" : "Last Resort"
+  }, {
+    "level" : 57,
+    "move" : "Freezy Frost"
+  } ],
+  "eggMoves" : [ "Captivate", "Charm", "Covet", "Curse", "Detect", "Endure", "Fake Tears", "Flail", "Natural Gift", "Stored Power", "Synchronoise", "Tickle", "Wish", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Aurora Veil", "Avalanche", "Blizzard", "Body Slam", "Calm Mind", "Covet", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Fang", "Icy Wind", "Mirror Coat", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roar", "Rock Smash", "Shadow Ball", "Sleep Talk", "Snore", "Snowscape", "Strength", "Sunny Day", "Swagger", "Swift", "Toxic", "Trailblaze", "Triple Axel", "Water Pulse" ],
+  "encounters" : [ ]
+}

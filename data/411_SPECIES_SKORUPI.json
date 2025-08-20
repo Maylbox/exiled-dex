@@ -1,0 +1,113 @@
+{
+  "dex" : 411,
+  "speciesId" : "SPECIES_SKORUPI",
+  "name" : "Skorupi",
+  "types" : [ "Poison", "Bug" ],
+  "abilities" : [ "Battle Armor", "Sniper", "Keen Eye" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug", "Water 3" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 12.0,
+  "growthRate" : "Slow",
+  "color" : "Purple",
+  "category" : "Scorpion",
+  "friendship" : 70,
+  "description" : "It grips prey with its tail claws and\ninjects poison. It tenaciously hangs\non until the poison takes.\nIt can survive a year without food.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_DRAPION",
+    "method" : "level",
+    "param" : "40"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 50,
+    "def" : 90,
+    "spe" : 65,
+    "spa" : 30,
+    "spd" : 55
+  },
+  "heldItems" : {
+    "common" : "Poison Barb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 5,
+    "move" : "Knock Off"
+  }, {
+    "level" : 9,
+    "move" : "Pin Missile"
+  }, {
+    "level" : 13,
+    "move" : "Acupressure"
+  }, {
+    "level" : 16,
+    "move" : "Pursuit"
+  }, {
+    "level" : 20,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 23,
+    "move" : "Poison Fang"
+  }, {
+    "level" : 27,
+    "move" : "Venoshock"
+  }, {
+    "level" : 30,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 34,
+    "move" : "Toxic Spikes"
+  }, {
+    "level" : 38,
+    "move" : "Night Slash"
+  }, {
+    "level" : 41,
+    "move" : "Scary Face"
+  }, {
+    "level" : 45,
+    "move" : "Crunch"
+  }, {
+    "level" : 47,
+    "move" : "Fell Stinger"
+  }, {
+    "level" : 49,
+    "move" : "Cross Poison"
+  } ],
+  "eggMoves" : [ "Agility", "Confuse Ray", "Feint Attack", "Iron Tail", "Night Slash", "Poison Tail", "Pursuit", "Sand Attack", "Screech", "Slash", "Twineedle", "Whirlwind" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Brick Break", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Team", "Endure", "Facade", "False Swipe", "Flash", "Fury Cutter", "Hone Claws", "Knock Off", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Rest", "Rock Smash", "Rock Tomb", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snore", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Thief", "Torment", "Toxic", "Venoshock", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "Route113",
+    "bucketKey" : "Land",
+    "area" : "Route 113",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 29,
+    "max" : 33,
+    "slot" : 1
+  }, {
+    "areaKey" : "JaggedPass",
+    "bucketKey" : "Land",
+    "area" : "Jagged Pass",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 31,
+    "max" : 35,
+    "slot" : 4
+  } ]
+}

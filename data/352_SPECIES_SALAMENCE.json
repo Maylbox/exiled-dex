@@ -1,0 +1,160 @@
+{
+  "dex" : 352,
+  "speciesId" : "SPECIES_SALAMENCE",
+  "name" : "Salamence",
+  "types" : [ "Dragon", "Flying" ],
+  "abilities" : [ "Intimidate", "None", "Moxie" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 218,
+  "eggGroups" : [ "Dragon" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.5,
+  "weightKg" : 102.6,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Dragon",
+  "friendship" : 35,
+  "description" : "After many long years, its cellular\nstructure underwent a sudden mutation to\ngrow wings. When angered, it loses all\nthought and rampages out of control.",
+  "preEvolutionId" : "SPECIES_SHELGON",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 135,
+    "def" : 80,
+    "spe" : 100,
+    "spa" : 110,
+    "spd" : 80
+  },
+  "heldItems" : {
+    "common" : "Dragon Fang"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Fly"
+  }, {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Tail"
+  }, {
+    "level" : 1,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Protect"
+  }, {
+    "level" : 1,
+    "move" : "Roost"
+  }, {
+    "level" : 15,
+    "move" : "Headbutt"
+  }, {
+    "level" : 20,
+    "move" : "Scary Face"
+  }, {
+    "level" : 25,
+    "move" : "Crunch"
+  }, {
+    "level" : 33,
+    "move" : "Dragon Claw"
+  }, {
+    "level" : 39,
+    "move" : "Zen Headbutt"
+  }, {
+    "level" : 46,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 55,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 62,
+    "move" : "Floaty Fall"
+  }, {
+    "level" : 66,
+    "move" : "Fire Lash"
+  }, {
+    "level" : 73,
+    "move" : "Double Edge"
+  } ],
+  "eggMoves" : [ "Defense Curl", "Dragon Dance", "Dragon Pulse", "Dragon Rage", "Dragon Rush", "Endure", "Fire Fang", "Hydro Pump", "Thrash", "Twister" ],
+  "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Crunch", "Cut", "Defense Curl", "Defog", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dual Wingbeat", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Fly", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Iron Defense", "Iron Head", "Mud Slap", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Roost", "Shadow Claw", "Sleep Talk", "Snore", "Steel Wing", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder Fang", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 7
+  }, {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_B1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 9
+  }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 9
+  }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_B1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 9
+  }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 8
+  }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 8
+  }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 8
+  } ]
+}

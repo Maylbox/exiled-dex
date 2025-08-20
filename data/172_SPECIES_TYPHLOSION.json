@@ -1,0 +1,113 @@
+{
+  "dex" : 172,
+  "speciesId" : "SPECIES_TYPHLOSION",
+  "name" : "Typhlosion",
+  "types" : [ "Fire", "Ground" ],
+  "abilities" : [ "Blaze", "Flash Fire", "Drought" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.7,
+  "weightKg" : 79.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Yellow",
+  "category" : "Volcano",
+  "friendship" : 70,
+  "description" : "It can hide behind a shimmering heat haze\nthat it creates using its intense flames.\nTyphlosion create blazing explosive\nblasts that burn everything to cinders.",
+  "preEvolutionId" : "SPECIES_QUILAVA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 78,
+    "atk" : 84,
+    "def" : 78,
+    "spe" : 106,
+    "spa" : 119,
+    "spd" : 85
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Double Edge"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Eruption"
+  }, {
+    "level" : 1,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Smokescreen"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Smokescreen"
+  }, {
+    "level" : 10,
+    "move" : "Ember"
+  }, {
+    "level" : 13,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 20,
+    "move" : "Flame Wheel"
+  }, {
+    "level" : 24,
+    "move" : "Scorching Sands"
+  }, {
+    "level" : 35,
+    "move" : "Mystical Fire"
+  }, {
+    "level" : 39,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 43,
+    "move" : "Lava Plume"
+  }, {
+    "level" : 50,
+    "move" : "Slag Shot"
+  }, {
+    "level" : 56,
+    "move" : "Inferno"
+  }, {
+    "level" : 61,
+    "move" : "Rollout"
+  }, {
+    "level" : 69,
+    "move" : "Earth Power"
+  }, {
+    "level" : 72,
+    "move" : "Burn Up"
+  }, {
+    "level" : 74,
+    "move" : "Fiery Dance"
+  }, {
+    "level" : 82,
+    "move" : "Eruption"
+  } ],
+  "eggMoves" : [ "Covet", "Crush Claw", "Double Edge", "Double Kick", "Extrasensory", "Flame Burst", "Flare Blitz", "Foresight", "Fury Swipes", "Howl", "Nature Power", "Quick Attack", "Reversal", "Thrash" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Covet", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Giga Impact", "Gyro Ball", "Hyper Beam", "Iron Head", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Overheat", "Play Rough", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder Punch", "Toxic", "Wild Charge", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
+    "area" : "Scorched Slab0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 51,
+    "max" : 54,
+    "slot" : 4
+  } ]
+}

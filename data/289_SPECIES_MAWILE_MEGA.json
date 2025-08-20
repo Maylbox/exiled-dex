@@ -1,0 +1,102 @@
+{
+  "dex" : 289,
+  "speciesId" : "SPECIES_MAWILE_MEGA",
+  "name" : "Mawile - Mega",
+  "types" : [ "Steel", "Fairy" ],
+  "abilities" : [ "Huge Power", "Huge Power", "Huge Power" ],
+  "evYield" : {
+    "def" : 1,
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 168,
+  "eggGroups" : [ "Field", "Fairy" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 23.5,
+  "growthRate" : "Fast",
+  "color" : "Black",
+  "category" : "Deceiver",
+  "friendship" : 70,
+  "description" : "Its two sets of jaws thrash about\nviolently as if they each had a will of\ntheir own. One gnash from them can turn a\nboulder to dust.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 105,
+    "def" : 125,
+    "spe" : 50,
+    "spa" : 55,
+    "spd" : 95
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Double Iron Bash"
+  }, {
+    "level" : 1,
+    "move" : "Fairy Wind"
+  }, {
+    "level" : 1,
+    "move" : "Iron Head"
+  }, {
+    "level" : 1,
+    "move" : "Play Rough"
+  }, {
+    "level" : 1,
+    "move" : "Taunt"
+  }, {
+    "level" : 5,
+    "move" : "Fake Tears"
+  }, {
+    "level" : 9,
+    "move" : "Bite"
+  }, {
+    "level" : 13,
+    "move" : "Covet"
+  }, {
+    "level" : 17,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 21,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 25,
+    "move" : "Baton Pass"
+  }, {
+    "level" : 29,
+    "move" : "Crunch"
+  }, {
+    "level" : 33,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 37,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 41,
+    "move" : "Spit Up"
+  }, {
+    "level" : 41,
+    "move" : "Stockpile"
+  }, {
+    "level" : 41,
+    "move" : "Swallow"
+  }, {
+    "level" : 45,
+    "move" : "Iron Head"
+  }, {
+    "level" : 49,
+    "move" : "Play Rough"
+  }, {
+    "level" : 69,
+    "move" : "Double Iron Bash"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Captivate", "Fire Fang", "Guard Swap", "Ice Fang", "Metal Burst", "Misty Terrain", "Poison Fang", "Power Up Punch", "Punishment", "Seismic Toss", "Slam", "Sucker Punch", "Thunder Fang", "Tickle" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Charge Beam", "Counter", "Crunch", "Dark Pulse", "Double Edge", "Double Team", "Dynamic Punch", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Fang", "Flamethrower", "Flash Cannon", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Power Up Punch", "Protect", "Psych Up", "Psychic Fangs", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Seismic Toss", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Solar Beam", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Thunder Fang", "Thunder Punch", "Torment", "Toxic" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,80 @@
+{
+  "dex" : 228,
+  "speciesId" : "SPECIES_CURSOLA",
+  "name" : "Cursola",
+  "types" : [ "Ghost", null ],
+  "abilities" : [ "Weak Armor", "None", "Perish Body" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 30,
+  "baseExp" : 179,
+  "eggGroups" : [ "Water 1", "Water 3" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 0.4,
+  "growthRate" : "Fast",
+  "color" : "White",
+  "category" : "Coral",
+  "friendship" : 70,
+  "description" : "Its shell is overflowing with its\nheightened otherworldly energy. The\nectoplasm serves as protection for this\nPokémon's core spirit.",
+  "preEvolutionId" : "SPECIES_CORSOLA_GALARIAN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 95,
+    "def" : 50,
+    "spe" : 30,
+    "spa" : 145,
+    "spd" : 130
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Disable"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Perish Song"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 15,
+    "move" : "Spite"
+  }, {
+    "level" : 20,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 25,
+    "move" : "Hex"
+  }, {
+    "level" : 30,
+    "move" : "Curse"
+  }, {
+    "level" : 35,
+    "move" : "Strength Sap"
+  }, {
+    "level" : 40,
+    "move" : "Power Gem"
+  }, {
+    "level" : 45,
+    "move" : "Night Shade"
+  }, {
+    "level" : 50,
+    "move" : "Grudge"
+  }, {
+    "level" : 55,
+    "move" : "Mirror Coat"
+  } ],
+  "eggMoves" : [ "Confuse Ray", "Destiny Bond", "Haze", "Head Smash", "Nature Power", "Water Pulse" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Calm Mind", "Dig", "Earth Power", "Earthquake", "Endure", "Facade", "Giga Drain", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Leech Life", "Light Screen", "Meteor Beam", "Mirror Coat", "Protect", "Psychic", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Tomb", "Safeguard", "Sandstorm", "Scald", "Shadow Ball", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Surf", "Water Pulse", "Will O Wisp" ],
+  "encounters" : [ ]
+}

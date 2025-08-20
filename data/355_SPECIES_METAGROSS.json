@@ -1,0 +1,127 @@
+{
+  "dex" : 355,
+  "speciesId" : "SPECIES_METAGROSS",
+  "name" : "Metagross",
+  "types" : [ "Steel", "Psychic" ],
+  "abilities" : [ "Clear Body", "Light Metal", "Tough Claws" ],
+  "evYield" : {
+    "def" : 3
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 3,
+  "baseExp" : 210,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.6,
+  "weightKg" : 550.0,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Iron Leg",
+  "friendship" : 35,
+  "description" : "Metagross has four brains that are joined\nby a complex neural network. As a result of\nintegration, this Pokémon is smarter than\na supercomputer.",
+  "preEvolutionId" : "SPECIES_METANG",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 135,
+    "def" : 130,
+    "spe" : 70,
+    "spa" : 95,
+    "spd" : 90
+  },
+  "heldItems" : {
+    "common" : "Metal Coat"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 1,
+    "move" : "Bullet Punch"
+  }, {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Explosion"
+  }, {
+    "level" : 1,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 1,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Zen Headbutt"
+  }, {
+    "level" : 12,
+    "move" : "Magnet Rise"
+  }, {
+    "level" : 16,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 26,
+    "move" : "Take Down"
+  }, {
+    "level" : 34,
+    "move" : "Psychic"
+  }, {
+    "level" : 42,
+    "move" : "Scary Face"
+  }, {
+    "level" : 52,
+    "move" : "Meteor Mash"
+  }, {
+    "level" : 62,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 72,
+    "move" : "Agility"
+  }, {
+    "level" : 82,
+    "move" : "Hyper Beam"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Aerial Ace", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Cut", "Defense Curl", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Explosion", "Facade", "Flash", "Flash Cannon", "Fury Cutter", "Giga Impact", "Grass Knot", "Gyro Ball", "Hone Claws", "Hyper Beam", "Ice Punch", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Light Screen", "Meteor Beam", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psychic Fangs", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder Punch", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 8
+  }, {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_B1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 2
+  }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 2
+  }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_B1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 2
+  } ]
+}

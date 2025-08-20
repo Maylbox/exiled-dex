@@ -1,0 +1,102 @@
+{
+  "dex" : 568,
+  "speciesId" : "SPECIES_GOOMY",
+  "name" : "Goomy",
+  "types" : [ "Dragon", null ],
+  "abilities" : [ "Sap Sipper", "Hydration", "Gooey" ],
+  "evYield" : {
+    "spd" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 60,
+  "eggGroups" : [ "Dragon" ],
+  "hatchSteps" : 10240,
+  "heightM" : 0.3,
+  "weightKg" : 2.8,
+  "growthRate" : "Slow",
+  "color" : "Purple",
+  "category" : "Soft Tissue",
+  "friendship" : 35,
+  "description" : "Its source of protection is its slimy,\ngerm-laden mucous membrane. Anyone\nwho touches it will need some thorough\nhand-washing.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SLIGGOO",
+    "method" : "level",
+    "param" : "35"
+  }, {
+    "toSpeciesId" : "SPECIES_SLIGGOO_HISUIAN",
+    "method" : "item",
+    "param" : "ITEM_METAL_COAT"
+  } ],
+  "baseStats" : {
+    "hp" : 45,
+    "atk" : 50,
+    "def" : 35,
+    "spe" : 40,
+    "spa" : 55,
+    "spd" : 75
+  },
+  "heldItems" : {
+    "common" : "Shed Shell"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Water Gun"
+  }, {
+    "level" : 10,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 15,
+    "move" : "Protect"
+  }, {
+    "level" : 20,
+    "move" : "Flail"
+  }, {
+    "level" : 25,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 30,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 35,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 41,
+    "move" : "Curse"
+  }, {
+    "level" : 45,
+    "move" : "Body Slam"
+  }, {
+    "level" : 50,
+    "move" : "Muddy Water"
+  } ],
+  "eggMoves" : [ "Acid Armor", "Counter", "Curse", "Endure", "Iron Tail", "Poison Tail" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Counter", "Double Team", "Draco Meteor", "Dragon Pulse", "Endure", "Facade", "Protect", "Rain Dance", "Rest", "Rock Slide", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Sunny Day", "Swagger", "Thunderbolt", "Toxic", "Water Pulse" ],
+  "encounters" : [ {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Land",
+    "area" : "Slateport City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 19,
+    "max" : 20,
+    "slot" : 5
+  }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Land",
+    "area" : "Slateport City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 19,
+    "max" : 20,
+    "slot" : 7
+  } ]
+}

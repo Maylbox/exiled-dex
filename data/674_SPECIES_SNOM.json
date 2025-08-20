@@ -1,0 +1,50 @@
+{
+  "dex" : 674,
+  "speciesId" : "SPECIES_SNOM",
+  "name" : "Snom",
+  "types" : [ "Ice", "Bug" ],
+  "abilities" : [ "Shield Dust", "None", "Ice Scales" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 37,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 3.8,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Worm",
+  "friendship" : 70,
+  "description" : "It spits out thread imbued with a frigid\nsort of energy and uses it to tie its body\nto branches, disguising itself as an\nicicle while it sleeps.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_FROSMOTH",
+    "method" : "friendship",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 30,
+    "atk" : 25,
+    "def" : 35,
+    "spe" : 20,
+    "spa" : 45,
+    "spd" : 30
+  },
+  "heldItems" : {
+    "common" : "Snowball"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 1,
+    "move" : "Struggle Bug"
+  } ],
+  "eggMoves" : [ "Bug Bite", "Fairy Wind", "Mirror Coat" ],
+  "teachableMoves" : [ "Attract", "Endure", "Facade", "Icy Wind", "Mirror Coat", "Protect", "Rest", "Sleep Talk", "Snore" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,107 @@
+{
+  "dex" : 325,
+  "speciesId" : "SPECIES_ARMALDO",
+  "name" : "Armaldo",
+  "types" : [ "Rock", "Bug" ],
+  "abilities" : [ "Battle Armor", "None", "Swift Swim" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 200,
+  "eggGroups" : [ "Water 3" ],
+  "hatchSteps" : 7680,
+  "heightM" : 1.5,
+  "weightKg" : 68.2,
+  "growthRate" : "Erratic",
+  "color" : "Gray",
+  "category" : "Plate",
+  "friendship" : 70,
+  "description" : "Armaldo usually lives on land. However,\nwhen it hunts for prey, it dives beneath\nthe ocean. It swims around using its two\nlarge wings.",
+  "preEvolutionId" : "SPECIES_ANORITH",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 125,
+    "def" : 100,
+    "spe" : 45,
+    "spa" : 45,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Pin Missile"
+  }, {
+    "level" : 1,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Pounce"
+  }, {
+    "level" : 1,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 4,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 7,
+    "move" : "Water Gun"
+  }, {
+    "level" : 10,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 13,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 17,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 21,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 25,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 29,
+    "move" : "Brine"
+  }, {
+    "level" : 34,
+    "move" : "Slash"
+  }, {
+    "level" : 39,
+    "move" : "Crush Claw"
+  }, {
+    "level" : 46,
+    "move" : "X Scissor"
+  }, {
+    "level" : 53,
+    "move" : "Protect"
+  }, {
+    "level" : 55,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 58,
+    "move" : "First Impression"
+  }, {
+    "level" : 65,
+    "move" : "Mighty Cleave"
+  } ],
+  "eggMoves" : [ "Aqua Jet", "Cross Poison", "Curse", "Iron Defense", "Knock Off", "Rapid Spin", "Sand Attack", "Screech", "Water Pulse" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Cut", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "False Swipe", "Flash Cannon", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Iron Defense", "Knock Off", "Low Kick", "Meteor Beam", "Mud Slap", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Water Pulse", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "MirageTower_1F",
+    "bucketKey" : "Land",
+    "area" : "Mirage Tower_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 3
+  } ]
+}

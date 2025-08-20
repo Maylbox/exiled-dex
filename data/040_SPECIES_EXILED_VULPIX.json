@@ -1,7 +1,7 @@
 {
   "dex" : 40,
   "speciesId" : "SPECIES_EXILED_VULPIX",
-  "name" : "Vulpix",
+  "name" : "Exiled Vulpix",
   "types" : [ "Psychic", "Fairy" ],
   "abilities" : [ "Kingslayer", "None", "Drought" ],
   "evYield" : {

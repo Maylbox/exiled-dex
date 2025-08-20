@@ -1,0 +1,105 @@
+{
+  "dex" : 342,
+  "speciesId" : "SPECIES_EXILED_SPHEAL",
+  "name" : "Exiled Spheal",
+  "types" : [ "Grass", "Electric" ],
+  "abilities" : [ "Oblivious", "Motor Drive", "Triage" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 39.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Clap",
+  "friendship" : 70,
+  "description" : "It is completely covered with plushy fur.\nAs a result, it never feels the cold even\nwhen it is rolling about on ice floes or\ndiving in the sea.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_SEALEO",
+    "method" : "level",
+    "param" : "32"
+  } ],
+  "baseStats" : {
+    "hp" : 71,
+    "atk" : 19,
+    "def" : 41,
+    "spe" : 57,
+    "spa" : 63,
+    "spd" : 39
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Nuzzle"
+  }, {
+    "level" : 4,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 6,
+    "move" : "Spiky Shield"
+  }, {
+    "level" : 9,
+    "move" : "Flash"
+  }, {
+    "level" : 11,
+    "move" : "Rollout"
+  }, {
+    "level" : 13,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 16,
+    "move" : "Charge Beam"
+  }, {
+    "level" : 20,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 22,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 26,
+    "move" : "Shock Wave"
+  }, {
+    "level" : 29,
+    "move" : "Energy Ball"
+  }, {
+    "level" : 34,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 35,
+    "move" : "Discharge"
+  }, {
+    "level" : 37,
+    "move" : "Apple Acid"
+  }, {
+    "level" : 41,
+    "move" : "Parabolic Charge"
+  }, {
+    "level" : 43,
+    "move" : "Cotton Guard"
+  }, {
+    "level" : 46,
+    "move" : "Thunderclap"
+  }, {
+    "level" : 50,
+    "move" : "Grassy Terrain"
+  }, {
+    "level" : 50,
+    "move" : "Thunder Cage"
+  }, {
+    "level" : 65,
+    "move" : "Seed Flare"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Press", "Calm Mind", "Charge Beam", "Dark Pulse", "Dazzling Gleam", "Dive", "Earth Power", "Electroweb", "Energy Ball", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Hidden Power", "Ice Beam", "Icicle Crash", "Iron Defense", "Light Screen", "Meteor Beam", "Protect", "Psyshock", "Return", "Rock Smash", "Safeguard", "Scald", "Shock Wave", "Sludge Wave", "Solar Beam", "Strength", "Substitute", "Surf", "Thunder", "Thunder Fang", "Thunder Wave", "Thunderbolt", "Trick Room", "Venoshock", "Volt Switch", "Volt Tackle", "Waterfall", "Wild Charge" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,92 @@
+{
+  "dex" : 200,
+  "speciesId" : "SPECIES_QUAGSIRE",
+  "name" : "Quagsire",
+  "types" : [ "Water", "Ground" ],
+  "abilities" : [ "Damp", "Water Absorb", "Unaware" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.4,
+  "weightKg" : 75.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Water Fish",
+  "friendship" : 70,
+  "description" : "A Quagsire hunts by leaving its mouth wide\nopen in water and waiting for its prey to\nblunder in. Because it doesn't move, it\ndoes not get very hungry.",
+  "preEvolutionId" : "SPECIES_WOOPER",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 85,
+    "def" : 85,
+    "spe" : 35,
+    "spa" : 65,
+    "spd" : 70
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 1,
+    "move" : "Recover"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 5,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 9,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 15,
+    "move" : "Slam"
+  }, {
+    "level" : 19,
+    "move" : "Mud Bomb"
+  }, {
+    "level" : 24,
+    "move" : "Amnesia"
+  }, {
+    "level" : 31,
+    "move" : "Yawn"
+  }, {
+    "level" : 36,
+    "move" : "Earthquake"
+  }, {
+    "level" : 41,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 48,
+    "move" : "Haze"
+  }, {
+    "level" : 48,
+    "move" : "Mist"
+  }, {
+    "level" : 53,
+    "move" : "Muddy Water"
+  } ],
+  "eggMoves" : [ "Acid Spray", "After You", "Ancient Power", "Body Slam", "Counter", "Curse", "Double Kick", "Eerie Impulse", "Encore", "Guard Swap", "Mud Sport", "Power Up Punch", "Recover", "Sleep Talk", "Spit Up", "Stockpile", "Swallow" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Flash", "Focus Blast", "Giga Impact", "High Horsepower", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Safeguard", "Sandstorm", "Scald", "Seismic Toss", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Snowscape", "Stealth Rock", "Stone Edge", "Strength", "Surf", "Swagger", "Thief", "Toxic", "Trailblaze", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "SafariZone_Southeast",
+    "bucketKey" : "Water",
+    "area" : "Safari Zone_Southeast",
+    "bucket" : "Water",
+    "rateBase" : 9,
+    "min" : 35,
+    "max" : 40,
+    "slot" : 4
+  } ]
+}

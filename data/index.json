@@ -113,7 +113,7 @@
 }, {
   "dex" : 10,
   "speciesId" : "SPECIES_EXILED_CATERPIE",
-  "name" : "Caterpie",
+  "name" : "Exiled Caterpie",
   "types" : [ "Normal", "Steel" ],
   "abilities" : [ "Shield Dust", "Anticipation", "Run Away" ],
   "color" : "Green",
@@ -121,7 +121,7 @@
 }, {
   "dex" : 11,
   "speciesId" : "SPECIES_EXILED_METAPOD",
-  "name" : "Metapod",
+  "name" : "Exiled Metapod",
   "types" : [ "Normal", "Steel" ],
   "abilities" : [ "Shed Skin", "None", "None" ],
   "color" : "Green",
@@ -145,7 +145,7 @@
 }, {
   "dex" : 12,
   "speciesId" : "SPECIES_EXILED_BUTTERFREE",
-  "name" : "Butterfree",
+  "name" : "Exiled Butterfree",
   "types" : [ "Normal", "Steel" ],
   "abilities" : [ "Levitate", "Technician", "Tinted Lens" ],
   "color" : "White",
@@ -439,6 +439,30 @@
   "color" : "Blue",
   "file" : "028_SPECIES_SANDSLASH_ALOLAN.json"
 }, {
+  "dex" : 29,
+  "speciesId" : "SPECIES_EXILED_NIDORAN_F",
+  "name" : "Exiled Nidoran♀",
+  "types" : [ "Psychic", null ],
+  "abilities" : [ "Synchronize", "Marvel Scale", "Serene Grace" ],
+  "color" : "Blue",
+  "file" : "029_SPECIES_EXILED_NIDORAN_F.json"
+}, {
+  "dex" : 29,
+  "speciesId" : "SPECIES_NIDORAN_F",
+  "name" : "Nidoran♀",
+  "types" : [ "Poison", null ],
+  "abilities" : [ "Poison Point", "Rivalry", "Hustle" ],
+  "color" : "Blue",
+  "file" : "029_SPECIES_NIDORAN_F.json"
+}, {
+  "dex" : 30,
+  "speciesId" : "SPECIES_EXILED_NIDORINA",
+  "name" : "Exiled Nidorina",
+  "types" : [ "Psychic", null ],
+  "abilities" : [ "Synchronize", "Marvel Scale", "Serene Grace" ],
+  "color" : "Blue",
+  "file" : "030_SPECIES_EXILED_NIDORINA.json"
+}, {
   "dex" : 30,
   "speciesId" : "SPECIES_NIDORINA",
   "name" : "Nidorina",
@@ -448,12 +472,28 @@
   "file" : "030_SPECIES_NIDORINA.json"
 }, {
   "dex" : 31,
+  "speciesId" : "SPECIES_EXILED_NIDOQUEEN",
+  "name" : "Exiled Nidoqueen",
+  "types" : [ "Psychic", "Ground" ],
+  "abilities" : [ "Synchronize", "Marvel Scale", "Serene Grace" ],
+  "color" : "Blue",
+  "file" : "031_SPECIES_EXILED_NIDOQUEEN.json"
+}, {
+  "dex" : 31,
   "speciesId" : "SPECIES_NIDOQUEEN",
   "name" : "Nidoqueen",
   "types" : [ "Poison", "Ground" ],
   "abilities" : [ "Poison Point", "Marvel Scale", "Sheer Force" ],
   "color" : "Blue",
   "file" : "031_SPECIES_NIDOQUEEN.json"
+}, {
+  "dex" : 32,
+  "speciesId" : "SPECIES_NIDORAN_M",
+  "name" : "Nidoran♂",
+  "types" : [ "Poison", null ],
+  "abilities" : [ "Poison Point", "Rivalry", "Hustle" ],
+  "color" : "Purple",
+  "file" : "032_SPECIES_NIDORAN_M.json"
 }, {
   "dex" : 33,
   "speciesId" : "SPECIES_NIDORINO",
@@ -497,7 +537,7 @@
 }, {
   "dex" : 40,
   "speciesId" : "SPECIES_EXILED_VULPIX",
-  "name" : "Vulpix",
+  "name" : "Exiled Vulpix",
   "types" : [ "Psychic", "Fairy" ],
   "abilities" : [ "Kingslayer", "None", "Drought" ],
   "color" : "Brown",
@@ -521,7 +561,7 @@
 }, {
   "dex" : 41,
   "speciesId" : "SPECIES_EXILED_NINETALES",
-  "name" : "Ninetales",
+  "name" : "Exiled Ninetales",
   "types" : [ "Psychic", "Fairy" ],
   "abilities" : [ "Flash Fire", "None", "Drought" ],
   "color" : "Yellow",
@@ -745,7 +785,7 @@
 }, {
   "dex" : 63,
   "speciesId" : "SPECIES_EXILED_ABRA",
-  "name" : "Abra",
+  "name" : "Exiled Abra",
   "types" : [ "Psychic", "Ice" ],
   "abilities" : [ "Ice Body", "Inner Focus", "Magic Guard" ],
   "color" : "Brown",
@@ -753,7 +793,7 @@
 }, {
   "dex" : 64,
   "speciesId" : "SPECIES_EXILED_KADABRA",
-  "name" : "Kadabra",
+  "name" : "Exiled Kadabra",
   "types" : [ "Psychic", "Ice" ],
   "abilities" : [ "Ice Body", "Inner Focus", "Magic Guard" ],
   "color" : "Brown",
@@ -785,7 +825,7 @@
 }, {
   "dex" : 65,
   "speciesId" : "SPECIES_EXILED_ALAKAZAM",
-  "name" : "Alakazam",
+  "name" : "Exiled Alakazam",
   "types" : [ "Psychic", "Ice" ],
   "abilities" : [ "Ice Body", "Snow Warning", "Magic Guard" ],
   "color" : "Brown",
@@ -793,7 +833,7 @@
 }, {
   "dex" : 66,
   "speciesId" : "SPECIES_EXILED_MACHOP",
-  "name" : "Machop",
+  "name" : "Exiled Machop",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Harvest", "Seed Sower" ],
   "color" : "Green",
@@ -809,7 +849,7 @@
 }, {
   "dex" : 67,
   "speciesId" : "SPECIES_EXILED_MACHOKE",
-  "name" : "Machoke",
+  "name" : "Exiled Machoke",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Harvest", "Seed Sower" ],
   "color" : "Gray",
@@ -825,7 +865,7 @@
 }, {
   "dex" : 68,
   "speciesId" : "SPECIES_EXILED_MACHAMP",
-  "name" : "Machamp",
+  "name" : "Exiled Machamp",
   "types" : [ "Grass", "Fighting" ],
   "abilities" : [ "Overgrow", "Harvest", "Seed Sower" ],
   "color" : "Gray",
@@ -1017,7 +1057,7 @@
 }, {
   "dex" : 86,
   "speciesId" : "SPECIES_EXILED_DODUO",
-  "name" : "Doduo",
+  "name" : "Exiled Doduo",
   "types" : [ "Ghost", "Flying" ],
   "abilities" : [ "Run Away", "Cursed Body", "Perish Body" ],
   "color" : "Brown",
@@ -1033,7 +1073,7 @@
 }, {
   "dex" : 87,
   "speciesId" : "SPECIES_EXILED_DODRIO",
-  "name" : "Dodrio",
+  "name" : "Exiled Dodrio",
   "types" : [ "Ghost", "Flying" ],
   "abilities" : [ "Run Away", "Cursed Body", "Perish Body" ],
   "color" : "Brown",
@@ -1207,349 +1247,365 @@
   "color" : "Purple",
   "file" : "102_SPECIES_KOFFING.json"
 }, {
-  "dex" : 104,
+  "dex" : 103,
   "speciesId" : "SPECIES_WEEZING",
   "name" : "Weezing",
   "types" : [ "Poison", null ],
   "abilities" : [ "Levitate", "Neutralizing Gas", "Stench" ],
   "color" : "Purple",
-  "file" : "104_SPECIES_WEEZING.json"
+  "file" : "103_SPECIES_WEEZING.json"
 }, {
-  "dex" : 104,
+  "dex" : 103,
   "speciesId" : "SPECIES_WEEZING_GALARIAN",
   "name" : "Weezing",
   "types" : [ "Poison", "Fairy" ],
   "abilities" : [ "Levitate", "Neutralizing Gas", "Misty Surge" ],
   "color" : "Gray",
-  "file" : "104_SPECIES_WEEZING_GALARIAN.json"
+  "file" : "103_SPECIES_WEEZING_GALARIAN.json"
 }, {
-  "dex" : 105,
+  "dex" : 104,
   "speciesId" : "SPECIES_RHYHORN",
   "name" : "Rhyhorn",
   "types" : [ "Ground", "Rock" ],
   "abilities" : [ "Lightning Rod", "Rock Head", "Reckless" ],
   "color" : "Gray",
-  "file" : "105_SPECIES_RHYHORN.json"
+  "file" : "104_SPECIES_RHYHORN.json"
 }, {
-  "dex" : 106,
+  "dex" : 105,
   "speciesId" : "SPECIES_RHYDON",
   "name" : "Rhydon",
   "types" : [ "Ground", "Rock" ],
   "abilities" : [ "Filter", "Rock Head", "Reckless" ],
   "color" : "Gray",
-  "file" : "106_SPECIES_RHYDON.json"
+  "file" : "105_SPECIES_RHYDON.json"
 }, {
-  "dex" : 107,
+  "dex" : 106,
   "speciesId" : "SPECIES_RHYPERIOR",
   "name" : "Rhyperior",
   "types" : [ "Ground", "Rock" ],
   "abilities" : [ "Filter", "Solid Rock", "Reckless" ],
   "color" : "Gray",
-  "file" : "107_SPECIES_RHYPERIOR.json"
+  "file" : "106_SPECIES_RHYPERIOR.json"
 }, {
-  "dex" : 108,
+  "dex" : 107,
   "speciesId" : "SPECIES_HAPPINY",
   "name" : "Happiny",
   "types" : [ "Normal", null ],
   "abilities" : [ "Natural Cure", "Serene Grace", "Friend Guard" ],
   "color" : "Pink",
-  "file" : "108_SPECIES_HAPPINY.json"
+  "file" : "107_SPECIES_HAPPINY.json"
 }, {
-  "dex" : 109,
+  "dex" : 108,
   "speciesId" : "SPECIES_CHANSEY",
   "name" : "Chansey",
   "types" : [ "Normal", null ],
   "abilities" : [ "Natural Cure", "Serene Grace", "Healer" ],
   "color" : "Pink",
-  "file" : "109_SPECIES_CHANSEY.json"
+  "file" : "108_SPECIES_CHANSEY.json"
 }, {
-  "dex" : 110,
+  "dex" : 109,
   "speciesId" : "SPECIES_BLISSEY",
   "name" : "Blissey",
   "types" : [ "Normal", null ],
   "abilities" : [ "Natural Cure", "Serene Grace", "Healer" ],
   "color" : "Pink",
-  "file" : "110_SPECIES_BLISSEY.json"
+  "file" : "109_SPECIES_BLISSEY.json"
 }, {
-  "dex" : 111,
+  "dex" : 110,
   "speciesId" : "SPECIES_TANGELA",
   "name" : "Tangela",
   "types" : [ "Grass", null ],
   "abilities" : [ "Chlorophyll", "Leaf Guard", "Regenerator" ],
   "color" : "Blue",
-  "file" : "111_SPECIES_TANGELA.json"
+  "file" : "110_SPECIES_TANGELA.json"
 }, {
-  "dex" : 112,
+  "dex" : 111,
   "speciesId" : "SPECIES_TANGROWTH",
   "name" : "Tangrowth",
   "types" : [ "Grass", null ],
   "abilities" : [ "Chlorophyll", "Leaf Guard", "Regenerator" ],
   "color" : "Blue",
-  "file" : "112_SPECIES_TANGROWTH.json"
+  "file" : "111_SPECIES_TANGROWTH.json"
 }, {
-  "dex" : 113,
+  "dex" : 112,
   "speciesId" : "SPECIES_KANGASKHAN",
   "name" : "Kangaskhan",
   "types" : [ "Normal", null ],
   "abilities" : [ "Early Bird", "Scrappy", "Inner Focus" ],
   "color" : "Brown",
-  "file" : "113_SPECIES_KANGASKHAN.json"
+  "file" : "112_SPECIES_KANGASKHAN.json"
 }, {
-  "dex" : 113,
+  "dex" : 112,
   "speciesId" : "SPECIES_KANGASKHAN_MEGA",
   "name" : "Kangaskhan - Mega",
   "types" : [ "Normal", null ],
   "abilities" : [ "Parental Bond", "Parental Bond", "Parental Bond" ],
   "color" : "Brown",
-  "file" : "113_SPECIES_KANGASKHAN_MEGA.json"
+  "file" : "112_SPECIES_KANGASKHAN_MEGA.json"
 }, {
-  "dex" : 114,
+  "dex" : 113,
   "speciesId" : "SPECIES_HORSEA",
   "name" : "Horsea",
   "types" : [ "Water", null ],
   "abilities" : [ "Swift Swim", "Sniper", "Damp" ],
   "color" : "Blue",
-  "file" : "114_SPECIES_HORSEA.json"
+  "file" : "113_SPECIES_HORSEA.json"
 }, {
-  "dex" : 115,
+  "dex" : 114,
   "speciesId" : "SPECIES_SEADRA",
   "name" : "Seadra",
   "types" : [ "Water", null ],
   "abilities" : [ "Poison Point", "Sniper", "Damp" ],
   "color" : "Blue",
-  "file" : "115_SPECIES_SEADRA.json"
+  "file" : "114_SPECIES_SEADRA.json"
 }, {
-  "dex" : 116,
+  "dex" : 115,
   "speciesId" : "SPECIES_KINGDRA",
   "name" : "Kingdra",
   "types" : [ "Water", "Dragon" ],
   "abilities" : [ "Swift Swim", "Sniper", "Damp" ],
   "color" : "Blue",
-  "file" : "116_SPECIES_KINGDRA.json"
+  "file" : "115_SPECIES_KINGDRA.json"
 }, {
-  "dex" : 117,
+  "dex" : 116,
   "speciesId" : "SPECIES_STARYU",
   "name" : "Staryu",
   "types" : [ "Water", null ],
   "abilities" : [ "Illuminate", "Natural Cure", "Analytic" ],
   "color" : "Brown",
-  "file" : "117_SPECIES_STARYU.json"
+  "file" : "116_SPECIES_STARYU.json"
 }, {
-  "dex" : 118,
+  "dex" : 117,
   "speciesId" : "SPECIES_STARMIE",
   "name" : "Starmie",
   "types" : [ "Water", "Psychic" ],
   "abilities" : [ "Illuminate", "Regenerator", "Adaptability" ],
   "color" : "Purple",
-  "file" : "118_SPECIES_STARMIE.json"
+  "file" : "117_SPECIES_STARMIE.json"
 }, {
-  "dex" : 119,
+  "dex" : 118,
   "speciesId" : "SPECIES_SCYTHER",
   "name" : "Scyther",
   "types" : [ "Bug", "Flying" ],
   "abilities" : [ "Swarm", "Technician", "Steadfast" ],
   "color" : "Green",
-  "file" : "119_SPECIES_SCYTHER.json"
+  "file" : "118_SPECIES_SCYTHER.json"
 }, {
-  "dex" : 120,
+  "dex" : 119,
   "speciesId" : "SPECIES_SCIZOR",
   "name" : "Scizor",
   "types" : [ "Bug", "Steel" ],
   "abilities" : [ "Swarm", "Technician", "Light Metal" ],
   "color" : "Red",
-  "file" : "120_SPECIES_SCIZOR.json"
+  "file" : "119_SPECIES_SCIZOR.json"
 }, {
-  "dex" : 120,
+  "dex" : 119,
   "speciesId" : "SPECIES_SCIZOR_MEGA",
   "name" : "Scizor - Mega",
   "types" : [ "Bug", "Steel" ],
   "abilities" : [ "Technician", "Technician", "Technician" ],
   "color" : "Red",
-  "file" : "120_SPECIES_SCIZOR_MEGA.json"
+  "file" : "119_SPECIES_SCIZOR_MEGA.json"
 }, {
-  "dex" : 121,
+  "dex" : 120,
   "speciesId" : "SPECIES_KLEAVOR",
   "name" : "Kleavor",
   "types" : [ "Bug", "Rock" ],
   "abilities" : [ "Swarm", "Sheer Force", "Sharpness" ],
   "color" : "Brown",
-  "file" : "121_SPECIES_KLEAVOR.json"
+  "file" : "120_SPECIES_KLEAVOR.json"
 }, {
-  "dex" : 122,
+  "dex" : 121,
   "speciesId" : "SPECIES_ELEKID",
   "name" : "Elekid",
   "types" : [ "Electric", null ],
   "abilities" : [ "Static", "None", "Vital Spirit" ],
   "color" : "Yellow",
-  "file" : "122_SPECIES_ELEKID.json"
+  "file" : "121_SPECIES_ELEKID.json"
 }, {
-  "dex" : 123,
+  "dex" : 122,
   "speciesId" : "SPECIES_ELECTABUZZ",
   "name" : "Electabuzz",
   "types" : [ "Electric", "Fighting" ],
   "abilities" : [ "Static", "Iron Fist", "Vital Spirit" ],
   "color" : "Yellow",
-  "file" : "123_SPECIES_ELECTABUZZ.json"
+  "file" : "122_SPECIES_ELECTABUZZ.json"
 }, {
-  "dex" : 124,
+  "dex" : 123,
   "speciesId" : "SPECIES_ELECTIVIRE",
   "name" : "Electivire",
   "types" : [ "Electric", "Fighting" ],
   "abilities" : [ "Motor Drive", "Iron Fist", "Vital Spirit" ],
   "color" : "Yellow",
-  "file" : "124_SPECIES_ELECTIVIRE.json"
+  "file" : "123_SPECIES_ELECTIVIRE.json"
 }, {
-  "dex" : 125,
+  "dex" : 124,
   "speciesId" : "SPECIES_MAGBY",
   "name" : "Magby",
   "types" : [ "Fire", null ],
   "abilities" : [ "Flame Body", "None", "Vital Spirit" ],
   "color" : "Red",
-  "file" : "125_SPECIES_MAGBY.json"
+  "file" : "124_SPECIES_MAGBY.json"
 }, {
-  "dex" : 126,
+  "dex" : 125,
   "speciesId" : "SPECIES_MAGMAR",
   "name" : "Magmar",
   "types" : [ "Fire", null ],
   "abilities" : [ "Flame Body", "None", "Vital Spirit" ],
   "color" : "Red",
-  "file" : "126_SPECIES_MAGMAR.json"
+  "file" : "125_SPECIES_MAGMAR.json"
 }, {
-  "dex" : 127,
+  "dex" : 126,
   "speciesId" : "SPECIES_MAGMORTAR",
   "name" : "Magmortar",
   "types" : [ "Fire", null ],
   "abilities" : [ "Flame Body", "None", "Mega Launcher" ],
   "color" : "Red",
-  "file" : "127_SPECIES_MAGMORTAR.json"
+  "file" : "126_SPECIES_MAGMORTAR.json"
 }, {
-  "dex" : 128,
+  "dex" : 127,
   "speciesId" : "SPECIES_PINSIR",
   "name" : "Pinsir",
   "types" : [ "Bug", "Dark" ],
   "abilities" : [ "Hyper Cutter", "Mold Breaker", "Moxie" ],
   "color" : "Brown",
-  "file" : "128_SPECIES_PINSIR.json"
+  "file" : "127_SPECIES_PINSIR.json"
 }, {
-  "dex" : 128,
+  "dex" : 127,
   "speciesId" : "SPECIES_PINSIR_MEGA",
   "name" : "Pinsir - Mega",
   "types" : [ "Bug", "Flying" ],
   "abilities" : [ "Aerilate", "Aerilate", "Aerilate" ],
   "color" : "Brown",
-  "file" : "128_SPECIES_PINSIR_MEGA.json"
+  "file" : "127_SPECIES_PINSIR_MEGA.json"
 }, {
-  "dex" : 129,
+  "dex" : 128,
   "speciesId" : "SPECIES_MAGIKARP",
   "name" : "Magikarp",
   "types" : [ "Water", null ],
   "abilities" : [ "Swift Swim", "None", "Rattled" ],
   "color" : "Red",
-  "file" : "129_SPECIES_MAGIKARP.json"
+  "file" : "128_SPECIES_MAGIKARP.json"
 }, {
-  "dex" : 130,
+  "dex" : 129,
   "speciesId" : "SPECIES_GYARADOS",
   "name" : "Gyarados",
   "types" : [ "Water", "Flying" ],
   "abilities" : [ "Intimidate", "None", "Moxie" ],
   "color" : "Blue",
-  "file" : "130_SPECIES_GYARADOS.json"
+  "file" : "129_SPECIES_GYARADOS.json"
 }, {
-  "dex" : 130,
+  "dex" : 129,
   "speciesId" : "SPECIES_GYARADOS_MEGA",
   "name" : "Gyarados - Mega",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Mold Breaker", "Mold Breaker", "Mold Breaker" ],
   "color" : "Blue",
-  "file" : "130_SPECIES_GYARADOS_MEGA.json"
+  "file" : "129_SPECIES_GYARADOS_MEGA.json"
 }, {
-  "dex" : 132,
+  "dex" : 131,
   "speciesId" : "SPECIES_EEVEE",
   "name" : "Eevee",
   "types" : [ "Normal", null ],
   "abilities" : [ "Run Away", "Adaptability", "Anticipation" ],
   "color" : "Brown",
-  "file" : "132_SPECIES_EEVEE.json"
+  "file" : "131_SPECIES_EEVEE.json"
 }, {
-  "dex" : 132,
+  "dex" : 131,
   "speciesId" : "SPECIES_EEVEE_PARTNER",
   "name" : "Eevee",
   "types" : [ "Normal", null ],
   "abilities" : [ "Run Away", "Adaptability", "Anticipation" ],
   "color" : "Brown",
-  "file" : "132_SPECIES_EEVEE_PARTNER.json"
+  "file" : "131_SPECIES_EEVEE_PARTNER.json"
 }, {
-  "dex" : 133,
+  "dex" : 132,
   "speciesId" : "SPECIES_VAPOREON",
   "name" : "Vaporeon",
   "types" : [ "Water", null ],
   "abilities" : [ "Water Absorb", "Analytic", "Water Bubble" ],
   "color" : "Blue",
-  "file" : "133_SPECIES_VAPOREON.json"
+  "file" : "132_SPECIES_VAPOREON.json"
 }, {
-  "dex" : 134,
+  "dex" : 133,
   "speciesId" : "SPECIES_JOLTEON",
   "name" : "Jolteon",
   "types" : [ "Electric", null ],
   "abilities" : [ "Volt Absorb", "Motor Drive", "Transistor" ],
   "color" : "Yellow",
-  "file" : "134_SPECIES_JOLTEON.json"
+  "file" : "133_SPECIES_JOLTEON.json"
 }, {
-  "dex" : 135,
+  "dex" : 134,
   "speciesId" : "SPECIES_FLAREON",
   "name" : "Flareon",
   "types" : [ "Fire", null ],
   "abilities" : [ "Flash Fire", "Guts", "Thermal Exchange" ],
   "color" : "Red",
-  "file" : "135_SPECIES_FLAREON.json"
+  "file" : "134_SPECIES_FLAREON.json"
 }, {
-  "dex" : 136,
+  "dex" : 135,
   "speciesId" : "SPECIES_ESPEON",
   "name" : "Espeon",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Synchronize", "Dazzling", "Magic Bounce" ],
   "color" : "Purple",
-  "file" : "136_SPECIES_ESPEON.json"
+  "file" : "135_SPECIES_ESPEON.json"
 }, {
-  "dex" : 137,
+  "dex" : 136,
   "speciesId" : "SPECIES_UMBREON",
   "name" : "Umbreon",
   "types" : [ "Dark", null ],
   "abilities" : [ "Poison Heal", "Regenerator", "Intimidate" ],
   "color" : "Black",
-  "file" : "137_SPECIES_UMBREON.json"
+  "file" : "136_SPECIES_UMBREON.json"
 }, {
-  "dex" : 138,
+  "dex" : 137,
   "speciesId" : "SPECIES_LEAFEON",
   "name" : "Leafeon",
   "types" : [ "Grass", null ],
   "abilities" : [ "Leaf Guard", "Chlorophyll", "Protosynthesis" ],
   "color" : "Green",
-  "file" : "138_SPECIES_LEAFEON.json"
+  "file" : "137_SPECIES_LEAFEON.json"
 }, {
-  "dex" : 139,
+  "dex" : 138,
   "speciesId" : "SPECIES_GLACEON",
   "name" : "Glaceon",
   "types" : [ "Ice", null ],
   "abilities" : [ "Snow Cloak", "Slush Rush", "Ice Scales" ],
   "color" : "Blue",
-  "file" : "139_SPECIES_GLACEON.json"
+  "file" : "138_SPECIES_GLACEON.json"
 }, {
-  "dex" : 140,
+  "dex" : 139,
   "speciesId" : "SPECIES_SYLVEON",
   "name" : "Sylveon",
   "types" : [ "Fairy", null ],
   "abilities" : [ "Cute Charm", "Serene Grace", "Pixilate" ],
   "color" : "Pink",
-  "file" : "140_SPECIES_SYLVEON.json"
+  "file" : "139_SPECIES_SYLVEON.json"
 }, {
-  "dex" : 141,
+  "dex" : 140,
   "speciesId" : "SPECIES_PORYGON",
   "name" : "Porygon",
   "types" : [ "Normal", null ],
   "abilities" : [ "Trace", "Download", "Analytic" ],
   "color" : "Pink",
-  "file" : "141_SPECIES_PORYGON.json"
+  "file" : "140_SPECIES_PORYGON.json"
+}, {
+  "dex" : 141,
+  "speciesId" : "SPECIES_PORYGON2",
+  "name" : "Porygon2",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Trace", "Download", "Analytic" ],
+  "color" : "Red",
+  "file" : "141_SPECIES_PORYGON2.json"
+}, {
+  "dex" : 142,
+  "speciesId" : "SPECIES_PORYGON_Z",
+  "name" : "Porygon-Z",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Adaptability", "Download", "Analytic" ],
+  "color" : "Red",
+  "file" : "142_SPECIES_PORYGON_Z.json"
 }, {
   "dex" : 143,
   "speciesId" : "SPECIES_OMANYTE",
@@ -1608,4796 +1664,4828 @@
   "file" : "148_SPECIES_MUNCHLAX.json"
 }, {
   "dex" : 149,
+  "speciesId" : "SPECIES_SNORLAX",
+  "name" : "Snorlax",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Fluffy", "Thick Fat", "Gluttony" ],
+  "color" : "Black",
+  "file" : "149_SPECIES_SNORLAX.json"
+}, {
+  "dex" : 150,
   "speciesId" : "SPECIES_DRATINI",
   "name" : "Dratini",
   "types" : [ "Dragon", null ],
   "abilities" : [ "Shed Skin", "None", "Marvel Scale" ],
   "color" : "Blue",
-  "file" : "149_SPECIES_DRATINI.json"
+  "file" : "150_SPECIES_DRATINI.json"
 }, {
-  "dex" : 150,
+  "dex" : 151,
   "speciesId" : "SPECIES_DRAGONAIR",
   "name" : "Dragonair",
   "types" : [ "Dragon", null ],
   "abilities" : [ "Shed Skin", "None", "Marvel Scale" ],
   "color" : "Blue",
-  "file" : "150_SPECIES_DRAGONAIR.json"
+  "file" : "151_SPECIES_DRAGONAIR.json"
 }, {
-  "dex" : 151,
+  "dex" : 152,
   "speciesId" : "SPECIES_DRAGONITE",
   "name" : "Dragonite",
   "types" : [ "Dragon", "Flying" ],
   "abilities" : [ "Inner Focus", "None", "Multiscale" ],
   "color" : "Brown",
-  "file" : "151_SPECIES_DRAGONITE.json"
+  "file" : "152_SPECIES_DRAGONITE.json"
 }, {
-  "dex" : 161,
-  "speciesId" : "SPECIES_EXILED_NIDORINA",
-  "name" : "Nidorine",
-  "types" : [ "Psychic", null ],
-  "abilities" : [ "Synchronize", "Marvel Scale", "Serene Grace" ],
-  "color" : "Blue",
-  "file" : "161_SPECIES_EXILED_NIDORINA.json"
-}, {
-  "dex" : 162,
-  "speciesId" : "SPECIES_EXILED_NIDOQUEEN",
-  "name" : "Nidoreign",
-  "types" : [ "Psychic", "Ground" ],
-  "abilities" : [ "Synchronize", "Marvel Scale", "Serene Grace" ],
-  "color" : "Blue",
-  "file" : "162_SPECIES_EXILED_NIDOQUEEN.json"
-}, {
-  "dex" : 166,
+  "dex" : 167,
   "speciesId" : "SPECIES_CHIKORITA",
   "name" : "Chikorita",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Leaf Guard", "Triage" ],
   "color" : "Green",
-  "file" : "166_SPECIES_CHIKORITA.json"
+  "file" : "167_SPECIES_CHIKORITA.json"
 }, {
-  "dex" : 167,
+  "dex" : 168,
   "speciesId" : "SPECIES_BAYLEEF",
   "name" : "Bayleef",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Leaf Guard", "Triage" ],
   "color" : "Green",
-  "file" : "167_SPECIES_BAYLEEF.json"
+  "file" : "168_SPECIES_BAYLEEF.json"
 }, {
-  "dex" : 168,
+  "dex" : 169,
   "speciesId" : "SPECIES_CYNDAQUIL",
   "name" : "Cyndaquil",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "Flash Fire", "Drought" ],
   "color" : "Yellow",
-  "file" : "168_SPECIES_CYNDAQUIL.json"
+  "file" : "169_SPECIES_CYNDAQUIL.json"
 }, {
-  "dex" : 169,
+  "dex" : 170,
   "speciesId" : "SPECIES_QUILAVA",
   "name" : "Quilava",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "Flash Fire", "Drought" ],
   "color" : "Yellow",
-  "file" : "169_SPECIES_QUILAVA.json"
+  "file" : "170_SPECIES_QUILAVA.json"
 }, {
-  "dex" : 171,
+  "dex" : 172,
   "speciesId" : "SPECIES_TYPHLOSION",
   "name" : "Typhlosion",
   "types" : [ "Fire", "Ground" ],
   "abilities" : [ "Blaze", "Flash Fire", "Drought" ],
   "color" : "Yellow",
-  "file" : "171_SPECIES_TYPHLOSION.json"
+  "file" : "172_SPECIES_TYPHLOSION.json"
 }, {
-  "dex" : 171,
+  "dex" : 172,
   "speciesId" : "SPECIES_TYPHLOSION_HISUIAN",
   "name" : "Typhlosion",
   "types" : [ "Fire", "Ghost" ],
   "abilities" : [ "Blaze", "Flash Fire", "Drought" ],
   "color" : "Yellow",
-  "file" : "171_SPECIES_TYPHLOSION_HISUIAN.json"
+  "file" : "172_SPECIES_TYPHLOSION_HISUIAN.json"
 }, {
-  "dex" : 172,
+  "dex" : 173,
   "speciesId" : "SPECIES_TOTODILE",
   "name" : "Totodile",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Strong Jaw", "Sheer Force" ],
   "color" : "Blue",
-  "file" : "172_SPECIES_TOTODILE.json"
+  "file" : "173_SPECIES_TOTODILE.json"
 }, {
-  "dex" : 173,
+  "dex" : 174,
   "speciesId" : "SPECIES_CROCONAW",
   "name" : "Croconaw",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Strong Jaw", "Sheer Force" ],
   "color" : "Blue",
-  "file" : "173_SPECIES_CROCONAW.json"
+  "file" : "174_SPECIES_CROCONAW.json"
 }, {
-  "dex" : 174,
+  "dex" : 175,
   "speciesId" : "SPECIES_FERALIGATR",
   "name" : "Feraligatr",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Torrent", "Strong Jaw", "Sheer Force" ],
   "color" : "Blue",
-  "file" : "174_SPECIES_FERALIGATR.json"
+  "file" : "175_SPECIES_FERALIGATR.json"
 }, {
-  "dex" : 175,
+  "dex" : 176,
   "speciesId" : "SPECIES_SENTRET",
   "name" : "Sentret",
   "types" : [ "Normal", null ],
   "abilities" : [ "Run Away", "Keen Eye", "Frisk" ],
   "color" : "Brown",
-  "file" : "175_SPECIES_SENTRET.json"
+  "file" : "176_SPECIES_SENTRET.json"
 }, {
-  "dex" : 176,
+  "dex" : 177,
   "speciesId" : "SPECIES_FURRET",
   "name" : "Furret",
   "types" : [ "Normal", null ],
   "abilities" : [ "Fluffy", "Simple", "Frisk" ],
   "color" : "Brown",
-  "file" : "176_SPECIES_FURRET.json"
+  "file" : "177_SPECIES_FURRET.json"
 }, {
-  "dex" : 177,
+  "dex" : 178,
   "speciesId" : "SPECIES_LEDYBA",
   "name" : "Ledyba",
   "types" : [ "Bug", "Flying" ],
   "abilities" : [ "Swarm", "Early Bird", "Rattled" ],
   "color" : "Red",
-  "file" : "177_SPECIES_LEDYBA.json"
+  "file" : "178_SPECIES_LEDYBA.json"
 }, {
-  "dex" : 178,
+  "dex" : 179,
   "speciesId" : "SPECIES_LEDIAN",
   "name" : "Ledian",
   "types" : [ "Bug", "Flying" ],
   "abilities" : [ "Swarm", "Early Bird", "Iron Fist" ],
   "color" : "Red",
-  "file" : "178_SPECIES_LEDIAN.json"
+  "file" : "179_SPECIES_LEDIAN.json"
 }, {
-  "dex" : 179,
+  "dex" : 180,
   "speciesId" : "SPECIES_SPINARAK",
   "name" : "Spinarak",
   "types" : [ "Bug", "Poison" ],
   "abilities" : [ "Swarm", "Insomnia", "Sniper" ],
   "color" : "Green",
-  "file" : "179_SPECIES_SPINARAK.json"
+  "file" : "180_SPECIES_SPINARAK.json"
 }, {
-  "dex" : 180,
+  "dex" : 181,
   "speciesId" : "SPECIES_ARIADOS",
   "name" : "Ariados",
   "types" : [ "Bug", "Poison" ],
   "abilities" : [ "Swarm", "Insomnia", "Sniper" ],
   "color" : "Red",
-  "file" : "180_SPECIES_ARIADOS.json"
+  "file" : "181_SPECIES_ARIADOS.json"
 }, {
-  "dex" : 181,
+  "dex" : 182,
   "speciesId" : "SPECIES_CHINCHOU",
   "name" : "Chinchou",
   "types" : [ "Water", "Electric" ],
   "abilities" : [ "Volt Absorb", "Illuminate", "Water Absorb" ],
   "color" : "Blue",
-  "file" : "181_SPECIES_CHINCHOU.json"
+  "file" : "182_SPECIES_CHINCHOU.json"
 }, {
-  "dex" : 182,
+  "dex" : 183,
   "speciesId" : "SPECIES_LANTURN",
   "name" : "Lanturn",
   "types" : [ "Water", "Electric" ],
   "abilities" : [ "Volt Absorb", "Illuminate", "Water Absorb" ],
   "color" : "Blue",
-  "file" : "182_SPECIES_LANTURN.json"
+  "file" : "183_SPECIES_LANTURN.json"
 }, {
-  "dex" : 183,
+  "dex" : 184,
   "speciesId" : "SPECIES_TOGEPI",
   "name" : "Togepi",
   "types" : [ "Fairy", null ],
   "abilities" : [ "Hustle", "Serene Grace", "Super Luck" ],
   "color" : "White",
-  "file" : "183_SPECIES_TOGEPI.json"
+  "file" : "184_SPECIES_TOGEPI.json"
 }, {
-  "dex" : 184,
+  "dex" : 185,
   "speciesId" : "SPECIES_TOGETIC",
   "name" : "Togetic",
   "types" : [ "Fairy", "Flying" ],
   "abilities" : [ "Hustle", "Serene Grace", "Super Luck" ],
   "color" : "White",
-  "file" : "184_SPECIES_TOGETIC.json"
+  "file" : "185_SPECIES_TOGETIC.json"
 }, {
-  "dex" : 185,
+  "dex" : 186,
   "speciesId" : "SPECIES_TOGEKISS",
   "name" : "Togekiss",
   "types" : [ "Fairy", "Flying" ],
   "abilities" : [ "Hustle", "Serene Grace", "Super Luck" ],
   "color" : "White",
-  "file" : "185_SPECIES_TOGEKISS.json"
+  "file" : "186_SPECIES_TOGEKISS.json"
 }, {
-  "dex" : 186,
+  "dex" : 187,
   "speciesId" : "SPECIES_MAREEP",
   "name" : "Mareep",
   "types" : [ "Electric", null ],
   "abilities" : [ "Static", "Fluffy", "Plus" ],
   "color" : "White",
-  "file" : "186_SPECIES_MAREEP.json"
+  "file" : "187_SPECIES_MAREEP.json"
 }, {
-  "dex" : 187,
+  "dex" : 188,
   "speciesId" : "SPECIES_FLAAFFY",
   "name" : "Flaaffy",
   "types" : [ "Electric", null ],
   "abilities" : [ "Static", "Fluffy", "Plus" ],
   "color" : "Pink",
-  "file" : "187_SPECIES_FLAAFFY.json"
+  "file" : "188_SPECIES_FLAAFFY.json"
 }, {
-  "dex" : 188,
+  "dex" : 189,
   "speciesId" : "SPECIES_AMPHAROS",
   "name" : "Ampharos",
   "types" : [ "Electric", "Dragon" ],
   "abilities" : [ "Static", "Motor Drive", "Electric Surge" ],
   "color" : "Yellow",
-  "file" : "188_SPECIES_AMPHAROS.json"
+  "file" : "189_SPECIES_AMPHAROS.json"
 }, {
-  "dex" : 188,
+  "dex" : 189,
   "speciesId" : "SPECIES_AMPHAROS_MEGA",
   "name" : "Ampharos - Mega",
   "types" : [ "Electric", "Dragon" ],
   "abilities" : [ "Mold Breaker", "Mold Breaker", "Mold Breaker" ],
   "color" : "Yellow",
-  "file" : "188_SPECIES_AMPHAROS_MEGA.json"
+  "file" : "189_SPECIES_AMPHAROS_MEGA.json"
 }, {
-  "dex" : 189,
+  "dex" : 190,
   "speciesId" : "SPECIES_AZURILL",
   "name" : "Azurill",
   "types" : [ "Normal", "Fairy" ],
   "abilities" : [ "Thick Fat", "Huge Power", "Sap Sipper" ],
   "color" : "Blue",
-  "file" : "189_SPECIES_AZURILL.json"
+  "file" : "190_SPECIES_AZURILL.json"
 }, {
-  "dex" : 190,
+  "dex" : 191,
   "speciesId" : "SPECIES_MARILL",
   "name" : "Marill",
   "types" : [ "Water", "Fairy" ],
   "abilities" : [ "Thick Fat", "Huge Power", "Sap Sipper" ],
   "color" : "Blue",
-  "file" : "190_SPECIES_MARILL.json"
+  "file" : "191_SPECIES_MARILL.json"
 }, {
-  "dex" : 191,
+  "dex" : 192,
   "speciesId" : "SPECIES_AZUMARILL",
   "name" : "Azumarill",
   "types" : [ "Water", "Fairy" ],
   "abilities" : [ "Thick Fat", "Huge Power", "Sap Sipper" ],
   "color" : "Blue",
-  "file" : "191_SPECIES_AZUMARILL.json"
+  "file" : "192_SPECIES_AZUMARILL.json"
 }, {
-  "dex" : 192,
+  "dex" : 193,
   "speciesId" : "SPECIES_AIPOM",
   "name" : "Aipom",
   "types" : [ "Normal", null ],
   "abilities" : [ "Run Away", "Pickup", "Skill Link" ],
   "color" : "Purple",
-  "file" : "192_SPECIES_AIPOM.json"
+  "file" : "193_SPECIES_AIPOM.json"
 }, {
-  "dex" : 193,
+  "dex" : 194,
   "speciesId" : "SPECIES_AMBIPOM",
   "name" : "Ambipom",
   "types" : [ "Normal", null ],
   "abilities" : [ "Technician", "Pickup", "Skill Link" ],
   "color" : "Purple",
-  "file" : "193_SPECIES_AMBIPOM.json"
+  "file" : "194_SPECIES_AMBIPOM.json"
 }, {
-  "dex" : 194,
+  "dex" : 195,
   "speciesId" : "SPECIES_SUNKERN",
   "name" : "Sunkern",
   "types" : [ "Grass", null ],
   "abilities" : [ "Chlorophyll", "Solar Power", "Early Bird" ],
   "color" : "Yellow",
-  "file" : "194_SPECIES_SUNKERN.json"
+  "file" : "195_SPECIES_SUNKERN.json"
 }, {
-  "dex" : 195,
+  "dex" : 196,
   "speciesId" : "SPECIES_SUNFLORA",
   "name" : "Sunflora",
   "types" : [ "Grass", "Fire" ],
   "abilities" : [ "Chlorophyll", "Solar Power", "Early Bird" ],
   "color" : "Yellow",
-  "file" : "195_SPECIES_SUNFLORA.json"
+  "file" : "196_SPECIES_SUNFLORA.json"
 }, {
-  "dex" : 196,
+  "dex" : 197,
   "speciesId" : "SPECIES_YANMA",
   "name" : "Yanma",
   "types" : [ "Bug", "Flying" ],
   "abilities" : [ "Speed Boost", "Compound Eyes", "Frisk" ],
   "color" : "Red",
-  "file" : "196_SPECIES_YANMA.json"
+  "file" : "197_SPECIES_YANMA.json"
 }, {
   "dex" : 198,
+  "speciesId" : "SPECIES_YANMEGA",
+  "name" : "Yanmega",
+  "types" : [ "Bug", "Dragon" ],
+  "abilities" : [ "Speed Boost", "Tinted Lens", "Frisk" ],
+  "color" : "Green",
+  "file" : "198_SPECIES_YANMEGA.json"
+}, {
+  "dex" : 200,
   "speciesId" : "SPECIES_QUAGSIRE",
   "name" : "Quagsire",
   "types" : [ "Water", "Ground" ],
   "abilities" : [ "Damp", "Water Absorb", "Unaware" ],
   "color" : "Blue",
-  "file" : "198_SPECIES_QUAGSIRE.json"
+  "file" : "200_SPECIES_QUAGSIRE.json"
 }, {
-  "dex" : 199,
+  "dex" : 201,
   "speciesId" : "SPECIES_WOOPER",
   "name" : "Wooper",
   "types" : [ "Water", "Ground" ],
   "abilities" : [ "Damp", "Water Absorb", "Unaware" ],
   "color" : "Blue",
-  "file" : "199_SPECIES_WOOPER.json"
+  "file" : "201_SPECIES_WOOPER.json"
 }, {
-  "dex" : 199,
+  "dex" : 201,
   "speciesId" : "SPECIES_WOOPER_PALDEAN",
   "name" : "Wooper",
   "types" : [ "Poison", "Ground" ],
   "abilities" : [ "Poison Point", "Water Absorb", "Unaware" ],
   "color" : "Brown",
-  "file" : "199_SPECIES_WOOPER_PALDEAN.json"
+  "file" : "201_SPECIES_WOOPER_PALDEAN.json"
 }, {
-  "dex" : 200,
+  "dex" : 202,
   "speciesId" : "SPECIES_CLODSIRE",
   "name" : "Clodsire",
   "types" : [ "Poison", "Ground" ],
   "abilities" : [ "Poison Point", "Water Absorb", "Unaware" ],
   "color" : "Brown",
-  "file" : "200_SPECIES_CLODSIRE.json"
+  "file" : "202_SPECIES_CLODSIRE.json"
 }, {
-  "dex" : 201,
+  "dex" : 203,
   "speciesId" : "SPECIES_MURKROW",
   "name" : "Murkrow",
   "types" : [ "Dark", "Flying" ],
   "abilities" : [ "Insomnia", "Super Luck", "Prankster" ],
   "color" : "Black",
-  "file" : "201_SPECIES_MURKROW.json"
+  "file" : "203_SPECIES_MURKROW.json"
 }, {
-  "dex" : 202,
+  "dex" : 204,
   "speciesId" : "SPECIES_HONCHKROW",
   "name" : "Honchkrow",
   "types" : [ "Dark", "Flying" ],
   "abilities" : [ "Insomnia", "Super Luck", "Moxie" ],
   "color" : "Black",
-  "file" : "202_SPECIES_HONCHKROW.json"
+  "file" : "204_SPECIES_HONCHKROW.json"
 }, {
-  "dex" : 203,
+  "dex" : 205,
   "speciesId" : "SPECIES_MISDREAVUS",
   "name" : "Misdreavus",
   "types" : [ "Ghost", "Fairy" ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Gray",
-  "file" : "203_SPECIES_MISDREAVUS.json"
+  "file" : "205_SPECIES_MISDREAVUS.json"
 }, {
-  "dex" : 204,
+  "dex" : 206,
   "speciesId" : "SPECIES_MISMAGIUS",
   "name" : "Mismagius",
   "types" : [ "Ghost", "Fairy" ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Purple",
-  "file" : "204_SPECIES_MISMAGIUS.json"
+  "file" : "206_SPECIES_MISMAGIUS.json"
 }, {
-  "dex" : 205,
+  "dex" : 207,
   "speciesId" : "SPECIES_WYNAUT",
   "name" : "Wynaut",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Shadow Tag", "None", "Telepathy" ],
   "color" : "Blue",
-  "file" : "205_SPECIES_WYNAUT.json"
+  "file" : "207_SPECIES_WYNAUT.json"
 }, {
-  "dex" : 206,
+  "dex" : 208,
   "speciesId" : "SPECIES_WOBBUFFET",
   "name" : "Wobbuffet",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Shadow Tag", "None", "Telepathy" ],
   "color" : "Blue",
-  "file" : "206_SPECIES_WOBBUFFET.json"
+  "file" : "208_SPECIES_WOBBUFFET.json"
 }, {
-  "dex" : 207,
+  "dex" : 209,
   "speciesId" : "SPECIES_GLIGAR",
   "name" : "Gligar",
   "types" : [ "Ground", "Flying" ],
   "abilities" : [ "Hyper Cutter", "Sand Veil", "Immunity" ],
   "color" : "Purple",
-  "file" : "207_SPECIES_GLIGAR.json"
+  "file" : "209_SPECIES_GLIGAR.json"
 }, {
-  "dex" : 208,
+  "dex" : 210,
   "speciesId" : "SPECIES_GLISCOR",
   "name" : "Gliscor",
   "types" : [ "Ground", "Flying" ],
   "abilities" : [ "Hyper Cutter", "Sand Veil", "Poison Heal" ],
   "color" : "Purple",
-  "file" : "208_SPECIES_GLISCOR.json"
+  "file" : "210_SPECIES_GLISCOR.json"
 }, {
-  "dex" : 209,
+  "dex" : 211,
   "speciesId" : "SPECIES_SNUBBULL",
   "name" : "Snubbull",
   "types" : [ "Fairy", null ],
   "abilities" : [ "Intimidate", "Run Away", "Rattled" ],
   "color" : "Pink",
-  "file" : "209_SPECIES_SNUBBULL.json"
+  "file" : "211_SPECIES_SNUBBULL.json"
 }, {
-  "dex" : 210,
+  "dex" : 212,
   "speciesId" : "SPECIES_GRANBULL",
   "name" : "Granbull",
   "types" : [ "Fairy", null ],
   "abilities" : [ "Intimidate", "Strong Jaw", "Rattled" ],
   "color" : "Purple",
-  "file" : "210_SPECIES_GRANBULL.json"
+  "file" : "212_SPECIES_GRANBULL.json"
 }, {
-  "dex" : 211,
+  "dex" : 213,
   "speciesId" : "SPECIES_HERACROSS",
   "name" : "Heracross",
   "types" : [ "Bug", "Fighting" ],
   "abilities" : [ "Swarm", "Guts", "Moxie" ],
   "color" : "Blue",
-  "file" : "211_SPECIES_HERACROSS.json"
+  "file" : "213_SPECIES_HERACROSS.json"
 }, {
-  "dex" : 211,
+  "dex" : 213,
   "speciesId" : "SPECIES_HERACROSS_MEGA",
   "name" : "Heracross - Mega",
   "types" : [ "Bug", "Fighting" ],
   "abilities" : [ "Skill Link", "Skill Link", "Skill Link" ],
   "color" : "Blue",
-  "file" : "211_SPECIES_HERACROSS_MEGA.json"
+  "file" : "213_SPECIES_HERACROSS_MEGA.json"
 }, {
-  "dex" : 213,
+  "dex" : 215,
   "speciesId" : "SPECIES_WEAVILE",
   "name" : "Weavile",
   "types" : [ "Dark", "Ice" ],
   "abilities" : [ "Pressure", "Moxie", "Infiltrator" ],
   "color" : "Black",
-  "file" : "213_SPECIES_WEAVILE.json"
+  "file" : "215_SPECIES_WEAVILE.json"
 }, {
-  "dex" : 214,
+  "dex" : 216,
   "speciesId" : "SPECIES_SNEASEL",
   "name" : "Sneasel",
   "types" : [ "Dark", "Ice" ],
   "abilities" : [ "Inner Focus", "Keen Eye", "Pickpocket" ],
   "color" : "Black",
-  "file" : "214_SPECIES_SNEASEL.json"
+  "file" : "216_SPECIES_SNEASEL.json"
 }, {
-  "dex" : 214,
+  "dex" : 216,
   "speciesId" : "SPECIES_SNEASEL_HISUIAN",
   "name" : "Sneasel",
   "types" : [ "Fighting", "Poison" ],
   "abilities" : [ "Inner Focus", "Keen Eye", "Pickpocket" ],
   "color" : "Gray",
-  "file" : "214_SPECIES_SNEASEL_HISUIAN.json"
+  "file" : "216_SPECIES_SNEASEL_HISUIAN.json"
 }, {
-  "dex" : 215,
+  "dex" : 217,
   "speciesId" : "SPECIES_SNEASLER",
   "name" : "Sneasler",
   "types" : [ "Fighting", "Poison" ],
   "abilities" : [ "Pressure", "Unburden", "Poison Touch" ],
   "color" : "Blue",
-  "file" : "215_SPECIES_SNEASLER.json"
+  "file" : "217_SPECIES_SNEASLER.json"
 }, {
-  "dex" : 216,
+  "dex" : 218,
   "speciesId" : "SPECIES_TEDDIURSA",
   "name" : "Teddiursa",
   "types" : [ "Normal", null ],
   "abilities" : [ "Pickup", "Quick Feet", "Honey Gather" ],
   "color" : "Brown",
-  "file" : "216_SPECIES_TEDDIURSA.json"
+  "file" : "218_SPECIES_TEDDIURSA.json"
 }, {
-  "dex" : 217,
+  "dex" : 219,
   "speciesId" : "SPECIES_URSARING",
   "name" : "Ursaring",
   "types" : [ "Normal", null ],
   "abilities" : [ "Guts", "Quick Feet", "Unnerve" ],
   "color" : "Brown",
-  "file" : "217_SPECIES_URSARING.json"
+  "file" : "219_SPECIES_URSARING.json"
 }, {
-  "dex" : 218,
+  "dex" : 220,
   "speciesId" : "SPECIES_URSALUNA",
   "name" : "Ursaluna",
   "types" : [ "Ground", "Normal" ],
   "abilities" : [ "Guts", "Bulletproof", "Unnerve" ],
   "color" : "Brown",
-  "file" : "218_SPECIES_URSALUNA.json"
+  "file" : "220_SPECIES_URSALUNA.json"
 }, {
-  "dex" : 218,
+  "dex" : 220,
   "speciesId" : "SPECIES_URSALUNA_BLOODMOON",
   "name" : "Ursaluna",
   "types" : [ "Ground", "Normal" ],
   "abilities" : [ "Minds Eye", "None", "None" ],
   "color" : "Brown",
-  "file" : "218_SPECIES_URSALUNA_BLOODMOON.json"
+  "file" : "220_SPECIES_URSALUNA_BLOODMOON.json"
 }, {
-  "dex" : 219,
+  "dex" : 221,
   "speciesId" : "SPECIES_EXILED_SLUGMA",
-  "name" : "Slugma",
+  "name" : "Exiled Slugma",
   "types" : [ "Ice", null ],
   "abilities" : [ "Slush Rush", "Ice Body", "Weak Armor" ],
   "color" : "Red",
-  "file" : "219_SPECIES_EXILED_SLUGMA.json"
+  "file" : "221_SPECIES_EXILED_SLUGMA.json"
 }, {
-  "dex" : 219,
+  "dex" : 221,
   "speciesId" : "SPECIES_SLUGMA",
   "name" : "Slugma",
   "types" : [ "Fire", null ],
   "abilities" : [ "Magma Armor", "Flame Body", "Weak Armor" ],
   "color" : "Red",
-  "file" : "219_SPECIES_SLUGMA.json"
+  "file" : "221_SPECIES_SLUGMA.json"
 }, {
-  "dex" : 220,
+  "dex" : 222,
   "speciesId" : "SPECIES_EXILED_MAGCARGO",
-  "name" : "Magcargo",
+  "name" : "Exiled Magcargo",
   "types" : [ "Ice", "Poison" ],
   "abilities" : [ "Slush Rush", "Ice Body", "Glacial Toxins" ],
   "color" : "Red",
-  "file" : "220_SPECIES_EXILED_MAGCARGO.json"
+  "file" : "222_SPECIES_EXILED_MAGCARGO.json"
 }, {
-  "dex" : 220,
+  "dex" : 222,
   "speciesId" : "SPECIES_MAGCARGO",
   "name" : "Magcargo",
   "types" : [ "Fire", "Rock" ],
   "abilities" : [ "Magma Armor", "Flame Body", "Weak Armor" ],
   "color" : "Red",
-  "file" : "220_SPECIES_MAGCARGO.json"
+  "file" : "222_SPECIES_MAGCARGO.json"
 }, {
-  "dex" : 221,
+  "dex" : 223,
   "speciesId" : "SPECIES_SWINUB",
   "name" : "Swinub",
   "types" : [ "Ice", "Ground" ],
   "abilities" : [ "Oblivious", "Snow Cloak", "Thick Fat" ],
   "color" : "Brown",
-  "file" : "221_SPECIES_SWINUB.json"
+  "file" : "223_SPECIES_SWINUB.json"
 }, {
-  "dex" : 222,
+  "dex" : 224,
   "speciesId" : "SPECIES_PILOSWINE",
   "name" : "Piloswine",
   "types" : [ "Ice", "Ground" ],
   "abilities" : [ "Oblivious", "Snow Cloak", "Thick Fat" ],
   "color" : "Brown",
-  "file" : "222_SPECIES_PILOSWINE.json"
+  "file" : "224_SPECIES_PILOSWINE.json"
 }, {
-  "dex" : 223,
+  "dex" : 225,
   "speciesId" : "SPECIES_MAMOSWINE",
   "name" : "Mamoswine",
   "types" : [ "Ice", "Ground" ],
   "abilities" : [ "Oblivious", "Snow Cloak", "Thick Fat" ],
   "color" : "Brown",
-  "file" : "223_SPECIES_MAMOSWINE.json"
+  "file" : "225_SPECIES_MAMOSWINE.json"
 }, {
-  "dex" : 225,
+  "dex" : 227,
   "speciesId" : "SPECIES_CORSOLA",
   "name" : "Corsola",
   "types" : [ "Water", "Rock" ],
   "abilities" : [ "Hustle", "Natural Cure", "Regenerator" ],
   "color" : "Pink",
-  "file" : "225_SPECIES_CORSOLA.json"
+  "file" : "227_SPECIES_CORSOLA.json"
 }, {
-  "dex" : 225,
+  "dex" : 227,
   "speciesId" : "SPECIES_CORSOLA_GALARIAN",
   "name" : "Corsola",
   "types" : [ "Ghost", null ],
   "abilities" : [ "Weak Armor", "None", "Cursed Body" ],
   "color" : "White",
-  "file" : "225_SPECIES_CORSOLA_GALARIAN.json"
+  "file" : "227_SPECIES_CORSOLA_GALARIAN.json"
 }, {
-  "dex" : 226,
+  "dex" : 228,
   "speciesId" : "SPECIES_CURSOLA",
   "name" : "Cursola",
   "types" : [ "Ghost", null ],
   "abilities" : [ "Weak Armor", "None", "Perish Body" ],
   "color" : "White",
-  "file" : "226_SPECIES_CURSOLA.json"
+  "file" : "228_SPECIES_CURSOLA.json"
 }, {
-  "dex" : 227,
+  "dex" : 229,
   "speciesId" : "SPECIES_SKARMORY",
   "name" : "Skarmory",
   "types" : [ "Steel", "Flying" ],
   "abilities" : [ "Keen Eye", "Sturdy", "Weak Armor" ],
   "color" : "Gray",
-  "file" : "227_SPECIES_SKARMORY.json"
+  "file" : "229_SPECIES_SKARMORY.json"
 }, {
-  "dex" : 228,
+  "dex" : 230,
   "speciesId" : "SPECIES_HOUNDOUR",
   "name" : "Houndour",
   "types" : [ "Dark", "Fire" ],
   "abilities" : [ "Early Bird", "Flash Fire", "Unnerve" ],
   "color" : "Black",
-  "file" : "228_SPECIES_HOUNDOUR.json"
+  "file" : "230_SPECIES_HOUNDOUR.json"
 }, {
-  "dex" : 229,
+  "dex" : 231,
   "speciesId" : "SPECIES_HOUNDOOM",
   "name" : "Houndoom",
   "types" : [ "Dark", "Fire" ],
   "abilities" : [ "Early Bird", "Flash Fire", "Unnerve" ],
   "color" : "Black",
-  "file" : "229_SPECIES_HOUNDOOM.json"
+  "file" : "231_SPECIES_HOUNDOOM.json"
 }, {
-  "dex" : 229,
+  "dex" : 231,
   "speciesId" : "SPECIES_HOUNDOOM_MEGA",
   "name" : "Houndoom - Mega",
   "types" : [ "Dark", "Fire" ],
   "abilities" : [ "Solar Power", "Solar Power", "Solar Power" ],
   "color" : "Black",
-  "file" : "229_SPECIES_HOUNDOOM_MEGA.json"
+  "file" : "231_SPECIES_HOUNDOOM_MEGA.json"
 }, {
-  "dex" : 230,
+  "dex" : 232,
   "speciesId" : "SPECIES_PHANPY",
   "name" : "Phanpy",
   "types" : [ "Ground", null ],
   "abilities" : [ "Pickup", "None", "Sand Veil" ],
   "color" : "Blue",
-  "file" : "230_SPECIES_PHANPY.json"
+  "file" : "232_SPECIES_PHANPY.json"
 }, {
-  "dex" : 231,
+  "dex" : 233,
   "speciesId" : "SPECIES_DONPHAN",
   "name" : "Donphan",
   "types" : [ "Ground", null ],
   "abilities" : [ "Sturdy", "Sand Force", "Sand Veil" ],
   "color" : "Gray",
-  "file" : "231_SPECIES_DONPHAN.json"
+  "file" : "233_SPECIES_DONPHAN.json"
 }, {
-  "dex" : 232,
+  "dex" : 234,
   "speciesId" : "SPECIES_LARVITAR",
   "name" : "Larvitar",
   "types" : [ "Rock", "Ground" ],
   "abilities" : [ "Guts", "Hustle", "Sand Veil" ],
   "color" : "Green",
-  "file" : "232_SPECIES_LARVITAR.json"
+  "file" : "234_SPECIES_LARVITAR.json"
 }, {
-  "dex" : 233,
+  "dex" : 235,
   "speciesId" : "SPECIES_PUPITAR",
   "name" : "Pupitar",
   "types" : [ "Rock", "Ground" ],
   "abilities" : [ "Shed Skin", "Solid Rock", "None" ],
   "color" : "Gray",
-  "file" : "233_SPECIES_PUPITAR.json"
+  "file" : "235_SPECIES_PUPITAR.json"
 }, {
-  "dex" : 234,
+  "dex" : 236,
   "speciesId" : "SPECIES_TYRANITAR",
   "name" : "Tyranitar",
   "types" : [ "Rock", "Dark" ],
   "abilities" : [ "Sand Stream", "Intimidate", "Unnerve" ],
   "color" : "Green",
-  "file" : "234_SPECIES_TYRANITAR.json"
+  "file" : "236_SPECIES_TYRANITAR.json"
 }, {
-  "dex" : 234,
+  "dex" : 236,
   "speciesId" : "SPECIES_TYRANITAR_MEGA",
   "name" : "Tyranitar - Mega",
   "types" : [ "Rock", "Dark" ],
   "abilities" : [ "Sand Stream", "Sand Stream", "Sand Stream" ],
   "color" : "Green",
-  "file" : "234_SPECIES_TYRANITAR_MEGA.json"
+  "file" : "236_SPECIES_TYRANITAR_MEGA.json"
 }, {
-  "dex" : 237,
+  "dex" : 239,
   "speciesId" : "SPECIES_TREECKO",
   "name" : "Treecko",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Unburden", "Technician" ],
   "color" : "Green",
-  "file" : "237_SPECIES_TREECKO.json"
+  "file" : "239_SPECIES_TREECKO.json"
 }, {
-  "dex" : 238,
+  "dex" : 240,
   "speciesId" : "SPECIES_GROVYLE",
   "name" : "Grovyle",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Unburden", "Technician" ],
   "color" : "Green",
-  "file" : "238_SPECIES_GROVYLE.json"
+  "file" : "240_SPECIES_GROVYLE.json"
 }, {
-  "dex" : 239,
+  "dex" : 241,
   "speciesId" : "SPECIES_SCEPTILE",
   "name" : "Sceptile",
   "types" : [ "Grass", "Dragon" ],
   "abilities" : [ "Overgrow", "Unburden", "Technician" ],
   "color" : "Green",
-  "file" : "239_SPECIES_SCEPTILE.json"
+  "file" : "241_SPECIES_SCEPTILE.json"
 }, {
-  "dex" : 239,
+  "dex" : 241,
   "speciesId" : "SPECIES_SCEPTILE_MEGA",
   "name" : "Sceptile - Mega",
   "types" : [ "Grass", "Dragon" ],
   "abilities" : [ "Lightning Rod", "Lightning Rod", "Lightning Rod" ],
   "color" : "Green",
-  "file" : "239_SPECIES_SCEPTILE_MEGA.json"
+  "file" : "241_SPECIES_SCEPTILE_MEGA.json"
 }, {
-  "dex" : 240,
+  "dex" : 242,
   "speciesId" : "SPECIES_TORCHIC",
   "name" : "Torchic",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "Flame Body", "Speed Boost" ],
   "color" : "Red",
-  "file" : "240_SPECIES_TORCHIC.json"
+  "file" : "242_SPECIES_TORCHIC.json"
 }, {
-  "dex" : 241,
+  "dex" : 243,
   "speciesId" : "SPECIES_COMBUSKEN",
   "name" : "Combusken",
   "types" : [ "Fire", "Fighting" ],
   "abilities" : [ "Blaze", "Flame Body", "Speed Boost" ],
   "color" : "Red",
-  "file" : "241_SPECIES_COMBUSKEN.json"
+  "file" : "243_SPECIES_COMBUSKEN.json"
 }, {
-  "dex" : 242,
+  "dex" : 244,
   "speciesId" : "SPECIES_BLAZIKEN",
   "name" : "Blaziken",
   "types" : [ "Fire", "Fighting" ],
   "abilities" : [ "Blaze", "Flame Body", "Speed Boost" ],
   "color" : "Red",
-  "file" : "242_SPECIES_BLAZIKEN.json"
+  "file" : "244_SPECIES_BLAZIKEN.json"
 }, {
-  "dex" : 242,
+  "dex" : 244,
   "speciesId" : "SPECIES_BLAZIKEN_MEGA",
   "name" : "Blaziken - Mega",
   "types" : [ "Fire", "Fighting" ],
   "abilities" : [ "Speed Boost", "Speed Boost", "Speed Boost" ],
   "color" : "Red",
-  "file" : "242_SPECIES_BLAZIKEN_MEGA.json"
+  "file" : "244_SPECIES_BLAZIKEN_MEGA.json"
 }, {
-  "dex" : 243,
+  "dex" : 245,
   "speciesId" : "SPECIES_MUDKIP",
   "name" : "Mudkip",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Swift Swim", "Natural Cure" ],
   "color" : "Blue",
-  "file" : "243_SPECIES_MUDKIP.json"
+  "file" : "245_SPECIES_MUDKIP.json"
 }, {
-  "dex" : 244,
+  "dex" : 246,
   "speciesId" : "SPECIES_MARSHTOMP",
   "name" : "Marshtomp",
   "types" : [ "Water", "Ground" ],
   "abilities" : [ "Torrent", "Swift Swim", "Natural Cure" ],
   "color" : "Blue",
-  "file" : "244_SPECIES_MARSHTOMP.json"
+  "file" : "246_SPECIES_MARSHTOMP.json"
 }, {
-  "dex" : 245,
+  "dex" : 247,
   "speciesId" : "SPECIES_SWAMPERT",
   "name" : "Swampert",
   "types" : [ "Water", "Ground" ],
   "abilities" : [ "Torrent", "Swift Swim", "Regenerator" ],
   "color" : "Blue",
-  "file" : "245_SPECIES_SWAMPERT.json"
+  "file" : "247_SPECIES_SWAMPERT.json"
 }, {
-  "dex" : 245,
+  "dex" : 247,
   "speciesId" : "SPECIES_SWAMPERT_MEGA",
   "name" : "Swampert - Mega",
   "types" : [ "Water", "Ground" ],
   "abilities" : [ "Swift Swim", "Swift Swim", "Swift Swim" ],
   "color" : "Blue",
-  "file" : "245_SPECIES_SWAMPERT_MEGA.json"
+  "file" : "247_SPECIES_SWAMPERT_MEGA.json"
 }, {
-  "dex" : 246,
+  "dex" : 248,
   "speciesId" : "SPECIES_POOCHYENA",
   "name" : "Poochyena",
   "types" : [ "Dark", null ],
   "abilities" : [ "Run Away", "Quick Feet", "Rattled" ],
   "color" : "Gray",
-  "file" : "246_SPECIES_POOCHYENA.json"
+  "file" : "248_SPECIES_POOCHYENA.json"
 }, {
-  "dex" : 247,
+  "dex" : 249,
   "speciesId" : "SPECIES_MIGHTYENA",
   "name" : "Mightyena",
   "types" : [ "Dark", null ],
   "abilities" : [ "Intimidate", "Quick Feet", "Moxie" ],
   "color" : "Gray",
-  "file" : "247_SPECIES_MIGHTYENA.json"
+  "file" : "249_SPECIES_MIGHTYENA.json"
 }, {
-  "dex" : 248,
+  "dex" : 250,
   "speciesId" : "SPECIES_ZIGZAGOON",
   "name" : "Zigzagoon",
   "types" : [ "Normal", null ],
   "abilities" : [ "Pickup", "Gluttony", "Quick Feet" ],
   "color" : "Brown",
-  "file" : "248_SPECIES_ZIGZAGOON.json"
+  "file" : "250_SPECIES_ZIGZAGOON.json"
 }, {
-  "dex" : 248,
+  "dex" : 250,
   "speciesId" : "SPECIES_ZIGZAGOON_GALARIAN",
   "name" : "Zigzagoon",
   "types" : [ "Dark", "Normal" ],
   "abilities" : [ "Pickup", "Gluttony", "Quick Feet" ],
   "color" : "White",
-  "file" : "248_SPECIES_ZIGZAGOON_GALARIAN.json"
+  "file" : "250_SPECIES_ZIGZAGOON_GALARIAN.json"
 }, {
-  "dex" : 249,
+  "dex" : 251,
   "speciesId" : "SPECIES_LINOONE",
   "name" : "Linoone",
   "types" : [ "Normal", null ],
   "abilities" : [ "Pickup", "Guts", "Speed Boost" ],
   "color" : "White",
-  "file" : "249_SPECIES_LINOONE.json"
+  "file" : "251_SPECIES_LINOONE.json"
 }, {
-  "dex" : 249,
+  "dex" : 251,
   "speciesId" : "SPECIES_LINOONE_GALARIAN",
   "name" : "Linoone",
   "types" : [ "Dark", "Normal" ],
   "abilities" : [ "Pickup", "Gluttony", "Quick Feet" ],
   "color" : "White",
-  "file" : "249_SPECIES_LINOONE_GALARIAN.json"
+  "file" : "251_SPECIES_LINOONE_GALARIAN.json"
 }, {
-  "dex" : 250,
+  "dex" : 252,
   "speciesId" : "SPECIES_WURMPLE",
   "name" : "Wurmple",
   "types" : [ "Bug", null ],
   "abilities" : [ "Shield Dust", "None", "Run Away" ],
   "color" : "Red",
-  "file" : "250_SPECIES_WURMPLE.json"
+  "file" : "252_SPECIES_WURMPLE.json"
 }, {
-  "dex" : 251,
+  "dex" : 253,
   "speciesId" : "SPECIES_SILCOON",
   "name" : "Silcoon",
   "types" : [ "Bug", null ],
   "abilities" : [ "Shed Skin", "None", "None" ],
   "color" : "White",
-  "file" : "251_SPECIES_SILCOON.json"
+  "file" : "253_SPECIES_SILCOON.json"
 }, {
-  "dex" : 252,
+  "dex" : 254,
   "speciesId" : "SPECIES_BEAUTIFLY",
   "name" : "Beautifly",
   "types" : [ "Bug", "Flying" ],
   "abilities" : [ "Swarm", "Sap Sipper", "Rivalry" ],
   "color" : "Yellow",
-  "file" : "252_SPECIES_BEAUTIFLY.json"
+  "file" : "254_SPECIES_BEAUTIFLY.json"
 }, {
-  "dex" : 253,
+  "dex" : 255,
   "speciesId" : "SPECIES_CASCOON",
   "name" : "Cascoon",
   "types" : [ "Bug", null ],
   "abilities" : [ "Shed Skin", "None", "None" ],
   "color" : "Purple",
-  "file" : "253_SPECIES_CASCOON.json"
+  "file" : "255_SPECIES_CASCOON.json"
 }, {
-  "dex" : 254,
+  "dex" : 256,
   "speciesId" : "SPECIES_DUSTOX",
   "name" : "Dustox",
   "types" : [ "Bug", "Poison" ],
   "abilities" : [ "Shield Dust", "None", "Compound Eyes" ],
   "color" : "Green",
-  "file" : "254_SPECIES_DUSTOX.json"
+  "file" : "256_SPECIES_DUSTOX.json"
 }, {
-  "dex" : 255,
+  "dex" : 257,
   "speciesId" : "SPECIES_LOTAD",
   "name" : "Lotad",
   "types" : [ "Water", "Grass" ],
   "abilities" : [ "Swift Swim", "Rain Dish", "Own Tempo" ],
   "color" : "Green",
-  "file" : "255_SPECIES_LOTAD.json"
+  "file" : "257_SPECIES_LOTAD.json"
 }, {
-  "dex" : 256,
+  "dex" : 258,
   "speciesId" : "SPECIES_LOMBRE",
   "name" : "Lombre",
   "types" : [ "Water", "Grass" ],
   "abilities" : [ "Swift Swim", "Rain Dish", "Own Tempo" ],
   "color" : "Green",
-  "file" : "256_SPECIES_LOMBRE.json"
+  "file" : "258_SPECIES_LOMBRE.json"
 }, {
-  "dex" : 257,
+  "dex" : 259,
   "speciesId" : "SPECIES_LUDICOLO",
   "name" : "Ludicolo",
   "types" : [ "Water", "Grass" ],
   "abilities" : [ "Swift Swim", "Dancer", "Own Tempo" ],
   "color" : "Green",
-  "file" : "257_SPECIES_LUDICOLO.json"
+  "file" : "259_SPECIES_LUDICOLO.json"
 }, {
-  "dex" : 258,
+  "dex" : 260,
   "speciesId" : "SPECIES_SEEDOT",
   "name" : "Seedot",
   "types" : [ "Grass", null ],
   "abilities" : [ "Chlorophyll", "Early Bird", "Pickpocket" ],
   "color" : "Brown",
-  "file" : "258_SPECIES_SEEDOT.json"
+  "file" : "260_SPECIES_SEEDOT.json"
 }, {
-  "dex" : 259,
+  "dex" : 261,
   "speciesId" : "SPECIES_NUZLEAF",
   "name" : "Nuzleaf",
   "types" : [ "Grass", "Dark" ],
   "abilities" : [ "Chlorophyll", "Early Bird", "Pickpocket" ],
   "color" : "Brown",
-  "file" : "259_SPECIES_NUZLEAF.json"
+  "file" : "261_SPECIES_NUZLEAF.json"
 }, {
-  "dex" : 260,
+  "dex" : 262,
   "speciesId" : "SPECIES_SHIFTRY",
   "name" : "Shiftry",
   "types" : [ "Grass", "Dark" ],
   "abilities" : [ "Chlorophyll", "Wind Rider", "Technician" ],
   "color" : "Brown",
-  "file" : "260_SPECIES_SHIFTRY.json"
+  "file" : "262_SPECIES_SHIFTRY.json"
 }, {
-  "dex" : 261,
+  "dex" : 263,
   "speciesId" : "SPECIES_TAILLOW",
   "name" : "Taillow",
   "types" : [ "Flying", null ],
   "abilities" : [ "Guts", "None", "Scrappy" ],
   "color" : "Blue",
-  "file" : "261_SPECIES_TAILLOW.json"
+  "file" : "263_SPECIES_TAILLOW.json"
 }, {
-  "dex" : 262,
+  "dex" : 264,
   "speciesId" : "SPECIES_SWELLOW",
   "name" : "Swellow",
   "types" : [ "Flying", null ],
   "abilities" : [ "Guts", "None", "Scrappy" ],
   "color" : "Blue",
-  "file" : "262_SPECIES_SWELLOW.json"
+  "file" : "264_SPECIES_SWELLOW.json"
 }, {
-  "dex" : 263,
+  "dex" : 265,
   "speciesId" : "SPECIES_WINGULL",
   "name" : "Wingull",
   "types" : [ "Water", "Flying" ],
   "abilities" : [ "Keen Eye", "Hydration", "Rain Dish" ],
   "color" : "White",
-  "file" : "263_SPECIES_WINGULL.json"
+  "file" : "265_SPECIES_WINGULL.json"
 }, {
-  "dex" : 264,
+  "dex" : 266,
   "speciesId" : "SPECIES_PELIPPER",
   "name" : "Pelipper",
   "types" : [ "Water", "Flying" ],
   "abilities" : [ "Keen Eye", "Drizzle", "Rain Dish" ],
   "color" : "Yellow",
-  "file" : "264_SPECIES_PELIPPER.json"
+  "file" : "266_SPECIES_PELIPPER.json"
 }, {
-  "dex" : 265,
+  "dex" : 267,
   "speciesId" : "SPECIES_RALTS",
   "name" : "Ralts",
   "types" : [ "Psychic", "Fairy" ],
   "abilities" : [ "Synchronize", "Trace", "Telepathy" ],
   "color" : "White",
-  "file" : "265_SPECIES_RALTS.json"
+  "file" : "267_SPECIES_RALTS.json"
 }, {
-  "dex" : 266,
+  "dex" : 268,
   "speciesId" : "SPECIES_KIRLIA",
   "name" : "Kirlia",
   "types" : [ "Psychic", "Fairy" ],
   "abilities" : [ "Synchronize", "Trace", "Telepathy" ],
   "color" : "White",
-  "file" : "266_SPECIES_KIRLIA.json"
+  "file" : "268_SPECIES_KIRLIA.json"
 }, {
-  "dex" : 267,
+  "dex" : 269,
   "speciesId" : "SPECIES_GARDEVOIR",
   "name" : "Gardevoir",
   "types" : [ "Psychic", "Fairy" ],
   "abilities" : [ "Synchronize", "Trace", "Fairy Aura" ],
   "color" : "White",
-  "file" : "267_SPECIES_GARDEVOIR.json"
+  "file" : "269_SPECIES_GARDEVOIR.json"
 }, {
-  "dex" : 267,
+  "dex" : 269,
   "speciesId" : "SPECIES_GARDEVOIR_MEGA",
   "name" : "Gardevoir - Mega",
   "types" : [ "Psychic", "Fairy" ],
   "abilities" : [ "Pixilate", "Pixilate", "Pixilate" ],
   "color" : "White",
-  "file" : "267_SPECIES_GARDEVOIR_MEGA.json"
+  "file" : "269_SPECIES_GARDEVOIR_MEGA.json"
 }, {
-  "dex" : 268,
+  "dex" : 270,
   "speciesId" : "SPECIES_GALLADE",
   "name" : "Gallade",
   "types" : [ "Psychic", "Fighting" ],
   "abilities" : [ "Steadfast", "Sharpness", "Justified" ],
   "color" : "White",
-  "file" : "268_SPECIES_GALLADE.json"
+  "file" : "270_SPECIES_GALLADE.json"
 }, {
-  "dex" : 268,
+  "dex" : 270,
   "speciesId" : "SPECIES_GALLADE_MEGA",
   "name" : "Gallade - Mega",
   "types" : [ "Psychic", "Fighting" ],
   "abilities" : [ "Sharpness", "Sharpness", "Sharpness" ],
   "color" : "White",
-  "file" : "268_SPECIES_GALLADE_MEGA.json"
+  "file" : "270_SPECIES_GALLADE_MEGA.json"
 }, {
-  "dex" : 269,
+  "dex" : 271,
   "speciesId" : "SPECIES_EXILED_SURSKIT",
-  "name" : "Surskit",
+  "name" : "Exiled Surskit",
   "types" : [ "Ghost", "Psychic" ],
   "abilities" : [ "Cursed Body", "Levitate", "Synchronize" ],
   "color" : "Blue",
-  "file" : "269_SPECIES_EXILED_SURSKIT.json"
+  "file" : "271_SPECIES_EXILED_SURSKIT.json"
 }, {
-  "dex" : 269,
+  "dex" : 271,
   "speciesId" : "SPECIES_SURSKIT",
   "name" : "Surskit",
   "types" : [ "Bug", "Water" ],
   "abilities" : [ "Swift Swim", "None", "Rain Dish" ],
   "color" : "Blue",
-  "file" : "269_SPECIES_SURSKIT.json"
+  "file" : "271_SPECIES_SURSKIT.json"
 }, {
-  "dex" : 270,
+  "dex" : 272,
   "speciesId" : "SPECIES_EXILED_MASQUERAIN",
-  "name" : "Masquerain",
+  "name" : "Exiled Masquerain",
   "types" : [ "Ghost", "Psychic" ],
   "abilities" : [ "Cursed Body", "Levitate", "Synchronize" ],
   "color" : "Blue",
-  "file" : "270_SPECIES_EXILED_MASQUERAIN.json"
+  "file" : "272_SPECIES_EXILED_MASQUERAIN.json"
 }, {
-  "dex" : 270,
+  "dex" : 272,
   "speciesId" : "SPECIES_MASQUERAIN",
   "name" : "Masquerain",
   "types" : [ "Bug", "Flying" ],
   "abilities" : [ "Intimidate", "None", "Adaptability" ],
   "color" : "Blue",
-  "file" : "270_SPECIES_MASQUERAIN.json"
+  "file" : "272_SPECIES_MASQUERAIN.json"
 }, {
-  "dex" : 271,
+  "dex" : 273,
   "speciesId" : "SPECIES_SHROOMISH",
   "name" : "Shroomish",
   "types" : [ "Grass", null ],
   "abilities" : [ "Effect Spore", "Poison Heal", "Quick Feet" ],
   "color" : "Brown",
-  "file" : "271_SPECIES_SHROOMISH.json"
+  "file" : "273_SPECIES_SHROOMISH.json"
 }, {
-  "dex" : 272,
+  "dex" : 274,
   "speciesId" : "SPECIES_BRELOOM",
   "name" : "Breloom",
   "types" : [ "Grass", "Fighting" ],
   "abilities" : [ "Effect Spore", "Poison Heal", "Technician" ],
   "color" : "Green",
-  "file" : "272_SPECIES_BRELOOM.json"
+  "file" : "274_SPECIES_BRELOOM.json"
 }, {
-  "dex" : 273,
+  "dex" : 275,
   "speciesId" : "SPECIES_SLAKOTH",
   "name" : "Slakoth",
   "types" : [ "Normal", null ],
   "abilities" : [ "Truant", "None", "None" ],
   "color" : "Brown",
-  "file" : "273_SPECIES_SLAKOTH.json"
+  "file" : "275_SPECIES_SLAKOTH.json"
 }, {
-  "dex" : 274,
+  "dex" : 276,
   "speciesId" : "SPECIES_VIGOROTH",
   "name" : "Vigoroth",
   "types" : [ "Normal", null ],
   "abilities" : [ "Vital Spirit", "None", "None" ],
   "color" : "White",
-  "file" : "274_SPECIES_VIGOROTH.json"
+  "file" : "276_SPECIES_VIGOROTH.json"
 }, {
-  "dex" : 275,
+  "dex" : 277,
   "speciesId" : "SPECIES_SLAKING",
   "name" : "Slaking",
   "types" : [ "Normal", null ],
   "abilities" : [ "Truant", "None", "Slow Start" ],
   "color" : "Brown",
-  "file" : "275_SPECIES_SLAKING.json"
+  "file" : "277_SPECIES_SLAKING.json"
 }, {
-  "dex" : 276,
+  "dex" : 278,
   "speciesId" : "SPECIES_NINCADA",
   "name" : "Nincada",
   "types" : [ "Bug", "Ground" ],
   "abilities" : [ "Compound Eyes", "None", "Run Away" ],
   "color" : "Gray",
-  "file" : "276_SPECIES_NINCADA.json"
+  "file" : "278_SPECIES_NINCADA.json"
 }, {
-  "dex" : 277,
+  "dex" : 279,
   "speciesId" : "SPECIES_NINJASK",
   "name" : "Ninjask",
   "types" : [ "Bug", "Flying" ],
   "abilities" : [ "Speed Boost", "None", "Infiltrator" ],
   "color" : "Yellow",
-  "file" : "277_SPECIES_NINJASK.json"
+  "file" : "279_SPECIES_NINJASK.json"
 }, {
-  "dex" : 278,
+  "dex" : 280,
   "speciesId" : "SPECIES_SHEDINJA",
   "name" : "Shedinja",
   "types" : [ "Bug", "Ghost" ],
   "abilities" : [ "Wonder Guard", "None", "None" ],
   "color" : "Brown",
-  "file" : "278_SPECIES_SHEDINJA.json"
+  "file" : "280_SPECIES_SHEDINJA.json"
 }, {
-  "dex" : 279,
+  "dex" : 281,
   "speciesId" : "SPECIES_EXILED_WHISMUR",
-  "name" : "Whismur",
+  "name" : "Exiled Whismur",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "Punk Rock", "Dragonforce" ],
   "color" : "Pink",
-  "file" : "279_SPECIES_EXILED_WHISMUR.json"
+  "file" : "281_SPECIES_EXILED_WHISMUR.json"
 }, {
-  "dex" : 279,
+  "dex" : 281,
   "speciesId" : "SPECIES_WHISMUR",
   "name" : "Whismur",
   "types" : [ "Normal", null ],
   "abilities" : [ "Soundproof", "Punk Rock", "Rattled" ],
   "color" : "Pink",
-  "file" : "279_SPECIES_WHISMUR.json"
+  "file" : "281_SPECIES_WHISMUR.json"
 }, {
-  "dex" : 280,
+  "dex" : 282,
   "speciesId" : "SPECIES_EXILED_LOUDRED",
-  "name" : "Loudred",
+  "name" : "Exiled Loudred",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "Punk Rock", "Soundproof" ],
   "color" : "Blue",
-  "file" : "280_SPECIES_EXILED_LOUDRED.json"
+  "file" : "282_SPECIES_EXILED_LOUDRED.json"
 }, {
-  "dex" : 280,
+  "dex" : 282,
   "speciesId" : "SPECIES_LOUDRED",
   "name" : "Loudred",
   "types" : [ "Normal", null ],
   "abilities" : [ "Soundproof", "Punk Rock", "Scrappy" ],
   "color" : "Blue",
-  "file" : "280_SPECIES_LOUDRED.json"
+  "file" : "282_SPECIES_LOUDRED.json"
 }, {
-  "dex" : 281,
+  "dex" : 283,
   "speciesId" : "SPECIES_EXILED_EXPLOUD",
-  "name" : "Exploud",
+  "name" : "Exiled Exploud",
   "types" : [ "Fire", "Steel" ],
   "abilities" : [ "Blaze", "Punk Rock", "Soundproof" ],
   "color" : "Blue",
-  "file" : "281_SPECIES_EXILED_EXPLOUD.json"
+  "file" : "283_SPECIES_EXILED_EXPLOUD.json"
 }, {
-  "dex" : 281,
+  "dex" : 283,
   "speciesId" : "SPECIES_EXPLOUD",
   "name" : "Exploud",
   "types" : [ "Normal", null ],
   "abilities" : [ "Soundproof", "Punk Rock", "Scrappy" ],
   "color" : "Blue",
-  "file" : "281_SPECIES_EXPLOUD.json"
+  "file" : "283_SPECIES_EXPLOUD.json"
 }, {
-  "dex" : 282,
+  "dex" : 284,
   "speciesId" : "SPECIES_MAKUHITA",
   "name" : "Makuhita",
   "types" : [ "Fighting", null ],
   "abilities" : [ "Thick Fat", "Guts", "Sheer Force" ],
   "color" : "Yellow",
-  "file" : "282_SPECIES_MAKUHITA.json"
+  "file" : "284_SPECIES_MAKUHITA.json"
 }, {
-  "dex" : 283,
+  "dex" : 285,
   "speciesId" : "SPECIES_HARIYAMA",
   "name" : "Hariyama",
   "types" : [ "Fighting", null ],
   "abilities" : [ "Thick Fat", "Guts", "Sheer Force" ],
   "color" : "Brown",
-  "file" : "283_SPECIES_HARIYAMA.json"
+  "file" : "285_SPECIES_HARIYAMA.json"
 }, {
-  "dex" : 284,
+  "dex" : 286,
   "speciesId" : "SPECIES_NOSEPASS",
   "name" : "Nosepass",
   "types" : [ "Rock", null ],
   "abilities" : [ "Sturdy", "Magnet Pull", "Sand Force" ],
   "color" : "Gray",
-  "file" : "284_SPECIES_NOSEPASS.json"
+  "file" : "286_SPECIES_NOSEPASS.json"
 }, {
-  "dex" : 285,
+  "dex" : 287,
   "speciesId" : "SPECIES_PROBOPASS",
   "name" : "Probopass",
   "types" : [ "Rock", "Steel" ],
   "abilities" : [ "Sturdy", "Magnet Pull", "Sand Force" ],
   "color" : "Gray",
-  "file" : "285_SPECIES_PROBOPASS.json"
+  "file" : "287_SPECIES_PROBOPASS.json"
 }, {
-  "dex" : 286,
+  "dex" : 288,
   "speciesId" : "SPECIES_SABLEYE",
   "name" : "Sableye",
   "types" : [ "Dark", "Ghost" ],
   "abilities" : [ "Keen Eye", "Stall", "Prankster" ],
   "color" : "Purple",
-  "file" : "286_SPECIES_SABLEYE.json"
+  "file" : "288_SPECIES_SABLEYE.json"
 }, {
-  "dex" : 286,
+  "dex" : 288,
   "speciesId" : "SPECIES_SABLEYE_MEGA",
   "name" : "Sableye - Mega",
   "types" : [ "Dark", "Ghost" ],
   "abilities" : [ "Magic Bounce", "Magic Bounce", "Magic Bounce" ],
   "color" : "Purple",
-  "file" : "286_SPECIES_SABLEYE_MEGA.json"
+  "file" : "288_SPECIES_SABLEYE_MEGA.json"
 }, {
-  "dex" : 287,
+  "dex" : 289,
   "speciesId" : "SPECIES_MAWILE",
   "name" : "Mawile",
   "types" : [ "Steel", "Fairy" ],
   "abilities" : [ "Strong Jaw", "Intimidate", "Sheer Force" ],
   "color" : "Black",
-  "file" : "287_SPECIES_MAWILE.json"
+  "file" : "289_SPECIES_MAWILE.json"
 }, {
-  "dex" : 287,
+  "dex" : 289,
   "speciesId" : "SPECIES_MAWILE_MEGA",
   "name" : "Mawile - Mega",
   "types" : [ "Steel", "Fairy" ],
   "abilities" : [ "Huge Power", "Huge Power", "Huge Power" ],
   "color" : "Black",
-  "file" : "287_SPECIES_MAWILE_MEGA.json"
+  "file" : "289_SPECIES_MAWILE_MEGA.json"
 }, {
-  "dex" : 288,
+  "dex" : 290,
   "speciesId" : "SPECIES_ARON",
   "name" : "Aron",
   "types" : [ "Steel", "Rock" ],
   "abilities" : [ "Sturdy", "Rock Head", "Heavy Metal" ],
   "color" : "Gray",
-  "file" : "288_SPECIES_ARON.json"
+  "file" : "290_SPECIES_ARON.json"
 }, {
-  "dex" : 289,
+  "dex" : 291,
   "speciesId" : "SPECIES_LAIRON",
   "name" : "Lairon",
   "types" : [ "Steel", "Rock" ],
   "abilities" : [ "Sturdy", "Rock Head", "Heavy Metal" ],
   "color" : "Gray",
-  "file" : "289_SPECIES_LAIRON.json"
+  "file" : "291_SPECIES_LAIRON.json"
 }, {
-  "dex" : 290,
+  "dex" : 292,
   "speciesId" : "SPECIES_AGGRON",
   "name" : "Aggron",
   "types" : [ "Steel", "Rock" ],
   "abilities" : [ "Sturdy", "Rock Head", "Heavy Metal" ],
   "color" : "Gray",
-  "file" : "290_SPECIES_AGGRON.json"
+  "file" : "292_SPECIES_AGGRON.json"
 }, {
-  "dex" : 290,
+  "dex" : 292,
   "speciesId" : "SPECIES_AGGRON_MEGA",
   "name" : "Aggron - Mega",
   "types" : [ "Steel", null ],
   "abilities" : [ "Filter", "Filter", "Filter" ],
   "color" : "Gray",
-  "file" : "290_SPECIES_AGGRON_MEGA.json"
+  "file" : "292_SPECIES_AGGRON_MEGA.json"
 }, {
-  "dex" : 291,
+  "dex" : 293,
   "speciesId" : "SPECIES_MEDITITE",
   "name" : "Meditite",
   "types" : [ "Fighting", "Psychic" ],
   "abilities" : [ "Pure Power", "None", "Telepathy" ],
   "color" : "Blue",
-  "file" : "291_SPECIES_MEDITITE.json"
+  "file" : "293_SPECIES_MEDITITE.json"
 }, {
-  "dex" : 292,
+  "dex" : 294,
   "speciesId" : "SPECIES_MEDICHAM",
   "name" : "Medicham",
   "types" : [ "Fighting", "Psychic" ],
   "abilities" : [ "Pure Power", "None", "Telepathy" ],
   "color" : "Red",
-  "file" : "292_SPECIES_MEDICHAM.json"
+  "file" : "294_SPECIES_MEDICHAM.json"
 }, {
-  "dex" : 292,
+  "dex" : 294,
   "speciesId" : "SPECIES_MEDICHAM_MEGA",
   "name" : "Medicham - Mega",
   "types" : [ "Fighting", "Psychic" ],
   "abilities" : [ "Pure Power", "Pure Power", "Pure Power" ],
   "color" : "Red",
-  "file" : "292_SPECIES_MEDICHAM_MEGA.json"
+  "file" : "294_SPECIES_MEDICHAM_MEGA.json"
 }, {
-  "dex" : 293,
+  "dex" : 295,
   "speciesId" : "SPECIES_ELECTRIKE",
   "name" : "Electrike",
   "types" : [ "Electric", null ],
   "abilities" : [ "Static", "Lightning Rod", "Minus" ],
   "color" : "Green",
-  "file" : "293_SPECIES_ELECTRIKE.json"
+  "file" : "295_SPECIES_ELECTRIKE.json"
 }, {
-  "dex" : 294,
+  "dex" : 296,
   "speciesId" : "SPECIES_MANECTRIC",
   "name" : "Manectric",
   "types" : [ "Electric", null ],
   "abilities" : [ "Static", "Lightning Rod", "Intimidate" ],
   "color" : "Yellow",
-  "file" : "294_SPECIES_MANECTRIC.json"
+  "file" : "296_SPECIES_MANECTRIC.json"
 }, {
-  "dex" : 294,
+  "dex" : 296,
   "speciesId" : "SPECIES_MANECTRIC_MEGA",
   "name" : "Manectric - Mega",
   "types" : [ "Electric", null ],
   "abilities" : [ "Intimidate", "Intimidate", "Intimidate" ],
   "color" : "Yellow",
-  "file" : "294_SPECIES_MANECTRIC_MEGA.json"
+  "file" : "296_SPECIES_MANECTRIC_MEGA.json"
 }, {
-  "dex" : 295,
+  "dex" : 297,
   "speciesId" : "SPECIES_PLUSLE",
   "name" : "Plusle",
   "types" : [ "Electric", null ],
   "abilities" : [ "Plus", "None", "Lightning Rod" ],
   "color" : "Yellow",
-  "file" : "295_SPECIES_PLUSLE.json"
+  "file" : "297_SPECIES_PLUSLE.json"
 }, {
-  "dex" : 296,
+  "dex" : 298,
   "speciesId" : "SPECIES_MINUN",
   "name" : "Minun",
   "types" : [ "Electric", null ],
   "abilities" : [ "Minus", "None", "Volt Absorb" ],
   "color" : "Yellow",
-  "file" : "296_SPECIES_MINUN.json"
+  "file" : "298_SPECIES_MINUN.json"
 }, {
-  "dex" : 297,
+  "dex" : 299,
   "speciesId" : "SPECIES_BUDEW",
   "name" : "Budew",
   "types" : [ "Grass", "Poison" ],
   "abilities" : [ "Natural Cure", "Poison Touch", "Leaf Guard" ],
   "color" : "Green",
-  "file" : "297_SPECIES_BUDEW.json"
+  "file" : "299_SPECIES_BUDEW.json"
 }, {
-  "dex" : 298,
+  "dex" : 300,
   "speciesId" : "SPECIES_ROSELIA",
   "name" : "Roselia",
   "types" : [ "Grass", "Poison" ],
   "abilities" : [ "Natural Cure", "Poison Touch", "Leaf Guard" ],
   "color" : "Green",
-  "file" : "298_SPECIES_ROSELIA.json"
+  "file" : "300_SPECIES_ROSELIA.json"
 }, {
-  "dex" : 299,
+  "dex" : 301,
   "speciesId" : "SPECIES_ROSERADE",
   "name" : "Roserade",
   "types" : [ "Grass", "Poison" ],
   "abilities" : [ "Natural Cure", "Poison Touch", "Technician" ],
   "color" : "Green",
-  "file" : "299_SPECIES_ROSERADE.json"
+  "file" : "301_SPECIES_ROSERADE.json"
 }, {
-  "dex" : 300,
+  "dex" : 302,
   "speciesId" : "SPECIES_CARVANHA",
   "name" : "Carvanha",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Rough Skin", "None", "Speed Boost" ],
   "color" : "Red",
-  "file" : "300_SPECIES_CARVANHA.json"
+  "file" : "302_SPECIES_CARVANHA.json"
 }, {
-  "dex" : 300,
+  "dex" : 302,
   "speciesId" : "SPECIES_EXILED_CARVANHA",
-  "name" : "Carvanha",
+  "name" : "Exiled Carvanha",
   "types" : [ "Ground", "Fairy" ],
   "abilities" : [ "Water Compaction", "Sand Rush", "Sand Veil" ],
   "color" : "Red",
-  "file" : "300_SPECIES_EXILED_CARVANHA.json"
+  "file" : "302_SPECIES_EXILED_CARVANHA.json"
 }, {
-  "dex" : 301,
+  "dex" : 303,
   "speciesId" : "SPECIES_EXILED_SHARPEDO",
-  "name" : "Sharpedo",
+  "name" : "Exiled Sharpedo",
   "types" : [ "Ground", "Fairy" ],
   "abilities" : [ "Water Compaction", "Sand Rush", "Sand Veil" ],
   "color" : "Blue",
-  "file" : "301_SPECIES_EXILED_SHARPEDO.json"
+  "file" : "303_SPECIES_EXILED_SHARPEDO.json"
 }, {
-  "dex" : 301,
+  "dex" : 303,
   "speciesId" : "SPECIES_SHARPEDO",
   "name" : "Sharpedo",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Rough Skin", "None", "Speed Boost" ],
   "color" : "Blue",
-  "file" : "301_SPECIES_SHARPEDO.json"
+  "file" : "303_SPECIES_SHARPEDO.json"
 }, {
-  "dex" : 301,
+  "dex" : 303,
   "speciesId" : "SPECIES_SHARPEDO_MEGA",
   "name" : "Sharpedo - Mega",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Strong Jaw", "Strong Jaw", "Strong Jaw" ],
   "color" : "Blue",
-  "file" : "301_SPECIES_SHARPEDO_MEGA.json"
+  "file" : "303_SPECIES_SHARPEDO_MEGA.json"
 }, {
-  "dex" : 302,
+  "dex" : 304,
   "speciesId" : "SPECIES_WAILMER",
   "name" : "Wailmer",
   "types" : [ "Water", null ],
   "abilities" : [ "Water Veil", "Oblivious", "Pressure" ],
   "color" : "Blue",
-  "file" : "302_SPECIES_WAILMER.json"
+  "file" : "304_SPECIES_WAILMER.json"
 }, {
-  "dex" : 303,
+  "dex" : 305,
   "speciesId" : "SPECIES_WAILORD",
   "name" : "Wailord",
   "types" : [ "Water", null ],
   "abilities" : [ "Water Veil", "Oblivious", "Pressure" ],
   "color" : "Blue",
-  "file" : "303_SPECIES_WAILORD.json"
+  "file" : "305_SPECIES_WAILORD.json"
 }, {
-  "dex" : 304,
+  "dex" : 306,
   "speciesId" : "SPECIES_EXILED_NUMEL",
-  "name" : "Numel",
+  "name" : "Exiled Numel",
   "types" : [ "Fire", "Water" ],
   "abilities" : [ "Oblivious", "Simple", "Own Tempo" ],
   "color" : "Yellow",
-  "file" : "304_SPECIES_EXILED_NUMEL.json"
+  "file" : "306_SPECIES_EXILED_NUMEL.json"
 }, {
-  "dex" : 304,
+  "dex" : 306,
   "speciesId" : "SPECIES_NUMEL",
   "name" : "Numel",
   "types" : [ "Fire", "Ground" ],
   "abilities" : [ "Oblivious", "Simple", "Own Tempo" ],
   "color" : "Yellow",
-  "file" : "304_SPECIES_NUMEL.json"
+  "file" : "306_SPECIES_NUMEL.json"
 }, {
-  "dex" : 305,
+  "dex" : 307,
   "speciesId" : "SPECIES_CAMERUPT",
   "name" : "Camerupt",
   "types" : [ "Fire", "Ground" ],
   "abilities" : [ "Magma Armor", "Solid Rock", "Anger Point" ],
   "color" : "Red",
-  "file" : "305_SPECIES_CAMERUPT.json"
+  "file" : "307_SPECIES_CAMERUPT.json"
 }, {
-  "dex" : 305,
+  "dex" : 307,
   "speciesId" : "SPECIES_CAMERUPT_MEGA",
   "name" : "Camerupt - Mega",
   "types" : [ "Fire", "Ground" ],
   "abilities" : [ "Sheer Force", "Sheer Force", "Sheer Force" ],
   "color" : "Red",
-  "file" : "305_SPECIES_CAMERUPT_MEGA.json"
+  "file" : "307_SPECIES_CAMERUPT_MEGA.json"
 }, {
-  "dex" : 305,
+  "dex" : 307,
   "speciesId" : "SPECIES_EXILED_CAMERUPT",
-  "name" : "Camerupt",
+  "name" : "Exiled Camerupt",
   "types" : [ "Fire", "Water" ],
   "abilities" : [ "Unaware", "Simple", "Steam Engine" ],
   "color" : "Red",
-  "file" : "305_SPECIES_EXILED_CAMERUPT.json"
+  "file" : "307_SPECIES_EXILED_CAMERUPT.json"
 }, {
-  "dex" : 306,
+  "dex" : 308,
   "speciesId" : "SPECIES_TORKOAL",
   "name" : "Torkoal",
   "types" : [ "Fire", null ],
   "abilities" : [ "White Smoke", "Drought", "Shell Armor" ],
   "color" : "Brown",
-  "file" : "306_SPECIES_TORKOAL.json"
+  "file" : "308_SPECIES_TORKOAL.json"
 }, {
-  "dex" : 307,
+  "dex" : 309,
   "speciesId" : "SPECIES_TRAPINCH",
   "name" : "Trapinch",
   "types" : [ "Ground", "Bug" ],
   "abilities" : [ "Hyper Cutter", "Arena Trap", "Sheer Force" ],
   "color" : "Brown",
-  "file" : "307_SPECIES_TRAPINCH.json"
+  "file" : "309_SPECIES_TRAPINCH.json"
 }, {
-  "dex" : 308,
+  "dex" : 310,
   "speciesId" : "SPECIES_VIBRAVA",
   "name" : "Vibrava",
   "types" : [ "Ground", "Bug" ],
   "abilities" : [ "Levitate", "Levitate", "Levitate" ],
   "color" : "Green",
-  "file" : "308_SPECIES_VIBRAVA.json"
+  "file" : "310_SPECIES_VIBRAVA.json"
 }, {
-  "dex" : 309,
+  "dex" : 311,
   "speciesId" : "SPECIES_FLYGON",
   "name" : "Flygon",
   "types" : [ "Bug", "Dragon" ],
   "abilities" : [ "Tinted Lens", "Levitate", "Sand Force" ],
   "color" : "Green",
-  "file" : "309_SPECIES_FLYGON.json"
+  "file" : "311_SPECIES_FLYGON.json"
 }, {
-  "dex" : 310,
+  "dex" : 312,
   "speciesId" : "SPECIES_CACNEA",
   "name" : "Cacnea",
   "types" : [ "Grass", null ],
   "abilities" : [ "Sand Veil", "None", "Water Absorb" ],
   "color" : "Green",
-  "file" : "310_SPECIES_CACNEA.json"
+  "file" : "312_SPECIES_CACNEA.json"
 }, {
-  "dex" : 311,
+  "dex" : 313,
   "speciesId" : "SPECIES_CACTURNE",
   "name" : "Cacturne",
   "types" : [ "Grass", "Dark" ],
   "abilities" : [ "Sand Veil", "Iron Barbs", "Water Absorb" ],
   "color" : "Green",
-  "file" : "311_SPECIES_CACTURNE.json"
+  "file" : "313_SPECIES_CACTURNE.json"
 }, {
-  "dex" : 312,
+  "dex" : 314,
   "speciesId" : "SPECIES_SWABLU",
   "name" : "Swablu",
   "types" : [ "Normal", "Flying" ],
   "abilities" : [ "Natural Cure", "Fluffy", "Cloud Nine" ],
   "color" : "Blue",
-  "file" : "312_SPECIES_SWABLU.json"
+  "file" : "314_SPECIES_SWABLU.json"
 }, {
-  "dex" : 313,
+  "dex" : 315,
   "speciesId" : "SPECIES_ALTARIA",
   "name" : "Altaria",
   "types" : [ "Dragon", "Fairy" ],
   "abilities" : [ "Natural Cure", "Fluffy", "Cloud Nine" ],
   "color" : "Blue",
-  "file" : "313_SPECIES_ALTARIA.json"
+  "file" : "315_SPECIES_ALTARIA.json"
 }, {
-  "dex" : 313,
+  "dex" : 315,
   "speciesId" : "SPECIES_ALTARIA_MEGA",
   "name" : "Altaria - Mega",
   "types" : [ "Dragon", "Fairy" ],
   "abilities" : [ "Pixilate", "Pixilate", "Pixilate" ],
   "color" : "Blue",
-  "file" : "313_SPECIES_ALTARIA_MEGA.json"
+  "file" : "315_SPECIES_ALTARIA_MEGA.json"
 }, {
-  "dex" : 314,
+  "dex" : 316,
   "speciesId" : "SPECIES_BARBOACH",
   "name" : "Barboach",
   "types" : [ "Water", "Ground" ],
   "abilities" : [ "Oblivious", "Anticipation", "Hydration" ],
   "color" : "Gray",
-  "file" : "314_SPECIES_BARBOACH.json"
+  "file" : "316_SPECIES_BARBOACH.json"
 }, {
-  "dex" : 314,
+  "dex" : 316,
   "speciesId" : "SPECIES_EXILED_BARBOACH",
-  "name" : "Barboach",
+  "name" : "Exiled Barboach",
   "types" : [ "Dragon", "Fairy" ],
   "abilities" : [ "Super Luck", "Anticipation", "Misty Surge" ],
   "color" : "Gray",
-  "file" : "314_SPECIES_EXILED_BARBOACH.json"
+  "file" : "316_SPECIES_EXILED_BARBOACH.json"
 }, {
-  "dex" : 315,
+  "dex" : 317,
   "speciesId" : "SPECIES_EXILED_WHISCASH",
-  "name" : "Whiscash",
+  "name" : "Exiled Whiscash",
   "types" : [ "Dragon", "Fairy" ],
   "abilities" : [ "Super Luck", "Anticipation", "Misty Surge" ],
   "color" : "Blue",
-  "file" : "315_SPECIES_EXILED_WHISCASH.json"
+  "file" : "317_SPECIES_EXILED_WHISCASH.json"
 }, {
-  "dex" : 315,
+  "dex" : 317,
   "speciesId" : "SPECIES_WHISCASH",
   "name" : "Whiscash",
   "types" : [ "Water", "Ground" ],
   "abilities" : [ "Oblivious", "Earth Eater", "Hydration" ],
   "color" : "Blue",
-  "file" : "315_SPECIES_WHISCASH.json"
+  "file" : "317_SPECIES_WHISCASH.json"
 }, {
-  "dex" : 316,
+  "dex" : 318,
   "speciesId" : "SPECIES_CORPHISH",
   "name" : "Corphish",
   "types" : [ "Water", null ],
   "abilities" : [ "Hyper Cutter", "Shell Armor", "Adaptability" ],
   "color" : "Red",
-  "file" : "316_SPECIES_CORPHISH.json"
+  "file" : "318_SPECIES_CORPHISH.json"
 }, {
-  "dex" : 317,
+  "dex" : 319,
   "speciesId" : "SPECIES_CRAWDAUNT",
   "name" : "Crawdaunt",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Hyper Cutter", "Shell Armor", "Adaptability" ],
   "color" : "Red",
-  "file" : "317_SPECIES_CRAWDAUNT.json"
+  "file" : "319_SPECIES_CRAWDAUNT.json"
 }, {
-  "dex" : 318,
+  "dex" : 320,
   "speciesId" : "SPECIES_BALTOY",
   "name" : "Baltoy",
   "types" : [ "Ground", "Psychic" ],
   "abilities" : [ "Levitate", "None", "Wonder Skin" ],
   "color" : "Brown",
-  "file" : "318_SPECIES_BALTOY.json"
+  "file" : "320_SPECIES_BALTOY.json"
 }, {
-  "dex" : 319,
+  "dex" : 321,
   "speciesId" : "SPECIES_CLAYDOL",
   "name" : "Claydol",
   "types" : [ "Ground", "Psychic" ],
   "abilities" : [ "Levitate", "None", "Wonder Guard" ],
   "color" : "Black",
-  "file" : "319_SPECIES_CLAYDOL.json"
+  "file" : "321_SPECIES_CLAYDOL.json"
 }, {
-  "dex" : 320,
+  "dex" : 322,
   "speciesId" : "SPECIES_LILEEP",
   "name" : "Lileep",
   "types" : [ "Rock", "Grass" ],
   "abilities" : [ "Suction Cups", "None", "Storm Drain" ],
   "color" : "Purple",
-  "file" : "320_SPECIES_LILEEP.json"
+  "file" : "322_SPECIES_LILEEP.json"
 }, {
-  "dex" : 321,
+  "dex" : 323,
   "speciesId" : "SPECIES_CRADILY",
   "name" : "Cradily",
   "types" : [ "Rock", "Grass" ],
   "abilities" : [ "Suction Cups", "None", "Storm Drain" ],
   "color" : "Green",
-  "file" : "321_SPECIES_CRADILY.json"
+  "file" : "323_SPECIES_CRADILY.json"
 }, {
-  "dex" : 322,
+  "dex" : 324,
   "speciesId" : "SPECIES_ANORITH",
   "name" : "Anorith",
   "types" : [ "Rock", "Bug" ],
   "abilities" : [ "Battle Armor", "None", "Swift Swim" ],
   "color" : "Gray",
-  "file" : "322_SPECIES_ANORITH.json"
+  "file" : "324_SPECIES_ANORITH.json"
 }, {
-  "dex" : 323,
+  "dex" : 325,
   "speciesId" : "SPECIES_ARMALDO",
   "name" : "Armaldo",
   "types" : [ "Rock", "Bug" ],
   "abilities" : [ "Battle Armor", "None", "Swift Swim" ],
   "color" : "Gray",
-  "file" : "323_SPECIES_ARMALDO.json"
+  "file" : "325_SPECIES_ARMALDO.json"
 }, {
-  "dex" : 324,
+  "dex" : 326,
   "speciesId" : "SPECIES_FEEBAS",
   "name" : "Feebas",
   "types" : [ "Water", "Normal" ],
   "abilities" : [ "Swift Swim", "Oblivious", "Adaptability" ],
   "color" : "Brown",
-  "file" : "324_SPECIES_FEEBAS.json"
+  "file" : "326_SPECIES_FEEBAS.json"
 }, {
-  "dex" : 325,
+  "dex" : 327,
   "speciesId" : "SPECIES_MILOTIC",
   "name" : "Milotic",
   "types" : [ "Water", "Fairy" ],
   "abilities" : [ "Marvel Scale", "Competitive", "Serene Grace" ],
   "color" : "Pink",
-  "file" : "325_SPECIES_MILOTIC.json"
+  "file" : "327_SPECIES_MILOTIC.json"
 }, {
-  "dex" : 329,
+  "dex" : 331,
   "speciesId" : "SPECIES_CASTFORM_NORMAL",
   "name" : "Castform",
   "types" : [ "Normal", null ],
   "abilities" : [ "Forecast", "None", "None" ],
   "color" : "Gray",
-  "file" : "329_SPECIES_CASTFORM_NORMAL.json"
+  "file" : "331_SPECIES_CASTFORM_NORMAL.json"
 }, {
-  "dex" : 329,
+  "dex" : 331,
   "speciesId" : "SPECIES_CASTFORM_RAINY",
   "name" : "Castform",
   "types" : [ "Water", null ],
   "abilities" : [ "Forecast", "None", "None" ],
   "color" : "Blue",
-  "file" : "329_SPECIES_CASTFORM_RAINY.json"
+  "file" : "331_SPECIES_CASTFORM_RAINY.json"
 }, {
-  "dex" : 329,
+  "dex" : 331,
   "speciesId" : "SPECIES_CASTFORM_SNOWY",
   "name" : "Castform",
   "types" : [ "Ice", null ],
   "abilities" : [ "Forecast", "None", "None" ],
   "color" : "White",
-  "file" : "329_SPECIES_CASTFORM_SNOWY.json"
+  "file" : "331_SPECIES_CASTFORM_SNOWY.json"
 }, {
-  "dex" : 329,
+  "dex" : 331,
   "speciesId" : "SPECIES_CASTFORM_SUNNY",
   "name" : "Castform",
   "types" : [ "Fire", null ],
   "abilities" : [ "Forecast", "None", "None" ],
   "color" : "Red",
-  "file" : "329_SPECIES_CASTFORM_SUNNY.json"
+  "file" : "331_SPECIES_CASTFORM_SUNNY.json"
 }, {
-  "dex" : 330,
+  "dex" : 332,
   "speciesId" : "SPECIES_SHUPPET",
   "name" : "Shuppet",
   "types" : [ "Ghost", null ],
   "abilities" : [ "Insomnia", "Frisk", "Cursed Body" ],
   "color" : "Black",
-  "file" : "330_SPECIES_SHUPPET.json"
+  "file" : "332_SPECIES_SHUPPET.json"
 }, {
-  "dex" : 331,
+  "dex" : 333,
   "speciesId" : "SPECIES_BANETTE",
   "name" : "Banette",
   "types" : [ "Ghost", "Fairy" ],
   "abilities" : [ "Insomnia", "Frisk", "Cursed Body" ],
   "color" : "Black",
-  "file" : "331_SPECIES_BANETTE.json"
+  "file" : "333_SPECIES_BANETTE.json"
 }, {
-  "dex" : 331,
+  "dex" : 333,
   "speciesId" : "SPECIES_BANETTE_MEGA",
   "name" : "Banette - Mega",
   "types" : [ "Ghost", null ],
   "abilities" : [ "Prankster", "Prankster", "Prankster" ],
   "color" : "Black",
-  "file" : "331_SPECIES_BANETTE_MEGA.json"
+  "file" : "333_SPECIES_BANETTE_MEGA.json"
 }, {
-  "dex" : 332,
+  "dex" : 334,
   "speciesId" : "SPECIES_DUSKULL",
   "name" : "Duskull",
   "types" : [ "Ghost", null ],
   "abilities" : [ "Levitate", "None", "Frisk" ],
   "color" : "Black",
-  "file" : "332_SPECIES_DUSKULL.json"
+  "file" : "334_SPECIES_DUSKULL.json"
 }, {
-  "dex" : 333,
+  "dex" : 335,
   "speciesId" : "SPECIES_DUSCLOPS",
   "name" : "Dusclops",
   "types" : [ "Ghost", null ],
   "abilities" : [ "Pressure", "None", "Frisk" ],
   "color" : "Black",
-  "file" : "333_SPECIES_DUSCLOPS.json"
+  "file" : "335_SPECIES_DUSCLOPS.json"
 }, {
-  "dex" : 334,
+  "dex" : 336,
   "speciesId" : "SPECIES_DUSKNOIR",
   "name" : "Dusknoir",
   "types" : [ "Ghost", null ],
   "abilities" : [ "Pressure", "None", "Infiltrator" ],
   "color" : "Black",
-  "file" : "334_SPECIES_DUSKNOIR.json"
+  "file" : "336_SPECIES_DUSKNOIR.json"
 }, {
-  "dex" : 335,
+  "dex" : 337,
   "speciesId" : "SPECIES_TROPIUS",
   "name" : "Tropius",
   "types" : [ "Grass", "Flying" ],
   "abilities" : [ "Chlorophyll", "Serene Grace", "Wind Rider" ],
   "color" : "Green",
-  "file" : "335_SPECIES_TROPIUS.json"
+  "file" : "337_SPECIES_TROPIUS.json"
 }, {
-  "dex" : 336,
+  "dex" : 338,
   "speciesId" : "SPECIES_ABSOL",
   "name" : "Absol",
   "types" : [ "Dark", null ],
   "abilities" : [ "Sharpness", "Super Luck", "Justified" ],
   "color" : "White",
-  "file" : "336_SPECIES_ABSOL.json"
+  "file" : "338_SPECIES_ABSOL.json"
 }, {
-  "dex" : 336,
+  "dex" : 338,
   "speciesId" : "SPECIES_ABSOL_MEGA",
   "name" : "Absol - Mega",
   "types" : [ "Dark", null ],
   "abilities" : [ "Sharpness", "Sharpness", "Sharpness" ],
   "color" : "White",
-  "file" : "336_SPECIES_ABSOL_MEGA.json"
+  "file" : "338_SPECIES_ABSOL_MEGA.json"
 }, {
-  "dex" : 337,
+  "dex" : 339,
   "speciesId" : "SPECIES_SNORUNT",
   "name" : "Snorunt",
   "types" : [ "Ice", null ],
   "abilities" : [ "Inner Focus", "Ice Body", "Moody" ],
   "color" : "Gray",
-  "file" : "337_SPECIES_SNORUNT.json"
+  "file" : "339_SPECIES_SNORUNT.json"
 }, {
-  "dex" : 338,
+  "dex" : 340,
   "speciesId" : "SPECIES_GLALIE",
   "name" : "Glalie",
   "types" : [ "Ice", null ],
   "abilities" : [ "Refrigerate", "Ice Body", "Moody" ],
   "color" : "Gray",
-  "file" : "338_SPECIES_GLALIE.json"
+  "file" : "340_SPECIES_GLALIE.json"
 }, {
-  "dex" : 338,
+  "dex" : 340,
   "speciesId" : "SPECIES_GLALIE_MEGA",
   "name" : "Glalie - Mega",
   "types" : [ "Ice", null ],
   "abilities" : [ "Refrigerate", "Refrigerate", "Refrigerate" ],
   "color" : "Gray",
-  "file" : "338_SPECIES_GLALIE_MEGA.json"
+  "file" : "340_SPECIES_GLALIE_MEGA.json"
 }, {
-  "dex" : 339,
+  "dex" : 341,
   "speciesId" : "SPECIES_FROSLASS",
   "name" : "Froslass",
   "types" : [ "Ice", "Ghost" ],
   "abilities" : [ "Snow Cloak", "Serene Grace", "Cursed Body" ],
   "color" : "White",
-  "file" : "339_SPECIES_FROSLASS.json"
+  "file" : "341_SPECIES_FROSLASS.json"
 }, {
-  "dex" : 340,
+  "dex" : 342,
   "speciesId" : "SPECIES_EXILED_SPHEAL",
-  "name" : "Spheal",
+  "name" : "Exiled Spheal",
   "types" : [ "Grass", "Electric" ],
   "abilities" : [ "Oblivious", "Motor Drive", "Triage" ],
   "color" : "Blue",
-  "file" : "340_SPECIES_EXILED_SPHEAL.json"
+  "file" : "342_SPECIES_EXILED_SPHEAL.json"
 }, {
-  "dex" : 340,
+  "dex" : 342,
   "speciesId" : "SPECIES_SPHEAL",
   "name" : "Spheal",
   "types" : [ "Ice", "Water" ],
   "abilities" : [ "Thick Fat", "Ice Body", "Oblivious" ],
   "color" : "Blue",
-  "file" : "340_SPECIES_SPHEAL.json"
+  "file" : "342_SPECIES_SPHEAL.json"
 }, {
-  "dex" : 341,
+  "dex" : 343,
   "speciesId" : "SPECIES_EXILED_SEALEO",
-  "name" : "Sealeo",
+  "name" : "Exiled Sealeo",
   "types" : [ "Ice", "Water" ],
   "abilities" : [ "Oblivious", "Motor Drive", "Triage" ],
   "color" : "Blue",
-  "file" : "341_SPECIES_EXILED_SEALEO.json"
+  "file" : "343_SPECIES_EXILED_SEALEO.json"
 }, {
-  "dex" : 341,
+  "dex" : 343,
   "speciesId" : "SPECIES_SEALEO",
   "name" : "Sealeo",
   "types" : [ "Ice", "Water" ],
   "abilities" : [ "Thick Fat", "Ice Body", "Oblivious" ],
   "color" : "Blue",
-  "file" : "341_SPECIES_SEALEO.json"
+  "file" : "343_SPECIES_SEALEO.json"
 }, {
-  "dex" : 342,
+  "dex" : 344,
   "speciesId" : "SPECIES_EXILED_WALREIN",
-  "name" : "Walrein",
+  "name" : "Exiled Walrein",
   "types" : [ "Grass", "Electric" ],
   "abilities" : [ "Oblivious", "Motor Drive", "Triage" ],
   "color" : "Blue",
-  "file" : "342_SPECIES_EXILED_WALREIN.json"
+  "file" : "344_SPECIES_EXILED_WALREIN.json"
 }, {
-  "dex" : 342,
+  "dex" : 344,
   "speciesId" : "SPECIES_WALREIN",
   "name" : "Walrein",
   "types" : [ "Ice", "Water" ],
   "abilities" : [ "Thick Fat", "Ice Body", "Fur Coat" ],
   "color" : "Blue",
-  "file" : "342_SPECIES_WALREIN.json"
+  "file" : "344_SPECIES_WALREIN.json"
 }, {
-  "dex" : 343,
+  "dex" : 345,
   "speciesId" : "SPECIES_CLAMPERL",
   "name" : "Clamperl",
   "types" : [ "Water", null ],
   "abilities" : [ "Shell Armor", "None", "Rattled" ],
   "color" : "Blue",
-  "file" : "343_SPECIES_CLAMPERL.json"
+  "file" : "345_SPECIES_CLAMPERL.json"
 }, {
-  "dex" : 344,
+  "dex" : 346,
   "speciesId" : "SPECIES_HUNTAIL",
   "name" : "Huntail",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Swift Swim", "Strong Jaw", "Water Veil" ],
   "color" : "Blue",
-  "file" : "344_SPECIES_HUNTAIL.json"
+  "file" : "346_SPECIES_HUNTAIL.json"
 }, {
-  "dex" : 345,
+  "dex" : 347,
   "speciesId" : "SPECIES_GOREBYSS",
   "name" : "Gorebyss",
   "types" : [ "Water", "Fairy" ],
   "abilities" : [ "Swift Swim", "Serene Grace", "Hydration" ],
   "color" : "Pink",
-  "file" : "345_SPECIES_GOREBYSS.json"
+  "file" : "347_SPECIES_GOREBYSS.json"
 }, {
-  "dex" : 346,
+  "dex" : 348,
   "speciesId" : "SPECIES_RELICANTH",
   "name" : "Relicanth",
   "types" : [ "Water", "Rock" ],
   "abilities" : [ "Swift Swim", "Rock Head", "Sturdy" ],
   "color" : "Gray",
-  "file" : "346_SPECIES_RELICANTH.json"
+  "file" : "348_SPECIES_RELICANTH.json"
 }, {
-  "dex" : 347,
+  "dex" : 349,
   "speciesId" : "SPECIES_LUVDISC",
   "name" : "Luvdisc",
   "types" : [ "Water", null ],
   "abilities" : [ "Swift Swim", "None", "Hydration" ],
   "color" : "Pink",
-  "file" : "347_SPECIES_LUVDISC.json"
+  "file" : "349_SPECIES_LUVDISC.json"
 }, {
-  "dex" : 348,
+  "dex" : 350,
   "speciesId" : "SPECIES_BAGON",
   "name" : "Bagon",
   "types" : [ "Dragon", null ],
   "abilities" : [ "Rock Head", "None", "Sheer Force" ],
   "color" : "Blue",
-  "file" : "348_SPECIES_BAGON.json"
+  "file" : "350_SPECIES_BAGON.json"
 }, {
-  "dex" : 349,
+  "dex" : 351,
   "speciesId" : "SPECIES_SHELGON",
   "name" : "Shelgon",
   "types" : [ "Dragon", null ],
   "abilities" : [ "Rock Head", "None", "Overcoat" ],
   "color" : "White",
-  "file" : "349_SPECIES_SHELGON.json"
+  "file" : "351_SPECIES_SHELGON.json"
 }, {
-  "dex" : 350,
+  "dex" : 352,
   "speciesId" : "SPECIES_SALAMENCE",
   "name" : "Salamence",
   "types" : [ "Dragon", "Flying" ],
   "abilities" : [ "Intimidate", "None", "Moxie" ],
   "color" : "Blue",
-  "file" : "350_SPECIES_SALAMENCE.json"
+  "file" : "352_SPECIES_SALAMENCE.json"
 }, {
-  "dex" : 350,
+  "dex" : 352,
   "speciesId" : "SPECIES_SALAMENCE_MEGA",
   "name" : "Salamence - Mega",
   "types" : [ "Dragon", "Flying" ],
   "abilities" : [ "Aerilate", "Aerilate", "Aerilate" ],
   "color" : "Blue",
-  "file" : "350_SPECIES_SALAMENCE_MEGA.json"
+  "file" : "352_SPECIES_SALAMENCE_MEGA.json"
 }, {
-  "dex" : 351,
+  "dex" : 353,
   "speciesId" : "SPECIES_BELDUM",
   "name" : "Beldum",
   "types" : [ "Steel", "Psychic" ],
   "abilities" : [ "Clear Body", "None", "Light Metal" ],
   "color" : "Blue",
-  "file" : "351_SPECIES_BELDUM.json"
+  "file" : "353_SPECIES_BELDUM.json"
 }, {
-  "dex" : 352,
+  "dex" : 354,
   "speciesId" : "SPECIES_METANG",
   "name" : "Metang",
   "types" : [ "Steel", "Psychic" ],
   "abilities" : [ "Clear Body", "None", "Light Metal" ],
   "color" : "Blue",
-  "file" : "352_SPECIES_METANG.json"
+  "file" : "354_SPECIES_METANG.json"
 }, {
-  "dex" : 353,
+  "dex" : 355,
   "speciesId" : "SPECIES_METAGROSS",
   "name" : "Metagross",
   "types" : [ "Steel", "Psychic" ],
   "abilities" : [ "Clear Body", "Light Metal", "Tough Claws" ],
   "color" : "Blue",
-  "file" : "353_SPECIES_METAGROSS.json"
+  "file" : "355_SPECIES_METAGROSS.json"
 }, {
-  "dex" : 353,
+  "dex" : 355,
   "speciesId" : "SPECIES_METAGROSS_MEGA",
   "name" : "Metagross - Mega",
   "types" : [ "Steel", "Psychic" ],
   "abilities" : [ "Tough Claws", "Tough Claws", "Tough Claws" ],
   "color" : "Blue",
-  "file" : "353_SPECIES_METAGROSS_MEGA.json"
+  "file" : "355_SPECIES_METAGROSS_MEGA.json"
 }, {
-  "dex" : 368,
+  "dex" : 370,
   "speciesId" : "SPECIES_TURTWIG",
   "name" : "Turtwig",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Shell Armor", "Reckless" ],
   "color" : "Green",
-  "file" : "368_SPECIES_TURTWIG.json"
+  "file" : "370_SPECIES_TURTWIG.json"
 }, {
-  "dex" : 369,
+  "dex" : 371,
   "speciesId" : "SPECIES_GROTLE",
   "name" : "Grotle",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Shell Armor", "Reckless" ],
   "color" : "Green",
-  "file" : "369_SPECIES_GROTLE.json"
+  "file" : "371_SPECIES_GROTLE.json"
 }, {
-  "dex" : 370,
+  "dex" : 372,
   "speciesId" : "SPECIES_TORTERRA",
   "name" : "Torterra",
   "types" : [ "Grass", "Ground" ],
   "abilities" : [ "Overgrow", "Shell Armor", "Rock Head" ],
   "color" : "Green",
-  "file" : "370_SPECIES_TORTERRA.json"
+  "file" : "372_SPECIES_TORTERRA.json"
 }, {
-  "dex" : 371,
+  "dex" : 373,
   "speciesId" : "SPECIES_CHIMCHAR",
   "name" : "Chimchar",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "Iron Fist", "Adaptability" ],
   "color" : "Brown",
-  "file" : "371_SPECIES_CHIMCHAR.json"
+  "file" : "373_SPECIES_CHIMCHAR.json"
 }, {
-  "dex" : 372,
+  "dex" : 374,
   "speciesId" : "SPECIES_MONFERNO",
   "name" : "Monferno",
   "types" : [ "Fire", "Fighting" ],
   "abilities" : [ "Blaze", "Iron Fist", "Adaptability" ],
   "color" : "Brown",
-  "file" : "372_SPECIES_MONFERNO.json"
+  "file" : "374_SPECIES_MONFERNO.json"
 }, {
-  "dex" : 373,
+  "dex" : 375,
   "speciesId" : "SPECIES_INFERNAPE",
   "name" : "Infernape",
   "types" : [ "Fire", "Fighting" ],
   "abilities" : [ "Blaze", "Iron Fist", "Adaptability" ],
   "color" : "Brown",
-  "file" : "373_SPECIES_INFERNAPE.json"
+  "file" : "375_SPECIES_INFERNAPE.json"
 }, {
-  "dex" : 374,
+  "dex" : 376,
   "speciesId" : "SPECIES_PIPLUP",
   "name" : "Piplup",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Competitive", "Refrigerate" ],
   "color" : "Blue",
-  "file" : "374_SPECIES_PIPLUP.json"
+  "file" : "376_SPECIES_PIPLUP.json"
 }, {
-  "dex" : 375,
+  "dex" : 377,
   "speciesId" : "SPECIES_PRINPLUP",
   "name" : "Prinplup",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Competitive", "Refrigerate" ],
   "color" : "Blue",
-  "file" : "375_SPECIES_PRINPLUP.json"
+  "file" : "377_SPECIES_PRINPLUP.json"
 }, {
-  "dex" : 376,
+  "dex" : 378,
   "speciesId" : "SPECIES_EMPOLEON",
   "name" : "Empoleon",
   "types" : [ "Water", "Steel" ],
   "abilities" : [ "Torrent", "Competitive", "Refrigerate" ],
   "color" : "Blue",
-  "file" : "376_SPECIES_EMPOLEON.json"
+  "file" : "378_SPECIES_EMPOLEON.json"
 }, {
-  "dex" : 377,
+  "dex" : 379,
   "speciesId" : "SPECIES_STARLY",
   "name" : "Starly",
   "types" : [ "Flying", null ],
   "abilities" : [ "Keen Eye", "None", "Reckless" ],
   "color" : "Brown",
-  "file" : "377_SPECIES_STARLY.json"
+  "file" : "379_SPECIES_STARLY.json"
 }, {
-  "dex" : 378,
+  "dex" : 380,
   "speciesId" : "SPECIES_STARAVIA",
   "name" : "Staravia",
   "types" : [ "Flying", null ],
   "abilities" : [ "Intimidate", "None", "Reckless" ],
   "color" : "Brown",
-  "file" : "378_SPECIES_STARAVIA.json"
+  "file" : "380_SPECIES_STARAVIA.json"
 }, {
-  "dex" : 379,
+  "dex" : 381,
   "speciesId" : "SPECIES_STARAPTOR",
   "name" : "Staraptor",
   "types" : [ "Fighting", "Flying" ],
   "abilities" : [ "Intimidate", "None", "Reckless" ],
   "color" : "Brown",
-  "file" : "379_SPECIES_STARAPTOR.json"
+  "file" : "381_SPECIES_STARAPTOR.json"
 }, {
-  "dex" : 380,
+  "dex" : 382,
   "speciesId" : "SPECIES_SHINX",
   "name" : "Shinx",
   "types" : [ "Electric", null ],
   "abilities" : [ "Rivalry", "Intimidate", "Guts" ],
   "color" : "Blue",
-  "file" : "380_SPECIES_SHINX.json"
+  "file" : "382_SPECIES_SHINX.json"
 }, {
-  "dex" : 381,
+  "dex" : 383,
   "speciesId" : "SPECIES_LUXIO",
   "name" : "Luxio",
   "types" : [ "Electric", null ],
   "abilities" : [ "Rivalry", "Intimidate", "Guts" ],
   "color" : "Blue",
-  "file" : "381_SPECIES_LUXIO.json"
+  "file" : "383_SPECIES_LUXIO.json"
 }, {
-  "dex" : 382,
+  "dex" : 384,
   "speciesId" : "SPECIES_LUXRAY",
   "name" : "Luxray",
   "types" : [ "Electric", null ],
   "abilities" : [ "Rivalry", "Intimidate", "Guts" ],
   "color" : "Blue",
-  "file" : "382_SPECIES_LUXRAY.json"
+  "file" : "384_SPECIES_LUXRAY.json"
 }, {
-  "dex" : 383,
+  "dex" : 385,
   "speciesId" : "SPECIES_CRANIDOS",
   "name" : "Cranidos",
   "types" : [ "Rock", null ],
   "abilities" : [ "Mold Breaker", "None", "Sheer Force" ],
   "color" : "Blue",
-  "file" : "383_SPECIES_CRANIDOS.json"
+  "file" : "385_SPECIES_CRANIDOS.json"
 }, {
-  "dex" : 384,
+  "dex" : 386,
   "speciesId" : "SPECIES_RAMPARDOS",
   "name" : "Rampardos",
   "types" : [ "Rock", null ],
   "abilities" : [ "Mold Breaker", "None", "Sheer Force" ],
   "color" : "Blue",
-  "file" : "384_SPECIES_RAMPARDOS.json"
+  "file" : "386_SPECIES_RAMPARDOS.json"
 }, {
-  "dex" : 385,
+  "dex" : 387,
   "speciesId" : "SPECIES_SHIELDON",
   "name" : "Shieldon",
   "types" : [ "Rock", "Steel" ],
   "abilities" : [ "Sturdy", "Battle Armor", "Soundproof" ],
   "color" : "Gray",
-  "file" : "385_SPECIES_SHIELDON.json"
+  "file" : "387_SPECIES_SHIELDON.json"
 }, {
-  "dex" : 386,
+  "dex" : 388,
   "speciesId" : "SPECIES_BASTIODON",
   "name" : "Bastiodon",
   "types" : [ "Rock", "Steel" ],
   "abilities" : [ "Sturdy", "Dauntless Shield", "Soundproof" ],
   "color" : "Gray",
-  "file" : "386_SPECIES_BASTIODON.json"
+  "file" : "388_SPECIES_BASTIODON.json"
 }, {
-  "dex" : 387,
+  "dex" : 389,
   "speciesId" : "SPECIES_EXILED_PACHIRISU",
-  "name" : "Pachirisu",
+  "name" : "Exiled Pachirisu",
   "types" : [ "Normal", "Rock" ],
   "abilities" : [ "Rock Head", "Pickup", "Sand Rush" ],
   "color" : "White",
-  "file" : "387_SPECIES_EXILED_PACHIRISU.json"
+  "file" : "389_SPECIES_EXILED_PACHIRISU.json"
 }, {
-  "dex" : 387,
+  "dex" : 389,
   "speciesId" : "SPECIES_PACHIRISU",
   "name" : "Pachirisu",
   "types" : [ "Electric", null ],
   "abilities" : [ "Prankster", "Pickup", "Volt Absorb" ],
   "color" : "White",
-  "file" : "387_SPECIES_PACHIRISU.json"
+  "file" : "389_SPECIES_PACHIRISU.json"
 }, {
-  "dex" : 388,
+  "dex" : 390,
   "speciesId" : "SPECIES_BUIZEL",
   "name" : "Buizel",
   "types" : [ "Water", null ],
   "abilities" : [ "Swift Swim", "None", "Water Veil" ],
   "color" : "Brown",
-  "file" : "388_SPECIES_BUIZEL.json"
+  "file" : "390_SPECIES_BUIZEL.json"
 }, {
-  "dex" : 389,
+  "dex" : 391,
   "speciesId" : "SPECIES_FLOATZEL",
   "name" : "Floatzel",
   "types" : [ "Water", null ],
   "abilities" : [ "Swift Swim", "None", "Water Veil" ],
   "color" : "Brown",
-  "file" : "389_SPECIES_FLOATZEL.json"
+  "file" : "391_SPECIES_FLOATZEL.json"
 }, {
-  "dex" : 391,
+  "dex" : 393,
   "speciesId" : "SPECIES_SHELLOS_EAST_SEA",
   "name" : "Shellos",
   "types" : [ "Water", null ],
   "abilities" : [ "Sticky Hold", "Storm Drain", "Sand Force" ],
   "color" : "Blue",
-  "file" : "391_SPECIES_SHELLOS_EAST_SEA.json"
+  "file" : "393_SPECIES_SHELLOS_EAST_SEA.json"
 }, {
-  "dex" : 391,
+  "dex" : 393,
   "speciesId" : "SPECIES_SHELLOS_WEST_SEA",
   "name" : "Shellos",
   "types" : [ "Water", null ],
   "abilities" : [ "Sticky Hold", "Storm Drain", "Sand Force" ],
   "color" : "Purple",
-  "file" : "391_SPECIES_SHELLOS_WEST_SEA.json"
+  "file" : "393_SPECIES_SHELLOS_WEST_SEA.json"
 }, {
-  "dex" : 393,
+  "dex" : 395,
   "speciesId" : "SPECIES_GASTRODON_EAST_SEA",
   "name" : "Gastrodon",
   "types" : [ "Water", "Ground" ],
   "abilities" : [ "Sticky Hold", "Storm Drain", "Sand Force" ],
   "color" : "Blue",
-  "file" : "393_SPECIES_GASTRODON_EAST_SEA.json"
+  "file" : "395_SPECIES_GASTRODON_EAST_SEA.json"
 }, {
-  "dex" : 393,
+  "dex" : 395,
   "speciesId" : "SPECIES_GASTRODON_WEST_SEA",
   "name" : "Gastrodon",
   "types" : [ "Water", "Ground" ],
   "abilities" : [ "Sticky Hold", "Storm Drain", "Sand Force" ],
   "color" : "Purple",
-  "file" : "393_SPECIES_GASTRODON_WEST_SEA.json"
+  "file" : "395_SPECIES_GASTRODON_WEST_SEA.json"
 }, {
-  "dex" : 394,
+  "dex" : 396,
   "speciesId" : "SPECIES_DRIFLOON",
   "name" : "Drifloon",
   "types" : [ "Ghost", "Flying" ],
   "abilities" : [ "Aftermath", "Unburden", "Flare Boost" ],
   "color" : "Purple",
-  "file" : "394_SPECIES_DRIFLOON.json"
+  "file" : "396_SPECIES_DRIFLOON.json"
 }, {
-  "dex" : 395,
+  "dex" : 397,
   "speciesId" : "SPECIES_DRIFBLIM",
   "name" : "Drifblim",
   "types" : [ "Ghost", "Flying" ],
   "abilities" : [ "Aftermath", "Unburden", "Flare Boost" ],
   "color" : "Purple",
-  "file" : "395_SPECIES_DRIFBLIM.json"
+  "file" : "397_SPECIES_DRIFBLIM.json"
 }, {
-  "dex" : 396,
+  "dex" : 398,
   "speciesId" : "SPECIES_BUNEARY",
   "name" : "Buneary",
   "types" : [ "Normal", null ],
   "abilities" : [ "Run Away", "Defiant", "Limber" ],
   "color" : "Brown",
-  "file" : "396_SPECIES_BUNEARY.json"
+  "file" : "398_SPECIES_BUNEARY.json"
 }, {
-  "dex" : 397,
+  "dex" : 399,
   "speciesId" : "SPECIES_LOPUNNY",
   "name" : "Lopunny",
   "types" : [ "Fairy", "Fighting" ],
   "abilities" : [ "Cute Charm", "Defiant", "Limber" ],
   "color" : "Brown",
-  "file" : "397_SPECIES_LOPUNNY.json"
+  "file" : "399_SPECIES_LOPUNNY.json"
 }, {
-  "dex" : 397,
+  "dex" : 399,
   "speciesId" : "SPECIES_LOPUNNY_MEGA",
   "name" : "Lopunny - Mega",
   "types" : [ "Fairy", "Fighting" ],
   "abilities" : [ "Scrappy", "Scrappy", "Scrappy" ],
   "color" : "Brown",
-  "file" : "397_SPECIES_LOPUNNY_MEGA.json"
+  "file" : "399_SPECIES_LOPUNNY_MEGA.json"
 }, {
-  "dex" : 398,
+  "dex" : 400,
   "speciesId" : "SPECIES_STUNKY",
   "name" : "Stunky",
   "types" : [ "Poison", "Dark" ],
   "abilities" : [ "Stench", "Aftermath", "Keen Eye" ],
   "color" : "Purple",
-  "file" : "398_SPECIES_STUNKY.json"
+  "file" : "400_SPECIES_STUNKY.json"
 }, {
-  "dex" : 399,
+  "dex" : 401,
   "speciesId" : "SPECIES_SKUNTANK",
   "name" : "Skuntank",
   "types" : [ "Poison", "Dark" ],
   "abilities" : [ "Stench", "Aftermath", "Keen Eye" ],
   "color" : "Purple",
-  "file" : "399_SPECIES_SKUNTANK.json"
+  "file" : "401_SPECIES_SKUNTANK.json"
 }, {
-  "dex" : 400,
+  "dex" : 402,
   "speciesId" : "SPECIES_BRONZOR",
   "name" : "Bronzor",
   "types" : [ "Steel", "Psychic" ],
   "abilities" : [ "Levitate", "Heatproof", "Heavy Metal" ],
   "color" : "Green",
-  "file" : "400_SPECIES_BRONZOR.json"
+  "file" : "402_SPECIES_BRONZOR.json"
 }, {
-  "dex" : 401,
+  "dex" : 403,
   "speciesId" : "SPECIES_BRONZONG",
   "name" : "Bronzong",
   "types" : [ "Steel", "Psychic" ],
   "abilities" : [ "Levitate", "Heatproof", "Drizzle" ],
   "color" : "Green",
-  "file" : "401_SPECIES_BRONZONG.json"
+  "file" : "403_SPECIES_BRONZONG.json"
 }, {
-  "dex" : 402,
+  "dex" : 404,
   "speciesId" : "SPECIES_GIBLE",
   "name" : "Gible",
   "types" : [ "Dragon", "Ground" ],
   "abilities" : [ "Sand Veil", "None", "Rough Skin" ],
   "color" : "Blue",
-  "file" : "402_SPECIES_GIBLE.json"
+  "file" : "404_SPECIES_GIBLE.json"
 }, {
-  "dex" : 403,
+  "dex" : 405,
   "speciesId" : "SPECIES_GABITE",
   "name" : "Gabite",
   "types" : [ "Dragon", "Ground" ],
   "abilities" : [ "Sand Veil", "None", "Rough Skin" ],
   "color" : "Blue",
-  "file" : "403_SPECIES_GABITE.json"
+  "file" : "405_SPECIES_GABITE.json"
 }, {
-  "dex" : 404,
+  "dex" : 406,
   "speciesId" : "SPECIES_GARCHOMP",
   "name" : "Garchomp",
   "types" : [ "Dragon", "Ground" ],
   "abilities" : [ "Sand Veil", "None", "Rough Skin" ],
   "color" : "Blue",
-  "file" : "404_SPECIES_GARCHOMP.json"
+  "file" : "406_SPECIES_GARCHOMP.json"
 }, {
-  "dex" : 404,
+  "dex" : 406,
   "speciesId" : "SPECIES_GARCHOMP_MEGA",
   "name" : "Garchomp - Mega",
   "types" : [ "Dragon", "Ground" ],
   "abilities" : [ "Sand Force", "Sand Force", "Sand Force" ],
   "color" : "Blue",
-  "file" : "404_SPECIES_GARCHOMP_MEGA.json"
+  "file" : "406_SPECIES_GARCHOMP_MEGA.json"
 }, {
-  "dex" : 405,
+  "dex" : 407,
   "speciesId" : "SPECIES_RIOLU",
   "name" : "Riolu",
   "types" : [ "Fighting", null ],
   "abilities" : [ "Steadfast", "Inner Focus", "Prankster" ],
   "color" : "Blue",
-  "file" : "405_SPECIES_RIOLU.json"
+  "file" : "407_SPECIES_RIOLU.json"
 }, {
-  "dex" : 406,
+  "dex" : 408,
   "speciesId" : "SPECIES_LUCARIO",
   "name" : "Lucario",
   "types" : [ "Fighting", "Steel" ],
   "abilities" : [ "Steadfast", "Inner Focus", "Justified" ],
   "color" : "Blue",
-  "file" : "406_SPECIES_LUCARIO.json"
+  "file" : "408_SPECIES_LUCARIO.json"
 }, {
-  "dex" : 406,
+  "dex" : 408,
   "speciesId" : "SPECIES_LUCARIO_MEGA",
   "name" : "Lucario - Mega",
   "types" : [ "Fighting", "Steel" ],
   "abilities" : [ "Adaptability", "Adaptability", "Adaptability" ],
   "color" : "Blue",
-  "file" : "406_SPECIES_LUCARIO_MEGA.json"
+  "file" : "408_SPECIES_LUCARIO_MEGA.json"
 }, {
-  "dex" : 407,
+  "dex" : 409,
   "speciesId" : "SPECIES_HIPPOPOTAS",
   "name" : "Hippopotas",
   "types" : [ "Ground", null ],
   "abilities" : [ "Sand Stream", "None", "Sand Force" ],
   "color" : "Brown",
-  "file" : "407_SPECIES_HIPPOPOTAS.json"
+  "file" : "409_SPECIES_HIPPOPOTAS.json"
 }, {
-  "dex" : 408,
+  "dex" : 410,
   "speciesId" : "SPECIES_HIPPOWDON",
   "name" : "Hippowdon",
   "types" : [ "Ground", null ],
   "abilities" : [ "Sand Stream", "None", "Sand Force" ],
   "color" : "Brown",
-  "file" : "408_SPECIES_HIPPOWDON.json"
+  "file" : "410_SPECIES_HIPPOWDON.json"
 }, {
-  "dex" : 409,
+  "dex" : 411,
   "speciesId" : "SPECIES_SKORUPI",
   "name" : "Skorupi",
   "types" : [ "Poison", "Bug" ],
   "abilities" : [ "Battle Armor", "Sniper", "Keen Eye" ],
   "color" : "Purple",
-  "file" : "409_SPECIES_SKORUPI.json"
+  "file" : "411_SPECIES_SKORUPI.json"
 }, {
-  "dex" : 410,
+  "dex" : 412,
   "speciesId" : "SPECIES_DRAPION",
   "name" : "Drapion",
   "types" : [ "Poison", "Dark" ],
   "abilities" : [ "Battle Armor", "Sniper", "Keen Eye" ],
   "color" : "Purple",
-  "file" : "410_SPECIES_DRAPION.json"
+  "file" : "412_SPECIES_DRAPION.json"
 }, {
-  "dex" : 411,
+  "dex" : 413,
   "speciesId" : "SPECIES_CROAGUNK",
   "name" : "Croagunk",
   "types" : [ "Poison", "Fighting" ],
   "abilities" : [ "Anticipation", "Dry Skin", "Poison Touch" ],
   "color" : "Blue",
-  "file" : "411_SPECIES_CROAGUNK.json"
+  "file" : "413_SPECIES_CROAGUNK.json"
 }, {
-  "dex" : 412,
+  "dex" : 414,
   "speciesId" : "SPECIES_TOXICROAK",
   "name" : "Toxicroak",
   "types" : [ "Poison", "Fighting" ],
   "abilities" : [ "Anticipation", "Dry Skin", "Poison Touch" ],
   "color" : "Blue",
-  "file" : "412_SPECIES_TOXICROAK.json"
+  "file" : "414_SPECIES_TOXICROAK.json"
 }, {
-  "dex" : 413,
+  "dex" : 415,
   "speciesId" : "SPECIES_SNOVER",
   "name" : "Snover",
   "types" : [ "Grass", "Ice" ],
   "abilities" : [ "Snow Warning", "None", "Soundproof" ],
   "color" : "White",
-  "file" : "413_SPECIES_SNOVER.json"
+  "file" : "415_SPECIES_SNOVER.json"
 }, {
-  "dex" : 414,
+  "dex" : 416,
   "speciesId" : "SPECIES_ABOMASNOW",
   "name" : "Abomasnow",
   "types" : [ "Grass", "Ice" ],
   "abilities" : [ "Snow Warning", "None", "Soundproof" ],
   "color" : "White",
-  "file" : "414_SPECIES_ABOMASNOW.json"
+  "file" : "416_SPECIES_ABOMASNOW.json"
 }, {
-  "dex" : 414,
+  "dex" : 416,
   "speciesId" : "SPECIES_ABOMASNOW_MEGA",
   "name" : "Abomasnow - Mega",
   "types" : [ "Grass", "Ice" ],
   "abilities" : [ "Snow Warning", "Snow Warning", "Snow Warning" ],
   "color" : "White",
-  "file" : "414_SPECIES_ABOMASNOW_MEGA.json"
+  "file" : "416_SPECIES_ABOMASNOW_MEGA.json"
 }, {
-  "dex" : 420,
+  "dex" : 422,
   "speciesId" : "SPECIES_ROTOM",
   "name" : "Rotom",
   "types" : [ "Electric", "Ghost" ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Red",
-  "file" : "420_SPECIES_ROTOM.json"
+  "file" : "422_SPECIES_ROTOM.json"
 }, {
-  "dex" : 420,
+  "dex" : 422,
   "speciesId" : "SPECIES_ROTOM_FAN",
   "name" : "Rotom",
   "types" : [ "Electric", "Flying" ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Red",
-  "file" : "420_SPECIES_ROTOM_FAN.json"
+  "file" : "422_SPECIES_ROTOM_FAN.json"
 }, {
-  "dex" : 420,
+  "dex" : 422,
   "speciesId" : "SPECIES_ROTOM_FROST",
   "name" : "Rotom",
   "types" : [ "Electric", "Ice" ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Red",
-  "file" : "420_SPECIES_ROTOM_FROST.json"
+  "file" : "422_SPECIES_ROTOM_FROST.json"
 }, {
-  "dex" : 420,
+  "dex" : 422,
   "speciesId" : "SPECIES_ROTOM_HEAT",
   "name" : "Rotom",
   "types" : [ "Electric", "Fire" ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Red",
-  "file" : "420_SPECIES_ROTOM_HEAT.json"
+  "file" : "422_SPECIES_ROTOM_HEAT.json"
 }, {
-  "dex" : 420,
+  "dex" : 422,
   "speciesId" : "SPECIES_ROTOM_MOW",
   "name" : "Rotom",
   "types" : [ "Electric", "Grass" ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Red",
-  "file" : "420_SPECIES_ROTOM_MOW.json"
+  "file" : "422_SPECIES_ROTOM_MOW.json"
 }, {
-  "dex" : 420,
+  "dex" : 422,
   "speciesId" : "SPECIES_ROTOM_WASH",
   "name" : "Rotom",
   "types" : [ "Electric", "Water" ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Red",
-  "file" : "420_SPECIES_ROTOM_WASH.json"
+  "file" : "422_SPECIES_ROTOM_WASH.json"
 }, {
-  "dex" : 422,
+  "dex" : 424,
   "speciesId" : "SPECIES_SNIVY",
   "name" : "Snivy",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Leaf Guard", "Contrary" ],
   "color" : "Green",
-  "file" : "422_SPECIES_SNIVY.json"
+  "file" : "424_SPECIES_SNIVY.json"
 }, {
-  "dex" : 423,
+  "dex" : 425,
   "speciesId" : "SPECIES_SERVINE",
   "name" : "Servine",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Leaf Guard", "Contrary" ],
   "color" : "Green",
-  "file" : "423_SPECIES_SERVINE.json"
+  "file" : "425_SPECIES_SERVINE.json"
 }, {
-  "dex" : 424,
+  "dex" : 426,
   "speciesId" : "SPECIES_SERPERIOR",
   "name" : "Serperior",
   "types" : [ "Grass", "Dragon" ],
   "abilities" : [ "Overgrow", "Leaf Guard", "Contrary" ],
   "color" : "Green",
-  "file" : "424_SPECIES_SERPERIOR.json"
+  "file" : "426_SPECIES_SERPERIOR.json"
 }, {
-  "dex" : 425,
+  "dex" : 427,
   "speciesId" : "SPECIES_TEPIG",
   "name" : "Tepig",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "Thick Fat", "Flame Body" ],
   "color" : "Red",
-  "file" : "425_SPECIES_TEPIG.json"
+  "file" : "427_SPECIES_TEPIG.json"
 }, {
-  "dex" : 426,
+  "dex" : 428,
   "speciesId" : "SPECIES_PIGNITE",
   "name" : "Pignite",
   "types" : [ "Fire", "Fighting" ],
   "abilities" : [ "Blaze", "Thick Fat", "Flame Body" ],
   "color" : "Red",
-  "file" : "426_SPECIES_PIGNITE.json"
+  "file" : "428_SPECIES_PIGNITE.json"
 }, {
-  "dex" : 427,
+  "dex" : 429,
   "speciesId" : "SPECIES_EMBOAR",
   "name" : "Emboar",
   "types" : [ "Fire", "Fighting" ],
   "abilities" : [ "Blaze", "Reckless", "Iron Fist" ],
   "color" : "Red",
-  "file" : "427_SPECIES_EMBOAR.json"
+  "file" : "429_SPECIES_EMBOAR.json"
 }, {
-  "dex" : 428,
+  "dex" : 430,
   "speciesId" : "SPECIES_OSHAWOTT",
   "name" : "Oshawott",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Shell Armor", "Hydration" ],
   "color" : "Blue",
-  "file" : "428_SPECIES_OSHAWOTT.json"
+  "file" : "430_SPECIES_OSHAWOTT.json"
 }, {
-  "dex" : 429,
+  "dex" : 431,
   "speciesId" : "SPECIES_DEWOTT",
   "name" : "Dewott",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Shell Armor", "Hydration" ],
   "color" : "Blue",
-  "file" : "429_SPECIES_DEWOTT.json"
+  "file" : "431_SPECIES_DEWOTT.json"
 }, {
-  "dex" : 431,
+  "dex" : 433,
   "speciesId" : "SPECIES_SAMUROTT",
   "name" : "Samurott",
   "types" : [ "Water", "Steel" ],
   "abilities" : [ "Torrent", "Shell Armor", "Sharpness" ],
   "color" : "Blue",
-  "file" : "431_SPECIES_SAMUROTT.json"
+  "file" : "433_SPECIES_SAMUROTT.json"
 }, {
-  "dex" : 431,
+  "dex" : 433,
   "speciesId" : "SPECIES_SAMUROTT_HISUIAN",
   "name" : "Samurott",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Torrent", "None", "Sharpness" ],
   "color" : "Blue",
-  "file" : "431_SPECIES_SAMUROTT_HISUIAN.json"
+  "file" : "433_SPECIES_SAMUROTT_HISUIAN.json"
 }, {
-  "dex" : 432,
+  "dex" : 434,
   "speciesId" : "SPECIES_ROGGENROLA",
   "name" : "Roggenrola",
   "types" : [ "Rock", null ],
   "abilities" : [ "Sturdy", "Weak Armor", "Sand Force" ],
   "color" : "Blue",
-  "file" : "432_SPECIES_ROGGENROLA.json"
+  "file" : "434_SPECIES_ROGGENROLA.json"
 }, {
-  "dex" : 433,
+  "dex" : 435,
   "speciesId" : "SPECIES_BOLDORE",
   "name" : "Boldore",
   "types" : [ "Rock", null ],
   "abilities" : [ "Sturdy", "Weak Armor", "Sand Force" ],
   "color" : "Blue",
-  "file" : "433_SPECIES_BOLDORE.json"
+  "file" : "435_SPECIES_BOLDORE.json"
 }, {
-  "dex" : 434,
+  "dex" : 436,
   "speciesId" : "SPECIES_GIGALITH",
   "name" : "Gigalith",
   "types" : [ "Rock", null ],
   "abilities" : [ "Sturdy", "Sand Stream", "Sand Force" ],
   "color" : "Blue",
-  "file" : "434_SPECIES_GIGALITH.json"
+  "file" : "436_SPECIES_GIGALITH.json"
 }, {
-  "dex" : 435,
+  "dex" : 437,
   "speciesId" : "SPECIES_DRILBUR",
   "name" : "Drilbur",
   "types" : [ "Ground", null ],
   "abilities" : [ "Sand Rush", "Sand Force", "Mold Breaker" ],
   "color" : "Gray",
-  "file" : "435_SPECIES_DRILBUR.json"
+  "file" : "437_SPECIES_DRILBUR.json"
 }, {
-  "dex" : 436,
+  "dex" : 438,
   "speciesId" : "SPECIES_EXCADRILL",
   "name" : "Excadrill",
   "types" : [ "Ground", "Steel" ],
   "abilities" : [ "Sand Rush", "Sand Force", "Mold Breaker" ],
   "color" : "Gray",
-  "file" : "436_SPECIES_EXCADRILL.json"
+  "file" : "438_SPECIES_EXCADRILL.json"
 }, {
-  "dex" : 437,
+  "dex" : 439,
   "speciesId" : "SPECIES_AUDINO",
   "name" : "Audino",
   "types" : [ "Normal", null ],
   "abilities" : [ "Healer", "Regenerator", "Friend Guard" ],
   "color" : "Pink",
-  "file" : "437_SPECIES_AUDINO.json"
+  "file" : "439_SPECIES_AUDINO.json"
 }, {
-  "dex" : 437,
+  "dex" : 439,
   "speciesId" : "SPECIES_AUDINO_MEGA",
   "name" : "Audino - Mega",
   "types" : [ "Normal", "Fairy" ],
   "abilities" : [ "Healer", "Healer", "Healer" ],
   "color" : "White",
-  "file" : "437_SPECIES_AUDINO_MEGA.json"
+  "file" : "439_SPECIES_AUDINO_MEGA.json"
 }, {
-  "dex" : 438,
+  "dex" : 440,
   "speciesId" : "SPECIES_TIMBURR",
   "name" : "Timburr",
   "types" : [ "Fighting", null ],
   "abilities" : [ "Guts", "Sheer Force", "Iron Fist" ],
   "color" : "Gray",
-  "file" : "438_SPECIES_TIMBURR.json"
+  "file" : "440_SPECIES_TIMBURR.json"
 }, {
-  "dex" : 439,
+  "dex" : 441,
   "speciesId" : "SPECIES_GURDURR",
   "name" : "Gurdurr",
   "types" : [ "Fighting", null ],
   "abilities" : [ "Guts", "Sheer Force", "Iron Fist" ],
   "color" : "Gray",
-  "file" : "439_SPECIES_GURDURR.json"
+  "file" : "441_SPECIES_GURDURR.json"
 }, {
-  "dex" : 440,
+  "dex" : 442,
   "speciesId" : "SPECIES_CONKELDURR",
   "name" : "Conkeldurr",
   "types" : [ "Fighting", null ],
   "abilities" : [ "Guts", "Sheer Force", "Iron Fist" ],
   "color" : "Brown",
-  "file" : "440_SPECIES_CONKELDURR.json"
+  "file" : "442_SPECIES_CONKELDURR.json"
 }, {
-  "dex" : 441,
+  "dex" : 443,
   "speciesId" : "SPECIES_TYMPOLE",
   "name" : "Tympole",
   "types" : [ "Water", null ],
   "abilities" : [ "Swift Swim", "Hydration", "Water Absorb" ],
   "color" : "Blue",
-  "file" : "441_SPECIES_TYMPOLE.json"
+  "file" : "443_SPECIES_TYMPOLE.json"
 }, {
-  "dex" : 442,
+  "dex" : 444,
   "speciesId" : "SPECIES_PALPITOAD",
   "name" : "Palpitoad",
   "types" : [ "Water", "Ground" ],
   "abilities" : [ "Swift Swim", "Hydration", "Water Absorb" ],
   "color" : "Blue",
-  "file" : "442_SPECIES_PALPITOAD.json"
+  "file" : "444_SPECIES_PALPITOAD.json"
 }, {
-  "dex" : 443,
+  "dex" : 445,
   "speciesId" : "SPECIES_SEISMITOAD",
   "name" : "Seismitoad",
   "types" : [ "Water", "Ground" ],
   "abilities" : [ "Swift Swim", "Poison Touch", "Water Absorb" ],
   "color" : "Blue",
-  "file" : "443_SPECIES_SEISMITOAD.json"
+  "file" : "445_SPECIES_SEISMITOAD.json"
 }, {
-  "dex" : 444,
+  "dex" : 446,
   "speciesId" : "SPECIES_THROH",
   "name" : "Throh",
   "types" : [ "Fighting", null ],
   "abilities" : [ "Guts", "Inner Focus", "Mold Breaker" ],
   "color" : "Red",
-  "file" : "444_SPECIES_THROH.json"
+  "file" : "446_SPECIES_THROH.json"
 }, {
-  "dex" : 445,
+  "dex" : 447,
   "speciesId" : "SPECIES_SAWK",
   "name" : "Sawk",
   "types" : [ "Fighting", null ],
   "abilities" : [ "Sturdy", "Inner Focus", "Mold Breaker" ],
   "color" : "Blue",
-  "file" : "445_SPECIES_SAWK.json"
+  "file" : "447_SPECIES_SAWK.json"
 }, {
-  "dex" : 446,
+  "dex" : 448,
   "speciesId" : "SPECIES_VENIPEDE",
   "name" : "Venipede",
   "types" : [ "Bug", "Poison" ],
   "abilities" : [ "Poison Point", "Swarm", "Speed Boost" ],
   "color" : "Red",
-  "file" : "446_SPECIES_VENIPEDE.json"
+  "file" : "448_SPECIES_VENIPEDE.json"
 }, {
-  "dex" : 447,
+  "dex" : 449,
   "speciesId" : "SPECIES_WHIRLIPEDE",
   "name" : "Whirlipede",
   "types" : [ "Bug", "Poison" ],
   "abilities" : [ "Poison Point", "Swarm", "Speed Boost" ],
   "color" : "Gray",
-  "file" : "447_SPECIES_WHIRLIPEDE.json"
+  "file" : "449_SPECIES_WHIRLIPEDE.json"
 }, {
-  "dex" : 448,
+  "dex" : 450,
   "speciesId" : "SPECIES_SCOLIPEDE",
   "name" : "Scolipede",
   "types" : [ "Bug", "Poison" ],
   "abilities" : [ "Poison Point", "Swarm", "Speed Boost" ],
   "color" : "Red",
-  "file" : "448_SPECIES_SCOLIPEDE.json"
+  "file" : "450_SPECIES_SCOLIPEDE.json"
 }, {
-  "dex" : 449,
+  "dex" : 451,
   "speciesId" : "SPECIES_COTTONEE",
   "name" : "Cottonee",
   "types" : [ "Grass", "Fairy" ],
   "abilities" : [ "Prankster", "Infiltrator", "Chlorophyll" ],
   "color" : "Green",
-  "file" : "449_SPECIES_COTTONEE.json"
+  "file" : "451_SPECIES_COTTONEE.json"
 }, {
-  "dex" : 449,
+  "dex" : 451,
   "speciesId" : "SPECIES_EXILED_COTTONEE",
-  "name" : "Cottonee",
+  "name" : "Exiled Cottonee",
   "types" : [ "Fire", "Fairy" ],
   "abilities" : [ "Flame Body", "Prankster", "Flash Fire" ],
   "color" : "Green",
-  "file" : "449_SPECIES_EXILED_COTTONEE.json"
+  "file" : "451_SPECIES_EXILED_COTTONEE.json"
 }, {
-  "dex" : 450,
+  "dex" : 452,
   "speciesId" : "SPECIES_EXILED_WHIMSICOTT",
-  "name" : "Whimsicott",
+  "name" : "Exiled Whimsicott",
   "types" : [ "Fire", "Fairy" ],
   "abilities" : [ "Flame Body", "Prankster", "Flash Fire" ],
   "color" : "Green",
-  "file" : "450_SPECIES_EXILED_WHIMSICOTT.json"
+  "file" : "452_SPECIES_EXILED_WHIMSICOTT.json"
 }, {
-  "dex" : 450,
+  "dex" : 452,
   "speciesId" : "SPECIES_WHIMSICOTT",
   "name" : "Whimsicott",
   "types" : [ "Grass", "Fairy" ],
   "abilities" : [ "Prankster", "Infiltrator", "Chlorophyll" ],
   "color" : "Green",
-  "file" : "450_SPECIES_WHIMSICOTT.json"
+  "file" : "452_SPECIES_WHIMSICOTT.json"
 }, {
-  "dex" : 451,
+  "dex" : 453,
   "speciesId" : "SPECIES_PETILIL",
   "name" : "Petilil",
   "types" : [ "Grass", null ],
   "abilities" : [ "Chlorophyll", "Own Tempo", "Leaf Guard" ],
   "color" : "Green",
-  "file" : "451_SPECIES_PETILIL.json"
+  "file" : "453_SPECIES_PETILIL.json"
 }, {
-  "dex" : 453,
+  "dex" : 455,
   "speciesId" : "SPECIES_LILLIGANT",
   "name" : "Lilligant",
   "types" : [ "Grass", null ],
   "abilities" : [ "Chlorophyll", "Own Tempo", "Leaf Guard" ],
   "color" : "Green",
-  "file" : "453_SPECIES_LILLIGANT.json"
+  "file" : "455_SPECIES_LILLIGANT.json"
 }, {
-  "dex" : 453,
+  "dex" : 455,
   "speciesId" : "SPECIES_LILLIGANT_HISUIAN",
   "name" : "Lilligant",
   "types" : [ "Grass", "Fighting" ],
   "abilities" : [ "Chlorophyll", "Hustle", "Leaf Guard" ],
   "color" : "Green",
-  "file" : "453_SPECIES_LILLIGANT_HISUIAN.json"
+  "file" : "455_SPECIES_LILLIGANT_HISUIAN.json"
 }, {
-  "dex" : 456,
+  "dex" : 458,
   "speciesId" : "SPECIES_BASCULIN_BLUE_STRIPED",
   "name" : "Basculin",
   "types" : [ "Water", null ],
   "abilities" : [ "Rock Head", "Adaptability", "Mold Breaker" ],
   "color" : "Green",
-  "file" : "456_SPECIES_BASCULIN_BLUE_STRIPED.json"
+  "file" : "458_SPECIES_BASCULIN_BLUE_STRIPED.json"
 }, {
-  "dex" : 456,
+  "dex" : 458,
   "speciesId" : "SPECIES_BASCULIN_RED_STRIPED",
   "name" : "Basculin",
   "types" : [ "Water", null ],
   "abilities" : [ "Reckless", "Adaptability", "Mold Breaker" ],
   "color" : "Green",
-  "file" : "456_SPECIES_BASCULIN_RED_STRIPED.json"
+  "file" : "458_SPECIES_BASCULIN_RED_STRIPED.json"
 }, {
-  "dex" : 456,
+  "dex" : 458,
   "speciesId" : "SPECIES_BASCULIN_WHITE_STRIPED",
   "name" : "Basculin",
   "types" : [ "Water", null ],
   "abilities" : [ "Rattled", "Adaptability", "Mold Breaker" ],
   "color" : "Green",
-  "file" : "456_SPECIES_BASCULIN_WHITE_STRIPED.json"
+  "file" : "458_SPECIES_BASCULIN_WHITE_STRIPED.json"
 }, {
-  "dex" : 459,
+  "dex" : 461,
   "speciesId" : "SPECIES_EXILED_SANDILE",
-  "name" : "Sandile",
+  "name" : "Exiled Sandile",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Competitive", "Storm Drain" ],
   "color" : "Brown",
-  "file" : "459_SPECIES_EXILED_SANDILE.json"
+  "file" : "461_SPECIES_EXILED_SANDILE.json"
 }, {
-  "dex" : 459,
+  "dex" : 461,
   "speciesId" : "SPECIES_SANDILE",
   "name" : "Sandile",
   "types" : [ "Ground", "Dark" ],
   "abilities" : [ "Intimidate", "Moxie", "Anger Point" ],
   "color" : "Brown",
-  "file" : "459_SPECIES_SANDILE.json"
+  "file" : "461_SPECIES_SANDILE.json"
 }, {
-  "dex" : 460,
+  "dex" : 462,
   "speciesId" : "SPECIES_EXILED_KROKOROK",
-  "name" : "Krokorok",
+  "name" : "Exiled Krokorok",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Competitive", "Storm Drain" ],
   "color" : "Brown",
-  "file" : "460_SPECIES_EXILED_KROKOROK.json"
+  "file" : "462_SPECIES_EXILED_KROKOROK.json"
 }, {
-  "dex" : 460,
+  "dex" : 462,
   "speciesId" : "SPECIES_KROKOROK",
   "name" : "Krokorok",
   "types" : [ "Ground", "Dark" ],
   "abilities" : [ "Intimidate", "Moxie", "Anger Point" ],
   "color" : "Brown",
-  "file" : "460_SPECIES_KROKOROK.json"
+  "file" : "462_SPECIES_KROKOROK.json"
 }, {
-  "dex" : 461,
+  "dex" : 463,
   "speciesId" : "SPECIES_EXILED_KROOKODILE",
-  "name" : "Krookodile",
+  "name" : "Exiled Krookodile",
   "types" : [ "Water", "Fairy" ],
   "abilities" : [ "Torrent", "Competitive", "Storm Drain" ],
   "color" : "Red",
-  "file" : "461_SPECIES_EXILED_KROOKODILE.json"
+  "file" : "463_SPECIES_EXILED_KROOKODILE.json"
 }, {
-  "dex" : 461,
+  "dex" : 463,
   "speciesId" : "SPECIES_KROOKODILE",
   "name" : "Krookodile",
   "types" : [ "Ground", "Dark" ],
   "abilities" : [ "Intimidate", "Moxie", "Anger Point" ],
   "color" : "Red",
-  "file" : "461_SPECIES_KROOKODILE.json"
+  "file" : "463_SPECIES_KROOKODILE.json"
 }, {
-  "dex" : 462,
+  "dex" : 464,
   "speciesId" : "SPECIES_DARUMAKA",
   "name" : "Darumaka",
   "types" : [ "Fire", null ],
   "abilities" : [ "Hustle", "Keen Eye", "Inner Focus" ],
   "color" : "Red",
-  "file" : "462_SPECIES_DARUMAKA.json"
+  "file" : "464_SPECIES_DARUMAKA.json"
 }, {
-  "dex" : 462,
+  "dex" : 464,
   "speciesId" : "SPECIES_DARUMAKA_GALARIAN",
   "name" : "Darumaka",
   "types" : [ "Ice", null ],
   "abilities" : [ "Hustle", "None", "Inner Focus" ],
   "color" : "White",
-  "file" : "462_SPECIES_DARUMAKA_GALARIAN.json"
+  "file" : "464_SPECIES_DARUMAKA_GALARIAN.json"
 }, {
-  "dex" : 464,
+  "dex" : 465,
   "speciesId" : "SPECIES_DARMANITAN_GALARIAN_STANDARD_MODE",
   "name" : "Darmanitan",
   "types" : [ "Ice", null ],
   "abilities" : [ "Gorilla Tactics", "None", "Zen Mode" ],
   "color" : "White",
-  "file" : "464_SPECIES_DARMANITAN_GALARIAN_STANDARD_MODE.json"
+  "file" : "465_SPECIES_DARMANITAN_GALARIAN_STANDARD_MODE.json"
 }, {
-  "dex" : 464,
+  "dex" : 465,
   "speciesId" : "SPECIES_DARMANITAN_GALARIAN_ZEN_MODE",
   "name" : "Darmanitan",
   "types" : [ "Ice", "Fire" ],
   "abilities" : [ "Gorilla Tactics", "None", "Zen Mode" ],
   "color" : "White",
-  "file" : "464_SPECIES_DARMANITAN_GALARIAN_ZEN_MODE.json"
+  "file" : "465_SPECIES_DARMANITAN_GALARIAN_ZEN_MODE.json"
 }, {
-  "dex" : 464,
+  "dex" : 465,
   "speciesId" : "SPECIES_DARMANITAN_STANDARD_MODE",
   "name" : "Darmanitan",
   "types" : [ "Fire", null ],
   "abilities" : [ "Sheer Force", "Gorilla Tactics", "Zen Mode" ],
   "color" : "Red",
-  "file" : "464_SPECIES_DARMANITAN_STANDARD_MODE.json"
+  "file" : "465_SPECIES_DARMANITAN_STANDARD_MODE.json"
 }, {
-  "dex" : 464,
+  "dex" : 465,
   "speciesId" : "SPECIES_DARMANITAN_ZEN_MODE",
   "name" : "Darmanitan",
   "types" : [ "Fire", "Psychic" ],
   "abilities" : [ "Sheer Force", "None", "Zen Mode" ],
   "color" : "Blue",
-  "file" : "464_SPECIES_DARMANITAN_ZEN_MODE.json"
+  "file" : "465_SPECIES_DARMANITAN_ZEN_MODE.json"
 }, {
-  "dex" : 465,
+  "dex" : 466,
   "speciesId" : "SPECIES_MARACTUS",
   "name" : "Maractus",
   "types" : [ "Grass", null ],
   "abilities" : [ "Water Absorb", "Chlorophyll", "Storm Drain" ],
   "color" : "Green",
-  "file" : "465_SPECIES_MARACTUS.json"
+  "file" : "466_SPECIES_MARACTUS.json"
 }, {
-  "dex" : 466,
+  "dex" : 467,
   "speciesId" : "SPECIES_DWEBBLE",
   "name" : "Dwebble",
   "types" : [ "Bug", "Rock" ],
   "abilities" : [ "Sturdy", "Shell Armor", "Weak Armor" ],
   "color" : "Red",
-  "file" : "466_SPECIES_DWEBBLE.json"
+  "file" : "467_SPECIES_DWEBBLE.json"
 }, {
-  "dex" : 467,
+  "dex" : 468,
   "speciesId" : "SPECIES_CRUSTLE",
   "name" : "Crustle",
   "types" : [ "Bug", "Rock" ],
   "abilities" : [ "Sturdy", "Shell Armor", "Weak Armor" ],
   "color" : "Red",
-  "file" : "467_SPECIES_CRUSTLE.json"
+  "file" : "468_SPECIES_CRUSTLE.json"
 }, {
-  "dex" : 468,
+  "dex" : 469,
   "speciesId" : "SPECIES_SCRAGGY",
   "name" : "Scraggy",
   "types" : [ "Dark", "Fighting" ],
   "abilities" : [ "Shed Skin", "Moxie", "Intimidate" ],
   "color" : "Yellow",
-  "file" : "468_SPECIES_SCRAGGY.json"
+  "file" : "469_SPECIES_SCRAGGY.json"
 }, {
-  "dex" : 469,
+  "dex" : 470,
   "speciesId" : "SPECIES_SCRAFTY",
   "name" : "Scrafty",
   "types" : [ "Dark", "Fighting" ],
   "abilities" : [ "Shed Skin", "Moxie", "Intimidate" ],
   "color" : "Red",
-  "file" : "469_SPECIES_SCRAFTY.json"
+  "file" : "470_SPECIES_SCRAFTY.json"
 }, {
-  "dex" : 470,
+  "dex" : 471,
   "speciesId" : "SPECIES_SIGILYPH",
   "name" : "Sigilyph",
   "types" : [ "Psychic", "Flying" ],
   "abilities" : [ "Wonder Skin", "Magic Guard", "Tinted Lens" ],
   "color" : "Black",
-  "file" : "470_SPECIES_SIGILYPH.json"
+  "file" : "471_SPECIES_SIGILYPH.json"
 }, {
-  "dex" : 471,
+  "dex" : 472,
   "speciesId" : "SPECIES_TIRTOUGA",
   "name" : "Tirtouga",
   "types" : [ "Water", "Rock" ],
   "abilities" : [ "Solid Rock", "Sturdy", "Swift Swim" ],
   "color" : "Blue",
-  "file" : "471_SPECIES_TIRTOUGA.json"
+  "file" : "472_SPECIES_TIRTOUGA.json"
 }, {
-  "dex" : 472,
+  "dex" : 473,
   "speciesId" : "SPECIES_CARRACOSTA",
   "name" : "Carracosta",
   "types" : [ "Water", "Rock" ],
   "abilities" : [ "Solid Rock", "Sturdy", "Swift Swim" ],
   "color" : "Blue",
-  "file" : "472_SPECIES_CARRACOSTA.json"
+  "file" : "473_SPECIES_CARRACOSTA.json"
 }, {
-  "dex" : 473,
+  "dex" : 474,
   "speciesId" : "SPECIES_ARCHEN",
   "name" : "Archen",
   "types" : [ "Rock", "Flying" ],
   "abilities" : [ "Defeatist", "None", "Wind Rider" ],
   "color" : "Yellow",
-  "file" : "473_SPECIES_ARCHEN.json"
+  "file" : "474_SPECIES_ARCHEN.json"
 }, {
-  "dex" : 474,
+  "dex" : 475,
   "speciesId" : "SPECIES_ARCHEOPS",
   "name" : "Archeops",
   "types" : [ "Rock", "Flying" ],
   "abilities" : [ "Defeatist", "None", "Wind Rider" ],
   "color" : "Yellow",
-  "file" : "474_SPECIES_ARCHEOPS.json"
+  "file" : "475_SPECIES_ARCHEOPS.json"
 }, {
-  "dex" : 475,
+  "dex" : 476,
   "speciesId" : "SPECIES_TRUBBISH",
   "name" : "Trubbish",
   "types" : [ "Poison", null ],
   "abilities" : [ "Stench", "Sticky Hold", "Aftermath" ],
   "color" : "Green",
-  "file" : "475_SPECIES_TRUBBISH.json"
+  "file" : "476_SPECIES_TRUBBISH.json"
 }, {
-  "dex" : 476,
+  "dex" : 477,
   "speciesId" : "SPECIES_GARBODOR",
   "name" : "Garbodor",
   "types" : [ "Poison", null ],
   "abilities" : [ "Stench", "Weak Armor", "Aftermath" ],
   "color" : "Green",
-  "file" : "476_SPECIES_GARBODOR.json"
+  "file" : "477_SPECIES_GARBODOR.json"
 }, {
-  "dex" : 477,
+  "dex" : 478,
   "speciesId" : "SPECIES_ZORUA",
   "name" : "Zorua",
   "types" : [ "Dark", null ],
   "abilities" : [ "Illusion", "None", "None" ],
   "color" : "Gray",
-  "file" : "477_SPECIES_ZORUA.json"
+  "file" : "478_SPECIES_ZORUA.json"
 }, {
-  "dex" : 477,
+  "dex" : 478,
   "speciesId" : "SPECIES_ZORUA_HISUIAN",
   "name" : "Zorua",
   "types" : [ "Normal", "Ghost" ],
   "abilities" : [ "Illusion", "None", "None" ],
   "color" : "Gray",
-  "file" : "477_SPECIES_ZORUA_HISUIAN.json"
+  "file" : "478_SPECIES_ZORUA_HISUIAN.json"
 }, {
-  "dex" : 478,
+  "dex" : 479,
   "speciesId" : "SPECIES_ZOROARK",
   "name" : "Zoroark",
   "types" : [ "Dark", null ],
   "abilities" : [ "Illusion", "None", "None" ],
   "color" : "Gray",
-  "file" : "478_SPECIES_ZOROARK.json"
+  "file" : "479_SPECIES_ZOROARK.json"
 }, {
-  "dex" : 478,
+  "dex" : 479,
   "speciesId" : "SPECIES_ZOROARK_HISUIAN",
   "name" : "Zoroark",
   "types" : [ "Normal", "Ghost" ],
   "abilities" : [ "Illusion", "None", "None" ],
   "color" : "Gray",
-  "file" : "478_SPECIES_ZOROARK_HISUIAN.json"
+  "file" : "479_SPECIES_ZOROARK_HISUIAN.json"
 }, {
-  "dex" : 479,
+  "dex" : 480,
   "speciesId" : "SPECIES_MINCCINO",
   "name" : "Minccino",
   "types" : [ "Normal", "Ground" ],
   "abilities" : [ "Cute Charm", "Technician", "Skill Link" ],
   "color" : "Gray",
-  "file" : "479_SPECIES_MINCCINO.json"
+  "file" : "480_SPECIES_MINCCINO.json"
 }, {
-  "dex" : 480,
+  "dex" : 481,
   "speciesId" : "SPECIES_CINCCINO",
   "name" : "Cinccino",
   "types" : [ "Normal", "Ground" ],
   "abilities" : [ "Cute Charm", "Technician", "Skill Link" ],
   "color" : "Gray",
-  "file" : "480_SPECIES_CINCCINO.json"
+  "file" : "481_SPECIES_CINCCINO.json"
 }, {
-  "dex" : 481,
+  "dex" : 482,
   "speciesId" : "SPECIES_SOLOSIS",
   "name" : "Solosis",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Overcoat", "Magic Guard", "Regenerator" ],
   "color" : "Green",
-  "file" : "481_SPECIES_SOLOSIS.json"
+  "file" : "482_SPECIES_SOLOSIS.json"
 }, {
-  "dex" : 482,
+  "dex" : 483,
   "speciesId" : "SPECIES_DUOSION",
   "name" : "Duosion",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Overcoat", "Magic Guard", "Regenerator" ],
   "color" : "Green",
-  "file" : "482_SPECIES_DUOSION.json"
+  "file" : "483_SPECIES_DUOSION.json"
 }, {
-  "dex" : 483,
+  "dex" : 484,
   "speciesId" : "SPECIES_REUNICLUS",
   "name" : "Reuniclus",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Overcoat", "Magic Guard", "Regenerator" ],
   "color" : "Green",
-  "file" : "483_SPECIES_REUNICLUS.json"
+  "file" : "484_SPECIES_REUNICLUS.json"
 }, {
-  "dex" : 487,
+  "dex" : 488,
   "speciesId" : "SPECIES_DEERLING_AUTUMN",
   "name" : "Deerling",
   "types" : [ "Normal", "Grass" ],
   "abilities" : [ "Chlorophyll", "Sap Sipper", "Serene Grace" ],
   "color" : "Red",
-  "file" : "487_SPECIES_DEERLING_AUTUMN.json"
+  "file" : "488_SPECIES_DEERLING_AUTUMN.json"
 }, {
-  "dex" : 487,
+  "dex" : 488,
   "speciesId" : "SPECIES_DEERLING_SPRING",
   "name" : "Deerling",
   "types" : [ "Normal", "Grass" ],
   "abilities" : [ "Chlorophyll", "Sap Sipper", "Serene Grace" ],
   "color" : "Pink",
-  "file" : "487_SPECIES_DEERLING_SPRING.json"
+  "file" : "488_SPECIES_DEERLING_SPRING.json"
 }, {
-  "dex" : 487,
+  "dex" : 488,
   "speciesId" : "SPECIES_DEERLING_SUMMER",
   "name" : "Deerling",
   "types" : [ "Normal", "Grass" ],
   "abilities" : [ "Chlorophyll", "Sap Sipper", "Serene Grace" ],
   "color" : "Green",
-  "file" : "487_SPECIES_DEERLING_SUMMER.json"
+  "file" : "488_SPECIES_DEERLING_SUMMER.json"
 }, {
-  "dex" : 487,
+  "dex" : 488,
   "speciesId" : "SPECIES_DEERLING_WINTER",
   "name" : "Deerling",
   "types" : [ "Normal", "Grass" ],
   "abilities" : [ "Chlorophyll", "Sap Sipper", "Serene Grace" ],
   "color" : "Brown",
-  "file" : "487_SPECIES_DEERLING_WINTER.json"
+  "file" : "488_SPECIES_DEERLING_WINTER.json"
 }, {
-  "dex" : 491,
+  "dex" : 492,
   "speciesId" : "SPECIES_SAWSBUCK_AUTUMN",
   "name" : "Sawsbuck",
   "types" : [ "Normal", "Grass" ],
   "abilities" : [ "Reckless", "Sap Sipper", "Serene Grace" ],
   "color" : "Brown",
-  "file" : "491_SPECIES_SAWSBUCK_AUTUMN.json"
+  "file" : "492_SPECIES_SAWSBUCK_AUTUMN.json"
 }, {
-  "dex" : 491,
+  "dex" : 492,
   "speciesId" : "SPECIES_SAWSBUCK_SPRING",
   "name" : "Sawsbuck",
   "types" : [ "Normal", "Grass" ],
   "abilities" : [ "Reckless", "Sap Sipper", "Serene Grace" ],
   "color" : "Brown",
-  "file" : "491_SPECIES_SAWSBUCK_SPRING.json"
+  "file" : "492_SPECIES_SAWSBUCK_SPRING.json"
 }, {
-  "dex" : 491,
+  "dex" : 492,
   "speciesId" : "SPECIES_SAWSBUCK_SUMMER",
   "name" : "Sawsbuck",
   "types" : [ "Normal", "Grass" ],
   "abilities" : [ "Reckless", "Sap Sipper", "Serene Grace" ],
   "color" : "Brown",
-  "file" : "491_SPECIES_SAWSBUCK_SUMMER.json"
+  "file" : "492_SPECIES_SAWSBUCK_SUMMER.json"
 }, {
-  "dex" : 491,
+  "dex" : 492,
   "speciesId" : "SPECIES_SAWSBUCK_WINTER",
   "name" : "Sawsbuck",
   "types" : [ "Normal", "Grass" ],
   "abilities" : [ "Reckless", "Sap Sipper", "Serene Grace" ],
   "color" : "Brown",
-  "file" : "491_SPECIES_SAWSBUCK_WINTER.json"
+  "file" : "492_SPECIES_SAWSBUCK_WINTER.json"
 }, {
-  "dex" : 492,
+  "dex" : 493,
   "speciesId" : "SPECIES_EMOLGA",
   "name" : "Emolga",
   "types" : [ "Electric", "Flying" ],
   "abilities" : [ "Static", "None", "Motor Drive" ],
   "color" : "White",
-  "file" : "492_SPECIES_EMOLGA.json"
+  "file" : "493_SPECIES_EMOLGA.json"
 }, {
-  "dex" : 493,
+  "dex" : 494,
   "speciesId" : "SPECIES_FOONGUS",
   "name" : "Foongus",
   "types" : [ "Grass", "Poison" ],
   "abilities" : [ "Effect Spore", "None", "Regenerator" ],
   "color" : "White",
-  "file" : "493_SPECIES_FOONGUS.json"
+  "file" : "494_SPECIES_FOONGUS.json"
 }, {
-  "dex" : 494,
+  "dex" : 495,
   "speciesId" : "SPECIES_AMOONGUSS",
   "name" : "Amoonguss",
   "types" : [ "Grass", "Poison" ],
   "abilities" : [ "Effect Spore", "None", "Regenerator" ],
   "color" : "White",
-  "file" : "494_SPECIES_AMOONGUSS.json"
+  "file" : "495_SPECIES_AMOONGUSS.json"
 }, {
-  "dex" : 495,
+  "dex" : 496,
   "speciesId" : "SPECIES_FRILLISH",
   "name" : "Frillish",
   "types" : [ "Water", "Ghost" ],
   "abilities" : [ "Water Absorb", "Cursed Body", "Damp" ],
   "color" : "White",
-  "file" : "495_SPECIES_FRILLISH.json"
+  "file" : "496_SPECIES_FRILLISH.json"
 }, {
-  "dex" : 496,
+  "dex" : 497,
   "speciesId" : "SPECIES_JELLICENT",
   "name" : "Jellicent",
   "types" : [ "Water", "Ghost" ],
   "abilities" : [ "Water Absorb", "Cursed Body", "Damp" ],
   "color" : "White",
-  "file" : "496_SPECIES_JELLICENT.json"
+  "file" : "497_SPECIES_JELLICENT.json"
 }, {
-  "dex" : 497,
+  "dex" : 498,
   "speciesId" : "SPECIES_JOLTIK",
   "name" : "Joltik",
   "types" : [ "Bug", "Electric" ],
   "abilities" : [ "Compound Eyes", "Unnerve", "Swarm" ],
   "color" : "Yellow",
-  "file" : "497_SPECIES_JOLTIK.json"
+  "file" : "498_SPECIES_JOLTIK.json"
 }, {
-  "dex" : 498,
+  "dex" : 499,
   "speciesId" : "SPECIES_GALVANTULA",
   "name" : "Galvantula",
   "types" : [ "Bug", "Electric" ],
   "abilities" : [ "Compound Eyes", "Unnerve", "Swarm" ],
   "color" : "Yellow",
-  "file" : "498_SPECIES_GALVANTULA.json"
+  "file" : "499_SPECIES_GALVANTULA.json"
 }, {
-  "dex" : 499,
+  "dex" : 500,
   "speciesId" : "SPECIES_FERROSEED",
   "name" : "Ferroseed",
   "types" : [ "Grass", "Steel" ],
   "abilities" : [ "Iron Barbs", "None", "None" ],
   "color" : "Gray",
-  "file" : "499_SPECIES_FERROSEED.json"
+  "file" : "500_SPECIES_FERROSEED.json"
 }, {
-  "dex" : 500,
+  "dex" : 501,
   "speciesId" : "SPECIES_FERROTHORN",
   "name" : "Ferrothorn",
   "types" : [ "Grass", "Steel" ],
   "abilities" : [ "Iron Barbs", "None", "Anticipation" ],
   "color" : "Gray",
-  "file" : "500_SPECIES_FERROTHORN.json"
+  "file" : "501_SPECIES_FERROTHORN.json"
 }, {
-  "dex" : 501,
+  "dex" : 502,
   "speciesId" : "SPECIES_TYNAMO",
   "name" : "Tynamo",
   "types" : [ "Electric", null ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "White",
-  "file" : "501_SPECIES_TYNAMO.json"
+  "file" : "502_SPECIES_TYNAMO.json"
 }, {
-  "dex" : 502,
+  "dex" : 503,
   "speciesId" : "SPECIES_EELEKTRIK",
   "name" : "Eelektrik",
   "types" : [ "Electric", null ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Blue",
-  "file" : "502_SPECIES_EELEKTRIK.json"
+  "file" : "503_SPECIES_EELEKTRIK.json"
 }, {
-  "dex" : 503,
+  "dex" : 504,
   "speciesId" : "SPECIES_EELEKTROSS",
   "name" : "Eelektross",
   "types" : [ "Electric", null ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Blue",
-  "file" : "503_SPECIES_EELEKTROSS.json"
+  "file" : "504_SPECIES_EELEKTROSS.json"
 }, {
-  "dex" : 504,
+  "dex" : 505,
   "speciesId" : "SPECIES_LITWICK",
   "name" : "Litwick",
   "types" : [ "Ghost", "Fire" ],
   "abilities" : [ "Flash Fire", "Flame Body", "Infiltrator" ],
   "color" : "White",
-  "file" : "504_SPECIES_LITWICK.json"
+  "file" : "505_SPECIES_LITWICK.json"
 }, {
-  "dex" : 505,
+  "dex" : 506,
   "speciesId" : "SPECIES_LAMPENT",
   "name" : "Lampent",
   "types" : [ "Ghost", "Fire" ],
   "abilities" : [ "Flash Fire", "Flame Body", "Infiltrator" ],
   "color" : "Black",
-  "file" : "505_SPECIES_LAMPENT.json"
+  "file" : "506_SPECIES_LAMPENT.json"
 }, {
-  "dex" : 506,
+  "dex" : 507,
   "speciesId" : "SPECIES_CHANDELURE",
   "name" : "Chandelure",
   "types" : [ "Ghost", "Fire" ],
   "abilities" : [ "Flash Fire", "Flame Body", "Infiltrator" ],
   "color" : "Black",
-  "file" : "506_SPECIES_CHANDELURE.json"
+  "file" : "507_SPECIES_CHANDELURE.json"
 }, {
-  "dex" : 507,
+  "dex" : 508,
   "speciesId" : "SPECIES_AXEW",
   "name" : "Axew",
   "types" : [ "Dragon", null ],
   "abilities" : [ "Unnerve", "Mold Breaker", "Moxie" ],
   "color" : "Green",
-  "file" : "507_SPECIES_AXEW.json"
+  "file" : "508_SPECIES_AXEW.json"
 }, {
-  "dex" : 508,
+  "dex" : 509,
   "speciesId" : "SPECIES_FRAXURE",
   "name" : "Fraxure",
   "types" : [ "Dragon", null ],
   "abilities" : [ "Unnerve", "Mold Breaker", "Moxie" ],
   "color" : "Green",
-  "file" : "508_SPECIES_FRAXURE.json"
+  "file" : "509_SPECIES_FRAXURE.json"
 }, {
-  "dex" : 509,
+  "dex" : 510,
   "speciesId" : "SPECIES_HAXORUS",
   "name" : "Haxorus",
   "types" : [ "Dragon", null ],
   "abilities" : [ "Sharpness", "Mold Breaker", "Moxie" ],
   "color" : "Yellow",
-  "file" : "509_SPECIES_HAXORUS.json"
+  "file" : "510_SPECIES_HAXORUS.json"
 }, {
-  "dex" : 510,
+  "dex" : 511,
   "speciesId" : "SPECIES_CRYOGONAL",
   "name" : "Cryogonal",
   "types" : [ "Ice", null ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Blue",
-  "file" : "510_SPECIES_CRYOGONAL.json"
+  "file" : "511_SPECIES_CRYOGONAL.json"
 }, {
-  "dex" : 511,
+  "dex" : 512,
   "speciesId" : "SPECIES_STUNFISK",
   "name" : "Stunfisk",
   "types" : [ "Ground", "Electric" ],
   "abilities" : [ "Static", "Limber", "Sand Veil" ],
   "color" : "Brown",
-  "file" : "511_SPECIES_STUNFISK.json"
+  "file" : "512_SPECIES_STUNFISK.json"
 }, {
-  "dex" : 511,
+  "dex" : 512,
   "speciesId" : "SPECIES_STUNFISK_GALARIAN",
   "name" : "Stunfisk",
   "types" : [ "Ground", "Steel" ],
   "abilities" : [ "Mimicry", "None", "None" ],
   "color" : "Green",
-  "file" : "511_SPECIES_STUNFISK_GALARIAN.json"
+  "file" : "512_SPECIES_STUNFISK_GALARIAN.json"
 }, {
-  "dex" : 512,
+  "dex" : 513,
   "speciesId" : "SPECIES_MIENFOO",
   "name" : "Mienfoo",
   "types" : [ "Fighting", null ],
   "abilities" : [ "Inner Focus", "Regenerator", "Reckless" ],
   "color" : "Yellow",
-  "file" : "512_SPECIES_MIENFOO.json"
+  "file" : "513_SPECIES_MIENFOO.json"
 }, {
-  "dex" : 513,
+  "dex" : 514,
   "speciesId" : "SPECIES_MIENSHAO",
   "name" : "Mienshao",
   "types" : [ "Fighting", null ],
   "abilities" : [ "Inner Focus", "Regenerator", "Reckless" ],
   "color" : "Purple",
-  "file" : "513_SPECIES_MIENSHAO.json"
+  "file" : "514_SPECIES_MIENSHAO.json"
 }, {
-  "dex" : 514,
+  "dex" : 515,
   "speciesId" : "SPECIES_DRUDDIGON",
   "name" : "Druddigon",
   "types" : [ "Dragon", null ],
   "abilities" : [ "Rough Skin", "Sheer Force", "Mold Breaker" ],
   "color" : "Red",
-  "file" : "514_SPECIES_DRUDDIGON.json"
+  "file" : "515_SPECIES_DRUDDIGON.json"
 }, {
-  "dex" : 514,
+  "dex" : 515,
   "speciesId" : "SPECIES_EXILED_DRUDDIGON",
-  "name" : "Druddigon",
+  "name" : "Exiled Druddigon",
   "types" : [ "Dragon", "Rock" ],
   "abilities" : [ "Rough Skin", "Solid Rock", "Rocky Payload" ],
   "color" : "Red",
-  "file" : "514_SPECIES_EXILED_DRUDDIGON.json"
+  "file" : "515_SPECIES_EXILED_DRUDDIGON.json"
 }, {
-  "dex" : 515,
+  "dex" : 516,
   "speciesId" : "SPECIES_GOLETT",
   "name" : "Golett",
   "types" : [ "Ground", "Ghost" ],
   "abilities" : [ "Iron Fist", "Klutz", "No Guard" ],
   "color" : "Green",
-  "file" : "515_SPECIES_GOLETT.json"
+  "file" : "516_SPECIES_GOLETT.json"
 }, {
-  "dex" : 516,
+  "dex" : 517,
   "speciesId" : "SPECIES_GOLURK",
   "name" : "Golurk",
   "types" : [ "Ground", "Ghost" ],
   "abilities" : [ "Iron Fist", "Mega Launcher", "No Guard" ],
   "color" : "Green",
-  "file" : "516_SPECIES_GOLURK.json"
+  "file" : "517_SPECIES_GOLURK.json"
 }, {
-  "dex" : 517,
+  "dex" : 518,
   "speciesId" : "SPECIES_PAWNIARD",
   "name" : "Pawniard",
   "types" : [ "Dark", "Steel" ],
   "abilities" : [ "Defiant", "Inner Focus", "Sharpness" ],
   "color" : "Red",
-  "file" : "517_SPECIES_PAWNIARD.json"
+  "file" : "518_SPECIES_PAWNIARD.json"
 }, {
-  "dex" : 518,
+  "dex" : 519,
   "speciesId" : "SPECIES_BISHARP",
   "name" : "Bisharp",
   "types" : [ "Dark", "Steel" ],
   "abilities" : [ "Defiant", "Inner Focus", "Sharpness" ],
   "color" : "Red",
-  "file" : "518_SPECIES_BISHARP.json"
+  "file" : "519_SPECIES_BISHARP.json"
 }, {
-  "dex" : 519,
+  "dex" : 520,
   "speciesId" : "SPECIES_KINGAMBIT",
   "name" : "Kingambit",
   "types" : [ "Dark", "Steel" ],
   "abilities" : [ "Defiant", "Supreme Overlord", "Sharpness" ],
   "color" : "Black",
-  "file" : "519_SPECIES_KINGAMBIT.json"
+  "file" : "520_SPECIES_KINGAMBIT.json"
 }, {
-  "dex" : 520,
+  "dex" : 521,
   "speciesId" : "SPECIES_RUFFLET",
   "name" : "Rufflet",
   "types" : [ "Fighting", "Flying" ],
   "abilities" : [ "Keen Eye", "Sheer Force", "Hustle" ],
   "color" : "White",
-  "file" : "520_SPECIES_RUFFLET.json"
+  "file" : "521_SPECIES_RUFFLET.json"
 }, {
-  "dex" : 521,
+  "dex" : 522,
   "speciesId" : "SPECIES_BRAVIARY",
   "name" : "Braviary",
   "types" : [ "Fighting", "Flying" ],
   "abilities" : [ "Keen Eye", "Sheer Force", "Defiant" ],
   "color" : "Red",
-  "file" : "521_SPECIES_BRAVIARY.json"
+  "file" : "522_SPECIES_BRAVIARY.json"
 }, {
-  "dex" : 521,
+  "dex" : 522,
   "speciesId" : "SPECIES_BRAVIARY_HISUIAN",
   "name" : "Braviary",
   "types" : [ "Psychic", "Flying" ],
   "abilities" : [ "Keen Eye", "Sheer Force", "Tinted Lens" ],
   "color" : "White",
-  "file" : "521_SPECIES_BRAVIARY_HISUIAN.json"
+  "file" : "522_SPECIES_BRAVIARY_HISUIAN.json"
 }, {
-  "dex" : 522,
+  "dex" : 523,
   "speciesId" : "SPECIES_VULLABY",
   "name" : "Vullaby",
   "types" : [ "Dark", "Flying" ],
   "abilities" : [ "Big Pecks", "Overcoat", "Weak Armor" ],
   "color" : "Brown",
-  "file" : "522_SPECIES_VULLABY.json"
+  "file" : "523_SPECIES_VULLABY.json"
 }, {
-  "dex" : 523,
+  "dex" : 524,
   "speciesId" : "SPECIES_MANDIBUZZ",
   "name" : "Mandibuzz",
   "types" : [ "Dark", "Flying" ],
   "abilities" : [ "Big Pecks", "Overcoat", "Weak Armor" ],
   "color" : "Brown",
-  "file" : "523_SPECIES_MANDIBUZZ.json"
+  "file" : "524_SPECIES_MANDIBUZZ.json"
 }, {
-  "dex" : 524,
+  "dex" : 525,
   "speciesId" : "SPECIES_DURANT",
   "name" : "Durant",
   "types" : [ "Bug", "Steel" ],
   "abilities" : [ "Swarm", "Hustle", "Truant" ],
   "color" : "Gray",
-  "file" : "524_SPECIES_DURANT.json"
+  "file" : "525_SPECIES_DURANT.json"
 }, {
-  "dex" : 525,
+  "dex" : 526,
   "speciesId" : "SPECIES_DEINO",
   "name" : "Deino",
   "types" : [ "Dark", "Dragon" ],
   "abilities" : [ "Hustle", "None", "None" ],
   "color" : "Blue",
-  "file" : "525_SPECIES_DEINO.json"
+  "file" : "526_SPECIES_DEINO.json"
 }, {
-  "dex" : 526,
+  "dex" : 527,
   "speciesId" : "SPECIES_ZWEILOUS",
   "name" : "Zweilous",
   "types" : [ "Dark", "Dragon" ],
   "abilities" : [ "Hustle", "None", "None" ],
   "color" : "Blue",
-  "file" : "526_SPECIES_ZWEILOUS.json"
+  "file" : "527_SPECIES_ZWEILOUS.json"
 }, {
-  "dex" : 527,
+  "dex" : 528,
   "speciesId" : "SPECIES_HYDREIGON",
   "name" : "Hydreigon",
   "types" : [ "Dark", "Dragon" ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Blue",
-  "file" : "527_SPECIES_HYDREIGON.json"
+  "file" : "528_SPECIES_HYDREIGON.json"
 }, {
-  "dex" : 528,
+  "dex" : 529,
   "speciesId" : "SPECIES_LARVESTA",
   "name" : "Larvesta",
   "types" : [ "Bug", "Fire" ],
   "abilities" : [ "Flame Body", "None", "Swarm" ],
   "color" : "White",
-  "file" : "528_SPECIES_LARVESTA.json"
+  "file" : "529_SPECIES_LARVESTA.json"
 }, {
-  "dex" : 529,
+  "dex" : 530,
   "speciesId" : "SPECIES_VOLCARONA",
   "name" : "Volcarona",
   "types" : [ "Bug", "Fire" ],
   "abilities" : [ "Flame Body", "None", "Swarm" ],
   "color" : "White",
-  "file" : "529_SPECIES_VOLCARONA.json"
+  "file" : "530_SPECIES_VOLCARONA.json"
 }, {
-  "dex" : 536,
+  "dex" : 538,
   "speciesId" : "SPECIES_CHESPIN",
   "name" : "Chespin",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Bulletproof", "Iron Barbs" ],
   "color" : "Green",
-  "file" : "536_SPECIES_CHESPIN.json"
+  "file" : "538_SPECIES_CHESPIN.json"
 }, {
-  "dex" : 537,
+  "dex" : 539,
   "speciesId" : "SPECIES_QUILLADIN",
   "name" : "Quilladin",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Bulletproof", "Iron Barbs" ],
   "color" : "Green",
-  "file" : "537_SPECIES_QUILLADIN.json"
+  "file" : "539_SPECIES_QUILLADIN.json"
 }, {
-  "dex" : 538,
+  "dex" : 540,
   "speciesId" : "SPECIES_CHESNAUGHT",
   "name" : "Chesnaught",
   "types" : [ "Grass", "Fighting" ],
   "abilities" : [ "Overgrow", "Bulletproof", "Iron Barbs" ],
   "color" : "Green",
-  "file" : "538_SPECIES_CHESNAUGHT.json"
+  "file" : "540_SPECIES_CHESNAUGHT.json"
 }, {
-  "dex" : 539,
+  "dex" : 541,
   "speciesId" : "SPECIES_FENNEKIN",
   "name" : "Fennekin",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "Flame Body", "Magician" ],
   "color" : "Red",
-  "file" : "539_SPECIES_FENNEKIN.json"
+  "file" : "541_SPECIES_FENNEKIN.json"
 }, {
-  "dex" : 540,
+  "dex" : 542,
   "speciesId" : "SPECIES_BRAIXEN",
   "name" : "Braixen",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "Flame Body", "Magician" ],
   "color" : "Red",
-  "file" : "540_SPECIES_BRAIXEN.json"
+  "file" : "542_SPECIES_BRAIXEN.json"
 }, {
-  "dex" : 541,
+  "dex" : 543,
   "speciesId" : "SPECIES_DELPHOX",
   "name" : "Delphox",
   "types" : [ "Fire", "Psychic" ],
   "abilities" : [ "Blaze", "Power Of Alchemy", "Magic Guard" ],
   "color" : "Red",
-  "file" : "541_SPECIES_DELPHOX.json"
+  "file" : "543_SPECIES_DELPHOX.json"
 }, {
-  "dex" : 542,
+  "dex" : 544,
   "speciesId" : "SPECIES_FROAKIE",
   "name" : "Froakie",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Protean", "Water Absorb" ],
   "color" : "Blue",
-  "file" : "542_SPECIES_FROAKIE.json"
+  "file" : "544_SPECIES_FROAKIE.json"
 }, {
-  "dex" : 543,
+  "dex" : 545,
   "speciesId" : "SPECIES_FROGADIER",
   "name" : "Frogadier",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Protean", "Water Absorb" ],
   "color" : "Blue",
-  "file" : "543_SPECIES_FROGADIER.json"
+  "file" : "545_SPECIES_FROGADIER.json"
 }, {
-  "dex" : 545,
+  "dex" : 547,
   "speciesId" : "SPECIES_GRENINJA",
   "name" : "Greninja",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Torrent", "Protean", "Battle Bond" ],
   "color" : "Blue",
-  "file" : "545_SPECIES_GRENINJA.json"
+  "file" : "547_SPECIES_GRENINJA.json"
 }, {
-  "dex" : 545,
+  "dex" : 547,
   "speciesId" : "SPECIES_GRENINJA_ASH",
   "name" : "Greninja",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Battle Bond", "None", "None" ],
   "color" : "Blue",
-  "file" : "545_SPECIES_GRENINJA_ASH.json"
+  "file" : "547_SPECIES_GRENINJA_ASH.json"
 }, {
-  "dex" : 545,
+  "dex" : 547,
   "speciesId" : "SPECIES_GRENINJA_BATTLE_BOND",
   "name" : "Greninja",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Battle Bond", "None", "None" ],
   "color" : "Blue",
-  "file" : "545_SPECIES_GRENINJA_BATTLE_BOND.json"
+  "file" : "547_SPECIES_GRENINJA_BATTLE_BOND.json"
 }, {
-  "dex" : 549,
+  "dex" : 551,
   "speciesId" : "SPECIES_PANCHAM",
   "name" : "Pancham",
   "types" : [ "Fighting", null ],
   "abilities" : [ "Iron Fist", "Mold Breaker", "Scrappy" ],
   "color" : "White",
-  "file" : "549_SPECIES_PANCHAM.json"
+  "file" : "551_SPECIES_PANCHAM.json"
 }, {
-  "dex" : 550,
+  "dex" : 552,
   "speciesId" : "SPECIES_PANGORO",
   "name" : "Pangoro",
   "types" : [ "Fighting", "Dark" ],
   "abilities" : [ "Iron Fist", "Mold Breaker", "Scrappy" ],
   "color" : "White",
-  "file" : "550_SPECIES_PANGORO.json"
+  "file" : "552_SPECIES_PANGORO.json"
 }, {
-  "dex" : 551,
+  "dex" : 553,
   "speciesId" : "SPECIES_ESPURR",
   "name" : "Espurr",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Keen Eye", "Infiltrator", "Own Tempo" ],
   "color" : "Gray",
-  "file" : "551_SPECIES_ESPURR.json"
+  "file" : "553_SPECIES_ESPURR.json"
 }, {
-  "dex" : 553,
+  "dex" : 555,
   "speciesId" : "SPECIES_MEOWSTIC_FEMALE",
   "name" : "Meowstic",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Keen Eye", "Infiltrator", "Competitive" ],
   "color" : "White",
-  "file" : "553_SPECIES_MEOWSTIC_FEMALE.json"
+  "file" : "555_SPECIES_MEOWSTIC_FEMALE.json"
 }, {
-  "dex" : 553,
+  "dex" : 555,
   "speciesId" : "SPECIES_MEOWSTIC_MALE",
   "name" : "Meowstic",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Keen Eye", "Infiltrator", "Prankster" ],
   "color" : "Blue",
-  "file" : "553_SPECIES_MEOWSTIC_MALE.json"
+  "file" : "555_SPECIES_MEOWSTIC_MALE.json"
 }, {
-  "dex" : 554,
+  "dex" : 556,
   "speciesId" : "SPECIES_HONEDGE",
   "name" : "Honedge",
   "types" : [ "Steel", "Ghost" ],
   "abilities" : [ "No Guard", "None", "None" ],
   "color" : "Brown",
-  "file" : "554_SPECIES_HONEDGE.json"
+  "file" : "556_SPECIES_HONEDGE.json"
 }, {
-  "dex" : 555,
+  "dex" : 557,
   "speciesId" : "SPECIES_DOUBLADE",
   "name" : "Doublade",
   "types" : [ "Steel", "Ghost" ],
   "abilities" : [ "No Guard", "None", "None" ],
   "color" : "Brown",
-  "file" : "555_SPECIES_DOUBLADE.json"
+  "file" : "557_SPECIES_DOUBLADE.json"
 }, {
-  "dex" : 557,
+  "dex" : 559,
   "speciesId" : "SPECIES_AEGISLASH_BLADE",
   "name" : "Aegislash",
   "types" : [ "Steel", "Ghost" ],
   "abilities" : [ "Stance Change", "None", "None" ],
   "color" : "Brown",
-  "file" : "557_SPECIES_AEGISLASH_BLADE.json"
+  "file" : "559_SPECIES_AEGISLASH_BLADE.json"
 }, {
-  "dex" : 557,
+  "dex" : 559,
   "speciesId" : "SPECIES_AEGISLASH_SHIELD",
   "name" : "Aegislash",
   "types" : [ "Steel", "Ghost" ],
   "abilities" : [ "Stance Change", "None", "None" ],
   "color" : "Brown",
-  "file" : "557_SPECIES_AEGISLASH_SHIELD.json"
+  "file" : "559_SPECIES_AEGISLASH_SHIELD.json"
 }, {
-  "dex" : 558,
+  "dex" : 560,
   "speciesId" : "SPECIES_HELIOPTILE",
   "name" : "Helioptile",
   "types" : [ "Electric", "Normal" ],
   "abilities" : [ "Dry Skin", "Sand Veil", "Solar Power" ],
   "color" : "Yellow",
-  "file" : "558_SPECIES_HELIOPTILE.json"
+  "file" : "560_SPECIES_HELIOPTILE.json"
 }, {
-  "dex" : 559,
+  "dex" : 561,
   "speciesId" : "SPECIES_HELIOLISK",
   "name" : "Heliolisk",
   "types" : [ "Electric", "Normal" ],
   "abilities" : [ "Dry Skin", "Sand Veil", "Solar Power" ],
   "color" : "Yellow",
-  "file" : "559_SPECIES_HELIOLISK.json"
+  "file" : "561_SPECIES_HELIOLISK.json"
 }, {
-  "dex" : 560,
+  "dex" : 562,
   "speciesId" : "SPECIES_TYRUNT",
   "name" : "Tyrunt",
   "types" : [ "Rock", "Dragon" ],
   "abilities" : [ "Strong Jaw", "None", "Sturdy" ],
   "color" : "Brown",
-  "file" : "560_SPECIES_TYRUNT.json"
+  "file" : "562_SPECIES_TYRUNT.json"
 }, {
-  "dex" : 561,
+  "dex" : 563,
   "speciesId" : "SPECIES_TYRANTRUM",
   "name" : "Tyrantrum",
   "types" : [ "Rock", "Dragon" ],
   "abilities" : [ "Strong Jaw", "None", "Rock Head" ],
   "color" : "Red",
-  "file" : "561_SPECIES_TYRANTRUM.json"
+  "file" : "563_SPECIES_TYRANTRUM.json"
 }, {
-  "dex" : 562,
+  "dex" : 564,
   "speciesId" : "SPECIES_AMAURA",
   "name" : "Amaura",
   "types" : [ "Rock", "Ice" ],
   "abilities" : [ "Refrigerate", "None", "Snow Warning" ],
   "color" : "Blue",
-  "file" : "562_SPECIES_AMAURA.json"
+  "file" : "564_SPECIES_AMAURA.json"
 }, {
-  "dex" : 563,
+  "dex" : 565,
   "speciesId" : "SPECIES_AURORUS",
   "name" : "Aurorus",
   "types" : [ "Rock", "Ice" ],
   "abilities" : [ "Refrigerate", "None", "Snow Warning" ],
   "color" : "Blue",
-  "file" : "563_SPECIES_AURORUS.json"
+  "file" : "565_SPECIES_AURORUS.json"
 }, {
-  "dex" : 564,
+  "dex" : 566,
   "speciesId" : "SPECIES_HAWLUCHA",
   "name" : "Hawlucha",
   "types" : [ "Fighting", "Flying" ],
   "abilities" : [ "Limber", "Unburden", "Mold Breaker" ],
   "color" : "Green",
-  "file" : "564_SPECIES_HAWLUCHA.json"
+  "file" : "566_SPECIES_HAWLUCHA.json"
 }, {
-  "dex" : 565,
+  "dex" : 567,
   "speciesId" : "SPECIES_DEDENNE",
   "name" : "Dedenne",
   "types" : [ "Electric", "Fairy" ],
   "abilities" : [ "Cheek Pouch", "Pickup", "Plus" ],
   "color" : "Yellow",
-  "file" : "565_SPECIES_DEDENNE.json"
+  "file" : "567_SPECIES_DEDENNE.json"
 }, {
-  "dex" : 566,
+  "dex" : 568,
   "speciesId" : "SPECIES_GOOMY",
   "name" : "Goomy",
   "types" : [ "Dragon", null ],
   "abilities" : [ "Sap Sipper", "Hydration", "Gooey" ],
   "color" : "Purple",
-  "file" : "566_SPECIES_GOOMY.json"
+  "file" : "568_SPECIES_GOOMY.json"
 }, {
-  "dex" : 569,
+  "dex" : 571,
   "speciesId" : "SPECIES_SLIGGOO",
   "name" : "Sliggoo",
   "types" : [ "Dragon", null ],
   "abilities" : [ "Sap Sipper", "Hydration", "Gooey" ],
   "color" : "Purple",
-  "file" : "569_SPECIES_SLIGGOO.json"
+  "file" : "571_SPECIES_SLIGGOO.json"
 }, {
-  "dex" : 569,
+  "dex" : 571,
   "speciesId" : "SPECIES_SLIGGOO_HISUIAN",
   "name" : "Sliggoo",
   "types" : [ "Dragon", "Steel" ],
   "abilities" : [ "Sap Sipper", "Shell Armor", "Gooey" ],
   "color" : "Purple",
-  "file" : "569_SPECIES_SLIGGOO_HISUIAN.json"
+  "file" : "571_SPECIES_SLIGGOO_HISUIAN.json"
 }, {
-  "dex" : 570,
+  "dex" : 572,
   "speciesId" : "SPECIES_GOODRA",
   "name" : "Goodra",
   "types" : [ "Dragon", "Poison" ],
   "abilities" : [ "Sap Sipper", "Hydration", "Gooey" ],
   "color" : "Purple",
-  "file" : "570_SPECIES_GOODRA.json"
+  "file" : "572_SPECIES_GOODRA.json"
 }, {
-  "dex" : 570,
+  "dex" : 572,
   "speciesId" : "SPECIES_GOODRA_HISUIAN",
   "name" : "Goodra",
   "types" : [ "Dragon", "Steel" ],
   "abilities" : [ "Sap Sipper", "Shell Armor", "Gooey" ],
   "color" : "Purple",
-  "file" : "570_SPECIES_GOODRA_HISUIAN.json"
+  "file" : "572_SPECIES_GOODRA_HISUIAN.json"
 }, {
-  "dex" : 571,
+  "dex" : 573,
   "speciesId" : "SPECIES_KLEFKI",
   "name" : "Klefki",
   "types" : [ "Steel", "Fairy" ],
   "abilities" : [ "Prankster", "None", "Magician" ],
   "color" : "Gray",
-  "file" : "571_SPECIES_KLEFKI.json"
+  "file" : "573_SPECIES_KLEFKI.json"
 }, {
-  "dex" : 572,
+  "dex" : 574,
   "speciesId" : "SPECIES_NOIBAT",
   "name" : "Noibat",
   "types" : [ "Flying", "Dragon" ],
   "abilities" : [ "Frisk", "Infiltrator", "Telepathy" ],
   "color" : "Purple",
-  "file" : "572_SPECIES_NOIBAT.json"
+  "file" : "574_SPECIES_NOIBAT.json"
 }, {
-  "dex" : 573,
+  "dex" : 575,
   "speciesId" : "SPECIES_NOIVERN",
   "name" : "Noivern",
   "types" : [ "Flying", "Dragon" ],
   "abilities" : [ "Frisk", "Infiltrator", "Punk Rock" ],
   "color" : "Purple",
-  "file" : "573_SPECIES_NOIVERN.json"
+  "file" : "575_SPECIES_NOIVERN.json"
 }, {
-  "dex" : 574,
+  "dex" : 576,
   "speciesId" : "SPECIES_ROWLET",
   "name" : "Rowlet",
   "types" : [ "Grass", "Flying" ],
   "abilities" : [ "Overgrow", "Keen Eye", "Long Reach" ],
   "color" : "Brown",
-  "file" : "574_SPECIES_ROWLET.json"
+  "file" : "576_SPECIES_ROWLET.json"
 }, {
-  "dex" : 575,
+  "dex" : 577,
   "speciesId" : "SPECIES_DARTRIX",
   "name" : "Dartrix",
   "types" : [ "Grass", "Flying" ],
   "abilities" : [ "Overgrow", "Keen Eye", "Long Reach" ],
   "color" : "Brown",
-  "file" : "575_SPECIES_DARTRIX.json"
+  "file" : "577_SPECIES_DARTRIX.json"
 }, {
-  "dex" : 577,
+  "dex" : 579,
   "speciesId" : "SPECIES_DECIDUEYE",
   "name" : "Decidueye",
   "types" : [ "Grass", "Ghost" ],
   "abilities" : [ "Overgrow", "Tinted Lens", "Long Reach" ],
   "color" : "Brown",
-  "file" : "577_SPECIES_DECIDUEYE.json"
+  "file" : "579_SPECIES_DECIDUEYE.json"
 }, {
-  "dex" : 577,
+  "dex" : 579,
   "speciesId" : "SPECIES_DECIDUEYE_HISUIAN",
   "name" : "Decidueye",
   "types" : [ "Grass", "Fighting" ],
   "abilities" : [ "Overgrow", "None", "Scrappy" ],
   "color" : "Brown",
-  "file" : "577_SPECIES_DECIDUEYE_HISUIAN.json"
+  "file" : "579_SPECIES_DECIDUEYE_HISUIAN.json"
 }, {
-  "dex" : 578,
+  "dex" : 580,
   "speciesId" : "SPECIES_LITTEN",
   "name" : "Litten",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "Intimidate", "Unaware" ],
   "color" : "Red",
-  "file" : "578_SPECIES_LITTEN.json"
+  "file" : "580_SPECIES_LITTEN.json"
 }, {
-  "dex" : 579,
+  "dex" : 581,
   "speciesId" : "SPECIES_TORRACAT",
   "name" : "Torracat",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "Intimidate", "Unaware" ],
   "color" : "Red",
-  "file" : "579_SPECIES_TORRACAT.json"
+  "file" : "581_SPECIES_TORRACAT.json"
 }, {
-  "dex" : 580,
+  "dex" : 582,
   "speciesId" : "SPECIES_INCINEROAR",
   "name" : "Incineroar",
   "types" : [ "Fire", "Dark" ],
   "abilities" : [ "Blaze", "Intimidate", "Anger Point" ],
   "color" : "Red",
-  "file" : "580_SPECIES_INCINEROAR.json"
+  "file" : "582_SPECIES_INCINEROAR.json"
 }, {
-  "dex" : 581,
+  "dex" : 583,
   "speciesId" : "SPECIES_POPPLIO",
   "name" : "Popplio",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Hydration", "Liquid Voice" ],
   "color" : "Blue",
-  "file" : "581_SPECIES_POPPLIO.json"
+  "file" : "583_SPECIES_POPPLIO.json"
 }, {
-  "dex" : 582,
+  "dex" : 584,
   "speciesId" : "SPECIES_BRIONNE",
   "name" : "Brionne",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "Hydration", "Liquid Voice" ],
   "color" : "Blue",
-  "file" : "582_SPECIES_BRIONNE.json"
+  "file" : "584_SPECIES_BRIONNE.json"
 }, {
-  "dex" : 583,
+  "dex" : 585,
   "speciesId" : "SPECIES_PRIMARINA",
   "name" : "Primarina",
   "types" : [ "Water", "Fairy" ],
   "abilities" : [ "Torrent", "Water Absorb", "Liquid Voice" ],
   "color" : "Blue",
-  "file" : "583_SPECIES_PRIMARINA.json"
+  "file" : "585_SPECIES_PRIMARINA.json"
 }, {
-  "dex" : 584,
+  "dex" : 586,
   "speciesId" : "SPECIES_EXILED_GRUBBIN",
-  "name" : "Grubbin",
+  "name" : "Exiled Grubbin",
   "types" : [ "Bug", "Ground" ],
   "abilities" : [ "Swarm", "Strong Jaw", "Earth Eater" ],
   "color" : "Gray",
-  "file" : "584_SPECIES_EXILED_GRUBBIN.json"
+  "file" : "586_SPECIES_EXILED_GRUBBIN.json"
 }, {
-  "dex" : 584,
+  "dex" : 586,
   "speciesId" : "SPECIES_GRUBBIN",
   "name" : "Grubbin",
   "types" : [ "Bug", null ],
   "abilities" : [ "Swarm", "None", "Volt Absorb" ],
   "color" : "Gray",
-  "file" : "584_SPECIES_GRUBBIN.json"
+  "file" : "586_SPECIES_GRUBBIN.json"
 }, {
-  "dex" : 585,
+  "dex" : 587,
   "speciesId" : "SPECIES_CHARJABUG",
   "name" : "Charjabug",
   "types" : [ "Bug", "Electric" ],
   "abilities" : [ "Battery", "None", "Volt Absorb" ],
   "color" : "Green",
-  "file" : "585_SPECIES_CHARJABUG.json"
+  "file" : "587_SPECIES_CHARJABUG.json"
 }, {
-  "dex" : 585,
+  "dex" : 587,
   "speciesId" : "SPECIES_EXILED_CHARJABUG",
-  "name" : "Charjabug",
+  "name" : "Exiled Charjabug",
   "types" : [ "Bug", "Ground" ],
   "abilities" : [ "Solid Rock", "None", "Earth Eater" ],
   "color" : "Green",
-  "file" : "585_SPECIES_EXILED_CHARJABUG.json"
+  "file" : "587_SPECIES_EXILED_CHARJABUG.json"
 }, {
-  "dex" : 586,
+  "dex" : 588,
   "speciesId" : "SPECIES_EXILED_VIKAVOLT",
-  "name" : "Vikavolt",
+  "name" : "Exiled Vikavolt",
   "types" : [ "Bug", "Ground" ],
   "abilities" : [ "Swarm", "Strong Jaw", "Earth Eater" ],
   "color" : "Blue",
-  "file" : "586_SPECIES_EXILED_VIKAVOLT.json"
+  "file" : "588_SPECIES_EXILED_VIKAVOLT.json"
 }, {
-  "dex" : 586,
+  "dex" : 588,
   "speciesId" : "SPECIES_VIKAVOLT",
   "name" : "Vikavolt",
   "types" : [ "Bug", "Electric" ],
   "abilities" : [ "Levitate", "None", "Volt Absorb" ],
   "color" : "Blue",
-  "file" : "586_SPECIES_VIKAVOLT.json"
+  "file" : "588_SPECIES_VIKAVOLT.json"
 }, {
-  "dex" : 586,
+  "dex" : 588,
   "speciesId" : "SPECIES_VIKAVOLT_TOTEM",
   "name" : "Vikavolt",
   "types" : [ "Bug", "Electric" ],
   "abilities" : [ "Levitate", "None", "None" ],
   "color" : "Blue",
-  "file" : "586_SPECIES_VIKAVOLT_TOTEM.json"
+  "file" : "588_SPECIES_VIKAVOLT_TOTEM.json"
 }, {
-  "dex" : 590,
+  "dex" : 592,
   "speciesId" : "SPECIES_ORICORIO_BAILE",
   "name" : "Oricorio",
   "types" : [ "Fire", "Flying" ],
   "abilities" : [ "Dancer", "None", "None" ],
   "color" : "Red",
-  "file" : "590_SPECIES_ORICORIO_BAILE.json"
+  "file" : "592_SPECIES_ORICORIO_BAILE.json"
 }, {
-  "dex" : 590,
+  "dex" : 592,
   "speciesId" : "SPECIES_ORICORIO_PAU",
   "name" : "Oricorio",
   "types" : [ "Psychic", "Flying" ],
   "abilities" : [ "Dancer", "None", "None" ],
   "color" : "Pink",
-  "file" : "590_SPECIES_ORICORIO_PAU.json"
+  "file" : "592_SPECIES_ORICORIO_PAU.json"
 }, {
-  "dex" : 590,
+  "dex" : 592,
   "speciesId" : "SPECIES_ORICORIO_POM_POM",
   "name" : "Oricorio",
   "types" : [ "Electric", "Flying" ],
   "abilities" : [ "Dancer", "None", "None" ],
   "color" : "Yellow",
-  "file" : "590_SPECIES_ORICORIO_POM_POM.json"
+  "file" : "592_SPECIES_ORICORIO_POM_POM.json"
 }, {
-  "dex" : 590,
+  "dex" : 592,
   "speciesId" : "SPECIES_ORICORIO_SENSU",
   "name" : "Oricorio",
   "types" : [ "Ghost", "Flying" ],
   "abilities" : [ "Dancer", "None", "None" ],
   "color" : "Purple",
-  "file" : "590_SPECIES_ORICORIO_SENSU.json"
+  "file" : "592_SPECIES_ORICORIO_SENSU.json"
 }, {
-  "dex" : 591,
+  "dex" : 593,
   "speciesId" : "SPECIES_CUTIEFLY",
   "name" : "Cutiefly",
   "types" : [ "Bug", "Fairy" ],
   "abilities" : [ "Honey Gather", "Shield Dust", "Sweet Veil" ],
   "color" : "Yellow",
-  "file" : "591_SPECIES_CUTIEFLY.json"
+  "file" : "593_SPECIES_CUTIEFLY.json"
 }, {
-  "dex" : 592,
+  "dex" : 594,
   "speciesId" : "SPECIES_RIBOMBEE",
   "name" : "Ribombee",
   "types" : [ "Bug", "Fairy" ],
   "abilities" : [ "Serene Grace", "Shield Dust", "Sweet Veil" ],
   "color" : "Yellow",
-  "file" : "592_SPECIES_RIBOMBEE.json"
+  "file" : "594_SPECIES_RIBOMBEE.json"
 }, {
-  "dex" : 592,
+  "dex" : 594,
   "speciesId" : "SPECIES_RIBOMBEE_TOTEM",
   "name" : "Ribombee",
   "types" : [ "Bug", "Fairy" ],
   "abilities" : [ "Sweet Veil", "None", "None" ],
   "color" : "Yellow",
-  "file" : "592_SPECIES_RIBOMBEE_TOTEM.json"
+  "file" : "594_SPECIES_RIBOMBEE_TOTEM.json"
 }, {
-  "dex" : 593,
+  "dex" : 595,
   "speciesId" : "SPECIES_ROCKRUFF",
   "name" : "Rockruff",
   "types" : [ "Rock", null ],
   "abilities" : [ "Keen Eye", "Vital Spirit", "Steadfast" ],
   "color" : "Brown",
-  "file" : "593_SPECIES_ROCKRUFF.json"
+  "file" : "595_SPECIES_ROCKRUFF.json"
 }, {
-  "dex" : 593,
+  "dex" : 595,
   "speciesId" : "SPECIES_ROCKRUFF_OWN_TEMPO",
   "name" : "Rockruff",
   "types" : [ "Rock", null ],
   "abilities" : [ "Own Tempo", "None", "None" ],
   "color" : "Brown",
-  "file" : "593_SPECIES_ROCKRUFF_OWN_TEMPO.json"
+  "file" : "595_SPECIES_ROCKRUFF_OWN_TEMPO.json"
 }, {
-  "dex" : 596,
+  "dex" : 598,
   "speciesId" : "SPECIES_LYCANROC_DUSK",
   "name" : "Lycanroc",
   "types" : [ "Rock", "Fighting" ],
   "abilities" : [ "Tough Claws", "None", "None" ],
   "color" : "Brown",
-  "file" : "596_SPECIES_LYCANROC_DUSK.json"
+  "file" : "598_SPECIES_LYCANROC_DUSK.json"
 }, {
-  "dex" : 596,
+  "dex" : 598,
   "speciesId" : "SPECIES_LYCANROC_MIDDAY",
   "name" : "Lycanroc",
   "types" : [ "Rock", null ],
   "abilities" : [ "Keen Eye", "Sand Rush", "Steadfast" ],
   "color" : "Brown",
-  "file" : "596_SPECIES_LYCANROC_MIDDAY.json"
+  "file" : "598_SPECIES_LYCANROC_MIDDAY.json"
 }, {
-  "dex" : 596,
+  "dex" : 598,
   "speciesId" : "SPECIES_LYCANROC_MIDNIGHT",
   "name" : "Lycanroc",
   "types" : [ "Rock", "Dark" ],
   "abilities" : [ "Keen Eye", "Vital Spirit", "No Guard" ],
   "color" : "Red",
-  "file" : "596_SPECIES_LYCANROC_MIDNIGHT.json"
+  "file" : "598_SPECIES_LYCANROC_MIDNIGHT.json"
 }, {
-  "dex" : 597,
+  "dex" : 599,
   "speciesId" : "SPECIES_MAREANIE",
   "name" : "Mareanie",
   "types" : [ "Poison", "Water" ],
   "abilities" : [ "Merciless", "Limber", "Regenerator" ],
   "color" : "Blue",
-  "file" : "597_SPECIES_MAREANIE.json"
+  "file" : "599_SPECIES_MAREANIE.json"
 }, {
-  "dex" : 598,
+  "dex" : 600,
   "speciesId" : "SPECIES_TOXAPEX",
   "name" : "Toxapex",
   "types" : [ "Poison", "Water" ],
   "abilities" : [ "Merciless", "Limber", "Regenerator" ],
   "color" : "Blue",
-  "file" : "598_SPECIES_TOXAPEX.json"
+  "file" : "600_SPECIES_TOXAPEX.json"
 }, {
-  "dex" : 599,
+  "dex" : 601,
   "speciesId" : "SPECIES_MUDBRAY",
   "name" : "Mudbray",
   "types" : [ "Ground", null ],
   "abilities" : [ "Own Tempo", "Stamina", "Inner Focus" ],
   "color" : "Brown",
-  "file" : "599_SPECIES_MUDBRAY.json"
+  "file" : "601_SPECIES_MUDBRAY.json"
 }, {
-  "dex" : 600,
+  "dex" : 602,
   "speciesId" : "SPECIES_MUDSDALE",
   "name" : "Mudsdale",
   "types" : [ "Ground", null ],
   "abilities" : [ "Own Tempo", "Stamina", "Inner Focus" ],
   "color" : "Brown",
-  "file" : "600_SPECIES_MUDSDALE.json"
+  "file" : "602_SPECIES_MUDSDALE.json"
 }, {
-  "dex" : 601,
+  "dex" : 603,
   "speciesId" : "SPECIES_DEWPIDER",
   "name" : "Dewpider",
   "types" : [ "Water", "Bug" ],
   "abilities" : [ "Water Bubble", "None", "Water Absorb" ],
   "color" : "Green",
-  "file" : "601_SPECIES_DEWPIDER.json"
+  "file" : "603_SPECIES_DEWPIDER.json"
 }, {
-  "dex" : 602,
+  "dex" : 604,
   "speciesId" : "SPECIES_ARAQUANID",
   "name" : "Araquanid",
   "types" : [ "Water", "Bug" ],
   "abilities" : [ "Water Bubble", "None", "Water Absorb" ],
   "color" : "Green",
-  "file" : "602_SPECIES_ARAQUANID.json"
+  "file" : "604_SPECIES_ARAQUANID.json"
 }, {
-  "dex" : 602,
+  "dex" : 604,
   "speciesId" : "SPECIES_ARAQUANID_TOTEM",
   "name" : "Araquanid",
   "types" : [ "Water", "Bug" ],
   "abilities" : [ "Water Bubble", "None", "None" ],
   "color" : "Green",
-  "file" : "602_SPECIES_ARAQUANID_TOTEM.json"
+  "file" : "604_SPECIES_ARAQUANID_TOTEM.json"
 }, {
-  "dex" : 603,
+  "dex" : 605,
   "speciesId" : "SPECIES_FOMANTIS",
   "name" : "Fomantis",
   "types" : [ "Grass", null ],
   "abilities" : [ "Leaf Guard", "None", "Contrary" ],
   "color" : "Pink",
-  "file" : "603_SPECIES_FOMANTIS.json"
+  "file" : "605_SPECIES_FOMANTIS.json"
 }, {
-  "dex" : 604,
+  "dex" : 606,
   "speciesId" : "SPECIES_LURANTIS",
   "name" : "Lurantis",
   "types" : [ "Grass", null ],
   "abilities" : [ "Leaf Guard", "None", "Contrary" ],
   "color" : "Pink",
-  "file" : "604_SPECIES_LURANTIS.json"
+  "file" : "606_SPECIES_LURANTIS.json"
 }, {
-  "dex" : 604,
+  "dex" : 606,
   "speciesId" : "SPECIES_LURANTIS_TOTEM",
   "name" : "Lurantis",
   "types" : [ "Grass", null ],
   "abilities" : [ "Leaf Guard", "None", "None" ],
   "color" : "Pink",
-  "file" : "604_SPECIES_LURANTIS_TOTEM.json"
+  "file" : "606_SPECIES_LURANTIS_TOTEM.json"
 }, {
-  "dex" : 605,
+  "dex" : 607,
   "speciesId" : "SPECIES_MORELULL",
   "name" : "Morelull",
   "types" : [ "Grass", "Fairy" ],
   "abilities" : [ "Illuminate", "Effect Spore", "Rain Dish" ],
   "color" : "Purple",
-  "file" : "605_SPECIES_MORELULL.json"
+  "file" : "607_SPECIES_MORELULL.json"
 }, {
-  "dex" : 606,
+  "dex" : 608,
   "speciesId" : "SPECIES_SHIINOTIC",
   "name" : "Shiinotic",
   "types" : [ "Grass", "Fairy" ],
   "abilities" : [ "Illuminate", "Effect Spore", "Rain Dish" ],
   "color" : "Purple",
-  "file" : "606_SPECIES_SHIINOTIC.json"
+  "file" : "608_SPECIES_SHIINOTIC.json"
 }, {
-  "dex" : 607,
+  "dex" : 609,
   "speciesId" : "SPECIES_SALANDIT",
   "name" : "Salandit",
   "types" : [ "Poison", "Fire" ],
   "abilities" : [ "Corrosion", "None", "Oblivious" ],
   "color" : "Black",
-  "file" : "607_SPECIES_SALANDIT.json"
+  "file" : "609_SPECIES_SALANDIT.json"
 }, {
-  "dex" : 608,
+  "dex" : 610,
   "speciesId" : "SPECIES_SALAZZLE",
   "name" : "Salazzle",
   "types" : [ "Poison", "Fire" ],
   "abilities" : [ "Corrosion", "None", "Oblivious" ],
   "color" : "Black",
-  "file" : "608_SPECIES_SALAZZLE.json"
+  "file" : "610_SPECIES_SALAZZLE.json"
 }, {
-  "dex" : 608,
+  "dex" : 610,
   "speciesId" : "SPECIES_SALAZZLE_TOTEM",
   "name" : "Salazzle",
   "types" : [ "Poison", "Fire" ],
   "abilities" : [ "Corrosion", "None", "None" ],
   "color" : "Black",
-  "file" : "608_SPECIES_SALAZZLE_TOTEM.json"
+  "file" : "610_SPECIES_SALAZZLE_TOTEM.json"
 }, {
-  "dex" : 609,
+  "dex" : 611,
   "speciesId" : "SPECIES_BOUNSWEET",
   "name" : "Bounsweet",
   "types" : [ "Grass", null ],
   "abilities" : [ "Leaf Guard", "Oblivious", "Sweet Veil" ],
   "color" : "Purple",
-  "file" : "609_SPECIES_BOUNSWEET.json"
+  "file" : "611_SPECIES_BOUNSWEET.json"
 }, {
-  "dex" : 610,
+  "dex" : 612,
   "speciesId" : "SPECIES_STEENEE",
   "name" : "Steenee",
   "types" : [ "Grass", null ],
   "abilities" : [ "Leaf Guard", "Oblivious", "Sweet Veil" ],
   "color" : "Purple",
-  "file" : "610_SPECIES_STEENEE.json"
+  "file" : "612_SPECIES_STEENEE.json"
 }, {
-  "dex" : 611,
+  "dex" : 613,
   "speciesId" : "SPECIES_TSAREENA",
   "name" : "Tsareena",
   "types" : [ "Grass", null ],
   "abilities" : [ "Leaf Guard", "Queenly Majesty", "Sweet Veil" ],
   "color" : "Purple",
-  "file" : "611_SPECIES_TSAREENA.json"
+  "file" : "613_SPECIES_TSAREENA.json"
 }, {
-  "dex" : 612,
+  "dex" : 614,
   "speciesId" : "SPECIES_EXILED_WIMPOD",
-  "name" : "Wimpod",
+  "name" : "Exiled Wimpod",
   "types" : [ "Steel", null ],
   "abilities" : [ "Wimp Out", "Wimp Out", "Wimp Out" ],
   "color" : "Gray",
-  "file" : "612_SPECIES_EXILED_WIMPOD.json"
+  "file" : "614_SPECIES_EXILED_WIMPOD.json"
 }, {
-  "dex" : 612,
+  "dex" : 614,
   "speciesId" : "SPECIES_WIMPOD",
   "name" : "Wimpod",
   "types" : [ "Bug", "Water" ],
   "abilities" : [ "Wimp Out", "None", "None" ],
   "color" : "Gray",
-  "file" : "612_SPECIES_WIMPOD.json"
+  "file" : "614_SPECIES_WIMPOD.json"
 }, {
-  "dex" : 613,
+  "dex" : 615,
   "speciesId" : "SPECIES_EXILED_GOLISOPOD",
-  "name" : "Golisopod",
+  "name" : "Exiled Golisopod",
   "types" : [ "Steel", "Fighting" ],
   "abilities" : [ "Tough Claws", "Sheer Force", "Anger Shell" ],
   "color" : "Gray",
-  "file" : "613_SPECIES_EXILED_GOLISOPOD.json"
+  "file" : "615_SPECIES_EXILED_GOLISOPOD.json"
 }, {
-  "dex" : 613,
+  "dex" : 615,
   "speciesId" : "SPECIES_GOLISOPOD",
   "name" : "Golisopod",
   "types" : [ "Bug", "Water" ],
   "abilities" : [ "Emergency Exit", "None", "None" ],
   "color" : "Gray",
-  "file" : "613_SPECIES_GOLISOPOD.json"
+  "file" : "615_SPECIES_GOLISOPOD.json"
 }, {
-  "dex" : 614,
+  "dex" : 616,
   "speciesId" : "SPECIES_SANDYGAST",
   "name" : "Sandygast",
   "types" : [ "Ghost", "Ground" ],
   "abilities" : [ "Water Compaction", "None", "Sand Veil" ],
   "color" : "Brown",
-  "file" : "614_SPECIES_SANDYGAST.json"
+  "file" : "616_SPECIES_SANDYGAST.json"
 }, {
-  "dex" : 615,
+  "dex" : 617,
   "speciesId" : "SPECIES_PALOSSAND",
   "name" : "Palossand",
   "types" : [ "Ghost", "Ground" ],
   "abilities" : [ "Water Compaction", "None", "Sand Veil" ],
   "color" : "Brown",
-  "file" : "615_SPECIES_PALOSSAND.json"
+  "file" : "617_SPECIES_PALOSSAND.json"
 }, {
-  "dex" : 616,
+  "dex" : 618,
   "speciesId" : "SPECIES_TURTONATOR",
   "name" : "Turtonator",
   "types" : [ "Fire", "Dragon" ],
   "abilities" : [ "Shell Armor", "None", "None" ],
   "color" : "Red",
-  "file" : "616_SPECIES_TURTONATOR.json"
+  "file" : "618_SPECIES_TURTONATOR.json"
 }, {
-  "dex" : 617,
+  "dex" : 619,
   "speciesId" : "SPECIES_TOGEDEMARU",
   "name" : "Togedemaru",
   "types" : [ "Electric", "Steel" ],
   "abilities" : [ "Iron Barbs", "Lightning Rod", "Sturdy" ],
   "color" : "Gray",
-  "file" : "617_SPECIES_TOGEDEMARU.json"
+  "file" : "619_SPECIES_TOGEDEMARU.json"
 }, {
-  "dex" : 617,
+  "dex" : 619,
   "speciesId" : "SPECIES_TOGEDEMARU_TOTEM",
   "name" : "Togedemaru",
   "types" : [ "Electric", "Steel" ],
   "abilities" : [ "Sturdy", "None", "None" ],
   "color" : "Gray",
-  "file" : "617_SPECIES_TOGEDEMARU_TOTEM.json"
+  "file" : "619_SPECIES_TOGEDEMARU_TOTEM.json"
 }, {
-  "dex" : 619,
+  "dex" : 620,
   "speciesId" : "SPECIES_MIMIKYU_BUSTED",
   "name" : "Mimikyu",
   "types" : [ "Ghost", "Fairy" ],
   "abilities" : [ "Disguise", "None", "None" ],
   "color" : "Yellow",
-  "file" : "619_SPECIES_MIMIKYU_BUSTED.json"
+  "file" : "620_SPECIES_MIMIKYU_BUSTED.json"
 }, {
-  "dex" : 619,
+  "dex" : 620,
   "speciesId" : "SPECIES_MIMIKYU_DISGUISED",
   "name" : "Mimikyu",
   "types" : [ "Ghost", "Fairy" ],
   "abilities" : [ "Disguise", "None", "None" ],
   "color" : "Yellow",
-  "file" : "619_SPECIES_MIMIKYU_DISGUISED.json"
+  "file" : "620_SPECIES_MIMIKYU_DISGUISED.json"
 }, {
-  "dex" : 619,
+  "dex" : 620,
   "speciesId" : "SPECIES_MIMIKYU_TOTEM_BUSTED",
   "name" : "Mimikyu",
   "types" : [ "Ghost", "Fairy" ],
   "abilities" : [ "Disguise", "None", "None" ],
   "color" : "Yellow",
-  "file" : "619_SPECIES_MIMIKYU_TOTEM_BUSTED.json"
+  "file" : "620_SPECIES_MIMIKYU_TOTEM_BUSTED.json"
 }, {
-  "dex" : 619,
+  "dex" : 620,
   "speciesId" : "SPECIES_MIMIKYU_TOTEM_DISGUISED",
   "name" : "Mimikyu",
   "types" : [ "Ghost", "Fairy" ],
   "abilities" : [ "Disguise", "None", "None" ],
   "color" : "Yellow",
-  "file" : "619_SPECIES_MIMIKYU_TOTEM_DISGUISED.json"
+  "file" : "620_SPECIES_MIMIKYU_TOTEM_DISGUISED.json"
 }, {
-  "dex" : 620,
+  "dex" : 621,
   "speciesId" : "SPECIES_DHELMISE",
   "name" : "Dhelmise",
   "types" : [ "Ghost", "Grass" ],
   "abilities" : [ "Steelworker", "None", "None" ],
   "color" : "Green",
-  "file" : "620_SPECIES_DHELMISE.json"
+  "file" : "621_SPECIES_DHELMISE.json"
+}, {
+  "dex" : 622,
+  "speciesId" : "SPECIES_JANGMO_O",
+  "name" : "Jangmo-o",
+  "types" : [ "Dragon", null ],
+  "abilities" : [ "Bulletproof", "Soundproof", "Overcoat" ],
+  "color" : "Gray",
+  "file" : "622_SPECIES_JANGMO_O.json"
+}, {
+  "dex" : 623,
+  "speciesId" : "SPECIES_HAKAMO_O",
+  "name" : "Hakamo-o",
+  "types" : [ "Dragon", "Fighting" ],
+  "abilities" : [ "Bulletproof", "Soundproof", "Overcoat" ],
+  "color" : "Gray",
+  "file" : "623_SPECIES_HAKAMO_O.json"
 }, {
   "dex" : 624,
+  "speciesId" : "SPECIES_KOMMO_O",
+  "name" : "Kommo-o",
+  "types" : [ "Dragon", "Fighting" ],
+  "abilities" : [ "Bulletproof", "Soundproof", "Overcoat" ],
+  "color" : "Gray",
+  "file" : "624_SPECIES_KOMMO_O.json"
+}, {
+  "dex" : 624,
+  "speciesId" : "SPECIES_KOMMO_O_TOTEM",
+  "name" : "Kommo-o",
+  "types" : [ "Dragon", "Fighting" ],
+  "abilities" : [ "Overcoat", "None", "None" ],
+  "color" : "Gray",
+  "file" : "624_SPECIES_KOMMO_O_TOTEM.json"
+}, {
+  "dex" : 625,
   "speciesId" : "SPECIES_MELTAN",
   "name" : "Meltan",
   "types" : [ "Steel", null ],
   "abilities" : [ "Magnet Pull", "None", "None" ],
   "color" : "Gray",
-  "file" : "624_SPECIES_MELTAN.json"
+  "file" : "625_SPECIES_MELTAN.json"
 }, {
-  "dex" : 625,
+  "dex" : 626,
   "speciesId" : "SPECIES_MELMETAL",
   "name" : "Melmetal",
   "types" : [ "Steel", null ],
   "abilities" : [ "Iron Fist", "None", "None" ],
   "color" : "Gray",
-  "file" : "625_SPECIES_MELMETAL.json"
+  "file" : "626_SPECIES_MELMETAL.json"
 }, {
-  "dex" : 631,
+  "dex" : 632,
   "speciesId" : "SPECIES_GROOKEY",
   "name" : "Grookey",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "None", "Grassy Surge" ],
   "color" : "Green",
-  "file" : "631_SPECIES_GROOKEY.json"
+  "file" : "632_SPECIES_GROOKEY.json"
 }, {
-  "dex" : 632,
+  "dex" : 633,
   "speciesId" : "SPECIES_THWACKEY",
   "name" : "Thwackey",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "None", "Grassy Surge" ],
   "color" : "Green",
-  "file" : "632_SPECIES_THWACKEY.json"
+  "file" : "633_SPECIES_THWACKEY.json"
 }, {
-  "dex" : 633,
+  "dex" : 634,
   "speciesId" : "SPECIES_RILLABOOM",
   "name" : "Rillaboom",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "None", "Grassy Surge" ],
   "color" : "Green",
-  "file" : "633_SPECIES_RILLABOOM.json"
+  "file" : "634_SPECIES_RILLABOOM.json"
 }, {
-  "dex" : 634,
+  "dex" : 635,
   "speciesId" : "SPECIES_SCORBUNNY",
   "name" : "Scorbunny",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "None", "Libero" ],
   "color" : "White",
-  "file" : "634_SPECIES_SCORBUNNY.json"
+  "file" : "635_SPECIES_SCORBUNNY.json"
 }, {
-  "dex" : 635,
+  "dex" : 636,
   "speciesId" : "SPECIES_RABOOT",
   "name" : "Raboot",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "None", "Libero" ],
   "color" : "Gray",
-  "file" : "635_SPECIES_RABOOT.json"
+  "file" : "636_SPECIES_RABOOT.json"
 }, {
-  "dex" : 636,
+  "dex" : 637,
   "speciesId" : "SPECIES_CINDERACE",
   "name" : "Cinderace",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "None", "Libero" ],
   "color" : "White",
-  "file" : "636_SPECIES_CINDERACE.json"
+  "file" : "637_SPECIES_CINDERACE.json"
 }, {
-  "dex" : 637,
+  "dex" : 638,
   "speciesId" : "SPECIES_SOBBLE",
   "name" : "Sobble",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "None", "Sniper" ],
   "color" : "Blue",
-  "file" : "637_SPECIES_SOBBLE.json"
+  "file" : "638_SPECIES_SOBBLE.json"
 }, {
-  "dex" : 638,
+  "dex" : 639,
   "speciesId" : "SPECIES_DRIZZILE",
   "name" : "Drizzile",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "None", "Sniper" ],
   "color" : "Blue",
-  "file" : "638_SPECIES_DRIZZILE.json"
+  "file" : "639_SPECIES_DRIZZILE.json"
 }, {
-  "dex" : 639,
+  "dex" : 640,
   "speciesId" : "SPECIES_INTELEON",
   "name" : "Inteleon",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "None", "Sniper" ],
   "color" : "Blue",
-  "file" : "639_SPECIES_INTELEON.json"
+  "file" : "640_SPECIES_INTELEON.json"
 }, {
-  "dex" : 640,
+  "dex" : 641,
   "speciesId" : "SPECIES_ROOKIDEE",
   "name" : "Rookidee",
   "types" : [ "Flying", null ],
   "abilities" : [ "Keen Eye", "Unnerve", "Big Pecks" ],
   "color" : "Blue",
-  "file" : "640_SPECIES_ROOKIDEE.json"
+  "file" : "641_SPECIES_ROOKIDEE.json"
 }, {
-  "dex" : 643,
+  "dex" : 644,
   "speciesId" : "SPECIES_ROLYCOLY",
   "name" : "Rolycoly",
   "types" : [ "Rock", null ],
   "abilities" : [ "Steam Engine", "Heatproof", "Flash Fire" ],
   "color" : "Black",
-  "file" : "643_SPECIES_ROLYCOLY.json"
+  "file" : "644_SPECIES_ROLYCOLY.json"
 }, {
-  "dex" : 644,
+  "dex" : 645,
   "speciesId" : "SPECIES_CARKOL",
   "name" : "Carkol",
   "types" : [ "Rock", "Fire" ],
   "abilities" : [ "Steam Engine", "Flame Body", "Flash Fire" ],
   "color" : "Black",
-  "file" : "644_SPECIES_CARKOL.json"
+  "file" : "645_SPECIES_CARKOL.json"
 }, {
-  "dex" : 645,
+  "dex" : 646,
   "speciesId" : "SPECIES_COALOSSAL",
   "name" : "Coalossal",
   "types" : [ "Rock", "Fire" ],
   "abilities" : [ "Steam Engine", "Flame Body", "Flash Fire" ],
   "color" : "Black",
-  "file" : "645_SPECIES_COALOSSAL.json"
+  "file" : "646_SPECIES_COALOSSAL.json"
 }, {
-  "dex" : 646,
+  "dex" : 647,
   "speciesId" : "SPECIES_APPLIN",
   "name" : "Applin",
   "types" : [ "Grass", "Dragon" ],
   "abilities" : [ "Ripen", "Gluttony", "Bulletproof" ],
   "color" : "Green",
-  "file" : "646_SPECIES_APPLIN.json"
+  "file" : "647_SPECIES_APPLIN.json"
 }, {
-  "dex" : 647,
+  "dex" : 648,
   "speciesId" : "SPECIES_FLAPPLE",
   "name" : "Flapple",
   "types" : [ "Grass", "Dragon" ],
   "abilities" : [ "Ripen", "Gluttony", "Hustle" ],
   "color" : "Green",
-  "file" : "647_SPECIES_FLAPPLE.json"
+  "file" : "648_SPECIES_FLAPPLE.json"
 }, {
-  "dex" : 648,
+  "dex" : 649,
   "speciesId" : "SPECIES_APPLETUN",
   "name" : "Appletun",
   "types" : [ "Grass", "Dragon" ],
   "abilities" : [ "Ripen", "Gluttony", "Thick Fat" ],
   "color" : "Green",
-  "file" : "648_SPECIES_APPLETUN.json"
+  "file" : "649_SPECIES_APPLETUN.json"
 }, {
-  "dex" : 649,
+  "dex" : 650,
   "speciesId" : "SPECIES_DIPPLIN",
   "name" : "Dipplin",
   "types" : [ "Grass", "Dragon" ],
   "abilities" : [ "Supersweet Syrup", "Gluttony", "Sticky Hold" ],
   "color" : "Green",
-  "file" : "649_SPECIES_DIPPLIN.json"
+  "file" : "650_SPECIES_DIPPLIN.json"
 }, {
-  "dex" : 650,
+  "dex" : 651,
   "speciesId" : "SPECIES_HYDRAPPLE",
   "name" : "Hydrapple",
   "types" : [ "Grass", "Dragon" ],
   "abilities" : [ "Supersweet Syrup", "Regenerator", "Sticky Hold" ],
   "color" : "Green",
-  "file" : "650_SPECIES_HYDRAPPLE.json"
+  "file" : "651_SPECIES_HYDRAPPLE.json"
 }, {
-  "dex" : 651,
+  "dex" : 652,
   "speciesId" : "SPECIES_SILICOBRA",
   "name" : "Silicobra",
   "types" : [ "Ground", null ],
   "abilities" : [ "Sand Spit", "Shed Skin", "Sand Veil" ],
   "color" : "Green",
-  "file" : "651_SPECIES_SILICOBRA.json"
+  "file" : "652_SPECIES_SILICOBRA.json"
 }, {
-  "dex" : 652,
+  "dex" : 653,
   "speciesId" : "SPECIES_SANDACONDA",
   "name" : "Sandaconda",
   "types" : [ "Ground", null ],
   "abilities" : [ "Sand Spit", "Shed Skin", "Sand Veil" ],
   "color" : "Green",
-  "file" : "652_SPECIES_SANDACONDA.json"
+  "file" : "653_SPECIES_SANDACONDA.json"
 }, {
-  "dex" : 653,
+  "dex" : 654,
   "speciesId" : "SPECIES_ARROKUDA",
   "name" : "Arrokuda",
   "types" : [ "Water", null ],
   "abilities" : [ "Swift Swim", "None", "Propeller Tail" ],
   "color" : "Brown",
-  "file" : "653_SPECIES_ARROKUDA.json"
+  "file" : "654_SPECIES_ARROKUDA.json"
 }, {
-  "dex" : 655,
+  "dex" : 656,
   "speciesId" : "SPECIES_TOXEL",
   "name" : "Toxel",
   "types" : [ "Electric", "Poison" ],
   "abilities" : [ "Rattled", "Static", "Klutz" ],
   "color" : "Purple",
-  "file" : "655_SPECIES_TOXEL.json"
+  "file" : "656_SPECIES_TOXEL.json"
 }, {
-  "dex" : 657,
+  "dex" : 658,
   "speciesId" : "SPECIES_TOXTRICITY_AMPED",
   "name" : "Toxtricity",
   "types" : [ "Electric", "Poison" ],
   "abilities" : [ "Punk Rock", "Plus", "Technician" ],
   "color" : "Purple",
-  "file" : "657_SPECIES_TOXTRICITY_AMPED.json"
+  "file" : "658_SPECIES_TOXTRICITY_AMPED.json"
 }, {
-  "dex" : 657,
+  "dex" : 658,
   "speciesId" : "SPECIES_TOXTRICITY_LOW_KEY",
   "name" : "Toxtricity",
   "types" : [ "Electric", "Poison" ],
   "abilities" : [ "Punk Rock", "Minus", "Technician" ],
   "color" : "Purple",
-  "file" : "657_SPECIES_TOXTRICITY_LOW_KEY.json"
+  "file" : "658_SPECIES_TOXTRICITY_LOW_KEY.json"
 }, {
-  "dex" : 658,
+  "dex" : 659,
   "speciesId" : "SPECIES_SIZZLIPEDE",
   "name" : "Sizzlipede",
   "types" : [ "Fire", "Bug" ],
   "abilities" : [ "Flash Fire", "White Smoke", "Flame Body" ],
   "color" : "Red",
-  "file" : "658_SPECIES_SIZZLIPEDE.json"
+  "file" : "659_SPECIES_SIZZLIPEDE.json"
 }, {
-  "dex" : 661,
+  "dex" : 662,
   "speciesId" : "SPECIES_SINISTEA_ANTIQUE",
   "name" : "Sinistea",
   "types" : [ "Ghost", null ],
   "abilities" : [ "Weak Armor", "None", "Cursed Body" ],
   "color" : "Purple",
-  "file" : "661_SPECIES_SINISTEA_ANTIQUE.json"
+  "file" : "662_SPECIES_SINISTEA_ANTIQUE.json"
 }, {
-  "dex" : 661,
+  "dex" : 662,
   "speciesId" : "SPECIES_SINISTEA_PHONY",
   "name" : "Sinistea",
   "types" : [ "Ghost", null ],
   "abilities" : [ "Weak Armor", "None", "Cursed Body" ],
   "color" : "Purple",
-  "file" : "661_SPECIES_SINISTEA_PHONY.json"
+  "file" : "662_SPECIES_SINISTEA_PHONY.json"
 }, {
-  "dex" : 664,
+  "dex" : 665,
   "speciesId" : "SPECIES_HATENNA",
   "name" : "Hatenna",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Healer", "Anticipation", "Magic Bounce" ],
   "color" : "Pink",
-  "file" : "664_SPECIES_HATENNA.json"
+  "file" : "665_SPECIES_HATENNA.json"
 }, {
-  "dex" : 665,
+  "dex" : 666,
   "speciesId" : "SPECIES_HATTREM",
   "name" : "Hattrem",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Healer", "Anticipation", "Magic Bounce" ],
   "color" : "Pink",
-  "file" : "665_SPECIES_HATTREM.json"
+  "file" : "666_SPECIES_HATTREM.json"
 }, {
-  "dex" : 666,
+  "dex" : 667,
   "speciesId" : "SPECIES_HATTERENE",
   "name" : "Hatterene",
   "types" : [ "Psychic", "Fairy" ],
   "abilities" : [ "Healer", "Anticipation", "Magic Bounce" ],
   "color" : "Pink",
-  "file" : "666_SPECIES_HATTERENE.json"
+  "file" : "667_SPECIES_HATTERENE.json"
 }, {
-  "dex" : 667,
+  "dex" : 668,
   "speciesId" : "SPECIES_IMPIDIMP",
   "name" : "Impidimp",
   "types" : [ "Dark", "Fairy" ],
   "abilities" : [ "Prankster", "Frisk", "Pickpocket" ],
   "color" : "Pink",
-  "file" : "667_SPECIES_IMPIDIMP.json"
+  "file" : "668_SPECIES_IMPIDIMP.json"
 }, {
-  "dex" : 668,
+  "dex" : 669,
   "speciesId" : "SPECIES_MORGREM",
   "name" : "Morgrem",
   "types" : [ "Dark", "Fairy" ],
   "abilities" : [ "Prankster", "Frisk", "Pickpocket" ],
   "color" : "Pink",
-  "file" : "668_SPECIES_MORGREM.json"
+  "file" : "669_SPECIES_MORGREM.json"
 }, {
-  "dex" : 669,
+  "dex" : 670,
   "speciesId" : "SPECIES_GRIMMSNARL",
   "name" : "Grimmsnarl",
   "types" : [ "Dark", "Fairy" ],
   "abilities" : [ "Prankster", "Frisk", "Pickpocket" ],
   "color" : "Purple",
-  "file" : "669_SPECIES_GRIMMSNARL.json"
+  "file" : "670_SPECIES_GRIMMSNARL.json"
 }, {
-  "dex" : 670,
+  "dex" : 671,
   "speciesId" : "SPECIES_MILCERY",
   "name" : "Milcery",
   "types" : [ "Fairy", null ],
   "abilities" : [ "Sweet Veil", "None", "Aroma Veil" ],
   "color" : "White",
-  "file" : "670_SPECIES_MILCERY.json"
+  "file" : "671_SPECIES_MILCERY.json"
 }, {
-  "dex" : 671,
+  "dex" : 672,
   "speciesId" : "SPECIES_FALINKS",
   "name" : "Falinks",
   "types" : [ "Fighting", "Bug" ],
   "abilities" : [ "Battle Armor", "None", "Defiant" ],
   "color" : "Yellow",
-  "file" : "671_SPECIES_FALINKS.json"
+  "file" : "672_SPECIES_FALINKS.json"
 }, {
-  "dex" : 672,
+  "dex" : 673,
   "speciesId" : "SPECIES_PINCURCHIN",
   "name" : "Pincurchin",
   "types" : [ "Electric", null ],
   "abilities" : [ "Lightning Rod", "None", "Electric Surge" ],
   "color" : "Purple",
-  "file" : "672_SPECIES_PINCURCHIN.json"
+  "file" : "673_SPECIES_PINCURCHIN.json"
 }, {
-  "dex" : 673,
+  "dex" : 674,
   "speciesId" : "SPECIES_SNOM",
   "name" : "Snom",
   "types" : [ "Ice", "Bug" ],
   "abilities" : [ "Shield Dust", "None", "Ice Scales" ],
   "color" : "White",
-  "file" : "673_SPECIES_SNOM.json"
+  "file" : "674_SPECIES_SNOM.json"
 }, {
-  "dex" : 674,
+  "dex" : 675,
   "speciesId" : "SPECIES_FROSMOTH",
   "name" : "Frosmoth",
   "types" : [ "Ice", "Bug" ],
   "abilities" : [ "Shield Dust", "None", "Ice Scales" ],
   "color" : "White",
-  "file" : "674_SPECIES_FROSMOTH.json"
+  "file" : "675_SPECIES_FROSMOTH.json"
 }, {
-  "dex" : 676,
+  "dex" : 677,
   "speciesId" : "SPECIES_INDEEDEE_FEMALE",
   "name" : "Indeedee",
   "types" : [ "Psychic", "Normal" ],
   "abilities" : [ "Own Tempo", "Synchronize", "Psychic Surge" ],
   "color" : "Purple",
-  "file" : "676_SPECIES_INDEEDEE_FEMALE.json"
+  "file" : "677_SPECIES_INDEEDEE_FEMALE.json"
 }, {
-  "dex" : 676,
+  "dex" : 677,
   "speciesId" : "SPECIES_INDEEDEE_MALE",
   "name" : "Indeedee",
   "types" : [ "Psychic", "Normal" ],
   "abilities" : [ "Inner Focus", "Synchronize", "Psychic Surge" ],
   "color" : "Purple",
-  "file" : "676_SPECIES_INDEEDEE_MALE.json"
+  "file" : "677_SPECIES_INDEEDEE_MALE.json"
 }, {
-  "dex" : 677,
+  "dex" : 678,
   "speciesId" : "SPECIES_DRACOZOLT",
   "name" : "Dracozolt",
   "types" : [ "Electric", "Dragon" ],
   "abilities" : [ "Volt Absorb", "Hustle", "Sand Rush" ],
   "color" : "Green",
-  "file" : "677_SPECIES_DRACOZOLT.json"
+  "file" : "678_SPECIES_DRACOZOLT.json"
 }, {
-  "dex" : 678,
+  "dex" : 679,
   "speciesId" : "SPECIES_ARCTOZOLT",
   "name" : "Arctozolt",
   "types" : [ "Electric", "Ice" ],
   "abilities" : [ "Volt Absorb", "Static", "Slush Rush" ],
   "color" : "Blue",
-  "file" : "678_SPECIES_ARCTOZOLT.json"
+  "file" : "679_SPECIES_ARCTOZOLT.json"
 }, {
-  "dex" : 679,
+  "dex" : 680,
   "speciesId" : "SPECIES_DRACOVISH",
   "name" : "Dracovish",
   "types" : [ "Water", "Dragon" ],
   "abilities" : [ "Water Absorb", "Strong Jaw", "Sand Rush" ],
   "color" : "Green",
-  "file" : "679_SPECIES_DRACOVISH.json"
+  "file" : "680_SPECIES_DRACOVISH.json"
 }, {
-  "dex" : 680,
+  "dex" : 681,
   "speciesId" : "SPECIES_ARCTOVISH",
   "name" : "Arctovish",
   "types" : [ "Water", "Ice" ],
   "abilities" : [ "Water Absorb", "Ice Body", "Slush Rush" ],
   "color" : "Blue",
-  "file" : "680_SPECIES_ARCTOVISH.json"
+  "file" : "681_SPECIES_ARCTOVISH.json"
 }, {
-  "dex" : 681,
+  "dex" : 682,
   "speciesId" : "SPECIES_DURALUDON",
   "name" : "Duraludon",
   "types" : [ "Steel", "Dragon" ],
   "abilities" : [ "Light Metal", "Heavy Metal", "Stalwart" ],
   "color" : "White",
-  "file" : "681_SPECIES_DURALUDON.json"
+  "file" : "682_SPECIES_DURALUDON.json"
 }, {
-  "dex" : 682,
+  "dex" : 683,
   "speciesId" : "SPECIES_ARCHALUDON",
   "name" : "Archaludon",
   "types" : [ "Steel", "Dragon" ],
   "abilities" : [ "Stamina", "Sturdy", "Stalwart" ],
   "color" : "White",
-  "file" : "682_SPECIES_ARCHALUDON.json"
+  "file" : "683_SPECIES_ARCHALUDON.json"
 }, {
-  "dex" : 683,
+  "dex" : 684,
   "speciesId" : "SPECIES_DREEPY",
   "name" : "Dreepy",
   "types" : [ "Dragon", "Ghost" ],
   "abilities" : [ "Clear Body", "Infiltrator", "Cursed Body" ],
   "color" : "Green",
-  "file" : "683_SPECIES_DREEPY.json"
+  "file" : "684_SPECIES_DREEPY.json"
 }, {
-  "dex" : 684,
+  "dex" : 685,
   "speciesId" : "SPECIES_DRAKLOAK",
   "name" : "Drakloak",
   "types" : [ "Dragon", "Ghost" ],
   "abilities" : [ "Clear Body", "Infiltrator", "Cursed Body" ],
   "color" : "Green",
-  "file" : "684_SPECIES_DRAKLOAK.json"
+  "file" : "685_SPECIES_DRAKLOAK.json"
 }, {
-  "dex" : 685,
+  "dex" : 686,
   "speciesId" : "SPECIES_DRAGAPULT",
   "name" : "Dragapult",
   "types" : [ "Dragon", "Ghost" ],
   "abilities" : [ "Clear Body", "Infiltrator", "Cursed Body" ],
   "color" : "Green",
-  "file" : "685_SPECIES_DRAGAPULT.json"
+  "file" : "686_SPECIES_DRAGAPULT.json"
 }, {
-  "dex" : 686,
+  "dex" : 687,
   "speciesId" : "SPECIES_SPRIGATITO",
   "name" : "Sprigatito",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "None", "Protean" ],
   "color" : "Green",
-  "file" : "686_SPECIES_SPRIGATITO.json"
+  "file" : "687_SPECIES_SPRIGATITO.json"
 }, {
-  "dex" : 687,
+  "dex" : 688,
   "speciesId" : "SPECIES_FLORAGATO",
   "name" : "Floragato",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "None", "Protean" ],
   "color" : "Green",
-  "file" : "687_SPECIES_FLORAGATO.json"
+  "file" : "688_SPECIES_FLORAGATO.json"
 }, {
-  "dex" : 689,
+  "dex" : 690,
   "speciesId" : "SPECIES_FUECOCO",
   "name" : "Fuecoco",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "None", "Unaware" ],
   "color" : "Red",
-  "file" : "689_SPECIES_FUECOCO.json"
+  "file" : "690_SPECIES_FUECOCO.json"
 }, {
-  "dex" : 690,
+  "dex" : 691,
   "speciesId" : "SPECIES_CROCALOR",
   "name" : "Crocalor",
   "types" : [ "Fire", null ],
   "abilities" : [ "Blaze", "None", "Unaware" ],
   "color" : "Red",
-  "file" : "690_SPECIES_CROCALOR.json"
+  "file" : "691_SPECIES_CROCALOR.json"
 }, {
-  "dex" : 691,
+  "dex" : 692,
   "speciesId" : "SPECIES_SKELEDIRGE",
   "name" : "Skeledirge",
   "types" : [ "Fire", "Ghost" ],
   "abilities" : [ "Blaze", "None", "Unaware" ],
   "color" : "Red",
-  "file" : "691_SPECIES_SKELEDIRGE.json"
+  "file" : "692_SPECIES_SKELEDIRGE.json"
 }, {
-  "dex" : 692,
+  "dex" : 693,
   "speciesId" : "SPECIES_QUAXLY",
   "name" : "Quaxly",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "None", "Moxie" ],
   "color" : "White",
-  "file" : "692_SPECIES_QUAXLY.json"
+  "file" : "693_SPECIES_QUAXLY.json"
 }, {
-  "dex" : 693,
+  "dex" : 694,
   "speciesId" : "SPECIES_QUAXWELL",
   "name" : "Quaxwell",
   "types" : [ "Water", null ],
   "abilities" : [ "Torrent", "None", "Moxie" ],
   "color" : "Blue",
-  "file" : "693_SPECIES_QUAXWELL.json"
+  "file" : "694_SPECIES_QUAXWELL.json"
 }, {
-  "dex" : 694,
+  "dex" : 695,
   "speciesId" : "SPECIES_QUAQUAVAL",
   "name" : "Quaquaval",
   "types" : [ "Water", "Fighting" ],
   "abilities" : [ "Torrent", "None", "Moxie" ],
   "color" : "Blue",
-  "file" : "694_SPECIES_QUAQUAVAL.json"
+  "file" : "695_SPECIES_QUAQUAVAL.json"
 }, {
-  "dex" : 695,
+  "dex" : 696,
   "speciesId" : "SPECIES_NYMBLE",
   "name" : "Nymble",
   "types" : [ "Bug", null ],
   "abilities" : [ "Swarm", "None", "Tinted Lens" ],
   "color" : "Gray",
-  "file" : "695_SPECIES_NYMBLE.json"
+  "file" : "696_SPECIES_NYMBLE.json"
 }, {
-  "dex" : 696,
+  "dex" : 697,
   "speciesId" : "SPECIES_LOKIX",
   "name" : "Lokix",
   "types" : [ "Bug", "Dark" ],
   "abilities" : [ "Swarm", "None", "Tinted Lens" ],
   "color" : "Gray",
-  "file" : "696_SPECIES_LOKIX.json"
+  "file" : "697_SPECIES_LOKIX.json"
 }, {
-  "dex" : 697,
+  "dex" : 698,
   "speciesId" : "SPECIES_PAWMI",
   "name" : "Pawmi",
   "types" : [ "Electric", null ],
   "abilities" : [ "Static", "Natural Cure", "Iron Fist" ],
   "color" : "Yellow",
-  "file" : "697_SPECIES_PAWMI.json"
+  "file" : "698_SPECIES_PAWMI.json"
 }, {
-  "dex" : 698,
+  "dex" : 699,
   "speciesId" : "SPECIES_PAWMO",
   "name" : "Pawmo",
   "types" : [ "Electric", "Fighting" ],
   "abilities" : [ "Volt Absorb", "Natural Cure", "Iron Fist" ],
   "color" : "Yellow",
-  "file" : "698_SPECIES_PAWMO.json"
+  "file" : "699_SPECIES_PAWMO.json"
 }, {
-  "dex" : 699,
+  "dex" : 700,
   "speciesId" : "SPECIES_PAWMOT",
   "name" : "Pawmot",
   "types" : [ "Electric", "Fighting" ],
   "abilities" : [ "Volt Absorb", "Natural Cure", "Iron Fist" ],
   "color" : "Yellow",
-  "file" : "699_SPECIES_PAWMOT.json"
+  "file" : "700_SPECIES_PAWMOT.json"
 }, {
-  "dex" : 700,
+  "dex" : 701,
   "speciesId" : "SPECIES_TANDEMAUS",
   "name" : "Tandemaus",
   "types" : [ "Normal", null ],
   "abilities" : [ "Run Away", "Pickup", "Own Tempo" ],
   "color" : "White",
-  "file" : "700_SPECIES_TANDEMAUS.json"
+  "file" : "701_SPECIES_TANDEMAUS.json"
 }, {
-  "dex" : 702,
+  "dex" : 703,
   "speciesId" : "SPECIES_MAUSHOLD_FAMILY_OF_FOUR",
   "name" : "Maushold",
   "types" : [ "Normal", null ],
   "abilities" : [ "Friend Guard", "Technician", "Parental Bond" ],
   "color" : "White",
-  "file" : "702_SPECIES_MAUSHOLD_FAMILY_OF_FOUR.json"
+  "file" : "703_SPECIES_MAUSHOLD_FAMILY_OF_FOUR.json"
 }, {
-  "dex" : 702,
+  "dex" : 703,
   "speciesId" : "SPECIES_MAUSHOLD_FAMILY_OF_THREE",
   "name" : "Maushold",
   "types" : [ "Normal", null ],
   "abilities" : [ "Friend Guard", "Technician", "Parental Bond" ],
   "color" : "White",
-  "file" : "702_SPECIES_MAUSHOLD_FAMILY_OF_THREE.json"
+  "file" : "703_SPECIES_MAUSHOLD_FAMILY_OF_THREE.json"
 }, {
-  "dex" : 703,
+  "dex" : 704,
   "speciesId" : "SPECIES_NACLI",
   "name" : "Nacli",
   "types" : [ "Rock", null ],
   "abilities" : [ "Purifying Salt", "Sturdy", "Clear Body" ],
   "color" : "Brown",
-  "file" : "703_SPECIES_NACLI.json"
+  "file" : "704_SPECIES_NACLI.json"
 }, {
-  "dex" : 704,
+  "dex" : 705,
   "speciesId" : "SPECIES_NACLSTACK",
   "name" : "Naclstack",
   "types" : [ "Rock", null ],
   "abilities" : [ "Purifying Salt", "Sturdy", "Clear Body" ],
   "color" : "Brown",
-  "file" : "704_SPECIES_NACLSTACK.json"
+  "file" : "705_SPECIES_NACLSTACK.json"
 }, {
-  "dex" : 705,
+  "dex" : 706,
   "speciesId" : "SPECIES_GARGANACL",
   "name" : "Garganacl",
   "types" : [ "Rock", null ],
   "abilities" : [ "Purifying Salt", "Sturdy", "Clear Body" ],
   "color" : "Brown",
-  "file" : "705_SPECIES_GARGANACL.json"
+  "file" : "706_SPECIES_GARGANACL.json"
 }, {
-  "dex" : 706,
+  "dex" : 707,
   "speciesId" : "SPECIES_CHARCADET",
   "name" : "Charcadet",
   "types" : [ "Fire", null ],
   "abilities" : [ "Flash Fire", "None", "Flame Body" ],
   "color" : "Red",
-  "file" : "706_SPECIES_CHARCADET.json"
+  "file" : "707_SPECIES_CHARCADET.json"
 }, {
-  "dex" : 707,
+  "dex" : 708,
   "speciesId" : "SPECIES_ARMAROUGE",
   "name" : "Armarouge",
   "types" : [ "Fire", "Psychic" ],
   "abilities" : [ "Flash Fire", "None", "Weak Armor" ],
   "color" : "Red",
-  "file" : "707_SPECIES_ARMAROUGE.json"
+  "file" : "708_SPECIES_ARMAROUGE.json"
 }, {
-  "dex" : 708,
+  "dex" : 709,
   "speciesId" : "SPECIES_CERULEDGE",
   "name" : "Ceruledge",
   "types" : [ "Fire", "Ghost" ],
   "abilities" : [ "Flash Fire", "None", "Weak Armor" ],
   "color" : "Purple",
-  "file" : "708_SPECIES_CERULEDGE.json"
+  "file" : "709_SPECIES_CERULEDGE.json"
 }, {
-  "dex" : 709,
+  "dex" : 710,
   "speciesId" : "SPECIES_FLITTLE",
   "name" : "Flittle",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Anticipation", "Frisk", "Speed Boost" ],
   "color" : "Yellow",
-  "file" : "709_SPECIES_FLITTLE.json"
+  "file" : "710_SPECIES_FLITTLE.json"
 }, {
-  "dex" : 710,
+  "dex" : 711,
   "speciesId" : "SPECIES_ESPATHRA",
   "name" : "Espathra",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Opportunist", "Frisk", "Speed Boost" ],
   "color" : "Yellow",
-  "file" : "710_SPECIES_ESPATHRA.json"
+  "file" : "711_SPECIES_ESPATHRA.json"
 }, {
-  "dex" : 711,
+  "dex" : 712,
   "speciesId" : "SPECIES_TINKATINK",
   "name" : "Tinkatink",
   "types" : [ "Fairy", "Steel" ],
   "abilities" : [ "Mold Breaker", "Own Tempo", "Pickpocket" ],
   "color" : "Pink",
-  "file" : "711_SPECIES_TINKATINK.json"
+  "file" : "712_SPECIES_TINKATINK.json"
 }, {
-  "dex" : 712,
+  "dex" : 713,
   "speciesId" : "SPECIES_TINKATUFF",
   "name" : "Tinkatuff",
   "types" : [ "Fairy", "Steel" ],
   "abilities" : [ "Mold Breaker", "Own Tempo", "Pickpocket" ],
   "color" : "Pink",
-  "file" : "712_SPECIES_TINKATUFF.json"
+  "file" : "713_SPECIES_TINKATUFF.json"
 }, {
-  "dex" : 713,
+  "dex" : 714,
   "speciesId" : "SPECIES_TINKATON",
   "name" : "Tinkaton",
   "types" : [ "Fairy", "Steel" ],
   "abilities" : [ "Mold Breaker", "Own Tempo", "Super Luck" ],
   "color" : "Pink",
-  "file" : "713_SPECIES_TINKATON.json"
+  "file" : "714_SPECIES_TINKATON.json"
 }, {
-  "dex" : 714,
+  "dex" : 715,
   "speciesId" : "SPECIES_FINIZEN",
   "name" : "Finizen",
   "types" : [ "Water", null ],
   "abilities" : [ "Water Veil", "None", "None" ],
   "color" : "Blue",
-  "file" : "714_SPECIES_FINIZEN.json"
+  "file" : "715_SPECIES_FINIZEN.json"
 }, {
-  "dex" : 716,
+  "dex" : 717,
   "speciesId" : "SPECIES_PALAFIN_HERO",
   "name" : "Palafin",
   "types" : [ "Water", null ],
   "abilities" : [ "Zero To Hero", "None", "None" ],
   "color" : "Blue",
-  "file" : "716_SPECIES_PALAFIN_HERO.json"
+  "file" : "717_SPECIES_PALAFIN_HERO.json"
 }, {
-  "dex" : 716,
+  "dex" : 717,
   "speciesId" : "SPECIES_PALAFIN_ZERO",
   "name" : "Palafin",
   "types" : [ "Water", null ],
   "abilities" : [ "Zero To Hero", "None", "None" ],
   "color" : "Blue",
-  "file" : "716_SPECIES_PALAFIN_ZERO.json"
+  "file" : "717_SPECIES_PALAFIN_ZERO.json"
 }, {
-  "dex" : 717,
+  "dex" : 718,
   "speciesId" : "SPECIES_CYCLIZAR",
   "name" : "Cyclizar",
   "types" : [ "Dragon", "Normal" ],
   "abilities" : [ "Shed Skin", "None", "Regenerator" ],
   "color" : "Green",
-  "file" : "717_SPECIES_CYCLIZAR.json"
+  "file" : "718_SPECIES_CYCLIZAR.json"
 }, {
-  "dex" : 718,
+  "dex" : 719,
   "speciesId" : "SPECIES_ORTHWORM",
   "name" : "Orthworm",
   "types" : [ "Steel", null ],
   "abilities" : [ "Earth Eater", "None", "Sand Veil" ],
   "color" : "Pink",
-  "file" : "718_SPECIES_ORTHWORM.json"
+  "file" : "719_SPECIES_ORTHWORM.json"
 }, {
-  "dex" : 719,
+  "dex" : 720,
   "speciesId" : "SPECIES_GLIMMET",
   "name" : "Glimmet",
   "types" : [ "Rock", "Poison" ],
   "abilities" : [ "Toxic Debris", "None", "Corrosion" ],
   "color" : "Blue",
-  "file" : "719_SPECIES_GLIMMET.json"
+  "file" : "720_SPECIES_GLIMMET.json"
 }, {
-  "dex" : 720,
+  "dex" : 721,
   "speciesId" : "SPECIES_GLIMMORA",
   "name" : "Glimmora",
   "types" : [ "Rock", "Poison" ],
   "abilities" : [ "Toxic Debris", "None", "Corrosion" ],
   "color" : "Blue",
-  "file" : "720_SPECIES_GLIMMORA.json"
+  "file" : "721_SPECIES_GLIMMORA.json"
 }, {
-  "dex" : 721,
+  "dex" : 722,
   "speciesId" : "SPECIES_DONDOZO",
   "name" : "Dondozo",
   "types" : [ "Water", null ],
   "abilities" : [ "Unaware", "Oblivious", "Water Veil" ],
   "color" : "Blue",
-  "file" : "721_SPECIES_DONDOZO.json"
+  "file" : "722_SPECIES_DONDOZO.json"
 }, {
-  "dex" : 724,
+  "dex" : 725,
   "speciesId" : "SPECIES_TATSUGIRI_CURLY",
   "name" : "Tatsugiri",
   "types" : [ "Dragon", "Water" ],
   "abilities" : [ "Commander", "None", "Storm Drain" ],
   "color" : "Red",
-  "file" : "724_SPECIES_TATSUGIRI_CURLY.json"
+  "file" : "725_SPECIES_TATSUGIRI_CURLY.json"
 }, {
-  "dex" : 724,
+  "dex" : 725,
   "speciesId" : "SPECIES_TATSUGIRI_DROOPY",
   "name" : "Tatsugiri",
   "types" : [ "Dragon", "Water" ],
   "abilities" : [ "Commander", "None", "Storm Drain" ],
   "color" : "Pink",
-  "file" : "724_SPECIES_TATSUGIRI_DROOPY.json"
+  "file" : "725_SPECIES_TATSUGIRI_DROOPY.json"
 }, {
-  "dex" : 724,
+  "dex" : 725,
   "speciesId" : "SPECIES_TATSUGIRI_STRETCHY",
   "name" : "Tatsugiri",
   "types" : [ "Dragon", "Water" ],
   "abilities" : [ "Commander", "None", "Storm Drain" ],
   "color" : "Yellow",
-  "file" : "724_SPECIES_TATSUGIRI_STRETCHY.json"
+  "file" : "725_SPECIES_TATSUGIRI_STRETCHY.json"
 }, {
-  "dex" : 725,
+  "dex" : 726,
   "speciesId" : "SPECIES_FRIGIBAX",
   "name" : "Frigibax",
   "types" : [ "Dragon", "Ice" ],
   "abilities" : [ "Thermal Exchange", "None", "Ice Body" ],
   "color" : "Gray",
-  "file" : "725_SPECIES_FRIGIBAX.json"
+  "file" : "726_SPECIES_FRIGIBAX.json"
 }, {
-  "dex" : 726,
+  "dex" : 727,
   "speciesId" : "SPECIES_ARCTIBAX",
   "name" : "Arctibax",
   "types" : [ "Dragon", "Ice" ],
   "abilities" : [ "Thermal Exchange", "None", "Ice Body" ],
   "color" : "Blue",
-  "file" : "726_SPECIES_ARCTIBAX.json"
+  "file" : "727_SPECIES_ARCTIBAX.json"
 }, {
-  "dex" : 727,
+  "dex" : 728,
   "speciesId" : "SPECIES_BAXCALIBUR",
   "name" : "Baxcalibur",
   "types" : [ "Dragon", "Ice" ],
   "abilities" : [ "Thermal Exchange", "None", "Ice Body" ],
   "color" : "Blue",
-  "file" : "727_SPECIES_BAXCALIBUR.json"
+  "file" : "728_SPECIES_BAXCALIBUR.json"
 }, {
   "dex" : 729,
   "speciesId" : "SPECIES_GIMMIGHOUL_CHEST",

@@ -1,7 +1,7 @@
 {
   "dex" : 64,
   "speciesId" : "SPECIES_EXILED_KADABRA",
-  "name" : "Kadabra",
+  "name" : "Exiled Kadabra",
   "types" : [ "Psychic", "Ice" ],
   "abilities" : [ "Ice Body", "Inner Focus", "Magic Guard" ],
   "evYield" : {

@@ -1,0 +1,101 @@
+{
+  "dex" : 442,
+  "speciesId" : "SPECIES_CONKELDURR",
+  "name" : "Conkeldurr",
+  "types" : [ "Fighting", null ],
+  "abilities" : [ "Guts", "Sheer Force", "Iron Fist" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.4,
+  "weightKg" : 87.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Muscular",
+  "friendship" : 70,
+  "description" : "They use concrete pillars as walking\ncanes. Rather than rely solely on force,\nthey master moves that utilize the\ncentrifugal force of spinning concrete.",
+  "preEvolutionId" : "SPECIES_GURDURR",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 105,
+    "atk" : 140,
+    "def" : 95,
+    "spe" : 45,
+    "spa" : 55,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 1,
+    "move" : "Bide"
+  }, {
+    "level" : 1,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 1,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 4,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 8,
+    "move" : "Bide"
+  }, {
+    "level" : 12,
+    "move" : "Low Kick"
+  }, {
+    "level" : 16,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 20,
+    "move" : "Wake Up Slap"
+  }, {
+    "level" : 24,
+    "move" : "Chip Away"
+  }, {
+    "level" : 29,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 33,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 37,
+    "move" : "Dynamic Punch"
+  }, {
+    "level" : 41,
+    "move" : "Scary Face"
+  }, {
+    "level" : 45,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 49,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 53,
+    "move" : "Focus Punch"
+  }, {
+    "level" : 57,
+    "move" : "Superpower"
+  } ],
+  "eggMoves" : [ "Comet Punch", "Counter", "Detect", "Drain Punch", "Endure", "Force Palm", "Foresight", "Mach Punch", "Power Up Punch", "Reversal", "Smelling Salts", "Wide Guard" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Defog", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Punch", "Focus Blast", "Giga Impact", "Grass Knot", "High Horsepower", "Hyper Beam", "Ice Punch", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Smack Down", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Punch", "Toxic" ],
+  "encounters" : [ ]
+}

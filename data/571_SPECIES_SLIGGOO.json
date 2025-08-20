@@ -1,0 +1,90 @@
+{
+  "dex" : 571,
+  "speciesId" : "SPECIES_SLIGGOO",
+  "name" : "Sliggoo",
+  "types" : [ "Dragon", null ],
+  "abilities" : [ "Sap Sipper", "Hydration", "Gooey" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 158,
+  "eggGroups" : [ "Dragon" ],
+  "hatchSteps" : 10240,
+  "heightM" : 0.8,
+  "weightKg" : 17.5,
+  "growthRate" : "Slow",
+  "color" : "Purple",
+  "category" : "Soft Tissue",
+  "friendship" : 35,
+  "description" : "This Pokémon's mucous can dissolve\nanything. Toothless, it sprays mucous\non its prey. Once they're nicely dissolved,\nit slurps them up.",
+  "preEvolutionId" : "SPECIES_GOOMY",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GOODRA",
+    "method" : "level",
+    "param" : "50"
+  }, {
+    "toSpeciesId" : "SPECIES_GOODRA",
+    "method" : "level",
+    "param" : "50"
+  } ],
+  "baseStats" : {
+    "hp" : 68,
+    "atk" : 75,
+    "def" : 53,
+    "spe" : 60,
+    "spa" : 83,
+    "spd" : 113
+  },
+  "heldItems" : {
+    "common" : "Shed Shell"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Acid Spray"
+  }, {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Acid Armor"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 15,
+    "move" : "Protect"
+  }, {
+    "level" : 20,
+    "move" : "Flail"
+  }, {
+    "level" : 25,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 30,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 35,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 43,
+    "move" : "Curse"
+  }, {
+    "level" : 49,
+    "move" : "Body Slam"
+  }, {
+    "level" : 56,
+    "move" : "Muddy Water"
+  } ],
+  "eggMoves" : [ "Acid Armor", "Counter", "Curse", "Endure", "Iron Tail", "Poison Tail" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Counter", "Double Team", "Draco Meteor", "Dragon Pulse", "Endure", "Facade", "Ice Beam", "Protect", "Rain Dance", "Rest", "Rock Slide", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Sunny Day", "Swagger", "Thunder", "Thunderbolt", "Toxic", "Water Pulse" ],
+  "encounters" : [ ]
+}

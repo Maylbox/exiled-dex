@@ -1,0 +1,106 @@
+{
+  "dex" : 123,
+  "speciesId" : "SPECIES_ELECTIVIRE",
+  "name" : "Electivire",
+  "types" : [ "Electric", "Fighting" ],
+  "abilities" : [ "Motor Drive", "Iron Fist", "Vital Spirit" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 30,
+  "baseExp" : 199,
+  "eggGroups" : [ "Human Like" ],
+  "hatchSteps" : 6400,
+  "heightM" : 1.8,
+  "weightKg" : 138.6,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Thunderbolt",
+  "friendship" : 70,
+  "description" : "When it gets excited, it thumps its chest.\nWith every thud, thunder roars, electric\nsparks shower all around and blue sparks\nbegin to crackle between its horns.",
+  "preEvolutionId" : "SPECIES_ELECTABUZZ",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 123,
+    "def" : 67,
+    "spe" : 95,
+    "spa" : 95,
+    "spd" : 85
+  },
+  "heldItems" : {
+    "common" : "Electirizer"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Electric Terrain"
+  }, {
+    "level" : 1,
+    "move" : "Fire Punch"
+  }, {
+    "level" : 1,
+    "move" : "Ion Deluge"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 5,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 8,
+    "move" : "Low Kick"
+  }, {
+    "level" : 12,
+    "move" : "Swift"
+  }, {
+    "level" : 15,
+    "move" : "Shock Wave"
+  }, {
+    "level" : 19,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 22,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 26,
+    "move" : "Light Screen"
+  }, {
+    "level" : 29,
+    "move" : "Thunder Punch"
+  }, {
+    "level" : 36,
+    "move" : "Discharge"
+  }, {
+    "level" : 42,
+    "move" : "Screech"
+  }, {
+    "level" : 47,
+    "move" : "Cross Chop"
+  }, {
+    "level" : 49,
+    "move" : "Thunderbolt"
+  }, {
+    "level" : 55,
+    "move" : "Zing Zap"
+  }, {
+    "level" : 60,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 62,
+    "move" : "Close Combat"
+  }, {
+    "level" : 65,
+    "move" : "Plasma Fists"
+  }, {
+    "level" : 69,
+    "move" : "Fire Lash"
+  } ],
+  "eggMoves" : [ "Barrier", "Cross Chop", "Dynamic Punch", "Feint", "Fire Punch", "Focus Punch", "Hammer Arm", "Ice Punch", "Karate Chop", "Meditate", "Rolling Kick" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Charge Beam", "Covet", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Electroweb", "Endure", "Facade", "Fire Punch", "Flamethrower", "Flash", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Punch", "Knock Off", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Psychic", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trailblaze", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ ]
+}

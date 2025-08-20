@@ -1,7 +1,7 @@
 {
   "dex" : 63,
   "speciesId" : "SPECIES_EXILED_ABRA",
-  "name" : "Abra",
+  "name" : "Exiled Abra",
   "types" : [ "Psychic", "Ice" ],
   "abilities" : [ "Ice Body", "Inner Focus", "Magic Guard" ],
   "evYield" : {

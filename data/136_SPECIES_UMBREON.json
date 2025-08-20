@@ -1,0 +1,92 @@
+{
+  "dex" : 136,
+  "speciesId" : "SPECIES_UMBREON",
+  "name" : "Umbreon",
+  "types" : [ "Dark", null ],
+  "abilities" : [ "Poison Heal", "Regenerator", "Intimidate" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 8960,
+  "heightM" : 1.0,
+  "weightKg" : 27.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Black",
+  "category" : "Moonlight",
+  "friendship" : 35,
+  "description" : "Umbreon evolved from exposure to the\nmoon's energy pulses. It lurks in darkness\nand waits for its foes to move. The rings\non its body glow when it leaps to attack.",
+  "preEvolutionId" : "SPECIES_EEVEE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 70,
+    "def" : 110,
+    "spe" : 65,
+    "spa" : 60,
+    "spd" : 130
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Pursuit"
+  }, {
+    "level" : 1,
+    "move" : "Assurance"
+  }, {
+    "level" : 1,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 1,
+    "move" : "Pursuit"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 5,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 9,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 13,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 17,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 20,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 25,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 29,
+    "move" : "Screech"
+  }, {
+    "level" : 33,
+    "move" : "Moonlight"
+  }, {
+    "level" : 37,
+    "move" : "Mean Look"
+  }, {
+    "level" : 41,
+    "move" : "Last Resort"
+  }, {
+    "level" : 45,
+    "move" : "Guard Swap"
+  }, {
+    "level" : 57,
+    "move" : "Baddy Bad"
+  } ],
+  "eggMoves" : [ "Captivate", "Charm", "Covet", "Curse", "Detect", "Endure", "Fake Tears", "Flail", "Natural Gift", "Stored Power", "Synchronoise", "Tickle", "Wish", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Covet", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Giga Impact", "Hyper Beam", "Light Screen", "Mud Slap", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Smash", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Wave", "Torment", "Toxic", "Trailblaze" ],
+  "encounters" : [ ]
+}

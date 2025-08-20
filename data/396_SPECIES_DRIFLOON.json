@@ -1,0 +1,93 @@
+{
+  "dex" : 396,
+  "speciesId" : "SPECIES_DRIFLOON",
+  "name" : "Drifloon",
+  "types" : [ "Ghost", "Flying" ],
+  "abilities" : [ "Aftermath", "Unburden", "Flare Boost" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 125,
+  "baseExp" : 0,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 7680,
+  "heightM" : 0.4,
+  "weightKg" : 1.2,
+  "growthRate" : "Fluctuating",
+  "color" : "Purple",
+  "category" : "Balloon",
+  "friendship" : 70,
+  "description" : "Because of the way it floats aimlessly,\nan old folktale calls it a “Signpost for\nWandering Spirits.” Children holding\nthem sometimes vanish.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_DRIFBLIM",
+    "method" : "level",
+    "param" : "28"
+  } ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 50,
+    "def" : 34,
+    "spe" : 70,
+    "spa" : 60,
+    "spd" : 44
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Constrict"
+  }, {
+    "level" : 1,
+    "move" : "Minimize"
+  }, {
+    "level" : 4,
+    "move" : "Astonish"
+  }, {
+    "level" : 8,
+    "move" : "Gust"
+  }, {
+    "level" : 13,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 16,
+    "move" : "Payback"
+  }, {
+    "level" : 20,
+    "move" : "Ominous Wind"
+  }, {
+    "level" : 25,
+    "move" : "Stockpile"
+  }, {
+    "level" : 27,
+    "move" : "Hex"
+  }, {
+    "level" : 30,
+    "move" : "Extrasensory"
+  }, {
+    "level" : 32,
+    "move" : "Spit Up"
+  }, {
+    "level" : 32,
+    "move" : "Swallow"
+  }, {
+    "level" : 36,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 40,
+    "move" : "Amnesia"
+  }, {
+    "level" : 44,
+    "move" : "Baton Pass"
+  }, {
+    "level" : 47,
+    "move" : "Tailwind"
+  }, {
+    "level" : 50,
+    "move" : "Explosion"
+  } ],
+  "eggMoves" : [ "Body Slam", "Clear Smog", "Defog", "Destiny Bond", "Disable", "Haze", "Hypnosis", "Memento", "Tailwind", "Weather Ball" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Cut", "Defog", "Double Team", "Dream Eater", "Endure", "Explosion", "Facade", "Flash", "Fly", "Gyro Ball", "Hex", "Icy Wind", "Knock Off", "Mud Slap", "Mystical Fire", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Rollout", "Shadow Ball", "Shock Wave", "Silver Wind", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ ]
+}

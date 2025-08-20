@@ -1,0 +1,116 @@
+{
+  "dex" : 648,
+  "speciesId" : "SPECIES_FLAPPLE",
+  "name" : "Flapple",
+  "types" : [ "Grass", "Dragon" ],
+  "abilities" : [ "Ripen", "Gluttony", "Hustle" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 170,
+  "eggGroups" : [ "Grass", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 1.0,
+  "growthRate" : "Erratic",
+  "color" : "Green",
+  "category" : "Apple Wing",
+  "friendship" : 70,
+  "description" : "It ate a sour apple, and that induced its\nevolution. In its cheeks, it stores an acid\ncapable of causing chemical burns.",
+  "preEvolutionId" : "SPECIES_APPLIN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 110,
+    "def" : 80,
+    "spe" : 70,
+    "spa" : 95,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Growth"
+  }, {
+    "level" : 1,
+    "move" : "Matcha Gotcha"
+  }, {
+    "level" : 1,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 1,
+    "move" : "Recycle"
+  }, {
+    "level" : 1,
+    "move" : "Twister"
+  }, {
+    "level" : 1,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 1,
+    "move" : "Withdraw"
+  }, {
+    "level" : 4,
+    "move" : "Acid Spray"
+  }, {
+    "level" : 8,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 12,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 16,
+    "move" : "Protect"
+  }, {
+    "level" : 20,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 28,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 32,
+    "move" : "Grav Apple"
+  }, {
+    "level" : 36,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 40,
+    "move" : "Fly"
+  }, {
+    "level" : 44,
+    "move" : "Dragon Rush"
+  }, {
+    "level" : 48,
+    "move" : "Dragon Dance"
+  }, {
+    "level" : 55,
+    "move" : "Outrage"
+  }, {
+    "level" : 65,
+    "move" : "Scale Shot"
+  }, {
+    "level" : 100,
+    "move" : "Dragon Energy"
+  } ],
+  "eggMoves" : [ "Defense Curl", "Recycle", "Rollout", "Sucker Punch" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Bullet Seed", "Defense Curl", "Draco Meteor", "Dragon Pulse", "Dual Wingbeat", "Endure", "Energy Ball", "Facade", "Fly", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Iron Defense", "Protect", "Rest", "Rollout", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Trailblaze", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
+    "area" : "Route 121",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 52,
+    "max" : 55,
+    "slot" : 6
+  } ]
+}

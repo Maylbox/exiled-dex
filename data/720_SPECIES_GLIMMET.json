@@ -1,0 +1,102 @@
+{
+  "dex" : 720,
+  "speciesId" : "SPECIES_GLIMMET",
+  "name" : "Glimmet",
+  "types" : [ "Rock", "Poison" ],
+  "abilities" : [ "Toxic Debris", "None", "Corrosion" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 70,
+  "baseExp" : 70,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 7680,
+  "heightM" : 0.7,
+  "weightKg" : 8.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Ore",
+  "friendship" : 70,
+  "description" : "Glimmet's toxic mineral crystals\nlook just like flower petals. This\nPokémon scatters poisonous powder like\npollen to protect itself.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GLIMMORA",
+    "method" : "level",
+    "param" : "35"
+  } ],
+  "baseStats" : {
+    "hp" : 48,
+    "atk" : 35,
+    "def" : 42,
+    "spe" : 60,
+    "spa" : 105,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Acid"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Rock Polish"
+  }, {
+    "level" : 1,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 7,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 11,
+    "move" : "Acid Spray"
+  }, {
+    "level" : 15,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 20,
+    "move" : "Venoshock"
+  }, {
+    "level" : 24,
+    "move" : "Sandstorm"
+  }, {
+    "level" : 29,
+    "move" : "Self Destruct"
+  }, {
+    "level" : 32,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 36,
+    "move" : "Power Gem"
+  }, {
+    "level" : 40,
+    "move" : "Acid Armor"
+  }, {
+    "level" : 45,
+    "move" : "Sludge Wave"
+  } ],
+  "eggMoves" : [ "Explosion", "Memento", "Toxic" ],
+  "teachableMoves" : [ "Dazzling Gleam", "Endure", "Explosion", "Facade", "Iron Defense", "Light Screen", "Meteor Beam", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Sandstorm", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Smack Down", "Stealth Rock", "Stone Edge", "Sunny Day", "Toxic", "Venoshock" ],
+  "encounters" : [ {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
+    "area" : "Rusturf Tunnel",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 9,
+    "max" : 11,
+    "slot" : 10
+  }, {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
+    "area" : "Rusturf Tunnel",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 9,
+    "max" : 11,
+    "slot" : 11
+  } ]
+}

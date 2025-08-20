@@ -1,0 +1,81 @@
+{
+  "dex" : 659,
+  "speciesId" : "SPECIES_SIZZLIPEDE",
+  "name" : "Sizzlipede",
+  "types" : [ "Fire", "Bug" ],
+  "abilities" : [ "Flash Fire", "White Smoke", "Flame Body" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 61,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.7,
+  "weightKg" : 1.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Radiator",
+  "friendship" : 70,
+  "description" : "It stores flammable gas in its body and\nuses it to generate heat. The yellow\nsections on its belly get particularly hot.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CENTISKORCH",
+    "method" : "level",
+    "param" : "28"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 65,
+    "def" : 45,
+    "spe" : 45,
+    "spa" : 50,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 5,
+    "move" : "Wrap"
+  }, {
+    "level" : 10,
+    "move" : "Bite"
+  }, {
+    "level" : 15,
+    "move" : "Flame Wheel"
+  }, {
+    "level" : 20,
+    "move" : "Pounce"
+  }, {
+    "level" : 25,
+    "move" : "Coil"
+  }, {
+    "level" : 30,
+    "move" : "Slam"
+  }, {
+    "level" : 35,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 40,
+    "move" : "Crunch"
+  }, {
+    "level" : 45,
+    "move" : "Fire Lash"
+  }, {
+    "level" : 50,
+    "move" : "Lunge"
+  }, {
+    "level" : 55,
+    "move" : "Burn Up"
+  } ],
+  "eggMoves" : [ "Defense Curl", "Knock Off", "Rollout", "Struggle Bug" ],
+  "teachableMoves" : [ "Attract", "Crunch", "Defense Curl", "Endure", "Facade", "Knock Off", "Leech Life", "Power Whip", "Protect", "Rest", "Rollout", "Scald", "Sleep Talk", "Snore", "Sunny Day", "Venoshock" ],
+  "encounters" : [ ]
+}

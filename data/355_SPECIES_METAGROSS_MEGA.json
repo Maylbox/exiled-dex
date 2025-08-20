@@ -1,0 +1,91 @@
+{
+  "dex" : 355,
+  "speciesId" : "SPECIES_METAGROSS_MEGA",
+  "name" : "Metagross - Mega",
+  "types" : [ "Steel", "Psychic" ],
+  "abilities" : [ "Tough Claws", "Tough Claws", "Tough Claws" ],
+  "evYield" : {
+    "def" : 3
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 3,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 10240,
+  "heightM" : 2.5,
+  "weightKg" : 942.9,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Iron Leg",
+  "friendship" : 35,
+  "description" : "When it knows it can't win, it digs the\nclaws on its legs into its opponent and\nstarts the countdown to a big explosion.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 145,
+    "def" : 150,
+    "spe" : 110,
+    "spa" : 105,
+    "spd" : 110
+  },
+  "heldItems" : {
+    "common" : "Metal Coat"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 1,
+    "move" : "Bullet Punch"
+  }, {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Explosion"
+  }, {
+    "level" : 1,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 1,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Zen Headbutt"
+  }, {
+    "level" : 12,
+    "move" : "Magnet Rise"
+  }, {
+    "level" : 16,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 26,
+    "move" : "Take Down"
+  }, {
+    "level" : 34,
+    "move" : "Psychic"
+  }, {
+    "level" : 42,
+    "move" : "Scary Face"
+  }, {
+    "level" : 52,
+    "move" : "Meteor Mash"
+  }, {
+    "level" : 62,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 72,
+    "move" : "Agility"
+  }, {
+    "level" : 82,
+    "move" : "Hyper Beam"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Aerial Ace", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Cut", "Defense Curl", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Explosion", "Facade", "Flash", "Flash Cannon", "Fury Cutter", "Giga Impact", "Grass Knot", "Gyro Ball", "Hone Claws", "Hyper Beam", "Ice Punch", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Light Screen", "Meteor Beam", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psychic Fangs", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder Punch", "Toxic", "Trailblaze" ],
+  "encounters" : [ ]
+}

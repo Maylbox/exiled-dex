@@ -1,0 +1,98 @@
+{
+  "dex" : 106,
+  "speciesId" : "SPECIES_RHYPERIOR",
+  "name" : "Rhyperior",
+  "types" : [ "Ground", "Rock" ],
+  "abilities" : [ "Filter", "Solid Rock", "Reckless" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 30,
+  "baseExp" : 217,
+  "eggGroups" : [ "Monster", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.4,
+  "weightKg" : 282.8,
+  "growthRate" : "Slow",
+  "color" : "Gray",
+  "category" : "Drill",
+  "friendship" : 70,
+  "description" : "It can launch a rock held in its hand\nlike a missile by tightening and then\nexpanding its muscles instantaneously.\nGeodude are shot at rare times.",
+  "preEvolutionId" : "SPECIES_RHYDON",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 115,
+    "atk" : 140,
+    "def" : 130,
+    "spe" : 40,
+    "spa" : 55,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Horn Attack"
+  }, {
+    "level" : 1,
+    "move" : "Horn Drill"
+  }, {
+    "level" : 1,
+    "move" : "Poison Jab"
+  }, {
+    "level" : 1,
+    "move" : "Rock Wrecker"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 5,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 9,
+    "move" : "Scary Face"
+  }, {
+    "level" : 13,
+    "move" : "Smack Down"
+  }, {
+    "level" : 17,
+    "move" : "Stomp"
+  }, {
+    "level" : 21,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 25,
+    "move" : "Chip Away"
+  }, {
+    "level" : 29,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 33,
+    "move" : "Drill Run"
+  }, {
+    "level" : 37,
+    "move" : "Take Down"
+  }, {
+    "level" : 41,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 42,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 48,
+    "move" : "Earthquake"
+  }, {
+    "level" : 55,
+    "move" : "Megahorn"
+  }, {
+    "level" : 62,
+    "move" : "Horn Drill"
+  }, {
+    "level" : 69,
+    "move" : "Rock Wrecker"
+  } ],
+  "eggMoves" : [ "Counter", "Crunch", "Crush Claw", "Curse", "Dragon Rush", "Fire Fang", "Guard Split", "Ice Fang", "Iron Tail", "Magnitude", "Metal Burst", "Reversal", "Rock Climb", "Rototiller", "Skull Bash", "Thunder Fang" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Flash Cannon", "Focus Blast", "Fury Cutter", "Giga Impact", "High Horsepower", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Iron Defense", "Iron Head", "Mega Kick", "Mega Punch", "Meteor Beam", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Shadow Claw", "Shock Wave", "Sleep Talk", "Smack Down", "Smart Strike", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Swords Dance", "Thief", "Thunder", "Thunder Fang", "Thunder Punch", "Thunderbolt", "Toxic" ],
+  "encounters" : [ ]
+}

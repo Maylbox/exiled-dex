@@ -1,7 +1,7 @@
 {
   "dex" : 66,
   "speciesId" : "SPECIES_EXILED_MACHOP",
-  "name" : "Machop",
+  "name" : "Exiled Machop",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Harvest", "Seed Sower" ],
   "evYield" : {

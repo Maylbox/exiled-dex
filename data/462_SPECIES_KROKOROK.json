@@ -1,0 +1,101 @@
+{
+  "dex" : 462,
+  "speciesId" : "SPECIES_KROKOROK",
+  "name" : "Krokorok",
+  "types" : [ "Ground", "Dark" ],
+  "abilities" : [ "Intimidate", "Moxie", "Anger Point" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 123,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 33.4,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Desert Croc",
+  "friendship" : 70,
+  "description" : "They move in groups of a few individuals.\nThanks to the special membrane covering\nits eyes, it can see its surroundings\nclearly, even in the dead of night.",
+  "preEvolutionId" : "SPECIES_SANDILE",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_KROOKODILE",
+    "method" : "level",
+    "param" : "40"
+  } ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 82,
+    "def" : 45,
+    "spe" : 74,
+    "spa" : 45,
+    "spd" : 45
+  },
+  "heldItems" : {
+    "common" : "Black Glasses"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Rage"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 4,
+    "move" : "Bite"
+  }, {
+    "level" : 7,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 9,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 11,
+    "move" : "Power Trip"
+  }, {
+    "level" : 13,
+    "move" : "Sand Tomb"
+  }, {
+    "level" : 16,
+    "move" : "Assurance"
+  }, {
+    "level" : 19,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 22,
+    "move" : "Embargo"
+  }, {
+    "level" : 25,
+    "move" : "Swagger"
+  }, {
+    "level" : 28,
+    "move" : "Crunch"
+  }, {
+    "level" : 32,
+    "move" : "Dig"
+  }, {
+    "level" : 36,
+    "move" : "Scary Face"
+  }, {
+    "level" : 40,
+    "move" : "Foul Play"
+  }, {
+    "level" : 44,
+    "move" : "Sandstorm"
+  }, {
+    "level" : 48,
+    "move" : "Earthquake"
+  }, {
+    "level" : 52,
+    "move" : "Thrash"
+  } ],
+  "eggMoves" : [ "Beat Up", "Counter", "Double Edge", "Fire Fang", "Focus Energy", "Me First", "Mean Look", "Power Trip", "Pursuit", "Rock Climb", "Thunder Fang", "Uproar" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Fang", "Grass Knot", "Hone Claws", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Swagger", "Taunt", "Thief", "Thunder Fang", "Torment", "Toxic" ],
+  "encounters" : [ ]
+}

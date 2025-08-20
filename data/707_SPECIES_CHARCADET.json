@@ -1,0 +1,97 @@
+{
+  "dex" : 707,
+  "speciesId" : "SPECIES_CHARCADET",
+  "name" : "Charcadet",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Flash Fire", "None", "Flame Body" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 51,
+  "eggGroups" : [ "Human Like" ],
+  "hatchSteps" : 8960,
+  "heightM" : 0.6,
+  "weightKg" : 10.5,
+  "growthRate" : "Slow",
+  "color" : "Red",
+  "category" : "Fire Child",
+  "friendship" : 70,
+  "description" : "Burnt charcoal came to life and\nbecame a Pokémon. Possessing a fiery\nfighting spirit, Charcadet will\nbattle even tough opponents.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_ARMAROUGE",
+    "method" : "item",
+    "param" : "ITEM_AUSPICIOUS_ARMOR"
+  }, {
+    "toSpeciesId" : "SPECIES_CERULEDGE",
+    "method" : "item",
+    "param" : "ITEM_MALICIOUS_ARMOR"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 50,
+    "def" : 40,
+    "spe" : 35,
+    "spa" : 50,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 4,
+    "move" : "Clear Smog"
+  }, {
+    "level" : 8,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 16,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 18,
+    "move" : "Night Shade"
+  }, {
+    "level" : 22,
+    "move" : "Flame Charge"
+  }, {
+    "level" : 25,
+    "move" : "Incinerate"
+  }, {
+    "level" : 28,
+    "move" : "Lava Plume"
+  }, {
+    "level" : 32,
+    "move" : "Destiny Bond"
+  } ],
+  "eggMoves" : [ "Destiny Bond", "Disable", "Spite" ],
+  "teachableMoves" : [ "Endure", "Facade", "Fire Blast", "Flamethrower", "Overheat", "Protect", "Rest", "Sleep Talk", "Sunny Day", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
+    "area" : "Dewford Town",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 10,
+    "max" : 12,
+    "slot" : 8
+  }, {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
+    "area" : "Dewford Town",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 10,
+    "max" : 12,
+    "slot" : 9
+  } ]
+}

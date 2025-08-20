@@ -1,0 +1,105 @@
+{
+  "dex" : 576,
+  "speciesId" : "SPECIES_ROWLET",
+  "name" : "Rowlet",
+  "types" : [ "Grass", "Flying" ],
+  "abilities" : [ "Overgrow", "Keen Eye", "Long Reach" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 64,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.3,
+  "weightKg" : 1.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Grass Quill",
+  "friendship" : 70,
+  "description" : "This wary Pokémon uses photosynthesis\nto store up energy during the day, while\nbecoming active at night. Silently it\nglides, drawing near to its target.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_DARTRIX",
+    "method" : "level",
+    "param" : "17"
+  } ],
+  "baseStats" : {
+    "hp" : 68,
+    "atk" : 55,
+    "def" : 55,
+    "spe" : 42,
+    "spa" : 50,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "False Swipe"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Leafage"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Growl"
+  }, {
+    "level" : 8,
+    "move" : "Pluck"
+  }, {
+    "level" : 11,
+    "move" : "Astonish"
+  }, {
+    "level" : 14,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 16,
+    "move" : "Ominous Wind"
+  }, {
+    "level" : 18,
+    "move" : "Foresight"
+  }, {
+    "level" : 22,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 25,
+    "move" : "Synthesis"
+  }, {
+    "level" : 29,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 32,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 36,
+    "move" : "Leaf Blade"
+  }, {
+    "level" : 39,
+    "move" : "Featherdance"
+  }, {
+    "level" : 43,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 46,
+    "move" : "Nasty Plot"
+  } ],
+  "eggMoves" : [ "Baton Pass", "Confuse Ray", "Curse", "Defog", "Haze", "Ominous Wind" ],
+  "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Bullet Seed", "Covet", "Defog", "Double Team", "Dual Wingbeat", "Endure", "Energy Ball", "Facade", "False Swipe", "Giga Drain", "Grass Knot", "Grassy Glide", "Knock Off", "Light Screen", "Protect", "Rain Dance", "Rest", "Roost", "Safeguard", "Shadow Claw", "Sleep Talk", "Snore", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
+    "area" : "Deep Woods0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 6
+  } ]
+}

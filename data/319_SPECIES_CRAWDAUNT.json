@@ -1,0 +1,110 @@
+{
+  "dex" : 319,
+  "speciesId" : "SPECIES_CRAWDAUNT",
+  "name" : "Crawdaunt",
+  "types" : [ "Water", "Dark" ],
+  "abilities" : [ "Hyper Cutter", "Shell Armor", "Adaptability" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 155,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Water 3" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.1,
+  "weightKg" : 32.8,
+  "growthRate" : "Fluctuating",
+  "color" : "Red",
+  "category" : "Rogue",
+  "friendship" : 70,
+  "description" : "A brutish Pokémon that loves to battle.\nA veteran Crawdaunt that has prevailed in\nhundreds of battles has giant pincers\nmarked with countless scars.",
+  "preEvolutionId" : "SPECIES_CORPHISH",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 63,
+    "atk" : 120,
+    "def" : 85,
+    "spe" : 70,
+    "spa" : 75,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Razor Shell"
+  }, {
+    "level" : 1,
+    "move" : "Bubble"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Razor Shell"
+  }, {
+    "level" : 1,
+    "move" : "Swift"
+  }, {
+    "level" : 1,
+    "move" : "Vice Grip"
+  }, {
+    "level" : 5,
+    "move" : "Harden"
+  }, {
+    "level" : 7,
+    "move" : "Vice Grip"
+  }, {
+    "level" : 10,
+    "move" : "Leer"
+  }, {
+    "level" : 14,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 17,
+    "move" : "Protect"
+  }, {
+    "level" : 20,
+    "move" : "Double Hit"
+  }, {
+    "level" : 21,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 23,
+    "move" : "Knock Off"
+  }, {
+    "level" : 26,
+    "move" : "Night Slash"
+  }, {
+    "level" : 32,
+    "move" : "Muddy Water"
+  }, {
+    "level" : 39,
+    "move" : "Slash"
+  }, {
+    "level" : 40,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 43,
+    "move" : "Crunch"
+  }, {
+    "level" : 48,
+    "move" : "Crabhammer"
+  }, {
+    "level" : 54,
+    "move" : "Dragon Dance"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Aqua Jet", "Body Slam", "Chip Away", "Double Edge", "Dragon Dance", "Endeavor", "Knock Off", "Metal Claw", "Mud Sport", "Superpower", "Switcheroo", "Trump Card" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Avalanche", "Blizzard", "Body Slam", "Brick Break", "Counter", "Crunch", "Cut", "Dark Pulse", "Dig", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "False Swipe", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Knock Off", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Scald", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Strength", "Surf", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Toxic", "Water Pulse", "Waterfall", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Fishing",
+    "area" : "Petalburg City",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 6
+  } ]
+}

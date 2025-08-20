@@ -1,0 +1,92 @@
+{
+  "dex" : 280,
+  "speciesId" : "SPECIES_SHEDINJA",
+  "name" : "Shedinja",
+  "types" : [ "Bug", "Ghost" ],
+  "abilities" : [ "Wonder Guard", "None", "None" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.8,
+  "weightKg" : 1.2,
+  "growthRate" : "Erratic",
+  "color" : "Brown",
+  "category" : "Shed",
+  "friendship" : 70,
+  "description" : "A peculiar Pokémon that floats in air even\nthough its wings remain completely still.\nThe inside of its body is hollow and\nutterly dark.",
+  "preEvolutionId" : "SPECIES_NINCADA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 1,
+    "atk" : 95,
+    "def" : 5,
+    "spe" : 70,
+    "spa" : 95,
+    "spd" : 5
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Shadow Claw"
+  }, {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 5,
+    "move" : "Absorb"
+  }, {
+    "level" : 9,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 13,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 17,
+    "move" : "Spite"
+  }, {
+    "level" : 21,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 25,
+    "move" : "Mind Reader"
+  }, {
+    "level" : 29,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 33,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 35,
+    "move" : "Pounce"
+  }, {
+    "level" : 37,
+    "move" : "Grudge"
+  }, {
+    "level" : 41,
+    "move" : "Heal Block"
+  }, {
+    "level" : 45,
+    "move" : "Phantom Force"
+  }, {
+    "level" : 57,
+    "move" : "Poltergeist"
+  } ],
+  "eggMoves" : [ "Bug Bite", "Bug Buzz", "Endure", "Feint Attack", "Final Gambit", "Gust", "Night Slash", "Silver Wind" ],
+  "teachableMoves" : [ "Aerial Ace", "Cut", "Dig", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "False Swipe", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Hex", "Hone Claws", "Hyper Beam", "Leech Life", "Mud Slap", "Protect", "Rest", "Sandstorm", "Shadow Ball", "Shadow Claw", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Thief", "Toxic", "Will O Wisp", "X Scissor" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,125 @@
+{
+  "dex" : 673,
+  "speciesId" : "SPECIES_PINCURCHIN",
+  "name" : "Pincurchin",
+  "types" : [ "Electric", null ],
+  "abilities" : [ "Lightning Rod", "None", "Electric Surge" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 152,
+  "eggGroups" : [ "Water 1", "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 1.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Purple",
+  "category" : "Sea Urchin",
+  "friendship" : 70,
+  "description" : "It feeds on seaweed, using its teeth to\nscrape it off rocks. Electric current\nflows from the tips of its spines.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 48,
+    "atk" : 101,
+    "def" : 95,
+    "spe" : 15,
+    "spa" : 91,
+    "spd" : 85
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Acupressure"
+  }, {
+    "level" : 1,
+    "move" : "Parting Shot"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Spikes"
+  }, {
+    "level" : 1,
+    "move" : "Thundershock"
+  }, {
+    "level" : 1,
+    "move" : "Toxic Spikes"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 5,
+    "move" : "Charge"
+  }, {
+    "level" : 10,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 13,
+    "move" : "Spark"
+  }, {
+    "level" : 19,
+    "move" : "Bubble Beam"
+  }, {
+    "level" : 26,
+    "move" : "Recover"
+  }, {
+    "level" : 29,
+    "move" : "Curse"
+  }, {
+    "level" : 32,
+    "move" : "Electric Terrain"
+  }, {
+    "level" : 36,
+    "move" : "Poison Jab"
+  }, {
+    "level" : 41,
+    "move" : "Zing Zap"
+  }, {
+    "level" : 45,
+    "move" : "Discharge"
+  }, {
+    "level" : 50,
+    "move" : "Bouncy Bubble"
+  }, {
+    "level" : 53,
+    "move" : "Volt Switch"
+  }, {
+    "level" : 57,
+    "move" : "Rising Voltage"
+  }, {
+    "level" : 60,
+    "move" : "Hex"
+  }, {
+    "level" : 62,
+    "move" : "Strength Sap"
+  }, {
+    "level" : 66,
+    "move" : "Trick Room"
+  } ],
+  "eggMoves" : [ "Memento", "Sucker Punch" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Charge Beam", "Electroweb", "Endure", "Facade", "Giga Impact", "Hex", "Hyper Beam", "Poison Jab", "Protect", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Venoshock", "Wild Charge" ],
+  "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Fishing",
+    "area" : "Route 118",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 1
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 21,
+    "max" : 25,
+    "slot" : 1
+  } ]
+}

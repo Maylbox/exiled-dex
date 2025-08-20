@@ -1,0 +1,84 @@
+{
+  "dex" : 688,
+  "speciesId" : "SPECIES_FLORAGATO",
+  "name" : "Floragato",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Overgrow", "None", "Protean" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 144,
+  "eggGroups" : [ "Field", "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.9,
+  "weightKg" : 12.2,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Grass Cat",
+  "friendship" : 70,
+  "description" : "Floragato deftly wields the vine\nhidden beneath its long fur, slamming\nthe hard flower bud against its\nopponents.",
+  "preEvolutionId" : "SPECIES_SPRIGATITO",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MEOWSCARADA",
+    "method" : "level",
+    "param" : "36"
+  } ],
+  "baseStats" : {
+    "hp" : 61,
+    "atk" : 80,
+    "def" : 63,
+    "spe" : 83,
+    "spa" : 60,
+    "spd" : 63
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 6,
+    "move" : "Leafage"
+  }, {
+    "level" : 8,
+    "move" : "Bite"
+  }, {
+    "level" : 10,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 12,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 15,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 17,
+    "move" : "Seed Bomb"
+  }, {
+    "level" : 20,
+    "move" : "U Turn"
+  }, {
+    "level" : 27,
+    "move" : "Worry Seed"
+  }, {
+    "level" : 31,
+    "move" : "Slash"
+  }, {
+    "level" : 35,
+    "move" : "Energy Ball"
+  }, {
+    "level" : 42,
+    "move" : "Play Rough"
+  }, {
+    "level" : 46,
+    "move" : "Leaf Storm"
+  } ],
+  "eggMoves" : [ "Ally Switch", "Copycat", "Leech Seed", "Petal Blizzard", "Sucker Punch" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Bullet Seed", "Endure", "Energy Ball", "Facade", "Giga Drain", "Grass Knot", "Grassy Glide", "Hone Claws", "Low Kick", "Mud Slap", "Play Rough", "Protect", "Rest", "Shadow Claw", "Sleep Talk", "Solar Beam", "Swift", "Taunt", "Thunder Punch", "Trailblaze", "U Turn" ],
+  "encounters" : [ ]
+}

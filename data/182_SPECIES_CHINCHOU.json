@@ -1,0 +1,119 @@
+{
+  "dex" : 182,
+  "speciesId" : "SPECIES_CHINCHOU",
+  "name" : "Chinchou",
+  "types" : [ "Water", "Electric" ],
+  "abilities" : [ "Volt Absorb", "Illuminate", "Water Absorb" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 2" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 12.0,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Angler",
+  "friendship" : 70,
+  "description" : "When it senses danger, it discharges\npositive and negative electricity from its\ntwo antennae. It lives in depths beyond\nsunlight's reach.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_LANTURN",
+    "method" : "level",
+    "param" : "27"
+  } ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 38,
+    "def" : 38,
+    "spe" : 67,
+    "spa" : 56,
+    "spd" : 56
+  },
+  "heldItems" : {
+    "common" : "Deep Sea Scale"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bubble"
+  }, {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 6,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 9,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 12,
+    "move" : "Shock Wave"
+  }, {
+    "level" : 17,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 20,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 23,
+    "move" : "Spark"
+  }, {
+    "level" : 28,
+    "move" : "Signal Beam"
+  }, {
+    "level" : 31,
+    "move" : "Scald"
+  }, {
+    "level" : 34,
+    "move" : "Discharge"
+  }, {
+    "level" : 39,
+    "move" : "Parabolic Charge"
+  }, {
+    "level" : 42,
+    "move" : "Aqua Ring"
+  }, {
+    "level" : 45,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 47,
+    "move" : "Ion Deluge"
+  }, {
+    "level" : 50,
+    "move" : "Charge"
+  } ],
+  "eggMoves" : [ "Agility", "Amnesia", "Brine", "Flail", "Mist", "Psybeam", "Screech", "Shock Wave", "Soak", "Water Pulse", "Whirlpool" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Charge Beam", "Dazzling Gleam", "Dive", "Double Edge", "Double Team", "Electroweb", "Endure", "Facade", "Flash", "Flip Turn", "Ice Beam", "Icy Wind", "Protect", "Rain Dance", "Rest", "Scald", "Shock Wave", "Sleep Talk", "Snore", "Surf", "Swagger", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Water Pulse", "Waterfall", "Wild Charge" ],
+  "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Fishing",
+    "area" : "Route 118",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 0
+  }, {
+    "areaKey" : "Underwater_Route126",
+    "bucketKey" : "Water",
+    "area" : "Underwater_Route 126",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 20,
+    "max" : 30,
+    "slot" : 1
+  }, {
+    "areaKey" : "Underwater_Route124",
+    "bucketKey" : "Water",
+    "area" : "Underwater_Route 124",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 20,
+    "max" : 30,
+    "slot" : 1
+  } ]
+}

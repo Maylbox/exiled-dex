@@ -1,0 +1,218 @@
+{
+  "dex" : 341,
+  "speciesId" : "SPECIES_FROSLASS",
+  "name" : "Froslass",
+  "types" : [ "Ice", "Ghost" ],
+  "abilities" : [ "Snow Cloak", "Serene Grace", "Cursed Body" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Fairy", "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.3,
+  "weightKg" : 26.6,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Snow Land",
+  "friendship" : 70,
+  "description" : "When it finds people or Pokémon it likes,\nit freezes them and takes them to its\nchilly den, where they become its\ndecorations.",
+  "preEvolutionId" : "SPECIES_SNORUNT",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 80,
+    "def" : 70,
+    "spe" : 110,
+    "spa" : 80,
+    "spd" : 70
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Ominous Wind"
+  }, {
+    "level" : 1,
+    "move" : "Destiny Bond"
+  }, {
+    "level" : 1,
+    "move" : "Ominous Wind"
+  }, {
+    "level" : 1,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 1,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 5,
+    "move" : "Double Team"
+  }, {
+    "level" : 10,
+    "move" : "Ice Shard"
+  }, {
+    "level" : 14,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 19,
+    "move" : "Astonish"
+  }, {
+    "level" : 23,
+    "move" : "Draining Kiss"
+  }, {
+    "level" : 28,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 32,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 34,
+    "move" : "Hex"
+  }, {
+    "level" : 37,
+    "move" : "Wake Up Slap"
+  }, {
+    "level" : 42,
+    "move" : "Bitter Malice"
+  }, {
+    "level" : 42,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 48,
+    "move" : "Frost Breath"
+  }, {
+    "level" : 52,
+    "move" : "Blizzard"
+  }, {
+    "level" : 54,
+    "move" : "Snowscape"
+  }, {
+    "level" : 58,
+    "move" : "Freeze Dry"
+  }, {
+    "level" : 61,
+    "move" : "Freezy Frost"
+  } ],
+  "eggMoves" : [ "Avalanche", "Bide", "Block", "Disable", "Fake Tears", "Hex", "Rollout", "Spikes", "Switcheroo", "Weather Ball" ],
+  "teachableMoves" : [ "Attract", "Aurora Veil", "Avalanche", "Blizzard", "Body Slam", "Crunch", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icicle Crash", "Icy Wind", "Light Screen", "Mud Slap", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Rollout", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Snowscape", "Swagger", "Taunt", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trailblaze", "Triple Axel", "Water Pulse", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "SeafloorCavern_Room1",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 10
+  }, {
+    "areaKey" : "SeafloorCavern_Room2",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 10
+  }, {
+    "areaKey" : "SeafloorCavern_Room3",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 10
+  }, {
+    "areaKey" : "SeafloorCavern_Room4",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room4",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 10
+  }, {
+    "areaKey" : "SeafloorCavern_Room5",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 10
+  }, {
+    "areaKey" : "SeafloorCavern_Room6",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room6",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 10
+  }, {
+    "areaKey" : "SeafloorCavern_Room7",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room7",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 10
+  }, {
+    "areaKey" : "SeafloorCavern_Room8",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room8",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 10
+  }, {
+    "areaKey" : "ShoalCave_LowTideStairsRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Stairs Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 3
+  }, {
+    "areaKey" : "ShoalCave_LowTideLowerRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Lower Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 3
+  }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Inner Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 3
+  }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Entrance Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 3
+  }, {
+    "areaKey" : "ShoalCave_LowTideIceRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Ice Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 3
+  } ]
+}

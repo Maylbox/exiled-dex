@@ -1,7 +1,7 @@
 {
   "dex" : 67,
   "speciesId" : "SPECIES_EXILED_MACHOKE",
-  "name" : "Machoke",
+  "name" : "Exiled Machoke",
   "types" : [ "Grass", null ],
   "abilities" : [ "Overgrow", "Harvest", "Seed Sower" ],
   "evYield" : {

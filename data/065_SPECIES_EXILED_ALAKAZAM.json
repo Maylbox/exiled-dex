@@ -1,7 +1,7 @@
 {
   "dex" : 65,
   "speciesId" : "SPECIES_EXILED_ALAKAZAM",
-  "name" : "Alakazam",
+  "name" : "Exiled Alakazam",
   "types" : [ "Psychic", "Ice" ],
   "abilities" : [ "Ice Body", "Snow Warning", "Magic Guard" ],
   "evYield" : {

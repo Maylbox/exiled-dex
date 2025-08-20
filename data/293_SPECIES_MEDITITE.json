@@ -1,0 +1,102 @@
+{
+  "dex" : 293,
+  "speciesId" : "SPECIES_MEDITITE",
+  "name" : "Meditite",
+  "types" : [ "Fighting", "Psychic" ],
+  "abilities" : [ "Pure Power", "None", "Telepathy" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 180,
+  "baseExp" : 0,
+  "eggGroups" : [ "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 11.2,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Meditate",
+  "friendship" : 70,
+  "description" : "It continually meditates for hours every\nday. As a result of rigorous and dedicated\nyoga training, it has tempered its\nspiritual power so much it can fly.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MEDICHAM",
+    "method" : "level",
+    "param" : "37"
+  } ],
+  "baseStats" : {
+    "hp" : 30,
+    "atk" : 40,
+    "def" : 55,
+    "spe" : 60,
+    "spa" : 40,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Fake Out"
+  }, {
+    "level" : 4,
+    "move" : "Meditate"
+  }, {
+    "level" : 7,
+    "move" : "Confusion"
+  }, {
+    "level" : 9,
+    "move" : "Detect"
+  }, {
+    "level" : 11,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 12,
+    "move" : "Endure"
+  }, {
+    "level" : 14,
+    "move" : "Work Up"
+  }, {
+    "level" : 15,
+    "move" : "Force Palm"
+  }, {
+    "level" : 17,
+    "move" : "Feint"
+  }, {
+    "level" : 20,
+    "move" : "Bullet Punch"
+  }, {
+    "level" : 23,
+    "move" : "Calm Mind"
+  }, {
+    "level" : 25,
+    "move" : "Mind Reader"
+  }, {
+    "level" : 28,
+    "move" : "Hi Jump Kick"
+  }, {
+    "level" : 31,
+    "move" : "Psych Up"
+  }, {
+    "level" : 34,
+    "move" : "Zen Headbutt"
+  }, {
+    "level" : 36,
+    "move" : "Power Trick"
+  }, {
+    "level" : 39,
+    "move" : "Reversal"
+  }, {
+    "level" : 41,
+    "move" : "Recover"
+  }, {
+    "level" : 44,
+    "move" : "Counter"
+  }, {
+    "level" : 53,
+    "move" : "Axe Kick"
+  } ],
+  "eggMoves" : [ "Baton Pass", "Bullet Punch", "Drain Punch", "Dynamic Punch", "Fake Out", "Fire Punch", "Foresight", "Guard Swap", "Ice Punch", "Power Swap", "Psycho Cut", "Quick Guard", "Secret Power", "Thunder Punch" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Calm Mind", "Counter", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Facade", "Fire Punch", "Flash", "Focus Blast", "Grass Knot", "Ice Punch", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Ball", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Punch", "Toxic", "Trailblaze", "Trick Room" ],
+  "encounters" : [ ]
+}

@@ -1,7 +1,7 @@
 {
   "dex" : 41,
   "speciesId" : "SPECIES_EXILED_NINETALES",
-  "name" : "Ninetales",
+  "name" : "Exiled Ninetales",
   "types" : [ "Psychic", "Fairy" ],
   "abilities" : [ "Flash Fire", "None", "Drought" ],
   "evYield" : {

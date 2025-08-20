@@ -1,0 +1,124 @@
+{
+  "dex" : 349,
+  "speciesId" : "SPECIES_LUVDISC",
+  "name" : "Luvdisc",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Swift Swim", "None", "Hydration" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 225,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 2" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 8.7,
+  "growthRate" : "Fast",
+  "color" : "Pink",
+  "category" : "Rendezvous",
+  "friendship" : 70,
+  "description" : "Luvdisc make the branches of Corsola\ntheir nests. There is a custom from long\nago of giving a Luvdisc as a gift to\nexpress one's feelings of love.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 43,
+    "atk" : 30,
+    "def" : 55,
+    "spe" : 97,
+    "spa" : 40,
+    "spd" : 65
+  },
+  "heldItems" : {
+    "common" : "Heart Scale"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Charm"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Water Gun"
+  }, {
+    "level" : 7,
+    "move" : "Agility"
+  }, {
+    "level" : 13,
+    "move" : "Wish"
+  }, {
+    "level" : 17,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 20,
+    "move" : "Attract"
+  }, {
+    "level" : 22,
+    "move" : "Draining Kiss"
+  }, {
+    "level" : 26,
+    "move" : "Flail"
+  }, {
+    "level" : 31,
+    "move" : "Sweet Kiss"
+  }, {
+    "level" : 34,
+    "move" : "Take Down"
+  }, {
+    "level" : 37,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 40,
+    "move" : "Aqua Ring"
+  }, {
+    "level" : 42,
+    "move" : "Soak"
+  }, {
+    "level" : 46,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 49,
+    "move" : "Safeguard"
+  } ],
+  "eggMoves" : [ "Aqua Jet", "Aqua Ring", "Brine", "Captivate", "Entrainment", "Heal Pulse", "Mud Sport", "Splash", "Supersonic", "Water Sport" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "Flip Turn", "Ice Beam", "Icy Wind", "Protect", "Psych Up", "Rain Dance", "Rest", "Safeguard", "Scald", "Sleep Talk", "Snore", "Snowscape", "Surf", "Swagger", "Swift", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "Route128",
+    "bucketKey" : "Fishing",
+    "area" : "Route 128",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 10,
+    "max" : 30,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route128",
+    "bucketKey" : "Fishing",
+    "area" : "Route 128",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 5
+  }, {
+    "areaKey" : "EverGrandeCity",
+    "bucketKey" : "Fishing",
+    "area" : "Ever Grande City",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 10,
+    "max" : 30,
+    "slot" : 3
+  }, {
+    "areaKey" : "EverGrandeCity",
+    "bucketKey" : "Fishing",
+    "area" : "Ever Grande City",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 5
+  } ]
+}

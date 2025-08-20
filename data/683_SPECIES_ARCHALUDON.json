@@ -1,0 +1,98 @@
+{
+  "dex" : 683,
+  "speciesId" : "SPECIES_ARCHALUDON",
+  "name" : "Archaludon",
+  "types" : [ "Steel", "Dragon" ],
+  "abilities" : [ "Stamina", "Sturdy", "Stalwart" ],
+  "evYield" : {
+    "def" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 10,
+  "baseExp" : 300,
+  "eggGroups" : [ "Mineral", "Dragon" ],
+  "hatchSteps" : 7680,
+  "heightM" : 2.0,
+  "weightKg" : 60.0,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Alloy",
+  "friendship" : 70,
+  "description" : "It gathers static electricity\nfrom its surroundings. The beams\nit launches when down on all fours\nare tremendously powerful.",
+  "preEvolutionId" : "SPECIES_DURALUDON",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 105,
+    "def" : 130,
+    "spe" : 85,
+    "spa" : 125,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Electro Shot"
+  }, {
+    "level" : 1,
+    "move" : "Electro Shot"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 1,
+    "move" : "Rock Smash"
+  }, {
+    "level" : 6,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 11,
+    "move" : "Roar"
+  }, {
+    "level" : 18,
+    "move" : "Breaking Swipe"
+  }, {
+    "level" : 23,
+    "move" : "Dragon Tail"
+  }, {
+    "level" : 27,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 32,
+    "move" : "Laser Focus"
+  }, {
+    "level" : 37,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 41,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 46,
+    "move" : "Metal Burst"
+  }, {
+    "level" : 51,
+    "move" : "Iron Head"
+  }, {
+    "level" : 55,
+    "move" : "Earth Power"
+  }, {
+    "level" : 57,
+    "move" : "Hyper Beam"
+  }, {
+    "level" : 60,
+    "move" : "Meteor Beam"
+  }, {
+    "level" : 62,
+    "move" : "Thunderbolt"
+  }, {
+    "level" : 65,
+    "move" : "Aura Sphere"
+  } ],
+  "eggMoves" : [ "Mirror Coat", "Night Slash", "Slash" ],
+  "teachableMoves" : [ "Aura Sphere", "Body Press", "Body Slam", "Brick Break", "Dark Pulse", "Double Edge", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Earthquake", "Endure", "Facade", "Flash Cannon", "Giga Impact", "Gyro Ball", "Hone Claws", "Hyper Beam", "Iron Defense", "Iron Head", "Light Screen", "Meteor Beam", "Protect", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Smack Down", "Solar Beam", "Stealth Rock", "Stone Edge", "Swords Dance", "Thunder", "Thunder Wave", "Thunderbolt" ],
+  "encounters" : [ ]
+}

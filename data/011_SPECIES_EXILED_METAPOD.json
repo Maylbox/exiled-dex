@@ -1,7 +1,7 @@
 {
   "dex" : 11,
   "speciesId" : "SPECIES_EXILED_METAPOD",
-  "name" : "Metapod",
+  "name" : "Exiled Metapod",
   "types" : [ "Normal", "Steel" ],
   "abilities" : [ "Shed Skin", "None", "None" ],
   "evYield" : {

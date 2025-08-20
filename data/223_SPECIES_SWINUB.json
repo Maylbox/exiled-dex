@@ -1,0 +1,87 @@
+{
+  "dex" : 223,
+  "speciesId" : "SPECIES_SWINUB",
+  "name" : "Swinub",
+  "types" : [ "Ice", "Ground" ],
+  "abilities" : [ "Oblivious", "Snow Cloak", "Thick Fat" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 225,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.4,
+  "weightKg" : 6.5,
+  "growthRate" : "Slow",
+  "color" : "Brown",
+  "category" : "Pig",
+  "friendship" : 70,
+  "description" : "It roots for food by rubbing its snout\nagainst the ground. Its favorite food is a\nmushroom that grows under dried grass.\nIt occasionally roots out hot springs.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_PILOSWINE",
+    "method" : "level",
+    "param" : "33"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 50,
+    "def" : 40,
+    "spe" : 50,
+    "spa" : 30,
+    "spd" : 30
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Odor Sleuth"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 8,
+    "move" : "Ice Shard"
+  }, {
+    "level" : 11,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 14,
+    "move" : "Endure"
+  }, {
+    "level" : 18,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 21,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 24,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 28,
+    "move" : "Take Down"
+  }, {
+    "level" : 35,
+    "move" : "Mist"
+  }, {
+    "level" : 37,
+    "move" : "Earthquake"
+  }, {
+    "level" : 40,
+    "move" : "Flail"
+  }, {
+    "level" : 44,
+    "move" : "Icicle Crash"
+  }, {
+    "level" : 48,
+    "move" : "Amnesia"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Avalanche", "Bite", "Body Slam", "Curse", "Double Edge", "Fissure", "Freeze Dry", "Icicle Crash", "Icicle Spear", "Mud Shot", "Stealth Rock", "Take Down" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "High Horsepower", "Ice Beam", "Ice Fang", "Icicle Crash", "Icy Wind", "Light Screen", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Snowscape", "Stealth Rock", "Stone Edge", "Strength", "Swagger", "Toxic", "Trailblaze" ],
+  "encounters" : [ ]
+}

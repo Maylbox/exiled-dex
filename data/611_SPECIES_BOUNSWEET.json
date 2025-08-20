@@ -1,0 +1,83 @@
+{
+  "dex" : 611,
+  "speciesId" : "SPECIES_BOUNSWEET",
+  "name" : "Bounsweet",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Leaf Guard", "Oblivious", "Sweet Veil" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 235,
+  "baseExp" : 42,
+  "eggGroups" : [ "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 3.2,
+  "growthRate" : "Medium Slow",
+  "color" : "Purple",
+  "category" : "Fruit",
+  "friendship" : 70,
+  "description" : "A delectable aroma pours from its body. \nBounsweet's sweat can be watered down\ninto a juice with just the right amount\nof sweetness.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_STEENEE",
+    "method" : "level",
+    "param" : "18"
+  } ],
+  "baseStats" : {
+    "hp" : 42,
+    "atk" : 30,
+    "def" : 38,
+    "spe" : 32,
+    "spa" : 30,
+    "spd" : 38
+  },
+  "heldItems" : {
+    "common" : "Grassy Seed"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Splash"
+  }, {
+    "level" : 5,
+    "move" : "Play Nice"
+  }, {
+    "level" : 9,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 13,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 17,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 21,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 25,
+    "move" : "Teeter Dance"
+  }, {
+    "level" : 29,
+    "move" : "Flail"
+  }, {
+    "level" : 33,
+    "move" : "Aromatic Mist"
+  }, {
+    "level" : 44,
+    "move" : "Grav Apple"
+  } ],
+  "eggMoves" : [ "Acupressure", "Charm", "Feint", "Grass Whistle", "Play Rough", "Synthesis" ],
+  "teachableMoves" : [ "Attract", "Bullet Seed", "Covet", "Dazzling Gleam", "Double Team", "Endure", "Energy Ball", "Facade", "Giga Drain", "Grass Knot", "Grassy Glide", "Light Screen", "Play Rough", "Protect", "Reflect", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
+    "area" : "Petalburg Woods",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 7,
+    "slot" : 9
+  } ]
+}

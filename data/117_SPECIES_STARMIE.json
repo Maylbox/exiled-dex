@@ -1,0 +1,212 @@
+{
+  "dex" : 117,
+  "speciesId" : "SPECIES_STARMIE",
+  "name" : "Starmie",
+  "types" : [ "Water", "Psychic" ],
+  "abilities" : [ "Illuminate", "Regenerator", "Adaptability" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 60,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 3" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.1,
+  "weightKg" : 80.0,
+  "growthRate" : "Slow",
+  "color" : "Purple",
+  "category" : "Mysterious",
+  "friendship" : 70,
+  "description" : "People in ancient times imagined that\nStarmie were transformed from the\nreflections of stars that twinkled on\ngentle waves at night.",
+  "preEvolutionId" : "SPECIES_STARYU",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 40,
+    "def" : 85,
+    "spe" : 135,
+    "spa" : 110,
+    "spd" : 85
+  },
+  "heldItems" : {
+    "common" : "Stardust",
+    "rare" : "Star Piece"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 7,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 10,
+    "move" : "Recover"
+  }, {
+    "level" : 13,
+    "move" : "Psywave"
+  }, {
+    "level" : 16,
+    "move" : "Aurora Beam"
+  }, {
+    "level" : 18,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 22,
+    "move" : "Camouflage"
+  }, {
+    "level" : 24,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 28,
+    "move" : "Brine"
+  }, {
+    "level" : 31,
+    "move" : "Minimize"
+  }, {
+    "level" : 35,
+    "move" : "Reflect Type"
+  }, {
+    "level" : 37,
+    "move" : "Power Gem"
+  }, {
+    "level" : 40,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 42,
+    "move" : "Psychic"
+  }, {
+    "level" : 46,
+    "move" : "Light Screen"
+  }, {
+    "level" : 49,
+    "move" : "Cosmic Power"
+  }, {
+    "level" : 53,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 61,
+    "move" : "Meteor Beam"
+  }, {
+    "level" : 67,
+    "move" : "Bouncy Bubble"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Dazzling Gleam", "Dive", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Flash Cannon", "Flip Turn", "Giga Impact", "Grass Knot", "Gyro Ball", "Hyper Beam", "Ice Beam", "Icy Wind", "Light Screen", "Meteor Beam", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rollout", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Trick Room", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "Route105",
+    "bucketKey" : "Water",
+    "area" : "Route 105",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 0
+  }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Water",
+    "area" : "Route 118",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 0
+  }, {
+    "areaKey" : "Route106",
+    "bucketKey" : "Water",
+    "area" : "Route 106",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 0
+  }, {
+    "areaKey" : "Route107",
+    "bucketKey" : "Water",
+    "area" : "Route 107",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 0
+  }, {
+    "areaKey" : "Route108",
+    "bucketKey" : "Water",
+    "area" : "Route 108",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 0
+  }, {
+    "areaKey" : "Route109",
+    "bucketKey" : "Water",
+    "area" : "Route 109",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 0
+  }, {
+    "areaKey" : "Route115",
+    "bucketKey" : "Water",
+    "area" : "Route 115",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 2
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Water",
+    "area" : "Route 122",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 0
+  }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Fishing",
+    "area" : "Lilycove City",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 25,
+    "max" : 30,
+    "slot" : 7
+  }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Fishing",
+    "area" : "Lilycove City",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 35,
+    "max" : 40,
+    "slot" : 8
+  }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Fishing",
+    "area" : "Lilycove City",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 40,
+    "max" : 45,
+    "slot" : 9
+  }, {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Fishing",
+    "area" : "Dewford Town",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 35,
+    "max" : 40,
+    "slot" : 8
+  } ]
+}

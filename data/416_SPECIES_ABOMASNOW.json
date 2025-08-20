@@ -1,0 +1,143 @@
+{
+  "dex" : 416,
+  "speciesId" : "SPECIES_ABOMASNOW",
+  "name" : "Abomasnow",
+  "types" : [ "Grass", "Ice" ],
+  "abilities" : [ "Snow Warning", "None", "Soundproof" ],
+  "evYield" : {
+    "spa" : 1,
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.2,
+  "weightKg" : 135.5,
+  "growthRate" : "Slow",
+  "color" : "White",
+  "category" : "Frost Tree",
+  "friendship" : 70,
+  "description" : "It lives a quiet life on mountains that\nare perpetually covered in snow. It hides\nitself by whipping up blizzards.\nIt is also known as “The Ice Monster.”",
+  "preEvolutionId" : "SPECIES_SNOVER",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 92,
+    "def" : 75,
+    "spe" : 60,
+    "spa" : 92,
+    "spd" : 85
+  },
+  "heldItems" : {
+    "common" : "Never Melt Ice"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Ice Punch"
+  }, {
+    "level" : 1,
+    "move" : "Ice Punch"
+  }, {
+    "level" : 1,
+    "move" : "Ice Shard"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 5,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 9,
+    "move" : "Aurora Beam"
+  }, {
+    "level" : 13,
+    "move" : "Sleep Powder"
+  }, {
+    "level" : 17,
+    "move" : "Swagger"
+  }, {
+    "level" : 21,
+    "move" : "Mist"
+  }, {
+    "level" : 23,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 26,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 28,
+    "move" : "Freeze Dry"
+  }, {
+    "level" : 31,
+    "move" : "Ingrain"
+  }, {
+    "level" : 36,
+    "move" : "Wood Hammer"
+  }, {
+    "level" : 47,
+    "move" : "Blizzard"
+  }, {
+    "level" : 58,
+    "move" : "Ice Hammer"
+  }, {
+    "level" : 64,
+    "move" : "Mountain Gale"
+  }, {
+    "level" : 85,
+    "move" : "Aurora Veil"
+  } ],
+  "eggMoves" : [ "Avalanche", "Bullet Seed", "Double Edge", "Growth", "Leech Seed", "Magical Leaf", "Mist", "Natural Gift", "Seed Bomb", "Skull Bash", "Stomp" ],
+  "teachableMoves" : [ "Attract", "Aurora Veil", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Bullet Seed", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Energy Ball", "Facade", "Flash", "Focus Blast", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Ice Beam", "Ice Punch", "Icicle Crash", "Icy Wind", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Shadow Ball", "Sleep Talk", "Snore", "Snowscape", "Solar Beam", "Strength", "Swagger", "Swords Dance", "Toxic", "Trailblaze", "Water Pulse" ],
+  "encounters" : [ {
+    "areaKey" : "ShoalCave_LowTideStairsRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Stairs Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 5
+  }, {
+    "areaKey" : "ShoalCave_LowTideLowerRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Lower Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 5
+  }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Inner Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 5
+  }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Entrance Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 5
+  }, {
+    "areaKey" : "ShoalCave_LowTideIceRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Ice Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 5
+  } ]
+}

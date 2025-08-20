@@ -1,0 +1,104 @@
+{
+  "dex" : 598,
+  "speciesId" : "SPECIES_LYCANROC_MIDDAY",
+  "name" : "Lycanroc",
+  "types" : [ "Rock", null ],
+  "abilities" : [ "Keen Eye", "Sand Rush", "Steadfast" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 170,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.8,
+  "weightKg" : 25.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Wolf",
+  "friendship" : 70,
+  "description" : "It has a calm and collected\ndemeanor. It swiftly closes in on its prey,\nthen slices them with the rocks in\nits mane.",
+  "preEvolutionId" : "SPECIES_ROCKRUFF",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 115,
+    "def" : 65,
+    "spe" : 112,
+    "spa" : 55,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Accelerock"
+  }, {
+    "level" : 1,
+    "move" : "Accelerock"
+  }, {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 1,
+    "move" : "Quick Guard"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 7,
+    "move" : "Bite"
+  }, {
+    "level" : 12,
+    "move" : "Howl"
+  }, {
+    "level" : 15,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 18,
+    "move" : "Odor Sleuth"
+  }, {
+    "level" : 23,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 26,
+    "move" : "Roar"
+  }, {
+    "level" : 29,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 34,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 37,
+    "move" : "Scary Face"
+  }, {
+    "level" : 40,
+    "move" : "Crunch"
+  }, {
+    "level" : 45,
+    "move" : "Rock Climb"
+  }, {
+    "level" : 48,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 52,
+    "move" : "Headlong Rush"
+  } ],
+  "eggMoves" : [ "Crush Claw", "Fire Fang", "Sucker Punch", "Thrash", "Thunder Fang" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Crunch", "Dig", "Double Edge", "Double Team", "Earth Power", "Endure", "Facade", "Fire Fang", "Giga Impact", "Iron Defense", "Iron Head", "Mud Slap", "Play Rough", "Protect", "Psychic Fangs", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Tomb", "Sandstorm", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thunder Fang", "Toxic", "Trailblaze" ],
+  "encounters" : [ ]
+}

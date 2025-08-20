@@ -1,7 +1,7 @@
 {
   "dex" : 12,
   "speciesId" : "SPECIES_EXILED_BUTTERFREE",
-  "name" : "Butterfree",
+  "name" : "Exiled Butterfree",
   "types" : [ "Normal", "Steel" ],
   "abilities" : [ "Levitate", "Technician", "Tinted Lens" ],
   "evYield" : {

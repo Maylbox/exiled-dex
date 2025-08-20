@@ -1,0 +1,108 @@
+{
+  "dex" : 184,
+  "speciesId" : "SPECIES_TOGEPI",
+  "name" : "Togepi",
+  "types" : [ "Fairy", null ],
+  "abilities" : [ "Hustle", "Serene Grace", "Super Luck" ],
+  "evYield" : {
+    "spd" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 2560,
+  "heightM" : 0.3,
+  "weightKg" : 1.5,
+  "growthRate" : "Fast",
+  "color" : "White",
+  "category" : "Spike Ball",
+  "friendship" : 70,
+  "description" : "As its energy, it uses the feelings of\ncompassion and pleasure exuded by\npeople and Pokémon. It stores up happy\nfeelings in its shell, then shares them out.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_TOGETIC",
+    "method" : "friendship",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 35,
+    "atk" : 20,
+    "def" : 65,
+    "spe" : 20,
+    "spa" : 40,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Charm"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 5,
+    "move" : "Metronome"
+  }, {
+    "level" : 9,
+    "move" : "Sweet Kiss"
+  }, {
+    "level" : 10,
+    "move" : "Life Dew"
+  }, {
+    "level" : 13,
+    "move" : "Yawn"
+  }, {
+    "level" : 17,
+    "move" : "Encore"
+  }, {
+    "level" : 21,
+    "move" : "Follow Me"
+  }, {
+    "level" : 25,
+    "move" : "Bestow"
+  }, {
+    "level" : 29,
+    "move" : "Wish"
+  }, {
+    "level" : 33,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 37,
+    "move" : "Safeguard"
+  }, {
+    "level" : 41,
+    "move" : "Baton Pass"
+  }, {
+    "level" : 45,
+    "move" : "Double Edge"
+  }, {
+    "level" : 49,
+    "move" : "Last Resort"
+  }, {
+    "level" : 53,
+    "move" : "After You"
+  } ],
+  "eggMoves" : [ "Extrasensory", "Foresight", "Future Sight", "Lucky Chant", "Mirror Move", "Morning Sun", "Nasty Plot", "Peck", "Present", "Psycho Shift", "Secret Power", "Stored Power" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Calm Mind", "Counter", "Covet", "Dazzling Gleam", "Defense Curl", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Fire Blast", "Flamethrower", "Flash", "Grass Knot", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Mystical Fire", "Play Rough", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Soft Boiled", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thunder Wave", "Toxic", "Water Pulse" ],
+  "encounters" : [ {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
+    "area" : "Rustboro City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 1
+  }, {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
+    "area" : "Rustboro City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 3
+  } ]
+}

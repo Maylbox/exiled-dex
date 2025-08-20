@@ -1,0 +1,104 @@
+{
+  "dex" : 469,
+  "speciesId" : "SPECIES_SCRAGGY",
+  "name" : "Scraggy",
+  "types" : [ "Dark", "Fighting" ],
+  "abilities" : [ "Shed Skin", "Moxie", "Intimidate" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 180,
+  "baseExp" : 70,
+  "eggGroups" : [ "Field", "Dragon" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.6,
+  "weightKg" : 11.8,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Shedding",
+  "friendship" : 35,
+  "description" : "Its skin has a rubbery elasticity, so it\ncan reduce damage by defensively\npulling its skin up to its neck.\nIts skull is massively thick.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SCRAFTY",
+    "method" : "level",
+    "param" : "39"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 75,
+    "def" : 70,
+    "spe" : 48,
+    "spa" : 35,
+    "spd" : 70
+  },
+  "heldItems" : {
+    "common" : "Shed Shell"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Headbutt"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Low Sweep"
+  }, {
+    "level" : 5,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 9,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 12,
+    "move" : "Swagger"
+  }, {
+    "level" : 16,
+    "move" : "Low Kick"
+  }, {
+    "level" : 20,
+    "move" : "Payback"
+  }, {
+    "level" : 23,
+    "move" : "Brick Break"
+  }, {
+    "level" : 27,
+    "move" : "Chip Away"
+  }, {
+    "level" : 31,
+    "move" : "Hi Jump Kick"
+  }, {
+    "level" : 34,
+    "move" : "Scary Face"
+  }, {
+    "level" : 38,
+    "move" : "Crunch"
+  }, {
+    "level" : 42,
+    "move" : "Facade"
+  }, {
+    "level" : 45,
+    "move" : "Rock Climb"
+  }, {
+    "level" : 48,
+    "move" : "Focus Punch"
+  }, {
+    "level" : 50,
+    "move" : "Head Smash"
+  } ],
+  "eggMoves" : [ "Acid Spray", "Amnesia", "Counter", "Detect", "Dragon Dance", "Drain Punch", "Fake Out", "Feint Attack", "Fire Punch", "Ice Punch", "Power Up Punch", "Quick Guard", "Thunder Punch", "Zen Headbutt" ],
+  "teachableMoves" : [ "Attract", "Brick Break", "Bulk Up", "Counter", "Crunch", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Drain Punch", "Endure", "Facade", "Fire Punch", "Focus Blast", "Grass Knot", "Ice Punch", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Sludge Bomb", "Smack Down", "Snatch", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
+    "area" : "Dewford Town",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 10,
+    "max" : 12,
+    "slot" : 2
+  } ]
+}

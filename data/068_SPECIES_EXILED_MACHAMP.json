@@ -1,7 +1,7 @@
 {
   "dex" : 68,
   "speciesId" : "SPECIES_EXILED_MACHAMP",
-  "name" : "Machamp",
+  "name" : "Exiled Machamp",
   "types" : [ "Grass", "Fighting" ],
   "abilities" : [ "Overgrow", "Harvest", "Seed Sower" ],
   "evYield" : {

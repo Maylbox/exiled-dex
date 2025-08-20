@@ -1,0 +1,65 @@
+{
+  "dex" : 353,
+  "speciesId" : "SPECIES_BELDUM",
+  "name" : "Beldum",
+  "types" : [ "Steel", "Psychic" ],
+  "abilities" : [ "Clear Body", "None", "Light Metal" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 3,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 10240,
+  "heightM" : 0.6,
+  "weightKg" : 95.2,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Iron Ball",
+  "friendship" : 35,
+  "description" : "When Beldum gather in a swarm, they move\nin perfect unison as if they were but one\nPokémon. They communicate with each other\nusing brain waves.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_METANG",
+    "method" : "level",
+    "param" : "20"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 55,
+    "def" : 80,
+    "spe" : 30,
+    "spa" : 35,
+    "spd" : 60
+  },
+  "heldItems" : {
+    "common" : "Metal Coat"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tackle"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Iron Defense", "Iron Head" ],
+  "encounters" : [ {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_Stevens Room",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 15,
+    "slot" : 8
+  }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_Stevens Room",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 15,
+    "slot" : 9
+  } ]
+}

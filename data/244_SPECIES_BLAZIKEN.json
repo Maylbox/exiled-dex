@@ -1,0 +1,113 @@
+{
+  "dex" : 244,
+  "speciesId" : "SPECIES_BLAZIKEN",
+  "name" : "Blaziken",
+  "types" : [ "Fire", "Fighting" ],
+  "abilities" : [ "Blaze", "Flame Body", "Speed Boost" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 209,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.9,
+  "weightKg" : 52.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Blaze",
+  "friendship" : 70,
+  "description" : "It learns martial arts that use punches\nand kicks. Every several years, its old\nfeathers burn off, and new, supple\nfeathers grow back in their place.",
+  "preEvolutionId" : "SPECIES_COMBUSKEN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 125,
+    "def" : 75,
+    "spe" : 95,
+    "spa" : 100,
+    "spd" : 75
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Blaze Kick"
+  }, {
+    "level" : 1,
+    "move" : "Blaze Kick"
+  }, {
+    "level" : 1,
+    "move" : "Double Kick"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Fire Punch"
+  }, {
+    "level" : 1,
+    "move" : "Flare Blitz"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Hi Jump Kick"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 5,
+    "move" : "Ember"
+  }, {
+    "level" : 10,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 14,
+    "move" : "Pluck"
+  }, {
+    "level" : 20,
+    "move" : "Flame Charge"
+  }, {
+    "level" : 25,
+    "move" : "Thunder Punch"
+  }, {
+    "level" : 31,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 36,
+    "move" : "Blaze Kick"
+  }, {
+    "level" : 37,
+    "move" : "Triple Arrows"
+  }, {
+    "level" : 47,
+    "move" : "Blaze Talon"
+  }, {
+    "level" : 50,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 57,
+    "move" : "Sky Uppercut"
+  }, {
+    "level" : 63,
+    "move" : "Flare Blitz"
+  } ],
+  "eggMoves" : [ "Agility", "Baton Pass", "Counter", "Crush Claw", "Curse", "Endure", "Feather Dance", "Feint", "Flame Burst", "Last Resort", "Low Kick", "Night Slash", "Reversal", "Smelling Salts" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Aura Sphere", "Blaze Kick", "Body Slam", "Brave Bird", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Cut", "Defog", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Overheat", "Poison Jab", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Snore", "Solar Beam", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Thunder Punch", "Toxic", "U Turn", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
+    "area" : "Scorched Slab0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 51,
+    "max" : 54,
+    "slot" : 5
+  } ]
+}

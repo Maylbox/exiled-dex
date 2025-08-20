@@ -4,10 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import dexgen.model.Species;
 import dexgen.parser.FamiliesParser;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 
@@ -16,13 +13,16 @@ import java.nio.file.*;
 import java.util.*;
 
 public class Main {
+    private static boolean isExiled(String id) {
+        return id != null && id.startsWith("SPECIES_EXILED_");
+    }
     public static void main(String[] args) throws Exception {
         Path projectRoot = Paths.get("").toAbsolutePath();
         Path dataOut = projectRoot.resolve("data");         // write JSON here
         Files.createDirectories(dataOut);
 
         // 1) Read dex order from resources/data/input_data/pokedex.xlsx
-        Map<String,Integer> nameToDex = loadDexOrder("/data/input_data/pokedex.xlsx");
+        Map<String,Integer> nameToDex = loadDexOrder("/data/input_data/u_pokedex.xlsx");
 
         // 2) Parse families headers
         FamiliesParser fp = new FamiliesParser();
@@ -37,6 +37,7 @@ public class Main {
                 resourcePath("data/input_data/gen_8_families.h"),
                 resourcePath("data/input_data/gen_9_families.h")
         );
+
         System.out.println("Parsed species blocks: " + byId.size());
         byId.values().stream().limit(5)
                 .forEach(s -> System.out.println(" ex: " + s.speciesId() + " -> " + s.name()));
@@ -54,6 +55,7 @@ public class Main {
         Map<String, java.util.List<String>> teachBySym =
                 teachParser.parse(resourcePath("data/input_data/teachable_learnsets.h"));
 
+        int nextDex = nameToDex.values().stream().mapToInt(Integer::intValue).max().orElse(0);
 
         Map<String,String> pre = new HashMap<>();
         for (Species s : byId.values()) {
@@ -89,36 +91,49 @@ public class Main {
             }
 
             // Always map MEGAs to the base dex and rename for display
-            if (s.speciesId().contains("_MEGA")) {
-                String baseId = s.speciesId().replaceFirst("_MEGA(?:_[A-Z])?$", ""); // _MEGA, _MEGA_X, _MEGA_Y
-                Species base = byId.get(baseId);
-                if (base != null) {
-                    dex = nameToDex.get(normalizeName(base.name()));
-                    if (s.speciesId().endsWith("_MEGA_X"))      displayName = base.name() + " - Mega X";
-                    else if (s.speciesId().endsWith("_MEGA_Y")) displayName = base.name() + " - Mega Y";
-                    else                                        displayName = base.name() + " - Mega";
+            Species base = s;
 
-                    // put the new display name back into s so downstream uses see it
-                    s = new Species(
-                            s.dex(), s.speciesId(), displayName,
-                            s.types(), s.abilities(), s.evYield(),
-                            s.malePct(), s.femalePct(), s.catchRate(), s.baseExp(),
-                            s.eggGroups(), s.hatchSteps(), s.heightM(), s.weightKg(),
-                            s.growthRate(), s.color(), s.category(), s.friendship(),
-                            s.description(), base.speciesId(), s.evolution(), s.baseStats(),
-                            s.heldItems(), s.levelUpMoves(), s.eggMoves(), s.teachableMoves(), s.encounters()
-                    );
-                }
+            if (s.speciesId().contains("_MEGA")) {
+                String baseId = s.speciesId().replaceFirst("_MEGA(?:_[A-Z])?$", "");
+                base = byId.getOrDefault(baseId, s);
+                dex = nameToDex.get(normalizeName(base.name()));           // share base dex
+                if (s.speciesId().endsWith("_MEGA_X"))      displayName = base.name() + " - Mega X";
+                else if (s.speciesId().endsWith("_MEGA_Y")) displayName = base.name() + " - Mega Y";
+                else                                        displayName = base.name() + " - Mega";
+
+                s = new Species(
+                        s.dex(), s.speciesId(), displayName,
+                        s.types(), s.abilities(), s.evYield(),
+                        s.malePct(), s.femalePct(), s.catchRate(), s.baseExp(),
+                        s.eggGroups(), s.hatchSteps(), s.heightM(), s.weightKg(),
+                        s.growthRate(), s.color(), s.category(), s.friendship(),
+                        s.description(), base.speciesId(), s.evolution(), s.baseStats(),
+                        s.heldItems(), s.levelUpMoves(), s.eggMoves(), s.teachableMoves(), s.encounters()
+                );
+            } else if (s.speciesId().startsWith("SPECIES_EXILED_")) {
+                String baseId = s.speciesId().replaceFirst("^SPECIES_EXILED_", "SPECIES_");
+                base = byId.getOrDefault(baseId, s);
+                dex = nameToDex.get(normalizeName(base.name()));           // share base dex
+                displayName = "Exiled " + base.name();
+
+                s = new Species(
+                        s.dex(), s.speciesId(), displayName,
+                        s.types(), s.abilities(), s.evYield(),
+                        s.malePct(), s.femalePct(), s.catchRate(), s.baseExp(),
+                        s.eggGroups(), s.hatchSteps(), s.heightM(), s.weightKg(),
+                        s.growthRate(), s.color(), s.category(), s.friendship(),
+                        s.description(), s.preEvolutionId(), s.evolution(), s.baseStats(),
+                        s.heldItems(), s.levelUpMoves(), s.eggMoves(), s.teachableMoves(), s.encounters()
+                );
             }
 
+
             if (dex == null) {
-                if (shown < 15) {
-                    System.out.println("No dex match: '" + displayName + "'  (" + s.speciesId() + ")");
-                    shown++;
-                }
+                if (shown < 15) System.out.println("No dex match: '" + displayName + "'  (" + s.speciesId() + ")");
                 skipped++;
                 continue;
             }
+
 
             kept++;
 
@@ -216,7 +231,7 @@ public class Main {
     // --- helpers ---
     private static String normalizeName(String n){
         if (n == null) return "";
-        return n.toLowerCase(Locale.ROOT)
+        String s = n.toLowerCase(Locale.ROOT)
                 .replace('é','e')
                 .replace("♀"," female")
                 .replace("♂"," male")
@@ -226,33 +241,56 @@ public class Main {
                 .replace("_", " ")
                 .replaceAll("\\s+"," ")
                 .trim();
+
+        // Handle sheet shorthands for Nidoran
+        if (s.matches("^nidoran\\s*f$") || s.matches("^nidoran\\s*\\(f\\)$"))
+            return "nidoran female";
+        if (s.matches("^nidoran\\s*m$") || s.matches("^nidoran\\s*\\(m\\)$"))
+            return "nidoran male";
+
+        return s;
     }
 
 
     private static Map<String,Integer> loadDexOrder(String resourceXlsx) throws Exception {
-        Map<String,Integer> map = new HashMap<>();
+        Map<String,Integer> map = new LinkedHashMap<>();
         try (InputStream in = Main.class.getResourceAsStream(resourceXlsx);
              Workbook wb = new XSSFWorkbook(in)) {
             Sheet sh = wb.getSheetAt(0);
-            // find header row and name column
-            Row header = sh.getRow(sh.getFirstRowNum());
-            int nameCol = -1;
-            for (Cell c : header) {
-                String v = c.getStringCellValue().trim().toLowerCase(Locale.ROOT);
-                if (List.of("name","pokemon","pokémon","species").contains(v)) { nameCol = c.getColumnIndex(); break; }
+
+            int firstRow = sh.getFirstRowNum();
+            Row r0 = sh.getRow(firstRow);
+            if (r0 == null) return map;
+
+            // default to first column
+            int nameCol = 0;
+            String firstCell = (r0.getCell(0) != null)
+                    ? r0.getCell(0).getStringCellValue().trim().toLowerCase(Locale.ROOT)
+                    : "";
+            boolean hasHeader = List.of("name","pokemon","pokémon","species").contains(firstCell);
+
+            if (!hasHeader) {
+                for (Cell c : r0) {
+                    if (c != null && c.getCellType() == CellType.STRING && !c.getStringCellValue().isBlank()) {
+                        nameCol = c.getColumnIndex();
+                        break;
+                    }
+                }
             }
-            if (nameCol < 0) throw new IllegalStateException("Name column not found");
+            int startRow = hasHeader ? firstRow + 1 : firstRow;
 
             int dex = 1;
-            for (int r = header.getRowNum()+1; r <= sh.getLastRowNum(); r++){
-                Row row = sh.getRow(r); if (row==null) continue;
-                Cell c = row.getCell(nameCol); if (c==null) continue;
-                String name = c.getStringCellValue(); if (name==null || name.isBlank()) continue;
-                map.put(name.trim().toLowerCase(Locale.ROOT), dex++);
+            for (int r = startRow; r <= sh.getLastRowNum(); r++) {
+                Row row = sh.getRow(r); if (row == null) continue;
+                Cell c = row.getCell(nameCol); if (c == null) continue;
+                if (c.getCellType() != CellType.STRING) continue;
+                String name = c.getStringCellValue(); if (name == null || name.isBlank()) continue;
+                map.put(normalizeName(name), dex++);
             }
         }
         return map;
     }
+
 
     private static Path resourcePath(String res) throws Exception {
         // copy resource to a temp file then return its Path, or load from working dir if you placed headers there.

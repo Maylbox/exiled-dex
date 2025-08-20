@@ -1,0 +1,103 @@
+{
+  "dex" : 620,
+  "speciesId" : "SPECIES_MIMIKYU_TOTEM_BUSTED",
+  "name" : "Mimikyu",
+  "types" : [ "Ghost", "Fairy" ],
+  "abilities" : [ "Disguise", "None", "None" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 167,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.4,
+  "weightKg" : 2.8,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Disguise",
+  "friendship" : 70,
+  "description" : null,
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 90,
+    "def" : 80,
+    "spe" : 96,
+    "spa" : 50,
+    "spd" : 105
+  },
+  "heldItems" : {
+    "common" : "Chesto Berry"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Copycat"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "Splash"
+  }, {
+    "level" : 1,
+    "move" : "Wood Hammer"
+  }, {
+    "level" : 5,
+    "move" : "Double Team"
+  }, {
+    "level" : 10,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 14,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 19,
+    "move" : "Mimic"
+  }, {
+    "level" : 23,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 28,
+    "move" : "Charm"
+  }, {
+    "level" : 32,
+    "move" : "Slash"
+  }, {
+    "level" : 37,
+    "move" : "Shadow Claw"
+  }, {
+    "level" : 41,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 46,
+    "move" : "Play Rough"
+  }, {
+    "level" : 50,
+    "move" : "Pain Split"
+  }, {
+    "level" : 53,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 57,
+    "move" : "Leech Life"
+  }, {
+    "level" : 62,
+    "move" : "Bitter Blade"
+  }, {
+    "level" : 66,
+    "move" : "Spirit Break"
+  }, {
+    "level" : 69,
+    "move" : "Tidy Up"
+  } ],
+  "eggMoves" : [ "Curse", "Destiny Bond", "Grudge", "Nightmare" ],
+  "teachableMoves" : [ "Attract", "Bulk Up", "Charge Beam", "Covet", "Dark Pulse", "Dazzling Gleam", "Double Team", "Drain Punch", "Dream Eater", "Endure", "Facade", "Giga Drain", "Giga Impact", "Hex", "Hone Claws", "Hyper Beam", "Leech Life", "Light Screen", "Play Rough", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Safeguard", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Trick Room", "Will O Wisp", "X Scissor" ],
+  "encounters" : [ ]
+}

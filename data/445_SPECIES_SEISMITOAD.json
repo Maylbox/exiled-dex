@@ -1,0 +1,182 @@
+{
+  "dex" : 445,
+  "speciesId" : "SPECIES_SEISMITOAD",
+  "name" : "Seismitoad",
+  "types" : [ "Water", "Ground" ],
+  "abilities" : [ "Swift Swim", "Poison Touch", "Water Absorb" ],
+  "evYield" : {
+    "hp" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 225,
+  "eggGroups" : [ "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 62.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Vibration",
+  "friendship" : 70,
+  "description" : "It increases the power of its punches\nby vibrating the bumps on its fists.\nThey can also shoot paralyzing liquid\nfrom their head bumps.",
+  "preEvolutionId" : "SPECIES_PALPITOAD",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 105,
+    "atk" : 105,
+    "def" : 79,
+    "spe" : 74,
+    "spa" : 85,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 1,
+    "move" : "Acid"
+  }, {
+    "level" : 1,
+    "move" : "Belly Drum"
+  }, {
+    "level" : 1,
+    "move" : "Bubble"
+  }, {
+    "level" : 1,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 1,
+    "move" : "Round"
+  }, {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 5,
+    "move" : "Supersonic"
+  }, {
+    "level" : 9,
+    "move" : "Round"
+  }, {
+    "level" : 12,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 16,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 20,
+    "move" : "Aqua Ring"
+  }, {
+    "level" : 23,
+    "move" : "Uproar"
+  }, {
+    "level" : 28,
+    "move" : "Muddy Water"
+  }, {
+    "level" : 36,
+    "move" : "Acid"
+  }, {
+    "level" : 39,
+    "move" : "Flail"
+  }, {
+    "level" : 44,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 49,
+    "move" : "Surging Strikes"
+  }, {
+    "level" : 53,
+    "move" : "High Horsepower"
+  }, {
+    "level" : 56,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 59,
+    "move" : "Wave Crash"
+  } ],
+  "eggMoves" : [ "After You", "Earth Power", "Mist", "Mud Bomb", "Mud Sport", "Refresh", "Sleep Talk", "Snore", "Venom Drench", "Water Pulse" ],
+  "teachableMoves" : [ "Attract", "Brick Break", "Bulldoze", "Dig", "Dive", "Double Team", "Drain Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Punch", "Icy Wind", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Poison Jab", "Power Up Punch", "Power Whip", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Scald", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Stealth Rock", "Strength", "Surf", "Swagger", "Toxic", "Venoshock", "Water Pulse" ],
+  "encounters" : [ {
+    "areaKey" : "SeafloorCavern_Room1",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 0
+  }, {
+    "areaKey" : "SeafloorCavern_Room2",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 0
+  }, {
+    "areaKey" : "SeafloorCavern_Room3",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 0
+  }, {
+    "areaKey" : "SeafloorCavern_Room4",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room4",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 0
+  }, {
+    "areaKey" : "SeafloorCavern_Room5",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 0
+  }, {
+    "areaKey" : "SeafloorCavern_Room6",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room6",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 0
+  }, {
+    "areaKey" : "SeafloorCavern_Room7",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room7",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 0
+  }, {
+    "areaKey" : "SeafloorCavern_Room8",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room8",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 0
+  }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Land",
+    "area" : "Lilycove City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 53,
+    "max" : 55,
+    "slot" : 1
+  } ]
+}

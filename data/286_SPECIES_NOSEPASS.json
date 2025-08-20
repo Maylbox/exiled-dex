@@ -1,0 +1,108 @@
+{
+  "dex" : 286,
+  "speciesId" : "SPECIES_NOSEPASS",
+  "name" : "Nosepass",
+  "types" : [ "Rock", null ],
+  "abilities" : [ "Sturdy", "Magnet Pull", "Sand Force" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 97.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Compass",
+  "friendship" : 70,
+  "description" : "Its body emits a powerful magnetism.\nIt feeds on prey that is pulled in by the\nforce. Its magnetism is stronger in cold\nseasons.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_PROBOPASS",
+    "method" : "mapsec",
+    "param" : "MAPSEC_NEW_MAUVILLE"
+  }, {
+    "toSpeciesId" : "SPECIES_PROBOPASS",
+    "method" : "item",
+    "param" : "ITEM_THUNDER_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 30,
+    "atk" : 45,
+    "def" : 135,
+    "spe" : 30,
+    "spa" : 45,
+    "spd" : 90
+  },
+  "heldItems" : {
+    "common" : "Magnet"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 1,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 4,
+    "move" : "Harden"
+  }, {
+    "level" : 7,
+    "move" : "Block"
+  }, {
+    "level" : 10,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 13,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 16,
+    "move" : "Rest"
+  }, {
+    "level" : 19,
+    "move" : "Discharge"
+  }, {
+    "level" : 22,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 25,
+    "move" : "Power Gem"
+  }, {
+    "level" : 28,
+    "move" : "Volt Switch"
+  }, {
+    "level" : 31,
+    "move" : "Earth Power"
+  }, {
+    "level" : 34,
+    "move" : "Sandstorm"
+  }, {
+    "level" : 37,
+    "move" : "Earthquake"
+  }, {
+    "level" : 40,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 43,
+    "move" : "Lock On"
+  }, {
+    "level" : 46,
+    "move" : "Zap Cannon"
+  } ],
+  "eggMoves" : [ "Block", "Double Edge", "Endure", "Magnitude", "Rollout", "Stealth Rock", "Wide Guard" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Bulldoze", "Dazzling Gleam", "Defense Curl", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Fire Punch", "Flash Cannon", "High Horsepower", "Ice Punch", "Iron Defense", "Meteor Beam", "Mud Slap", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Volt Switch" ],
+  "encounters" : [ {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "RockSmash",
+    "area" : "Granite Cave_B2F",
+    "bucket" : "Rock Smash",
+    "rateBase" : 20,
+    "min" : 10,
+    "max" : 20,
+    "slot" : 1
+  } ]
+}

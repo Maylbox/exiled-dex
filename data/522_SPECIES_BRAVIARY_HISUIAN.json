@@ -1,0 +1,89 @@
+{
+  "dex" : 522,
+  "speciesId" : "SPECIES_BRAVIARY_HISUIAN",
+  "name" : "Braviary",
+  "types" : [ "Psychic", "Flying" ],
+  "abilities" : [ "Keen Eye", "Sheer Force", "Tinted Lens" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 60,
+  "baseExp" : 179,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.7,
+  "weightKg" : 43.4,
+  "growthRate" : "Slow",
+  "color" : "White",
+  "category" : "Battle Cry",
+  "friendship" : 70,
+  "description" : "Screaming a bloodcurdling battle\ncry, this huge and ferocious bird\nPokémon goes out on the hunt.",
+  "preEvolutionId" : "SPECIES_RUFFLET",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 110,
+    "atk" : 83,
+    "def" : 70,
+    "spe" : 65,
+    "spa" : 112,
+    "spd" : 70
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Esper Wing"
+  }, {
+    "level" : 1,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Sky Attack"
+  }, {
+    "level" : 1,
+    "move" : "Superpower"
+  }, {
+    "level" : 1,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 18,
+    "move" : "Tailwind"
+  }, {
+    "level" : 24,
+    "move" : "Scary Face"
+  }, {
+    "level" : 30,
+    "move" : "Aerial Ace"
+  }, {
+    "level" : 36,
+    "move" : "Slash"
+  }, {
+    "level" : 42,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 48,
+    "move" : "Crush Claw"
+  }, {
+    "level" : 57,
+    "move" : "Air Slash"
+  }, {
+    "level" : 64,
+    "move" : "Defog"
+  }, {
+    "level" : 72,
+    "move" : "Thrash"
+  }, {
+    "level" : 80,
+    "move" : "Hurricane"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Body Slam", "Brave Bird", "Bulk Up", "Calm Mind", "Dazzling Gleam", "Defog", "Double Edge", "Dual Wingbeat", "Endure", "Facade", "Fly", "Giga Impact", "Hone Claws", "Hyper Beam", "Icy Wind", "Mystical Fire", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sunny Day", "Swift", "U Turn" ],
+  "encounters" : [ ]
+}

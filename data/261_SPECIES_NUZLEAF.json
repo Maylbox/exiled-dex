@@ -1,0 +1,89 @@
+{
+  "dex" : 261,
+  "speciesId" : "SPECIES_NUZLEAF",
+  "name" : "Nuzleaf",
+  "types" : [ "Grass", "Dark" ],
+  "abilities" : [ "Chlorophyll", "Early Bird", "Pickpocket" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field", "Grass" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.0,
+  "weightKg" : 28.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Wily",
+  "friendship" : 70,
+  "description" : "A forest-dwelling Pokémon that is skilled\nat climbing trees. Its long and pointed\nnose is its weak point. It loses power if\nthe nose is gripped.",
+  "preEvolutionId" : "SPECIES_SEEDOT",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SHIFTRY",
+    "method" : "item",
+    "param" : "ITEM_LEAF_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 70,
+    "def" : 40,
+    "spe" : 60,
+    "spa" : 60,
+    "spd" : 40
+  },
+  "heldItems" : {
+    "common" : "Power Herb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Fake Out"
+  }, {
+    "level" : 0,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 3,
+    "move" : "Harden"
+  }, {
+    "level" : 6,
+    "move" : "Growth"
+  }, {
+    "level" : 9,
+    "move" : "Torment"
+  }, {
+    "level" : 12,
+    "move" : "Fake Out"
+  }, {
+    "level" : 14,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 16,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 20,
+    "move" : "Razor Wind"
+  }, {
+    "level" : 24,
+    "move" : "Night Slash"
+  }, {
+    "level" : 28,
+    "move" : "Leaf Blade"
+  }, {
+    "level" : 32,
+    "move" : "Swagger"
+  }, {
+    "level" : 36,
+    "move" : "Extrasensory"
+  } ],
+  "eggMoves" : [ "Amnesia", "Beat Up", "Bullet Seed", "Defog", "Foul Play", "Grassy Terrain", "Leech Seed", "Nasty Plot", "Power Swap", "Quick Attack", "Razor Wind", "Take Down", "Worry Seed" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bullet Seed", "Cut", "Dark Pulse", "Defense Curl", "Defog", "Dig", "Double Edge", "Double Team", "Endure", "Energy Ball", "Explosion", "Facade", "False Swipe", "Flash", "Fury Cutter", "Giga Drain", "Grass Knot", "Grassy Glide", "Hyper Beam", "Knock Off", "Low Kick", "Mega Kick", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Torment", "Toxic", "Trailblaze" ],
+  "encounters" : [ ]
+}

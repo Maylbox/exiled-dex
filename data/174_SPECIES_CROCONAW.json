@@ -1,0 +1,103 @@
+{
+  "dex" : 174,
+  "speciesId" : "SPECIES_CROCONAW",
+  "name" : "Croconaw",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Torrent", "Strong Jaw", "Sheer Force" ],
+  "evYield" : {
+    "def" : 1,
+    "atk" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.1,
+  "weightKg" : 25.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Big Jaw",
+  "friendship" : 70,
+  "description" : "Once its jaws clamp down on its foe, it will\nabsolutely not let go. Because the tips of\nits fangs are forked back like fishhooks,\nthey become irremovably embedded.",
+  "preEvolutionId" : "SPECIES_TOTODILE",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_FERALIGATR",
+    "method" : "level",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 80,
+    "def" : 80,
+    "spe" : 58,
+    "spa" : 59,
+    "spd" : 63
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 6,
+    "move" : "Water Gun"
+  }, {
+    "level" : 8,
+    "move" : "Rage"
+  }, {
+    "level" : 13,
+    "move" : "Bite"
+  }, {
+    "level" : 15,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 18,
+    "move" : "Seismic Toss"
+  }, {
+    "level" : 24,
+    "move" : "Flail"
+  }, {
+    "level" : 27,
+    "move" : "Crunch"
+  }, {
+    "level" : 30,
+    "move" : "Chip Away"
+  }, {
+    "level" : 33,
+    "move" : "Slash"
+  }, {
+    "level" : 37,
+    "move" : "Screech"
+  }, {
+    "level" : 40,
+    "move" : "Thrash"
+  }, {
+    "level" : 43,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 46,
+    "move" : "Superpower"
+  }, {
+    "level" : 60,
+    "move" : "Hydro Pump"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Aqua Jet", "Block", "Crunch", "Dragon Dance", "Fake Tears", "Flatter", "Hydro Pump", "Ice Punch", "Metal Claw", "Mud Sport", "Thrash", "Water Pulse", "Water Sport" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Blizzard", "Body Slam", "Brick Break", "Counter", "Crunch", "Cut", "Dig", "Dive", "Double Edge", "Double Team", "Dragon Claw", "Dynamic Punch", "Endure", "Facade", "Flip Turn", "Fury Cutter", "Hone Claws", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Scald", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swords Dance", "Thief", "Toxic", "Trailblaze", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 21,
+    "max" : 25,
+    "slot" : 5
+  } ]
+}

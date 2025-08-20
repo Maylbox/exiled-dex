@@ -1,0 +1,125 @@
+{
+  "dex" : 543,
+  "speciesId" : "SPECIES_DELPHOX",
+  "name" : "Delphox",
+  "types" : [ "Fire", "Psychic" ],
+  "abilities" : [ "Blaze", "Power Of Alchemy", "Magic Guard" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 39.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Fox",
+  "friendship" : 70,
+  "description" : "It gazes into the flame at the tip of its\nbranch to achieve a focused state, which\nallows it to see into the future. It uses\npsychic power to incinerate its foes.",
+  "preEvolutionId" : "SPECIES_BRAIXEN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 69,
+    "def" : 72,
+    "spe" : 114,
+    "spa" : 120,
+    "spd" : 100
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Mystical Fire"
+  }, {
+    "level" : 1,
+    "move" : "Future Sight"
+  }, {
+    "level" : 1,
+    "move" : "Mystical Fire"
+  }, {
+    "level" : 1,
+    "move" : "Role Play"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 1,
+    "move" : "Switcheroo"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 5,
+    "move" : "Ember"
+  }, {
+    "level" : 8,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 11,
+    "move" : "Grass Knot"
+  }, {
+    "level" : 14,
+    "move" : "Incinerate"
+  }, {
+    "level" : 18,
+    "move" : "Psybeam"
+  }, {
+    "level" : 22,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 27,
+    "move" : "Lucky Chant"
+  }, {
+    "level" : 30,
+    "move" : "Light Screen"
+  }, {
+    "level" : 34,
+    "move" : "Psyshock"
+  }, {
+    "level" : 36,
+    "move" : "Mystical Fire"
+  }, {
+    "level" : 42,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 47,
+    "move" : "Wish"
+  }, {
+    "level" : 50,
+    "move" : "Alchemy Lash"
+  }, {
+    "level" : 55,
+    "move" : "Sunny Day"
+  }, {
+    "level" : 58,
+    "move" : "Magic Room"
+  }, {
+    "level" : 61,
+    "move" : "Fire Blast"
+  }, {
+    "level" : 69,
+    "move" : "Future Sight"
+  }, {
+    "level" : 75,
+    "move" : "Mind Blown"
+  } ],
+  "eggMoves" : [ "Heat Wave", "Hypnosis", "Magic Coat", "Psychic Terrain", "Wish" ],
+  "teachableMoves" : [ "Attract", "Calm Mind", "Covet", "Cut", "Dazzling Gleam", "Double Team", "Dream Eater", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Grass Knot", "Hex", "Hyper Beam", "Light Screen", "Low Kick", "Metronome", "Mud Slap", "Mystical Fire", "Overheat", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder Punch", "Toxic", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
+    "area" : "Scorched Slab0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 51,
+    "max" : 54,
+    "slot" : 8
+  } ]
+}

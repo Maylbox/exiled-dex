@@ -1,0 +1,101 @@
+{
+  "dex" : 651,
+  "speciesId" : "SPECIES_HYDRAPPLE",
+  "name" : "Hydrapple",
+  "types" : [ "Grass", "Dragon" ],
+  "abilities" : [ "Supersweet Syrup", "Regenerator", "Sticky Hold" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 10,
+  "baseExp" : 270,
+  "eggGroups" : [ "Grass", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.8,
+  "weightKg" : 93.0,
+  "growthRate" : "Erratic",
+  "color" : "Green",
+  "category" : "Apple Hydra",
+  "friendship" : 70,
+  "description" : "These capricious syrpents have\nbanded together. On the rare\noccasion that their moods align,\ntheir true power is unleashed.",
+  "preEvolutionId" : "SPECIES_DIPPLIN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 106,
+    "atk" : 80,
+    "def" : 110,
+    "spe" : 44,
+    "spa" : 120,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Fickle Beam"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Double Hit"
+  }, {
+    "level" : 1,
+    "move" : "Infestation"
+  }, {
+    "level" : 1,
+    "move" : "Matcha Gotcha"
+  }, {
+    "level" : 1,
+    "move" : "Recycle"
+  }, {
+    "level" : 1,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 1,
+    "move" : "Synthesis"
+  }, {
+    "level" : 1,
+    "move" : "Withdraw"
+  }, {
+    "level" : 1,
+    "move" : "Yawn"
+  }, {
+    "level" : 4,
+    "move" : "Dragon Tail"
+  }, {
+    "level" : 8,
+    "move" : "Growth"
+  }, {
+    "level" : 12,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 16,
+    "move" : "Protect"
+  }, {
+    "level" : 20,
+    "move" : "Bullet Seed"
+  }, {
+    "level" : 28,
+    "move" : "Syrup Bomb"
+  }, {
+    "level" : 32,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 36,
+    "move" : "Recover"
+  }, {
+    "level" : 40,
+    "move" : "Energy Ball"
+  }, {
+    "level" : 44,
+    "move" : "Substitute"
+  }, {
+    "level" : 54,
+    "move" : "Power Whip"
+  } ],
+  "eggMoves" : [ "Defense Curl", "Recycle", "Rollout", "Sucker Punch" ],
+  "teachableMoves" : [ "Body Press", "Body Slam", "Bullet Seed", "Double Edge", "Draco Meteor", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Energy Ball", "Facade", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Gyro Ball", "Hyper Beam", "Power Whip", "Protect", "Rain Dance", "Reflect", "Rest", "Sleep Talk", "Solar Beam", "Sunny Day" ],
+  "encounters" : [ ]
+}

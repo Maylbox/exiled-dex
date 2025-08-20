@@ -1,0 +1,177 @@
+{
+  "dex" : 206,
+  "speciesId" : "SPECIES_MISMAGIUS",
+  "name" : "Mismagius",
+  "types" : [ "Ghost", "Fairy" ],
+  "abilities" : [ "Levitate", "None", "None" ],
+  "evYield" : {
+    "spa" : 1,
+    "spd" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 6400,
+  "heightM" : 0.9,
+  "weightKg" : 4.4,
+  "growthRate" : "Fast",
+  "color" : "Purple",
+  "category" : "Magical",
+  "friendship" : 35,
+  "description" : "Its cries sound like incantations.\nThose hearing it are tormented by\nheadaches and hallucinations.\nIt appears where you least expect it.",
+  "preEvolutionId" : "SPECIES_MISDREAVUS",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 40,
+    "def" : 70,
+    "spe" : 105,
+    "spa" : 105,
+    "spd" : 105
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Hex"
+  }, {
+    "level" : 1,
+    "move" : "Lucky Chant"
+  }, {
+    "level" : 1,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 1,
+    "move" : "Moonblast"
+  }, {
+    "level" : 1,
+    "move" : "Mystical Fire"
+  }, {
+    "level" : 1,
+    "move" : "Phantom Force"
+  }, {
+    "level" : 1,
+    "move" : "Power Gem"
+  }, {
+    "level" : 1,
+    "move" : "Psywave"
+  }, {
+    "level" : 1,
+    "move" : "Spite"
+  } ],
+  "eggMoves" : [ "Curse", "Destiny Bond", "Imprison", "Me First", "Memento", "Nasty Plot", "Ominous Wind", "Screech", "Shadow Sneak", "Skill Swap", "Spite", "Sucker Punch", "Wonder Room" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Calm Mind", "Charge Beam", "Dark Pulse", "Dazzling Gleam", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Giga Impact", "Grass Knot", "Hex", "Hyper Beam", "Icy Wind", "Mystical Fire", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Rest", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Snowscape", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 5
+  }, {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 6
+  }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 5
+  }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 6
+  }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 5
+  }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 6
+  }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 5
+  }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 6
+  }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 5
+  }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 6
+  }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_6F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 5
+  }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_6F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 6
+  } ]
+}

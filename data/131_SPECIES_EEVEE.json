@@ -1,0 +1,130 @@
+{
+  "dex" : 131,
+  "speciesId" : "SPECIES_EEVEE",
+  "name" : "Eevee",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Run Away", "Adaptability", "Anticipation" ],
+  "evYield" : {
+    "spd" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 8960,
+  "heightM" : 0.3,
+  "weightKg" : 6.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Evolution",
+  "friendship" : 70,
+  "description" : null,
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_JOLTEON",
+    "method" : "item",
+    "param" : "ITEM_THUNDER_STONE"
+  }, {
+    "toSpeciesId" : "SPECIES_VAPOREON",
+    "method" : "item",
+    "param" : "ITEM_WATER_STONE"
+  }, {
+    "toSpeciesId" : "SPECIES_FLAREON",
+    "method" : "item",
+    "param" : "ITEM_FIRE_STONE"
+  }, {
+    "toSpeciesId" : "SPECIES_ESPEON",
+    "method" : "item",
+    "param" : "ITEM_SUN_STONE"
+  }, {
+    "toSpeciesId" : "SPECIES_UMBREON",
+    "method" : "item",
+    "param" : "ITEM_MOON_STONE"
+  }, {
+    "toSpeciesId" : "SPECIES_LEAFEON",
+    "method" : "item",
+    "param" : "ITEM_LEAF_STONE"
+  }, {
+    "toSpeciesId" : "SPECIES_GLACEON",
+    "method" : "item",
+    "param" : "ITEM_ICE_STONE"
+  }, {
+    "toSpeciesId" : "SPECIES_SYLVEON",
+    "method" : "friendship_move_type",
+    "param" : "TYPE_FAIRY"
+  } ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 55,
+    "def" : 50,
+    "spe" : 55,
+    "spa" : 45,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Covet"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 5,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 9,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 13,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 17,
+    "move" : "Bite"
+  }, {
+    "level" : 17,
+    "move" : "Swift"
+  }, {
+    "level" : 20,
+    "move" : "Refresh"
+  }, {
+    "level" : 25,
+    "move" : "Take Down"
+  }, {
+    "level" : 29,
+    "move" : "Charm"
+  }, {
+    "level" : 33,
+    "move" : "Baton Pass"
+  }, {
+    "level" : 37,
+    "move" : "Double Edge"
+  }, {
+    "level" : 41,
+    "move" : "Last Resort"
+  }, {
+    "level" : 45,
+    "move" : "Trump Card"
+  } ],
+  "eggMoves" : [ "Captivate", "Charm", "Covet", "Curse", "Detect", "Endure", "Fake Tears", "Flail", "Natural Gift", "Stored Power", "Synchronoise", "Tickle", "Wish", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Covet", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Shadow Ball", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "OldaleTown0",
+    "bucketKey" : "Land",
+    "area" : "Oldale Town0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 8,
+    "slot" : 11
+  } ]
+}

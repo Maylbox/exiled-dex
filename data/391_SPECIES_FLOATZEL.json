@@ -1,0 +1,86 @@
+{
+  "dex" : 391,
+  "speciesId" : "SPECIES_FLOATZEL",
+  "name" : "Floatzel",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Swift Swim", "None", "Water Veil" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.1,
+  "weightKg" : 33.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Sea Weasel",
+  "friendship" : 70,
+  "description" : "Its flotation sac developed as a result\nof pursuing aquatic prey. It can double\nas a rubber raft. It assists in the rescues\nof drowning people.",
+  "preEvolutionId" : "SPECIES_BUIZEL",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 85,
+    "atk" : 105,
+    "def" : 55,
+    "spe" : 115,
+    "spa" : 85,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Crunch"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 1,
+    "move" : "Soak"
+  }, {
+    "level" : 15,
+    "move" : "Water Gun"
+  }, {
+    "level" : 18,
+    "move" : "Bite"
+  }, {
+    "level" : 21,
+    "move" : "Swift"
+  }, {
+    "level" : 24,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 29,
+    "move" : "Double Hit"
+  }, {
+    "level" : 35,
+    "move" : "Whirlpool"
+  }, {
+    "level" : 41,
+    "move" : "Liquidation"
+  }, {
+    "level" : 46,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 51,
+    "move" : "Agility"
+  }, {
+    "level" : 57,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 62,
+    "move" : "Wave Crash"
+  } ],
+  "eggMoves" : [ "Aqua Ring", "Aqua Tail", "Baton Pass", "Double Slap", "Fury Cutter", "Fury Swipes", "Headbutt", "Helping Hand", "Me First", "Mud Slap", "Odor Sleuth", "Slash", "Soak", "Switcheroo", "Tail Slap" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulk Up", "Crunch", "Dig", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "Flip Turn", "Focus Blast", "Fury Cutter", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Low Kick", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Smash", "Rock Tomb", "Scald", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

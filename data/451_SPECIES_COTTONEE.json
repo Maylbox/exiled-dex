@@ -1,0 +1,113 @@
+{
+  "dex" : 451,
+  "speciesId" : "SPECIES_COTTONEE",
+  "name" : "Cottonee",
+  "types" : [ "Grass", "Fairy" ],
+  "abilities" : [ "Prankster", "Infiltrator", "Chlorophyll" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 56,
+  "eggGroups" : [ "Grass", "Fairy" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 0.6,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Cotton Puff",
+  "friendship" : 70,
+  "description" : "When it finds others of its kind, they all\nstick together. When enough of them\nhave collected, the mass resembles a\ncumulonimbus cloud.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_WHIMSICOTT",
+    "method" : "item",
+    "param" : "ITEM_SUN_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 27,
+    "def" : 60,
+    "spe" : 66,
+    "spa" : 37,
+    "spd" : 50
+  },
+  "heldItems" : {
+    "common" : "Absorb Bulb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Fairy Wind"
+  }, {
+    "level" : 4,
+    "move" : "Growth"
+  }, {
+    "level" : 8,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 10,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 13,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 17,
+    "move" : "Cotton Spore"
+  }, {
+    "level" : 19,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 22,
+    "move" : "Poisonpowder"
+  }, {
+    "level" : 26,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 28,
+    "move" : "Charm"
+  }, {
+    "level" : 31,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 35,
+    "move" : "Energy Ball"
+  }, {
+    "level" : 37,
+    "move" : "Cotton Guard"
+  }, {
+    "level" : 40,
+    "move" : "Sunny Day"
+  }, {
+    "level" : 44,
+    "move" : "Endeavor"
+  }, {
+    "level" : 46,
+    "move" : "Solarbeam"
+  } ],
+  "eggMoves" : [ "Beat Up", "Captivate", "Encore", "Fake Tears", "Grass Whistle", "Memento", "Misty Terrain", "Natural Gift", "Switcheroo", "Tickle", "Worry Seed" ],
+  "teachableMoves" : [ "Attract", "Covet", "Dazzling Gleam", "Defog", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Knock Off", "Protect", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Taunt", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "Route117",
+    "bucketKey" : "Land",
+    "area" : "Route 117",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 21,
+    "max" : 24,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route117",
+    "bucketKey" : "Land",
+    "area" : "Route 117",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 21,
+    "max" : 24,
+    "slot" : 3
+  } ]
+}

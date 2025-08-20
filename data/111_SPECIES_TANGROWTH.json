@@ -1,0 +1,119 @@
+{
+  "dex" : 111,
+  "speciesId" : "SPECIES_TANGROWTH",
+  "name" : "Tangrowth",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Chlorophyll", "Leaf Guard", "Regenerator" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 30,
+  "baseExp" : 0,
+  "eggGroups" : [ "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.0,
+  "weightKg" : 128.6,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Vine",
+  "friendship" : 70,
+  "description" : "It ensnares prey by extending arms made\nof vines. Even if one of its arms is eaten,\nit's fine. The Pokémon regenerates quickly\nand will go right back to normal.",
+  "preEvolutionId" : "SPECIES_TANGELA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 100,
+    "def" : 125,
+    "spe" : 50,
+    "spa" : 110,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Block"
+  }, {
+    "level" : 1,
+    "move" : "Constrict"
+  }, {
+    "level" : 1,
+    "move" : "Ingrain"
+  }, {
+    "level" : 4,
+    "move" : "Sleep Powder"
+  }, {
+    "level" : 7,
+    "move" : "Vine Whip"
+  }, {
+    "level" : 10,
+    "move" : "Absorb"
+  }, {
+    "level" : 14,
+    "move" : "Poisonpowder"
+  }, {
+    "level" : 17,
+    "move" : "Bind"
+  }, {
+    "level" : 20,
+    "move" : "Growth"
+  }, {
+    "level" : 23,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 27,
+    "move" : "Knock Off"
+  }, {
+    "level" : 30,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 33,
+    "move" : "Natural Gift"
+  }, {
+    "level" : 36,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 40,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 43,
+    "move" : "Slam"
+  }, {
+    "level" : 46,
+    "move" : "Tickle"
+  }, {
+    "level" : 49,
+    "move" : "Wring Out"
+  }, {
+    "level" : 50,
+    "move" : "Grassy Terrain"
+  }, {
+    "level" : 53,
+    "move" : "Power Whip"
+  }, {
+    "level" : 56,
+    "move" : "Block"
+  } ],
+  "eggMoves" : [ "Amnesia", "Confusion", "Endeavor", "Flail", "Giga Drain", "Leaf Storm", "Leech Seed", "Mega Drain", "Natural Gift", "Nature Power", "Power Swap", "Rage Powder", "Wake Up Slap" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Bullet Seed", "Cut", "Double Team", "Earthquake", "Endure", "Energy Ball", "Facade", "Flash", "Focus Blast", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Knock Off", "Mud Slap", "Poison Jab", "Power Whip", "Protect", "Psych Up", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Solar Blade", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
+    "area" : "Route 118",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 8
+  }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
+    "area" : "Route 120",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 51,
+    "max" : 54,
+    "slot" : 2
+  } ]
+}

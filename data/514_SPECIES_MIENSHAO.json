@@ -1,0 +1,110 @@
+{
+  "dex" : 514,
+  "speciesId" : "SPECIES_MIENSHAO",
+  "name" : "Mienshao",
+  "types" : [ "Fighting", null ],
+  "abilities" : [ "Inner Focus", "Regenerator", "Reckless" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 179,
+  "eggGroups" : [ "Field", "Human Like" ],
+  "hatchSteps" : 6400,
+  "heightM" : 1.4,
+  "weightKg" : 35.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Purple",
+  "category" : "Martial Arts",
+  "friendship" : 70,
+  "description" : "They use the long fur on their arms as\na whip to strike their opponents. Its arm\nattacks come with such rapidity that they\ncannot even be seen.",
+  "preEvolutionId" : "SPECIES_MIENFOO",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 125,
+    "def" : 60,
+    "spe" : 105,
+    "spa" : 95,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Aura Sphere"
+  }, {
+    "level" : 1,
+    "move" : "Detect"
+  }, {
+    "level" : 1,
+    "move" : "Fake Out"
+  }, {
+    "level" : 1,
+    "move" : "Meditate"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Reversal"
+  }, {
+    "level" : 5,
+    "move" : "Meditate"
+  }, {
+    "level" : 9,
+    "move" : "Detect"
+  }, {
+    "level" : 13,
+    "move" : "Fake Out"
+  }, {
+    "level" : 17,
+    "move" : "Double Slap"
+  }, {
+    "level" : 21,
+    "move" : "Swift"
+  }, {
+    "level" : 25,
+    "move" : "Calm Mind"
+  }, {
+    "level" : 29,
+    "move" : "Force Palm"
+  }, {
+    "level" : 33,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 37,
+    "move" : "Jump Kick"
+  }, {
+    "level" : 41,
+    "move" : "U Turn"
+  }, {
+    "level" : 45,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 49,
+    "move" : "Bounce"
+  }, {
+    "level" : 56,
+    "move" : "Hi Jump Kick"
+  }, {
+    "level" : 63,
+    "move" : "Reversal"
+  }, {
+    "level" : 70,
+    "move" : "Aura Sphere"
+  } ],
+  "eggMoves" : [ "Ally Switch", "Baton Pass", "Endure", "Feint", "Knock Off", "Low Kick", "Me First", "Smelling Salts", "Vital Throw" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Aura Sphere", "Blaze Kick", "Brick Break", "Bulk Up", "Calm Mind", "Dig", "Double Edge", "Double Team", "Drain Punch", "Endure", "Facade", "Focus Blast", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "Triple Axel", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
+    "area" : "Route 115",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 45,
+    "max" : 48,
+    "slot" : 3
+  } ]
+}

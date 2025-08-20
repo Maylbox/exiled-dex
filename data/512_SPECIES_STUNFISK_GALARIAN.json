@@ -1,0 +1,83 @@
+{
+  "dex" : 512,
+  "speciesId" : "SPECIES_STUNFISK_GALARIAN",
+  "name" : "Stunfisk",
+  "types" : [ "Ground", "Steel" ],
+  "abilities" : [ "Mimicry", "None", "None" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 165,
+  "eggGroups" : [ "Water 1", "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.7,
+  "weightKg" : 20.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Trap",
+  "friendship" : 70,
+  "description" : "Its conspicuous lips lure prey in\nas it lies in wait in the mud. When\nprey gets close, Stunfisk clamps its\njagged steel fins down on them.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 109,
+    "atk" : 81,
+    "def" : 99,
+    "spe" : 32,
+    "spa" : 66,
+    "spd" : 84
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 5,
+    "move" : "Endure"
+  }, {
+    "level" : 10,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 15,
+    "move" : "Revenge"
+  }, {
+    "level" : 20,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 25,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 30,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 35,
+    "move" : "Bounce"
+  }, {
+    "level" : 40,
+    "move" : "Muddy Water"
+  }, {
+    "level" : 45,
+    "move" : "Snap Trap"
+  }, {
+    "level" : 50,
+    "move" : "Flail"
+  }, {
+    "level" : 55,
+    "move" : "Fissure"
+  } ],
+  "eggMoves" : [ "Astonish", "Bind", "Counter", "Curse", "Pain Split", "Reflect Type", "Spite", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Bulldoze", "Counter", "Crunch", "Dig", "Earth Power", "Earthquake", "Endure", "Facade", "Flash Cannon", "Ice Fang", "Iron Defense", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Scald", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Stealth Rock", "Stone Edge", "Surf", "Thunder Wave" ],
+  "encounters" : [ ]
+}

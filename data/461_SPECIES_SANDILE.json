@@ -1,0 +1,107 @@
+{
+  "dex" : 461,
+  "speciesId" : "SPECIES_SANDILE",
+  "name" : "Sandile",
+  "types" : [ "Ground", "Dark" ],
+  "abilities" : [ "Intimidate", "Moxie", "Anger Point" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 180,
+  "baseExp" : 58,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.7,
+  "weightKg" : 15.2,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Desert Croc",
+  "friendship" : 70,
+  "description" : "It conceals itself in the sand and\nchomps down on the legs of any prey\nthat unwarily walk over it. Its favorite\nfood is Trapinch.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_KROKOROK",
+    "method" : "level",
+    "param" : "29"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 72,
+    "def" : 35,
+    "spe" : 65,
+    "spa" : 35,
+    "spd" : 35
+  },
+  "heldItems" : {
+    "common" : "Black Glasses"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Rage"
+  }, {
+    "level" : 4,
+    "move" : "Bite"
+  }, {
+    "level" : 7,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 9,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 11,
+    "move" : "Power Trip"
+  }, {
+    "level" : 13,
+    "move" : "Sand Tomb"
+  }, {
+    "level" : 16,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 19,
+    "move" : "Assurance"
+  }, {
+    "level" : 22,
+    "move" : "Embargo"
+  }, {
+    "level" : 25,
+    "move" : "Swagger"
+  }, {
+    "level" : 28,
+    "move" : "Crunch"
+  }, {
+    "level" : 31,
+    "move" : "Dig"
+  }, {
+    "level" : 34,
+    "move" : "Scary Face"
+  }, {
+    "level" : 37,
+    "move" : "Foul Play"
+  }, {
+    "level" : 40,
+    "move" : "Sandstorm"
+  }, {
+    "level" : 43,
+    "move" : "Earthquake"
+  }, {
+    "level" : 46,
+    "move" : "Thrash"
+  } ],
+  "eggMoves" : [ "Beat Up", "Counter", "Double Edge", "Fire Fang", "Focus Energy", "Me First", "Mean Look", "Power Trip", "Pursuit", "Rock Climb", "Thunder Fang", "Uproar" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Fang", "Grass Knot", "Hone Claws", "Mud Slap", "Protect", "Rest", "Roar", "Rock Slide", "Rock Tomb", "Sandstorm", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Stealth Rock", "Stone Edge", "Swagger", "Taunt", "Thief", "Thunder Fang", "Torment", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "Route112",
+    "bucketKey" : "Land",
+    "area" : "Route 112",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 28,
+    "max" : 32,
+    "slot" : 4
+  } ]
+}

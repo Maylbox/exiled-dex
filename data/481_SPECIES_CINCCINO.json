@@ -1,0 +1,77 @@
+{
+  "dex" : 481,
+  "speciesId" : "SPECIES_CINCCINO",
+  "name" : "Cinccino",
+  "types" : [ "Normal", "Ground" ],
+  "abilities" : [ "Cute Charm", "Technician", "Skill Link" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 60,
+  "baseExp" : 165,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.5,
+  "weightKg" : 7.5,
+  "growthRate" : "Fast",
+  "color" : "Gray",
+  "category" : "Scarf",
+  "friendship" : 70,
+  "description" : "Their white fur feels amazing to touch.\nCinccino's body is coated in a special\noil that repels dust and helps it deflect\nattacks, such as punches.",
+  "preEvolutionId" : "SPECIES_MINCCINO",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 85,
+    "atk" : 100,
+    "def" : 60,
+    "spe" : 120,
+    "spa" : 55,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Tail Slap"
+  }, {
+    "level" : 1,
+    "move" : "Arm Thrust"
+  }, {
+    "level" : 1,
+    "move" : "Bone Rush"
+  }, {
+    "level" : 1,
+    "move" : "Bullet Seed"
+  }, {
+    "level" : 1,
+    "move" : "Icicle Spear"
+  }, {
+    "level" : 1,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 1,
+    "move" : "Tail Slap"
+  }, {
+    "level" : 1,
+    "move" : "Tickle"
+  }, {
+    "level" : 1,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 60,
+    "move" : "Tidy Up"
+  } ],
+  "eggMoves" : [ "Aqua Tail", "Endure", "Fake Tears", "Flail", "Iron Tail", "Knock Off", "Mud Slap", "Sleep Talk", "Tail Whip" ],
+  "teachableMoves" : [ "Attract", "Bullet Seed", "Calm Mind", "Covet", "Dazzling Gleam", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Knock Off", "Light Screen", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Rest", "Safeguard", "Shock Wave", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Triple Axel", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "Route123",
+    "bucketKey" : "Land",
+    "area" : "Route 123",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 52,
+    "max" : 55,
+    "slot" : 11
+  } ]
+}

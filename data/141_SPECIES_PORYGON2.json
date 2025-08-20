@@ -1,0 +1,91 @@
+{
+  "dex" : 141,
+  "speciesId" : "SPECIES_PORYGON2",
+  "name" : "Porygon2",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Trace", "Download", "Analytic" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 45,
+  "baseExp" : 180,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 32.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Virtual",
+  "friendship" : 70,
+  "description" : "It was created by humans using the power\nof science. It has been given artificial\nintelligence that enables it to learn new\ngestures and emotions on its own.",
+  "preEvolutionId" : "SPECIES_PORYGON",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_PORYGON_Z",
+    "method" : "trade_item",
+    "param" : "ITEM_DUBIOUS_DISC"
+  }, {
+    "toSpeciesId" : "SPECIES_PORYGON_Z",
+    "method" : "item",
+    "param" : "ITEM_DUBIOUS_DISC"
+  } ],
+  "baseStats" : {
+    "hp" : 85,
+    "atk" : 80,
+    "def" : 90,
+    "spe" : 60,
+    "spa" : 105,
+    "spd" : 95
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Conversion"
+  }, {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Magnet Rise"
+  }, {
+    "level" : 1,
+    "move" : "Recycle"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 15,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 20,
+    "move" : "Psybeam"
+  }, {
+    "level" : 25,
+    "move" : "Conversion 2"
+  }, {
+    "level" : 30,
+    "move" : "Agility"
+  }, {
+    "level" : 35,
+    "move" : "Recover"
+  }, {
+    "level" : 40,
+    "move" : "Discharge"
+  }, {
+    "level" : 45,
+    "move" : "Tri Attack"
+  }, {
+    "level" : 50,
+    "move" : "Lock On"
+  }, {
+    "level" : 55,
+    "move" : "Zap Cannon"
+  }, {
+    "level" : 60,
+    "move" : "Hyper Beam"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Aerial Ace", "Blizzard", "Charge Beam", "Defense Curl", "Double Edge", "Double Team", "Dream Eater", "Electroweb", "Endure", "Facade", "Flash", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Rest", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Trick Room" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,124 @@
+{
+  "dex" : 183,
+  "speciesId" : "SPECIES_LANTURN",
+  "name" : "Lanturn",
+  "types" : [ "Water", "Electric" ],
+  "abilities" : [ "Volt Absorb", "Illuminate", "Water Absorb" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 2" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.2,
+  "weightKg" : 22.5,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Light",
+  "friendship" : 70,
+  "description" : "The light-emitting orbs on its back are\nvery bright. They are formed from a part of\nits dorsal fin. This Pokémon illuminates\nthe inky darkness of deep seas.",
+  "preEvolutionId" : "SPECIES_CHINCHOU",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 125,
+    "atk" : 40,
+    "def" : 58,
+    "spe" : 50,
+    "spa" : 96,
+    "spd" : 101
+  },
+  "heldItems" : {
+    "common" : "Deep Sea Scale"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Spit Up"
+  }, {
+    "level" : 0,
+    "move" : "Stockpile"
+  }, {
+    "level" : 0,
+    "move" : "Swallow"
+  }, {
+    "level" : 1,
+    "move" : "Eerie Impulse"
+  }, {
+    "level" : 1,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 1,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 1,
+    "move" : "Spit Up"
+  }, {
+    "level" : 1,
+    "move" : "Spotlight"
+  }, {
+    "level" : 1,
+    "move" : "Stockpile"
+  }, {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 1,
+    "move" : "Swallow"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 6,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 9,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 12,
+    "move" : "Shock Wave"
+  }, {
+    "level" : 27,
+    "move" : "Spit Up"
+  }, {
+    "level" : 27,
+    "move" : "Stockpile"
+  }, {
+    "level" : 27,
+    "move" : "Swallow"
+  }, {
+    "level" : 29,
+    "move" : "Signal Beam"
+  }, {
+    "level" : 33,
+    "move" : "Scald"
+  }, {
+    "level" : 37,
+    "move" : "Discharge"
+  }, {
+    "level" : 43,
+    "move" : "Bouncy Bubble"
+  }, {
+    "level" : 47,
+    "move" : "Aqua Ring"
+  }, {
+    "level" : 51,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 54,
+    "move" : "Ion Deluge"
+  }, {
+    "level" : 55,
+    "move" : "Parabolic Charge"
+  }, {
+    "level" : 58,
+    "move" : "Thunder Cage"
+  }, {
+    "level" : 65,
+    "move" : "Thunderclap"
+  } ],
+  "eggMoves" : [ "Agility", "Amnesia", "Brine", "Flail", "Mist", "Psybeam", "Screech", "Shock Wave", "Soak", "Water Pulse", "Whirlpool" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Charge Beam", "Dazzling Gleam", "Dive", "Double Edge", "Double Team", "Electroweb", "Endure", "Facade", "Flash", "Flip Turn", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Protect", "Rain Dance", "Rest", "Scald", "Shock Wave", "Sleep Talk", "Snore", "Surf", "Swagger", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Water Pulse", "Waterfall", "Wild Charge" ],
+  "encounters" : [ ]
+}

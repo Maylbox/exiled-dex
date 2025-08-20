@@ -1,0 +1,102 @@
+{
+  "dex" : 221,
+  "speciesId" : "SPECIES_SLUGMA",
+  "name" : "Slugma",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Magma Armor", "Flame Body", "Weak Armor" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.7,
+  "weightKg" : 35.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Lava",
+  "friendship" : 70,
+  "description" : "It is a species of Pokémon that lives in\nvolcanic areas. If its body cools, its skin\nhardens and immobilizes it. To avoid that,\nit sleeps near magma.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MAGCARGO",
+    "method" : "level",
+    "param" : "38"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 40,
+    "def" : 40,
+    "spe" : 20,
+    "spa" : 70,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Smog"
+  }, {
+    "level" : 1,
+    "move" : "Yawn"
+  }, {
+    "level" : 6,
+    "move" : "Ember"
+  }, {
+    "level" : 8,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 13,
+    "move" : "Harden"
+  }, {
+    "level" : 15,
+    "move" : "Incinerate"
+  }, {
+    "level" : 18,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 20,
+    "move" : "Clear Smog"
+  }, {
+    "level" : 22,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 27,
+    "move" : "Flame Burst"
+  }, {
+    "level" : 29,
+    "move" : "Power Gem"
+  }, {
+    "level" : 34,
+    "move" : "Lava Plume"
+  }, {
+    "level" : 36,
+    "move" : "Amnesia"
+  }, {
+    "level" : 41,
+    "move" : "Body Slam"
+  }, {
+    "level" : 43,
+    "move" : "Recover"
+  }, {
+    "level" : 48,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 50,
+    "move" : "Earth Power"
+  } ],
+  "eggMoves" : [ "Acid Armor", "Curse", "Earth Power", "Guard Swap", "Heat Wave", "Inferno", "Memento", "Rollout", "Smokescreen", "Spit Up", "Stockpile", "Swallow" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Defense Curl", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Flamethrower", "High Horsepower", "Iron Defense", "Light Screen", "Mud Slap", "Overheat", "Protect", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Swagger", "Toxic", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "Route113",
+    "bucketKey" : "Land",
+    "area" : "Route 113",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 29,
+    "max" : 33,
+    "slot" : 5
+  } ]
+}

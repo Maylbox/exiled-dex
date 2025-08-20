@@ -1,7 +1,7 @@
 {
   "dex" : 87,
   "speciesId" : "SPECIES_EXILED_DODRIO",
-  "name" : "Dodrio",
+  "name" : "Exiled Dodrio",
   "types" : [ "Ghost", "Flying" ],
   "abilities" : [ "Run Away", "Cursed Body", "Perish Body" ],
   "evYield" : {

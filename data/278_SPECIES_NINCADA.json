@@ -1,0 +1,90 @@
+{
+  "dex" : 278,
+  "speciesId" : "SPECIES_NINCADA",
+  "name" : "Nincada",
+  "types" : [ "Bug", "Ground" ],
+  "abilities" : [ "Compound Eyes", "None", "Run Away" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.5,
+  "weightKg" : 5.5,
+  "growthRate" : "Erratic",
+  "color" : "Gray",
+  "category" : "Trainee",
+  "friendship" : 70,
+  "description" : "It makes its nest at the roots of a mighty\ntree. Using its whiskerlike antennae, it\nprobes its surroundings in the\npitch-black darkness of soil.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_NINJASK",
+    "method" : "level_ninjask",
+    "param" : "20"
+  }, {
+    "toSpeciesId" : "SPECIES_SHEDINJA",
+    "method" : "level_shedinja",
+    "param" : "20"
+  } ],
+  "baseStats" : {
+    "hp" : 31,
+    "atk" : 45,
+    "def" : 90,
+    "spe" : 40,
+    "spa" : 30,
+    "spd" : 30
+  },
+  "heldItems" : {
+    "common" : "Soft Sand"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 5,
+    "move" : "Harden"
+  }, {
+    "level" : 9,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 10,
+    "move" : "False Swipe"
+  }, {
+    "level" : 15,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 21,
+    "move" : "Absorb"
+  }, {
+    "level" : 25,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 30,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 35,
+    "move" : "Mind Reader"
+  }, {
+    "level" : 40,
+    "move" : "Dig"
+  } ],
+  "eggMoves" : [ "Bug Bite", "Bug Buzz", "Endure", "Feint Attack", "Final Gambit", "Gust", "Night Slash", "Silver Wind" ],
+  "teachableMoves" : [ "Aerial Ace", "Cut", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "False Swipe", "Flash", "Fury Cutter", "Giga Drain", "Hone Claws", "Leech Life", "Mud Slap", "Protect", "Rest", "Sandstorm", "Shadow Ball", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Toxic", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "Route116",
+    "bucketKey" : "Land",
+    "area" : "Route 116",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 10
+  } ]
+}

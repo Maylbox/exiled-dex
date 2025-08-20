@@ -1,0 +1,119 @@
+{
+  "dex" : 127,
+  "speciesId" : "SPECIES_PINSIR",
+  "name" : "Pinsir",
+  "types" : [ "Bug", "Dark" ],
+  "abilities" : [ "Hyper Cutter", "Mold Breaker", "Moxie" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 6400,
+  "heightM" : 1.5,
+  "weightKg" : 55.0,
+  "growthRate" : "Slow",
+  "color" : "Brown",
+  "category" : "Stag Beetle",
+  "friendship" : 70,
+  "description" : "Their pincers are strong enough to\nshatter thick logs. Because they dislike\ncold, Pinsir burrow and sleep under\nthe ground on chilly nights.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 125,
+    "def" : 100,
+    "spe" : 90,
+    "spa" : 55,
+    "spd" : 70
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 1,
+    "move" : "Vice Grip"
+  }, {
+    "level" : 4,
+    "move" : "Bind"
+  }, {
+    "level" : 8,
+    "move" : "Seismic Toss"
+  }, {
+    "level" : 11,
+    "move" : "Harden"
+  }, {
+    "level" : 15,
+    "move" : "Revenge"
+  }, {
+    "level" : 18,
+    "move" : "Vital Throw"
+  }, {
+    "level" : 22,
+    "move" : "Double Hit"
+  }, {
+    "level" : 26,
+    "move" : "Brick Break"
+  }, {
+    "level" : 29,
+    "move" : "X Scissor"
+  }, {
+    "level" : 33,
+    "move" : "Crunch"
+  }, {
+    "level" : 36,
+    "move" : "Storm Throw"
+  }, {
+    "level" : 40,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 43,
+    "move" : "Thrash"
+  }, {
+    "level" : 47,
+    "move" : "Superpower"
+  }, {
+    "level" : 50,
+    "move" : "Slash"
+  }, {
+    "level" : 60,
+    "move" : "Double Edge"
+  }, {
+    "level" : 69,
+    "move" : "Megahorn"
+  } ],
+  "eggMoves" : [ "Bug Bite", "Close Combat", "Feint", "Feint Attack", "Flail", "Fury Attack", "Me First", "Quick Attack", "Superpower" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Cut", "Dig", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "False Swipe", "Focus Blast", "Fury Cutter", "Giga Impact", "High Horsepower", "Hyper Beam", "Iron Defense", "Knock Off", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
+    "area" : "Route 118",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
+    "area" : "Safari Zone_Northwest",
+    "bucket" : "Land",
+    "rateBase" : 25,
+    "min" : 27,
+    "max" : 27,
+    "slot" : 9
+  }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
+    "area" : "Safari Zone_Northwest",
+    "bucket" : "Land",
+    "rateBase" : 25,
+    "min" : 29,
+    "max" : 29,
+    "slot" : 11
+  } ]
+}

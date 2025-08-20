@@ -1,0 +1,81 @@
+{
+  "dex" : 715,
+  "speciesId" : "SPECIES_FINIZEN",
+  "name" : "Finizen",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Water Veil", "None", "None" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 200,
+  "baseExp" : 63,
+  "eggGroups" : [ "Field", "Water 2" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.3,
+  "weightKg" : 60.2,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Dolphin",
+  "friendship" : 70,
+  "description" : "Its water ring is made from\nseawater mixed with a sticky fluid that\nFinizen secretes from its blowhole.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_PALAFIN_ZERO",
+    "method" : "level",
+    "param" : "38"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 45,
+    "def" : 40,
+    "spe" : 75,
+    "spa" : 45,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 5,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 8,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 12,
+    "move" : "Double Hit"
+  }, {
+    "level" : 19,
+    "move" : "Triple Dive"
+  }, {
+    "level" : 22,
+    "move" : "Charm"
+  }, {
+    "level" : 27,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 30,
+    "move" : "Encore"
+  }, {
+    "level" : 32,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 35,
+    "move" : "Mist"
+  }, {
+    "level" : 48,
+    "move" : "Hydro Pump"
+  } ],
+  "eggMoves" : [ "Boomburst", "Bounce", "Counter", "Haze", "Tickle" ],
+  "teachableMoves" : [ "Acrobatics", "Blizzard", "Body Slam", "Counter", "Dive", "Endure", "Facade", "Ice Beam", "Icy Wind", "Protect", "Psych Up", "Rain Dance", "Rest", "Sleep Talk", "Surf", "Swift", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

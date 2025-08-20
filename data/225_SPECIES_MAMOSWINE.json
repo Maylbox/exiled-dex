@@ -1,0 +1,146 @@
+{
+  "dex" : 225,
+  "speciesId" : "SPECIES_MAMOSWINE",
+  "name" : "Mamoswine",
+  "types" : [ "Ice", "Ground" ],
+  "abilities" : [ "Oblivious", "Snow Cloak", "Thick Fat" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 50,
+  "baseExp" : 207,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.5,
+  "weightKg" : 291.0,
+  "growthRate" : "Slow",
+  "color" : "Brown",
+  "category" : "Twin Tusk",
+  "friendship" : 70,
+  "description" : "A frozen Mamoswine was dug from ice\ndating back 10,000 years. It woke up to\nmuch amazement. This Pokémon has been\naround for a long, long, long time.",
+  "preEvolutionId" : "SPECIES_PILOSWINE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 110,
+    "atk" : 130,
+    "def" : 80,
+    "spe" : 80,
+    "spa" : 70,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 1,
+    "move" : "Odor Sleuth"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Scary Face"
+  }, {
+    "level" : 5,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 8,
+    "move" : "Ice Shard"
+  }, {
+    "level" : 11,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 14,
+    "move" : "Endure"
+  }, {
+    "level" : 18,
+    "move" : "Mud Bomb"
+  }, {
+    "level" : 21,
+    "move" : "Snowscape"
+  }, {
+    "level" : 24,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 28,
+    "move" : "Take Down"
+  }, {
+    "level" : 33,
+    "move" : "Double Hit"
+  }, {
+    "level" : 37,
+    "move" : "Mist"
+  }, {
+    "level" : 41,
+    "move" : "Thrash"
+  }, {
+    "level" : 46,
+    "move" : "Earthquake"
+  }, {
+    "level" : 52,
+    "move" : "Icicle Crash"
+  }, {
+    "level" : 58,
+    "move" : "Mighty Cleave"
+  }, {
+    "level" : 70,
+    "move" : "Headlong Rush"
+  }, {
+    "level" : 79,
+    "move" : "Lands Wrath"
+  }, {
+    "level" : 95,
+    "move" : "Mountain Gale"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Avalanche", "Bite", "Body Slam", "Curse", "Double Edge", "Fissure", "Freeze Dry", "Icicle Crash", "Icicle Spear", "Mud Shot", "Stealth Rock", "Take Down" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Bulldoze", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Fury Cutter", "Giga Impact", "High Horsepower", "Hyper Beam", "Ice Beam", "Ice Fang", "Icicle Crash", "Icy Wind", "Iron Head", "Knock Off", "Light Screen", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Snowscape", "Stealth Rock", "Stone Edge", "Strength", "Swagger", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "ShoalCave_LowTideStairsRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Stairs Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 6
+  }, {
+    "areaKey" : "ShoalCave_LowTideLowerRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Lower Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 6
+  }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Inner Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 6
+  }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Entrance Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 6
+  }, {
+    "areaKey" : "ShoalCave_LowTideIceRoom",
+    "bucketKey" : "Land",
+    "area" : "Shoal Cave_Low Tide Ice Room",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 68,
+    "max" : 71,
+    "slot" : 6
+  } ]
+}

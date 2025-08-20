@@ -1,0 +1,109 @@
+{
+  "dex" : 105,
+  "speciesId" : "SPECIES_RHYDON",
+  "name" : "Rhydon",
+  "types" : [ "Ground", "Rock" ],
+  "abilities" : [ "Filter", "Rock Head", "Reckless" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.9,
+  "weightKg" : 120.0,
+  "growthRate" : "Slow",
+  "color" : "Gray",
+  "category" : "Drill",
+  "friendship" : 70,
+  "description" : "Its horn, which rotates like a drill,\ndestroys tall buildings with one strike.\nIt stands on its hind legs, and its brain\nis well developed.",
+  "preEvolutionId" : "SPECIES_RHYHORN",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_RHYPERIOR",
+    "method" : "trade_item",
+    "param" : "ITEM_PROTECTOR"
+  }, {
+    "toSpeciesId" : "SPECIES_RHYPERIOR",
+    "method" : "item",
+    "param" : "ITEM_PROTECTOR"
+  } ],
+  "baseStats" : {
+    "hp" : 105,
+    "atk" : 130,
+    "def" : 120,
+    "spe" : 40,
+    "spa" : 45,
+    "spd" : 45
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 1,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 1,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 1,
+    "move" : "Horn Attack"
+  }, {
+    "level" : 1,
+    "move" : "Horn Drill"
+  }, {
+    "level" : 1,
+    "move" : "Scary Face"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 5,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 9,
+    "move" : "Scary Face"
+  }, {
+    "level" : 13,
+    "move" : "Smack Down"
+  }, {
+    "level" : 17,
+    "move" : "Stomp"
+  }, {
+    "level" : 21,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 25,
+    "move" : "Chip Away"
+  }, {
+    "level" : 29,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 33,
+    "move" : "Drill Run"
+  }, {
+    "level" : 37,
+    "move" : "Take Down"
+  }, {
+    "level" : 41,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 42,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 48,
+    "move" : "Earthquake"
+  }, {
+    "level" : 55,
+    "move" : "Megahorn"
+  }, {
+    "level" : 62,
+    "move" : "Horn Drill"
+  } ],
+  "eggMoves" : [ "Counter", "Crunch", "Crush Claw", "Curse", "Dragon Rush", "Fire Fang", "Guard Split", "Ice Fang", "Iron Tail", "Magnitude", "Metal Burst", "Reversal", "Rock Climb", "Rototiller", "Skull Bash", "Thunder Fang" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Giga Impact", "High Horsepower", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Iron Defense", "Mega Kick", "Mega Punch", "Meteor Beam", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Seismic Toss", "Shadow Claw", "Shock Wave", "Sleep Talk", "Smack Down", "Smart Strike", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Swords Dance", "Thief", "Thunder", "Thunder Fang", "Thunder Punch", "Thunderbolt", "Toxic" ],
+  "encounters" : [ ]
+}

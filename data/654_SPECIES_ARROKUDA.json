@@ -1,0 +1,90 @@
+{
+  "dex" : 654,
+  "speciesId" : "SPECIES_ARROKUDA",
+  "name" : "Arrokuda",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Swift Swim", "None", "Propeller Tail" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 56,
+  "eggGroups" : [ "Water 2" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 1.0,
+  "growthRate" : "Slow",
+  "color" : "Brown",
+  "category" : "Rush",
+  "friendship" : 70,
+  "description" : "If it sees any movement around it, this\nPokémon charges for it straightaway,\nleading with its sharply pointed jaw.\nIt's very proud of that jaw.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BARRASKEWDA",
+    "method" : "level",
+    "param" : "26"
+  } ],
+  "baseStats" : {
+    "hp" : 41,
+    "atk" : 63,
+    "def" : 40,
+    "spe" : 66,
+    "spa" : 40,
+    "spd" : 30
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 6,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 12,
+    "move" : "Bite"
+  }, {
+    "level" : 18,
+    "move" : "Agility"
+  }, {
+    "level" : 24,
+    "move" : "Dive"
+  }, {
+    "level" : 30,
+    "move" : "Laser Focus"
+  }, {
+    "level" : 36,
+    "move" : "Crunch"
+  }, {
+    "level" : 42,
+    "move" : "Liquidation"
+  }, {
+    "level" : 48,
+    "move" : "Double Edge"
+  } ],
+  "eggMoves" : [ "Acupressure", "Night Slash", "Slash", "Thrash" ],
+  "teachableMoves" : [ "Attract", "Brick Break", "Crunch", "Dive", "Double Edge", "Endure", "Facade", "Flip Turn", "Ice Fang", "Poison Jab", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swift", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "Route103",
+    "bucketKey" : "Fishing",
+    "area" : "Route 103",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route115",
+    "bucketKey" : "Fishing",
+    "area" : "Route 115",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 1
+  } ]
+}

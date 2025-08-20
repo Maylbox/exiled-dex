@@ -1,0 +1,215 @@
+{
+  "dex" : 327,
+  "speciesId" : "SPECIES_MILOTIC",
+  "name" : "Milotic",
+  "types" : [ "Water", "Fairy" ],
+  "abilities" : [ "Marvel Scale", "Competitive", "Serene Grace" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 6.2,
+  "weightKg" : 162.0,
+  "growthRate" : "Erratic",
+  "color" : "Pink",
+  "category" : "Tender",
+  "friendship" : 70,
+  "description" : "It is said to live at the bottom of\nlarge lakes. Considered to be the most\nbeautiful of all Pokémon, it has been\ndepicted in paintings and statues.",
+  "preEvolutionId" : "SPECIES_FEEBAS",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 105,
+    "atk" : 40,
+    "def" : 89,
+    "spe" : 86,
+    "spa" : 105,
+    "spd" : 125
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 1,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 1,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 1,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 1,
+    "move" : "Water Sport"
+  }, {
+    "level" : 1,
+    "move" : "Wrap"
+  }, {
+    "level" : 4,
+    "move" : "Water Sport"
+  }, {
+    "level" : 7,
+    "move" : "Refresh"
+  }, {
+    "level" : 11,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 14,
+    "move" : "Twister"
+  }, {
+    "level" : 17,
+    "move" : "Aqua Ring"
+  }, {
+    "level" : 21,
+    "move" : "Freeze Dry"
+  }, {
+    "level" : 24,
+    "move" : "Dragon Tail"
+  }, {
+    "level" : 27,
+    "move" : "Recover"
+  }, {
+    "level" : 31,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 34,
+    "move" : "Attract"
+  }, {
+    "level" : 37,
+    "move" : "Safeguard"
+  }, {
+    "level" : 41,
+    "move" : "Coil"
+  }, {
+    "level" : 44,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 47,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 52,
+    "move" : "Bouncy Bubble"
+  }, {
+    "level" : 55,
+    "move" : "Moonblast"
+  }, {
+    "level" : 62,
+    "move" : "Steam Eruption"
+  } ],
+  "eggMoves" : [ "Brine", "Captivate", "Confuse Ray", "Dragon Breath", "Dragon Pulse", "Haze", "Hypnosis", "Iron Tail", "Mirror Coat", "Mist", "Mud Sport", "Tickle" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Dive", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Flip Turn", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Head", "Light Screen", "Mirror Coat", "Mud Slap", "Protect", "Psych Up", "Rain Dance", "Rest", "Safeguard", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Toxic", "Triple Axel", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_1",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 1
+  }, {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_1",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 7
+  }, {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_1",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 11
+  }, {
+    "areaKey" : "BattlePike_2",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_2",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 1
+  }, {
+    "areaKey" : "BattlePike_2",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_2",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 7
+  }, {
+    "areaKey" : "BattlePike_2",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_2",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 11
+  }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_3",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 1
+  }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_3",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 7
+  }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_3",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 11
+  }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_4",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 1
+  }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_4",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 7
+  }, {
+    "areaKey" : "BattlePike_4",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_4",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 11
+  } ]
+}

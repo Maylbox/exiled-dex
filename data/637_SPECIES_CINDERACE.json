@@ -1,0 +1,98 @@
+{
+  "dex" : 637,
+  "speciesId" : "SPECIES_CINDERACE",
+  "name" : "Cinderace",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Blaze", "None", "Libero" ],
+  "evYield" : {
+    "spe" : 3
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 265,
+  "eggGroups" : [ "Field", "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.4,
+  "weightKg" : 33.0,
+  "growthRate" : "Medium Slow",
+  "color" : "White",
+  "category" : "Striker",
+  "friendship" : 70,
+  "description" : "It juggles a pebble with its feet,\nturning it into a burning soccer ball.\nIts shots strike opponents hard and\nleave them scorched.",
+  "preEvolutionId" : "SPECIES_RABOOT",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 116,
+    "def" : 75,
+    "spe" : 119,
+    "spa" : 65,
+    "spd" : 75
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Pyro Ball"
+  }, {
+    "level" : 1,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Pyro Ball"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Ember"
+  }, {
+    "level" : 8,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 12,
+    "move" : "Double Kick"
+  }, {
+    "level" : 14,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 17,
+    "move" : "Flame Charge"
+  }, {
+    "level" : 20,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 24,
+    "move" : "Agility"
+  }, {
+    "level" : 30,
+    "move" : "Headbutt"
+  }, {
+    "level" : 36,
+    "move" : "Counter"
+  }, {
+    "level" : 42,
+    "move" : "Bounce"
+  }, {
+    "level" : 48,
+    "move" : "Double Edge"
+  }, {
+    "level" : 54,
+    "move" : "Court Change"
+  } ],
+  "eggMoves" : [ "High Jump Kick", "Sand Attack", "Sucker Punch", "Super Fang" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Blaze Kick", "Bulk Up", "Counter", "Double Edge", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Hyper Beam", "Iron Head", "Low Kick", "Mega Kick", "Mud Slap", "Overheat", "Protect", "Rest", "Shadow Ball", "Sleep Talk", "Smack Down", "Snore", "Sunny Day", "Swift", "Swords Dance", "Taunt", "Trailblaze", "U Turn", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
+    "area" : "Scorched Slab0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 51,
+    "max" : 54,
+    "slot" : 10
+  } ]
+}

@@ -1,0 +1,111 @@
+{
+  "dex" : 498,
+  "speciesId" : "SPECIES_JOLTIK",
+  "name" : "Joltik",
+  "types" : [ "Bug", "Electric" ],
+  "abilities" : [ "Compound Eyes", "Unnerve", "Swarm" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 64,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.1,
+  "weightKg" : 0.6,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Attaching",
+  "friendship" : 70,
+  "description" : "Since they can't generate their own\nelectricity, they attach themselves to\nlarge-bodied Pokémon and absorb static\nelectricity, which they store in a pouch.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GALVANTULA",
+    "method" : "level",
+    "param" : "36"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 47,
+    "def" : 50,
+    "spe" : 65,
+    "spa" : 57,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 1,
+    "move" : "Spider Web"
+  }, {
+    "level" : 1,
+    "move" : "String Shot"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 4,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 7,
+    "move" : "Screech"
+  }, {
+    "level" : 12,
+    "move" : "Struggle Bug"
+  }, {
+    "level" : 15,
+    "move" : "Electroweb"
+  }, {
+    "level" : 18,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 23,
+    "move" : "Gastro Acid"
+  }, {
+    "level" : 26,
+    "move" : "Silver Wind"
+  }, {
+    "level" : 29,
+    "move" : "Volt Switch"
+  }, {
+    "level" : 34,
+    "move" : "Signal Beam"
+  }, {
+    "level" : 37,
+    "move" : "Agility"
+  }, {
+    "level" : 40,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 45,
+    "move" : "Discharge"
+  }, {
+    "level" : 48,
+    "move" : "Bug Buzz"
+  } ],
+  "eggMoves" : [ "Camouflage", "Cross Poison", "Disable", "Feint Attack", "Lunge", "Pin Missile", "Poison Sting", "Pursuit", "Rock Climb" ],
+  "teachableMoves" : [ "Attract", "Charge Beam", "Cut", "Double Team", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash", "Fury Cutter", "Giga Drain", "Leech Life", "Light Screen", "Poison Jab", "Protect", "Rain Dance", "Rest", "Shock Wave", "Sleep Talk", "Snore", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
+    "area" : "Petalburg Woods",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 7,
+    "slot" : 6
+  }, {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
+    "area" : "Petalburg Woods",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 7,
+    "slot" : 7
+  } ]
+}

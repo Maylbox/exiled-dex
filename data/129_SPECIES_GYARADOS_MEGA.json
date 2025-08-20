@@ -1,0 +1,92 @@
+{
+  "dex" : 129,
+  "speciesId" : "SPECIES_GYARADOS_MEGA",
+  "name" : "Gyarados - Mega",
+  "types" : [ "Water", "Dark" ],
+  "abilities" : [ "Mold Breaker", "Mold Breaker", "Mold Breaker" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 224,
+  "eggGroups" : [ "Water 2", "Dragon" ],
+  "hatchSteps" : 1280,
+  "heightM" : 6.5,
+  "weightKg" : 305.0,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Atrocious",
+  "friendship" : 70,
+  "description" : "Although it obeys its instinctive drive to\ndestroy everything within its reach, it\nwill respond to orders from a Trainer it\ntruly trusts.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 155,
+    "def" : 109,
+    "spe" : 81,
+    "spa" : 70,
+    "spd" : 130
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 20,
+    "move" : "Bite"
+  }, {
+    "level" : 21,
+    "move" : "Leer"
+  }, {
+    "level" : 24,
+    "move" : "Twister"
+  }, {
+    "level" : 27,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 30,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 33,
+    "move" : "Scary Face"
+  }, {
+    "level" : 36,
+    "move" : "Dragon Rage"
+  }, {
+    "level" : 39,
+    "move" : "Crunch"
+  }, {
+    "level" : 42,
+    "move" : "Liquidation"
+  }, {
+    "level" : 45,
+    "move" : "Bounce"
+  }, {
+    "level" : 48,
+    "move" : "Hurricane"
+  }, {
+    "level" : 51,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 54,
+    "move" : "Dragon Ascent"
+  }, {
+    "level" : 60,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 65,
+    "move" : "Ice Spinner"
+  }, {
+    "level" : 78,
+    "move" : "Dragon Dance"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Crunch", "Dark Pulse", "Dive", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Earthquake", "Endure", "Facade", "Fire Blast", "Flamethrower", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Fang", "Icy Wind", "Iron Head", "Power Whip", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Smash", "Sandstorm", "Scald", "Sleep Talk", "Snore", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Taunt", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

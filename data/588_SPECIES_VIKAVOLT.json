@@ -1,0 +1,116 @@
+{
+  "dex" : 588,
+  "speciesId" : "SPECIES_VIKAVOLT",
+  "name" : "Vikavolt",
+  "types" : [ "Bug", "Electric" ],
+  "abilities" : [ "Levitate", "None", "Volt Absorb" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.5,
+  "weightKg" : 45.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Stag Beetle",
+  "friendship" : 70,
+  "description" : null,
+  "preEvolutionId" : "SPECIES_CHARJABUG",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 78,
+    "atk" : 40,
+    "def" : 80,
+    "spe" : 97,
+    "spa" : 145,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Thunderbolt"
+  }, {
+    "level" : 1,
+    "move" : "Air Slash"
+  }, {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Charge"
+  }, {
+    "level" : 1,
+    "move" : "Flash"
+  }, {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "String Shot"
+  }, {
+    "level" : 1,
+    "move" : "Thunderbolt"
+  }, {
+    "level" : 1,
+    "move" : "Vicegrip"
+  }, {
+    "level" : 4,
+    "move" : "String Shot"
+  }, {
+    "level" : 7,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 10,
+    "move" : "Bite"
+  }, {
+    "level" : 13,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 16,
+    "move" : "Spark"
+  }, {
+    "level" : 19,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 25,
+    "move" : "Fly"
+  }, {
+    "level" : 31,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 37,
+    "move" : "Dig"
+  }, {
+    "level" : 41,
+    "move" : "Zap Cannon"
+  }, {
+    "level" : 49,
+    "move" : "Agility"
+  }, {
+    "level" : 53,
+    "move" : "Earth Power"
+  }, {
+    "level" : 60,
+    "move" : "Sticky Web"
+  }, {
+    "level" : 66,
+    "move" : "Thunderclap"
+  } ],
+  "eggMoves" : [ "Electroweb", "Endure", "Harden", "Mud Shot" ],
+  "teachableMoves" : [ "Acrobatics", "Air Slash", "Attract", "Bulldoze", "Charge Beam", "Crunch", "Dig", "Double Team", "Dual Wingbeat", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash Cannon", "Fly", "Giga Impact", "Hyper Beam", "Iron Defense", "Light Screen", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Rest", "Roost", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "FortreeCity0",
+    "bucketKey" : "Land",
+    "area" : "Fortree City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 50,
+    "max" : 53,
+    "slot" : 10
+  } ]
+}

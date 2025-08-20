@@ -1,7 +1,7 @@
 {
   "dex" : 86,
   "speciesId" : "SPECIES_EXILED_DODUO",
-  "name" : "Doduo",
+  "name" : "Exiled Doduo",
   "types" : [ "Ghost", "Flying" ],
   "abilities" : [ "Run Away", "Cursed Body", "Perish Body" ],
   "evYield" : {

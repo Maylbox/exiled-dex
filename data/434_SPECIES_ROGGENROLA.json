@@ -1,0 +1,84 @@
+{
+  "dex" : 434,
+  "speciesId" : "SPECIES_ROGGENROLA",
+  "name" : "Roggenrola",
+  "types" : [ "Rock", null ],
+  "abilities" : [ "Sturdy", "Weak Armor", "Sand Force" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 56,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.4,
+  "weightKg" : 18.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Mantle",
+  "friendship" : 70,
+  "description" : "The hexagonal cavity is its ear.\nIt walks in the direction of sounds it\nhears, but if the sounds cease, it panics\nand topples over.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BOLDORE",
+    "method" : "level",
+    "param" : "25"
+  } ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 75,
+    "def" : 85,
+    "spe" : 15,
+    "spa" : 25,
+    "spd" : 25
+  },
+  "heldItems" : {
+    "common" : "Everstone",
+    "rare" : "Hard Stone"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Harden"
+  }, {
+    "level" : 7,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 10,
+    "move" : "Headbutt"
+  }, {
+    "level" : 14,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 17,
+    "move" : "Magnitude"
+  }, {
+    "level" : 20,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 23,
+    "move" : "Smack Down"
+  }, {
+    "level" : 27,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 30,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 33,
+    "move" : "Sandstorm"
+  }, {
+    "level" : 36,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 40,
+    "move" : "Explosion"
+  } ],
+  "eggMoves" : [ "Autotomize", "Curse", "Gravity", "Heavy Slam", "Lock On", "Magnitude", "Rock Tomb", "Take Down", "Wide Guard" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Bulldoze", "Double Team", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Flash Cannon", "Iron Defense", "Meteor Beam", "Mud Slap", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Swagger", "Toxic" ],
+  "encounters" : [ ]
+}

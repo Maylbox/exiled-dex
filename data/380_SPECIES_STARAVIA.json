@@ -1,0 +1,78 @@
+{
+  "dex" : 380,
+  "speciesId" : "SPECIES_STARAVIA",
+  "name" : "Staravia",
+  "types" : [ "Flying", null ],
+  "abilities" : [ "Intimidate", "None", "Reckless" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.6,
+  "weightKg" : 15.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Starling",
+  "friendship" : 70,
+  "description" : "Recognizing their own weakness, they\nmaintain huge flocks. Fierce scuffles\nbreak out between various flocks.\nWhen alone, a Staravia cries noisily.",
+  "preEvolutionId" : "SPECIES_STARLY",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_STARAPTOR",
+    "method" : "level",
+    "param" : "34"
+  } ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 75,
+    "def" : 50,
+    "spe" : 80,
+    "spa" : 40,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 9,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 13,
+    "move" : "Double Team"
+  }, {
+    "level" : 18,
+    "move" : "Endeavor"
+  }, {
+    "level" : 23,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 28,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 33,
+    "move" : "Take Down"
+  }, {
+    "level" : 38,
+    "move" : "Agility"
+  }, {
+    "level" : 43,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 48,
+    "move" : "Final Gambit"
+  } ],
+  "eggMoves" : [ "Astonish", "Detect", "Double Edge", "Feather Dance", "Foresight", "Fury Attack", "Mirror Move", "Pursuit", "Revenge", "Roost", "Sand Attack", "Steel Wing", "Uproar" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "Fly", "Giga Impact", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ],
+  "encounters" : [ ]
+}

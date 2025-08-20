@@ -1,0 +1,101 @@
+{
+  "dex" : 451,
+  "speciesId" : "SPECIES_EXILED_COTTONEE",
+  "name" : "Exiled Cottonee",
+  "types" : [ "Fire", "Fairy" ],
+  "abilities" : [ "Flame Body", "Prankster", "Flash Fire" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 56,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 0.6,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Cotton Puff",
+  "friendship" : 70,
+  "description" : "When it finds others of its kind, they all\nstick together. When enough of them\nhave collected, the mass resembles a\ncumulonimbus cloud.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_WHIMSICOTT",
+    "method" : "item",
+    "param" : "ITEM_FIRE_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 34,
+    "atk" : 61,
+    "def" : 31,
+    "spe" : 63,
+    "spa" : 61,
+    "spd" : 30
+  },
+  "heldItems" : {
+    "common" : "Absorb Bulb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Fairy Wind"
+  }, {
+    "level" : 5,
+    "move" : "Growth"
+  }, {
+    "level" : 8,
+    "move" : "Smokescreen"
+  }, {
+    "level" : 12,
+    "move" : "Flame Wheel"
+  }, {
+    "level" : 15,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 18,
+    "move" : "Incinerate"
+  }, {
+    "level" : 21,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 24,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 28,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 32,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 36,
+    "move" : "Heat Wave"
+  }, {
+    "level" : 40,
+    "move" : "Mystical Fire"
+  }, {
+    "level" : 45,
+    "move" : "Sunny Day"
+  }, {
+    "level" : 50,
+    "move" : "Solar Beam"
+  }, {
+    "level" : 55,
+    "move" : "Flare Blitz"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Air Slash", "Attract", "Aura Sphere", "Blaze Kick", "Calm Mind", "Charge Beam", "Covet", "Cut", "Dark Pulse", "Dazzling Gleam", "Defog", "Earth Power", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hex", "Hidden Power", "Light Screen", "Meteor Beam", "Mirror Coat", "Mystical Fire", "Overheat", "Play Rough", "Power Whip", "Protect", "Psychic", "Psyshock", "Return", "Rock Smash", "Safeguard", "Scald", "Secret Power", "Shadow Ball", "Sludge Bomb", "Solar Beam", "Solar Blade", "Stone Edge", "Strength", "Substitute", "Sunny Day", "Swords Dance", "Taunt", "Thunder", "Thunderbolt", "Torment", "Toxic", "Trailblaze", "U Turn", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "Route112",
+    "bucketKey" : "Land",
+    "area" : "Route 112",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 28,
+    "max" : 32,
+    "slot" : 11
+  } ]
+}

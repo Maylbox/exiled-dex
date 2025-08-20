@@ -1,7 +1,7 @@
 {
   "dex" : 10,
   "speciesId" : "SPECIES_EXILED_CATERPIE",
-  "name" : "Caterpie",
+  "name" : "Exiled Caterpie",
   "types" : [ "Normal", "Steel" ],
   "abilities" : [ "Shield Dust", "Anticipation", "Run Away" ],
   "evYield" : {
