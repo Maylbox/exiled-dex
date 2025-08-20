@@ -296,12 +296,12 @@ function evoReqChips(edges, fromId, toId){
 
 function evoCard(s, activeId){
   const dex3 = String(s.dex).padStart(3,'0');
-  const img = spriteUrlOrPlaceholder(dex3, s.name);
+
   const isActive = s.speciesId === activeId;   // exact match only
   const cls = "evo-node" + (isActive ? " active" : "");
   return `
     <div class="${cls}" onclick="location.hash='#dex/${s.dex}/${s.speciesId}'" title="${s.name}">
-      <div class="thumb"><img src="${img}" alt="${s.name}"></div>
+      <div class="thumb">${spriteHTML(s.speciesId, s.name)}</div>
       <div class="name" style="text-align:center;margin-top:.35rem">${s.name}</div>
     </div>`;
 }
@@ -360,7 +360,7 @@ function renderDexList(){
     .join('');
     return `
       <div class="card" onclick="location.hash='#dex/${s.dex}/${s.speciesId}'" title="${s.name}">
-        <div class="thumb"><img src="${img}" alt="${s.name}" loading="lazy"></div>
+        <div class="thumb">${spriteHTML(s.speciesId, s.name)}</div>
         <div class="dex">#${dex3}</div>
         <div class="name">${s.name}</div>
         <div class="pills">${types}</div>
@@ -372,13 +372,12 @@ function renderDexList(){
 function navMini(entry, dir){  // dir: 'prev' | 'next'
   if (!entry) return '';
   const dex3 = String(entry.dex).padStart(3,'0');
-  const img  = spriteUrlOrPlaceholder(dex3, entry.name);
   const arrow = dir === 'prev' ? '◀' : '▶';
   return `
     <button class="dex-nav-btn ${dir}" onclick="location.hash='#dex/${entry.dex}/${entry.speciesId}'" title="${entry.name}">
       <span class="arrow">${arrow}</span>
       <div class="mini">
-        <div class="thumb"><img src="${img}" alt="${entry.name}" loading="lazy"></div>
+        <div class="thumb">${spriteHTML(entry.speciesId, entry.name)}</div>
         <div class="label">#${dex3}<br><strong>${entry.name}</strong></div>
       </div>
     </button>`;
@@ -444,7 +443,7 @@ async function renderDexDetail(dex, speciesId){
     <div class="detail">
       <div class="hero" style="border-color:${accent}">
         <div style="display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap">
-          <div class="thumb" style="width:220px"><img src="${img}" alt="${data.name}"></div>
+          <div class="thumb" style="width:220px">${spriteHTML(s.speciesId, data.name)}</div>
           <div>
             <h1>${data.name} <small>#${dex3}</small></h1>
             <div class="pills" style="margin:.25rem 0 .5rem 0">${types}</div>
@@ -535,6 +534,88 @@ window.addEventListener('error',(e)=>{
     n.src = makePlaceholder(label);
   }
 },true);
+
+function dirFromId(speciesId, name) {
+  return (speciesId || name || '')
+    .toString()
+    .toLowerCase()
+    .replace(/[^a-z0-9_-]+/g, ''); // allow dash/underscore
+}
+const SPRITE_ROOT = 'assets/pokemon/';
+const REGION_MAP = { alola:'alolan', galar:'galarian', hisui:'hisuian', paldea:'paldean' };
+
+function spriteHTML(speciesId, name){
+  const sid = String(speciesId || '').toUpperCase();
+  const nm  = String(name || '');
+
+  // variant detect
+  const isMegaX = /MEGA[_-]?X/.test(sid) || /\bmega\s*x\b/i.test(nm);
+  const isMegaY = /MEGA[_-]?Y/.test(sid) || /\bmega\s*y\b/i.test(nm);
+  const isMega  = (!isMegaX && !isMegaY) && (/_MEGA\b/.test(sid) || /\b-\s*mega\b/i.test(nm));
+  let region = null;
+  for (const [k,folder] of Object.entries(REGION_MAP))
+    if (sid.includes(k.toUpperCase()) || nm.toLowerCase().includes(k)) { region = folder; break; }
+  const isExiled = /^SPECIES_EXILED_/.test(sid) || /_EXILED\b/.test(sid) || /^\s*exiled\b/i.test(nm);
+
+  const variant = isExiled ? 'exiled' : isMegaX ? 'mega_x' : isMegaY ? 'mega_y' : isMega ? 'mega' : region;
+
+  // base token
+  const base = (sid
+      ? sid.replace(/^SPECIES_/, '')
+           .replace(/^EXILED_/, '')      // <-- fix: drop leading EXILED_
+           .replace(/_EXILED\b.*/, '')   // <-- fix: drop trailing _EXILED
+           .replace(/_(MEGA(_X|_Y)?|GIGANTAMAX|ALOLA|HISUI|GALARIAN|PALDEA).*$/, '')
+      : nm.toLowerCase().trim()
+           .replace(/^\s*exiled\s+/, '') // "Exiled Machop" → "machop"
+           .replace(/^\s*(alolan|hisuian|galarian|paldean)\s+/, '')
+           .replace(/\s*-\s*(mega.*|alola.*|hisui.*|galar.*|paldea.*)$/, '')
+           .replace(/\s+/g,'_')
+    ).toLowerCase().replace(/[^a-z0-9_-]+/g,'');
+
+  const baseDir   = `${SPRITE_ROOT}${base}`;
+  const exiledDir = `${SPRITE_ROOT}exiled_${base}`;
+
+  const chain = variant === 'exiled'
+    ? [ `${exiledDir}/anim_front.png`, `${exiledDir}/front.png`,
+        `${baseDir}/anim_front.png`, `${baseDir}/front.png` ]
+    : variant
+    ? [ `${baseDir}/${variant}/front.png`, `${baseDir}/front.png` ]
+    : [ `${baseDir}/anim_front.png`, `${baseDir}/front.png`,
+        `${baseDir}/mega_x/front.png`, `${baseDir}/mega_y/front.png`, `${baseDir}/mega/front.png`,
+        `${baseDir}/alolan/front.png`, `${baseDir}/galarian/front.png`,
+        `${baseDir}/hisuian/front.png`, `${baseDir}/paldean/front.png`,
+        `${exiledDir}/anim_front.png`, `${exiledDir}/front.png` ];
+
+  const safeAlt = nm.replace(/"/g,'&quot;');
+  const placeholder = makePlaceholder(nm);
+
+  return `
+    <img class="sprite ${variant && variant!=='exiled' ? '' : 'anim'}"
+         src="${chain[0]}"
+         data-fallback="${chain.slice(1).join('|')}"
+         alt="${safeAlt}" loading="lazy"
+         onerror="(function(img){
+           const rest=(img.dataset.fallback||'').split('|').filter(Boolean);
+           if(rest.length){ img.src=rest.shift(); img.dataset.fallback=rest.join('|'); }
+           else{ img.src='${placeholder}'; }
+         })(this)">
+  `;
+}
+
+
+// global fallback used by onerror above
+window.__spriteFallback = function(img){
+  const alt = img.getAttribute('alt') || '';
+  // if we haven't tried anim yet, try it and crop via CSS with .anim
+  if (!img.dataset.triedAnim && img.dataset.anim){
+    img.dataset.triedAnim = '1';
+    img.classList.add('anim');
+    img.src = img.dataset.anim;
+    return;
+  }
+  // last resort: placeholder
+  img.src = makePlaceholder(alt);
+};
 
 function makePlaceholder(label){
   const text = label.replace(/&/g,'&amp;').replace(/</g,'&lt;');
