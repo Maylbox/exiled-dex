@@ -1,7 +1,7 @@
 {
   "dex" : 81,
   "speciesId" : "SPECIES_SLOWBRO_GALARIAN",
-  "name" : "Slowbro",
+  "name" : "Galarian Slowbro",
   "types" : [ "Poison", "Psychic" ],
   "abilities" : [ "Quick Draw", "Own Tempo", "Regenerator" ],
   "evYield" : {

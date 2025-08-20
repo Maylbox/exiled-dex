@@ -1,7 +1,7 @@
 {
   "dex" : 98,
   "speciesId" : "SPECIES_EXEGGUTOR_ALOLAN",
-  "name" : "Exeggutor",
+  "name" : "Alolan Exeggutor",
   "types" : [ "Grass", "Dragon" ],
   "abilities" : [ "Frisk", "None", "Harvest" ],
   "evYield" : {

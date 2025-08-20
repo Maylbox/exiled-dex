@@ -1,7 +1,7 @@
 {
   "dex" : 572,
   "speciesId" : "SPECIES_GOODRA_HISUIAN",
-  "name" : "Goodra",
+  "name" : "Hisuian Goodra",
   "types" : [ "Dragon", "Steel" ],
   "abilities" : [ "Sap Sipper", "Shell Armor", "Gooey" ],
   "evYield" : {

@@ -1,7 +1,7 @@
 {
   "dex" : 40,
   "speciesId" : "SPECIES_VULPIX_ALOLAN",
-  "name" : "Vulpix",
+  "name" : "Alolan Vulpix",
   "types" : [ "Ice", null ],
   "abilities" : [ "Snow Cloak", "None", "Snow Warning" ],
   "evYield" : {

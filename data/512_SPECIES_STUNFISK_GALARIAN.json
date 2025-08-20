@@ -1,7 +1,7 @@
 {
   "dex" : 512,
   "speciesId" : "SPECIES_STUNFISK_GALARIAN",
-  "name" : "Stunfisk",
+  "name" : "Galarian Stunfisk",
   "types" : [ "Ground", "Steel" ],
   "abilities" : [ "Mimicry", "None", "None" ],
   "evYield" : {

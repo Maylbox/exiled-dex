@@ -1,7 +1,7 @@
 {
   "dex" : 216,
   "speciesId" : "SPECIES_SNEASEL_HISUIAN",
-  "name" : "Sneasel",
+  "name" : "Hisuian Sneasel",
   "types" : [ "Fighting", "Poison" ],
   "abilities" : [ "Inner Focus", "Keen Eye", "Pickpocket" ],
   "evYield" : {

@@ -1,7 +1,7 @@
 {
   "dex" : 101,
   "speciesId" : "SPECIES_MAROWAK_ALOLAN",
-  "name" : "Marowak",
+  "name" : "Alolan Marowak",
   "types" : [ "Fire", "Ghost" ],
   "abilities" : [ "Cursed Body", "Lightning Rod", "Rock Head" ],
   "evYield" : {

@@ -401,7 +401,7 @@
 }, {
   "dex" : 26,
   "speciesId" : "SPECIES_RAICHU_ALOLAN",
-  "name" : "Raichu",
+  "name" : "Alolan Raichu",
   "types" : [ "Electric", "Psychic" ],
   "abilities" : [ "Surge Surfer", "None", "None" ],
   "color" : "Brown",
@@ -417,7 +417,7 @@
 }, {
   "dex" : 27,
   "speciesId" : "SPECIES_SANDSHREW_ALOLAN",
-  "name" : "Sandshrew",
+  "name" : "Alolan Sandshrew",
   "types" : [ "Ice", "Steel" ],
   "abilities" : [ "Snow Cloak", "None", "Slush Rush" ],
   "color" : "Blue",
@@ -433,7 +433,7 @@
 }, {
   "dex" : 28,
   "speciesId" : "SPECIES_SANDSLASH_ALOLAN",
-  "name" : "Sandslash",
+  "name" : "Alolan Sandslash",
   "types" : [ "Ice", "Steel" ],
   "abilities" : [ "Snow Cloak", "None", "Slush Rush" ],
   "color" : "Blue",
@@ -553,7 +553,7 @@
 }, {
   "dex" : 40,
   "speciesId" : "SPECIES_VULPIX_ALOLAN",
-  "name" : "Vulpix",
+  "name" : "Alolan Vulpix",
   "types" : [ "Ice", null ],
   "abilities" : [ "Snow Cloak", "None", "Snow Warning" ],
   "color" : "Blue",
@@ -577,7 +577,7 @@
 }, {
   "dex" : 41,
   "speciesId" : "SPECIES_NINETALES_ALOLAN",
-  "name" : "Ninetales",
+  "name" : "Alolan Ninetales",
   "types" : [ "Ice", "Fairy" ],
   "abilities" : [ "Snow Cloak", "None", "Snow Warning" ],
   "color" : "Blue",
@@ -689,7 +689,7 @@
 }, {
   "dex" : 54,
   "speciesId" : "SPECIES_MEOWTH_ALOLAN",
-  "name" : "Meowth",
+  "name" : "Alolan Meowth",
   "types" : [ "Dark", null ],
   "abilities" : [ "Pickup", "Technician", "Rattled" ],
   "color" : "Gray",
@@ -697,7 +697,7 @@
 }, {
   "dex" : 54,
   "speciesId" : "SPECIES_MEOWTH_GALARIAN",
-  "name" : "Meowth",
+  "name" : "Galarian Meowth",
   "types" : [ "Steel", null ],
   "abilities" : [ "Pickup", "Tough Claws", "Unnerve" ],
   "color" : "Brown",
@@ -713,7 +713,7 @@
 }, {
   "dex" : 55,
   "speciesId" : "SPECIES_PERSIAN_ALOLAN",
-  "name" : "Persian",
+  "name" : "Alolan Persian",
   "types" : [ "Dark", null ],
   "abilities" : [ "Fur Coat", "Technician", "Rattled" ],
   "color" : "Gray",
@@ -929,7 +929,7 @@
 }, {
   "dex" : 74,
   "speciesId" : "SPECIES_GEODUDE_ALOLAN",
-  "name" : "Geodude",
+  "name" : "Alolan Geodude",
   "types" : [ "Rock", "Electric" ],
   "abilities" : [ "Magnet Pull", "Sturdy", "Galvanize" ],
   "color" : "Brown",
@@ -945,7 +945,7 @@
 }, {
   "dex" : 75,
   "speciesId" : "SPECIES_GRAVELER_ALOLAN",
-  "name" : "Graveler",
+  "name" : "Alolan Graveler",
   "types" : [ "Rock", "Electric" ],
   "abilities" : [ "Magnet Pull", "Sturdy", "Galvanize" ],
   "color" : "Brown",
@@ -961,7 +961,7 @@
 }, {
   "dex" : 76,
   "speciesId" : "SPECIES_GOLEM_ALOLAN",
-  "name" : "Golem",
+  "name" : "Alolan Golem",
   "types" : [ "Rock", "Electric" ],
   "abilities" : [ "Magnet Pull", "Sturdy", "Galvanize" ],
   "color" : "Brown",
@@ -977,7 +977,7 @@
 }, {
   "dex" : 80,
   "speciesId" : "SPECIES_SLOWPOKE_GALARIAN",
-  "name" : "Slowpoke",
+  "name" : "Galarian Slowpoke",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Gluttony", "Own Tempo", "Regenerator" ],
   "color" : "Pink",
@@ -993,7 +993,7 @@
 }, {
   "dex" : 81,
   "speciesId" : "SPECIES_SLOWBRO_GALARIAN",
-  "name" : "Slowbro",
+  "name" : "Galarian Slowbro",
   "types" : [ "Poison", "Psychic" ],
   "abilities" : [ "Quick Draw", "Own Tempo", "Regenerator" ],
   "color" : "Pink",
@@ -1017,7 +1017,7 @@
 }, {
   "dex" : 82,
   "speciesId" : "SPECIES_SLOWKING_GALARIAN",
-  "name" : "Slowking",
+  "name" : "Galarian Slowking",
   "types" : [ "Poison", "Psychic" ],
   "abilities" : [ "Curious Medicine", "Own Tempo", "Regenerator" ],
   "color" : "Pink",
@@ -1089,7 +1089,7 @@
 }, {
   "dex" : 88,
   "speciesId" : "SPECIES_GRIMER_ALOLAN",
-  "name" : "Grimer",
+  "name" : "Alolan Grimer",
   "types" : [ "Poison", "Dark" ],
   "abilities" : [ "Poison Touch", "Gluttony", "Power Of Alchemy" ],
   "color" : "Green",
@@ -1105,7 +1105,7 @@
 }, {
   "dex" : 89,
   "speciesId" : "SPECIES_MUK_ALOLAN",
-  "name" : "Muk",
+  "name" : "Alolan Muk",
   "types" : [ "Poison", "Dark" ],
   "abilities" : [ "Poison Touch", "Gluttony", "Power Of Alchemy" ],
   "color" : "Green",
@@ -1201,7 +1201,7 @@
 }, {
   "dex" : 98,
   "speciesId" : "SPECIES_EXEGGUTOR_ALOLAN",
-  "name" : "Exeggutor",
+  "name" : "Alolan Exeggutor",
   "types" : [ "Grass", "Dragon" ],
   "abilities" : [ "Frisk", "None", "Harvest" ],
   "color" : "Yellow",
@@ -1225,7 +1225,7 @@
 }, {
   "dex" : 101,
   "speciesId" : "SPECIES_MAROWAK_ALOLAN",
-  "name" : "Marowak",
+  "name" : "Alolan Marowak",
   "types" : [ "Fire", "Ghost" ],
   "abilities" : [ "Cursed Body", "Lightning Rod", "Rock Head" ],
   "color" : "Purple",
@@ -1257,7 +1257,7 @@
 }, {
   "dex" : 103,
   "speciesId" : "SPECIES_WEEZING_GALARIAN",
-  "name" : "Weezing",
+  "name" : "Galarian Weezing",
   "types" : [ "Poison", "Fairy" ],
   "abilities" : [ "Levitate", "Neutralizing Gas", "Misty Surge" ],
   "color" : "Gray",
@@ -1737,7 +1737,7 @@
 }, {
   "dex" : 172,
   "speciesId" : "SPECIES_TYPHLOSION_HISUIAN",
-  "name" : "Typhlosion",
+  "name" : "Hisuian Typhlosion",
   "types" : [ "Fire", "Ghost" ],
   "abilities" : [ "Blaze", "Flash Fire", "Drought" ],
   "color" : "Yellow",
@@ -1977,7 +1977,7 @@
 }, {
   "dex" : 201,
   "speciesId" : "SPECIES_WOOPER_PALDEAN",
-  "name" : "Wooper",
+  "name" : "Paldean Wooper",
   "types" : [ "Poison", "Ground" ],
   "abilities" : [ "Poison Point", "Water Absorb", "Unaware" ],
   "color" : "Brown",
@@ -2105,7 +2105,7 @@
 }, {
   "dex" : 216,
   "speciesId" : "SPECIES_SNEASEL_HISUIAN",
-  "name" : "Sneasel",
+  "name" : "Hisuian Sneasel",
   "types" : [ "Fighting", "Poison" ],
   "abilities" : [ "Inner Focus", "Keen Eye", "Pickpocket" ],
   "color" : "Gray",
@@ -2217,7 +2217,7 @@
 }, {
   "dex" : 227,
   "speciesId" : "SPECIES_CORSOLA_GALARIAN",
-  "name" : "Corsola",
+  "name" : "Galarian Corsola",
   "types" : [ "Ghost", null ],
   "abilities" : [ "Weak Armor", "None", "Cursed Body" ],
   "color" : "White",
@@ -2433,7 +2433,7 @@
 }, {
   "dex" : 250,
   "speciesId" : "SPECIES_ZIGZAGOON_GALARIAN",
-  "name" : "Zigzagoon",
+  "name" : "Galarian Zigzagoon",
   "types" : [ "Dark", "Normal" ],
   "abilities" : [ "Pickup", "Gluttony", "Quick Feet" ],
   "color" : "White",
@@ -2449,7 +2449,7 @@
 }, {
   "dex" : 251,
   "speciesId" : "SPECIES_LINOONE_GALARIAN",
-  "name" : "Linoone",
+  "name" : "Galarian Linoone",
   "types" : [ "Dark", "Normal" ],
   "abilities" : [ "Pickup", "Gluttony", "Quick Feet" ],
   "color" : "White",
@@ -4057,7 +4057,7 @@
 }, {
   "dex" : 433,
   "speciesId" : "SPECIES_SAMUROTT_HISUIAN",
-  "name" : "Samurott",
+  "name" : "Hisuian Samurott",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Torrent", "None", "Sharpness" ],
   "color" : "Blue",
@@ -4257,7 +4257,7 @@
 }, {
   "dex" : 455,
   "speciesId" : "SPECIES_LILLIGANT_HISUIAN",
-  "name" : "Lilligant",
+  "name" : "Hisuian Lilligant",
   "types" : [ "Grass", "Fighting" ],
   "abilities" : [ "Chlorophyll", "Hustle", "Leaf Guard" ],
   "color" : "Green",
@@ -4345,7 +4345,7 @@
 }, {
   "dex" : 464,
   "speciesId" : "SPECIES_DARUMAKA_GALARIAN",
-  "name" : "Darumaka",
+  "name" : "Galarian Darumaka",
   "types" : [ "Ice", null ],
   "abilities" : [ "Hustle", "None", "Inner Focus" ],
   "color" : "White",
@@ -4489,7 +4489,7 @@
 }, {
   "dex" : 478,
   "speciesId" : "SPECIES_ZORUA_HISUIAN",
-  "name" : "Zorua",
+  "name" : "Hisuian Zorua",
   "types" : [ "Normal", "Ghost" ],
   "abilities" : [ "Illusion", "None", "None" ],
   "color" : "Gray",
@@ -4505,7 +4505,7 @@
 }, {
   "dex" : 479,
   "speciesId" : "SPECIES_ZOROARK_HISUIAN",
-  "name" : "Zoroark",
+  "name" : "Hisuian Zoroark",
   "types" : [ "Normal", "Ghost" ],
   "abilities" : [ "Illusion", "None", "None" ],
   "color" : "Gray",
@@ -4777,7 +4777,7 @@
 }, {
   "dex" : 512,
   "speciesId" : "SPECIES_STUNFISK_GALARIAN",
-  "name" : "Stunfisk",
+  "name" : "Galarian Stunfisk",
   "types" : [ "Ground", "Steel" ],
   "abilities" : [ "Mimicry", "None", "None" ],
   "color" : "Green",
@@ -4873,7 +4873,7 @@
 }, {
   "dex" : 522,
   "speciesId" : "SPECIES_BRAVIARY_HISUIAN",
-  "name" : "Braviary",
+  "name" : "Hisuian Braviary",
   "types" : [ "Psychic", "Flying" ],
   "abilities" : [ "Keen Eye", "Sheer Force", "Tinted Lens" ],
   "color" : "White",
@@ -5185,7 +5185,7 @@
 }, {
   "dex" : 571,
   "speciesId" : "SPECIES_SLIGGOO_HISUIAN",
-  "name" : "Sliggoo",
+  "name" : "Hisuian Sliggoo",
   "types" : [ "Dragon", "Steel" ],
   "abilities" : [ "Sap Sipper", "Shell Armor", "Gooey" ],
   "color" : "Purple",
@@ -5201,7 +5201,7 @@
 }, {
   "dex" : 572,
   "speciesId" : "SPECIES_GOODRA_HISUIAN",
-  "name" : "Goodra",
+  "name" : "Hisuian Goodra",
   "types" : [ "Dragon", "Steel" ],
   "abilities" : [ "Sap Sipper", "Shell Armor", "Gooey" ],
   "color" : "Purple",
@@ -5257,7 +5257,7 @@
 }, {
   "dex" : 579,
   "speciesId" : "SPECIES_DECIDUEYE_HISUIAN",
-  "name" : "Decidueye",
+  "name" : "Hisuian Decidueye",
   "types" : [ "Grass", "Fighting" ],
   "abilities" : [ "Overgrow", "None", "Scrappy" ],
   "color" : "Brown",

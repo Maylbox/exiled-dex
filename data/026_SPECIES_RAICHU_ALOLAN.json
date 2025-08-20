@@ -1,7 +1,7 @@
 {
   "dex" : 26,
   "speciesId" : "SPECIES_RAICHU_ALOLAN",
-  "name" : "Raichu",
+  "name" : "Alolan Raichu",
   "types" : [ "Electric", "Psychic" ],
   "abilities" : [ "Surge Surfer", "None", "None" ],
   "evYield" : {

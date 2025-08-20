@@ -1,7 +1,7 @@
 {
   "dex" : 250,
   "speciesId" : "SPECIES_ZIGZAGOON_GALARIAN",
-  "name" : "Zigzagoon",
+  "name" : "Galarian Zigzagoon",
   "types" : [ "Dark", "Normal" ],
   "abilities" : [ "Pickup", "Gluttony", "Quick Feet" ],
   "evYield" : {

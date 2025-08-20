@@ -1,7 +1,7 @@
 {
   "dex" : 433,
   "speciesId" : "SPECIES_SAMUROTT_HISUIAN",
-  "name" : "Samurott",
+  "name" : "Hisuian Samurott",
   "types" : [ "Water", "Dark" ],
   "abilities" : [ "Torrent", "None", "Sharpness" ],
   "evYield" : {

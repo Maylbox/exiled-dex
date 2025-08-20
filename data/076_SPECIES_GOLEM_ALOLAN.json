@@ -1,7 +1,7 @@
 {
   "dex" : 76,
   "speciesId" : "SPECIES_GOLEM_ALOLAN",
-  "name" : "Golem",
+  "name" : "Alolan Golem",
   "types" : [ "Rock", "Electric" ],
   "abilities" : [ "Magnet Pull", "Sturdy", "Galvanize" ],
   "evYield" : {

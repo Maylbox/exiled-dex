@@ -1,7 +1,7 @@
 {
   "dex" : 28,
   "speciesId" : "SPECIES_SANDSLASH_ALOLAN",
-  "name" : "Sandslash",
+  "name" : "Alolan Sandslash",
   "types" : [ "Ice", "Steel" ],
   "abilities" : [ "Snow Cloak", "None", "Slush Rush" ],
   "evYield" : {

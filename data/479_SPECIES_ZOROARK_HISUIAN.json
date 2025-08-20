@@ -1,7 +1,7 @@
 {
   "dex" : 479,
   "speciesId" : "SPECIES_ZOROARK_HISUIAN",
-  "name" : "Zoroark",
+  "name" : "Hisuian Zoroark",
   "types" : [ "Normal", "Ghost" ],
   "abilities" : [ "Illusion", "None", "None" ],
   "evYield" : {

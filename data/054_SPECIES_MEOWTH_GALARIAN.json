@@ -1,7 +1,7 @@
 {
   "dex" : 54,
   "speciesId" : "SPECIES_MEOWTH_GALARIAN",
-  "name" : "Meowth",
+  "name" : "Galarian Meowth",
   "types" : [ "Steel", null ],
   "abilities" : [ "Pickup", "Tough Claws", "Unnerve" ],
   "evYield" : {

@@ -1,7 +1,7 @@
 {
   "dex" : 579,
   "speciesId" : "SPECIES_DECIDUEYE_HISUIAN",
-  "name" : "Decidueye",
+  "name" : "Hisuian Decidueye",
   "types" : [ "Grass", "Fighting" ],
   "abilities" : [ "Overgrow", "None", "Scrappy" ],
   "evYield" : {

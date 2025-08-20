@@ -1,7 +1,7 @@
 {
   "dex" : 55,
   "speciesId" : "SPECIES_PERSIAN_ALOLAN",
-  "name" : "Persian",
+  "name" : "Alolan Persian",
   "types" : [ "Dark", null ],
   "abilities" : [ "Fur Coat", "Technician", "Rattled" ],
   "evYield" : {

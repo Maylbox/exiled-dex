@@ -1,7 +1,7 @@
 {
   "dex" : 522,
   "speciesId" : "SPECIES_BRAVIARY_HISUIAN",
-  "name" : "Braviary",
+  "name" : "Hisuian Braviary",
   "types" : [ "Psychic", "Flying" ],
   "abilities" : [ "Keen Eye", "Sheer Force", "Tinted Lens" ],
   "evYield" : {

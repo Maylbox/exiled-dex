@@ -1,7 +1,7 @@
 {
   "dex" : 251,
   "speciesId" : "SPECIES_LINOONE_GALARIAN",
-  "name" : "Linoone",
+  "name" : "Galarian Linoone",
   "types" : [ "Dark", "Normal" ],
   "abilities" : [ "Pickup", "Gluttony", "Quick Feet" ],
   "evYield" : {

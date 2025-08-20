@@ -1,7 +1,7 @@
 {
   "dex" : 75,
   "speciesId" : "SPECIES_GRAVELER_ALOLAN",
-  "name" : "Graveler",
+  "name" : "Alolan Graveler",
   "types" : [ "Rock", "Electric" ],
   "abilities" : [ "Magnet Pull", "Sturdy", "Galvanize" ],
   "evYield" : {

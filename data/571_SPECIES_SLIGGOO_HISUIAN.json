@@ -1,7 +1,7 @@
 {
   "dex" : 571,
   "speciesId" : "SPECIES_SLIGGOO_HISUIAN",
-  "name" : "Sliggoo",
+  "name" : "Hisuian Sliggoo",
   "types" : [ "Dragon", "Steel" ],
   "abilities" : [ "Sap Sipper", "Shell Armor", "Gooey" ],
   "evYield" : {

@@ -1,7 +1,7 @@
 {
   "dex" : 89,
   "speciesId" : "SPECIES_MUK_ALOLAN",
-  "name" : "Muk",
+  "name" : "Alolan Muk",
   "types" : [ "Poison", "Dark" ],
   "abilities" : [ "Poison Touch", "Gluttony", "Power Of Alchemy" ],
   "evYield" : {

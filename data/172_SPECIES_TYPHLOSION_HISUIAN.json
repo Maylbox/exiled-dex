@@ -1,7 +1,7 @@
 {
   "dex" : 172,
   "speciesId" : "SPECIES_TYPHLOSION_HISUIAN",
-  "name" : "Typhlosion",
+  "name" : "Hisuian Typhlosion",
   "types" : [ "Fire", "Ghost" ],
   "abilities" : [ "Blaze", "Flash Fire", "Drought" ],
   "evYield" : {

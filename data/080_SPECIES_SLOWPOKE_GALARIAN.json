@@ -1,7 +1,7 @@
 {
   "dex" : 80,
   "speciesId" : "SPECIES_SLOWPOKE_GALARIAN",
-  "name" : "Slowpoke",
+  "name" : "Galarian Slowpoke",
   "types" : [ "Psychic", null ],
   "abilities" : [ "Gluttony", "Own Tempo", "Regenerator" ],
   "evYield" : {

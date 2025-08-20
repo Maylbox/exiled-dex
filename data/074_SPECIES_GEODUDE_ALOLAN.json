@@ -1,7 +1,7 @@
 {
   "dex" : 74,
   "speciesId" : "SPECIES_GEODUDE_ALOLAN",
-  "name" : "Geodude",
+  "name" : "Alolan Geodude",
   "types" : [ "Rock", "Electric" ],
   "abilities" : [ "Magnet Pull", "Sturdy", "Galvanize" ],
   "evYield" : {

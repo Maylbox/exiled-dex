@@ -1,7 +1,7 @@
 {
   "dex" : 455,
   "speciesId" : "SPECIES_LILLIGANT_HISUIAN",
-  "name" : "Lilligant",
+  "name" : "Hisuian Lilligant",
   "types" : [ "Grass", "Fighting" ],
   "abilities" : [ "Chlorophyll", "Hustle", "Leaf Guard" ],
   "evYield" : {

@@ -1,7 +1,7 @@
 {
   "dex" : 227,
   "speciesId" : "SPECIES_CORSOLA_GALARIAN",
-  "name" : "Corsola",
+  "name" : "Galarian Corsola",
   "types" : [ "Ghost", null ],
   "abilities" : [ "Weak Armor", "None", "Cursed Body" ],
   "evYield" : {

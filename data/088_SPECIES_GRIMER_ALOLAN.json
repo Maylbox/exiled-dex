@@ -1,7 +1,7 @@
 {
   "dex" : 88,
   "speciesId" : "SPECIES_GRIMER_ALOLAN",
-  "name" : "Grimer",
+  "name" : "Alolan Grimer",
   "types" : [ "Poison", "Dark" ],
   "abilities" : [ "Poison Touch", "Gluttony", "Power Of Alchemy" ],
   "evYield" : {

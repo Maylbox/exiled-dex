@@ -1,7 +1,7 @@
 {
   "dex" : 54,
   "speciesId" : "SPECIES_MEOWTH_ALOLAN",
-  "name" : "Meowth",
+  "name" : "Alolan Meowth",
   "types" : [ "Dark", null ],
   "abilities" : [ "Pickup", "Technician", "Rattled" ],
   "evYield" : {

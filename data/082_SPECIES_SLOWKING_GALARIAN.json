@@ -1,7 +1,7 @@
 {
   "dex" : 82,
   "speciesId" : "SPECIES_SLOWKING_GALARIAN",
-  "name" : "Slowking",
+  "name" : "Galarian Slowking",
   "types" : [ "Poison", "Psychic" ],
   "abilities" : [ "Curious Medicine", "Own Tempo", "Regenerator" ],
   "evYield" : {

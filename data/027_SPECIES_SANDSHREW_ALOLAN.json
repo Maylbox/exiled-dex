@@ -1,7 +1,7 @@
 {
   "dex" : 27,
   "speciesId" : "SPECIES_SANDSHREW_ALOLAN",
-  "name" : "Sandshrew",
+  "name" : "Alolan Sandshrew",
   "types" : [ "Ice", "Steel" ],
   "abilities" : [ "Snow Cloak", "None", "Slush Rush" ],
   "evYield" : {

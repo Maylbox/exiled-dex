@@ -1,7 +1,7 @@
 {
   "dex" : 201,
   "speciesId" : "SPECIES_WOOPER_PALDEAN",
-  "name" : "Wooper",
+  "name" : "Paldean Wooper",
   "types" : [ "Poison", "Ground" ],
   "abilities" : [ "Poison Point", "Water Absorb", "Unaware" ],
   "evYield" : {

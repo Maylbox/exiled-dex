@@ -1,7 +1,7 @@
 {
   "dex" : 464,
   "speciesId" : "SPECIES_DARUMAKA_GALARIAN",
-  "name" : "Darumaka",
+  "name" : "Galarian Darumaka",
   "types" : [ "Ice", null ],
   "abilities" : [ "Hustle", "None", "Inner Focus" ],
   "evYield" : {

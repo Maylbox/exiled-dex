@@ -125,6 +125,26 @@ public class Main {
                         s.description(), s.preEvolutionId(), s.evolution(), s.baseStats(),
                         s.heldItems(), s.levelUpMoves(), s.eggMoves(), s.teachableMoves(), s.encounters()
                 );
+            } else {
+                String region = regionalAdjective(s.speciesId());
+                if (region != null) {
+                    String baseId = regionalBaseId(s.speciesId());   // e.g. SPECIES_VULPIX
+                    base = byId.getOrDefault(baseId, s);              // <-- set base to non-regional form
+                    Integer sharedDex = nameToDex.get(normalizeName(base.name()));
+                    if (sharedDex != null) dex = sharedDex;           // share base dex
+
+                    displayName = region + " " + base.name();         // "Alolan Vulpix"
+
+                    s = new Species(
+                            s.dex(), s.speciesId(), displayName,
+                            s.types(), s.abilities(), s.evYield(),
+                            s.malePct(), s.femalePct(), s.catchRate(), s.baseExp(),
+                            s.eggGroups(), s.hatchSteps(), s.heightM(), s.weightKg(),
+                            s.growthRate(), s.color(), s.category(), s.friendship(),
+                            s.description(), s.preEvolutionId(), s.evolution(), s.baseStats(),
+                            s.heldItems(), s.levelUpMoves(), s.eggMoves(), s.teachableMoves(), s.encounters()
+                    );
+                }
             }
 
 
@@ -250,6 +270,18 @@ public class Main {
 
         return s;
     }
+
+    private static String regionalAdjective(String id){
+        if (id.endsWith("_ALOLAN"))  return "Alolan";
+        if (id.endsWith("_GALARIAN"))return "Galarian";
+        if (id.endsWith("_HISUIAN")) return "Hisuian";
+        if (id.endsWith("_PALDEAN")) return "Paldean";
+        return null;
+    }
+    private static String regionalBaseId(String id){
+        return id.replaceFirst("_(ALOLAN|GALARIAN|HISUIAN|PALDEAN)$", "");
+    }
+
 
 
     private static Map<String,Integer> loadDexOrder(String resourceXlsx) throws Exception {

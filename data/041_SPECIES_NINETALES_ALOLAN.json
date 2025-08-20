@@ -1,7 +1,7 @@
 {
   "dex" : 41,
   "speciesId" : "SPECIES_NINETALES_ALOLAN",
-  "name" : "Ninetales",
+  "name" : "Alolan Ninetales",
   "types" : [ "Ice", "Fairy" ],
   "abilities" : [ "Snow Cloak", "None", "Snow Warning" ],
   "evYield" : {
