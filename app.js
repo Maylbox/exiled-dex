@@ -10,6 +10,8 @@ let INDEX = [];
 let DEX_MAX = 0;
 let I18N = { area:{}, bucket:{} };
 let MOVE_TYPES = {};
+let DEX_ORDER = [];
+let DEX_TO_FIRST = new Map();
 
 window.addEventListener('hashchange', route);
 searchBox.addEventListener('input', () => { if(location.hash==='#dex') renderDexList(); });
@@ -24,7 +26,14 @@ async function init(){
 
   const blocked = new Set((blacklist || []).map(x => x.toUpperCase()));
   INDEX = index.filter(entry => !blocked.has(entry.speciesId.toUpperCase()));
+  INDEX.sort((a,b) => {
+    if (a.dex !== b.dex) return a.dex - b.dex;
+    return a.name.localeCompare(b.name);
+  });
   DEX_MAX = INDEX.reduce((m, e) => Math.max(m, Number(e.dex) || 0), 0);
+  DEX_ORDER = [...new Set(INDEX.map(e => e.dex))].sort((a,b)=>a-b);
+    DEX_TO_FIRST.clear();
+    for (const e of INDEX) if (!DEX_TO_FIRST.has(e.dex)) DEX_TO_FIRST.set(e.dex, e);
 
   try {
     const i = await fetchJSON(DATA_DIR + 'i18n/areas.json');
@@ -360,6 +369,21 @@ function renderDexList(){
 
   app.innerHTML = `<div class="grid">${cards}</div><footer>${list.length} shown</footer>`;
 }
+function navMini(entry, dir){  // dir: 'prev' | 'next'
+  if (!entry) return '';
+  const dex3 = String(entry.dex).padStart(3,'0');
+  const img  = spriteUrlOrPlaceholder(dex3, entry.name);
+  const arrow = dir === 'prev' ? '◀' : '▶';
+  return `
+    <button class="dex-nav-btn ${dir}" onclick="location.hash='#dex/${entry.dex}/${entry.speciesId}'" title="${entry.name}">
+      <span class="arrow">${arrow}</span>
+      <div class="mini">
+        <div class="thumb"><img src="${img}" alt="${entry.name}" loading="lazy"></div>
+        <div class="label">#${dex3}<br><strong>${entry.name}</strong></div>
+      </div>
+    </button>`;
+}
+
 
 async function renderDexDetail(dex, speciesId){
   let s;
@@ -404,7 +428,19 @@ async function renderDexDetail(dex, speciesId){
   }).join('');
   const evoHTML = await renderEvolutionTree(data);
 
+  const i = INDEX.findIndex(e => e.speciesId === s.speciesId);
+  const prevEntry = i > 0 ? INDEX[i-1] : null;
+  const nextEntry = i < INDEX.length-1 ? INDEX[i+1] : null;
+
+
+    const navHTML = `
+      <div class="dex-nav">
+        ${navMini(prevEntry, 'prev')}
+        ${navMini(nextEntry, 'next')}
+      </div>`;
+
   app.innerHTML = `
+  ${navHTML}
     <div class="detail">
       <div class="hero" style="border-color:${accent}">
         <div style="display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap">
