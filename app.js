@@ -16,17 +16,27 @@ searchBox.addEventListener('input', () => { if(location.hash==='#dex') renderDex
 init();
 
 async function init(){
-  INDEX = await fetchJSON(DATA_DIR + 'index.json');
+  const [index, blacklist] = await Promise.all([
+    fetchJSON(DATA_DIR + 'index.json'),
+    fetchJSON(DATA_DIR + 'blacklist.json').catch(() => [])
+  ]);
+
+  const blocked = new Set((blacklist || []).map(x => x.toUpperCase()));
+  INDEX = index.filter(entry => !blocked.has(entry.speciesId.toUpperCase()));
+
   try {
     const i = await fetchJSON(DATA_DIR + 'i18n/areas.json');
     I18N.area   = i.area   || {};
     I18N.bucket = i.bucket || {};
   } catch(_) {}
+
   route(); // render after i18n is ready
+
   try {
     MOVE_TYPES = await fetchJSON(DATA_DIR + 'move_types.json');
   } catch(_) {}
 }
+
 function tArea(key, fallback){ return (I18N.area && I18N.area[key]) || fallback || key; }
 function tBucket(key, fallback){ return (I18N.bucket && I18N.bucket[key]) || fallback || key; }
 
