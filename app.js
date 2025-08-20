@@ -7,6 +7,7 @@ const searchBox = el('#q');
 const DATA_DIR = 'data/';
 const SPRITE_DIR = 'sprites/'; // if missing we fall back to placeholder
 let INDEX = [];
+let DEX_MAX = 0;
 let I18N = { area:{}, bucket:{} };
 let MOVE_TYPES = {};
 
@@ -23,6 +24,7 @@ async function init(){
 
   const blocked = new Set((blacklist || []).map(x => x.toUpperCase()));
   INDEX = index.filter(entry => !blocked.has(entry.speciesId.toUpperCase()));
+  DEX_MAX = INDEX.reduce((m, e) => Math.max(m, Number(e.dex) || 0), 0);
 
   try {
     const i = await fetchJSON(DATA_DIR + 'i18n/areas.json');
@@ -64,7 +66,7 @@ function renderHome(){
     <div class="grid">
       <div class="card" onclick="location.hash='#dex'">
         <div class="name">Pokédex</div>
-        <div class="dex">${INDEX.length} species</div>
+        <div class="dex">${DEX_MAX} entries</div>
       </div>
 
       <div class="card" onclick="location.hash='#moves'">
