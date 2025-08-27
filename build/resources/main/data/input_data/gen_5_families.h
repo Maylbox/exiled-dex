@@ -10373,10 +10373,10 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     [SPECIES_DURANT] =
     {
         .baseHP        = 58,
-        .baseAttack    = 109,
+        .baseAttack    = 119,
         .baseDefense   = 112,
         .baseSpeed     = 109,
-        .baseSpAttack  = 48,
+        .baseSpAttack  = 55,
         .baseSpDefense = 48,
         .types = MON_TYPES(TYPE_BUG, TYPE_STEEL),
         .catchRate = 90,

@@ -1,0 +1,92 @@
+{
+  "dex" : 24,
+  "speciesId" : "SPECIES_PIKACHU_WORLD_CAP",
+  "name" : "Pikachu",
+  "types" : [ "Electric", null ],
+  "abilities" : [ "Static", "None", "Lightning Rod" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 2560,
+  "heightM" : 0.4,
+  "weightKg" : 6.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Mouse",
+  "friendship" : 70,
+  "description" : "This Pikachu wears its partner's cap, which\nis proof of the strong bond Pikachu and\nits partner formed during adventures\nacross the world together.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 35,
+    "atk" : 55,
+    "spe" : 90,
+    "spa" : 50
+  },
+  "heldItems" : {
+    "common" : "Light Ball"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 1,
+    "move" : "Nuzzle"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 7,
+    "move" : "Play Nice"
+  }, {
+    "level" : 10,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 13,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 18,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 21,
+    "move" : "Feint"
+  }, {
+    "level" : 23,
+    "move" : "Double Team"
+  }, {
+    "level" : 26,
+    "move" : "Spark"
+  }, {
+    "level" : 29,
+    "move" : "Nuzzle"
+  }, {
+    "level" : 34,
+    "move" : "Discharge"
+  }, {
+    "level" : 37,
+    "move" : "Body Slam"
+  }, {
+    "level" : 42,
+    "move" : "Thunderbolt"
+  }, {
+    "level" : 45,
+    "move" : "Agility"
+  }, {
+    "level" : 50,
+    "move" : "Wild Charge"
+  }, {
+    "level" : 53,
+    "move" : "Light Screen"
+  }, {
+    "level" : 58,
+    "move" : "Zippy Zap"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle", "Wild Charge" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,103 @@
+{
+  "dex" : 439,
+  "speciesId" : "SPECIES_FERROTHORN",
+  "name" : "Ferrothorn",
+  "types" : [ "Grass", "Steel" ],
+  "abilities" : [ "Iron Barbs", "None", "Anticipation" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 171,
+  "eggGroups" : [ "Grass", "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 110.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Thorn Pod",
+  "friendship" : 70,
+  "description" : "It fights by swinging around its three\nspiky feelers and shooting spikes.\nA hit from these steel spikes can reduce\na boulder to rubble.",
+  "preEvolutionId" : "SPECIES_FERROSEED",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 74,
+    "atk" : 94,
+    "def" : 131,
+    "spe" : 20,
+    "spa" : 54,
+    "spd" : 116
+  },
+  "heldItems" : {
+    "common" : "Sticky Barb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Power Whip"
+  }, {
+    "level" : 1,
+    "move" : "Curse"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Power Whip"
+  }, {
+    "level" : 1,
+    "move" : "Rock Climb"
+  }, {
+    "level" : 1,
+    "move" : "Rollout"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Rollout"
+  }, {
+    "level" : 9,
+    "move" : "Curse"
+  }, {
+    "level" : 14,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 18,
+    "move" : "Pin Missile"
+  }, {
+    "level" : 21,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 26,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 30,
+    "move" : "Mirror Shot"
+  }, {
+    "level" : 35,
+    "move" : "Ingrain"
+  }, {
+    "level" : 40,
+    "move" : "Power Whip"
+  }, {
+    "level" : 46,
+    "move" : "Iron Head"
+  }, {
+    "level" : 53,
+    "move" : "Payback"
+  }, {
+    "level" : 61,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 67,
+    "move" : "Explosion"
+  }, {
+    "level" : 72,
+    "move" : "Body Press"
+  } ],
+  "eggMoves" : [ "Acid Spray", "Bullet Seed", "Gravity", "Leech Seed", "Rock Climb", "Seed Bomb", "Spikes", "Stealth Rock", "Worry Seed" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Press", "Bulldoze", "Bullet Seed", "Cut", "Double Team", "Endure", "Energy Ball", "Explosion", "Facade", "Flash", "Flash Cannon", "Giga Drain", "Giga Impact", "Grass Knot", "Gyro Ball", "Hone Claws", "Hyper Beam", "Iron Defense", "Iron Head", "Knock Off", "Poison Jab", "Power Whip", "Protect", "Rest", "Rock Polish", "Rock Smash", "Rollout", "Sandstorm", "Shadow Claw", "Sleep Talk", "Snore", "Solar Beam", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic" ],
+  "encounters" : [ ]
+}

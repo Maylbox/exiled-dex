@@ -1,0 +1,110 @@
+{
+  "dex" : 583,
+  "speciesId" : "SPECIES_MILCERY",
+  "name" : "Milcery",
+  "types" : [ "Fairy", null ],
+  "abilities" : [ "Sweet Veil", "None", "Aroma Veil" ],
+  "evYield" : {
+    "spd" : 1
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 200,
+  "baseExp" : 54,
+  "eggGroups" : [ "Fairy", "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.2,
+  "weightKg" : 0.3,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Cream",
+  "friendship" : 70,
+  "description" : "This Pokémon was born from sweet-smelling\nparticles in the air. Its body is made\nof cream.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_ALCREMIE_STRAWBERRY_VANILLA_CREAM",
+    "method" : "level",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_ALCREMIE_STRAWBERRY_RUBY_CREAM",
+    "method" : "level",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_ALCREMIE_STRAWBERRY_MATCHA_CREAM",
+    "method" : "level",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_ALCREMIE_STRAWBERRY_MINT_CREAM",
+    "method" : "level",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_ALCREMIE_STRAWBERRY_LEMON_CREAM",
+    "method" : "level",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_ALCREMIE_STRAWBERRY_SALTED_CREAM",
+    "method" : "level",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_ALCREMIE_STRAWBERRY_RUBY_SWIRL",
+    "method" : "level",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_ALCREMIE_STRAWBERRY_CARAMEL_SWIRL",
+    "method" : "level",
+    "param" : "0"
+  }, {
+    "toSpeciesId" : "SPECIES_ALCREMIE_STRAWBERRY_RAINBOW_SWIRL",
+    "method" : "level",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 45,
+    "atk" : 40,
+    "def" : 40,
+    "spe" : 34,
+    "spa" : 50,
+    "spd" : 61
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Aromatic Mist"
+  }, {
+    "level" : 1,
+    "move" : "Covet"
+  }, {
+    "level" : 5,
+    "move" : "Sweet Kiss"
+  }, {
+    "level" : 10,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 15,
+    "move" : "Draining Kiss"
+  }, {
+    "level" : 20,
+    "move" : "Charm"
+  }, {
+    "level" : 25,
+    "move" : "Attract"
+  }, {
+    "level" : 30,
+    "move" : "Acid Armor"
+  }, {
+    "level" : 35,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 40,
+    "move" : "Recover"
+  }, {
+    "level" : 45,
+    "move" : "Misty Terrain"
+  }, {
+    "level" : 50,
+    "move" : "Entrainment"
+  } ],
+  "eggMoves" : [ "Baby Doll Eyes", "Last Resort" ],
+  "teachableMoves" : [ "Attract", "Dazzling Gleam", "Endure", "Facade", "Protect", "Rest", "Sleep Talk", "Snore" ],
+  "encounters" : [ ]
+}

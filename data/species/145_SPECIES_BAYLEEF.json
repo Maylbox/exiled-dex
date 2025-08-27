@@ -1,0 +1,91 @@
+{
+  "dex" : 145,
+  "speciesId" : "SPECIES_BAYLEEF",
+  "name" : "Bayleef",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Overgrow", "Leaf Guard", "Triage" ],
+  "evYield" : {
+    "def" : 1,
+    "spd" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.2,
+  "weightKg" : 15.8,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Leaf",
+  "friendship" : 70,
+  "description" : "A Bayleef's neck is ringed by curled-up\nleaves. Inside each leaf is a small tree\nshoot. The fragrance of this shoot\nmakes people peppy.",
+  "preEvolutionId" : "SPECIES_CHIKORITA",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MEGANIUM",
+    "method" : "level",
+    "param" : "32"
+  } ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 62,
+    "def" : 80,
+    "spe" : 60,
+    "spa" : 63,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Poisonpowder"
+  }, {
+    "level" : 1,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 6,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 9,
+    "move" : "Poisonpowder"
+  }, {
+    "level" : 12,
+    "move" : "Synthesis"
+  }, {
+    "level" : 18,
+    "move" : "Reflect"
+  }, {
+    "level" : 22,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 26,
+    "move" : "Draining Kiss"
+  }, {
+    "level" : 32,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 36,
+    "move" : "Light Screen"
+  }, {
+    "level" : 40,
+    "move" : "Body Slam"
+  }, {
+    "level" : 46,
+    "move" : "Safeguard"
+  }, {
+    "level" : 50,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 54,
+    "move" : "Solar Beam"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Aromatherapy", "Body Slam", "Counter", "Flail", "Grass Whistle", "Grassy Terrain", "Heal Pulse", "Ingrain", "Leaf Storm", "Leech Seed", "Nature Power", "Refresh", "Vine Whip", "Wring Out" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bullet Seed", "Counter", "Cut", "Double Edge", "Double Team", "Endure", "Energy Ball", "Facade", "Flash", "Fury Cutter", "Giga Drain", "Grass Knot", "Grassy Glide", "Knock Off", "Light Screen", "Mud Slap", "Protect", "Reflect", "Rest", "Rock Smash", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze" ],
+  "encounters" : [ ]
+}

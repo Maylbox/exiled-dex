@@ -1,0 +1,104 @@
+{
+  "dex" : 625,
+  "speciesId" : "SPECIES_PALAFIN_HERO",
+  "name" : "Palafin",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Zero To Hero", "None", "None" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 228,
+  "eggGroups" : [ "Field", "Water 2" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.8,
+  "weightKg" : 97.4,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Hero",
+  "friendship" : 70,
+  "description" : "This Pokémon's ancient genes have\nawakened. It is now so extraordinarily\nstrong that it can easily lift a\ncruise ship with one fin.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 160,
+    "def" : 97,
+    "spe" : 100,
+    "spa" : 106,
+    "spd" : 87
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Liquidation"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 1,
+    "move" : "Liquidation"
+  }, {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 5,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 9,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 15,
+    "move" : "Double Hit"
+  }, {
+    "level" : 23,
+    "move" : "Triple Dive"
+  }, {
+    "level" : 26,
+    "move" : "Charm"
+  }, {
+    "level" : 33,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 36,
+    "move" : "Encore"
+  }, {
+    "level" : 38,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 44,
+    "move" : "Mist"
+  }, {
+    "level" : 47,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 52,
+    "move" : "Close Combat"
+  }, {
+    "level" : 57,
+    "move" : "Jet Punch"
+  }, {
+    "level" : 62,
+    "move" : "Wave Crash"
+  }, {
+    "level" : 67,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 71,
+    "move" : "Ice Punch"
+  }, {
+    "level" : 76,
+    "move" : "Knock Off"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aura Sphere", "Blizzard", "Body Slam", "Bulk Up", "Counter", "Dive", "Drain Punch", "Endure", "Facade", "Flip Turn", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Iron Head", "Protect", "Psych Up", "Rain Dance", "Rest", "Sleep Talk", "Surf", "Swift", "Taunt", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

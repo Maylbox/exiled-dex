@@ -1,0 +1,106 @@
+{
+  "dex" : 215,
+  "speciesId" : "SPECIES_COMBUSKEN",
+  "name" : "Combusken",
+  "types" : [ "Fire", "Fighting" ],
+  "abilities" : [ "Blaze", "Flame Body", "Speed Boost" ],
+  "evYield" : {
+    "spa" : 1,
+    "atk" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 142,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.9,
+  "weightKg" : 19.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Young Fowl",
+  "friendship" : 70,
+  "description" : "It lashes out with 10 kicks per second.\nIts strong fighting instinct compels it\nto keep up its offensive until the\nopponent gives up.",
+  "preEvolutionId" : "SPECIES_TORCHIC",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BLAZIKEN",
+    "method" : "level",
+    "param" : "36"
+  } ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 85,
+    "def" : 60,
+    "spe" : 55,
+    "spa" : 85,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Double Kick"
+  }, {
+    "level" : 1,
+    "move" : "Double Kick"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 5,
+    "move" : "Ember"
+  }, {
+    "level" : 7,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 10,
+    "move" : "Incinerate"
+  }, {
+    "level" : 14,
+    "move" : "Pluck"
+  }, {
+    "level" : 20,
+    "move" : "Flame Charge"
+  }, {
+    "level" : 25,
+    "move" : "Thunderpunch"
+  }, {
+    "level" : 31,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 36,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 42,
+    "move" : "Slash"
+  }, {
+    "level" : 47,
+    "move" : "Mirror Move"
+  }, {
+    "level" : 53,
+    "move" : "Sky Uppercut"
+  }, {
+    "level" : 58,
+    "move" : "Flare Blitz"
+  } ],
+  "eggMoves" : [ "Agility", "Baton Pass", "Counter", "Crush Claw", "Curse", "Endure", "Feather Dance", "Feint", "Flame Burst", "Last Resort", "Low Kick", "Night Slash", "Reversal", "Smelling Salts" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Blaze Kick", "Body Slam", "Brick Break", "Bulk Up", "Counter", "Cut", "Defog", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Hone Claws", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Overheat", "Poison Jab", "Power Up Punch", "Protect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Thunder Punch", "Toxic", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
+    "area" : "Lavaridge Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 6
+  } ]
+}

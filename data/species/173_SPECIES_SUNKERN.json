@@ -1,0 +1,117 @@
+{
+  "dex" : 173,
+  "speciesId" : "SPECIES_SUNKERN",
+  "name" : "Sunkern",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Chlorophyll", "Solar Power", "Early Bird" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 235,
+  "baseExp" : 0,
+  "eggGroups" : [ "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 1.8,
+  "growthRate" : "Medium Slow",
+  "color" : "Yellow",
+  "category" : "Seed",
+  "friendship" : 70,
+  "description" : "Sunkern try to minimize movement to\nconserve the nutrients they have stored\nin their bodies for evolution. They will\nnot eat, subsisting only on morning dew.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SUNFLORA",
+    "method" : "item",
+    "param" : "ITEM_SUN_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 30,
+    "atk" : 30,
+    "def" : 30,
+    "spe" : 30,
+    "spa" : 30,
+    "spd" : 30
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Growth"
+  }, {
+    "level" : 4,
+    "move" : "Ingrain"
+  }, {
+    "level" : 7,
+    "move" : "Sleep Powder"
+  }, {
+    "level" : 10,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 13,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 16,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 19,
+    "move" : "Worry Seed"
+  }, {
+    "level" : 22,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 25,
+    "move" : "Endeavor"
+  }, {
+    "level" : 28,
+    "move" : "Synthesis"
+  }, {
+    "level" : 31,
+    "move" : "Natural Gift"
+  }, {
+    "level" : 34,
+    "move" : "Solar Beam"
+  }, {
+    "level" : 37,
+    "move" : "Double Edge"
+  }, {
+    "level" : 40,
+    "move" : "Sunny Day"
+  }, {
+    "level" : 43,
+    "move" : "Seed Bomb"
+  } ],
+  "eggMoves" : [ "Bide", "Curse", "Encore", "Endure", "Grass Whistle", "Grassy Terrain", "Helping Hand", "Ingrain", "Leech Seed", "Morning Sun", "Natural Gift", "Nature Power", "Sweet Scent" ],
+  "teachableMoves" : [ "Attract", "Bullet Seed", "Cut", "Double Edge", "Double Team", "Earth Power", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Grass Knot", "Light Screen", "Protect", "Rain Dance", "Rest", "Safeguard", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "SafariZone_Southeast",
+    "bucketKey" : "Land",
+    "area" : "Safari Zone_Southeast",
+    "bucket" : "Land",
+    "rateBase" : 25,
+    "min" : 33,
+    "max" : 33,
+    "slot" : 0
+  }, {
+    "areaKey" : "SafariZone_Southeast",
+    "bucketKey" : "Land",
+    "area" : "Safari Zone_Southeast",
+    "bucket" : "Land",
+    "rateBase" : 25,
+    "min" : 35,
+    "max" : 35,
+    "slot" : 2
+  }, {
+    "areaKey" : "SafariZone_Northeast",
+    "bucketKey" : "Land",
+    "area" : "Safari Zone_Northeast",
+    "bucket" : "Land",
+    "rateBase" : 25,
+    "min" : 34,
+    "max" : 34,
+    "slot" : 4
+  } ]
+}

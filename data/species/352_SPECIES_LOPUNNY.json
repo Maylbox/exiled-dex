@@ -1,0 +1,113 @@
+{
+  "dex" : 352,
+  "speciesId" : "SPECIES_LOPUNNY",
+  "name" : "Lopunny",
+  "types" : [ "Fairy", "Fighting" ],
+  "abilities" : [ "Cute Charm", "Defiant", "Limber" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field", "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.2,
+  "weightKg" : 33.3,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Rabbit",
+  "friendship" : 140,
+  "description" : "An extremely cautious Pokémon.\nIt is very conscious of its looks and\nnever fails to groom its ears.\nIt runs with sprightly jumps.",
+  "preEvolutionId" : "SPECIES_BUNEARY",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 86,
+    "def" : 84,
+    "spe" : 105,
+    "spa" : 54,
+    "spd" : 96
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Return"
+  }, {
+    "level" : 1,
+    "move" : "Bounce"
+  }, {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Foresight"
+  }, {
+    "level" : 1,
+    "move" : "Healing Wish"
+  }, {
+    "level" : 1,
+    "move" : "Magic Coat"
+  }, {
+    "level" : 1,
+    "move" : "Mirror Coat"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Rototiller"
+  }, {
+    "level" : 1,
+    "move" : "Splash"
+  }, {
+    "level" : 6,
+    "move" : "Endure"
+  }, {
+    "level" : 13,
+    "move" : "Return"
+  }, {
+    "level" : 16,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 23,
+    "move" : "Jump Kick"
+  }, {
+    "level" : 26,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 33,
+    "move" : "Agility"
+  }, {
+    "level" : 36,
+    "move" : "Dizzy Punch"
+  }, {
+    "level" : 43,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 46,
+    "move" : "Charm"
+  }, {
+    "level" : 53,
+    "move" : "Entrainment"
+  }, {
+    "level" : 56,
+    "move" : "Bounce"
+  }, {
+    "level" : 63,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 66,
+    "move" : "Hi Jump Kick"
+  }, {
+    "level" : 69,
+    "move" : "Double Edge"
+  }, {
+    "level" : 72,
+    "move" : "Thunderous Kick"
+  } ],
+  "eggMoves" : [ "Circle Throw", "Copycat", "Cosmic Power", "Double Hit", "Encore", "Fake Out", "Fake Tears", "Fire Punch", "Flail", "Focus Punch", "Ice Punch", "Low Kick", "Mud Sport", "Power Up Punch", "Sky Uppercut", "Sweet Kiss", "Switcheroo", "Teeter Dance", "Thunder Punch" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Aura Sphere", "Blizzard", "Charge Beam", "Covet", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Endure", "Facade", "Fire Punch", "Focus Blast", "Fury Cutter", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Low Kick", "Mega Kick", "Mega Punch", "Mirror Coat", "Mud Slap", "Play Rough", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Smash", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Triple Axel", "U Turn", "Water Pulse" ],
+  "encounters" : [ ]
+}

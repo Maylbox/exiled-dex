@@ -1,0 +1,302 @@
+{
+  "dex" : 260,
+  "speciesId" : "SPECIES_SABLEYE",
+  "name" : "Sableye",
+  "types" : [ "Dark", "Ghost" ],
+  "abilities" : [ "Keen Eye", "Stall", "Prankster" ],
+  "evYield" : {
+    "def" : 1,
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Human Like" ],
+  "hatchSteps" : 6400,
+  "heightM" : 0.5,
+  "weightKg" : 11.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Purple",
+  "category" : "Darkness",
+  "friendship" : 35,
+  "description" : "It digs branching holes in caves using its\nsharp claws in search of food--raw gems.\nA Sableye lurks in darkness and is seen\nonly rarely.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 90,
+    "def" : 75,
+    "spe" : 50,
+    "spa" : 65,
+    "spd" : 70
+  },
+  "heldItems" : {
+    "common" : "Wide Lens"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 4,
+    "move" : "Foresight"
+  }, {
+    "level" : 6,
+    "move" : "Night Shade"
+  }, {
+    "level" : 9,
+    "move" : "Astonish"
+  }, {
+    "level" : 11,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 14,
+    "move" : "Detect"
+  }, {
+    "level" : 16,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 19,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 21,
+    "move" : "Fake Out"
+  }, {
+    "level" : 24,
+    "move" : "Punishment"
+  }, {
+    "level" : 26,
+    "move" : "Knock Off"
+  }, {
+    "level" : 29,
+    "move" : "Shadow Claw"
+  }, {
+    "level" : 31,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 34,
+    "move" : "Rock Smash"
+  }, {
+    "level" : 36,
+    "move" : "Power Gem"
+  }, {
+    "level" : 39,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 41,
+    "move" : "Foul Play"
+  }, {
+    "level" : 44,
+    "move" : "Zen Headbutt"
+  }, {
+    "level" : 46,
+    "move" : "Mean Look"
+  }, {
+    "level" : 56,
+    "move" : "Recover"
+  } ],
+  "eggMoves" : [ "Captivate", "Feint", "Flatter", "Imprison", "Mean Look", "Metal Burst", "Moonlight", "Nasty Plot", "Recover", "Sucker Punch", "Trick" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Calm Mind", "Counter", "Cut", "Dark Pulse", "Dazzling Gleam", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Fire Punch", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Gyro Ball", "Hex", "Hone Claws", "Hyper Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Punch", "Thunder Wave", "Torment", "Toxic", "Water Pulse", "Will O Wisp", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_B1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 17,
+    "slot" : 1
+  }, {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_B1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 17,
+    "slot" : 3
+  }, {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 1
+  }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 1
+  }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 1
+  }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 1
+  }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 1
+  }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_6F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 1
+  }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 6
+  }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 6
+  }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 30,
+    "max" : 30,
+    "slot" : 3
+  }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 32,
+    "max" : 32,
+    "slot" : 4
+  }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap1",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 34,
+    "max" : 34,
+    "slot" : 5
+  }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap2",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 30,
+    "max" : 30,
+    "slot" : 3
+  }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap2",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 32,
+    "max" : 32,
+    "slot" : 4
+  }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap2",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 34,
+    "max" : 34,
+    "slot" : 5
+  }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap3",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 30,
+    "max" : 30,
+    "slot" : 3
+  }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap3",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 32,
+    "max" : 32,
+    "slot" : 4
+  }, {
+    "areaKey" : "CaveOfOrigin_UnusedRubySapphireMap3",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Unused Ruby Sapphire Map3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 34,
+    "max" : 34,
+    "slot" : 5
+  }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 3
+  }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 3
+  }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 3
+  } ]
+}

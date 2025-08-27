@@ -1,0 +1,159 @@
+{
+  "dex" : 3,
+  "speciesId" : "SPECIES_VENUSAUR",
+  "name" : "Venusaur",
+  "types" : [ "Grass", "Poison" ],
+  "abilities" : [ "Overgrow", "Chlorophyll", "Thick Fat" ],
+  "evYield" : {
+    "spa" : 2,
+    "spd" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 208,
+  "eggGroups" : [ "Monster", "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.0,
+  "weightKg" : 100.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Seed",
+  "friendship" : 70,
+  "description" : "Venusaur's flower is said to take on vivid\ncolors if it gets plenty of nutrition and\nsunlight. The flower's aroma soothes the\nemotions of people.",
+  "preEvolutionId" : "SPECIES_IVYSAUR",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 85,
+    "atk" : 82,
+    "def" : 83,
+    "spe" : 80,
+    "spa" : 110,
+    "spd" : 110
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Amnesia"
+  }, {
+    "level" : 1,
+    "move" : "Charm"
+  }, {
+    "level" : 1,
+    "move" : "Curse"
+  }, {
+    "level" : 1,
+    "move" : "Endure"
+  }, {
+    "level" : 1,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 1,
+    "move" : "Grass Whistle"
+  }, {
+    "level" : 1,
+    "move" : "Grassy Terrain"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Ingrain"
+  }, {
+    "level" : 1,
+    "move" : "Leaf Storm"
+  }, {
+    "level" : 1,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 1,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 1,
+    "move" : "Nature Power"
+  }, {
+    "level" : 1,
+    "move" : "Petal Dance"
+  }, {
+    "level" : 1,
+    "move" : "Pollen Puff"
+  }, {
+    "level" : 1,
+    "move" : "Power Whip"
+  }, {
+    "level" : 1,
+    "move" : "Skull Bash"
+  }, {
+    "level" : 1,
+    "move" : "Sludge"
+  }, {
+    "level" : 1,
+    "move" : "Sludge Bomb"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Vine Whip"
+  }, {
+    "level" : 3,
+    "move" : "Growl"
+  }, {
+    "level" : 7,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 9,
+    "move" : "Vine Whip"
+  }, {
+    "level" : 13,
+    "move" : "Poisonpowder"
+  }, {
+    "level" : 13,
+    "move" : "Sleep Powder"
+  }, {
+    "level" : 16,
+    "move" : "Sludge"
+  }, {
+    "level" : 20,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 23,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 28,
+    "move" : "Growth"
+  }, {
+    "level" : 32,
+    "move" : "Leaf Tornado"
+  }, {
+    "level" : 36,
+    "move" : "Sludge Bomb"
+  }, {
+    "level" : 39,
+    "move" : "Sappy Seed"
+  }, {
+    "level" : 45,
+    "move" : "Synthesis"
+  }, {
+    "level" : 50,
+    "move" : "Toxic Corpse"
+  }, {
+    "level" : 52,
+    "move" : "Spore"
+  }, {
+    "level" : 56,
+    "move" : "Solarbeam"
+  }, {
+    "level" : 60,
+    "move" : "Amnesia"
+  }, {
+    "level" : 65,
+    "move" : "Venoshock"
+  }, {
+    "level" : 69,
+    "move" : "Chloroblast"
+  } ],
+  "eggMoves" : [ "Amnesia", "Charm", "Curse", "Endure", "Giga Drain", "Grass Whistle", "Grassy Terrain", "Ingrain", "Leaf Storm", "Magical Leaf", "Nature Power", "Petal Dance", "Power Whip", "Skull Bash", "Sludge" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Bullet Seed", "Cut", "Defense Curl", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Knock Off", "Light Screen", "Mud Slap", "Poison Jab", "Power Whip", "Protect", "Reflect", "Rest", "Roar", "Rock Smash", "Safeguard", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze", "Venoshock" ],
+  "encounters" : [ ]
+}

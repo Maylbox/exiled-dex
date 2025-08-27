@@ -1,0 +1,119 @@
+{
+  "dex" : 572,
+  "speciesId" : "SPECIES_CENTISKORCH",
+  "name" : "Centiskorch",
+  "types" : [ "Fire", "Bug" ],
+  "abilities" : [ "Flash Fire", "White Smoke", "Flame Body" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 184,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 5120,
+  "heightM" : 3.0,
+  "weightKg" : 120.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Radiator",
+  "friendship" : 70,
+  "description" : "When it heats up, its body temperature\nreaches about 1,500 degrees Fahrenheit.\nIt lashes its body like a whip and\nlaunches itself at enemies.",
+  "preEvolutionId" : "SPECIES_SIZZLIPEDE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 115,
+    "def" : 65,
+    "spe" : 65,
+    "spa" : 90,
+    "spd" : 90
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "X Scissor"
+  }, {
+    "level" : 1,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Inferno"
+  }, {
+    "level" : 1,
+    "move" : "X Scissor"
+  }, {
+    "level" : 5,
+    "move" : "Wrap"
+  }, {
+    "level" : 10,
+    "move" : "Bite"
+  }, {
+    "level" : 15,
+    "move" : "Flame Wheel"
+  }, {
+    "level" : 20,
+    "move" : "Pounce"
+  }, {
+    "level" : 25,
+    "move" : "Coil"
+  }, {
+    "level" : 32,
+    "move" : "Slam"
+  }, {
+    "level" : 39,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 46,
+    "move" : "Crunch"
+  }, {
+    "level" : 53,
+    "move" : "Fire Lash"
+  }, {
+    "level" : 56,
+    "move" : "Scorching Sands"
+  }, {
+    "level" : 60,
+    "move" : "Lunge"
+  }, {
+    "level" : 64,
+    "move" : "Knock Off"
+  }, {
+    "level" : 67,
+    "move" : "Burn Up"
+  } ],
+  "eggMoves" : [ "Defense Curl", "Knock Off", "Rollout", "Struggle Bug" ],
+  "teachableMoves" : [ "Attract", "Crunch", "Defense Curl", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Giga Impact", "Hyper Beam", "Knock Off", "Leech Life", "Mystical Fire", "Overheat", "Power Whip", "Protect", "Rest", "Rollout", "Scald", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Thunder Fang", "Venoshock", "Will O Wisp", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "FieryPath",
+    "bucketKey" : "Land",
+    "area" : "Fiery Path",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 28,
+    "max" : 32,
+    "slot" : 9
+  }, {
+    "areaKey" : "ScorchedSlab0",
+    "bucketKey" : "Land",
+    "area" : "Scorched Slab0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 51,
+    "max" : 54,
+    "slot" : 1
+  }, {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
+    "area" : "Lavaridge Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 0
+  } ]
+}

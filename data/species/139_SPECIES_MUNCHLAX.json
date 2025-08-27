@@ -1,0 +1,111 @@
+{
+  "dex" : 139,
+  "speciesId" : "SPECIES_MUNCHLAX",
+  "name" : "Munchlax",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Pickup", "Thick Fat", "Gluttony" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 50,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 10240,
+  "heightM" : 0.6,
+  "weightKg" : 105.0,
+  "growthRate" : "Slow",
+  "color" : "Black",
+  "category" : "Big Eater",
+  "friendship" : 70,
+  "description" : "When it finds something that looks like\nit might be edible, it goes right ahead\nand swallows it whole. That's why it gets\nfatter day by day.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SNORLAX",
+    "method" : "friendship",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 135,
+    "atk" : 85,
+    "def" : 40,
+    "spe" : 5,
+    "spa" : 40,
+    "spd" : 85
+  },
+  "heldItems" : {
+    "common" : "Leftovers",
+    "rare" : "Leftovers"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Lick"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 8,
+    "move" : "Recycle"
+  }, {
+    "level" : 12,
+    "move" : "Covet"
+  }, {
+    "level" : 16,
+    "move" : "Bite"
+  }, {
+    "level" : 20,
+    "move" : "Stockpile"
+  }, {
+    "level" : 20,
+    "move" : "Swallow"
+  }, {
+    "level" : 24,
+    "move" : "Screech"
+  }, {
+    "level" : 28,
+    "move" : "Body Slam"
+  }, {
+    "level" : 32,
+    "move" : "Fling"
+  }, {
+    "level" : 36,
+    "move" : "Amnesia"
+  }, {
+    "level" : 40,
+    "move" : "Metronome"
+  }, {
+    "level" : 44,
+    "move" : "Flail"
+  }, {
+    "level" : 48,
+    "move" : "Belly Drum"
+  }, {
+    "level" : 52,
+    "move" : "Last Resort"
+  } ],
+  "eggMoves" : [ "After You", "Belch", "Charm", "Counter", "Curse", "Double Edge", "Lick", "Natural Gift", "Pursuit", "Self Destruct", "Whirlwind", "Zen Headbutt" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Covet", "Crunch", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Giga Impact", "High Horsepower", "Ice Beam", "Ice Punch", "Icy Wind", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Psychic", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Strength", "Sunny Day", "Surf", "Swagger", "Thunder", "Thunder Punch", "Thunderbolt", "Toxic", "Trailblaze", "Water Pulse" ],
+  "encounters" : [ {
+    "areaKey" : "Route103",
+    "bucketKey" : "Land",
+    "area" : "Route 103",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 8,
+    "slot" : 10
+  }, {
+    "areaKey" : "Route103",
+    "bucketKey" : "Land",
+    "area" : "Route 103",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 8,
+    "slot" : 11
+  } ]
+}

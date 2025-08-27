@@ -1,0 +1,93 @@
+{
+  "dex" : 558,
+  "speciesId" : "SPECIES_CARKOL",
+  "name" : "Carkol",
+  "types" : [ "Rock", "Fire" ],
+  "abilities" : [ "Steam Engine", "Flame Body", "Flash Fire" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 144,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.1,
+  "weightKg" : 78.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Black",
+  "category" : "Coal",
+  "friendship" : 70,
+  "description" : "It forms coal inside its body. Coal\ndropped by this Pokémon once helped fuel\nthe lives of people in the Galar region.",
+  "preEvolutionId" : "SPECIES_ROLYCOLY",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_COALOSSAL",
+    "method" : "level",
+    "param" : "34"
+  } ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 60,
+    "def" : 90,
+    "spe" : 50,
+    "spa" : 60,
+    "spd" : 70
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Flame Charge"
+  }, {
+    "level" : 1,
+    "move" : "Flame Charge"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 7,
+    "move" : "Smack Down"
+  }, {
+    "level" : 10,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 13,
+    "move" : "Scorching Sands"
+  }, {
+    "level" : 15,
+    "move" : "Rock Polish"
+  }, {
+    "level" : 20,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 27,
+    "move" : "Incinerate"
+  }, {
+    "level" : 35,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 41,
+    "move" : "Heat Crash"
+  }, {
+    "level" : 48,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 55,
+    "move" : "Burn Up"
+  } ],
+  "eggMoves" : [ "Block", "Explosion", "Mud Slap" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Bulldoze", "Dig", "Endure", "Explosion", "Facade", "Fire Blast", "Flamethrower", "Gyro Ball", "High Horsepower", "Iron Defense", "Iron Head", "Meteor Beam", "Mud Slap", "Overheat", "Protect", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Sandstorm", "Scald", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "FieryPath",
+    "bucketKey" : "Land",
+    "area" : "Fiery Path",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 28,
+    "max" : 32,
+    "slot" : 4
+  } ]
+}

@@ -1,0 +1,269 @@
+{
+  "dex" : 630,
+  "speciesId" : "SPECIES_DONDOZO",
+  "name" : "Dondozo",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Unaware", "Oblivious", "Water Veil" ],
+  "evYield" : {
+    "hp" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 25,
+  "baseExp" : 265,
+  "eggGroups" : [ "Water 2" ],
+  "hatchSteps" : 10240,
+  "heightM" : 12.0,
+  "weightKg" : 220.0,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Big Catfish",
+  "friendship" : 70,
+  "description" : "It treats Tatsugiri like its boss\nand follows it loyally. Though\npowerful, Dondozo is apparently not very\nsmart.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 150,
+    "atk" : 100,
+    "def" : 115,
+    "spe" : 35,
+    "spa" : 65,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 5,
+    "move" : "Tickle"
+  }, {
+    "level" : 10,
+    "move" : "Flail"
+  }, {
+    "level" : 15,
+    "move" : "Rest"
+  }, {
+    "level" : 15,
+    "move" : "Sleep Talk"
+  }, {
+    "level" : 20,
+    "move" : "Dive"
+  }, {
+    "level" : 25,
+    "move" : "Noble Roar"
+  }, {
+    "level" : 30,
+    "move" : "Soak"
+  }, {
+    "level" : 35,
+    "move" : "Body Slam"
+  }, {
+    "level" : 40,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 45,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 50,
+    "move" : "Order Up"
+  }, {
+    "level" : 55,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 60,
+    "move" : "Double Edge"
+  }, {
+    "level" : 65,
+    "move" : "Wave Crash"
+  } ],
+  "eggMoves" : [ "Curse", "Fissure", "Thrash", "Yawn" ],
+  "teachableMoves" : [ "Avalanche", "Body Press", "Body Slam", "Bulldoze", "Crunch", "Dive", "Double Edge", "Earthquake", "Endure", "Facade", "Giga Impact", "Hyper Beam", "Ice Fang", "Protect", "Rain Dance", "Rest", "Rock Slide", "Sleep Talk", "Surf", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "Route125",
+    "bucketKey" : "Water",
+    "area" : "Route 125",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route126",
+    "bucketKey" : "Water",
+    "area" : "Route 126",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route127",
+    "bucketKey" : "Water",
+    "area" : "Route 127",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route128",
+    "bucketKey" : "Water",
+    "area" : "Route 128",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route129",
+    "bucketKey" : "Water",
+    "area" : "Route 129",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Water",
+    "area" : "Route 130",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route131",
+    "bucketKey" : "Water",
+    "area" : "Route 131",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route132",
+    "bucketKey" : "Water",
+    "area" : "Route 132",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route133",
+    "bucketKey" : "Water",
+    "area" : "Route 133",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route134",
+    "bucketKey" : "Water",
+    "area" : "Route 134",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 3
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Fishing",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 1,
+    "max" : 5,
+    "slot" : 0
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Fishing",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 1,
+    "max" : 5,
+    "slot" : 1
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Fishing",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 1,
+    "max" : 40,
+    "slot" : 2
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Fishing",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 1,
+    "max" : 40,
+    "slot" : 3
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Fishing",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 1,
+    "max" : 40,
+    "slot" : 4
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Fishing",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 1,
+    "max" : 40,
+    "slot" : 5
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Fishing",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 1,
+    "max" : 40,
+    "slot" : 6
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Fishing",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 1,
+    "max" : 40,
+    "slot" : 7
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Fishing",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 1,
+    "max" : 50,
+    "slot" : 8
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Fishing",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 1,
+    "max" : 100,
+    "slot" : 9
+  } ]
+}

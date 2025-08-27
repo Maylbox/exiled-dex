@@ -1,0 +1,86 @@
+{
+  "dex" : 114,
+  "speciesId" : "SPECIES_ELEKID",
+  "name" : "Elekid",
+  "types" : [ "Electric", null ],
+  "abilities" : [ "Static", "None", "Vital Spirit" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 6400,
+  "heightM" : 0.6,
+  "weightKg" : 23.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Electric",
+  "friendship" : 70,
+  "description" : "If it touches metal and discharges the\nelectricity it has stored in its body, an\nElekid begins swinging its arms in circles\nto recharge itself.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_ELECTABUZZ",
+    "method" : "level",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 45,
+    "atk" : 63,
+    "def" : 37,
+    "spe" : 95,
+    "spa" : 65,
+    "spd" : 55
+  },
+  "heldItems" : {
+    "common" : "Electirizer"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 4,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 8,
+    "move" : "Charge"
+  }, {
+    "level" : 12,
+    "move" : "Swift"
+  }, {
+    "level" : 16,
+    "move" : "Shock Wave"
+  }, {
+    "level" : 20,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 24,
+    "move" : "Screech"
+  }, {
+    "level" : 28,
+    "move" : "Thunder Punch"
+  }, {
+    "level" : 32,
+    "move" : "Discharge"
+  }, {
+    "level" : 36,
+    "move" : "Low Kick"
+  }, {
+    "level" : 40,
+    "move" : "Thunderbolt"
+  }, {
+    "level" : 44,
+    "move" : "Light Screen"
+  }, {
+    "level" : 48,
+    "move" : "Thunder"
+  } ],
+  "eggMoves" : [ "Barrier", "Cross Chop", "Dynamic Punch", "Feint", "Fire Punch", "Focus Punch", "Hammer Arm", "Ice Punch", "Karate Chop", "Meditate", "Rolling Kick" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Charge Beam", "Counter", "Covet", "Double Edge", "Double Team", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Fire Punch", "Flash", "Focus Blast", "Ice Punch", "Knock Off", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Psychic", "Rain Dance", "Rest", "Rock Smash", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ ]
+}

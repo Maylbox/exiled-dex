@@ -1,0 +1,154 @@
+{
+  "dex" : 81,
+  "speciesId" : "SPECIES_DODRIO",
+  "name" : "Dodrio",
+  "types" : [ "Normal", "Flying" ],
+  "abilities" : [ "Guts", "Reckless", "Tangled Feet" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 158,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.8,
+  "weightKg" : 85.2,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Triple Bird",
+  "friendship" : 70,
+  "description" : "A peculiar Pokémon species with three\nheads. It vigorously races across grassy\nplains even in arid seasons with little\nrainfall.",
+  "preEvolutionId" : "SPECIES_DODUO",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 125,
+    "def" : 70,
+    "spe" : 125,
+    "spa" : 30,
+    "spd" : 60
+  },
+  "heldItems" : {
+    "common" : "Sharp Beak"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Drill Peck"
+  }, {
+    "level" : 1,
+    "move" : "Drill Peck"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 1,
+    "move" : "Rage"
+  }, {
+    "level" : 1,
+    "move" : "Tri Attack"
+  }, {
+    "level" : 5,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 8,
+    "move" : "Rage"
+  }, {
+    "level" : 12,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 15,
+    "move" : "Pursuit"
+  }, {
+    "level" : 19,
+    "move" : "Pluck"
+  }, {
+    "level" : 22,
+    "move" : "Double Hit"
+  }, {
+    "level" : 24,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 26,
+    "move" : "Agility"
+  }, {
+    "level" : 29,
+    "move" : "Uproar"
+  }, {
+    "level" : 31,
+    "move" : "Tri Attack"
+  }, {
+    "level" : 34,
+    "move" : "Acupressure"
+  }, {
+    "level" : 38,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 43,
+    "move" : "Jump Kick"
+  }, {
+    "level" : 47,
+    "move" : "Double Edge"
+  }, {
+    "level" : 52,
+    "move" : "Endeavor"
+  }, {
+    "level" : 56,
+    "move" : "Thrash"
+  }, {
+    "level" : 60,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 65,
+    "move" : "Triple Arrows"
+  }, {
+    "level" : 67,
+    "move" : "Hi Jump Kick"
+  } ],
+  "eggMoves" : [ "Assurance", "Brave Bird", "Endeavor", "Feint Attack", "Flail", "Haze", "Mirror Move", "Natural Gift", "Quick Attack", "Supersonic" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brave Bird", "Double Edge", "Double Team", "Endure", "Facade", "Fly", "Giga Impact", "Hyper Beam", "Knock Off", "Low Kick", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Torment", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
+    "area" : "Route 118",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 6
+  }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
+    "area" : "Safari Zone_Northwest",
+    "bucket" : "Land",
+    "rateBase" : 25,
+    "min" : 29,
+    "max" : 29,
+    "slot" : 8
+  }, {
+    "areaKey" : "SafariZone_Northwest",
+    "bucketKey" : "Land",
+    "area" : "Safari Zone_Northwest",
+    "bucket" : "Land",
+    "rateBase" : 25,
+    "min" : 31,
+    "max" : 31,
+    "slot" : 10
+  }, {
+    "areaKey" : "FortreeCity0",
+    "bucketKey" : "Land",
+    "area" : "Fortree City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 50,
+    "max" : 53,
+    "slot" : 5
+  } ]
+}

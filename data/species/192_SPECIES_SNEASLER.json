@@ -1,0 +1,173 @@
+{
+  "dex" : 192,
+  "speciesId" : "SPECIES_SNEASLER",
+  "name" : "Sneasler",
+  "types" : [ "Fighting", "Poison" ],
+  "abilities" : [ "Pressure", "Unburden", "Poison Touch" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 20,
+  "baseExp" : 102,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.3,
+  "weightKg" : 43.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Free Climb",
+  "friendship" : 70,
+  "description" : "Because of its wicked poison and daunting\nphysical prowess, no other species could\nhope to best it on frozen highlands. It\nprefers solitude and doesn't form packs.",
+  "preEvolutionId" : "SPECIES_SNEASEL_HISUIAN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 130,
+    "def" : 60,
+    "spe" : 120,
+    "spa" : 40,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Dire Claw"
+  }, {
+    "level" : 1,
+    "move" : "Fling"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Rock Smash"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 6,
+    "move" : "Taunt"
+  }, {
+    "level" : 12,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 18,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 24,
+    "move" : "Poison Jab"
+  }, {
+    "level" : 30,
+    "move" : "Brick Break"
+  }, {
+    "level" : 36,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 42,
+    "move" : "Slash"
+  }, {
+    "level" : 48,
+    "move" : "Agility"
+  }, {
+    "level" : 54,
+    "move" : "Screech"
+  }, {
+    "level" : 60,
+    "move" : "Close Combat"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Brick Break", "Bulk Up", "Calm Mind", "Counter", "Dig", "Drain Punch", "Endure", "Facade", "False Swipe", "Fire Punch", "Focus Blast", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Low Kick", "Poison Jab", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Sunny Day", "Swift", "Swords Dance", "Taunt", "Thief", "Toxic", "Trailblaze", "U Turn", "Venoshock", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 9
+  }, {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 10
+  }, {
+    "areaKey" : "MagmaHideout_1F",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 7
+  }, {
+    "areaKey" : "MagmaHideout_2F_1R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 7
+  }, {
+    "areaKey" : "MagmaHideout_2F_2R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 7
+  }, {
+    "areaKey" : "MagmaHideout_3F_1R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 7
+  }, {
+    "areaKey" : "MagmaHideout_3F_2R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 7
+  }, {
+    "areaKey" : "MagmaHideout_4F",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 7
+  }, {
+    "areaKey" : "MagmaHideout_3F_3R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 7
+  }, {
+    "areaKey" : "MagmaHideout_2F_3R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 7
+  } ]
+}

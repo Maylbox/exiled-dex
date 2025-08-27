@@ -1,0 +1,110 @@
+{
+  "dex" : 112,
+  "speciesId" : "SPECIES_SCIZOR",
+  "name" : "Scizor",
+  "types" : [ "Bug", "Steel" ],
+  "abilities" : [ "Swarm", "Technician", "Light Metal" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 25,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 6400,
+  "heightM" : 1.8,
+  "weightKg" : 118.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Pincer",
+  "friendship" : 70,
+  "description" : "A Scizor has a body with the hardness of\nsteel. It is not easily fazed by ordinary\nsorts of attacks. It flaps its wings to\nregulate its body temperature.",
+  "preEvolutionId" : "SPECIES_SCYTHER",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 130,
+    "def" : 100,
+    "spe" : 65,
+    "spa" : 55,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Bullet Punch"
+  }, {
+    "level" : 1,
+    "move" : "Bullet Punch"
+  }, {
+    "level" : 1,
+    "move" : "Feint"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Pounce"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 5,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 9,
+    "move" : "Pursuit"
+  }, {
+    "level" : 13,
+    "move" : "False Swipe"
+  }, {
+    "level" : 17,
+    "move" : "Agility"
+  }, {
+    "level" : 21,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 25,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 29,
+    "move" : "Slash"
+  }, {
+    "level" : 33,
+    "move" : "Razor Wind"
+  }, {
+    "level" : 37,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 41,
+    "move" : "X Scissor"
+  }, {
+    "level" : 45,
+    "move" : "Night Slash"
+  }, {
+    "level" : 49,
+    "move" : "Double Hit"
+  }, {
+    "level" : 50,
+    "move" : "Iron Head"
+  }, {
+    "level" : 57,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 61,
+    "move" : "Meteor Mash"
+  } ],
+  "eggMoves" : [ "Baton Pass", "Bug Buzz", "Counter", "Defog", "Endure", "Night Slash", "Quick Guard", "Razor Wind", "Reversal", "Silver Wind", "Steel Wing" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brick Break", "Calm Mind", "Counter", "Cut", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "False Swipe", "Flash Cannon", "Fury Cutter", "Giga Impact", "Hyper Beam", "Iron Defense", "Iron Head", "Knock Off", "Light Screen", "Protect", "Rain Dance", "Rest", "Rock Smash", "Roost", "Safeguard", "Sandstorm", "Silver Wind", "Sleep Talk", "Snore", "Steel Wing", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic", "Trailblaze", "U Turn", "Venoshock", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_B2F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 2
+  } ]
+}

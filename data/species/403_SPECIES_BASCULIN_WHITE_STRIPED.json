@@ -1,0 +1,126 @@
+{
+  "dex" : 403,
+  "speciesId" : "SPECIES_BASCULIN_WHITE_STRIPED",
+  "name" : "Basculin",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Rattled", "Adaptability", "Mold Breaker" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 161,
+  "eggGroups" : [ "Water 2" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.0,
+  "weightKg" : 18.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Mellow",
+  "friendship" : 70,
+  "description" : "While this ancient form of Basculin shares\na vast array of qualities with other forms,\nit differs in several respects, including\ndemeanor, being much gentler than others.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BASCULEGION_MALE",
+    "method" : "recoil_damage_male",
+    "param" : "294"
+  }, {
+    "toSpeciesId" : "SPECIES_BASCULEGION_FEMALE",
+    "method" : "recoil_damage_female",
+    "param" : "294"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 92,
+    "def" : 65,
+    "spe" : 98,
+    "spa" : 80,
+    "spd" : 55
+  },
+  "heldItems" : {
+    "common" : "Deep Sea Scale"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 3,
+    "move" : "Uproar"
+  }, {
+    "level" : 5,
+    "move" : "Headbutt"
+  }, {
+    "level" : 7,
+    "move" : "Bite"
+  }, {
+    "level" : 9,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 11,
+    "move" : "Chip Away"
+  }, {
+    "level" : 14,
+    "move" : "Take Down"
+  }, {
+    "level" : 17,
+    "move" : "Crunch"
+  }, {
+    "level" : 20,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 23,
+    "move" : "Soak"
+  }, {
+    "level" : 26,
+    "move" : "Double Edge"
+  }, {
+    "level" : 30,
+    "move" : "Scary Face"
+  }, {
+    "level" : 34,
+    "move" : "Flail"
+  }, {
+    "level" : 38,
+    "move" : "Final Gambit"
+  }, {
+    "level" : 42,
+    "move" : "Thrash"
+  }, {
+    "level" : 46,
+    "move" : "Head Smash"
+  }, {
+    "level" : 49,
+    "move" : "Waterfall"
+  }, {
+    "level" : 55,
+    "move" : "Wave Crash"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Blizzard", "Crunch", "Double Edge", "Endure", "Facade", "Flip Turn", "Ice Beam", "Ice Fang", "Icy Wind", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Sleep Talk", "Snowscape", "Surf", "Swift", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "Route110",
+    "bucketKey" : "Fishing",
+    "area" : "Route 110",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 0
+  }, {
+    "areaKey" : "Route119",
+    "bucketKey" : "Fishing",
+    "area" : "Route 119",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 1
+  } ]
+}

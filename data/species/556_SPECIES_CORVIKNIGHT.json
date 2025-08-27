@@ -1,0 +1,107 @@
+{
+  "dex" : 556,
+  "speciesId" : "SPECIES_CORVIKNIGHT",
+  "name" : "Corviknight",
+  "types" : [ "Flying", "Steel" ],
+  "abilities" : [ "Pressure", "Unnerve", "Mirror Armor" ],
+  "evYield" : {
+    "def" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 248,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 3840,
+  "heightM" : 2.2,
+  "weightKg" : 75.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Purple",
+  "category" : "Raven",
+  "friendship" : 70,
+  "description" : "This Pokémon reigns supreme in the skies\nof the Galar region. The black luster of\nits steel body could drive terror into\nthe heart of any foe.",
+  "preEvolutionId" : "SPECIES_CORVISQUIRE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 98,
+    "atk" : 87,
+    "def" : 105,
+    "spe" : 67,
+    "spa" : 53,
+    "spd" : 85
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Steel Wing"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Power Trip"
+  }, {
+    "level" : 1,
+    "move" : "Steel Wing"
+  }, {
+    "level" : 4,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 8,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 12,
+    "move" : "Pluck"
+  }, {
+    "level" : 16,
+    "move" : "Taunt"
+  }, {
+    "level" : 22,
+    "move" : "Scary Face"
+  }, {
+    "level" : 28,
+    "move" : "Drill Peck"
+  }, {
+    "level" : 34,
+    "move" : "Swagger"
+  }, {
+    "level" : 50,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 53,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 57,
+    "move" : "Body Press"
+  }, {
+    "level" : 64,
+    "move" : "Roost"
+  } ],
+  "eggMoves" : [ "Defog", "Rock Smash", "Roost", "Sand Attack", "Sky Attack", "Spite", "Tailwind" ],
+  "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Body Press", "Body Slam", "Brave Bird", "Bulk Up", "Defog", "Double Edge", "Dual Wingbeat", "Endure", "Facade", "Flash Cannon", "Fly", "Giga Impact", "Hone Claws", "Hyper Beam", "Iron Defense", "Iron Head", "Light Screen", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
+    "area" : "Route 121",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 52,
+    "max" : 55,
+    "slot" : 5
+  }, {
+    "areaKey" : "FortreeCity0",
+    "bucketKey" : "Land",
+    "area" : "Fortree City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 50,
+    "max" : 53,
+    "slot" : 1
+  } ]
+}

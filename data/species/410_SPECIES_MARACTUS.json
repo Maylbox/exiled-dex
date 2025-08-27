@@ -1,0 +1,127 @@
+{
+  "dex" : 410,
+  "speciesId" : "SPECIES_MARACTUS",
+  "name" : "Maractus",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Water Absorb", "Chlorophyll", "Storm Drain" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 161,
+  "eggGroups" : [ "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 28.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Cactus",
+  "friendship" : 70,
+  "description" : "Arid regions are their habitat.\nWhen it moves rhythmically, it makes a\nsound similar to maracas, making the\nsurprised Pokémon flee.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 86,
+    "def" : 77,
+    "spe" : 65,
+    "spa" : 106,
+    "spd" : 77
+  },
+  "heldItems" : {
+    "common" : "Miracle Seed"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "After You"
+  }, {
+    "level" : 1,
+    "move" : "Cotton Guard"
+  }, {
+    "level" : 1,
+    "move" : "Counter"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Spiky Shield"
+  }, {
+    "level" : 3,
+    "move" : "Water Gun"
+  }, {
+    "level" : 6,
+    "move" : "Growth"
+  }, {
+    "level" : 8,
+    "move" : "Spikes"
+  }, {
+    "level" : 10,
+    "move" : "Pin Missile"
+  }, {
+    "level" : 13,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 15,
+    "move" : "Synthesis"
+  }, {
+    "level" : 18,
+    "move" : "Twineedle"
+  }, {
+    "level" : 22,
+    "move" : "Needle Arm"
+  }, {
+    "level" : 26,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 29,
+    "move" : "Acupressure"
+  }, {
+    "level" : 33,
+    "move" : "Ingrain"
+  }, {
+    "level" : 38,
+    "move" : "Petal Dance"
+  }, {
+    "level" : 42,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 45,
+    "move" : "Grassy Glide"
+  }, {
+    "level" : 48,
+    "move" : "Petal Blizzard"
+  }, {
+    "level" : 50,
+    "move" : "Solar Beam"
+  }, {
+    "level" : 52,
+    "move" : "Sappy Seed"
+  }, {
+    "level" : 55,
+    "move" : "Toxic Spikes"
+  }, {
+    "level" : 57,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 65,
+    "move" : "Quiver Dance"
+  } ],
+  "eggMoves" : [ "Bounce", "Bullet Seed", "Grass Whistle", "Grassy Terrain", "Leech Seed", "Seed Bomb", "Spikes", "Wood Hammer", "Worry Seed" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Bullet Seed", "Double Team", "Drain Punch", "Endure", "Energy Ball", "Facade", "Giga Drain", "Grass Knot", "Grassy Glide", "Knock Off", "Poison Jab", "Protect", "Rain Dance", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
+    "area" : "Route 111",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 46,
+    "slot" : 6
+  } ]
+}

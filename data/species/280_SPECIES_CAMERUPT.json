@@ -1,0 +1,108 @@
+{
+  "dex" : 280,
+  "speciesId" : "SPECIES_CAMERUPT",
+  "name" : "Camerupt",
+  "types" : [ "Fire", "Ground" ],
+  "abilities" : [ "Magma Armor", "Solid Rock", "Anger Point" ],
+  "evYield" : {
+    "spa" : 1,
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 150,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.9,
+  "weightKg" : 220.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Eruption",
+  "friendship" : 70,
+  "description" : "A Pokémon that lives in the crater of\na volcano. Every 10 years, the volcanoes\non its back erupt violently. Research is\nunder way on the cause of eruption.",
+  "preEvolutionId" : "SPECIES_NUMEL",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 100,
+    "def" : 70,
+    "spe" : 40,
+    "spa" : 105,
+    "spd" : 75
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Eruption"
+  }, {
+    "level" : 1,
+    "move" : "Fissure"
+  }, {
+    "level" : 1,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Ember"
+  }, {
+    "level" : 8,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 12,
+    "move" : "Magnitude"
+  }, {
+    "level" : 15,
+    "move" : "Flame Burst"
+  }, {
+    "level" : 19,
+    "move" : "Amnesia"
+  }, {
+    "level" : 22,
+    "move" : "Lava Plume"
+  }, {
+    "level" : 26,
+    "move" : "Earth Power"
+  }, {
+    "level" : 29,
+    "move" : "Curse"
+  }, {
+    "level" : 33,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 39,
+    "move" : "Yawn"
+  }, {
+    "level" : 46,
+    "move" : "Earthquake"
+  }, {
+    "level" : 52,
+    "move" : "Eruption"
+  }, {
+    "level" : 59,
+    "move" : "Body Press"
+  }, {
+    "level" : 63,
+    "move" : "Slack Off"
+  }, {
+    "level" : 73,
+    "move" : "Magma Storm"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Body Slam", "Defense Curl", "Endure", "Growth", "Heat Wave", "Heavy Slam", "Howl", "Iron Head", "Mud Bomb", "Rollout", "Scary Face", "Spit Up", "Stockpile", "Stomp", "Swallow", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Bulldoze", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Fire Blast", "Flamethrower", "Flash Cannon", "Giga Impact", "High Horsepower", "Hyper Beam", "Iron Head", "Mud Slap", "Overheat", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Toxic", "Trailblaze", "Will O Wisp" ],
+  "encounters" : [ ]
+}

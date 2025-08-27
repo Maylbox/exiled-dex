@@ -1,0 +1,83 @@
+{
+  "dex" : 344,
+  "speciesId" : "SPECIES_PACHIRISU",
+  "name" : "Pachirisu",
+  "types" : [ "Electric", null ],
+  "abilities" : [ "Prankster", "Pickup", "Volt Absorb" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 200,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field", "Fairy" ],
+  "hatchSteps" : 2560,
+  "heightM" : 0.4,
+  "weightKg" : 3.9,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "EleSquirrel",
+  "friendship" : 100,
+  "description" : "A pair may be seen rubbing their cheek\npouches together in an effort to share\nstored electricity. It stores them with\nberries in tree holes.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 45,
+    "def" : 70,
+    "spe" : 95,
+    "spa" : 45,
+    "spd" : 95
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 5,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 9,
+    "move" : "Charm"
+  }, {
+    "level" : 13,
+    "move" : "Spark"
+  }, {
+    "level" : 17,
+    "move" : "Reflect"
+  }, {
+    "level" : 19,
+    "move" : "Nuzzle"
+  }, {
+    "level" : 21,
+    "move" : "Swift"
+  }, {
+    "level" : 25,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 29,
+    "move" : "Sweet Kiss"
+  }, {
+    "level" : 33,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 37,
+    "move" : "Super Fang"
+  }, {
+    "level" : 41,
+    "move" : "Discharge"
+  }, {
+    "level" : 45,
+    "move" : "Last Resort"
+  }, {
+    "level" : 49,
+    "move" : "Thunder"
+  } ],
+  "eggMoves" : [ "Baby Doll Eyes", "Bestow", "Bite", "Charge", "Covet", "Defense Curl", "Fake Tears", "Flail", "Flatter", "Follow Me", "Ion Deluge", "Iron Tail", "Rollout", "Tail Whip" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Charge Beam", "Covet", "Crunch", "Cut", "Defense Curl", "Dig", "Double Team", "Electroweb", "Endure", "Facade", "Flash", "Giga Impact", "Grass Knot", "Hyper Beam", "Light Screen", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Rest", "Rollout", "Shock Wave", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Fang", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "U Turn", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ ]
+}

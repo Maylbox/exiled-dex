@@ -1,0 +1,85 @@
+{
+  "dex" : 512,
+  "speciesId" : "SPECIES_ORICORIO_POM_POM",
+  "name" : "Oricorio",
+  "types" : [ "Electric", "Flying" ],
+  "abilities" : [ "Dancer", "None", "None" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 45,
+  "baseExp" : 167,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 3.4,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Dancing",
+  "friendship" : 70,
+  "description" : "This form of Oricorio has sipped\nyellow nectar. It uses nimble steps to\napproach opponents, then knocks\nthem out with electric punches.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 70,
+    "def" : 70,
+    "spe" : 93,
+    "spa" : 98,
+    "spd" : 70
+  },
+  "heldItems" : {
+    "common" : "Yellow Nectar"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 4,
+    "move" : "Growl"
+  }, {
+    "level" : 6,
+    "move" : "Peck"
+  }, {
+    "level" : 10,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 13,
+    "move" : "Air Cutter"
+  }, {
+    "level" : 16,
+    "move" : "Baton Pass"
+  }, {
+    "level" : 20,
+    "move" : "Feather Dance"
+  }, {
+    "level" : 23,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 26,
+    "move" : "Teeter Dance"
+  }, {
+    "level" : 30,
+    "move" : "Roost"
+  }, {
+    "level" : 33,
+    "move" : "Flatter"
+  }, {
+    "level" : 36,
+    "move" : "Air Slash"
+  }, {
+    "level" : 40,
+    "move" : "Revelation Dance"
+  }, {
+    "level" : 43,
+    "move" : "Agility"
+  }, {
+    "level" : 47,
+    "move" : "Hurricane"
+  } ],
+  "eggMoves" : [ "Captivate", "Pluck", "Safeguard", "Tailwind" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Calm Mind", "Covet", "Defog", "Double Team", "Dual Wingbeat", "Endure", "Facade", "Fly", "Icy Wind", "Protect", "Psych Up", "Rain Dance", "Rest", "Roost", "Safeguard", "Sandstorm", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "U Turn" ],
+  "encounters" : [ ]
+}

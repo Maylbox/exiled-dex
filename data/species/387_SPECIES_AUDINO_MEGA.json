@@ -1,0 +1,107 @@
+{
+  "dex" : 387,
+  "speciesId" : "SPECIES_AUDINO_MEGA",
+  "name" : "Audino - Mega",
+  "types" : [ "Normal", "Fairy" ],
+  "abilities" : [ "Healer", "Healer", "Healer" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 425,
+  "eggGroups" : [ "Fairy" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 32.0,
+  "growthRate" : "Fast",
+  "color" : "White",
+  "category" : "Hearing",
+  "friendship" : 70,
+  "description" : "Mega Audino emits a soothing pulse from\nits body that reduces hostility in others.\nAnything that comes into contact with its\nsecond feelers will fall into a deep sleep.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 103,
+    "atk" : 60,
+    "def" : 126,
+    "spe" : 50,
+    "spa" : 80,
+    "spd" : 126
+  },
+  "heldItems" : {
+    "common" : "Oran Berry",
+    "rare" : "Sitrus Berry"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 1,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 1,
+    "move" : "Last Resort"
+  }, {
+    "level" : 1,
+    "move" : "Misty Terrain"
+  }, {
+    "level" : 1,
+    "move" : "Play Nice"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 5,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 9,
+    "move" : "Refresh"
+  }, {
+    "level" : 13,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 17,
+    "move" : "Doubleslap"
+  }, {
+    "level" : 21,
+    "move" : "Attract"
+  }, {
+    "level" : 25,
+    "move" : "Secret Power"
+  }, {
+    "level" : 29,
+    "move" : "Entrainment"
+  }, {
+    "level" : 33,
+    "move" : "Take Down"
+  }, {
+    "level" : 37,
+    "move" : "Heal Pulse"
+  }, {
+    "level" : 41,
+    "move" : "After You"
+  }, {
+    "level" : 45,
+    "move" : "Simple Beam"
+  }, {
+    "level" : 49,
+    "move" : "Double Edge"
+  }, {
+    "level" : 53,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 57,
+    "move" : "Last Resort"
+  }, {
+    "level" : 65,
+    "move" : "Moonblast"
+  } ],
+  "eggMoves" : [ "Amnesia", "Bestow", "Draining Kiss", "Encore", "Heal Bell", "Healing Wish", "Lucky Chant", "Sleep Talk", "Sweet Kiss", "Wish", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Calm Mind", "Charge Beam", "Covet", "Dazzling Gleam", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Flash", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Sunny Day", "Surf", "Swagger", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trick Room", "Wild Charge" ],
+  "encounters" : [ ]
+}

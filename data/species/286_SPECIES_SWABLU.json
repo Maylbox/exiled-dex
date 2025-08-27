@@ -1,0 +1,105 @@
+{
+  "dex" : 286,
+  "speciesId" : "SPECIES_SWABLU",
+  "name" : "Swablu",
+  "types" : [ "Normal", "Flying" ],
+  "abilities" : [ "Natural Cure", "Fluffy", "Cloud Nine" ],
+  "evYield" : {
+    "spd" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Flying", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.4,
+  "weightKg" : 1.2,
+  "growthRate" : "Erratic",
+  "color" : "Blue",
+  "category" : "Cotton Bird",
+  "friendship" : 70,
+  "description" : "A Pokémon that has wings like cottony\nclouds. After enduring winter, in which\nlittle food is available, Swablu flocks\nmove closer to towns in the spring.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_ALTARIA",
+    "method" : "level",
+    "param" : "35"
+  } ],
+  "baseStats" : {
+    "hp" : 45,
+    "atk" : 40,
+    "def" : 60,
+    "spe" : 50,
+    "spa" : 40,
+    "spd" : 75
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Pluck"
+  }, {
+    "level" : 3,
+    "move" : "Astonish"
+  }, {
+    "level" : 5,
+    "move" : "Sing"
+  }, {
+    "level" : 7,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 9,
+    "move" : "Safeguard"
+  }, {
+    "level" : 11,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 14,
+    "move" : "Mist"
+  }, {
+    "level" : 15,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 17,
+    "move" : "Round"
+  }, {
+    "level" : 20,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 23,
+    "move" : "Take Down"
+  }, {
+    "level" : 26,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 30,
+    "move" : "Mirror Move"
+  }, {
+    "level" : 34,
+    "move" : "Cotton Guard"
+  }, {
+    "level" : 38,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 42,
+    "move" : "Perish Song"
+  }, {
+    "level" : 46,
+    "move" : "Moonblast"
+  } ],
+  "eggMoves" : [ "Agility", "Dragon Rush", "Feather Dance", "Haze", "Hyper Voice", "Play Rough", "Power Swap", "Pursuit", "Rage", "Roost", "Steel Wing" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brave Bird", "Dazzling Gleam", "Defog", "Double Edge", "Double Team", "Dragon Pulse", "Dream Eater", "Dual Wingbeat", "Endure", "Facade", "False Swipe", "Fly", "Ice Beam", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Rain Dance", "Rest", "Roost", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
+    "area" : "Route 114",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 30,
+    "max" : 33,
+    "slot" : 2
+  } ]
+}

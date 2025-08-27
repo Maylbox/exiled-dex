@@ -1,0 +1,96 @@
+{
+  "dex" : 91,
+  "speciesId" : "SPECIES_EXEGGCUTE",
+  "name" : "Exeggcute",
+  "types" : [ "Grass", "Psychic" ],
+  "abilities" : [ "Chlorophyll", "None", "Harvest" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 0,
+  "eggGroups" : [ "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.4,
+  "weightKg" : 2.5,
+  "growthRate" : "Slow",
+  "color" : "Pink",
+  "category" : "Egg",
+  "friendship" : 70,
+  "description" : "It consists of six eggs that care for each\nother. The eggs attract each other and\nspin around. When cracks increasingly\nappear, it is close to evolution.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXEGGUTOR",
+    "method" : "item",
+    "param" : "ITEM_LEAF_STONE"
+  }, {
+    "toSpeciesId" : "SPECIES_EXEGGUTOR_ALOLAN",
+    "method" : "none",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 40,
+    "def" : 80,
+    "spe" : 40,
+    "spa" : 60,
+    "spd" : 45
+  },
+  "heldItems" : {
+    "common" : "Psychic Seed"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Hypnosis"
+  }, {
+    "level" : 5,
+    "move" : "Reflect"
+  }, {
+    "level" : 10,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 15,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 20,
+    "move" : "Confusion"
+  }, {
+    "level" : 25,
+    "move" : "Synthesis"
+  }, {
+    "level" : 30,
+    "move" : "Bullet Seed"
+  }, {
+    "level" : 35,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 40,
+    "move" : "Extrasensory"
+  }, {
+    "level" : 45,
+    "move" : "Uproar"
+  }, {
+    "level" : 50,
+    "move" : "Worry Seed"
+  }, {
+    "level" : 55,
+    "move" : "Solar Beam"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Block", "Curse", "Giga Drain", "Grassy Terrain", "Ingrain", "Leaf Storm", "Lucky Chant", "Moonlight", "Natural Gift", "Nature Power", "Power Swap", "Skill Swap", "Synthesis" ],
+  "teachableMoves" : [ "Attract", "Bullet Seed", "Double Edge", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Explosion", "Facade", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Light Screen", "Protect", "Psych Up", "Psychic", "Psyshock", "Reflect", "Rest", "Rollout", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic", "Trick Room" ],
+  "encounters" : [ {
+    "areaKey" : "PetalburgWoods",
+    "bucketKey" : "Land",
+    "area" : "Petalburg Woods",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 7,
+    "slot" : 11
+  } ]
+}

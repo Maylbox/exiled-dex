@@ -1,0 +1,143 @@
+{
+  "dex" : 6,
+  "speciesId" : "SPECIES_CHARIZARD_MEGA_Y",
+  "name" : "Charizard - Mega Y",
+  "types" : [ "Fire", "Flying" ],
+  "abilities" : [ "Drought", "Drought", "Drought" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.7,
+  "weightKg" : 100.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Flame",
+  "friendship" : 70,
+  "description" : "Its bond with its Trainer is the source\nof its power. It boasts speed and\nmaneuverability greater than that of a\njet fighter.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 78,
+    "atk" : 104,
+    "def" : 78,
+    "spe" : 100,
+    "spa" : 159,
+    "spd" : 115
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 1,
+    "move" : "Air Cutter"
+  }, {
+    "level" : 1,
+    "move" : "Air Slash"
+  }, {
+    "level" : 1,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 1,
+    "move" : "Beat Up"
+  }, {
+    "level" : 1,
+    "move" : "Belly Drum"
+  }, {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Counter"
+  }, {
+    "level" : 1,
+    "move" : "Crunch"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Claw"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Dance"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Rush"
+  }, {
+    "level" : 1,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Flare Blitz"
+  }, {
+    "level" : 1,
+    "move" : "Focus Punch"
+  }, {
+    "level" : 1,
+    "move" : "Heat Wave"
+  }, {
+    "level" : 1,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 1,
+    "move" : "Outrage"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "Shadow Claw"
+  }, {
+    "level" : 7,
+    "move" : "Ember"
+  }, {
+    "level" : 9,
+    "move" : "Brick Break"
+  }, {
+    "level" : 12,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 15,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 24,
+    "move" : "Thunderpunch"
+  }, {
+    "level" : 32,
+    "move" : "Flame Burst"
+  }, {
+    "level" : 36,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 41,
+    "move" : "Slash"
+  }, {
+    "level" : 47,
+    "move" : "Fiery Flux"
+  }, {
+    "level" : 60,
+    "move" : "Dragon Rush"
+  }, {
+    "level" : 65,
+    "move" : "Roost"
+  }, {
+    "level" : 71,
+    "move" : "Heat Wave"
+  }, {
+    "level" : 77,
+    "move" : "Flare Blitz"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Blaze Kick", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Defense Curl", "Defog", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dual Wingbeat", "Dynamic Punch", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Fly", "Focus Blast", "Fury Cutter", "Giga Impact", "Hone Claws", "Hyper Beam", "Mega Kick", "Mega Punch", "Mud Slap", "Mystical Fire", "Overheat", "Power Up Punch", "Protect", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Sandstorm", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Snore", "Solar Beam", "Steel Wing", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thunder Punch", "Toxic", "Will O Wisp" ],
+  "encounters" : [ ]
+}

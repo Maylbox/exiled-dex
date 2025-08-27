@@ -1,0 +1,87 @@
+{
+  "dex" : 342,
+  "speciesId" : "SPECIES_SHIELDON",
+  "name" : "Shieldon",
+  "types" : [ "Rock", "Steel" ],
+  "abilities" : [ "Sturdy", "Battle Armor", "Soundproof" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster" ],
+  "hatchSteps" : 7680,
+  "heightM" : 0.5,
+  "weightKg" : 57.0,
+  "growthRate" : "Erratic",
+  "color" : "Gray",
+  "category" : "Shield",
+  "friendship" : 70,
+  "description" : "This Pokémon lived in primeval jungles.\nFew enemies would have been willing to\nsquare off against its heavily armored\nface, so it's thought.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BASTIODON",
+    "method" : "level",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 30,
+    "atk" : 42,
+    "def" : 118,
+    "spe" : 30,
+    "spa" : 42,
+    "spd" : 88
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Protect"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Taunt"
+  }, {
+    "level" : 10,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 15,
+    "move" : "Take Down"
+  }, {
+    "level" : 19,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 24,
+    "move" : "Swagger"
+  }, {
+    "level" : 28,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 33,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 37,
+    "move" : "Metal Burst"
+  }, {
+    "level" : 42,
+    "move" : "Iron Head"
+  }, {
+    "level" : 46,
+    "move" : "Heavy Slam"
+  } ],
+  "eggMoves" : [ "Body Slam", "Counter", "Curse", "Double Edge", "Fissure", "Focus Energy", "Guard Split", "Headbutt", "Rock Blast", "Scary Face", "Screech", "Stealth Rock", "Wide Guard" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Counter", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Blast", "Flamethrower", "Flash Cannon", "Ice Beam", "Iron Defense", "Iron Head", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thunder", "Thunderbolt", "Torment", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_B2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 16,
+    "max" : 17,
+    "slot" : 5
+  } ]
+}

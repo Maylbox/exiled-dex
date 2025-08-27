@@ -1,0 +1,99 @@
+{
+  "dex" : 386,
+  "speciesId" : "SPECIES_TIMBURR",
+  "name" : "Timburr",
+  "types" : [ "Fighting", null ],
+  "abilities" : [ "Guts", "Sheer Force", "Iron Fist" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 180,
+  "baseExp" : 61,
+  "eggGroups" : [ "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 12.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Gray",
+  "category" : "Muscular",
+  "friendship" : 70,
+  "description" : "These Pokémon appear at building\nsites and help out with construction.\nThey always carry squared logs.\nAs they grow, they carry bigger logs.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GURDURR",
+    "method" : "level",
+    "param" : "25"
+  } ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 80,
+    "def" : 55,
+    "spe" : 35,
+    "spa" : 25,
+    "spd" : 35
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 4,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 8,
+    "move" : "Bide"
+  }, {
+    "level" : 12,
+    "move" : "Low Kick"
+  }, {
+    "level" : 16,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 20,
+    "move" : "Wake Up Slap"
+  }, {
+    "level" : 24,
+    "move" : "Chip Away"
+  }, {
+    "level" : 28,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 31,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 34,
+    "move" : "Dynamic Punch"
+  }, {
+    "level" : 37,
+    "move" : "Scary Face"
+  }, {
+    "level" : 40,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 43,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 46,
+    "move" : "Focus Punch"
+  }, {
+    "level" : 49,
+    "move" : "Superpower"
+  } ],
+  "eggMoves" : [ "Comet Punch", "Counter", "Detect", "Drain Punch", "Endure", "Force Palm", "Foresight", "Mach Punch", "Power Up Punch", "Reversal", "Smelling Salts", "Wide Guard" ],
+  "teachableMoves" : [ "Attract", "Brick Break", "Bulk Up", "Counter", "Defog", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Endure", "Facade", "Fire Punch", "Focus Blast", "Grass Knot", "Ice Punch", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Smack Down", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Punch", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
+    "area" : "Dewford Town",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 10,
+    "max" : 12,
+    "slot" : 5
+  } ]
+}

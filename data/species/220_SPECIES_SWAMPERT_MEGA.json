@@ -1,0 +1,95 @@
+{
+  "dex" : 220,
+  "speciesId" : "SPECIES_SWAMPERT_MEGA",
+  "name" : "Swampert - Mega",
+  "types" : [ "Water", "Ground" ],
+  "abilities" : [ "Swift Swim", "Swift Swim", "Swift Swim" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.9,
+  "weightKg" : 102.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Mud Fish",
+  "friendship" : 70,
+  "description" : "When it Mega Evolves, the strength that it\nneeds to act in the water is increased.\nIt can use its tenacious power\nboth on land and in the water.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 150,
+    "def" : 110,
+    "spe" : 70,
+    "spa" : 95,
+    "spd" : 110
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 1,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 1,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 1,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 4,
+    "move" : "Water Gun"
+  }, {
+    "level" : 9,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 12,
+    "move" : "Body Slam"
+  }, {
+    "level" : 18,
+    "move" : "Bide"
+  }, {
+    "level" : 22,
+    "move" : "Mud Bomb"
+  }, {
+    "level" : 28,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 32,
+    "move" : "Protect"
+  }, {
+    "level" : 39,
+    "move" : "Liquidation"
+  }, {
+    "level" : 42,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 48,
+    "move" : "Axol Auto"
+  }, {
+    "level" : 51,
+    "move" : "Earthquake"
+  }, {
+    "level" : 56,
+    "move" : "Endeavor"
+  }, {
+    "level" : 63,
+    "move" : "Hammer Arm"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Facade", "Flip Turn", "Focus Blast", "Giga Impact", "High Horsepower", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mirror Coat", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Scald", "Seismic Toss", "Sleep Talk", "Sludge Wave", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

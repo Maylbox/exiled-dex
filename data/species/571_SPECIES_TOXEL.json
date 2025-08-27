@@ -1,0 +1,64 @@
+{
+  "dex" : 571,
+  "speciesId" : "SPECIES_TOXEL",
+  "name" : "Toxel",
+  "types" : [ "Electric", "Poison" ],
+  "abilities" : [ "Rattled", "Static", "Klutz" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 48,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 6400,
+  "heightM" : 0.4,
+  "weightKg" : 11.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Purple",
+  "category" : "Baby",
+  "friendship" : 70,
+  "description" : "It stores poison in an internal poison\nsac and secretes that poison through its\nskin. If you touch this Pokémon, a\ntingling sensation follows.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_TOXTRICITY_AMPED",
+    "method" : "level_nature_amped",
+    "param" : "30"
+  }, {
+    "toSpeciesId" : "SPECIES_TOXTRICITY_LOW_KEY",
+    "method" : "level_nature_low_key",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 38,
+    "def" : 35,
+    "spe" : 40,
+    "spa" : 54,
+    "spd" : 35
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Acid"
+  }, {
+    "level" : 1,
+    "move" : "Belch"
+  }, {
+    "level" : 1,
+    "move" : "Flail"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Nuzzle"
+  }, {
+    "level" : 1,
+    "move" : "Tearful Look"
+  } ],
+  "eggMoves" : [ "Endeavor", "Metal Sound", "Power Up Punch" ],
+  "teachableMoves" : [ "Attract", "Endure", "Facade", "Power Up Punch", "Protect", "Rest", "Sleep Talk", "Snore" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,102 @@
+{
+  "dex" : 182,
+  "speciesId" : "SPECIES_MISDREAVUS",
+  "name" : "Misdreavus",
+  "types" : [ "Ghost", "Fairy" ],
+  "abilities" : [ "Levitate", "None", "None" ],
+  "evYield" : {
+    "spd" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 6400,
+  "heightM" : 0.7,
+  "weightKg" : 1.0,
+  "growthRate" : "Fast",
+  "color" : "Gray",
+  "category" : "Screech",
+  "friendship" : 35,
+  "description" : "A Misdreavus frightens people with a\ncreepy, sobbing cry. It apparently uses\nits red spheres to absorb the fear of foes\nas its nutrition.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MISMAGIUS",
+    "method" : "item",
+    "param" : "ITEM_DUSK_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 60,
+    "def" : 60,
+    "spe" : 85,
+    "spa" : 85,
+    "spd" : 85
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Psywave"
+  }, {
+    "level" : 5,
+    "move" : "Spite"
+  }, {
+    "level" : 10,
+    "move" : "Astonish"
+  }, {
+    "level" : 14,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 19,
+    "move" : "Mean Look"
+  }, {
+    "level" : 23,
+    "move" : "Hex"
+  }, {
+    "level" : 28,
+    "move" : "Psybeam"
+  }, {
+    "level" : 32,
+    "move" : "Pain Split"
+  }, {
+    "level" : 37,
+    "move" : "Payback"
+  }, {
+    "level" : 41,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 46,
+    "move" : "Perish Song"
+  }, {
+    "level" : 50,
+    "move" : "Grudge"
+  }, {
+    "level" : 55,
+    "move" : "Power Gem"
+  } ],
+  "eggMoves" : [ "Curse", "Destiny Bond", "Imprison", "Me First", "Memento", "Nasty Plot", "Ominous Wind", "Screech", "Shadow Sneak", "Skill Swap", "Spite", "Sucker Punch", "Wonder Room" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Calm Mind", "Charge Beam", "Dark Pulse", "Dazzling Gleam", "Defense Curl", "Double Edge", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Giga Impact", "Grass Knot", "Hex", "Hyper Beam", "Icy Wind", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Rest", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Snowscape", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "Route112",
+    "bucketKey" : "Land",
+    "area" : "Route 112",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 28,
+    "max" : 32,
+    "slot" : 3
+  }, {
+    "areaKey" : "GraniteCave_B2F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_B2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 16,
+    "max" : 17,
+    "slot" : 4
+  } ]
+}

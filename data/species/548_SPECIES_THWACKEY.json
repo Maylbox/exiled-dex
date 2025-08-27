@@ -1,0 +1,87 @@
+{
+  "dex" : 548,
+  "speciesId" : "SPECIES_THWACKEY",
+  "name" : "Thwackey",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Overgrow", "None", "Grassy Surge" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 147,
+  "eggGroups" : [ "Field", "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.7,
+  "weightKg" : 14.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Beat",
+  "friendship" : 70,
+  "description" : "The faster a Thwackey can beat out\na rhythm with its two sticks, the more\nrespect it wins from its peers.",
+  "preEvolutionId" : "SPECIES_GROOKEY",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_RILLABOOM",
+    "method" : "level",
+    "param" : "35"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 85,
+    "def" : 70,
+    "spe" : 80,
+    "spa" : 55,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 1,
+    "move" : "Double Hit"
+  }, {
+    "level" : 1,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 6,
+    "move" : "Branch Poke"
+  }, {
+    "level" : 8,
+    "move" : "Taunt"
+  }, {
+    "level" : 10,
+    "move" : "Fake Out"
+  }, {
+    "level" : 12,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 19,
+    "move" : "Screech"
+  }, {
+    "level" : 24,
+    "move" : "Knock Off"
+  }, {
+    "level" : 30,
+    "move" : "Slam"
+  }, {
+    "level" : 36,
+    "move" : "Uproar"
+  }, {
+    "level" : 42,
+    "move" : "Wood Hammer"
+  }, {
+    "level" : 48,
+    "move" : "Endeavor"
+  } ],
+  "eggMoves" : [ "Fake Out", "Growth", "Hammer Arm", "Leech Seed", "Nature Power", "Strength", "Worry Seed" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Body Slam", "Bullet Seed", "Double Edge", "Drain Punch", "Endure", "Energy Ball", "Facade", "False Swipe", "Giga Drain", "Grass Knot", "Grassy Glide", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Protect", "Rest", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Strength", "Sunny Day", "Swift", "Swords Dance", "Taunt", "Thief", "Trailblaze", "U Turn" ],
+  "encounters" : [ ]
+}

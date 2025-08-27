@@ -1,0 +1,133 @@
+{
+  "dex" : 57,
+  "speciesId" : "SPECIES_POLIWHIRL",
+  "name" : "Poliwhirl",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Water Absorb", "Damp", "Swift Swim" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 20.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Tadpole",
+  "friendship" : 70,
+  "description" : "Its body surface is always wet and slick\nwith an oily fluid. Because of this greasy\ncovering, it can easily slip and slide out\nof the clutches of any enemy in battle.",
+  "preEvolutionId" : "SPECIES_POLIWAG",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_POLIWRATH",
+    "method" : "item",
+    "param" : "ITEM_WATER_STONE"
+  }, {
+    "toSpeciesId" : "SPECIES_POLITOED",
+    "method" : "trade_item",
+    "param" : "ITEM_KINGS_ROCK"
+  }, {
+    "toSpeciesId" : "SPECIES_POLITOED",
+    "method" : "item",
+    "param" : "ITEM_KINGS_ROCK"
+  } ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 65,
+    "def" : 65,
+    "spe" : 90,
+    "spa" : 50,
+    "spd" : 50
+  },
+  "heldItems" : {
+    "common" : "Kings Rock"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Hypnosis"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 1,
+    "move" : "Water Sport"
+  }, {
+    "level" : 5,
+    "move" : "Water Gun"
+  }, {
+    "level" : 8,
+    "move" : "Hypnosis"
+  }, {
+    "level" : 11,
+    "move" : "Bubble"
+  }, {
+    "level" : 15,
+    "move" : "Doubleslap"
+  }, {
+    "level" : 18,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 25,
+    "move" : "Submission"
+  }, {
+    "level" : 27,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 32,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 37,
+    "move" : "Belly Drum"
+  }, {
+    "level" : 43,
+    "move" : "Wake Up Slap"
+  }, {
+    "level" : 48,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 53,
+    "move" : "Mud Bomb"
+  } ],
+  "eggMoves" : [ "Bubble Beam", "Encore", "Endeavor", "Endure", "Haze", "Ice Ball", "Mind Reader", "Mist", "Mud Shot", "Refresh", "Splash", "Water Pulse", "Water Sport" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Ice Beam", "Ice Punch", "Icy Wind", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Rock Smash", "Scald", "Seismic Toss", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
+    "area" : "Route 102",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 10,
+    "max" : 30,
+    "slot" : 4
+  }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
+    "area" : "Route 102",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 20,
+    "max" : 25,
+    "slot" : 7
+  }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
+    "area" : "Route 102",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 35,
+    "max" : 40,
+    "slot" : 8
+  }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Fishing",
+    "area" : "Route 102",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 40,
+    "max" : 45,
+    "slot" : 9
+  } ]
+}

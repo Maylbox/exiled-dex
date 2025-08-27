@@ -1,0 +1,203 @@
+{
+  "dex" : 423,
+  "speciesId" : "SPECIES_ZOROARK",
+  "name" : "Zoroark",
+  "types" : [ "Dark", null ],
+  "abilities" : [ "Illusion", "None", "None" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 179,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.6,
+  "weightKg" : 81.1,
+  "growthRate" : "Medium Slow",
+  "color" : "Gray",
+  "category" : "Illusion Fox",
+  "friendship" : 70,
+  "description" : "Bonds between these Pokémon are very\nstrong. It protects the safety of its\npack by tricking its opponents. They\ndefend their lair with illusory scenery.",
+  "preEvolutionId" : "SPECIES_ZORUA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 105,
+    "def" : 60,
+    "spe" : 105,
+    "spa" : 120,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Night Slash"
+  }, {
+    "level" : 1,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 1,
+    "move" : "Imprison"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Night Daze"
+  }, {
+    "level" : 1,
+    "move" : "Pursuit"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "U Turn"
+  }, {
+    "level" : 5,
+    "move" : "Pursuit"
+  }, {
+    "level" : 9,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 13,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 17,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 21,
+    "move" : "Scary Face"
+  }, {
+    "level" : 25,
+    "move" : "Taunt"
+  }, {
+    "level" : 30,
+    "move" : "Night Slash"
+  }, {
+    "level" : 34,
+    "move" : "Torment"
+  }, {
+    "level" : 39,
+    "move" : "Agility"
+  }, {
+    "level" : 44,
+    "move" : "Embargo"
+  }, {
+    "level" : 49,
+    "move" : "Punishment"
+  }, {
+    "level" : 54,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 59,
+    "move" : "Imprison"
+  }, {
+    "level" : 64,
+    "move" : "Night Daze"
+  } ],
+  "eggMoves" : [ "Captivate", "Copycat", "Counter", "Dark Pulse", "Detect", "Extrasensory", "Memento", "Snatch", "Sucker Punch" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Calm Mind", "Counter", "Covet", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Team", "Endure", "Facade", "Flamethrower", "Focus Blast", "Giga Impact", "Grass Knot", "Hex", "Hone Claws", "Hyper Beam", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Roar", "Rock Smash", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Torment", "Toxic", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 10
+  }, {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
+    "area" : "Route 115",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 45,
+    "max" : 48,
+    "slot" : 9
+  }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 10
+  }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 10
+  }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 10
+  }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 10
+  }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_6F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 10
+  }, {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_Exterior",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 9
+  }, {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_Exterior",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 10
+  }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_Summit",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 9
+  }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_Summit",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 10
+  } ]
+}

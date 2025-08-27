@@ -1,0 +1,116 @@
+{
+  "dex" : 402,
+  "speciesId" : "SPECIES_BASCULEGION_MALE",
+  "name" : "Basculegion",
+  "types" : [ "Water", "Ghost" ],
+  "abilities" : [ "Swift Swim", "Adaptability", "Mold Breaker" ],
+  "evYield" : {
+    "hp" : 3
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 45,
+  "baseExp" : 265,
+  "eggGroups" : [ "Water 2" ],
+  "hatchSteps" : 5120,
+  "heightM" : 3.0,
+  "weightKg" : 110.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Big Fish",
+  "friendship" : 70,
+  "description" : "Clads itself in the souls of comrades that\nperished before fulfilling their goals of\njourneying upstream. No other species in\nall Hisui's rivers is Basculegion's equal.",
+  "preEvolutionId" : "SPECIES_BASCULIN_WHITE_STRIPED",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 120,
+    "atk" : 112,
+    "def" : 65,
+    "spe" : 78,
+    "spa" : 80,
+    "spd" : 75
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Phantom Force"
+  }, {
+    "level" : 1,
+    "move" : "Phantom Force"
+  }, {
+    "level" : 1,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 3,
+    "move" : "Uproar"
+  }, {
+    "level" : 5,
+    "move" : "Headbutt"
+  }, {
+    "level" : 7,
+    "move" : "Bite"
+  }, {
+    "level" : 9,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 11,
+    "move" : "Chip Away"
+  }, {
+    "level" : 14,
+    "move" : "Take Down"
+  }, {
+    "level" : 17,
+    "move" : "Crunch"
+  }, {
+    "level" : 20,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 23,
+    "move" : "Hex"
+  }, {
+    "level" : 26,
+    "move" : "Double Edge"
+  }, {
+    "level" : 30,
+    "move" : "Scary Face"
+  }, {
+    "level" : 34,
+    "move" : "Flail"
+  }, {
+    "level" : 38,
+    "move" : "Final Gambit"
+  }, {
+    "level" : 42,
+    "move" : "Waterfall"
+  }, {
+    "level" : 46,
+    "move" : "Head Smash"
+  }, {
+    "level" : 50,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 54,
+    "move" : "Poltergeist"
+  }, {
+    "level" : 60,
+    "move" : "Wave Crash"
+  }, {
+    "level" : 64,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 68,
+    "move" : "Last Respects"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Blizzard", "Calm Mind", "Crunch", "Double Edge", "Endure", "Facade", "Flip Turn", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Ice Fang", "Icy Wind", "Protect", "Psychic", "Psychic Fangs", "Rain Dance", "Rest", "Shadow Ball", "Sleep Talk", "Snowscape", "Surf", "Swift", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

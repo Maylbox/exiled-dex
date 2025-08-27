@@ -1,0 +1,86 @@
+{
+  "dex" : 141,
+  "speciesId" : "SPECIES_DRATINI",
+  "name" : "Dratini",
+  "types" : [ "Dragon", null ],
+  "abilities" : [ "Shed Skin", "None", "Marvel Scale" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Dragon" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.8,
+  "weightKg" : 3.3,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Dragon",
+  "friendship" : 35,
+  "description" : "A Dratini continually molts and sloughs\noff its old skin. It does so because the\nlife energy within its body steadily builds\nto reach uncontrollable levels.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_DRAGONAIR",
+    "method" : "level",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 41,
+    "atk" : 64,
+    "def" : 45,
+    "spe" : 50,
+    "spa" : 50,
+    "spd" : 50
+  },
+  "heldItems" : {
+    "common" : "Dragon Scale"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Wrap"
+  }, {
+    "level" : 5,
+    "move" : "Twister"
+  }, {
+    "level" : 10,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 15,
+    "move" : "Dragon Tail"
+  }, {
+    "level" : 20,
+    "move" : "Agility"
+  }, {
+    "level" : 25,
+    "move" : "Slam"
+  }, {
+    "level" : 31,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 35,
+    "move" : "Dragon Rush"
+  }, {
+    "level" : 40,
+    "move" : "Safeguard"
+  }, {
+    "level" : 45,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 50,
+    "move" : "Dragon Dance"
+  }, {
+    "level" : 55,
+    "move" : "Outrage"
+  }, {
+    "level" : 60,
+    "move" : "Hyper Beam"
+  } ],
+  "eggMoves" : [ "Aqua Jet", "Dragon Breath", "Dragon Dance", "Dragon Pulse", "Dragon Rush", "Extreme Speed", "Haze", "Iron Tail", "Mist", "Supersonic", "Water Pulse" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Double Edge", "Double Team", "Draco Meteor", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Fire Blast", "Flamethrower", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Head", "Light Screen", "Protect", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shock Wave", "Sleep Talk", "Snore", "Sunny Day", "Surf", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

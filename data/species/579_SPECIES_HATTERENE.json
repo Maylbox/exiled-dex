@@ -1,0 +1,170 @@
+{
+  "dex" : 579,
+  "speciesId" : "SPECIES_HATTERENE",
+  "name" : "Hatterene",
+  "types" : [ "Psychic", "Fairy" ],
+  "abilities" : [ "Healer", "Anticipation", "Magic Bounce" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 45,
+  "baseExp" : 255,
+  "eggGroups" : [ "Fairy" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.1,
+  "weightKg" : 5.1,
+  "growthRate" : "Slow",
+  "color" : "Pink",
+  "category" : "Silent",
+  "friendship" : 70,
+  "description" : "It emits psychic power strong enough to\ncause headaches as a deterrent to the\napproach of others.",
+  "preEvolutionId" : "SPECIES_HATTREM",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 57,
+    "atk" : 90,
+    "def" : 95,
+    "spe" : 29,
+    "spa" : 136,
+    "spd" : 103
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Psyshock"
+  }, {
+    "level" : 1,
+    "move" : "Brutal Swing"
+  }, {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Play Nice"
+  }, {
+    "level" : 1,
+    "move" : "Psyshock"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 5,
+    "move" : "Life Dew"
+  }, {
+    "level" : 10,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 15,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 20,
+    "move" : "Psybeam"
+  }, {
+    "level" : 25,
+    "move" : "Heal Pulse"
+  }, {
+    "level" : 30,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 34,
+    "move" : "Calm Mind"
+  }, {
+    "level" : 39,
+    "move" : "Psychic"
+  }, {
+    "level" : 40,
+    "move" : "Wish"
+  }, {
+    "level" : 45,
+    "move" : "Moonblast"
+  }, {
+    "level" : 50,
+    "move" : "Expanding Force"
+  }, {
+    "level" : 53,
+    "move" : "Stored Power"
+  }, {
+    "level" : 58,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 62,
+    "move" : "Buzzy Buzz"
+  } ],
+  "eggMoves" : [ "After You", "Aromatic Mist", "Nuzzle", "Quash" ],
+  "teachableMoves" : [ "Attract", "Calm Mind", "Dark Pulse", "Dazzling Gleam", "Endure", "Facade", "Giga Drain", "Giga Impact", "Hyper Beam", "Light Screen", "Metronome", "Mystical Fire", "Play Rough", "Power Whip", "Protect", "Psych Up", "Psychic", "Psyshock", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snore", "Swift", "Swords Dance", "Thunder Wave", "Trick Room" ],
+  "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 2
+  }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 2
+  }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 2
+  }, {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Land",
+    "area" : "Lilycove City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 53,
+    "max" : 55,
+    "slot" : 5
+  }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
+    "area" : "Mossdeep City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 67,
+    "max" : 69,
+    "slot" : 2
+  }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 6
+  }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 6
+  }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 6
+  } ]
+}

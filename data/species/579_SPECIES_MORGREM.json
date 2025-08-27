@@ -1,0 +1,108 @@
+{
+  "dex" : 579,
+  "speciesId" : "SPECIES_MORGREM",
+  "name" : "Morgrem",
+  "types" : [ "Dark", "Fairy" ],
+  "abilities" : [ "Prankster", "Frisk", "Pickpocket" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 120,
+  "baseExp" : 130,
+  "eggGroups" : [ "Fairy", "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 12.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Pink",
+  "category" : "Devious",
+  "friendship" : 70,
+  "description" : "When it gets down on all fours as if to\nbeg for forgiveness, it's trying to lure\nopponents in so that it can stab them\nwith its spear-like hair.",
+  "preEvolutionId" : "SPECIES_IMPIDIMP",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GRIMMSNARL",
+    "method" : "level",
+    "param" : "42"
+  } ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 60,
+    "def" : 45,
+    "spe" : 70,
+    "spa" : 75,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "False Surrender"
+  }, {
+    "level" : 1,
+    "move" : "Covet"
+  }, {
+    "level" : 1,
+    "move" : "Fake Out"
+  }, {
+    "level" : 1,
+    "move" : "False Surrender"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 4,
+    "move" : "Bite"
+  }, {
+    "level" : 8,
+    "move" : "Flatter"
+  }, {
+    "level" : 12,
+    "move" : "Fake Tears"
+  }, {
+    "level" : 16,
+    "move" : "Assurance"
+  }, {
+    "level" : 20,
+    "move" : "Swagger"
+  }, {
+    "level" : 24,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 28,
+    "move" : "Torment"
+  }, {
+    "level" : 35,
+    "move" : "Dark Pulse"
+  }, {
+    "level" : 40,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 46,
+    "move" : "Play Rough"
+  }, {
+    "level" : 52,
+    "move" : "Foul Play"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Dark Pulse", "Dazzling Gleam", "Drain Punch", "Endure", "Facade", "Leech Life", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Play Rough", "Protect", "Reflect", "Rest", "Shadow Claw", "Sleep Talk", "Snore", "Swagger", "Taunt", "Thief", "Thunder Wave", "Torment", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 10
+  }, {
+    "areaKey" : "FallarborTown0",
+    "bucketKey" : "Land",
+    "area" : "Fallarbor Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 29,
+    "max" : 33,
+    "slot" : 3
+  } ]
+}

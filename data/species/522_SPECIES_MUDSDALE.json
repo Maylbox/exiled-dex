@@ -1,0 +1,94 @@
+{
+  "dex" : 522,
+  "speciesId" : "SPECIES_MUDSDALE",
+  "name" : "Mudsdale",
+  "types" : [ "Ground", null ],
+  "abilities" : [ "Own Tempo", "Stamina", "Inner Focus" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 175,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.5,
+  "weightKg" : 920.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Draft Horse",
+  "friendship" : 70,
+  "description" : "Its heavy, mud-covered kicks are its\nbest means of attack, and it can reduce\nlarge trucks to scrap without breaking\na sweat.",
+  "preEvolutionId" : "SPECIES_MUDBRAY",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 125,
+    "def" : 100,
+    "spe" : 35,
+    "spa" : 55,
+    "spd" : 85
+  },
+  "heldItems" : {
+    "common" : "Light Clay"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 1,
+    "move" : "Rototiller"
+  }, {
+    "level" : 3,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 8,
+    "move" : "Rototiller"
+  }, {
+    "level" : 10,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 15,
+    "move" : "Double Kick"
+  }, {
+    "level" : 17,
+    "move" : "Stomp"
+  }, {
+    "level" : 22,
+    "move" : "Bide"
+  }, {
+    "level" : 24,
+    "move" : "High Horsepower"
+  }, {
+    "level" : 29,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 34,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 42,
+    "move" : "Counter"
+  }, {
+    "level" : 47,
+    "move" : "Earthquake"
+  }, {
+    "level" : 55,
+    "move" : "Mega Kick"
+  }, {
+    "level" : 60,
+    "move" : "Superpower"
+  }, {
+    "level" : 65,
+    "move" : "Slack Off"
+  } ],
+  "eggMoves" : [ "Body Slam", "Close Combat", "Double Edge", "Magnitude", "Mud Bomb" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Bulldoze", "Counter", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Focus Blast", "Giga Impact", "High Horsepower", "Hyper Beam", "Iron Defense", "Iron Head", "Low Kick", "Mega Kick", "Mud Slap", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Toxic" ],
+  "encounters" : [ ]
+}

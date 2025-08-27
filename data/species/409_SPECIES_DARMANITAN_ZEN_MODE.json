@@ -1,0 +1,107 @@
+{
+  "dex" : 409,
+  "speciesId" : "SPECIES_DARMANITAN_ZEN_MODE",
+  "name" : "Darmanitan",
+  "types" : [ "Fire", "Psychic" ],
+  "abilities" : [ "Sheer Force", "None", "Zen Mode" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.3,
+  "weightKg" : 92.9,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Blazing",
+  "friendship" : 70,
+  "description" : "When wounded, it stops moving. It\ngoes as still as stone to meditate,\nsharpening its mind and spirit.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 105,
+    "atk" : 30,
+    "def" : 105,
+    "spe" : 55,
+    "spa" : 140,
+    "spd" : 105
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 1,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 1,
+    "move" : "Incinerate"
+  }, {
+    "level" : 1,
+    "move" : "Rage"
+  }, {
+    "level" : 1,
+    "move" : "Rollout"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 3,
+    "move" : "Rollout"
+  }, {
+    "level" : 6,
+    "move" : "Incinerate"
+  }, {
+    "level" : 9,
+    "move" : "Rage"
+  }, {
+    "level" : 11,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 14,
+    "move" : "Headbutt"
+  }, {
+    "level" : 17,
+    "move" : "Swagger"
+  }, {
+    "level" : 19,
+    "move" : "Facade"
+  }, {
+    "level" : 22,
+    "move" : "Fire Punch"
+  }, {
+    "level" : 25,
+    "move" : "Work Up"
+  }, {
+    "level" : 27,
+    "move" : "Thrash"
+  }, {
+    "level" : 30,
+    "move" : "Belly Drum"
+  }, {
+    "level" : 33,
+    "move" : "Flare Blitz"
+  }, {
+    "level" : 35,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 47,
+    "move" : "Superpower"
+  }, {
+    "level" : 54,
+    "move" : "Overheat"
+  }, {
+    "level" : 58,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 62,
+    "move" : "Zen Headbutt"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Dig", "Double Team", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Grass Knot", "Gyro Ball", "Hyper Beam", "Iron Defense", "Iron Head", "Mega Kick", "Mega Punch", "Mystical Fire", "Overheat", "Power Up Punch", "Protect", "Psychic", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sleep Talk", "Smack Down", "Snatch", "Snore", "Solar Beam", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Torment", "Toxic", "U Turn", "Will O Wisp" ],
+  "encounters" : [ ]
+}

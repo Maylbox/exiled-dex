@@ -12,17 +12,53 @@ import java.io.InputStream;
 import java.nio.file.*;
 import java.util.*;
 
+import java.util.regex.*;
+
 public class Main {
     private static boolean isExiled(String id) {
         return id != null && id.startsWith("SPECIES_EXILED_");
+    }
+    // What the Excel specifies: which bases exist + which tags are allowed per base.
+    private record DexPlan(Map<String,Integer> baseDex, Map<String,Set<String>> allowedTags) {}
+
+    private static final Set<String> VALID_TAGS = Set.of("M","MX","MY","E","A","H","G","P");
+// A=Alolan, H=Hisuian, G=Galarian, P=Paldean, E=Exiled, M/MX/MY=Mega
+
+    // Return tag code for an id, or null for the "blanket/base" form
+    private static String tagForId(String id){
+        if (id == null) return null;
+        if (id.contains("_MEGA_X")) return "MX";
+        if (id.contains("_MEGA_Y")) return "MY";
+        if (id.contains("_MEGA"))   return "M";
+        if (id.startsWith("SPECIES_EXILED_")) return "E";
+        if (id.endsWith("_ALOLAN"))  return "A";
+        if (id.endsWith("_HISUIAN")) return "H";
+        if (id.endsWith("_GALARIAN"))return "G";
+        if (id.endsWith("_PALDEAN")) return "P";
+        return null;
+    }
+
+    // Map any tagged id back to its *base* species id (no EXILED/REGIONAL/MEGA suffixes)
+    private static String baseIdOf(String id){
+        if (id == null) return null;
+        String base = id;
+        base = base.replaceFirst("^SPECIES_EXILED_", "SPECIES_");
+        base = base.replaceFirst("_MEGA(?:_[A-Z])?$", "");
+        base = base.replaceFirst("_(ALOLAN|HISUIAN|GALARIAN|PALDEAN)$", "");
+        return base;
     }
     public static void main(String[] args) throws Exception {
         Path projectRoot = Paths.get("").toAbsolutePath();
         Path dataOut = projectRoot.resolve("data");         // write JSON here
         Files.createDirectories(dataOut);
 
+        Path speciesOut = dataOut.resolve("species");
+        Files.createDirectories(speciesOut);
+
         // 1) Read dex order from resources/data/input_data/pokedex.xlsx
-        Map<String,Integer> nameToDex = loadDexOrder("/data/input_data/u_pokedex.xlsx");
+        DexPlan plan = parseDexPlan("/data/input_data/updated_pokedex.xlsx");
+        Map<String,Integer> nameToDex = plan.baseDex(); // keep old variable if you like
+
 
         // 2) Parse families headers
         FamiliesParser fp = new FamiliesParser();
@@ -80,9 +116,26 @@ public class Main {
 
         for (Species s : byId.values()) {
             if (s.name() == null) { skipped++; continue; }
+            // === Inclusion check from spreadsheet ===
+            String tag = tagForId(s.speciesId());          // null for base/blanket forms
+            String baseId = baseIdOf(s.speciesId());
+            Species baseSp = byId.getOrDefault(baseId, s);  // fall back to itself
+            String baseKey = normalizeName(baseSp.name());
+
+// If the base isn’t listed at all -> exclude
+            Integer dexFromPlan = plan.baseDex().get(baseKey);
+            if (dexFromPlan == null) { skipped++; continue; }
+
+            if (tag != null) {
+                Set<String> allowedTags = plan.allowedTags().getOrDefault(baseKey, Set.of());
+                boolean ok = allowedTags.contains(tag)
+                        || (("MX".equals(tag) || "MY".equals(tag)) && allowedTags.contains("M")); // M allows MX/MY
+                if (!ok) { skipped++; continue; }
+            }
 
             String displayName = s.name();
-            Integer dex = nameToDex.get(normalizeName(displayName));
+            Integer dex = dexFromPlan;   // share the base dex position from the plan
+
 
             // Skip Gigantamax/GMAX forms entirely
             if (s.speciesId().contains("_GMAX") || s.speciesId().contains("_GIGANTAMAX")) {
@@ -94,9 +147,9 @@ public class Main {
             Species base = s;
 
             if (s.speciesId().contains("_MEGA")) {
-                String baseId = s.speciesId().replaceFirst("_MEGA(?:_[A-Z])?$", "");
-                base = byId.getOrDefault(baseId, s);
-                dex = nameToDex.get(normalizeName(base.name()));           // share base dex
+                String baseIdMega = s.speciesId().replaceFirst("_MEGA(?:_[A-Z])?$", "");
+                base = byId.getOrDefault(baseIdMega, s);
+
                 if (s.speciesId().endsWith("_MEGA_X"))      displayName = base.name() + " - Mega X";
                 else if (s.speciesId().endsWith("_MEGA_Y")) displayName = base.name() + " - Mega Y";
                 else                                        displayName = base.name() + " - Mega";
@@ -110,10 +163,10 @@ public class Main {
                         s.description(), base.speciesId(), s.evolution(), s.baseStats(),
                         s.heldItems(), s.levelUpMoves(), s.eggMoves(), s.teachableMoves(), s.encounters()
                 );
+
             } else if (s.speciesId().startsWith("SPECIES_EXILED_")) {
-                String baseId = s.speciesId().replaceFirst("^SPECIES_EXILED_", "SPECIES_");
-                base = byId.getOrDefault(baseId, s);
-                dex = nameToDex.get(normalizeName(base.name()));           // share base dex
+                String baseIdExiled = s.speciesId().replaceFirst("^SPECIES_EXILED_", "SPECIES_");
+                base = byId.getOrDefault(baseIdExiled, s);
                 displayName = "Exiled " + base.name();
 
                 s = new Species(
@@ -125,15 +178,13 @@ public class Main {
                         s.description(), s.preEvolutionId(), s.evolution(), s.baseStats(),
                         s.heldItems(), s.levelUpMoves(), s.eggMoves(), s.teachableMoves(), s.encounters()
                 );
+
             } else {
                 String region = regionalAdjective(s.speciesId());
                 if (region != null) {
-                    String baseId = regionalBaseId(s.speciesId());   // e.g. SPECIES_VULPIX
-                    base = byId.getOrDefault(baseId, s);              // <-- set base to non-regional form
-                    Integer sharedDex = nameToDex.get(normalizeName(base.name()));
-                    if (sharedDex != null) dex = sharedDex;           // share base dex
-
-                    displayName = region + " " + base.name();         // "Alolan Vulpix"
+                    String baseIdRegional = regionalBaseId(s.speciesId());   // e.g. SPECIES_VULPIX
+                    base = byId.getOrDefault(baseIdRegional, s);
+                    displayName = region + " " + base.name();                 // "Alolan Vulpix"
 
                     s = new Species(
                             s.dex(), s.speciesId(), displayName,
@@ -146,6 +197,7 @@ public class Main {
                     );
                 }
             }
+
 
 
             if (dex == null) {
@@ -214,9 +266,10 @@ public class Main {
 
 
             // write per-species JSON
-            String file = String.format("%03d_%s.json", dex, s.speciesId());
-            M.writeValue(dataOut.resolve(file).toFile(), withDex);
+            String filename = String.format("%03d_%s.json", dex, s.speciesId());
+            M.writeValue(speciesOut.resolve(filename).toFile(), withDex);
 
+// index entry
             Map<String,Object> idx = new LinkedHashMap<>();
             idx.put("dex", dex);
             idx.put("speciesId", s.speciesId());        // was "species_id"
@@ -224,7 +277,8 @@ public class Main {
             idx.put("types", s.types());
             idx.put("abilities", s.abilities());        // allow searching by ability
             idx.put("color", s.color());
-            idx.put("file", file);                      // explicit filename
+// IMPORTANT: include subfolder so the SPA fetches data/species/<file>
+            idx.put("file", "species/" + filename);
             index.add(idx);
         }
 
@@ -284,44 +338,70 @@ public class Main {
 
 
 
-    private static Map<String,Integer> loadDexOrder(String resourceXlsx) throws Exception {
-        Map<String,Integer> map = new LinkedHashMap<>();
+    private static DexPlan parseDexPlan(String resourceXlsx) throws Exception {
+        Map<String,Integer> baseDex = new LinkedHashMap<>();
+        Map<String,Set<String>> allowed = new HashMap<>();
+
         try (InputStream in = Main.class.getResourceAsStream(resourceXlsx);
              Workbook wb = new XSSFWorkbook(in)) {
+
             Sheet sh = wb.getSheetAt(0);
+            if (sh == null) return new DexPlan(baseDex, allowed);
 
-            int firstRow = sh.getFirstRowNum();
-            Row r0 = sh.getRow(firstRow);
-            if (r0 == null) return map;
+            int first = sh.getFirstRowNum();
+            int last  = sh.getLastRowNum();
 
-            // default to first column
-            int nameCol = 0;
-            String firstCell = (r0.getCell(0) != null)
-                    ? r0.getCell(0).getStringCellValue().trim().toLowerCase(Locale.ROOT)
-                    : "";
-            boolean hasHeader = List.of("name","pokemon","pokémon","species").contains(firstCell);
+            // Regex: "Charizard - MX" -> base="Charizard", tag="MX"
+            Pattern FORM = Pattern.compile("^\\s*(.*?)\\s+-\\s+([A-Za-z]+)\\s*$");
 
-            if (!hasHeader) {
-                for (Cell c : r0) {
-                    if (c != null && c.getCellType() == CellType.STRING && !c.getStringCellValue().isBlank()) {
-                        nameCol = c.getColumnIndex();
-                        break;
+            int dex = 1;
+            for (int r = first; r <= last; r++) {
+                Row row = sh.getRow(r);
+                if (row == null) continue;
+
+                // Column A defines base order if it has a base name
+                String a = readCell(row.getCell(0));
+                if (!a.isBlank()) {
+                    String baseName = a.replaceFirst("\\s+-\\s+([A-Za-z]+)\\s*$", "").trim();
+                    String key = normalizeName(baseName);
+                    if (!baseDex.containsKey(key)) baseDex.put(key, dex++);
+                }
+
+                // Scan *all* non-empty cells in the row to collect explicit allowed tags
+                short lastCell = row.getLastCellNum();
+                for (int c = 0; c < (lastCell < 0 ? 0 : lastCell); c++) {
+                    String txt = readCell(row.getCell(c));
+                    if (txt.isBlank()) continue;
+
+                    Matcher m = FORM.matcher(txt);
+                    if (m.matches()) {
+                        String baseName = m.group(1).trim();
+                        String tag      = m.group(2).trim().toUpperCase(Locale.ROOT);
+                        if (!VALID_TAGS.contains(tag)) continue;
+                        String key2 = normalizeName(baseName);
+                        if (!baseDex.containsKey(key2)) baseDex.put(key2, dex++);
+                        allowed.computeIfAbsent(key2, k -> new LinkedHashSet<>()).add(tag);
+                    } else {
+                        // Plain name (may include hyphens like "Porygon-Z")
+                        String key2 = normalizeName(txt.trim());
+                        if (!key2.isBlank() && !baseDex.containsKey(key2)) baseDex.put(key2, dex++);
                     }
                 }
             }
-            int startRow = hasHeader ? firstRow + 1 : firstRow;
-
-            int dex = 1;
-            for (int r = startRow; r <= sh.getLastRowNum(); r++) {
-                Row row = sh.getRow(r); if (row == null) continue;
-                Cell c = row.getCell(nameCol); if (c == null) continue;
-                if (c.getCellType() != CellType.STRING) continue;
-                String name = c.getStringCellValue(); if (name == null || name.isBlank()) continue;
-                map.put(normalizeName(name), dex++);
-            }
         }
-        return map;
+        return new DexPlan(baseDex, allowed);
     }
+
+    private static String readCell(Cell c){
+        if (c == null) return "";
+        return switch (c.getCellType()) {
+            case STRING -> c.getStringCellValue();
+            case NUMERIC -> (int)c.getNumericCellValue() + "";
+            case BOOLEAN -> String.valueOf(c.getBooleanCellValue());
+            default -> "";
+        };
+    }
+
 
 
     private static Path resourcePath(String res) throws Exception {

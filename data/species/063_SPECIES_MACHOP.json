@@ -1,0 +1,104 @@
+{
+  "dex" : 63,
+  "speciesId" : "SPECIES_MACHOP",
+  "name" : "Machop",
+  "types" : [ "Fighting", null ],
+  "abilities" : [ "Guts", "No Guard", "Steadfast" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 180,
+  "baseExp" : 88,
+  "eggGroups" : [ "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 19.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Gray",
+  "category" : "Superpower",
+  "friendship" : 70,
+  "description" : "It continually undertakes strenuous\ntraining to master all forms of martial\narts. Its strength lets it easily hoist\na sumo wrestler onto its shoulders.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MACHOKE",
+    "method" : "level",
+    "param" : "28"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 80,
+    "def" : 50,
+    "spe" : 35,
+    "spa" : 35,
+    "spd" : 35
+  },
+  "heldItems" : {
+    "common" : "Focus Band"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Low Kick"
+  }, {
+    "level" : 1,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 7,
+    "move" : "Karate Chop"
+  }, {
+    "level" : 9,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 13,
+    "move" : "Low Sweep"
+  }, {
+    "level" : 15,
+    "move" : "Seismic Toss"
+  }, {
+    "level" : 19,
+    "move" : "Revenge"
+  }, {
+    "level" : 21,
+    "move" : "Knock Off"
+  }, {
+    "level" : 25,
+    "move" : "Vital Throw"
+  }, {
+    "level" : 27,
+    "move" : "Wake Up Slap"
+  }, {
+    "level" : 31,
+    "move" : "Dual Chop"
+  }, {
+    "level" : 33,
+    "move" : "Submission"
+  }, {
+    "level" : 37,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 39,
+    "move" : "Cross Chop"
+  }, {
+    "level" : 43,
+    "move" : "Scary Face"
+  }, {
+    "level" : 45,
+    "move" : "Dynamic Punch"
+  } ],
+  "eggMoves" : [ "Bullet Punch", "Close Combat", "Counter", "Encore", "Fire Punch", "Heavy Slam", "Ice Punch", "Knock Off", "Meditate", "Power Trick", "Quick Guard", "Rolling Kick", "Smelling Salts", "Thunder Punch", "Tickle" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Ice Punch", "Knock Off", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Strength", "Sunny Day", "Swagger", "Thief", "Thunder Punch", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
+    "area" : "Dewford Town",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 10,
+    "max" : 12,
+    "slot" : 0
+  } ]
+}

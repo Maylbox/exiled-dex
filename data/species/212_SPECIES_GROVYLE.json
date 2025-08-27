@@ -1,0 +1,105 @@
+{
+  "dex" : 212,
+  "speciesId" : "SPECIES_GROVYLE",
+  "name" : "Grovyle",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Overgrow", "Unburden", "Technician" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.9,
+  "weightKg" : 21.6,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Wood Gecko",
+  "friendship" : 70,
+  "description" : "Leaves grow out of this Pokémon's body.\nThey help obscure a Grovyle from the eyes\nof its enemies while it is in a thickly\novergrown forest.",
+  "preEvolutionId" : "SPECIES_TREECKO",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SCEPTILE",
+    "method" : "level",
+    "param" : "36"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 65,
+    "def" : 45,
+    "spe" : 95,
+    "spa" : 85,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 1,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 1,
+    "move" : "Leafage"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 5,
+    "move" : "Leafage"
+  }, {
+    "level" : 9,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 16,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 18,
+    "move" : "Pursuit"
+  }, {
+    "level" : 23,
+    "move" : "Seismic Toss"
+  }, {
+    "level" : 25,
+    "move" : "Leaf Blade"
+  }, {
+    "level" : 28,
+    "move" : "Agility"
+  }, {
+    "level" : 33,
+    "move" : "Slam"
+  }, {
+    "level" : 37,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 38,
+    "move" : "Detect"
+  }, {
+    "level" : 43,
+    "move" : "X Scissor"
+  }, {
+    "level" : 48,
+    "move" : "False Swipe"
+  }, {
+    "level" : 53,
+    "move" : "Quick Guard"
+  }, {
+    "level" : 58,
+    "move" : "Leaf Storm"
+  }, {
+    "level" : 63,
+    "move" : "Screech"
+  } ],
+  "eggMoves" : [ "Bullet Seed", "Crunch", "Crush Claw", "Double Kick", "Dragon Breath", "Endeavor", "Grass Whistle", "Grassy Terrain", "Leaf Storm", "Leech Seed", "Magical Leaf", "Mud Sport", "Natural Gift", "Razor Wind", "Synthesis", "Worry Seed" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bullet Seed", "Counter", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Dragon Tail", "Drain Punch", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Fury Cutter", "Giga Drain", "Grass Knot", "Grassy Glide", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Seismic Toss", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Thunder Punch", "Toxic", "Trailblaze", "X Scissor" ],
+  "encounters" : [ ]
+}

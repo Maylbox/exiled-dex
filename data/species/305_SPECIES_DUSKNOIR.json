@@ -1,0 +1,113 @@
+{
+  "dex" : 305,
+  "speciesId" : "SPECIES_DUSKNOIR",
+  "name" : "Dusknoir",
+  "types" : [ "Ghost", null ],
+  "abilities" : [ "Pressure", "None", "Infiltrator" ],
+  "evYield" : {
+    "def" : 1,
+    "spd" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 210,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 6400,
+  "heightM" : 2.2,
+  "weightKg" : 106.6,
+  "growthRate" : "Fast",
+  "color" : "Black",
+  "category" : "Gripper",
+  "friendship" : 35,
+  "description" : "This feared Pokémon is said to travel to\nworlds unknown. Some even believe that\nit takes lost spirits into its pliant body\nand guides them home.",
+  "preEvolutionId" : "SPECIES_DUSCLOPS",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 110,
+    "def" : 140,
+    "spe" : 45,
+    "spa" : 65,
+    "spd" : 140
+  },
+  "heldItems" : {
+    "common" : "Spell Tag"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bind"
+  }, {
+    "level" : 1,
+    "move" : "Fire Punch"
+  }, {
+    "level" : 1,
+    "move" : "Future Sight"
+  }, {
+    "level" : 1,
+    "move" : "Gravity"
+  }, {
+    "level" : 1,
+    "move" : "Ice Punch"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Night Shade"
+  }, {
+    "level" : 1,
+    "move" : "Thunderpunch"
+  }, {
+    "level" : 6,
+    "move" : "Disable"
+  }, {
+    "level" : 9,
+    "move" : "Astonish"
+  }, {
+    "level" : 14,
+    "move" : "Foresight"
+  }, {
+    "level" : 17,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 22,
+    "move" : "Pursuit"
+  }, {
+    "level" : 25,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 30,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 33,
+    "move" : "Curse"
+  }, {
+    "level" : 37,
+    "move" : "Shadow Punch"
+  }, {
+    "level" : 40,
+    "move" : "Hex"
+  }, {
+    "level" : 47,
+    "move" : "Soul Reaper"
+  }, {
+    "level" : 52,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 57,
+    "move" : "Payback"
+  }, {
+    "level" : 64,
+    "move" : "Psychic Fangs"
+  }, {
+    "level" : 68,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 75,
+    "move" : "Dynamicpunch"
+  } ],
+  "eggMoves" : [ "Dark Pulse", "Destiny Bond", "Feint Attack", "Grudge", "Haze", "Imprison", "Memento", "Ominous Wind", "Pain Split", "Skill Swap" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Calm Mind", "Charge Beam", "Dark Pulse", "Double Team", "Dream Eater", "Earthquake", "Endure", "Facade", "Fire Punch", "Flash", "Focus Blast", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Leech Life", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,96 @@
+{
+  "dex" : 333,
+  "speciesId" : "SPECIES_PRINPLUP",
+  "name" : "Prinplup",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Torrent", "Competitive", "Refrigerate" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 23.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Penguin",
+  "friendship" : 70,
+  "description" : "Because every Prinplup considers itself\nto be the most important, they can never\nform a group. It searches for prey in\nicy seas.",
+  "preEvolutionId" : "SPECIES_PIPLUP",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EMPOLEON",
+    "method" : "level",
+    "param" : "36"
+  } ],
+  "baseStats" : {
+    "hp" : 64,
+    "atk" : 66,
+    "def" : 68,
+    "spe" : 50,
+    "spa" : 81,
+    "spd" : 76
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 4,
+    "move" : "Growl"
+  }, {
+    "level" : 8,
+    "move" : "Bubble"
+  }, {
+    "level" : 9,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 11,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 15,
+    "move" : "Pluck"
+  }, {
+    "level" : 16,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 19,
+    "move" : "Yawn"
+  }, {
+    "level" : 24,
+    "move" : "Bide"
+  }, {
+    "level" : 28,
+    "move" : "Grass Knot"
+  }, {
+    "level" : 33,
+    "move" : "Brine"
+  }, {
+    "level" : 37,
+    "move" : "Whirlpool"
+  }, {
+    "level" : 42,
+    "move" : "Mist"
+  }, {
+    "level" : 46,
+    "move" : "Drill Peck"
+  }, {
+    "level" : 50,
+    "move" : "Hydro Pump"
+  } ],
+  "eggMoves" : [ "Agility", "Aqua Ring", "Bide", "Double Hit", "Feather Dance", "Flail", "Hydro Pump", "Icy Wind", "Mud Slap", "Mud Sport", "Power Trip", "Snore", "Supersonic", "Yawn" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Blizzard", "Brick Break", "Covet", "Cut", "Defog", "Dig", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "Flip Turn", "Grass Knot", "Hone Claws", "Ice Beam", "Icy Wind", "Mud Slap", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Smash", "Rock Tomb", "Roost", "Scald", "Shadow Claw", "Sleep Talk", "Snore", "Snowscape", "Stealth Rock", "Strength", "Surf", "Swagger", "Swift", "Toxic", "Triple Axel", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 21,
+    "max" : 25,
+    "slot" : 7
+  } ]
+}

@@ -1,0 +1,130 @@
+{
+  "dex" : 241,
+  "speciesId" : "SPECIES_KIRLIA",
+  "name" : "Kirlia",
+  "types" : [ "Psychic", "Fairy" ],
+  "abilities" : [ "Synchronize", "Trace", "Telepathy" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 0,
+  "eggGroups" : [ ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 20.2,
+  "growthRate" : "Slow",
+  "color" : "White",
+  "category" : "Emotion",
+  "friendship" : 35,
+  "description" : "A Kirlia has the psychic power to create \na rip in the dimensions and see into the\nfuture. It is said to dance with pleasure\non sunny mornings.",
+  "preEvolutionId" : "SPECIES_RALTS",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_GARDEVOIR",
+    "method" : "level_female",
+    "param" : "30"
+  }, {
+    "toSpeciesId" : "SPECIES_GALLADE",
+    "method" : "level_male",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 38,
+    "atk" : 35,
+    "def" : 35,
+    "spe" : 50,
+    "spa" : 65,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Double Team"
+  }, {
+    "level" : 1,
+    "move" : "Teleport"
+  }, {
+    "level" : 4,
+    "move" : "Confusion"
+  }, {
+    "level" : 6,
+    "move" : "Double Team"
+  }, {
+    "level" : 9,
+    "move" : "Teleport"
+  }, {
+    "level" : 11,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 14,
+    "move" : "Lucky Chant"
+  }, {
+    "level" : 17,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 19,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 23,
+    "move" : "Draining Kiss"
+  }, {
+    "level" : 26,
+    "move" : "Calm Mind"
+  }, {
+    "level" : 30,
+    "move" : "Psybeam"
+  }, {
+    "level" : 31,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 37,
+    "move" : "Future Sight"
+  }, {
+    "level" : 40,
+    "move" : "Charm"
+  }, {
+    "level" : 44,
+    "move" : "Hypnosis"
+  }, {
+    "level" : 47,
+    "move" : "Dream Eater"
+  }, {
+    "level" : 51,
+    "move" : "Stored Power"
+  } ],
+  "eggMoves" : [ "Ally Switch", "Confuse Ray", "Destiny Bond", "Disable", "Encore", "Grudge", "Mean Look", "Memento", "Misty Terrain", "Shadow Sneak", "Skill Swap", "Synchronoise" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Dazzling Gleam", "Defense Curl", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Fire Punch", "Flash", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Mystical Fire", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Triple Axel", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Land",
+    "area" : "Slateport City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 19,
+    "max" : 20,
+    "slot" : 1
+  }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Land",
+    "area" : "Slateport City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 19,
+    "max" : 20,
+    "slot" : 2
+  }, {
+    "areaKey" : "VerdanturfTown0",
+    "bucketKey" : "Land",
+    "area" : "Verdanturf Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 21,
+    "max" : 25,
+    "slot" : 2
+  } ]
+}

@@ -1,0 +1,134 @@
+{
+  "dex" : 417,
+  "speciesId" : "SPECIES_ARCHEOPS",
+  "name" : "Archeops",
+  "types" : [ "Rock", "Flying" ],
+  "abilities" : [ "Defeatist", "None", "Wind Rider" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 177,
+  "eggGroups" : [ "Flying", "Water 3" ],
+  "hatchSteps" : 7680,
+  "heightM" : 1.4,
+  "weightKg" : 32.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "First Bird",
+  "friendship" : 70,
+  "description" : "They are intelligent and will cooperate\nto catch prey. When one Archeops\nhad the prey cornered, another would\nswoop on it.",
+  "preEvolutionId" : "SPECIES_ARCHEN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 140,
+    "def" : 65,
+    "spe" : 110,
+    "spa" : 112,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 1,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 1,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 5,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 8,
+    "move" : "Double Team"
+  }, {
+    "level" : 11,
+    "move" : "Scary Face"
+  }, {
+    "level" : 15,
+    "move" : "Pluck"
+  }, {
+    "level" : 18,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 21,
+    "move" : "Agility"
+  }, {
+    "level" : 25,
+    "move" : "Quick Guard"
+  }, {
+    "level" : 28,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 31,
+    "move" : "Dragonbreath"
+  }, {
+    "level" : 35,
+    "move" : "Crunch"
+  }, {
+    "level" : 40,
+    "move" : "Endeavor"
+  }, {
+    "level" : 45,
+    "move" : "U Turn"
+  }, {
+    "level" : 51,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 56,
+    "move" : "Dragon Claw"
+  }, {
+    "level" : 61,
+    "move" : "Thrash"
+  }, {
+    "level" : 68,
+    "move" : "Brave Bird"
+  } ],
+  "eggMoves" : [ "Ally Switch", "Bite", "Defog", "Dragon Pulse", "Earth Power", "Head Smash", "Knock Off", "Steel Wing", "Switcheroo" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Bulldoze", "Crunch", "Cut", "Defog", "Dig", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dual Wingbeat", "Earth Power", "Earthquake", "Endure", "Facade", "Fly", "Focus Blast", "Giga Impact", "Hone Claws", "Hyper Beam", "Iron Defense", "Knock Off", "Meteor Beam", "Protect", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Sandstorm", "Shadow Claw", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Steel Wing", "Stone Edge", "Swagger", "Swift", "Taunt", "Torment", "Toxic", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "MirageTower_1F",
+    "bucketKey" : "Land",
+    "area" : "Mirage Tower_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 8
+  }, {
+    "areaKey" : "MirageTower_2F",
+    "bucketKey" : "Land",
+    "area" : "Mirage Tower_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 3
+  }, {
+    "areaKey" : "MirageTower_3F",
+    "bucketKey" : "Land",
+    "area" : "Mirage Tower_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 3
+  }, {
+    "areaKey" : "MirageTower_4F",
+    "bucketKey" : "Land",
+    "area" : "Mirage Tower_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 3
+  } ]
+}

@@ -1,0 +1,89 @@
+{
+  "dex" : 479,
+  "speciesId" : "SPECIES_PANCHAM",
+  "name" : "Pancham",
+  "types" : [ "Fighting", null ],
+  "abilities" : [ "Iron Fist", "Mold Breaker", "Scrappy" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 220,
+  "baseExp" : 70,
+  "eggGroups" : [ "Field", "Human Like" ],
+  "hatchSteps" : 6400,
+  "heightM" : 0.6,
+  "weightKg" : 8.0,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Playful",
+  "friendship" : 70,
+  "description" : "There's no point to the leaf in its mouth,\naside from an effort to look cool. It's\nmischievous, so it's not well suited to\ninexperienced Trainers.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_PANGORO",
+    "method" : "level_dark_type_mon_in_party",
+    "param" : "32"
+  } ],
+  "baseStats" : {
+    "hp" : 67,
+    "atk" : 82,
+    "def" : 62,
+    "spe" : 43,
+    "spa" : 46,
+    "spd" : 48
+  },
+  "heldItems" : {
+    "common" : "Mental Herb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 7,
+    "move" : "Arm Thrust"
+  }, {
+    "level" : 10,
+    "move" : "Bullet Punch"
+  }, {
+    "level" : 12,
+    "move" : "Work Up"
+  }, {
+    "level" : 14,
+    "move" : "Brick Break"
+  }, {
+    "level" : 15,
+    "move" : "Bite"
+  }, {
+    "level" : 20,
+    "move" : "Slash"
+  }, {
+    "level" : 25,
+    "move" : "Circle Throw"
+  }, {
+    "level" : 27,
+    "move" : "Vital Throw"
+  }, {
+    "level" : 33,
+    "move" : "Body Slam"
+  }, {
+    "level" : 39,
+    "move" : "Crunch"
+  }, {
+    "level" : 42,
+    "move" : "Entrainment"
+  }, {
+    "level" : 45,
+    "move" : "Parting Shot"
+  }, {
+    "level" : 48,
+    "move" : "Sky Uppercut"
+  } ],
+  "eggMoves" : [ "Foul Play", "Me First", "Power Trip", "Quash", "Quick Guard", "Storm Throw" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Team", "Drain Punch", "Endure", "Facade", "False Swipe", "Fire Punch", "Grass Knot", "Ice Punch", "Iron Head", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Stone Edge", "Strength", "Sunny Day", "Surf", "Swagger", "Swords Dance", "Taunt", "Thunder Punch", "Torment", "Toxic" ],
+  "encounters" : [ ]
+}

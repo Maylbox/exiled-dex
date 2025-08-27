@@ -1,0 +1,89 @@
+{
+  "dex" : 499,
+  "speciesId" : "SPECIES_KLEFKI",
+  "name" : "Klefki",
+  "types" : [ "Steel", "Fairy" ],
+  "abilities" : [ "Prankster", "None", "Magician" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 165,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.2,
+  "weightKg" : 3.0,
+  "growthRate" : "Fast",
+  "color" : "Gray",
+  "category" : "Key Ring",
+  "friendship" : 70,
+  "description" : "These key collectors threaten any\nattackers by fiercely jingling their keys\nat them. It will sneak into people's homes\nto steal their keys.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 57,
+    "atk" : 80,
+    "def" : 91,
+    "spe" : 75,
+    "spa" : 80,
+    "spd" : 87
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 4,
+    "move" : "Tackle"
+  }, {
+    "level" : 8,
+    "move" : "Fairy Wind"
+  }, {
+    "level" : 12,
+    "move" : "Torment"
+  }, {
+    "level" : 16,
+    "move" : "Fairy Lock"
+  }, {
+    "level" : 20,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 24,
+    "move" : "Draining Kiss"
+  }, {
+    "level" : 28,
+    "move" : "Recycle"
+  }, {
+    "level" : 32,
+    "move" : "Imprison"
+  }, {
+    "level" : 36,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 40,
+    "move" : "Play Rough"
+  }, {
+    "level" : 44,
+    "move" : "Magic Room"
+  }, {
+    "level" : 48,
+    "move" : "Foul Play"
+  }, {
+    "level" : 52,
+    "move" : "Last Resort"
+  } ],
+  "eggMoves" : [ "Iron Defense", "Lock On", "Switcheroo", "Thief" ],
+  "teachableMoves" : [ "Attract", "Calm Mind", "Covet", "Cut", "Dazzling Gleam", "Defog", "Double Team", "Endure", "Facade", "Flash Cannon", "Giga Impact", "Hyper Beam", "Iron Defense", "Light Screen", "Play Rough", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Sandstorm", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder Wave", "Torment", "Toxic", "Trick Room" ],
+  "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
+    "area" : "Route 114",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 30,
+    "max" : 33,
+    "slot" : 4
+  } ]
+}

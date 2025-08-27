@@ -1,0 +1,78 @@
+{
+  "dex" : 4,
+  "speciesId" : "SPECIES_CHARMANDER",
+  "name" : "Charmander",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Blaze", "Solar Power", "Flame Body" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 8.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Lizard",
+  "friendship" : 70,
+  "description" : "The flame that burns at the tip of its\ntail is an indication of its emotions.\nThe flame wavers when Charmander is\nhappy, and blazes when it is enraged.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CHARMELEON",
+    "method" : "level",
+    "param" : "16"
+  } ],
+  "baseStats" : {
+    "hp" : 39,
+    "atk" : 52,
+    "def" : 43,
+    "spe" : 65,
+    "spa" : 60,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 5,
+    "move" : "False Swipe"
+  }, {
+    "level" : 7,
+    "move" : "Ember"
+  }, {
+    "level" : 9,
+    "move" : "Brick Break"
+  }, {
+    "level" : 12,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 19,
+    "move" : "Scary Face"
+  }, {
+    "level" : 24,
+    "move" : "Thunderpunch"
+  }, {
+    "level" : 25,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 34,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 43,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 46,
+    "move" : "Inferno"
+  } ],
+  "eggMoves" : [ "Air Cutter", "Ancient Power", "Beat Up", "Belly Drum", "Bite", "Counter", "Crunch", "Dragon Dance", "Dragon Pulse", "Dragon Rush", "Flare Blitz", "Focus Punch", "Metal Claw", "Outrage" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Counter", "Crunch", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dynamic Punch", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Hone Claws", "Mega Kick", "Mega Punch", "Mud Slap", "Overheat", "Power Up Punch", "Protect", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thunder Punch", "Toxic", "Will O Wisp" ],
+  "encounters" : [ ]
+}

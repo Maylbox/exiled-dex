@@ -1,0 +1,117 @@
+{
+  "dex" : 272,
+  "speciesId" : "SPECIES_ROSELIA",
+  "name" : "Roselia",
+  "types" : [ "Grass", "Poison" ],
+  "abilities" : [ "Natural Cure", "Poison Touch", "Leaf Guard" ],
+  "evYield" : { },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 150,
+  "baseExp" : 0,
+  "eggGroups" : [ "Fairy", "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 2.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Thorn",
+  "friendship" : 70,
+  "description" : "A Roselia that drinks nutritionally rich\nspringwater blooms with lovely flowers.\nThe fragrance of its flowers has the\neffect of making its foes careless.",
+  "preEvolutionId" : "SPECIES_BUDEW",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_ROSERADE",
+    "method" : "item",
+    "param" : "ITEM_SHINY_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 60,
+    "def" : 45,
+    "spe" : 65,
+    "spa" : 100,
+    "spd" : 80
+  },
+  "heldItems" : {
+    "common" : "Poison Barb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Sludge"
+  }, {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 4,
+    "move" : "Growth"
+  }, {
+    "level" : 7,
+    "move" : "Sludge"
+  }, {
+    "level" : 10,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 13,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 16,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 19,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 22,
+    "move" : "Grass Whistle"
+  }, {
+    "level" : 25,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 28,
+    "move" : "Toxic Spikes"
+  }, {
+    "level" : 31,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 34,
+    "move" : "Ingrain"
+  }, {
+    "level" : 37,
+    "move" : "Petal Blizzard"
+  }, {
+    "level" : 40,
+    "move" : "Toxic"
+  }, {
+    "level" : 43,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 46,
+    "move" : "Synthesis"
+  }, {
+    "level" : 50,
+    "move" : "Petal Dance"
+  }, {
+    "level" : 60,
+    "move" : "Leaf Storm"
+  } ],
+  "eggMoves" : [ "Bullet Seed", "Cotton Spore", "Giga Drain", "Grass Whistle", "Leaf Storm", "Mind Reader", "Natural Gift", "Pin Missile", "Power Whip", "Razor Leaf", "Seed Bomb", "Sleep Powder", "Spikes", "Synthesis" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bullet Seed", "Covet", "Cut", "Dazzling Gleam", "Double Edge", "Double Team", "Endure", "Energy Ball", "Facade", "Flash", "Fury Cutter", "Giga Drain", "Grass Knot", "Grassy Glide", "Mud Slap", "Poison Jab", "Power Whip", "Protect", "Psych Up", "Rain Dance", "Rest", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Toxic", "Venoshock" ],
+  "encounters" : [ {
+    "areaKey" : "Route117",
+    "bucketKey" : "Land",
+    "area" : "Route 117",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 21,
+    "max" : 24,
+    "slot" : 4
+  }, {
+    "areaKey" : "Route117",
+    "bucketKey" : "Land",
+    "area" : "Route 117",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 21,
+    "max" : 24,
+    "slot" : 6
+  } ]
+}

@@ -1,0 +1,125 @@
+{
+  "dex" : 244,
+  "speciesId" : "SPECIES_EXILED_SURSKIT",
+  "name" : "Exiled Surskit",
+  "types" : [ "Ghost", "Psychic" ],
+  "abilities" : [ "Cursed Body", "Levitate", "Synchronize" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 200,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.5,
+  "weightKg" : 1.7,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Pond Skater",
+  "friendship" : 70,
+  "description" : "They gather on puddles after evening\ndownpours, gliding across the surface\nof water as if sliding. It secretes honey\nwith a sweet aroma from its head.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_MASQUERAIN",
+    "method" : "level",
+    "param" : "27"
+  } ],
+  "baseStats" : {
+    "hp" : 34,
+    "atk" : 64,
+    "def" : 42,
+    "spe" : 57,
+    "spa" : 60,
+    "spd" : 43
+  },
+  "heldItems" : {
+    "common" : "Honey"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 1,
+    "move" : "Glare"
+  }, {
+    "level" : 2,
+    "move" : "String Shot"
+  }, {
+    "level" : 4,
+    "move" : "Confusion"
+  }, {
+    "level" : 7,
+    "move" : "Night Shade"
+  }, {
+    "level" : 8,
+    "move" : "Bubble Beam"
+  }, {
+    "level" : 9,
+    "move" : "Astonish"
+  }, {
+    "level" : 10,
+    "move" : "Leer"
+  }, {
+    "level" : 12,
+    "move" : "Snarl"
+  }, {
+    "level" : 17,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 18,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 21,
+    "move" : "Ominous Wind"
+  }, {
+    "level" : 23,
+    "move" : "Silver Wind"
+  }, {
+    "level" : 26,
+    "move" : "Psyshock"
+  }, {
+    "level" : 27,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 31,
+    "move" : "Flail"
+  }, {
+    "level" : 33,
+    "move" : "Psybeam"
+  }, {
+    "level" : 38,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 43,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 46,
+    "move" : "Double Edge"
+  }, {
+    "level" : 50,
+    "move" : "Future Sight"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Aura Sphere", "Blizzard", "Calm Mind", "Covet", "Dark Pulse", "Dazzling Gleam", "Defog", "Electroweb", "Energy Ball", "Facade", "First Impression", "Flip Turn", "Fly", "Focus Blast", "Giga Drain", "Hex", "Hidden Power", "Ice Beam", "Knock Off", "Leech Life", "Light Screen", "Meteor Beam", "Mirror Coat", "Mystical Fire", "Play Rough", "Protect", "Psychic", "Psyshock", "Rain Dance", "Roost", "Safeguard", "Scald", "Secret Power", "Shadow Ball", "Silver Wind", "Sludge Bomb", "Snatch", "Substitute", "Taunt", "Thunder", "Thunderbolt", "Torment", "Toxic", "Trick Room", "U Turn", "Water Pulse", "Will O Wisp", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Land",
+    "area" : "Route 102",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 8,
+    "slot" : 10
+  }, {
+    "areaKey" : "Route102",
+    "bucketKey" : "Land",
+    "area" : "Route 102",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 6,
+    "max" : 8,
+    "slot" : 11
+  } ]
+}

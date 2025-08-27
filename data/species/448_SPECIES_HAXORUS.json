@@ -1,0 +1,113 @@
+{
+  "dex" : 448,
+  "speciesId" : "SPECIES_HAXORUS",
+  "name" : "Haxorus",
+  "types" : [ "Dragon", null ],
+  "abilities" : [ "Sharpness", "Mold Breaker", "Moxie" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Dragon" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.8,
+  "weightKg" : 105.5,
+  "growthRate" : "Slow",
+  "color" : "Yellow",
+  "category" : "Axe Jaw",
+  "friendship" : 35,
+  "description" : "They are kind but can be relentless\nwhen defending territory. Their sturdy\ntusks will stay sharp even if used to cut\nsteel beams.",
+  "preEvolutionId" : "SPECIES_FRAXURE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 76,
+    "atk" : 147,
+    "def" : 95,
+    "spe" : 107,
+    "spa" : 60,
+    "spd" : 75
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "First Impression"
+  }, {
+    "level" : 1,
+    "move" : "Assurance"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Rage"
+  }, {
+    "level" : 1,
+    "move" : "First Impression"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Outrage"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 4,
+    "move" : "Leer"
+  }, {
+    "level" : 7,
+    "move" : "Assurance"
+  }, {
+    "level" : 10,
+    "move" : "Breaking Swipe"
+  }, {
+    "level" : 13,
+    "move" : "Dual Chop"
+  }, {
+    "level" : 16,
+    "move" : "Scary Face"
+  }, {
+    "level" : 20,
+    "move" : "Slash"
+  }, {
+    "level" : 24,
+    "move" : "False Swipe"
+  }, {
+    "level" : 28,
+    "move" : "Dragon Claw"
+  }, {
+    "level" : 32,
+    "move" : "Dragon Dance"
+  }, {
+    "level" : 36,
+    "move" : "Taunt"
+  }, {
+    "level" : 46,
+    "move" : "Draco Cleave"
+  }, {
+    "level" : 50,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 58,
+    "move" : "Outrage"
+  }, {
+    "level" : 66,
+    "move" : "Glaive Rush"
+  }, {
+    "level" : 74,
+    "move" : "Scale Shot"
+  }, {
+    "level" : 78,
+    "move" : "Bitter Blade"
+  }, {
+    "level" : 83,
+    "move" : "Dire Claw"
+  }, {
+    "level" : 89,
+    "move" : "Stone Axe"
+  } ],
+  "eggMoves" : [ "Counter", "Dragon Pulse", "Endeavor", "Endure", "Focus Energy", "Harden", "Iron Tail", "Night Slash", "Razor Wind", "Reversal" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Earthquake", "Endure", "Facade", "False Swipe", "First Impression", "Focus Blast", "Giga Impact", "Grass Knot", "Hone Claws", "Hyper Beam", "Iron Head", "Low Kick", "Poison Jab", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Surf", "Swagger", "Swift", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "X Scissor" ],
+  "encounters" : [ ]
+}

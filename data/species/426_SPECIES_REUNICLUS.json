@@ -1,0 +1,110 @@
+{
+  "dex" : 426,
+  "speciesId" : "SPECIES_REUNICLUS",
+  "name" : "Reuniclus",
+  "types" : [ "Psychic", null ],
+  "abilities" : [ "Overcoat", "Magic Guard", "Regenerator" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 50,
+  "baseExp" : 0,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 20.1,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Multiplying",
+  "friendship" : 70,
+  "description" : "They use psychic power to control their\narms, which are made of a special liquid.\nWhen Reuniclus shake hands, a network\nforms between their brains.",
+  "preEvolutionId" : "SPECIES_DUOSION",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 110,
+    "atk" : 65,
+    "def" : 75,
+    "spe" : 30,
+    "spa" : 125,
+    "spd" : 85
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Dizzy Punch"
+  }, {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Dizzy Punch"
+  }, {
+    "level" : 1,
+    "move" : "Reflect"
+  }, {
+    "level" : 1,
+    "move" : "Rollout"
+  }, {
+    "level" : 1,
+    "move" : "Snatch"
+  }, {
+    "level" : 3,
+    "move" : "Reflect"
+  }, {
+    "level" : 7,
+    "move" : "Rollout"
+  }, {
+    "level" : 10,
+    "move" : "Snatch"
+  }, {
+    "level" : 12,
+    "move" : "Psybeam"
+  }, {
+    "level" : 14,
+    "move" : "Hidden Power"
+  }, {
+    "level" : 16,
+    "move" : "Light Screen"
+  }, {
+    "level" : 19,
+    "move" : "Charm"
+  }, {
+    "level" : 24,
+    "move" : "Recover"
+  }, {
+    "level" : 25,
+    "move" : "Psyshock"
+  }, {
+    "level" : 28,
+    "move" : "Endeavor"
+  }, {
+    "level" : 31,
+    "move" : "Future Sight"
+  }, {
+    "level" : 41,
+    "move" : "Dizzy Punch"
+  }, {
+    "level" : 41,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 45,
+    "move" : "Skill Swap"
+  }, {
+    "level" : 54,
+    "move" : "Heal Block"
+  }, {
+    "level" : 59,
+    "move" : "Wonder Room"
+  }, {
+    "level" : 62,
+    "move" : "Expanding Force"
+  }, {
+    "level" : 75,
+    "move" : "Psystrike"
+  } ],
+  "eggMoves" : [ "Acid Armor", "Astonish", "Confuse Ray", "Helping Hand", "Imprison", "Night Shade", "Secret Power", "Trick" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Double Team", "Drain Punch", "Dream Eater", "Endure", "Energy Ball", "Explosion", "Facade", "Fire Punch", "Flash", "Flash Cannon", "Focus Blast", "Giga Impact", "Grass Knot", "Gyro Ball", "Hyper Beam", "Ice Punch", "Iron Defense", "Knock Off", "Light Screen", "Mega Punch", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder", "Thunder Punch", "Thunder Wave", "Toxic", "Trick Room" ],
+  "encounters" : [ ]
+}

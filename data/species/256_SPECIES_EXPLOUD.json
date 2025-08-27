@@ -1,0 +1,119 @@
+{
+  "dex" : 256,
+  "speciesId" : "SPECIES_EXPLOUD",
+  "name" : "Exploud",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Soundproof", "Punk Rock", "Scrappy" ],
+  "evYield" : {
+    "hp" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 184,
+  "eggGroups" : [ "Monster", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 84.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Loud Noise",
+  "friendship" : 70,
+  "description" : "It has sound-generating organs all over\nits body. It communicates with others by\nadjusting the tone and volume of the cries\nit emits.",
+  "preEvolutionId" : "SPECIES_LOUDRED",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 104,
+    "atk" : 81,
+    "def" : 63,
+    "spe" : 73,
+    "spa" : 101,
+    "spd" : 73
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Alluring Voice"
+  }, {
+    "level" : 1,
+    "move" : "Alluring Voice"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Boomburst"
+  }, {
+    "level" : 1,
+    "move" : "Crunch"
+  }, {
+    "level" : 1,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 1,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 1,
+    "move" : "Howl"
+  }, {
+    "level" : 1,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Fang"
+  }, {
+    "level" : 4,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 9,
+    "move" : "Astonish"
+  }, {
+    "level" : 11,
+    "move" : "Howl"
+  }, {
+    "level" : 15,
+    "move" : "Screech"
+  }, {
+    "level" : 18,
+    "move" : "Supersonic"
+  }, {
+    "level" : 23,
+    "move" : "Stomp"
+  }, {
+    "level" : 27,
+    "move" : "Uproar"
+  }, {
+    "level" : 32,
+    "move" : "Roar"
+  }, {
+    "level" : 40,
+    "move" : "Crunch"
+  }, {
+    "level" : 42,
+    "move" : "Sleep Talk"
+  }, {
+    "level" : 47,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 53,
+    "move" : "Synchronoise"
+  }, {
+    "level" : 55,
+    "move" : "Boomburst"
+  }, {
+    "level" : 58,
+    "move" : "Overdrive"
+  }, {
+    "level" : 64,
+    "move" : "Hyper Beam"
+  } ],
+  "eggMoves" : [ "Circle Throw", "Disarming Voice", "Endeavor", "Extrasensory", "Fake Tears", "Hammer Arm", "Smelling Salts", "Smokescreen", "Snore", "Take Down", "Whirlwind" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Defense Curl", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Overheat", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Strength", "Sunny Day", "Surf", "Swagger", "Taunt", "Thunder Fang", "Thunder Punch", "Torment", "Toxic", "Water Pulse" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,114 @@
+{
+  "dex" : 451,
+  "speciesId" : "SPECIES_MIENFOO",
+  "name" : "Mienfoo",
+  "types" : [ "Fighting", null ],
+  "abilities" : [ "Inner Focus", "Regenerator", "Reckless" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 180,
+  "baseExp" : 70,
+  "eggGroups" : [ "Field", "Human Like" ],
+  "hatchSteps" : 6400,
+  "heightM" : 0.9,
+  "weightKg" : 20.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Yellow",
+  "category" : "Martial Arts",
+  "friendship" : 70,
+  "description" : "They have mastered elegant combos.\nAs they concentrate, their battle moves\nbecome swifter and more precise. What it\nlacks in power, it makes up for in quantity.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MIENSHAO",
+    "method" : "level",
+    "param" : "35"
+  } ],
+  "baseStats" : {
+    "hp" : 45,
+    "atk" : 85,
+    "def" : 50,
+    "spe" : 65,
+    "spa" : 55,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Force Palm"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 5,
+    "move" : "Meditate"
+  }, {
+    "level" : 9,
+    "move" : "Detect"
+  }, {
+    "level" : 11,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 13,
+    "move" : "Fake Out"
+  }, {
+    "level" : 17,
+    "move" : "Double Slap"
+  }, {
+    "level" : 21,
+    "move" : "Swift"
+  }, {
+    "level" : 25,
+    "move" : "Calm Mind"
+  }, {
+    "level" : 29,
+    "move" : "Force Palm"
+  }, {
+    "level" : 33,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 37,
+    "move" : "Jump Kick"
+  }, {
+    "level" : 41,
+    "move" : "U Turn"
+  }, {
+    "level" : 45,
+    "move" : "Quick Guard"
+  }, {
+    "level" : 49,
+    "move" : "Bounce"
+  }, {
+    "level" : 50,
+    "move" : "Hi Jump Kick"
+  }, {
+    "level" : 57,
+    "move" : "Reversal"
+  }, {
+    "level" : 61,
+    "move" : "Aura Sphere"
+  } ],
+  "eggMoves" : [ "Ally Switch", "Baton Pass", "Endure", "Feint", "Knock Off", "Low Kick", "Me First", "Smelling Salts", "Vital Throw" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Aura Sphere", "Brick Break", "Bulk Up", "Calm Mind", "Dig", "Double Team", "Drain Punch", "Endure", "Facade", "Focus Blast", "Grass Knot", "Hone Claws", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "Route110",
+    "bucketKey" : "Land",
+    "area" : "Route 110",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 20,
+    "max" : 21,
+    "slot" : 8
+  }, {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
+    "area" : "Dewford Town",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 10,
+    "max" : 12,
+    "slot" : 3
+  } ]
+}

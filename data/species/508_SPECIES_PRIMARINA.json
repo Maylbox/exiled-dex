@@ -1,0 +1,110 @@
+{
+  "dex" : 508,
+  "speciesId" : "SPECIES_PRIMARINA",
+  "name" : "Primarina",
+  "types" : [ "Water", "Fairy" ],
+  "abilities" : [ "Torrent", "Water Absorb", "Liquid Voice" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Field" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.8,
+  "weightKg" : 44.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Soloist",
+  "friendship" : 70,
+  "description" : "It controls its water balloons with song.\nThe melody is learned from others of\nits kind and is passed down from one\ngeneration to the next.",
+  "preEvolutionId" : "SPECIES_BRIONNE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 85,
+    "atk" : 74,
+    "def" : 74,
+    "spe" : 60,
+    "spa" : 131,
+    "spd" : 116
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Sparkling Aria"
+  }, {
+    "level" : 1,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 1,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Sparkling Aria"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 4,
+    "move" : "Growl"
+  }, {
+    "level" : 9,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 11,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 14,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 16,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 19,
+    "move" : "Encore"
+  }, {
+    "level" : 24,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 28,
+    "move" : "Sing"
+  }, {
+    "level" : 33,
+    "move" : "Doubleslap"
+  }, {
+    "level" : 34,
+    "move" : "Sparkling Aria"
+  }, {
+    "level" : 38,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 44,
+    "move" : "Moonblast"
+  }, {
+    "level" : 49,
+    "move" : "Ice Beam"
+  }, {
+    "level" : 55,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 60,
+    "move" : "Bouncy Bubble"
+  } ],
+  "eggMoves" : [ "Amnesia", "Aqua Ring", "Aromatic Mist", "Charm", "Perish Song", "Wonder Room" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Blizzard", "Body Slam", "Calm Mind", "Covet", "Dazzling Gleam", "Dive", "Double Team", "Endure", "Energy Ball", "Facade", "Flip Turn", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Light Screen", "Play Rough", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Scald", "Shadow Ball", "Sleep Talk", "Snore", "Snowscape", "Surf", "Swagger", "Swift", "Toxic", "Triple Axel", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
+    "area" : "Sootopolis City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 8
+  } ]
+}

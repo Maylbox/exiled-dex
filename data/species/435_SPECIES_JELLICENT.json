@@ -1,0 +1,269 @@
+{
+  "dex" : 435,
+  "speciesId" : "SPECIES_JELLICENT",
+  "name" : "Jellicent",
+  "types" : [ "Water", "Ghost" ],
+  "abilities" : [ "Water Absorb", "Cursed Body", "Damp" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 168,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.2,
+  "weightKg" : 135.0,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Floating",
+  "friendship" : 70,
+  "description" : "They propel themselves by expelling\nabsorbed seawater from their bodies.\nIt's said there's a castle of ships\nJellicent have sunk on the seafloor.",
+  "preEvolutionId" : "SPECIES_FRILLISH",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 40,
+    "def" : 80,
+    "spe" : 60,
+    "spa" : 95,
+    "spd" : 105
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Bubble"
+  }, {
+    "level" : 1,
+    "move" : "Night Shade"
+  }, {
+    "level" : 1,
+    "move" : "Water Sport"
+  }, {
+    "level" : 1,
+    "move" : "Water Spout"
+  }, {
+    "level" : 1,
+    "move" : "Wring Out"
+  }, {
+    "level" : 5,
+    "move" : "Absorb"
+  }, {
+    "level" : 9,
+    "move" : "Night Shade"
+  }, {
+    "level" : 13,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 17,
+    "move" : "Recover"
+  }, {
+    "level" : 19,
+    "move" : "Strength Sap"
+  }, {
+    "level" : 22,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 27,
+    "move" : "Ominous Wind"
+  }, {
+    "level" : 32,
+    "move" : "Brine"
+  }, {
+    "level" : 37,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 45,
+    "move" : "Hex"
+  }, {
+    "level" : 53,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 57,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 61,
+    "move" : "Wring Out"
+  }, {
+    "level" : 69,
+    "move" : "Water Spout"
+  } ],
+  "eggMoves" : [ "Acid Armor", "Confuse Ray", "Constrict", "Mist", "Pain Split", "Recover" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Dark Pulse", "Dazzling Gleam", "Dive", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Icy Wind", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Safeguard", "Scald", "Shadow Ball", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Surf", "Swagger", "Taunt", "Toxic", "Trick Room", "Water Pulse", "Waterfall", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "Route105",
+    "bucketKey" : "Water",
+    "area" : "Route 105",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route118",
+    "bucketKey" : "Water",
+    "area" : "Route 118",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route124",
+    "bucketKey" : "Water",
+    "area" : "Route 124",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route106",
+    "bucketKey" : "Water",
+    "area" : "Route 106",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route107",
+    "bucketKey" : "Water",
+    "area" : "Route 107",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route108",
+    "bucketKey" : "Water",
+    "area" : "Route 108",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route109",
+    "bucketKey" : "Water",
+    "area" : "Route 109",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Water",
+    "area" : "Route 122",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 2
+  }, {
+    "areaKey" : "Route125",
+    "bucketKey" : "Water",
+    "area" : "Route 125",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route126",
+    "bucketKey" : "Water",
+    "area" : "Route 126",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route127",
+    "bucketKey" : "Water",
+    "area" : "Route 127",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route128",
+    "bucketKey" : "Water",
+    "area" : "Route 128",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route129",
+    "bucketKey" : "Water",
+    "area" : "Route 129",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Water",
+    "area" : "Route 130",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route131",
+    "bucketKey" : "Water",
+    "area" : "Route 131",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route132",
+    "bucketKey" : "Water",
+    "area" : "Route 132",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route133",
+    "bucketKey" : "Water",
+    "area" : "Route 133",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route134",
+    "bucketKey" : "Water",
+    "area" : "Route 134",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Fishing",
+    "area" : "Slateport City",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 20,
+    "max" : 25,
+    "slot" : 7
+  } ]
+}

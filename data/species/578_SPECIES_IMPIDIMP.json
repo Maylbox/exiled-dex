@@ -1,0 +1,84 @@
+{
+  "dex" : 578,
+  "speciesId" : "SPECIES_IMPIDIMP",
+  "name" : "Impidimp",
+  "types" : [ "Dark", "Fairy" ],
+  "abilities" : [ "Prankster", "Frisk", "Pickpocket" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 255,
+  "baseExp" : 53,
+  "eggGroups" : [ "Fairy", "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.4,
+  "weightKg" : 5.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Pink",
+  "category" : "Wily",
+  "friendship" : 70,
+  "description" : "Through its nose, it sucks in the\nemanations produced by people and\nPokémon when they feel annoyed. It\nthrives off this negative energy.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MORGREM",
+    "method" : "level",
+    "param" : "32"
+  } ],
+  "baseStats" : {
+    "hp" : 45,
+    "atk" : 45,
+    "def" : 30,
+    "spe" : 50,
+    "spa" : 55,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Covet"
+  }, {
+    "level" : 1,
+    "move" : "Fake Out"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 4,
+    "move" : "Bite"
+  }, {
+    "level" : 8,
+    "move" : "Flatter"
+  }, {
+    "level" : 12,
+    "move" : "Fake Tears"
+  }, {
+    "level" : 16,
+    "move" : "Assurance"
+  }, {
+    "level" : 20,
+    "move" : "Swagger"
+  }, {
+    "level" : 24,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 28,
+    "move" : "Torment"
+  }, {
+    "level" : 33,
+    "move" : "Dark Pulse"
+  }, {
+    "level" : 36,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 40,
+    "move" : "Play Rough"
+  }, {
+    "level" : 44,
+    "move" : "Foul Play"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Dark Pulse", "Dazzling Gleam", "Drain Punch", "Endure", "Facade", "Leech Life", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Play Rough", "Protect", "Reflect", "Rest", "Sleep Talk", "Snore", "Swagger", "Taunt", "Thief", "Thunder Wave", "Torment", "Trailblaze" ],
+  "encounters" : [ ]
+}

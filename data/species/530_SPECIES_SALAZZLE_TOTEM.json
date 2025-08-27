@@ -1,0 +1,103 @@
+{
+  "dex" : 530,
+  "speciesId" : "SPECIES_SALAZZLE_TOTEM",
+  "name" : "Salazzle",
+  "types" : [ "Poison", "Fire" ],
+  "abilities" : [ "Corrosion", "None", "None" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 45,
+  "baseExp" : 168,
+  "eggGroups" : [ "Monster", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.1,
+  "weightKg" : 81.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Black",
+  "category" : "Toxic Lizard",
+  "friendship" : 70,
+  "description" : null,
+  "preEvolutionId" : "SPECIES_SALANDIT",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 68,
+    "atk" : 64,
+    "def" : 60,
+    "spe" : 117,
+    "spa" : 111,
+    "spd" : 60
+  },
+  "heldItems" : {
+    "common" : "Smoke Ball"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Fire Lash"
+  }, {
+    "level" : 1,
+    "move" : "Disable"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Encore"
+  }, {
+    "level" : 1,
+    "move" : "Endeavor"
+  }, {
+    "level" : 1,
+    "move" : "Knock Off"
+  }, {
+    "level" : 1,
+    "move" : "Poison Gas"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "Smog"
+  }, {
+    "level" : 1,
+    "move" : "Swagger"
+  }, {
+    "level" : 1,
+    "move" : "Torment"
+  }, {
+    "level" : 15,
+    "move" : "Poison Fang"
+  }, {
+    "level" : 20,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 25,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 30,
+    "move" : "Incinerate"
+  }, {
+    "level" : 37,
+    "move" : "Venoshock"
+  }, {
+    "level" : 44,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 51,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 58,
+    "move" : "Toxic"
+  }, {
+    "level" : 60,
+    "move" : "Dragon Pulse"
+  } ],
+  "eggMoves" : [ "Belch", "Fake Out", "Knock Off", "Sand Attack", "Snatch" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Body Slam", "Covet", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Giga Impact", "Hyper Beam", "Knock Off", "Leech Life", "Mud Slap", "Overheat", "Poison Jab", "Protect", "Rest", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder Wave", "Torment", "Toxic", "Trailblaze", "Venoshock", "Will O Wisp" ],
+  "encounters" : [ ]
+}

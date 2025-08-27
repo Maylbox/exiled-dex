@@ -1,0 +1,109 @@
+{
+  "dex" : 330,
+  "speciesId" : "SPECIES_MONFERNO",
+  "name" : "Monferno",
+  "types" : [ "Fire", "Fighting" ],
+  "abilities" : [ "Blaze", "Iron Fist", "Adaptability" ],
+  "evYield" : {
+    "spa" : 1,
+    "spe" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 142,
+  "eggGroups" : [ "Field", "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.9,
+  "weightKg" : 22.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Playful",
+  "friendship" : 70,
+  "description" : "It carefully controls the intensity of\nthe flame on its tail, so as to keep its\nfoes at an adequate distance.\nIts fiery tail is but one weapon.",
+  "preEvolutionId" : "SPECIES_CHIMCHAR",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_INFERNAPE",
+    "method" : "level",
+    "param" : "36"
+  } ],
+  "baseStats" : {
+    "hp" : 64,
+    "atk" : 78,
+    "def" : 52,
+    "spe" : 81,
+    "spa" : 78,
+    "spd" : 52
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 1,
+    "move" : "Facade"
+  }, {
+    "level" : 1,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 7,
+    "move" : "Ember"
+  }, {
+    "level" : 9,
+    "move" : "Taunt"
+  }, {
+    "level" : 14,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 16,
+    "move" : "Flame Wheel"
+  }, {
+    "level" : 19,
+    "move" : "Flame Burst"
+  }, {
+    "level" : 26,
+    "move" : "Feint"
+  }, {
+    "level" : 27,
+    "move" : "Low Sweep"
+  }, {
+    "level" : 29,
+    "move" : "Torment"
+  }, {
+    "level" : 36,
+    "move" : "Close Combat"
+  }, {
+    "level" : 39,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 46,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 49,
+    "move" : "Slack Off"
+  }, {
+    "level" : 56,
+    "move" : "Flare Blitz"
+  } ],
+  "eggMoves" : [ "Assist", "Blaze Kick", "Counter", "Double Kick", "Encore", "Fake Out", "Fire Punch", "Focus Energy", "Focus Punch", "Heat Wave", "Helping Hand", "Power Up Punch", "Quick Guard", "Submission", "Thunder Punch" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Blaze Kick", "Brick Break", "Bulk Up", "Counter", "Covet", "Cut", "Dig", "Double Edge", "Double Team", "Drain Punch", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Grass Knot", "Hone Claws", "Knock Off", "Low Kick", "Metronome", "Mud Slap", "Overheat", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Shadow Claw", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "U Turn", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
+    "area" : "Lavaridge Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 7
+  } ]
+}

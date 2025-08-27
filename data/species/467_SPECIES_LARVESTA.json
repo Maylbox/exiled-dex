@@ -1,0 +1,87 @@
+{
+  "dex" : 467,
+  "speciesId" : "SPECIES_LARVESTA",
+  "name" : "Larvesta",
+  "types" : [ "Bug", "Fire" ],
+  "abilities" : [ "Flame Body", "None", "Swarm" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 72,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.1,
+  "weightKg" : 28.8,
+  "growthRate" : "Slow",
+  "color" : "White",
+  "category" : "Torch",
+  "friendship" : 70,
+  "description" : "This Pokémon was believed to have\nbeen born from the sun. It spews fire from\nits horns and encases itself in a cocoon\nof fire when it evolves.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_VOLCARONA",
+    "method" : "level",
+    "param" : "45"
+  } ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 85,
+    "def" : 55,
+    "spe" : 60,
+    "spa" : 50,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "String Shot"
+  }, {
+    "level" : 6,
+    "move" : "Flame Charge"
+  }, {
+    "level" : 12,
+    "move" : "Struggle Bug"
+  }, {
+    "level" : 18,
+    "move" : "Flame Wheel"
+  }, {
+    "level" : 30,
+    "move" : "Screech"
+  }, {
+    "level" : 36,
+    "move" : "Leech Life"
+  }, {
+    "level" : 42,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 48,
+    "move" : "Take Down"
+  }, {
+    "level" : 54,
+    "move" : "Amnesia"
+  }, {
+    "level" : 60,
+    "move" : "Double Edge"
+  }, {
+    "level" : 66,
+    "move" : "Flare Blitz"
+  } ],
+  "eggMoves" : [ "Endure", "Foresight", "Harden", "Magnet Rise", "Morning Sun", "String Shot", "Zen Headbutt" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Body Slam", "Calm Mind", "Double Edge", "Double Team", "Endure", "Facade", "Fire Blast", "Flamethrower", "Giga Drain", "Leech Life", "Light Screen", "Overheat", "Protect", "Psychic", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Toxic", "Trailblaze", "U Turn", "Wild Charge", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "Route114",
+    "bucketKey" : "Land",
+    "area" : "Route 114",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 30,
+    "max" : 33,
+    "slot" : 7
+  } ]
+}

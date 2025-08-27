@@ -1,0 +1,105 @@
+{
+  "dex" : 118,
+  "speciesId" : "SPECIES_MAGMAR",
+  "name" : "Magmar",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Flame Body", "None", "Vital Spirit" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Human Like" ],
+  "hatchSteps" : 6400,
+  "heightM" : 1.3,
+  "weightKg" : 44.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Spitfire",
+  "friendship" : 70,
+  "description" : "In battle, it blows out intense flames from\nall over its body to intimidate its foe.\nThese fiery bursts create heat waves that\nignite grass and trees in the area.",
+  "preEvolutionId" : "SPECIES_MAGBY",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MAGMORTAR",
+    "method" : "trade_item",
+    "param" : "ITEM_MAGMARIZER"
+  }, {
+    "toSpeciesId" : "SPECIES_MAGMORTAR",
+    "method" : "item",
+    "param" : "ITEM_MAGMARIZER"
+  } ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 95,
+    "def" : 57,
+    "spe" : 93,
+    "spa" : 100,
+    "spd" : 85
+  },
+  "heldItems" : {
+    "common" : "Magmarizer"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Lava Plume"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Smog"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Punch"
+  }, {
+    "level" : 5,
+    "move" : "Ember"
+  }, {
+    "level" : 8,
+    "move" : "Smokescreen"
+  }, {
+    "level" : 12,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 15,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 19,
+    "move" : "Clear Smog"
+  }, {
+    "level" : 22,
+    "move" : "Flame Burst"
+  }, {
+    "level" : 26,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 29,
+    "move" : "Fire Punch"
+  }, {
+    "level" : 36,
+    "move" : "Lava Plume"
+  }, {
+    "level" : 42,
+    "move" : "Sunny Day"
+  }, {
+    "level" : 49,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 55,
+    "move" : "Fire Blast"
+  } ],
+  "eggMoves" : [ "Barrier", "Belch", "Belly Drum", "Cross Chop", "Dynamic Punch", "Flare Blitz", "Focus Energy", "Iron Tail", "Karate Chop", "Mach Punch", "Mega Punch", "Power Swap", "Screech", "Thunder Punch" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Counter", "Covet", "Double Edge", "Double Team", "Dynamic Punch", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Hyper Beam", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Overheat", "Poison Jab", "Power Up Punch", "Protect", "Psychic", "Rest", "Roar", "Rock Smash", "Seismic Toss", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Punch", "Toxic", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
+    "area" : "Lavaridge Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 1
+  } ]
+}

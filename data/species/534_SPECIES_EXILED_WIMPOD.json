@@ -1,0 +1,51 @@
+{
+  "dex" : 534,
+  "speciesId" : "SPECIES_EXILED_WIMPOD",
+  "name" : "Exiled Wimpod",
+  "types" : [ "Steel", null ],
+  "abilities" : [ "Wimp Out", "Wimp Out", "Wimp Out" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 46,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 12.0,
+  "growthRate" : "Slow",
+  "color" : "Gray",
+  "category" : "Turn Tail",
+  "friendship" : 70,
+  "description" : "This Pokémon is a coward. As it desperately\ndashes off, the flailing of its many legs\nleaves a sparkling clean path in its wake.\nIt lives on beaches and seabeds.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_GOLISOPOD",
+    "method" : "level",
+    "param" : "40"
+  } ],
+  "baseStats" : {
+    "hp" : 23,
+    "atk" : 59,
+    "def" : 48,
+    "spe" : 39,
+    "spa" : 18,
+    "spd" : 43
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Struggle Bug"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Rest" ],
+  "encounters" : [ ]
+}

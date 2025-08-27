@@ -1,0 +1,111 @@
+{
+  "dex" : 506,
+  "speciesId" : "SPECIES_TORRACAT",
+  "name" : "Torracat",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Blaze", "Intimidate", "Unaware" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 147,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.7,
+  "weightKg" : 25.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Fire Cat",
+  "friendship" : 70,
+  "description" : "At its throat, it bears a bell of fire. The\nbell rings brightly whenever this Pokémon\nspits fire. With a single punch, it can bend\nan iron bar right over.",
+  "preEvolutionId" : "SPECIES_LITTEN",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_INCINEROAR",
+    "method" : "level",
+    "param" : "34"
+  } ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 85,
+    "def" : 50,
+    "spe" : 90,
+    "spa" : 80,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Lick"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 4,
+    "move" : "Growl"
+  }, {
+    "level" : 7,
+    "move" : "Fake Out"
+  }, {
+    "level" : 8,
+    "move" : "Lick"
+  }, {
+    "level" : 11,
+    "move" : "Leer"
+  }, {
+    "level" : 14,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 16,
+    "move" : "Double Kick"
+  }, {
+    "level" : 19,
+    "move" : "Roar"
+  }, {
+    "level" : 22,
+    "move" : "Scorching Sands"
+  }, {
+    "level" : 24,
+    "move" : "Bite"
+  }, {
+    "level" : 28,
+    "move" : "Swagger"
+  }, {
+    "level" : 33,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 37,
+    "move" : "Thrash"
+  }, {
+    "level" : 42,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 46,
+    "move" : "Scary Face"
+  }, {
+    "level" : 51,
+    "move" : "Flare Blitz"
+  }, {
+    "level" : 55,
+    "move" : "Outrage"
+  } ],
+  "eggMoves" : [ "Body Slam", "Crunch", "Fake Out", "Heat Wave", "Nasty Plot", "Power Trip", "Revenge" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Body Slam", "Bulk Up", "Covet", "Crunch", "Double Edge", "Double Team", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Leech Life", "Overheat", "Protect", "Rest", "Roar", "Shadow Claw", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Torment", "Toxic", "Trailblaze", "U Turn", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
+    "area" : "Lavaridge Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 9
+  } ]
+}

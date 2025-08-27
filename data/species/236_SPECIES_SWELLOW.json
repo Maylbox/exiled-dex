@@ -1,0 +1,107 @@
+{
+  "dex" : 236,
+  "speciesId" : "SPECIES_SWELLOW",
+  "name" : "Swellow",
+  "types" : [ "Flying", null ],
+  "abilities" : [ "Guts", "None", "Scrappy" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 162,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.7,
+  "weightKg" : 19.8,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Swallow",
+  "friendship" : 70,
+  "description" : "A Swellow dives upon prey from far above.\nIt never misses its targets. It takes to\nthe skies in search of lands with a warm\nclimate.",
+  "preEvolutionId" : "SPECIES_TAILLOW",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 95,
+    "def" : 60,
+    "spe" : 125,
+    "spa" : 75,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Facade"
+  }, {
+    "level" : 1,
+    "move" : "Air Slash"
+  }, {
+    "level" : 1,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 1,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Pluck"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 5,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 9,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 13,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 17,
+    "move" : "Double Team"
+  }, {
+    "level" : 21,
+    "move" : "Aerial Ace"
+  }, {
+    "level" : 27,
+    "move" : "Quick Guard"
+  }, {
+    "level" : 33,
+    "move" : "Agility"
+  }, {
+    "level" : 39,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 45,
+    "move" : "Endeavor"
+  }, {
+    "level" : 51,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 57,
+    "move" : "Reversal"
+  }, {
+    "level" : 65,
+    "move" : "Boomburst"
+  } ],
+  "eggMoves" : [ "Boomburst", "Brave Bird", "Defog", "Hurricane", "Mirror Move", "Pursuit", "Rage", "Refresh", "Roost", "Sky Attack", "Steel Wing", "Supersonic", "Whirlwind" ],
+  "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Counter", "Defog", "Double Edge", "Double Team", "Endure", "Facade", "Fly", "Giga Impact", "Hyper Beam", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roost", "Sleep Talk", "Snore", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "FortreeCity0",
+    "bucketKey" : "Land",
+    "area" : "Fortree City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 50,
+    "max" : 53,
+    "slot" : 0
+  } ]
+}

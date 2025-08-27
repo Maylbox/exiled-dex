@@ -154,7 +154,7 @@ const struct WildPokemon gRoute104_LandMons[] =
     { 6, 7, SPECIES_POLIWAG },
     { 6, 7, SPECIES_FOONGUS },
     { 6, 7, SPECIES_FOONGUS },
-    { 6, 7, SPECIES_LEDYBA },
+    { 6, 7, SPECIES_SPEAROW },
     { 6, 7, SPECIES_DEWPIDER },
     { 6, 7, SPECIES_BUNEARY },
     { 7, 9, SPECIES_ABRA },
@@ -402,7 +402,7 @@ const struct WildPokemon gRoute116_LandMons[] =
     { 8, 10, SPECIES_GRIMER },
     { 8, 10, SPECIES_WHISMUR },
     { 8, 10, SPECIES_WHISMUR },
-    { 8, 10, SPECIES_HELIOPTILE },
+    { 8, 10, SPECIES_LEDYBA },
     { 8, 10, SPECIES_HONEDGE },
     { 8, 10, SPECIES_NINCADA },
     { 8, 10, SPECIES_EXILED_NIDORAN_F },
@@ -863,7 +863,7 @@ const struct WildPokemonInfo gRoute109_WaterMonsInfo = { 4, gRoute109_WaterMons 
 const struct WildPokemon gRoute109_FishingMons[] =
 {
     { 5, 10, SPECIES_TRUBBISH },
-    { 5, 10, SPECIES_MAGIKARP },
+    { 5, 10, SPECIES_FINIZEN },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_TENTACOOL },
     { 10, 30, SPECIES_WAILMER },

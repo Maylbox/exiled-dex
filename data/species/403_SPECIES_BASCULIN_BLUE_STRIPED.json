@@ -1,0 +1,88 @@
+{
+  "dex" : 403,
+  "speciesId" : "SPECIES_BASCULIN_BLUE_STRIPED",
+  "name" : "Basculin",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Rock Head", "Adaptability", "Mold Breaker" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 161,
+  "eggGroups" : [ "Water 2" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.0,
+  "weightKg" : 18.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Hostile",
+  "friendship" : 70,
+  "description" : "They form schools with others of the same\ncolor. The greatest foe of a school of blue\nBasculin is a school of red Basculin.\nIts flavor is light and inoffensive.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 92,
+    "def" : 65,
+    "spe" : 98,
+    "spa" : 80,
+    "spd" : 55
+  },
+  "heldItems" : {
+    "common" : "Deep Sea Scale"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 4,
+    "move" : "Tackle"
+  }, {
+    "level" : 8,
+    "move" : "Flail"
+  }, {
+    "level" : 12,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 16,
+    "move" : "Bite"
+  }, {
+    "level" : 20,
+    "move" : "Scary Face"
+  }, {
+    "level" : 24,
+    "move" : "Headbutt"
+  }, {
+    "level" : 28,
+    "move" : "Soak"
+  }, {
+    "level" : 32,
+    "move" : "Crunch"
+  }, {
+    "level" : 36,
+    "move" : "Take Down"
+  }, {
+    "level" : 40,
+    "move" : "Final Gambit"
+  }, {
+    "level" : 44,
+    "move" : "Wave Crash"
+  }, {
+    "level" : 48,
+    "move" : "Thrash"
+  }, {
+    "level" : 52,
+    "move" : "Double Edge"
+  }, {
+    "level" : 56,
+    "move" : "Head Smash"
+  } ],
+  "eggMoves" : [ "Agility", "Brine", "Bubble Beam", "Head Smash", "Mud Shot", "Muddy Water", "Rage", "Revenge", "Swift", "Whirlpool" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Crunch", "Cut", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "Flip Turn", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Fang", "Icy Wind", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Snowscape", "Surf", "Swagger", "Swift", "Taunt", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

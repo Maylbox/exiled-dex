@@ -1,0 +1,98 @@
+{
+  "dex" : 440,
+  "speciesId" : "SPECIES_EELEKTROSS",
+  "name" : "Eelektross",
+  "types" : [ "Electric", null ],
+  "abilities" : [ "Levitate", "None", "None" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 30,
+  "baseExp" : 0,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.1,
+  "weightKg" : 80.5,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "EleFish",
+  "friendship" : 70,
+  "description" : "They crawl out of the ocean using their\narms. They will attack prey on shore and\nimmediately drag it into the ocean, with\ntheir sucker mouths.",
+  "preEvolutionId" : "SPECIES_EELEKTRIK",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 85,
+    "atk" : 115,
+    "def" : 80,
+    "spe" : 60,
+    "spa" : 105,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Acid"
+  }, {
+    "level" : 1,
+    "move" : "Coil"
+  }, {
+    "level" : 1,
+    "move" : "Crunch"
+  }, {
+    "level" : 1,
+    "move" : "Crush Claw"
+  }, {
+    "level" : 1,
+    "move" : "Discharge"
+  }, {
+    "level" : 1,
+    "move" : "Gastro Acid"
+  }, {
+    "level" : 1,
+    "move" : "Headbutt"
+  }, {
+    "level" : 1,
+    "move" : "Ion Deluge"
+  }, {
+    "level" : 1,
+    "move" : "Thrash"
+  }, {
+    "level" : 1,
+    "move" : "Zap Cannon"
+  }, {
+    "level" : 58,
+    "move" : "Thunderclap"
+  }, {
+    "level" : 62,
+    "move" : "Fire Lash"
+  }, {
+    "level" : 65,
+    "move" : "Scald"
+  }, {
+    "level" : 69,
+    "move" : "Strength Sap"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Charge Beam", "Crunch", "Cut", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Drain Punch", "Electroweb", "Endure", "Facade", "Fire Punch", "Flamethrower", "Flash", "Flash Cannon", "Giga Drain", "Giga Impact", "Grass Knot", "Hex", "Hone Claws", "Hyper Beam", "Knock Off", "Light Screen", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder", "Thunder Fang", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "U Turn", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ {
+    "areaKey" : "NewMauville_Inside",
+    "bucketKey" : "Land",
+    "area" : "New Mauville_Inside",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 55,
+    "max" : 57,
+    "slot" : 2
+  }, {
+    "areaKey" : "NewMauville_Entrance",
+    "bucketKey" : "Land",
+    "area" : "New Mauville_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 55,
+    "max" : 57,
+    "slot" : 2
+  } ]
+}

@@ -1,0 +1,171 @@
+{
+  "dex" : 202,
+  "speciesId" : "SPECIES_CORSOLA_GALARIAN",
+  "name" : "Galarian Corsola",
+  "types" : [ "Ghost", null ],
+  "abilities" : [ "Weak Armor", "None", "Cursed Body" ],
+  "evYield" : {
+    "spd" : 1
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 60,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Water 3" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 0.5,
+  "growthRate" : "Fast",
+  "color" : "White",
+  "category" : "Coral",
+  "friendship" : 70,
+  "description" : "Sudden climate change wiped out this\nancient kind of Corsola. With its branches,\nit absorbs others' life-force. It curses\nthose unaware that kick it by accident.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CURSOLA",
+    "method" : "level",
+    "param" : "38"
+  } ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 55,
+    "def" : 100,
+    "spe" : 30,
+    "spa" : 65,
+    "spd" : 100
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Astonish"
+  }, {
+    "level" : 10,
+    "move" : "Disable"
+  }, {
+    "level" : 15,
+    "move" : "Spite"
+  }, {
+    "level" : 20,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 25,
+    "move" : "Hex"
+  }, {
+    "level" : 30,
+    "move" : "Curse"
+  }, {
+    "level" : 35,
+    "move" : "Strength Sap"
+  }, {
+    "level" : 40,
+    "move" : "Power Gem"
+  }, {
+    "level" : 45,
+    "move" : "Night Shade"
+  }, {
+    "level" : 50,
+    "move" : "Grudge"
+  }, {
+    "level" : 55,
+    "move" : "Mirror Coat"
+  } ],
+  "eggMoves" : [ "Confuse Ray", "Destiny Bond", "Haze", "Head Smash", "Nature Power", "Water Pulse" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Calm Mind", "Dig", "Earth Power", "Earthquake", "Endure", "Facade", "Giga Drain", "Hex", "Ice Beam", "Icy Wind", "Iron Defense", "Light Screen", "Meteor Beam", "Mirror Coat", "Protect", "Psychic", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Tomb", "Safeguard", "Sandstorm", "Scald", "Shadow Ball", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Surf", "Water Pulse", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 0
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 10,
+    "max" : 30,
+    "slot" : 2
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 10,
+    "max" : 30,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 10,
+    "max" : 30,
+    "slot" : 4
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 5
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 6
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 25,
+    "max" : 30,
+    "slot" : 7
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 35,
+    "max" : 40,
+    "slot" : 8
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Fishing",
+    "area" : "Route 122",
+    "bucket" : "Fishing",
+    "rateBase" : 30,
+    "min" : 40,
+    "max" : 45,
+    "slot" : 9
+  } ]
+}

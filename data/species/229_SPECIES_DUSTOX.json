@@ -1,0 +1,91 @@
+{
+  "dex" : 229,
+  "speciesId" : "SPECIES_DUSTOX",
+  "name" : "Dustox",
+  "types" : [ "Bug", "Poison" ],
+  "abilities" : [ "Shield Dust", "None", "Compound Eyes" ],
+  "evYield" : {
+    "spd" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 160,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.2,
+  "weightKg" : 31.6,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Poison Moth",
+  "friendship" : 70,
+  "description" : "It is a nocturnal Pokémon that flies from\nfields and mountains to the attraction of\nstreetlights at night. It looses highly\ntoxic powder from its wings.",
+  "preEvolutionId" : "SPECIES_CASCOON",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 35,
+    "def" : 95,
+    "spe" : 65,
+    "spa" : 70,
+    "spd" : 90
+  },
+  "heldItems" : {
+    "common" : "Shed Shell"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Gust"
+  }, {
+    "level" : 1,
+    "move" : "Bleakwind Storm"
+  }, {
+    "level" : 1,
+    "move" : "Gust"
+  }, {
+    "level" : 10,
+    "move" : "Gust"
+  }, {
+    "level" : 12,
+    "move" : "Confusion"
+  }, {
+    "level" : 14,
+    "move" : "Struggle Bug"
+  }, {
+    "level" : 15,
+    "move" : "Toxic"
+  }, {
+    "level" : 16,
+    "move" : "Moonlight"
+  }, {
+    "level" : 20,
+    "move" : "Venoshock"
+  }, {
+    "level" : 22,
+    "move" : "Psybeam"
+  }, {
+    "level" : 25,
+    "move" : "Silver Wind"
+  }, {
+    "level" : 27,
+    "move" : "Light Screen"
+  }, {
+    "level" : 30,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 32,
+    "move" : "Sludge Bomb"
+  }, {
+    "level" : 35,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 37,
+    "move" : "Protect"
+  }, {
+    "level" : 40,
+    "move" : "Quiver Dance"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Defog", "Double Edge", "Double Team", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Hyper Beam", "Iron Defense", "Leech Life", "Light Screen", "Protect", "Psychic", "Rest", "Roost", "Shadow Ball", "Silver Wind", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn", "Venoshock" ],
+  "encounters" : [ ]
+}

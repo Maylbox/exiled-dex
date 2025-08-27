@@ -1,0 +1,97 @@
+{
+  "dex" : 132,
+  "speciesId" : "SPECIES_PORYGON",
+  "name" : "Porygon",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Trace", "Download", "Analytic" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 36.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Pink",
+  "category" : "Virtual",
+  "friendship" : 70,
+  "description" : "It is capable of reverting itself entirely\nback to program data in order to enter\ncyberspace. A Porygon is copy-\nprotected so it cannot be duplicated.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_PORYGON2",
+    "method" : "trade_item",
+    "param" : "ITEM_UPGRADE"
+  }, {
+    "toSpeciesId" : "SPECIES_PORYGON2",
+    "method" : "item",
+    "param" : "ITEM_UPGRADE"
+  } ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 60,
+    "def" : 70,
+    "spe" : 40,
+    "spa" : 85,
+    "spd" : 75
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Conversion"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Recycle"
+  }, {
+    "level" : 10,
+    "move" : "Magnet Rise"
+  }, {
+    "level" : 15,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 20,
+    "move" : "Psybeam"
+  }, {
+    "level" : 25,
+    "move" : "Conversion 2"
+  }, {
+    "level" : 30,
+    "move" : "Agility"
+  }, {
+    "level" : 35,
+    "move" : "Recover"
+  }, {
+    "level" : 40,
+    "move" : "Discharge"
+  }, {
+    "level" : 45,
+    "move" : "Tri Attack"
+  }, {
+    "level" : 50,
+    "move" : "Double Edge"
+  }, {
+    "level" : 55,
+    "move" : "Lock On"
+  }, {
+    "level" : 60,
+    "move" : "Zap Cannon"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Aerial Ace", "Blizzard", "Charge Beam", "Double Edge", "Double Team", "Dream Eater", "Electroweb", "Endure", "Facade", "Flash", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Trick Room" ],
+  "encounters" : [ {
+    "areaKey" : "NewMauville_Entrance",
+    "bucketKey" : "Land",
+    "area" : "New Mauville_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 55,
+    "max" : 57,
+    "slot" : 10
+  } ]
+}

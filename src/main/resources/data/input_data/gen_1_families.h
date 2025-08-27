@@ -2173,9 +2173,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_FEAROW] =
     {
         .baseHP        = 67,
-        .baseAttack    = 105,
+        .baseAttack    = 115,
         .baseDefense   = 60,
-        .baseSpeed     = 110,
+        .baseSpeed     = 120,
         .baseSpAttack  = 50,
         .baseSpDefense = 50,
         .types = MON_TYPES(TYPE_FLYING),
@@ -2562,7 +2562,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
         .formChangeTable = sPikachuFormChangeTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU},
-                                {EVO_NONE, 0, SPECIES_RAICHU_ALOLAN}),
+                                {EVO_ITEM, ITEM_SHINY_STONE, SPECIES_RAICHU_ALOLAN}),
     },
 
 #if P_COSPLAY_PIKACHU_FORMS
@@ -3448,12 +3448,12 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_RAICHU] =
     {
-        .baseHP        = 60,
+        .baseHP        = 80,
         .baseAttack    = 115,
-        .baseDefense   = 55,
+        .baseDefense   = 70,
         .baseSpeed     = 110,
-        .baseSpAttack  = 90,
-        .baseSpDefense = 80,
+        .baseSpAttack  = 45,
+        .baseSpDefense = 90,
         .types = MON_TYPES(TYPE_ELECTRIC,TYPE_FIGHTING),
         .catchRate = 75,
         .expYield = RAICHU_EXP_YIELD,
@@ -3512,12 +3512,12 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 #if P_ALOLAN_FORMS
     [SPECIES_RAICHU_ALOLAN] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 85,
-        .baseDefense   = 50,
+        .baseHP        = 80,
+        .baseAttack    = 40,
+        .baseDefense   = 70,
         .baseSpeed     = 110,
-        .baseSpAttack  = 95,
-        .baseSpDefense = 85,
+        .baseSpAttack  = 115,
+        .baseSpDefense = 90,
         .types = MON_TYPES(TYPE_ELECTRIC, TYPE_PSYCHIC),
         .catchRate = 75,
         .expYield = RAICHU_EXP_YIELD,
@@ -5278,7 +5278,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_VILEPLUME] =
     {
-        .baseHP        = 80,
+        .baseHP        = 90,
         .baseAttack    = 65,
         .baseDefense   = 85,
         .baseSpeed     = 60,
@@ -5354,11 +5354,11 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     {
         .baseHP        = 75,
         .baseAttack    = 65,
-        .baseDefense   = 80,
+        .baseDefense   = 85,
         .baseSpeed     = 75,
         .baseSpAttack  = 100,
         .baseSpDefense = 100,
-        .types = MON_TYPES(TYPE_GRASS),
+        .types = MON_TYPES(TYPE_GRASS, TYPE_FAIRY),
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
         .expYield = 245,
@@ -6047,7 +6047,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 120,
         .baseSpAttack  = 90,
         .baseSpDefense = 55,
-        .types = MON_TYPES(TYPE_NORMAL),
+        .types = MON_TYPES(TYPE_NORMAL, TYPE_FAIRY),
         .catchRate = 90,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 154 : 148,
         .evYield_Speed = 2,
@@ -7956,7 +7956,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseHP        = 80,
         .baseAttack    = 105,
         .baseDefense   = 65,
-        .baseSpeed     = 70,
+        .baseSpeed     = 80,
         .baseSpAttack  = 105,
         .baseSpDefense = 70,
         .types = MON_TYPES(TYPE_GRASS, TYPE_POISON),

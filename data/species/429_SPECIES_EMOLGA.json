@@ -1,0 +1,86 @@
+{
+  "dex" : 429,
+  "speciesId" : "SPECIES_EMOLGA",
+  "name" : "Emolga",
+  "types" : [ "Electric", "Flying" ],
+  "abilities" : [ "Static", "None", "Motor Drive" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 200,
+  "baseExp" : 150,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.4,
+  "weightKg" : 5.0,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Sky Squirrel",
+  "friendship" : 70,
+  "description" : "It glides using its cape-like membrane.\nIt grills berries and bug Pokémon with\nelectric shocks from the pouches on its\ncheeks and makes a meal of them.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 75,
+    "def" : 60,
+    "spe" : 103,
+    "spa" : 75,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Nuzzle"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 5,
+    "move" : "Double Team"
+  }, {
+    "level" : 10,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 15,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 20,
+    "move" : "Charge"
+  }, {
+    "level" : 25,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 30,
+    "move" : "Spark"
+  }, {
+    "level" : 35,
+    "move" : "Encore"
+  }, {
+    "level" : 40,
+    "move" : "Volt Switch"
+  }, {
+    "level" : 45,
+    "move" : "Light Screen"
+  }, {
+    "level" : 50,
+    "move" : "Discharge"
+  }, {
+    "level" : 55,
+    "move" : "Agility"
+  } ],
+  "eggMoves" : [ "Air Slash", "Astonish", "Baton Pass", "Charm", "Covet", "Ion Deluge", "Iron Tail", "Roost", "Shock Wave", "Speed Swap", "Tickle" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Charge Beam", "Covet", "Cut", "Defog", "Double Team", "Dual Wingbeat", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash", "Knock Off", "Light Screen", "Protect", "Rain Dance", "Rest", "Roost", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Swagger", "Swift", "Taunt", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "U Turn", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ {
+    "areaKey" : "Route119",
+    "bucketKey" : "Land",
+    "area" : "Route 119",
+    "bucket" : "Land",
+    "rateBase" : 15,
+    "min" : 50,
+    "max" : 54,
+    "slot" : 6
+  } ]
+}

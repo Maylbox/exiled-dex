@@ -1,0 +1,116 @@
+{
+  "dex" : 438,
+  "speciesId" : "SPECIES_FERROSEED",
+  "name" : "Ferroseed",
+  "types" : [ "Grass", "Steel" ],
+  "abilities" : [ "Iron Barbs", "None", "None" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 61,
+  "eggGroups" : [ "Grass", "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 18.8,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Thorn Seed",
+  "friendship" : 70,
+  "description" : "It absorbs the iron it finds in the rock\nwhile clinging to the ceiling of caves.\nWhen threatened, it attacks by shooting\na barrage of spikes.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_FERROTHORN",
+    "method" : "level",
+    "param" : "40"
+  } ],
+  "baseStats" : {
+    "hp" : 44,
+    "atk" : 50,
+    "def" : 91,
+    "spe" : 10,
+    "spa" : 24,
+    "spd" : 86
+  },
+  "heldItems" : {
+    "common" : "Sticky Barb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Rollout"
+  }, {
+    "level" : 9,
+    "move" : "Curse"
+  }, {
+    "level" : 14,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 18,
+    "move" : "Pin Missile"
+  }, {
+    "level" : 21,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 26,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 30,
+    "move" : "Mirror Shot"
+  }, {
+    "level" : 35,
+    "move" : "Ingrain"
+  }, {
+    "level" : 38,
+    "move" : "Selfdestruct"
+  }, {
+    "level" : 43,
+    "move" : "Iron Head"
+  }, {
+    "level" : 47,
+    "move" : "Payback"
+  }, {
+    "level" : 52,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 55,
+    "move" : "Explosion"
+  } ],
+  "eggMoves" : [ "Acid Spray", "Bullet Seed", "Gravity", "Leech Seed", "Rock Climb", "Seed Bomb", "Spikes", "Stealth Rock", "Worry Seed" ],
+  "teachableMoves" : [ "Attract", "Bullet Seed", "Double Team", "Endure", "Energy Ball", "Explosion", "Facade", "Flash", "Flash Cannon", "Giga Drain", "Gyro Ball", "Hone Claws", "Iron Defense", "Iron Head", "Knock Off", "Poison Jab", "Protect", "Rest", "Rock Polish", "Rock Smash", "Rollout", "Sleep Talk", "Snore", "Solar Beam", "Stealth Rock", "Sunny Day", "Swagger", "Thunder Wave", "Thunderbolt", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 13,
+    "max" : 15,
+    "slot" : 5
+  }, {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 13,
+    "max" : 15,
+    "slot" : 7
+  }, {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 5
+  } ]
+}

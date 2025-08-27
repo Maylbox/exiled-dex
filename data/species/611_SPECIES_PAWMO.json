@@ -1,0 +1,96 @@
+{
+  "dex" : 611,
+  "speciesId" : "SPECIES_PAWMO",
+  "name" : "Pawmo",
+  "types" : [ "Electric", "Fighting" ],
+  "abilities" : [ "Volt Absorb", "Natural Cure", "Iron Fist" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 80,
+  "baseExp" : 123,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.4,
+  "weightKg" : 6.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Mouse",
+  "friendship" : 70,
+  "description" : "When its group is attacked, Pawmo\nis the first to leap into battle,\ndefeating enemies with a fighting\ntechnique that utilizes electric shocks.",
+  "preEvolutionId" : "SPECIES_PAWMI",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_PAWMOT",
+    "method" : "overworld_steps",
+    "param" : "1000"
+  } ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 75,
+    "def" : 40,
+    "spe" : 85,
+    "spa" : 50,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Arm Thrust"
+  }, {
+    "level" : 1,
+    "move" : "Arm Thrust"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 3,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 6,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 8,
+    "move" : "Charge"
+  }, {
+    "level" : 12,
+    "move" : "Nuzzle"
+  }, {
+    "level" : 15,
+    "move" : "Dig"
+  }, {
+    "level" : 19,
+    "move" : "Bite"
+  }, {
+    "level" : 23,
+    "move" : "Power Up Punch"
+  }, {
+    "level" : 27,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 32,
+    "move" : "Slam"
+  }, {
+    "level" : 38,
+    "move" : "Entrainment"
+  }, {
+    "level" : 42,
+    "move" : "Discharge"
+  }, {
+    "level" : 46,
+    "move" : "Agility"
+  }, {
+    "level" : 52,
+    "move" : "Wild Charge"
+  }, {
+    "level" : 56,
+    "move" : "Play Rough"
+  } ],
+  "eggMoves" : [ "Fake Out", "Mach Punch", "Sweet Kiss", "Wish" ],
+  "teachableMoves" : [ "Charge Beam", "Crunch", "Dig", "Electroweb", "Endure", "Facade", "Knock Off", "Low Kick", "Play Rough", "Protect", "Rain Dance", "Rest", "Sleep Talk", "Sunny Day", "Swift", "Thief", "Thunder", "Thunder Fang", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ ]
+}

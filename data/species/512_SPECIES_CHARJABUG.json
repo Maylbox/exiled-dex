@@ -1,0 +1,124 @@
+{
+  "dex" : 512,
+  "speciesId" : "SPECIES_CHARJABUG",
+  "name" : "Charjabug",
+  "types" : [ "Bug", "Electric" ],
+  "abilities" : [ "Battery", "None", "Volt Absorb" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 140,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.5,
+  "weightKg" : 10.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Battery",
+  "friendship" : 70,
+  "description" : "From the food it digests, it generates\nelectricity, and it stores this energy in\nits electric sac. On camping trips, people\nare grateful to have one around.",
+  "preEvolutionId" : "SPECIES_GRUBBIN",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_VIKAVOLT",
+    "method" : "mapsec",
+    "param" : "MAPSEC_NEW_MAUVILLE"
+  }, {
+    "toSpeciesId" : "SPECIES_VIKAVOLT",
+    "method" : "item",
+    "param" : "ITEM_THUNDER_STONE"
+  }, {
+    "toSpeciesId" : "SPECIES_VIKAVOLT_TOTEM",
+    "method" : "none",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 57,
+    "atk" : 82,
+    "def" : 95,
+    "spe" : 36,
+    "spa" : 55,
+    "spd" : 75
+  },
+  "heldItems" : {
+    "common" : "Cell Battery"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Charge"
+  }, {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Charge"
+  }, {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "String Shot"
+  }, {
+    "level" : 1,
+    "move" : "Vicegrip"
+  }, {
+    "level" : 4,
+    "move" : "String Shot"
+  }, {
+    "level" : 7,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 10,
+    "move" : "Bite"
+  }, {
+    "level" : 13,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 16,
+    "move" : "Spark"
+  }, {
+    "level" : 19,
+    "move" : "Acrobatics"
+  }, {
+    "level" : 20,
+    "move" : "Charge"
+  }, {
+    "level" : 25,
+    "move" : "Crunch"
+  }, {
+    "level" : 31,
+    "move" : "X Scissor"
+  }, {
+    "level" : 37,
+    "move" : "Dig"
+  }, {
+    "level" : 43,
+    "move" : "Discharge"
+  }, {
+    "level" : 49,
+    "move" : "Iron Defense"
+  } ],
+  "eggMoves" : [ "Electroweb", "Endure", "Harden", "Mud Shot" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Charge Beam", "Crunch", "Dig", "Double Team", "Electroweb", "Endure", "Facade", "Iron Defense", "Light Screen", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Rest", "Shock Wave", "Sleep Talk", "Snore", "Swagger", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
+    "area" : "Mauville City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 22,
+    "max" : 24,
+    "slot" : 6
+  }, {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
+    "area" : "Mauville City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 22,
+    "max" : 24,
+    "slot" : 7
+  } ]
+}

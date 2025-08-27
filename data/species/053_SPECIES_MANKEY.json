@@ -1,0 +1,108 @@
+{
+  "dex" : 53,
+  "speciesId" : "SPECIES_MANKEY",
+  "name" : "Mankey",
+  "types" : [ "Fighting", null ],
+  "abilities" : [ "Vital Spirit", "Anger Point", "Defiant" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 28.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Pig Monkey",
+  "friendship" : 70,
+  "description" : "When it starts shaking and its nasal\nbreathing turns rough, it's a sure sign\nof anger. However, since this happens\ninstantly, there is no time to flee.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_PRIMEAPE",
+    "method" : "level",
+    "param" : "28"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 80,
+    "def" : 35,
+    "spe" : 70,
+    "spa" : 35,
+    "spd" : 45
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Covet"
+  }, {
+    "level" : 1,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Low Kick"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 5,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 8,
+    "move" : "Karate Chop"
+  }, {
+    "level" : 12,
+    "move" : "Pursuit"
+  }, {
+    "level" : 15,
+    "move" : "Seismic Toss"
+  }, {
+    "level" : 19,
+    "move" : "Swagger"
+  }, {
+    "level" : 22,
+    "move" : "Brick Break"
+  }, {
+    "level" : 26,
+    "move" : "Assurance"
+  }, {
+    "level" : 29,
+    "move" : "Punishment"
+  }, {
+    "level" : 33,
+    "move" : "Thrash"
+  }, {
+    "level" : 36,
+    "move" : "Close Combat"
+  }, {
+    "level" : 40,
+    "move" : "Screech"
+  }, {
+    "level" : 43,
+    "move" : "Stomping Tantrum"
+  }, {
+    "level" : 47,
+    "move" : "Outrage"
+  }, {
+    "level" : 50,
+    "move" : "Final Gambit"
+  } ],
+  "eggMoves" : [ "Beat Up", "Close Combat", "Counter", "Encore", "Focus Punch", "Foresight", "Meditate", "Night Slash", "Power Trip", "Revenge", "Reversal", "Sleep Talk", "Smelling Salts" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Punch", "Focus Blast", "Hone Claws", "Ice Punch", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Overheat", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Smack Down", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Toxic", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Land",
+    "area" : "Dewford Town",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 10,
+    "max" : 12,
+    "slot" : 1
+  } ]
+}

@@ -1,0 +1,116 @@
+{
+  "dex" : 498,
+  "speciesId" : "SPECIES_GOODRA",
+  "name" : "Goodra",
+  "types" : [ "Dragon", "Poison" ],
+  "abilities" : [ "Sap Sipper", "Hydration", "Gooey" ],
+  "evYield" : {
+    "spd" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Dragon" ],
+  "hatchSteps" : 10240,
+  "heightM" : 2.0,
+  "weightKg" : 150.5,
+  "growthRate" : "Slow",
+  "color" : "Purple",
+  "category" : "Dragon",
+  "friendship" : 35,
+  "description" : "It gets picked on because it's meek.\nBut then, whoever teased it gets to feel\nthe full force of its horns and a good\nswatting from its thick tail.",
+  "preEvolutionId" : "SPECIES_SLIGGOO",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 100,
+    "def" : 70,
+    "spe" : 80,
+    "spa" : 110,
+    "spd" : 150
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Acid Spray"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 1,
+    "move" : "Feint"
+  }, {
+    "level" : 1,
+    "move" : "Poison Tail"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Tearful Look"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 15,
+    "move" : "Protect"
+  }, {
+    "level" : 20,
+    "move" : "Flail"
+  }, {
+    "level" : 25,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 30,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 43,
+    "move" : "Curse"
+  }, {
+    "level" : 49,
+    "move" : "Body Slam"
+  }, {
+    "level" : 58,
+    "move" : "Muddy Water"
+  }, {
+    "level" : 67,
+    "move" : "Power Whip"
+  } ],
+  "eggMoves" : [ "Acid Armor", "Counter", "Curse", "Endure", "Iron Tail", "Poison Tail" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Press", "Body Slam", "Bulldoze", "Counter", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Beam", "Knock Off", "Mega Kick", "Mega Punch", "Power Whip", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Scald", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Strength", "Sunny Day", "Surf", "Swagger", "Thunder", "Thunder Punch", "Thunderbolt", "Toxic", "Water Pulse" ],
+  "encounters" : [ {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_B1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 3
+  }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 3
+  }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_B1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 3
+  } ]
+}

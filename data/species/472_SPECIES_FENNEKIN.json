@@ -1,0 +1,93 @@
+{
+  "dex" : 472,
+  "speciesId" : "SPECIES_FENNEKIN",
+  "name" : "Fennekin",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Blaze", "Flame Body", "Magician" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 61,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.4,
+  "weightKg" : 9.4,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Fox",
+  "friendship" : 70,
+  "description" : "As it walks, it munches on a twig to fill\nitself with energy in place of a snack.\nIt intimidates opponents by puffing hot\nair out of its roomy ears.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BRAIXEN",
+    "method" : "level",
+    "param" : "16"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 45,
+    "def" : 40,
+    "spe" : 60,
+    "spa" : 62,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 5,
+    "move" : "Ember"
+  }, {
+    "level" : 8,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 11,
+    "move" : "Grass Knot"
+  }, {
+    "level" : 14,
+    "move" : "Incinerate"
+  }, {
+    "level" : 17,
+    "move" : "Psybeam"
+  }, {
+    "level" : 20,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 25,
+    "move" : "Lucky Chant"
+  }, {
+    "level" : 27,
+    "move" : "Light Screen"
+  }, {
+    "level" : 31,
+    "move" : "Psyshock"
+  }, {
+    "level" : 35,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 38,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 41,
+    "move" : "Psychic"
+  }, {
+    "level" : 43,
+    "move" : "Sunny Day"
+  }, {
+    "level" : 46,
+    "move" : "Magic Room"
+  }, {
+    "level" : 48,
+    "move" : "Fire Blast"
+  } ],
+  "eggMoves" : [ "Heat Wave", "Hypnosis", "Magic Coat", "Psychic Terrain", "Wish" ],
+  "teachableMoves" : [ "Attract", "Calm Mind", "Covet", "Cut", "Double Team", "Dream Eater", "Endure", "Facade", "Fire Blast", "Flamethrower", "Grass Knot", "Light Screen", "Mud Slap", "Overheat", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ ]
+}

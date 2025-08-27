@@ -1,0 +1,91 @@
+{
+  "dex" : 613,
+  "speciesId" : "SPECIES_TANDEMAUS",
+  "name" : "Tandemaus",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Run Away", "Pickup", "Own Tempo" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 150,
+  "baseExp" : 61,
+  "eggGroups" : [ "Field", "Fairy" ],
+  "hatchSteps" : 2560,
+  "heightM" : 0.3,
+  "weightKg" : 1.8,
+  "growthRate" : "Fast",
+  "color" : "White",
+  "category" : "Couple",
+  "friendship" : 70,
+  "description" : "Exhibiting great teamwork, they\nuse their incisors to cut pieces out\nof any material that might be useful\nfor a nest, then make off with them.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MAUSHOLD_FAMILY_OF_FOUR",
+    "method" : "level_family_of_four",
+    "param" : "25"
+  }, {
+    "toSpeciesId" : "SPECIES_MAUSHOLD_FAMILY_OF_THREE",
+    "method" : "level_family_of_three",
+    "param" : "25"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 50,
+    "def" : 45,
+    "spe" : 75,
+    "spa" : 40,
+    "spd" : 45
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 1,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 5,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 8,
+    "move" : "Super Fang"
+  }, {
+    "level" : 11,
+    "move" : "Double Hit"
+  }, {
+    "level" : 15,
+    "move" : "Bullet Seed"
+  }, {
+    "level" : 17,
+    "move" : "Encore"
+  }, {
+    "level" : 23,
+    "move" : "Play Rough"
+  }, {
+    "level" : 28,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 31,
+    "move" : "Charm"
+  }, {
+    "level" : 34,
+    "move" : "Copycat"
+  }, {
+    "level" : 38,
+    "move" : "Population Bomb"
+  }, {
+    "level" : 42,
+    "move" : "Beat Up"
+  }, {
+    "level" : 49,
+    "move" : "Tidy Up"
+  } ],
+  "eggMoves" : [ "After You", "Baton Pass", "Bite", "Feint", "Switcheroo", "Tickle" ],
+  "teachableMoves" : [ "Aerial Ace", "Bullet Seed", "Crunch", "Dig", "Double Edge", "Endure", "Facade", "Grass Knot", "Low Kick", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Rest", "Shadow Claw", "Sleep Talk", "Sunny Day", "Swift", "Taunt", "Thief", "Thunder Wave", "U Turn", "Water Pulse" ],
+  "encounters" : [ ]
+}

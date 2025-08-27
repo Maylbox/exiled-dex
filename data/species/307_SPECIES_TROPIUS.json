@@ -1,0 +1,113 @@
+{
+  "dex" : 307,
+  "speciesId" : "SPECIES_TROPIUS",
+  "name" : "Tropius",
+  "types" : [ "Grass", "Flying" ],
+  "abilities" : [ "Chlorophyll", "Serene Grace", "Wind Rider" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 200,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Grass" ],
+  "hatchSteps" : 6400,
+  "heightM" : 2.0,
+  "weightKg" : 100.0,
+  "growthRate" : "Slow",
+  "color" : "Green",
+  "category" : "Fruit",
+  "friendship" : 70,
+  "description" : "It flies by flapping its broad leaves.\nThe bunch of fruit that grows around its\nneck is deliciously sweet. In the spring,\nit scatters pollen from its neck.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 102,
+    "atk" : 68,
+    "def" : 89,
+    "spe" : 81,
+    "spa" : 95,
+    "spd" : 92
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Dragonbreath"
+  }, {
+    "level" : 1,
+    "move" : "Growth"
+  }, {
+    "level" : 1,
+    "move" : "Gust"
+  }, {
+    "level" : 1,
+    "move" : "Leaf Storm"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 6,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 10,
+    "move" : "Stomp"
+  }, {
+    "level" : 16,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 21,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 26,
+    "move" : "Leaf Tornado"
+  }, {
+    "level" : 30,
+    "move" : "Natural Gift"
+  }, {
+    "level" : 33,
+    "move" : "Air Slash"
+  }, {
+    "level" : 37,
+    "move" : "Body Slam"
+  }, {
+    "level" : 40,
+    "move" : "Bestow"
+  }, {
+    "level" : 42,
+    "move" : "Synthesis"
+  }, {
+    "level" : 44,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 48,
+    "move" : "Solarbeam"
+  }, {
+    "level" : 61,
+    "move" : "Leaf Storm"
+  } ],
+  "eggMoves" : [ "Bullet Seed", "Curse", "Dragon Dance", "Dragon Hammer", "Headbutt", "Leaf Blade", "Leaf Storm", "Leech Seed", "Natural Gift", "Nature Power", "Razor Wind", "Slam", "Synthesis" ],
+  "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Body Press", "Body Slam", "Bulldoze", "Bullet Seed", "Calm Mind", "Cut", "Defog", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Dual Wingbeat", "Earthquake", "Endure", "Energy Ball", "Facade", "Flash", "Fly", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Hyper Beam", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roar", "Rock Smash", "Roost", "Safeguard", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Steel Wing", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "Route118",
+    "bucketKey" : "Land",
+    "area" : "Route 118",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 4
+  }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
+    "area" : "Route 120",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 51,
+    "max" : 54,
+    "slot" : 5
+  } ]
+}

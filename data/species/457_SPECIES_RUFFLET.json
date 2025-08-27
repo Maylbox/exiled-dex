@@ -1,0 +1,94 @@
+{
+  "dex" : 457,
+  "speciesId" : "SPECIES_RUFFLET",
+  "name" : "Rufflet",
+  "types" : [ "Fighting", "Flying" ],
+  "abilities" : [ "Keen Eye", "Sheer Force", "Hustle" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 190,
+  "baseExp" : 70,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 10.5,
+  "growthRate" : "Slow",
+  "color" : "White",
+  "category" : "Eaglet",
+  "friendship" : 70,
+  "description" : "With its sharp claws, this Pokémon pierces\nits prey, and then it pecks at them.\nAlthough it also consumes berries, it's a\ncarnivore at heart.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BRAVIARY",
+    "method" : "level",
+    "param" : "38"
+  }, {
+    "toSpeciesId" : "SPECIES_BRAVIARY_HISUIAN",
+    "method" : "none",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 83,
+    "def" : 50,
+    "spe" : 60,
+    "spa" : 37,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 5,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 10,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 14,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 19,
+    "move" : "Scary Face"
+  }, {
+    "level" : 23,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 28,
+    "move" : "Slash"
+  }, {
+    "level" : 32,
+    "move" : "Defog"
+  }, {
+    "level" : 37,
+    "move" : "Tailwind"
+  }, {
+    "level" : 41,
+    "move" : "Drill Peck"
+  }, {
+    "level" : 46,
+    "move" : "Crush Claw"
+  }, {
+    "level" : 50,
+    "move" : "Sky Drop"
+  }, {
+    "level" : 55,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 59,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 64,
+    "move" : "Thrash"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Body Slam", "Brave Bird", "Bulk Up", "Cut", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Facade", "Fly", "Hone Claws", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Roost", "Shadow Claw", "Sleep Talk", "Snore", "Steel Wing", "Strength", "Sunny Day", "Swagger", "Swift", "Toxic", "U Turn" ],
+  "encounters" : [ ]
+}

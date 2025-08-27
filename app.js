@@ -10,6 +10,7 @@ let INDEX = [];
 let DEX_MAX = 0;
 let I18N = { area:{}, bucket:{} };
 let MOVE_TYPES = {};
+let FORMS_MAP = {};
 let DEX_ORDER = [];
 let DEX_TO_FIRST = new Map();
 
@@ -19,11 +20,12 @@ searchBox.addEventListener('input', () => { if(location.hash==='#dex') renderDex
 init();
 
 async function init(){
-  const [index, blacklist] = await Promise.all([
+  const [index, blacklist, forms] = await Promise.all([
     fetchJSON(DATA_DIR + 'index.json'),
-    fetchJSON(DATA_DIR + 'blacklist.json').catch(() => [])
+    fetchJSON(DATA_DIR + 'mods/blacklist.json').catch(() => []),
+    fetchJSON(DATA_DIR + 'mods/forms.json').catch(() => ({}))
   ]);
-
+  FORMS_MAP = forms || {};
   const blocked = new Set((blacklist || []).map(x => x.toUpperCase()));
   INDEX = index.filter(entry => !blocked.has(entry.speciesId.toUpperCase()));
   INDEX.sort((a,b) => {
@@ -147,6 +149,76 @@ function moveIcon(category){
   if (c === 'physical' || c === 'special')
     return `<img class="icon" src="assets/icons/move-${c}.png" alt="${category}">`;
   return '';
+}
+function splitSpeciesBaseAndForm(speciesId) {
+  const sid = String(speciesId || '').toUpperCase().trim();
+  const noPrefix = sid.replace(/^SPECIES_/, '');
+
+  const GLOBAL_SUFFIXES = [
+    'MEGA','MEGA_X','MEGA_Y','GIGANTAMAX',
+    'ALOLA','ALOLAN',
+    'HISUI','HISUIAN',
+    'GALAR','GALARIAN',
+    'PALDEA','PALDEAN',
+    'EXILED'
+  ];
+
+  let toks = noPrefix.split('_').filter(Boolean);
+  if (!toks.length) {
+    return { baseId: sid.startsWith('SPECIES_') ? sid : ('SPECIES_' + sid), formKey: null };
+  }
+
+  // ✅ NEW: if the very first token is EXILED, drop it (so EXILED_CAMERUPT → CAMERUPT)
+  if (toks[0] === 'EXILED') toks = toks.slice(1);
+
+  // walk from right trimming global suffixes off the end (mega/paldean/etc)
+  let cut = toks.length;
+  while (cut > 0 && GLOBAL_SUFFIXES.includes(toks[cut - 1])) cut--;
+
+   if (toks[0] === 'NIDORAN' && (toks[1] === 'F' || toks[1] === 'M')) {
+      const cut2 = toks.length;
+      // trim global suffixes off the end (same as normal path)
+      let end = cut2;
+      while (end > 0 && GLOBAL_SUFFIXES.includes(toks[end - 1])) end--;
+
+      const baseId = 'SPECIES_NIDORAN_' + toks[1];
+      const tail   = toks.slice(2, end);
+      const formKey = tail.length ? tail.join('_') : null;
+      return { baseId, formKey };
+    }
+
+  // base = first token; formKey = rest (until `cut`)
+  const baseToken = toks[0] || '';
+  const tail = toks.slice(1, cut);
+  const formKey = tail.length ? tail.join('_') : null;
+
+  const baseId = 'SPECIES_' + baseToken;
+  return { baseId, formKey };
+}
+
+
+// Turn "SPECIES_XYZ" into "xyz" for folder naming (keeps your existing cleanup rules)
+function speciesBaseFolder(speciesId, fallbackName){
+  const sid = String(speciesId || '').toUpperCase();
+  const nm  = String(fallbackName || '');
+
+  if (sid.startsWith('SPECIES_')) {
+    const base = sid
+      .replace(/^SPECIES_/, '')
+      .replace(/^EXILED_/, '')            // drop leading EXILED_
+      .replace(/_EXILED\b.*/, '')         // drop trailing _EXILED and anything after
+      // strip known suffix chains, including *-AN variants
+      .replace(/_(MEGA(?:_(?:X|Y))?|GIGANTAMAX|ALOLA|ALOLAN|HISUI|HISUIAN|GALAR|GALARIAN|PALDEA|PALDEAN).*$/, '');
+    return base.toLowerCase().replace(/[^a-z0-9_-]+/g,'');
+  }
+
+  // Fallback to name-based normalization
+  const baseFromName = nm.toLowerCase().trim()
+    .replace(/^\s*exiled\s+/, '')                                // "Exiled Machop" → "machop"
+    .replace(/^\s*(alolan|hisuian|galarian|paldean)\s+/, '')     // strip leading regional adjectives
+    .replace(/\s*-\s*(mega.*|alola.*|alolan.*|hisui.*|hisuian.*|galar.*|galarian.*|paldea.*|paldean.*)$/, '')
+    .replace(/\s+/g,'_');
+  return baseFromName.toLowerCase().replace(/[^a-z0-9_-]+/g,'');
 }
 
 // colored chip for a move (egg or TM)
@@ -527,13 +599,39 @@ function spriteUrlOrPlaceholder(dex3, name){
   return SPRITE_DIR + dex3 + '.png#maybe';
 }
 
-window.addEventListener('error',(e)=>{
-  const n=e.target;
-  if(n.tagName==='IMG' && String(n.src).includes('/sprites/')){
-    const label=n.getAttribute('alt')||'';
-    n.src = makePlaceholder(label);
-  }
-},true);
+(function(){
+  const DEBUG_SPRITES = false; // set true to log fallback steps
+
+  // Use capture so we catch resource errors, and don't rely on inline handlers
+  document.addEventListener('error', function onImgError(ev){
+    const img = ev.target;
+    if (!(img instanceof HTMLImageElement)) return;
+
+    // Only handle images that advertise a fallback chain
+    const fallback = img.dataset.fallback || '';
+    if (!fallback) return;
+
+    const rest = fallback.split('|').filter(Boolean);
+    const next = rest.shift();
+
+    if (DEBUG_SPRITES) {
+      console.warn('[sprite fallback]', { failed: img.src, next, remaining: rest });
+    }
+
+    if (next) {
+      img.dataset.fallback = rest.join('|');
+      img.src = next;
+    } else {
+      // Last resort: placeholder (if available)
+      try {
+        const label = img.getAttribute('alt') || '';
+        if (typeof makePlaceholder === 'function') {
+          img.src = makePlaceholder(label);
+        }
+      } catch (_) {}
+    }
+  }, true);
+})();
 
 function dirFromId(speciesId, name) {
   return (speciesId || name || '')
@@ -543,48 +641,87 @@ function dirFromId(speciesId, name) {
 }
 const SPRITE_ROOT = 'assets/pokemon/';
 const REGION_MAP = { alola:'alolan', galar:'galarian', hisui:'hisuian', paldea:'paldean' };
+const REGION_TOKENS = {
+  alolan:  ['alola',  'alolan'],
+  hisuian: ['hisui',  'hisuian'],
+  galarian:['galar',  'galarian'],
+  paldean: ['paldea', 'paldean'],
+};
 
 function spriteHTML(speciesId, name){
   const sid = String(speciesId || '').toUpperCase();
   const nm  = String(name || '');
 
-  // variant detect
+  // variant detect (unchanged)
   const isMegaX = /MEGA[_-]?X/.test(sid) || /\bmega\s*x\b/i.test(nm);
   const isMegaY = /MEGA[_-]?Y/.test(sid) || /\bmega\s*y\b/i.test(nm);
   const isMega  = (!isMegaX && !isMegaY) && (/_MEGA\b/.test(sid) || /\b-\s*mega\b/i.test(nm));
   let region = null;
-  for (const [k,folder] of Object.entries(REGION_MAP))
-    if (sid.includes(k.toUpperCase()) || nm.toLowerCase().includes(k)) { region = folder; break; }
+  // detect by either ID or display name (supports *-an endings)
+  for (const [folder, toks] of Object.entries(REGION_TOKENS)) {
+    if (toks.some(tok => sid.includes(tok.toUpperCase()) || nm.toLowerCase().includes(tok))) {
+      region = folder; // e.g., 'alolan' — matches your folder name
+      break;
+    }
+  }
   const isExiled = /^SPECIES_EXILED_/.test(sid) || /_EXILED\b/.test(sid) || /^\s*exiled\b/i.test(nm);
 
   const variant = isExiled ? 'exiled' : isMegaX ? 'mega_x' : isMegaY ? 'mega_y' : isMega ? 'mega' : region;
 
-  // base token
-  const base = (sid
-      ? sid.replace(/^SPECIES_/, '')
-           .replace(/^EXILED_/, '')      // <-- fix: drop leading EXILED_
-           .replace(/_EXILED\b.*/, '')   // <-- fix: drop trailing _EXILED
-           .replace(/_(MEGA(_X|_Y)?|GIGANTAMAX|ALOLA|HISUI|GALARIAN|PALDEA).*$/, '')
-      : nm.toLowerCase().trim()
-           .replace(/^\s*exiled\s+/, '') // "Exiled Machop" → "machop"
-           .replace(/^\s*(alolan|hisuian|galarian|paldean)\s+/, '')
-           .replace(/\s*-\s*(mega.*|alola.*|hisui.*|galar.*|paldea.*)$/, '')
-           .replace(/\s+/g,'_')
-    ).toLowerCase().replace(/[^a-z0-9_-]+/g,'');
+  // === species-specific form resolution (NEW) ===
+  const { baseId, formKey } = splitSpeciesBaseAndForm(speciesId);
+  const baseFolder = speciesBaseFolder(baseId, name);           // e.g., "maushold"
+  const baseDir    = `${SPRITE_ROOT}${baseFolder}`;
+  const exiledDir  = `${SPRITE_ROOT}exiled_${baseFolder}`;
 
-  const baseDir   = `${SPRITE_ROOT}${base}`;
-  const exiledDir = `${SPRITE_ROOT}exiled_${base}`;
+  // map formKey -> subfolder via FORMS_MAP ("" means base folder)
+  let formSubfolder = '';
+  const mapForSpecies = FORMS_MAP[baseId];
+  if (formKey && mapForSpecies) {
+    formSubfolder = mapForSpecies[formKey]
+                 ?? mapForSpecies[formKey.replace(/_FORM$/, '')]
+                 ?? '';
+  }
+  const formDir = formSubfolder ? `${baseDir}/${formSubfolder}` : baseDir;
 
+  // === build chain (prefers formDir first, then baseDir) ===
   const chain = variant === 'exiled'
-    ? [ `${exiledDir}/anim_front.png`, `${exiledDir}/front.png`,
-        `${baseDir}/anim_front.png`, `${baseDir}/front.png` ]
-    : variant
-    ? [ `${baseDir}/${variant}/front.png`, `${baseDir}/front.png` ]
-    : [ `${baseDir}/anim_front.png`, `${baseDir}/front.png`,
-        `${baseDir}/mega_x/front.png`, `${baseDir}/mega_y/front.png`, `${baseDir}/mega/front.png`,
-        `${baseDir}/alolan/front.png`, `${baseDir}/galarian/front.png`,
-        `${baseDir}/hisuian/front.png`, `${baseDir}/paldean/front.png`,
-        `${exiledDir}/anim_front.png`, `${exiledDir}/front.png` ];
+      ? [
+          `${exiledDir}/anim_front.png`,
+          `${exiledDir}/front.png`,
+          `${formDir}/anim_front.png`,
+          `${formDir}/front.png`,
+          `${baseDir}/anim_front.png`,
+          `${baseDir}/front.png`
+        ]
+      : variant
+      ? [
+          // try variant inside formDir first
+          `${formDir}/${variant}/anim_front.png`,
+          `${formDir}/${variant}/front.png`,
+          // then non-variant in formDir
+          `${formDir}/anim_front.png`,
+          `${formDir}/front.png`,
+          // then try the same variant in baseDir (in case formDir didn’t exist)
+          `${baseDir}/${variant}/anim_front.png`,
+          `${baseDir}/${variant}/front.png`,
+          // and finally baseDir plain
+          `${baseDir}/anim_front.png`,
+          `${baseDir}/front.png`
+        ]
+      : [
+          `${formDir}/anim_front.png`,
+          `${formDir}/front.png`,
+          `${baseDir}/mega_x/front.png`,
+          `${baseDir}/mega_y/front.png`,
+          `${baseDir}/mega/front.png`,
+          `${baseDir}/alolan/front.png`,
+          `${baseDir}/galarian/front.png`,
+          `${baseDir}/hisuian/front.png`,
+          `${baseDir}/paldean/front.png`,
+          `${SPRITE_ROOT}exiled_${baseFolder}/anim_front.png`,
+          `${SPRITE_ROOT}exiled_${baseFolder}/front.png`
+        ];
 
   const safeAlt = nm.replace(/"/g,'&quot;');
   const placeholder = makePlaceholder(nm);

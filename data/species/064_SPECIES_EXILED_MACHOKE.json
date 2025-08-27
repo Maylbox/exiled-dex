@@ -1,0 +1,98 @@
+{
+  "dex" : 64,
+  "speciesId" : "SPECIES_EXILED_MACHOKE",
+  "name" : "Exiled Machoke",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Overgrow", "Harvest", "Seed Sower" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 90,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 70.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Gray",
+  "category" : "Cultivate",
+  "friendship" : 70,
+  "description" : "A belt is worn by a Machoke to keep its\noverwhelming power under control.\nBecause it is so dangerous, no one has\never removed the belt.",
+  "preEvolutionId" : "SPECIES_EXILED_MACHOP",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_MACHAMP",
+    "method" : "level",
+    "param" : "36"
+  } ],
+  "baseStats" : {
+    "hp" : 68,
+    "atk" : 63,
+    "def" : 72,
+    "spe" : 53,
+    "spa" : 72,
+    "spd" : 81
+  },
+  "heldItems" : {
+    "common" : "Focus Band"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Petal Blizzard"
+  }, {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Petal Blizzard"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 6,
+    "move" : "Comet Punch"
+  }, {
+    "level" : 9,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 13,
+    "move" : "Bullet Seed"
+  }, {
+    "level" : 17,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 21,
+    "move" : "Grasswhistle"
+  }, {
+    "level" : 24,
+    "move" : "Sleep Powder"
+  }, {
+    "level" : 27,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 31,
+    "move" : "Growth"
+  }, {
+    "level" : 34,
+    "move" : "Grassy Glide"
+  }, {
+    "level" : 38,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 41,
+    "move" : "Grass Knot"
+  }, {
+    "level" : 43,
+    "move" : "Grassy Terrain"
+  }, {
+    "level" : 48,
+    "move" : "Giga Drain"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Aura Sphere", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Bullet Seed", "Calm Mind", "Cut", "Double Team", "Drain Punch", "Energy Ball", "Facade", "False Swipe", "First Impression", "Flash", "Focus Blast", "Giga Drain", "Grass Knot", "Grassy Glide", "Hone Claws", "Hyper Beam", "Knock Off", "Low Kick", "Poison Jab", "Power Up Punch", "Power Whip", "Protect", "Reflect", "Rest", "Return", "Rock Smash", "Safeguard", "Sludge Bomb", "Solar Beam", "Solar Blade", "Strength", "Substitute", "Sunny Day", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "Triple Axel", "Venoshock", "Wild Charge" ],
+  "encounters" : [ ]
+}

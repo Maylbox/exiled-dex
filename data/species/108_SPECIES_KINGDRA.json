@@ -1,0 +1,132 @@
+{
+  "dex" : 108,
+  "speciesId" : "SPECIES_KINGDRA",
+  "name" : "Kingdra",
+  "types" : [ "Water", "Dragon" ],
+  "abilities" : [ "Swift Swim", "Sniper", "Damp" ],
+  "evYield" : {
+    "spa" : 1,
+    "spd" : 1,
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 207,
+  "eggGroups" : [ "Water 1", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.8,
+  "weightKg" : 152.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Dragon",
+  "friendship" : 70,
+  "description" : "It sleeps quietly, deep on the seafloor.\nWhen it comes up to the surface, it\ncreates a huge whirlpool that can swallow\neven ships.",
+  "preEvolutionId" : "SPECIES_SEADRA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 100,
+    "def" : 85,
+    "spe" : 95,
+    "spa" : 100,
+    "spd" : 85
+  },
+  "heldItems" : {
+    "common" : "Dragon Scale"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Smokescreen"
+  }, {
+    "level" : 1,
+    "move" : "Twister"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 1,
+    "move" : "Whirlpool"
+  }, {
+    "level" : 1,
+    "move" : "Yawn"
+  }, {
+    "level" : 15,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 20,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 25,
+    "move" : "Bubble Beam"
+  }, {
+    "level" : 30,
+    "move" : "Agility"
+  }, {
+    "level" : 37,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 44,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 51,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 58,
+    "move" : "Dragon Dance"
+  }, {
+    "level" : 65,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 68,
+    "move" : "Snipe Shot"
+  }, {
+    "level" : 72,
+    "move" : "Wave Crash"
+  }, {
+    "level" : 74,
+    "move" : "Frost Breath"
+  } ],
+  "eggMoves" : [ "Aurora Beam", "Clear Smog", "Disable", "Dragon Breath", "Dragon Rage", "Flail", "Muddy Water", "Octazooka", "Outrage", "Razor Wind", "Signal Beam", "Splash", "Water Pulse" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Dive", "Double Edge", "Double Team", "Draco Meteor", "Dragon Pulse", "Endure", "Facade", "Flash Cannon", "Flip Turn", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Head", "Protect", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Snowscape", "Surf", "Swagger", "Swift", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Water",
+    "area" : "Route 115",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 0
+  }, {
+    "areaKey" : "Route122",
+    "bucketKey" : "Water",
+    "area" : "Route 122",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 51,
+    "max" : 55,
+    "slot" : 1
+  }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Fishing",
+    "area" : "Slateport City",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 35,
+    "max" : 40,
+    "slot" : 8
+  }, {
+    "areaKey" : "SlateportCity",
+    "bucketKey" : "Fishing",
+    "area" : "Slateport City",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 40,
+    "max" : 45,
+    "slot" : 9
+  } ]
+}

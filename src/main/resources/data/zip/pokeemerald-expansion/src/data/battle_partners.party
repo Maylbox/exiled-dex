@@ -1,0 +1,44 @@
+=== PARTNER_NONE ===
+Name:
+Class: Pkmn Trainer 1
+Pic: Brendan
+Gender: Male
+Music: Male
+
+=== PARTNER_STEVEN ===
+Name: STEVEN
+Class: Rival
+Pic: Steven
+Gender: Male
+Music: Male
+
+Skarmory @ Leftovers  
+Ability: Sturdy  
+Level: 73  
+EVs: 252 HP / 232 Def / 24 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Body Press  
+- Stealth Rock  
+- Roost  
+- Toxic  
+
+Aggron @ Assault Vest  
+Ability: Rock Head  
+Level: 74  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Earthquake  
+- Head Smash  
+- Double-Edge  
+- Heavy Slam  
+
+Metagross @ Metagrossite  
+Ability: Clear Body  
+Level: 76  
+EVs: 252 Atk / 4 SpD / 248 Spe  
+Jolly Nature  
+- Bullet Punch  
+- Psychic Fangs  
+- Hone Claws  
+- Knock Off  

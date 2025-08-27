@@ -1,0 +1,116 @@
+{
+  "dex" : 77,
+  "speciesId" : "SPECIES_MAGNEMITE",
+  "name" : "Magnemite",
+  "types" : [ "Electric", "Steel" ],
+  "abilities" : [ "Levitate", "Sturdy", "Analytic" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 6.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Magnet",
+  "friendship" : 70,
+  "description" : "The units at its sides are extremely\npowerful magnets. They generate enough\nmagnetism to draw in iron objects from\nover 300 feet away.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MAGNETON",
+    "method" : "level",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 25,
+    "atk" : 35,
+    "def" : 70,
+    "spe" : 45,
+    "spa" : 95,
+    "spd" : 55
+  },
+  "heldItems" : {
+    "common" : "Metal Coat"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Shock Wave"
+  }, {
+    "level" : 7,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 11,
+    "move" : "Magnet Bomb"
+  }, {
+    "level" : 13,
+    "move" : "Light Screen"
+  }, {
+    "level" : 17,
+    "move" : "Sonicboom"
+  }, {
+    "level" : 19,
+    "move" : "Spark"
+  }, {
+    "level" : 23,
+    "move" : "Mirror Shot"
+  }, {
+    "level" : 25,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 29,
+    "move" : "Parabolic Charge"
+  }, {
+    "level" : 31,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 35,
+    "move" : "Screech"
+  }, {
+    "level" : 37,
+    "move" : "Discharge"
+  }, {
+    "level" : 41,
+    "move" : "Lock On"
+  }, {
+    "level" : 43,
+    "move" : "Magnet Rise"
+  }, {
+    "level" : 47,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 49,
+    "move" : "Zap Cannon"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Charge Beam", "Double Edge", "Double Team", "Electroweb", "Endure", "Explosion", "Facade", "Flash", "Flash Cannon", "Gyro Ball", "Iron Defense", "Iron Head", "Light Screen", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Rollout", "Sandstorm", "Shock Wave", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
+    "area" : "Mauville City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 22,
+    "max" : 24,
+    "slot" : 0
+  }, {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
+    "area" : "Mauville City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 22,
+    "max" : 24,
+    "slot" : 2
+  } ]
+}

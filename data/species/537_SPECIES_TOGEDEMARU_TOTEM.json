@@ -1,0 +1,88 @@
+{
+  "dex" : 537,
+  "speciesId" : "SPECIES_TOGEDEMARU_TOTEM",
+  "name" : "Togedemaru",
+  "types" : [ "Electric", "Steel" ],
+  "abilities" : [ "Sturdy", "None", "None" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 180,
+  "baseExp" : 152,
+  "eggGroups" : [ "Field", "Fairy" ],
+  "hatchSteps" : 2560,
+  "heightM" : 0.6,
+  "weightKg" : 13.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Roly-Poly",
+  "friendship" : 70,
+  "description" : null,
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 98,
+    "def" : 63,
+    "spe" : 96,
+    "spa" : 40,
+    "spd" : 73
+  },
+  "heldItems" : {
+    "common" : "Electric Seed"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Thundershock"
+  }, {
+    "level" : 5,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 9,
+    "move" : "Rollout"
+  }, {
+    "level" : 13,
+    "move" : "Charge"
+  }, {
+    "level" : 17,
+    "move" : "Spark"
+  }, {
+    "level" : 21,
+    "move" : "Nuzzle"
+  }, {
+    "level" : 25,
+    "move" : "Iron Head"
+  }, {
+    "level" : 29,
+    "move" : "Discharge"
+  }, {
+    "level" : 33,
+    "move" : "Zing Zap"
+  }, {
+    "level" : 37,
+    "move" : "Electric Terrain"
+  }, {
+    "level" : 41,
+    "move" : "Wild Charge"
+  }, {
+    "level" : 45,
+    "move" : "Pin Missile"
+  }, {
+    "level" : 47,
+    "move" : "Zippy Zap"
+  }, {
+    "level" : 49,
+    "move" : "Spiky Shield"
+  }, {
+    "level" : 53,
+    "move" : "Fell Stinger"
+  } ],
+  "eggMoves" : [ "Disarming Voice", "Encore", "Fake Out", "Flail", "Present", "Reversal", "Tickle", "Twineedle", "Wish" ],
+  "teachableMoves" : [ "Attract", "Charge Beam", "Covet", "Defense Curl", "Double Team", "Electroweb", "Endure", "Facade", "Giga Impact", "Grass Knot", "Gyro Ball", "Hyper Beam", "Iron Head", "Poison Jab", "Protect", "Reflect", "Rest", "Rollout", "Shock Wave", "Sleep Talk", "Snore", "Swagger", "Swift", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "U Turn", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ ]
+}

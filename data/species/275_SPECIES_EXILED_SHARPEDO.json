@@ -1,0 +1,109 @@
+{
+  "dex" : 275,
+  "speciesId" : "SPECIES_EXILED_SHARPEDO",
+  "name" : "Exiled Sharpedo",
+  "types" : [ "Ground", "Fairy" ],
+  "abilities" : [ "Water Compaction", "Sand Rush", "Sand Veil" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.8,
+  "weightKg" : 88.8,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Brutal",
+  "friendship" : 35,
+  "description" : "The vicious and sly gangster of the sea.\nIts skin is specially textured to minimize\ndrag in water. Its speed tops out at over\n75 miles per hour.",
+  "preEvolutionId" : "SPECIES_EXILED_CARVANHA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 86,
+    "atk" : 47,
+    "def" : 86,
+    "spe" : 90,
+    "spa" : 127,
+    "spd" : 83
+  },
+  "heldItems" : {
+    "common" : "Deep Sea Tooth"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Scorching Sands"
+  }, {
+    "level" : 1,
+    "move" : "Fairy Wind"
+  }, {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Scorching Sands"
+  }, {
+    "level" : 4,
+    "move" : "Glare"
+  }, {
+    "level" : 6,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 12,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 18,
+    "move" : "Mirror Move"
+  }, {
+    "level" : 26,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 36,
+    "move" : "Earth Power"
+  }, {
+    "level" : 42,
+    "move" : "Mist"
+  }, {
+    "level" : 46,
+    "move" : "Moonblast"
+  }, {
+    "level" : 48,
+    "move" : "Sandstorm"
+  }, {
+    "level" : 54,
+    "move" : "Calm Mind"
+  }, {
+    "level" : 58,
+    "move" : "Moonlight"
+  }, {
+    "level" : 61,
+    "move" : "Sparkly Swirl"
+  }, {
+    "level" : 64,
+    "move" : "Strange Steam"
+  }, {
+    "level" : 68,
+    "move" : "Scale Shot"
+  }, {
+    "level" : 72,
+    "move" : "Extrasensory"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ ],
+  "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
+    "area" : "Route 111",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 46,
+    "slot" : 11
+  } ]
+}

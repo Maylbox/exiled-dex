@@ -1,0 +1,92 @@
+{
+  "dex" : 38,
+  "speciesId" : "SPECIES_NINETALES_ALOLAN",
+  "name" : "Alolan Ninetales",
+  "types" : [ "Ice", "Fairy" ],
+  "abilities" : [ "Snow Cloak", "None", "Snow Warning" ],
+  "evYield" : {
+    "spd" : 1,
+    "spe" : 1
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.1,
+  "weightKg" : 19.9,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Fox",
+  "friendship" : 70,
+  "description" : "While it will guide travelers who get lost\non a snowy mountain down to the\nmountain's base, it won't forgive anyone\nwho harms nature.",
+  "preEvolutionId" : "SPECIES_VULPIX_ALOLAN",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 73,
+    "atk" : 67,
+    "def" : 75,
+    "spe" : 109,
+    "spa" : 81,
+    "spd" : 100
+  },
+  "heldItems" : {
+    "common" : "Snowball"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 1,
+    "move" : "Aurora Beam"
+  }, {
+    "level" : 1,
+    "move" : "Aurora Veil"
+  }, {
+    "level" : 1,
+    "move" : "Blizzard"
+  }, {
+    "level" : 1,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 1,
+    "move" : "Disable"
+  }, {
+    "level" : 1,
+    "move" : "Extrasensory"
+  }, {
+    "level" : 1,
+    "move" : "Freeze Dry"
+  }, {
+    "level" : 1,
+    "move" : "Ice Beam"
+  }, {
+    "level" : 1,
+    "move" : "Ice Shard"
+  }, {
+    "level" : 1,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 1,
+    "move" : "Imprison"
+  }, {
+    "level" : 1,
+    "move" : "Mist"
+  }, {
+    "level" : 1,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 1,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 1,
+    "move" : "Spite"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  } ],
+  "eggMoves" : [ "Agility", "Charm", "Disable", "Encore", "Extrasensory", "Flail", "Freeze Dry", "Howl", "Hypnosis", "Moonblast", "Power Swap", "Secret Power", "Spite", "Tail Slap" ],
+  "teachableMoves" : [ "Attract", "Aurora Veil", "Avalanche", "Blizzard", "Body Slam", "Calm Mind", "Covet", "Dark Pulse", "Dazzling Gleam", "Dig", "Double Edge", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Ice Fang", "Icy Wind", "Play Rough", "Protect", "Psych Up", "Psyshock", "Rain Dance", "Reflect", "Rest", "Roar", "Safeguard", "Sleep Talk", "Snore", "Snowscape", "Solar Beam", "Swagger", "Swift", "Toxic", "Triple Axel" ],
+  "encounters" : [ ]
+}

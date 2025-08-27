@@ -1,0 +1,167 @@
+{
+  "dex" : 9,
+  "speciesId" : "SPECIES_BLASTOISE",
+  "name" : "Blastoise",
+  "types" : [ "Water", "Steel" ],
+  "abilities" : [ "Torrent", "Mega Launcher", "Swift Swim" ],
+  "evYield" : {
+    "spd" : 3
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 210,
+  "eggGroups" : [ "Monster", "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.6,
+  "weightKg" : 85.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Shellfish",
+  "friendship" : 70,
+  "description" : "The waterspouts that protrude from its\nshell are highly accurate. Their bullets of\nwater can precisely nail tin cans from\na distance of over 160 feet.",
+  "preEvolutionId" : "SPECIES_WARTORTLE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 84,
+    "atk" : 83,
+    "def" : 105,
+    "spe" : 78,
+    "spa" : 90,
+    "spd" : 110
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Scald"
+  }, {
+    "level" : 1,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 1,
+    "move" : "Aqua Ring"
+  }, {
+    "level" : 1,
+    "move" : "Aura Sphere"
+  }, {
+    "level" : 1,
+    "move" : "Brine"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 1,
+    "move" : "Fake Out"
+  }, {
+    "level" : 1,
+    "move" : "Flail"
+  }, {
+    "level" : 1,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 1,
+    "move" : "Flip Turn"
+  }, {
+    "level" : 1,
+    "move" : "Foresight"
+  }, {
+    "level" : 1,
+    "move" : "Haze"
+  }, {
+    "level" : 1,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 1,
+    "move" : "Mirror Coat"
+  }, {
+    "level" : 1,
+    "move" : "Mist"
+  }, {
+    "level" : 1,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 1,
+    "move" : "Muddy Water"
+  }, {
+    "level" : 1,
+    "move" : "Refresh"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 1,
+    "move" : "Water Spout"
+  }, {
+    "level" : 1,
+    "move" : "Yawn"
+  }, {
+    "level" : 4,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 7,
+    "move" : "Water Gun"
+  }, {
+    "level" : 10,
+    "move" : "Withdraw"
+  }, {
+    "level" : 13,
+    "move" : "Bubble"
+  }, {
+    "level" : 17,
+    "move" : "Bite"
+  }, {
+    "level" : 19,
+    "move" : "Fake Out"
+  }, {
+    "level" : 20,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 22,
+    "move" : "Protect"
+  }, {
+    "level" : 29,
+    "move" : "Muddy Water"
+  }, {
+    "level" : 33,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 45,
+    "move" : "Cryo Floe"
+  }, {
+    "level" : 51,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 55,
+    "move" : "Hydro Pump"
+  }, {
+    "level" : 60,
+    "move" : "Shell Trap"
+  }, {
+    "level" : 63,
+    "move" : "Bouncy Bubble"
+  }, {
+    "level" : 68,
+    "move" : "Shore Up"
+  }, {
+    "level" : 75,
+    "move" : "Shell Smash"
+  }, {
+    "level" : 100,
+    "move" : "Origin Pulse"
+  } ],
+  "eggMoves" : [ "Aqua Jet", "Aqua Ring", "Aura Sphere", "Brine", "Dragon Pulse", "Fake Out", "Flail", "Foresight", "Haze", "Mirror Coat", "Mist", "Mud Sport", "Muddy Water", "Refresh", "Water Spout", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Aura Sphere", "Avalanche", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Crunch", "Dark Pulse", "Defense Curl", "Dig", "Dive", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Dynamic Punch", "Earthquake", "Endure", "Facade", "False Swipe", "Flash Cannon", "Flip Turn", "Focus Blast", "Giga Impact", "Gyro Ball", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Iron Defense", "Mega Kick", "Mega Punch", "Mirror Coat", "Mud Slap", "Power Up Punch", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Scald", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "SootopolisCity",
+    "bucketKey" : "Land",
+    "area" : "Sootopolis City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 2
+  } ]
+}

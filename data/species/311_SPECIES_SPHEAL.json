@@ -1,0 +1,144 @@
+{
+  "dex" : 311,
+  "speciesId" : "SPECIES_SPHEAL",
+  "name" : "Spheal",
+  "types" : [ "Ice", "Water" ],
+  "abilities" : [ "Thick Fat", "Ice Body", "Oblivious" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 39.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Clap",
+  "friendship" : 70,
+  "description" : "It is completely covered with plushy fur.\nAs a result, it never feels the cold even\nwhen it is rolling about on ice floes or\ndiving in the sea.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SEALEO",
+    "method" : "level",
+    "param" : "32"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 40,
+    "def" : 50,
+    "spe" : 25,
+    "spa" : 55,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 5,
+    "move" : "Rollout"
+  }, {
+    "level" : 9,
+    "move" : "Encore"
+  }, {
+    "level" : 13,
+    "move" : "Ice Ball"
+  }, {
+    "level" : 17,
+    "move" : "Brine"
+  }, {
+    "level" : 21,
+    "move" : "Aurora Beam"
+  }, {
+    "level" : 26,
+    "move" : "Body Slam"
+  }, {
+    "level" : 31,
+    "move" : "Rest"
+  }, {
+    "level" : 31,
+    "move" : "Snore"
+  }, {
+    "level" : 36,
+    "move" : "Snowscape"
+  }, {
+    "level" : 41,
+    "move" : "Blizzard"
+  }, {
+    "level" : 46,
+    "move" : "Ice Beam"
+  } ],
+  "eggMoves" : [ "Aqua Ring", "Belly Drum", "Curse", "Fissure", "Rollout", "Signal Beam", "Sleep Talk", "Spit Up", "Stockpile", "Swallow", "Water Pulse", "Water Sport", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Defense Curl", "Dive", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "Ice Beam", "Icy Wind", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Water",
+    "area" : "Shoal Cave_Low Tide Inner Room",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 25,
+    "max" : 30,
+    "slot" : 2
+  }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Water",
+    "area" : "Shoal Cave_Low Tide Inner Room",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 25,
+    "max" : 30,
+    "slot" : 3
+  }, {
+    "areaKey" : "ShoalCave_LowTideInnerRoom",
+    "bucketKey" : "Water",
+    "area" : "Shoal Cave_Low Tide Inner Room",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 25,
+    "max" : 35,
+    "slot" : 4
+  }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Water",
+    "area" : "Shoal Cave_Low Tide Entrance Room",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 25,
+    "max" : 30,
+    "slot" : 2
+  }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Water",
+    "area" : "Shoal Cave_Low Tide Entrance Room",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 25,
+    "max" : 30,
+    "slot" : 3
+  }, {
+    "areaKey" : "ShoalCave_LowTideEntranceRoom",
+    "bucketKey" : "Water",
+    "area" : "Shoal Cave_Low Tide Entrance Room",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 25,
+    "max" : 35,
+    "slot" : 4
+  } ]
+}

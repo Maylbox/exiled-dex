@@ -1,0 +1,87 @@
+{
+  "dex" : 545,
+  "speciesId" : "SPECIES_GROOKEY",
+  "name" : "Grookey",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Overgrow", "None", "Grassy Surge" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 62,
+  "eggGroups" : [ "Field", "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 5.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Chimp",
+  "friendship" : 70,
+  "description" : "When it uses its special stick to strike up\na beat, the sound waves produced carry\nrevitalizing energy to the plants and\nflowers in the area.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_THWACKEY",
+    "method" : "level",
+    "param" : "16"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 65,
+    "def" : 50,
+    "spe" : 65,
+    "spa" : 40,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 6,
+    "move" : "Branch Poke"
+  }, {
+    "level" : 8,
+    "move" : "Taunt"
+  }, {
+    "level" : 10,
+    "move" : "Fake Out"
+  }, {
+    "level" : 12,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 17,
+    "move" : "Screech"
+  }, {
+    "level" : 20,
+    "move" : "Knock Off"
+  }, {
+    "level" : 24,
+    "move" : "Slam"
+  }, {
+    "level" : 28,
+    "move" : "Uproar"
+  }, {
+    "level" : 32,
+    "move" : "Wood Hammer"
+  }, {
+    "level" : 36,
+    "move" : "Endeavor"
+  } ],
+  "eggMoves" : [ "Fake Out", "Growth", "Hammer Arm", "Leech Seed", "Nature Power", "Strength", "Worry Seed" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Body Slam", "Bullet Seed", "Drain Punch", "Endure", "Energy Ball", "Facade", "False Swipe", "Giga Drain", "Grass Knot", "Grassy Glide", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Protect", "Rest", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Strength", "Sunny Day", "Swift", "Swords Dance", "Taunt", "Thief", "Trailblaze", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
+    "area" : "Deep Woods0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 7
+  } ]
+}

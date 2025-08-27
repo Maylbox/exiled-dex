@@ -1,0 +1,90 @@
+{
+  "dex" : 254,
+  "speciesId" : "SPECIES_EXILED_WHISMUR",
+  "name" : "Exiled Whismur",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Blaze", "Punk Rock", "Dragonforce" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 16.3,
+  "growthRate" : "Medium Slow",
+  "color" : "Pink",
+  "category" : "Metal",
+  "friendship" : 70,
+  "description" : "Its cries equal a jet plane in volume.\nIt inhales through its ear canals. Because\nof this system, it can cry continually\nwithout having to catch its breath.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_LOUDRED",
+    "method" : "level",
+    "param" : "16"
+  } ],
+  "baseStats" : {
+    "hp" : 73,
+    "atk" : 30,
+    "def" : 44,
+    "spe" : 36,
+    "spa" : 69,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 6,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 9,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 13,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 17,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 19,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 22,
+    "move" : "Snarl"
+  }, {
+    "level" : 25,
+    "move" : "Incinerate"
+  }, {
+    "level" : 28,
+    "move" : "Grudge"
+  }, {
+    "level" : 32,
+    "move" : "Flame Burst"
+  }, {
+    "level" : 36,
+    "move" : "Mirror Shot"
+  }, {
+    "level" : 39,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 41,
+    "move" : "Sunny Day"
+  }, {
+    "level" : 46,
+    "move" : "Flamethrower"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Body Press", "Calm Mind", "Cut", "Dragon Pulse", "Earth Power", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Flash Cannon", "Focus Blast", "Gyro Ball", "Hex", "Hidden Power", "Ice Fang", "Iron Defense", "Iron Head", "Knock Off", "Meteor Beam", "Mystical Fire", "Overheat", "Protect", "Psychic", "Psychic Fangs", "Reflect", "Rock Smash", "Rock Tomb", "Safeguard", "Shadow Ball", "Sludge Bomb", "Smart Strike", "Strength", "Sunny Day", "Taunt", "Thunder", "Thunder Fang", "Thunderbolt", "Torment", "Volt Switch", "Will O Wisp" ],
+  "encounters" : [ ]
+}

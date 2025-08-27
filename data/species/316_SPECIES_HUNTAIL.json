@@ -1,0 +1,95 @@
+{
+  "dex" : 316,
+  "speciesId" : "SPECIES_HUNTAIL",
+  "name" : "Huntail",
+  "types" : [ "Water", "Dark" ],
+  "abilities" : [ "Swift Swim", "Strong Jaw", "Water Veil" ],
+  "evYield" : {
+    "def" : 1,
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.7,
+  "weightKg" : 27.0,
+  "growthRate" : "Erratic",
+  "color" : "Blue",
+  "category" : "Deep Sea",
+  "friendship" : 70,
+  "description" : "To withstand the crushing pressure of\nwater deep under the sea, its spine is very\nthick and sturdy. Its tail, which is shaped\nlike a small fish, has eyes that light up.",
+  "preEvolutionId" : "SPECIES_CLAMPERL",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 104,
+    "def" : 105,
+    "spe" : 52,
+    "spa" : 94,
+    "spd" : 75
+  },
+  "heldItems" : {
+    "common" : "Deep Sea Tooth"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 1,
+    "move" : "Shell Smash"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 1,
+    "move" : "Whirlpool"
+  }, {
+    "level" : 5,
+    "move" : "Screech"
+  }, {
+    "level" : 9,
+    "move" : "Scary Face"
+  }, {
+    "level" : 11,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 14,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 16,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 19,
+    "move" : "Brine"
+  }, {
+    "level" : 23,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 26,
+    "move" : "Dive"
+  }, {
+    "level" : 29,
+    "move" : "Baton Pass"
+  }, {
+    "level" : 34,
+    "move" : "Crunch"
+  }, {
+    "level" : 39,
+    "move" : "Aqua Tail"
+  }, {
+    "level" : 45,
+    "move" : "Coil"
+  }, {
+    "level" : 50,
+    "move" : "Hydro Pump"
+  } ],
+  "eggMoves" : [ "Aqua Ring", "Barrier", "Body Slam", "Brine", "Confuse Ray", "Endure", "Mud Sport", "Muddy Water", "Refresh", "Supersonic", "Water Pulse" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Crunch", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Fang", "Icy Wind", "Iron Defense", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Tomb", "Scald", "Sleep Talk", "Snatch", "Snore", "Surf", "Swagger", "Swift", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

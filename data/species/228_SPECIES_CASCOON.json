@@ -1,0 +1,48 @@
+{
+  "dex" : 228,
+  "speciesId" : "SPECIES_CASCOON",
+  "name" : "Cascoon",
+  "types" : [ "Bug", null ],
+  "abilities" : [ "Shed Skin", "None", "None" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 72,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.7,
+  "weightKg" : 11.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Purple",
+  "category" : "Cocoon",
+  "friendship" : 70,
+  "description" : "To avoid detection by its enemies, it hides\nmotionlessly beneath large leaves and in\nthe gaps of branches. It also attaches\ndead leaves to its body for camouflage.",
+  "preEvolutionId" : "SPECIES_WURMPLE",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_DUSTOX",
+    "method" : "level",
+    "param" : "10"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 35,
+    "def" : 55,
+    "spe" : 15,
+    "spa" : 25,
+    "spd" : 25
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Electroweb", "Iron Defense" ],
+  "encounters" : [ ]
+}

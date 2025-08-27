@@ -1,0 +1,152 @@
+{
+  "dex" : 86,
+  "speciesId" : "SPECIES_GENGAR",
+  "name" : "Gengar",
+  "types" : [ "Ghost", "Poison" ],
+  "abilities" : [ "Levitate", "None", "None" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 190,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 40.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Purple",
+  "category" : "Shadow",
+  "friendship" : 70,
+  "description" : "Deep in the night, your shadow cast by\na streetlight may suddenly overtake you.\nIt is actually a Gengar running past\nyou, pretending to be your shadow.",
+  "preEvolutionId" : "SPECIES_HAUNTER",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 65,
+    "def" : 60,
+    "spe" : 110,
+    "spa" : 130,
+    "spd" : 75
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Hypnosis"
+  }, {
+    "level" : 1,
+    "move" : "Lick"
+  }, {
+    "level" : 1,
+    "move" : "Shadow Punch"
+  }, {
+    "level" : 1,
+    "move" : "Spite"
+  }, {
+    "level" : 1,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 5,
+    "move" : "Spite"
+  }, {
+    "level" : 8,
+    "move" : "Mean Look"
+  }, {
+    "level" : 10,
+    "move" : "Ominous Wind"
+  }, {
+    "level" : 12,
+    "move" : "Curse"
+  }, {
+    "level" : 15,
+    "move" : "Night Shade"
+  }, {
+    "level" : 19,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 22,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 25,
+    "move" : "Shadow Punch"
+  }, {
+    "level" : 28,
+    "move" : "Payback"
+  }, {
+    "level" : 33,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 40,
+    "move" : "Shadow Punch"
+  }, {
+    "level" : 44,
+    "move" : "Dark Pulse"
+  }, {
+    "level" : 50,
+    "move" : "Destiny Bond"
+  }, {
+    "level" : 55,
+    "move" : "Hex"
+  }, {
+    "level" : 61,
+    "move" : "Nightmare"
+  } ],
+  "eggMoves" : [ "Astonish", "Clear Smog", "Disable", "Fire Punch", "Grudge", "Haze", "Ice Punch", "Perish Song", "Psywave", "Reflect Type", "Scary Face", "Smog", "Thunder Punch" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Counter", "Dark Pulse", "Dazzling Gleam", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Energy Ball", "Explosion", "Facade", "Fire Punch", "Focus Blast", "Giga Drain", "Giga Impact", "Hex", "Hyper Beam", "Ice Punch", "Icy Wind", "Knock Off", "Mega Kick", "Mega Punch", "Metronome", "Poison Jab", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Rock Smash", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snatch", "Snore", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Venoshock", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 0
+  }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 0
+  }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 0
+  }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 0
+  }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 0
+  }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_6F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 0
+  } ]
+}

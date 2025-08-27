@@ -1,0 +1,113 @@
+{
+  "dex" : 167,
+  "speciesId" : "SPECIES_AMPHAROS_MEGA",
+  "name" : "Ampharos - Mega",
+  "types" : [ "Electric", "Dragon" ],
+  "abilities" : [ "Mold Breaker", "Mold Breaker", "Mold Breaker" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.4,
+  "weightKg" : 61.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Yellow",
+  "category" : "Light",
+  "friendship" : 70,
+  "description" : "Massive amounts of energy intensely\nstimulated Ampharos's cells, apparently\nawakening its long-sleeping dragon's\nblood.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 95,
+    "def" : 105,
+    "spe" : 45,
+    "spa" : 165,
+    "spd" : 110
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Thunder Punch"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 1,
+    "move" : "Fire Punch"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Ion Deluge"
+  }, {
+    "level" : 1,
+    "move" : "Magnetic Flux"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 1,
+    "move" : "Thunderpunch"
+  }, {
+    "level" : 1,
+    "move" : "Thundershock"
+  }, {
+    "level" : 1,
+    "move" : "Zap Cannon"
+  }, {
+    "level" : 4,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 8,
+    "move" : "Thundershock"
+  }, {
+    "level" : 11,
+    "move" : "Cotton Spore"
+  }, {
+    "level" : 16,
+    "move" : "Flash"
+  }, {
+    "level" : 20,
+    "move" : "Take Down"
+  }, {
+    "level" : 25,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 30,
+    "move" : "Thunderpunch"
+  }, {
+    "level" : 35,
+    "move" : "Power Gem"
+  }, {
+    "level" : 40,
+    "move" : "Discharge"
+  }, {
+    "level" : 46,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 51,
+    "move" : "Signal Beam"
+  }, {
+    "level" : 57,
+    "move" : "Light Screen"
+  }, {
+    "level" : 62,
+    "move" : "Thunder"
+  }, {
+    "level" : 65,
+    "move" : "Dragon Pulse"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulldoze", "Charge Beam", "Counter", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Fire Punch", "Flash", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Punch", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Meteor Beam", "Power Up Punch", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Smash", "Safeguard", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ ]
+}

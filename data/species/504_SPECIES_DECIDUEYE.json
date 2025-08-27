@@ -1,0 +1,125 @@
+{
+  "dex" : 504,
+  "speciesId" : "SPECIES_DECIDUEYE",
+  "name" : "Decidueye",
+  "types" : [ "Grass", "Ghost" ],
+  "abilities" : [ "Overgrow", "Tinted Lens", "Long Reach" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.6,
+  "weightKg" : 36.6,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Arrow Quill",
+  "friendship" : 70,
+  "description" : "Decidueye is cool and cautious.\nIt fires arrow quills from its wings with\nsuch precision, they can pierce a pebble\nat distances of over a hundred yards.",
+  "preEvolutionId" : "SPECIES_DARTRIX",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 78,
+    "atk" : 117,
+    "def" : 75,
+    "spe" : 80,
+    "spa" : 100,
+    "spd" : 100
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Spirit Shackle"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Leaf Storm"
+  }, {
+    "level" : 1,
+    "move" : "Leafage"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Phantom Force"
+  }, {
+    "level" : 1,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 1,
+    "move" : "Spirit Shackle"
+  }, {
+    "level" : 1,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "U Turn"
+  }, {
+    "level" : 4,
+    "move" : "Growl"
+  }, {
+    "level" : 8,
+    "move" : "Pluck"
+  }, {
+    "level" : 11,
+    "move" : "Astonish"
+  }, {
+    "level" : 14,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 16,
+    "move" : "Ominous Wind"
+  }, {
+    "level" : 19,
+    "move" : "Foresight"
+  }, {
+    "level" : 24,
+    "move" : "Pluck"
+  }, {
+    "level" : 28,
+    "move" : "Synthesis"
+  }, {
+    "level" : 33,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 34,
+    "move" : "Spirit Shackle"
+  }, {
+    "level" : 38,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 44,
+    "move" : "Leaf Blade"
+  }, {
+    "level" : 49,
+    "move" : "Featherdance"
+  }, {
+    "level" : 55,
+    "move" : "Brave Bird"
+  }, {
+    "level" : 60,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 65,
+    "move" : "Thousand Arrows"
+  }, {
+    "level" : 68,
+    "move" : "Triple Arrows"
+  }, {
+    "level" : 73,
+    "move" : "First Impression"
+  } ],
+  "eggMoves" : [ "Baton Pass", "Confuse Ray", "Curse", "Defog", "Haze", "Ominous Wind" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Bullet Seed", "Covet", "Defog", "Double Team", "Dual Wingbeat", "Endure", "Energy Ball", "Facade", "False Swipe", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hex", "Hyper Beam", "Knock Off", "Light Screen", "Low Kick", "Protect", "Rain Dance", "Rest", "Roost", "Safeguard", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Smack Down", "Snore", "Solar Beam", "Solar Blade", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Toxic", "Trailblaze", "U Turn" ],
+  "encounters" : [ ]
+}

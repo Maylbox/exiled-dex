@@ -1,0 +1,113 @@
+{
+  "dex" : 301,
+  "speciesId" : "SPECIES_SHUPPET",
+  "name" : "Shuppet",
+  "types" : [ "Ghost", null ],
+  "abilities" : [ "Insomnia", "Frisk", "Cursed Body" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 225,
+  "baseExp" : 0,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 6400,
+  "heightM" : 0.6,
+  "weightKg" : 2.3,
+  "growthRate" : "Fast",
+  "color" : "Black",
+  "category" : "Puppet",
+  "friendship" : 35,
+  "description" : "This Pokémon roams about deep in the\nnight seeking such negative emotions as\ngrudges and envy. It retreats to its nest\nwhen the sun begins to rise.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BANETTE",
+    "method" : "level",
+    "param" : "37"
+  } ],
+  "baseStats" : {
+    "hp" : 44,
+    "atk" : 75,
+    "def" : 35,
+    "spe" : 45,
+    "spa" : 63,
+    "spd" : 33
+  },
+  "heldItems" : {
+    "common" : "Spell Tag"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 1,
+    "move" : "Knock Off"
+  }, {
+    "level" : 4,
+    "move" : "Screech"
+  }, {
+    "level" : 7,
+    "move" : "Night Shade"
+  }, {
+    "level" : 10,
+    "move" : "Spite"
+  }, {
+    "level" : 13,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 16,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 19,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 22,
+    "move" : "Hex"
+  }, {
+    "level" : 26,
+    "move" : "Curse"
+  }, {
+    "level" : 30,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 34,
+    "move" : "Embargo"
+  }, {
+    "level" : 38,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 42,
+    "move" : "Snatch"
+  }, {
+    "level" : 46,
+    "move" : "Grudge"
+  }, {
+    "level" : 50,
+    "move" : "Trick"
+  }, {
+    "level" : 54,
+    "move" : "Phantom Force"
+  } ],
+  "eggMoves" : [ "Astonish", "Confuse Ray", "Destiny Bond", "Disable", "Foresight", "Gunk Shot", "Imprison", "Ominous Wind", "Phantom Force", "Pursuit", "Shadow Sneak" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Charge Beam", "Dark Pulse", "Dazzling Gleam", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Hex", "Icy Wind", "Knock Off", "Metronome", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
+    "area" : "Rustboro City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 8
+  }, {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
+    "area" : "Rustboro City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 9
+  } ]
+}

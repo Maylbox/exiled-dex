@@ -1,0 +1,113 @@
+{
+  "dex" : 355,
+  "speciesId" : "SPECIES_BRONZOR",
+  "name" : "Bronzor",
+  "types" : [ "Steel", "Psychic" ],
+  "abilities" : [ "Levitate", "Heatproof", "Heavy Metal" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 60.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Bronze",
+  "friendship" : 70,
+  "description" : "Implements shaped like it were discovered\nin ancient tombs. There are researchers\nwho believe this Pokémon reflected like a\nmirror in the distant past.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_BRONZONG",
+    "method" : "level",
+    "param" : "33"
+  } ],
+  "baseStats" : {
+    "hp" : 57,
+    "atk" : 24,
+    "def" : 86,
+    "spe" : 23,
+    "spa" : 24,
+    "spd" : 86
+  },
+  "heldItems" : {
+    "common" : "Metal Coat"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Hypnosis"
+  }, {
+    "level" : 9,
+    "move" : "Imprison"
+  }, {
+    "level" : 11,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 15,
+    "move" : "Psywave"
+  }, {
+    "level" : 19,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 21,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 23,
+    "move" : "Psybeam"
+  }, {
+    "level" : 25,
+    "move" : "Safeguard"
+  }, {
+    "level" : 29,
+    "move" : "Future Sight"
+  }, {
+    "level" : 31,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 35,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 39,
+    "move" : "Extrasensory"
+  }, {
+    "level" : 41,
+    "move" : "Payback"
+  }, {
+    "level" : 45,
+    "move" : "Heal Block"
+  }, {
+    "level" : 49,
+    "move" : "Heavy Slam"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Body Slam", "Bulldoze", "Calm Mind", "Charge Beam", "Double Team", "Dream Eater", "Earthquake", "Endure", "Facade", "Flash", "Flash Cannon", "Grass Knot", "Gyro Ball", "Hex", "Iron Defense", "Iron Head", "Light Screen", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Rollout", "Safeguard", "Sandstorm", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Stealth Rock", "Sunny Day", "Swagger", "Toxic", "Trick Room" ],
+  "encounters" : [ {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
+    "area" : "Rusturf Tunnel",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 9,
+    "max" : 11,
+    "slot" : 8
+  }, {
+    "areaKey" : "RusturfTunnel",
+    "bucketKey" : "Land",
+    "area" : "Rusturf Tunnel",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 9,
+    "max" : 11,
+    "slot" : 9
+  } ]
+}

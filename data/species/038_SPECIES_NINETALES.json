@@ -1,0 +1,206 @@
+{
+  "dex" : 38,
+  "speciesId" : "SPECIES_NINETALES",
+  "name" : "Ninetales",
+  "types" : [ "Fire", "Ghost" ],
+  "abilities" : [ "Flash Fire", "None", "Drought" ],
+  "evYield" : {
+    "spd" : 1,
+    "spe" : 1
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.1,
+  "weightKg" : 19.9,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Fox",
+  "friendship" : 70,
+  "description" : "It has long been said that each of the\nnine tails embody an enchanted power.\nA long-lived Ninetales will have fur that\nshines like gold.",
+  "preEvolutionId" : "SPECIES_VULPIX",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 73,
+    "atk" : 56,
+    "def" : 75,
+    "spe" : 100,
+    "spa" : 101,
+    "spd" : 100
+  },
+  "heldItems" : {
+    "common" : "Charcoal"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Captivate"
+  }, {
+    "level" : 1,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 1,
+    "move" : "Disable"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Extrasensory"
+  }, {
+    "level" : 1,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 1,
+    "move" : "Fire Blast"
+  }, {
+    "level" : 1,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 1,
+    "move" : "Flail"
+  }, {
+    "level" : 1,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 1,
+    "move" : "Flare Blitz"
+  }, {
+    "level" : 1,
+    "move" : "Heat Wave"
+  }, {
+    "level" : 1,
+    "move" : "Hex"
+  }, {
+    "level" : 1,
+    "move" : "Howl"
+  }, {
+    "level" : 1,
+    "move" : "Hypnosis"
+  }, {
+    "level" : 1,
+    "move" : "Imprison"
+  }, {
+    "level" : 1,
+    "move" : "Incinerate"
+  }, {
+    "level" : 1,
+    "move" : "Inferno"
+  }, {
+    "level" : 1,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 1,
+    "move" : "Power Swap"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 1,
+    "move" : "Safeguard"
+  }, {
+    "level" : 1,
+    "move" : "Secret Power"
+  }, {
+    "level" : 1,
+    "move" : "Spite"
+  }, {
+    "level" : 1,
+    "move" : "Tail Slap"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 1,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 10,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 12,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 15,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 18,
+    "move" : "Payback"
+  }, {
+    "level" : 20,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 23,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 26,
+    "move" : "Hex"
+  }, {
+    "level" : 28,
+    "move" : "Flame Burst"
+  }, {
+    "level" : 31,
+    "move" : "Extrasensory"
+  }, {
+    "level" : 34,
+    "move" : "Safeguard"
+  }, {
+    "level" : 36,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 39,
+    "move" : "Imprison"
+  }, {
+    "level" : 42,
+    "move" : "Fire Blast"
+  }, {
+    "level" : 44,
+    "move" : "Grudge"
+  }, {
+    "level" : 47,
+    "move" : "Captivate"
+  }, {
+    "level" : 50,
+    "move" : "Inferno"
+  } ],
+  "eggMoves" : [ "Captivate", "Disable", "Extrasensory", "Feint Attack", "Flail", "Flare Blitz", "Heat Wave", "Hex", "Howl", "Hypnosis", "Power Swap", "Secret Power", "Spite", "Tail Slap" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Calm Mind", "Covet", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Fire Blast", "Flamethrower", "Giga Impact", "Hex", "Hyper Beam", "Mystical Fire", "Overheat", "Protect", "Psych Up", "Psyshock", "Reflect", "Rest", "Roar", "Safeguard", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Toxic", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_Exterior",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 5
+  }, {
+    "areaKey" : "MtPyre_Exterior",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_Exterior",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 6
+  }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_Summit",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 5
+  }, {
+    "areaKey" : "MtPyre_Summit",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_Summit",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 6
+  } ]
+}

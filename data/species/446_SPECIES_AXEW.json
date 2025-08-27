@@ -1,0 +1,108 @@
+{
+  "dex" : 446,
+  "speciesId" : "SPECIES_AXEW",
+  "name" : "Axew",
+  "types" : [ "Dragon", null ],
+  "abilities" : [ "Unnerve", "Mold Breaker", "Moxie" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 64,
+  "eggGroups" : [ "Monster", "Dragon" ],
+  "hatchSteps" : 10240,
+  "heightM" : 0.6,
+  "weightKg" : 18.0,
+  "growthRate" : "Slow",
+  "color" : "Green",
+  "category" : "Tusk",
+  "friendship" : 35,
+  "description" : "They mark their territory by leaving\ngashes in trees with their tusks. If a\ntusk breaks, a new one grows in quickly,\nharder and sturdier than the last.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_FRAXURE",
+    "method" : "level",
+    "param" : "38"
+  } ],
+  "baseStats" : {
+    "hp" : 46,
+    "atk" : 87,
+    "def" : 60,
+    "spe" : 57,
+    "spa" : 30,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 4,
+    "move" : "Leer"
+  }, {
+    "level" : 7,
+    "move" : "Bite"
+  }, {
+    "level" : 10,
+    "move" : "Breaking Swipe"
+  }, {
+    "level" : 13,
+    "move" : "Sharpen"
+  }, {
+    "level" : 16,
+    "move" : "Scary Face"
+  }, {
+    "level" : 20,
+    "move" : "Slash"
+  }, {
+    "level" : 24,
+    "move" : "False Swipe"
+  }, {
+    "level" : 28,
+    "move" : "Dragon Claw"
+  }, {
+    "level" : 32,
+    "move" : "Dragon Dance"
+  }, {
+    "level" : 36,
+    "move" : "Taunt"
+  }, {
+    "level" : 41,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 46,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 50,
+    "move" : "Guillotine"
+  }, {
+    "level" : 56,
+    "move" : "Outrage"
+  }, {
+    "level" : 61,
+    "move" : "Giga Impact"
+  } ],
+  "eggMoves" : [ "Counter", "Dragon Pulse", "Endeavor", "Endure", "Focus Energy", "Harden", "Iron Tail", "Night Slash", "Razor Wind", "Reversal" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Brick Break", "Bulldoze", "Counter", "Crunch", "Cut", "Dig", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "False Swipe", "First Impression", "Giga Impact", "Hone Claws", "Iron Head", "Poison Jab", "Protect", "Rain Dance", "Rest", "Roar", "Rock Smash", "Rock Tomb", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Surf", "Swagger", "Swift", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_B1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 17,
+    "slot" : 10
+  }, {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_B1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 17,
+    "slot" : 11
+  } ]
+}

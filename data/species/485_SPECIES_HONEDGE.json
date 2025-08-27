@@ -1,0 +1,93 @@
+{
+  "dex" : 485,
+  "speciesId" : "SPECIES_HONEDGE",
+  "name" : "Honedge",
+  "types" : [ "Steel", "Ghost" ],
+  "abilities" : [ "No Guard", "None", "None" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 180,
+  "baseExp" : 65,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 2.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Sword",
+  "friendship" : 70,
+  "description" : "If anyone dares to grab its hilt, it\nwraps a blue cloth around that person's\narm and drains that person's life\nenergy completely.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_DOUBLADE",
+    "method" : "level",
+    "param" : "35"
+  } ],
+  "baseStats" : {
+    "hp" : 45,
+    "atk" : 80,
+    "def" : 100,
+    "spe" : 28,
+    "spa" : 35,
+    "spd" : 37
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 8,
+    "move" : "Autotomize"
+  }, {
+    "level" : 12,
+    "move" : "Aerial Ace"
+  }, {
+    "level" : 16,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 20,
+    "move" : "Slash"
+  }, {
+    "level" : 24,
+    "move" : "Night Slash"
+  }, {
+    "level" : 28,
+    "move" : "Retaliate"
+  }, {
+    "level" : 32,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 36,
+    "move" : "Iron Head"
+  }, {
+    "level" : 40,
+    "move" : "Power Trick"
+  }, {
+    "level" : 44,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 48,
+    "move" : "Sacred Sword"
+  } ],
+  "eggMoves" : [ "Destiny Bond", "Metal Sound", "Shadow Sneak", "Wide Guard" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Brick Break", "Cut", "Double Team", "Endure", "Facade", "False Swipe", "Flash Cannon", "Fury Cutter", "Gyro Ball", "Iron Defense", "Iron Head", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snore", "Solar Blade", "Swagger", "Swords Dance", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "Route116",
+    "bucketKey" : "Land",
+    "area" : "Route 116",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 9
+  } ]
+}

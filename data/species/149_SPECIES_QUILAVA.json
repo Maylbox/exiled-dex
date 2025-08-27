@@ -1,0 +1,107 @@
+{
+  "dex" : 149,
+  "speciesId" : "SPECIES_QUILAVA",
+  "name" : "Quilava",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Blaze", "Flash Fire", "Drought" ],
+  "evYield" : {
+    "spa" : 1,
+    "spe" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 142,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.9,
+  "weightKg" : 19.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Yellow",
+  "category" : "Volcano",
+  "friendship" : 70,
+  "description" : "It intimidates foes with intense gusts of\nflames and superheated air. Its quick\nnimbleness lets it dodge attacks even\nwhile scorching an enemy.",
+  "preEvolutionId" : "SPECIES_CYNDAQUIL",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_TYPHLOSION",
+    "method" : "level",
+    "param" : "36"
+  }, {
+    "toSpeciesId" : "SPECIES_TYPHLOSION_HISUIAN",
+    "method" : "none",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 58,
+    "atk" : 64,
+    "def" : 58,
+    "spe" : 80,
+    "spa" : 80,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Smokescreen"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 7,
+    "move" : "Ember"
+  }, {
+    "level" : 10,
+    "move" : "Flame Wheel"
+  }, {
+    "level" : 13,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 15,
+    "move" : "Double Kick"
+  }, {
+    "level" : 19,
+    "move" : "Extrasensory"
+  }, {
+    "level" : 24,
+    "move" : "Scorching Sands"
+  }, {
+    "level" : 32,
+    "move" : "Mystical Fire"
+  }, {
+    "level" : 42,
+    "move" : "Lava Plume"
+  }, {
+    "level" : 46,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 53,
+    "move" : "Inferno"
+  }, {
+    "level" : 57,
+    "move" : "Rollout"
+  }, {
+    "level" : 64,
+    "move" : "Double Edge"
+  }, {
+    "level" : 68,
+    "move" : "Burn Up"
+  }, {
+    "level" : 75,
+    "move" : "Eruption"
+  } ],
+  "eggMoves" : [ "Covet", "Crush Claw", "Double Edge", "Double Kick", "Extrasensory", "Flame Burst", "Flare Blitz", "Foresight", "Fury Swipes", "Howl", "Nature Power", "Quick Attack", "Reversal", "Thrash" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Covet", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Fury Cutter", "Iron Head", "Mud Slap", "Overheat", "Play Rough", "Protect", "Rest", "Roar", "Rock Smash", "Rollout", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Swift", "Toxic", "Wild Charge", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
+    "area" : "Lavaridge Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 5
+  } ]
+}

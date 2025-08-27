@@ -1,0 +1,95 @@
+{
+  "dex" : 521,
+  "speciesId" : "SPECIES_MUDBRAY",
+  "name" : "Mudbray",
+  "types" : [ "Ground", null ],
+  "abilities" : [ "Own Tempo", "Stamina", "Inner Focus" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 77,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 110.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Donkey",
+  "friendship" : 70,
+  "description" : "The mud stuck to Mudbray's hooves\nenhances its grip and its powerful running\ngait. Eating dirt, making mud, and playing\nin the mire form its daily routine.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MUDSDALE",
+    "method" : "level",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 100,
+    "def" : 70,
+    "spe" : 45,
+    "spa" : 45,
+    "spd" : 55
+  },
+  "heldItems" : {
+    "common" : "Light Clay"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 3,
+    "move" : "Rock Smash"
+  }, {
+    "level" : 8,
+    "move" : "Rototiller"
+  }, {
+    "level" : 10,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 15,
+    "move" : "Double Kick"
+  }, {
+    "level" : 17,
+    "move" : "Stomp"
+  }, {
+    "level" : 22,
+    "move" : "Bide"
+  }, {
+    "level" : 24,
+    "move" : "High Horsepower"
+  }, {
+    "level" : 29,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 31,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 36,
+    "move" : "Counter"
+  }, {
+    "level" : 38,
+    "move" : "Earthquake"
+  }, {
+    "level" : 43,
+    "move" : "Mega Kick"
+  }, {
+    "level" : 45,
+    "move" : "Superpower"
+  } ],
+  "eggMoves" : [ "Body Slam", "Close Combat", "Double Edge", "Magnitude", "Mud Bomb" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Counter", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "High Horsepower", "Iron Defense", "Iron Head", "Low Kick", "Mega Kick", "Mud Slap", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "FallarborTown0",
+    "bucketKey" : "Land",
+    "area" : "Fallarbor Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 29,
+    "max" : 33,
+    "slot" : 2
+  } ]
+}

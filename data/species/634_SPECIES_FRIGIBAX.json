@@ -1,0 +1,81 @@
+{
+  "dex" : 634,
+  "speciesId" : "SPECIES_FRIGIBAX",
+  "name" : "Frigibax",
+  "types" : [ "Dragon", "Ice" ],
+  "abilities" : [ "Thermal Exchange", "None", "Ice Body" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 64,
+  "eggGroups" : [ "Dragon", "Mineral" ],
+  "hatchSteps" : 10240,
+  "heightM" : 0.5,
+  "weightKg" : 17.0,
+  "growthRate" : "Slow",
+  "color" : "Gray",
+  "category" : "Ice Fin",
+  "friendship" : 70,
+  "description" : "This Pokémon lives in forests and\ncraggy areas. Using the power of its\ndorsal fin, it cools the inside of its\nnest like a refrigerator.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_ARCTIBAX",
+    "method" : "level",
+    "param" : "35"
+  } ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 75,
+    "def" : 45,
+    "spe" : 55,
+    "spa" : 35,
+    "spd" : 45
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Dragon Tail"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 12,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 18,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 24,
+    "move" : "Bite"
+  }, {
+    "level" : 29,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 32,
+    "move" : "Dragon Claw"
+  }, {
+    "level" : 36,
+    "move" : "Take Down"
+  }, {
+    "level" : 40,
+    "move" : "Ice Beam"
+  }, {
+    "level" : 44,
+    "move" : "Crunch"
+  }, {
+    "level" : 48,
+    "move" : "Icicle Crash"
+  } ],
+  "eggMoves" : [ "Aqua Tail", "Dragon Rush", "Freeze Dry", "Icicle Spear" ],
+  "teachableMoves" : [ "Avalanche", "Blizzard", "Body Slam", "Crunch", "Dig", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Ice Beam", "Ice Fang", "Icicle Crash", "Icy Wind", "Protect", "Rain Dance", "Rest", "Sleep Talk", "Snowscape", "Swords Dance" ],
+  "encounters" : [ ]
+}

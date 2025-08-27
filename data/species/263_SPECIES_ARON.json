@@ -1,0 +1,134 @@
+{
+  "dex" : 263,
+  "speciesId" : "SPECIES_ARON",
+  "name" : "Aron",
+  "types" : [ "Steel", "Rock" ],
+  "abilities" : [ "Sturdy", "Rock Head", "Heavy Metal" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 180,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster" ],
+  "hatchSteps" : 8960,
+  "heightM" : 0.4,
+  "weightKg" : 60.0,
+  "growthRate" : "Slow",
+  "color" : "Gray",
+  "category" : "Iron Armor",
+  "friendship" : 35,
+  "description" : "A Pokémon that is clad in steel armor.\nA new suit of armor is made when it evolves.\nThe old, discarded armor is salvaged as\nmetal for making iron products.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_LAIRON",
+    "method" : "level",
+    "param" : "32"
+  } ],
+  "baseStats" : {
+    "hp" : 50,
+    "atk" : 70,
+    "def" : 100,
+    "spe" : 30,
+    "spa" : 40,
+    "spd" : 40
+  },
+  "heldItems" : {
+    "common" : "Hard Stone"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 7,
+    "move" : "Headbutt"
+  }, {
+    "level" : 10,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 13,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 16,
+    "move" : "Protect"
+  }, {
+    "level" : 19,
+    "move" : "Roar"
+  }, {
+    "level" : 22,
+    "move" : "Iron Head"
+  }, {
+    "level" : 25,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 28,
+    "move" : "Take Down"
+  }, {
+    "level" : 31,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 34,
+    "move" : "Iron Tail"
+  }, {
+    "level" : 37,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 40,
+    "move" : "Double Edge"
+  }, {
+    "level" : 43,
+    "move" : "Autotomize"
+  }, {
+    "level" : 46,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 49,
+    "move" : "Metal Burst"
+  } ],
+  "eggMoves" : [ "Body Slam", "Curse", "Dragon Rush", "Endeavor", "Head Smash", "Iron Head", "Reversal", "Screech", "Smelling Salts", "Stealth Rock", "Stomp", "Superpower" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Press", "Body Slam", "Bulldoze", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Fury Cutter", "Hone Claws", "Iron Defense", "Iron Head", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Shadow Claw", "Shock Wave", "Sleep Talk", "Snore", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Toxic", "Water Pulse" ],
+  "encounters" : [ {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 13,
+    "max" : 15,
+    "slot" : 1
+  }, {
+    "areaKey" : "GraniteCave_1F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 13,
+    "max" : 15,
+    "slot" : 3
+  }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_Stevens Room",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 15,
+    "slot" : 0
+  }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_Stevens Room",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 15,
+    "slot" : 1
+  } ]
+}

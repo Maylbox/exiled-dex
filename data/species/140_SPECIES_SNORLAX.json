@@ -1,0 +1,122 @@
+{
+  "dex" : 140,
+  "speciesId" : "SPECIES_SNORLAX",
+  "name" : "Snorlax",
+  "types" : [ "Normal", null ],
+  "abilities" : [ "Fluffy", "Thick Fat", "Gluttony" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 25,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster" ],
+  "hatchSteps" : 10240,
+  "heightM" : 2.1,
+  "weightKg" : 460.0,
+  "growthRate" : "Slow",
+  "color" : "Black",
+  "category" : "Sleeping",
+  "friendship" : 70,
+  "description" : "Snorlax's typical day consists of nothing\nmore than eating and sleeping. It is such\na docile Pokémon that there are children\nwho use its big belly as a place to play.",
+  "preEvolutionId" : "SPECIES_MUNCHLAX",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 160,
+    "atk" : 110,
+    "def" : 65,
+    "spe" : 30,
+    "spa" : 65,
+    "spd" : 110
+  },
+  "heldItems" : {
+    "common" : "Leftovers",
+    "rare" : "Leftovers"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Block"
+  }, {
+    "level" : 1,
+    "move" : "Covet"
+  }, {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Flail"
+  }, {
+    "level" : 1,
+    "move" : "Fling"
+  }, {
+    "level" : 1,
+    "move" : "Last Resort"
+  }, {
+    "level" : 1,
+    "move" : "Lick"
+  }, {
+    "level" : 1,
+    "move" : "Metronome"
+  }, {
+    "level" : 1,
+    "move" : "Recycle"
+  }, {
+    "level" : 1,
+    "move" : "Screech"
+  }, {
+    "level" : 1,
+    "move" : "Stockpile"
+  }, {
+    "level" : 1,
+    "move" : "Swallow"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 12,
+    "move" : "Yawn"
+  }, {
+    "level" : 16,
+    "move" : "Bite"
+  }, {
+    "level" : 20,
+    "move" : "Rest"
+  }, {
+    "level" : 20,
+    "move" : "Sleep Talk"
+  }, {
+    "level" : 20,
+    "move" : "Snore"
+  }, {
+    "level" : 24,
+    "move" : "Crunch"
+  }, {
+    "level" : 28,
+    "move" : "Body Slam"
+  }, {
+    "level" : 32,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 36,
+    "move" : "Amnesia"
+  }, {
+    "level" : 40,
+    "move" : "High Horsepower"
+  }, {
+    "level" : 44,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 48,
+    "move" : "Belly Drum"
+  }, {
+    "level" : 52,
+    "move" : "Belch"
+  }, {
+    "level" : 56,
+    "move" : "Giga Impact"
+  } ],
+  "eggMoves" : [ "After You", "Belch", "Charm", "Counter", "Curse", "Double Edge", "Fissure", "Lick", "Natural Gift", "Power Up Punch", "Pursuit", "Whirlwind" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Covet", "Crunch", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "High Horsepower", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Iron Head", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Smack Down", "Snatch", "Snore", "Solar Beam", "Strength", "Sunny Day", "Surf", "Swagger", "Thunder", "Thunder Punch", "Thunderbolt", "Toxic", "Trailblaze", "Water Pulse", "Wild Charge" ],
+  "encounters" : [ ]
+}

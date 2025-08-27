@@ -1,0 +1,72 @@
+{
+  "dex" : 511,
+  "speciesId" : "SPECIES_GRUBBIN",
+  "name" : "Grubbin",
+  "types" : [ "Bug", null ],
+  "abilities" : [ "Swarm", "None", "Volt Absorb" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 60,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.4,
+  "weightKg" : 4.4,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Larva",
+  "friendship" : 70,
+  "description" : "They often gather near places frequented\nby electric Pokémon in order to avoid being\nattacked by bird Pokémon, though it\nnormally lives underground.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CHARJABUG",
+    "method" : "level",
+    "param" : "20"
+  } ],
+  "baseStats" : {
+    "hp" : 47,
+    "atk" : 62,
+    "def" : 45,
+    "spe" : 46,
+    "spa" : 55,
+    "spd" : 45
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "Vise Grip"
+  }, {
+    "level" : 5,
+    "move" : "String Shot"
+  }, {
+    "level" : 10,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 15,
+    "move" : "Bite"
+  }, {
+    "level" : 21,
+    "move" : "Spark"
+  }, {
+    "level" : 25,
+    "move" : "Sticky Web"
+  }, {
+    "level" : 30,
+    "move" : "X Scissor"
+  }, {
+    "level" : 35,
+    "move" : "Crunch"
+  }, {
+    "level" : 40,
+    "move" : "Dig"
+  } ],
+  "eggMoves" : [ "Electroweb", "Endure", "Harden", "Mud Shot" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Charge Beam", "Crunch", "Dig", "Double Team", "Electroweb", "Endure", "Facade", "Light Screen", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Rest", "Shock Wave", "Sleep Talk", "Snore", "Swagger", "Thunder Wave", "Thunderbolt", "Toxic", "Volt Switch", "Wild Charge", "X Scissor" ],
+  "encounters" : [ ]
+}

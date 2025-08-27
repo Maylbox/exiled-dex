@@ -1,0 +1,83 @@
+{
+  "dex" : 570,
+  "speciesId" : "SPECIES_BARRASKEWDA",
+  "name" : "Barraskewda",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Swift Swim", "None", "Propeller Tail" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 172,
+  "eggGroups" : [ "Water 2" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.3,
+  "weightKg" : 30.0,
+  "growthRate" : "Slow",
+  "color" : "Brown",
+  "category" : "Skewer",
+  "friendship" : 70,
+  "description" : "This Pokémon has a jaw that's as sharp\nas a spear and as strong as steel.\nApparently Barraskewda's flesh is\nsurprisingly tasty, too.",
+  "preEvolutionId" : "SPECIES_ARROKUDA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 61,
+    "atk" : 123,
+    "def" : 60,
+    "spe" : 136,
+    "spa" : 60,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Throat Chop"
+  }, {
+    "level" : 6,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 12,
+    "move" : "Bite"
+  }, {
+    "level" : 18,
+    "move" : "Agility"
+  }, {
+    "level" : 24,
+    "move" : "Dive"
+  }, {
+    "level" : 32,
+    "move" : "Laser Focus"
+  }, {
+    "level" : 40,
+    "move" : "Crunch"
+  }, {
+    "level" : 48,
+    "move" : "Liquidation"
+  }, {
+    "level" : 56,
+    "move" : "Double Edge"
+  }, {
+    "level" : 59,
+    "move" : "Wave Crash"
+  }, {
+    "level" : 62,
+    "move" : "Scale Shot"
+  }, {
+    "level" : 66,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 69,
+    "move" : "Drill Run"
+  } ],
+  "eggMoves" : [ "Acupressure", "Night Slash", "Slash", "Thrash" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Brick Break", "Crunch", "Dive", "Double Edge", "Endure", "Facade", "Flip Turn", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Fang", "Poison Jab", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Scald", "Sleep Talk", "Snore", "Surf", "Swift", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

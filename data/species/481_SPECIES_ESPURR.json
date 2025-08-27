@@ -1,0 +1,85 @@
+{
+  "dex" : 481,
+  "speciesId" : "SPECIES_ESPURR",
+  "name" : "Espurr",
+  "types" : [ "Psychic", null ],
+  "abilities" : [ "Keen Eye", "Infiltrator", "Own Tempo" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 71,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.3,
+  "weightKg" : 3.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Restraint",
+  "friendship" : 70,
+  "description" : "It has enough psychic energy to blast\neverything within 300 feet of itself.\nThe organ that emits its intense psychic\npower is sheltered by its ears.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MEOWSTIC_MALE",
+    "method" : "level_male",
+    "param" : "25"
+  }, {
+    "toSpeciesId" : "SPECIES_MEOWSTIC_FEMALE",
+    "method" : "level_female",
+    "param" : "25"
+  } ],
+  "baseStats" : {
+    "hp" : 62,
+    "atk" : 48,
+    "def" : 54,
+    "spe" : 68,
+    "spa" : 63,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 5,
+    "move" : "Covet"
+  }, {
+    "level" : 9,
+    "move" : "Confusion"
+  }, {
+    "level" : 13,
+    "move" : "Light Screen"
+  }, {
+    "level" : 17,
+    "move" : "Psybeam"
+  }, {
+    "level" : 19,
+    "move" : "Fake Out"
+  }, {
+    "level" : 22,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 25,
+    "move" : "Psyshock"
+  } ],
+  "eggMoves" : [ "Assist", "Barrier", "Trick", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Calm Mind", "Charge Beam", "Covet", "Cut", "Dark Pulse", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Light Screen", "Play Rough", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trick Room" ],
+  "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Land",
+    "area" : "Route 102",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 5,
+    "max" : 6,
+    "slot" : 9
+  } ]
+}

@@ -1,0 +1,120 @@
+{
+  "dex" : 109,
+  "speciesId" : "SPECIES_STARYU",
+  "name" : "Staryu",
+  "types" : [ "Water", null ],
+  "abilities" : [ "Illuminate", "Natural Cure", "Analytic" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 225,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 3" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 34.5,
+  "growthRate" : "Slow",
+  "color" : "Brown",
+  "category" : "Star Shape",
+  "friendship" : 70,
+  "description" : "It gathers with others in the night and\nmakes its red core glow on and off with\nthe twinkling stars. It can regenerate\nlimbs if they are severed from its body.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_STARMIE",
+    "method" : "item",
+    "param" : "ITEM_WATER_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 30,
+    "atk" : 45,
+    "def" : 55,
+    "spe" : 85,
+    "spa" : 70,
+    "spd" : 55
+  },
+  "heldItems" : {
+    "common" : "Stardust",
+    "rare" : "Star Piece"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 7,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 10,
+    "move" : "Recover"
+  }, {
+    "level" : 13,
+    "move" : "Psywave"
+  }, {
+    "level" : 16,
+    "move" : "Aurora Beam"
+  }, {
+    "level" : 18,
+    "move" : "Bubblebeam"
+  }, {
+    "level" : 22,
+    "move" : "Camouflage"
+  }, {
+    "level" : 24,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 28,
+    "move" : "Brine"
+  }, {
+    "level" : 31,
+    "move" : "Minimize"
+  }, {
+    "level" : 35,
+    "move" : "Reflect Type"
+  }, {
+    "level" : 37,
+    "move" : "Power Gem"
+  }, {
+    "level" : 40,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 42,
+    "move" : "Psychic"
+  }, {
+    "level" : 46,
+    "move" : "Light Screen"
+  }, {
+    "level" : 49,
+    "move" : "Cosmic Power"
+  }, {
+    "level" : 53,
+    "move" : "Hydro Pump"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Dazzling Gleam", "Dive", "Double Edge", "Double Team", "Endure", "Facade", "Flash", "Flash Cannon", "Flip Turn", "Gyro Ball", "Ice Beam", "Icy Wind", "Light Screen", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Rollout", "Scald", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Fishing",
+    "area" : "Lilycove City",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 10,
+    "max" : 30,
+    "slot" : 3
+  }, {
+    "areaKey" : "DewfordTown",
+    "bucketKey" : "Fishing",
+    "area" : "Dewford Town",
+    "bucket" : "Fishing",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 10,
+    "slot" : 1
+  } ]
+}

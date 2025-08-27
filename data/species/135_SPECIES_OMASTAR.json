@@ -1,0 +1,167 @@
+{
+  "dex" : 135,
+  "speciesId" : "SPECIES_OMASTAR",
+  "name" : "Omastar",
+  "types" : [ "Rock", "Water" ],
+  "abilities" : [ "Swift Swim", "Solid Rock", "Weak Armor" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Water 3" ],
+  "hatchSteps" : 7680,
+  "heightM" : 1.0,
+  "weightKg" : 35.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Spiral",
+  "friendship" : 70,
+  "description" : "An Omastar uses its tentacles to capture\nits prey. It is believed to have become\nextinct because its shell grew too large,\nmaking its movements slow and ponderous.",
+  "preEvolutionId" : "SPECIES_OMANYTE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 60,
+    "def" : 125,
+    "spe" : 55,
+    "spa" : 115,
+    "spd" : 70
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Crunch"
+  }, {
+    "level" : 1,
+    "move" : "Bind"
+  }, {
+    "level" : 1,
+    "move" : "Crunch"
+  }, {
+    "level" : 1,
+    "move" : "Rollout"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Withdraw"
+  }, {
+    "level" : 15,
+    "move" : "Water Gun"
+  }, {
+    "level" : 20,
+    "move" : "Leer"
+  }, {
+    "level" : 25,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 30,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 35,
+    "move" : "Brine"
+  }, {
+    "level" : 43,
+    "move" : "Protect"
+  }, {
+    "level" : 49,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 56,
+    "move" : "Surf"
+  }, {
+    "level" : 63,
+    "move" : "Shell Smash"
+  }, {
+    "level" : 70,
+    "move" : "Hydro Pump"
+  } ],
+  "eggMoves" : [ "Aurora Beam", "Bide", "Bubble Beam", "Haze", "Knock Off", "Muddy Water", "Reflect Type", "Slam", "Spikes", "Supersonic", "Toxic Spikes", "Water Pulse", "Whirlpool", "Wring Out" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Crunch", "Dive", "Double Edge", "Double Team", "Earth Power", "Endure", "Facade", "Giga Impact", "Gyro Ball", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Knock Off", "Meteor Beam", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Scald", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Surf", "Swagger", "Thief", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "SeafloorCavern_Room1",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room1",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 3
+  }, {
+    "areaKey" : "SeafloorCavern_Room2",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room2",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 3
+  }, {
+    "areaKey" : "SeafloorCavern_Room3",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room3",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 3
+  }, {
+    "areaKey" : "SeafloorCavern_Room4",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room4",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 3
+  }, {
+    "areaKey" : "SeafloorCavern_Room5",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room5",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 3
+  }, {
+    "areaKey" : "SeafloorCavern_Room6",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room6",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 3
+  }, {
+    "areaKey" : "SeafloorCavern_Room7",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room7",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 3
+  }, {
+    "areaKey" : "SeafloorCavern_Room8",
+    "bucketKey" : "Land",
+    "area" : "Seafloor Cavern_Room8",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 72,
+    "max" : 75,
+    "slot" : 3
+  }, {
+    "areaKey" : "MirageTower_1F",
+    "bucketKey" : "Land",
+    "area" : "Mirage Tower_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 0
+  } ]
+}

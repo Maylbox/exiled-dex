@@ -1,0 +1,134 @@
+{
+  "dex" : 245,
+  "speciesId" : "SPECIES_MASQUERAIN",
+  "name" : "Masquerain",
+  "types" : [ "Bug", "Flying" ],
+  "abilities" : [ "Intimidate", "None", "Adaptability" ],
+  "evYield" : {
+    "spa" : 1,
+    "spd" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 128,
+  "eggGroups" : [ "Water 1", "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.8,
+  "weightKg" : 3.6,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Eyeball",
+  "friendship" : 70,
+  "description" : "It intimidates foes with the large eyelike\npatterns on its antennae. Because it can't\nfly if its wings get wet, it shelters itself\nfrom rain under large trees and eaves.",
+  "preEvolutionId" : "SPECIES_SURSKIT",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 60,
+    "def" : 87,
+    "spe" : 90,
+    "spa" : 101,
+    "spd" : 86
+  },
+  "heldItems" : {
+    "common" : "Silver Powder"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bubble"
+  }, {
+    "level" : 1,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 1,
+    "move" : "Ominous Wind"
+  }, {
+    "level" : 1,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 1,
+    "move" : "Quiver Dance"
+  }, {
+    "level" : 1,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 1,
+    "move" : "Water Sport"
+  }, {
+    "level" : 1,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 6,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 9,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 14,
+    "move" : "Water Sport"
+  }, {
+    "level" : 17,
+    "move" : "Gust"
+  }, {
+    "level" : 22,
+    "move" : "Air Cutter"
+  }, {
+    "level" : 22,
+    "move" : "Scary Face"
+  }, {
+    "level" : 26,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 29,
+    "move" : "Bouncy Bubble"
+  }, {
+    "level" : 32,
+    "move" : "Silver Wind"
+  }, {
+    "level" : 38,
+    "move" : "Air Slash"
+  }, {
+    "level" : 42,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 48,
+    "move" : "Hurricane"
+  }, {
+    "level" : 52,
+    "move" : "Quiver Dance"
+  }, {
+    "level" : 59,
+    "move" : "Pollen Puff"
+  } ],
+  "eggMoves" : [ "Aqua Jet", "Bug Bite", "Endure", "Fell Stinger", "Foresight", "Hydro Pump", "Lunge", "Mind Reader", "Mud Shot", "Power Split", "Psybeam", "Signal Beam" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Blizzard", "Defog", "Double Edge", "Double Team", "Dual Wingbeat", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Leech Life", "Mud Slap", "Protect", "Psych Up", "Rain Dance", "Rest", "Roost", "Scald", "Shadow Ball", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Surf", "Swagger", "Swift", "Thief", "Toxic", "U Turn", "Water Pulse", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Water",
+    "area" : "Petalburg City",
+    "bucket" : "Water",
+    "rateBase" : 1,
+    "min" : 40,
+    "max" : 45,
+    "slot" : 2
+  }, {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Water",
+    "area" : "Petalburg City",
+    "bucket" : "Water",
+    "rateBase" : 1,
+    "min" : 40,
+    "max" : 45,
+    "slot" : 3
+  }, {
+    "areaKey" : "PetalburgCity",
+    "bucketKey" : "Water",
+    "area" : "Petalburg City",
+    "bucket" : "Water",
+    "rateBase" : 1,
+    "min" : 40,
+    "max" : 45,
+    "slot" : 4
+  } ]
+}

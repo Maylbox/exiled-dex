@@ -1,0 +1,91 @@
+{
+  "dex" : 273,
+  "speciesId" : "SPECIES_ROSERADE",
+  "name" : "Roserade",
+  "types" : [ "Grass", "Poison" ],
+  "abilities" : [ "Natural Cure", "Poison Touch", "Technician" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 204,
+  "eggGroups" : [ "Fairy", "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.9,
+  "weightKg" : 14.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Bouquet",
+  "friendship" : 70,
+  "description" : "Its sweet aroma attracts prey.\nWith the movements of a dancer,\nit strikes with whips that are densely\nlined with poison thorns.",
+  "preEvolutionId" : "SPECIES_ROSELIA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 70,
+    "def" : 65,
+    "spe" : 90,
+    "spa" : 125,
+    "spd" : 105
+  },
+  "heldItems" : {
+    "common" : "Poison Barb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 1,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 1,
+    "move" : "Grassy Terrain"
+  }, {
+    "level" : 1,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 1,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 1,
+    "move" : "Ominous Wind"
+  }, {
+    "level" : 1,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 1,
+    "move" : "Silver Wind"
+  }, {
+    "level" : 1,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 1,
+    "move" : "Venom Drench"
+  }, {
+    "level" : 1,
+    "move" : "Weather Ball"
+  }, {
+    "level" : 50,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 60,
+    "move" : "Barb Barrage"
+  }, {
+    "level" : 70,
+    "move" : "Apple Acid"
+  } ],
+  "eggMoves" : [ "Cotton Spore", "Extrasensory", "Giga Drain", "Grass Whistle", "Leaf Storm", "Mind Reader", "Natural Gift", "Pin Missile", "Razor Leaf", "Seed Bomb", "Sleep Powder", "Spikes", "Synthesis" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bullet Seed", "Covet", "Cut", "Dazzling Gleam", "Double Team", "Endure", "Energy Ball", "Facade", "Flash", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Mud Slap", "Poison Jab", "Power Whip", "Protect", "Psych Up", "Rain Dance", "Rest", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Toxic", "Venoshock" ],
+  "encounters" : [ {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
+    "area" : "Route 121",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 52,
+    "max" : 55,
+    "slot" : 10
+  } ]
+}

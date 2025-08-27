@@ -1,0 +1,176 @@
+{
+  "dex" : 55,
+  "speciesId" : "SPECIES_ANNIHILAPE",
+  "name" : "Annihilape",
+  "types" : [ "Fighting", "Ghost" ],
+  "abilities" : [ "Vital Spirit", "Inner Focus", "Defiant" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 268,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.2,
+  "weightKg" : 56.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Rage Monkey",
+  "friendship" : 70,
+  "description" : "When its anger rose beyond a\ncritical point, this Pokémon gained power\nthat is unfettered by the limits of\nits physical body.",
+  "preEvolutionId" : "SPECIES_PRIMEAPE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 110,
+    "atk" : 115,
+    "def" : 80,
+    "spe" : 90,
+    "spa" : 50,
+    "spd" : 90
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Shadow Punch"
+  }, {
+    "level" : 1,
+    "move" : "Beat Up"
+  }, {
+    "level" : 1,
+    "move" : "Close Combat"
+  }, {
+    "level" : 1,
+    "move" : "Counter"
+  }, {
+    "level" : 1,
+    "move" : "Encore"
+  }, {
+    "level" : 1,
+    "move" : "Final Gambit"
+  }, {
+    "level" : 1,
+    "move" : "Fling"
+  }, {
+    "level" : 1,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 1,
+    "move" : "Focus Punch"
+  }, {
+    "level" : 1,
+    "move" : "Foresight"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Low Kick"
+  }, {
+    "level" : 1,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 1,
+    "move" : "Meditate"
+  }, {
+    "level" : 1,
+    "move" : "Night Slash"
+  }, {
+    "level" : 1,
+    "move" : "Power Trip"
+  }, {
+    "level" : 1,
+    "move" : "Rage"
+  }, {
+    "level" : 1,
+    "move" : "Revenge"
+  }, {
+    "level" : 1,
+    "move" : "Reversal"
+  }, {
+    "level" : 1,
+    "move" : "Sleep Talk"
+  }, {
+    "level" : 1,
+    "move" : "Smelling Salts"
+  }, {
+    "level" : 5,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 8,
+    "move" : "Karate Chop"
+  }, {
+    "level" : 12,
+    "move" : "Pursuit"
+  }, {
+    "level" : 15,
+    "move" : "Seismic Toss"
+  }, {
+    "level" : 19,
+    "move" : "Swagger"
+  }, {
+    "level" : 22,
+    "move" : "Cross Chop"
+  }, {
+    "level" : 26,
+    "move" : "Assurance"
+  }, {
+    "level" : 28,
+    "move" : "Rage"
+  }, {
+    "level" : 30,
+    "move" : "Punishment"
+  }, {
+    "level" : 35,
+    "move" : "Thrash"
+  }, {
+    "level" : 37,
+    "move" : "Rage Fist"
+  }, {
+    "level" : 39,
+    "move" : "Close Combat"
+  }, {
+    "level" : 44,
+    "move" : "Screech"
+  }, {
+    "level" : 48,
+    "move" : "Stomping Tantrum"
+  }, {
+    "level" : 53,
+    "move" : "Outrage"
+  }, {
+    "level" : 57,
+    "move" : "Final Gambit"
+  } ],
+  "eggMoves" : [ "Beat Up", "Close Combat", "Counter", "Encore", "Focus Punch", "Foresight", "Meditate", "Night Slash", "Power Trip", "Revenge", "Reversal", "Sleep Talk", "Smelling Salts" ],
+  "teachableMoves" : [ "Acrobatics", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Counter", "Dig", "Double Edge", "Drain Punch", "Earthquake", "Endure", "Facade", "Fire Punch", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Punch", "Low Kick", "Metronome", "Overheat", "Poison Jab", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Smack Down", "Stealth Rock", "Stone Edge", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 5
+  }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_B1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 5
+  }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_B2F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 5
+  } ]
+}

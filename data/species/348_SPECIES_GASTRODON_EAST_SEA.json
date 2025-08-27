@@ -1,0 +1,83 @@
+{
+  "dex" : 348,
+  "speciesId" : "SPECIES_GASTRODON_EAST_SEA",
+  "name" : "Gastrodon",
+  "types" : [ "Water", "Ground" ],
+  "abilities" : [ "Sticky Hold", "Storm Drain", "Sand Force" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Water 1", "Amorphous" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.9,
+  "weightKg" : 29.9,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Sea Slug",
+  "friendship" : 70,
+  "description" : "Found more often on land than in the sea.\nThey normally live in rocky seashores, but\nwhen cloudy or rainy, they can sometimes\nbe found on mountains, far from the sea.",
+  "preEvolutionId" : "SPECIES_SHELLOS_EAST_SEA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 111,
+    "atk" : 83,
+    "def" : 68,
+    "spe" : 39,
+    "spa" : 92,
+    "spd" : 82
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Earth Power"
+  }, {
+    "level" : 1,
+    "move" : "Earth Power"
+  }, {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 2,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 4,
+    "move" : "Harden"
+  }, {
+    "level" : 7,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 11,
+    "move" : "Mud Bomb"
+  }, {
+    "level" : 16,
+    "move" : "Hidden Power"
+  }, {
+    "level" : 22,
+    "move" : "Rain Dance"
+  }, {
+    "level" : 29,
+    "move" : "Body Slam"
+  }, {
+    "level" : 41,
+    "move" : "Muddy Water"
+  }, {
+    "level" : 54,
+    "move" : "Recover"
+  }, {
+    "level" : 58,
+    "move" : "Scorching Sands"
+  }, {
+    "level" : 64,
+    "move" : "Freeze Dry"
+  }, {
+    "level" : 69,
+    "move" : "Bouncy Bubble"
+  } ],
+  "eggMoves" : [ "Acid Armor", "Amnesia", "Brine", "Clear Smog", "Counter", "Curse", "Fissure", "Memento", "Mirror Coat", "Mist", "Sludge", "Spit Up", "Stockpile", "Swallow", "Trump Card", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Bulldoze", "Counter", "Dig", "Dive", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Flash", "Giga Impact", "Hyper Beam", "Ice Beam", "Icy Wind", "Mirror Coat", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Scald", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Snowscape", "Stealth Rock", "Stone Edge", "Strength", "Surf", "Swagger", "Toxic", "Water Pulse", "Waterfall" ],
+  "encounters" : [ ]
+}

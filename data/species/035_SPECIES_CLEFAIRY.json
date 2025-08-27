@@ -1,0 +1,113 @@
+{
+  "dex" : 35,
+  "speciesId" : "SPECIES_CLEFAIRY",
+  "name" : "Clefairy",
+  "types" : [ "Fairy", null ],
+  "abilities" : [ "Cute Charm", "Magic Guard", "Friend Guard" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 150,
+  "baseExp" : 0,
+  "eggGroups" : [ "Fairy" ],
+  "hatchSteps" : 2560,
+  "heightM" : 0.6,
+  "weightKg" : 7.5,
+  "growthRate" : "Fast",
+  "color" : "Pink",
+  "category" : "Fairy",
+  "friendship" : 140,
+  "description" : "On every night of a full moon, they come\nout to play. When dawn arrives, the tired\nClefairy go to sleep nestled up against\neach other in deep and quiet mountains.",
+  "preEvolutionId" : "SPECIES_CLEFFA",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CLEFABLE",
+    "method" : "item",
+    "param" : "ITEM_MOON_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 45,
+    "def" : 48,
+    "spe" : 35,
+    "spa" : 60,
+    "spd" : 65
+  },
+  "heldItems" : {
+    "common" : "Moon Stone"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 1,
+    "move" : "Encore"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Spotlight"
+  }, {
+    "level" : 7,
+    "move" : "Sing"
+  }, {
+    "level" : 10,
+    "move" : "Doubleslap"
+  }, {
+    "level" : 13,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 16,
+    "move" : "Follow Me"
+  }, {
+    "level" : 19,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 22,
+    "move" : "Wish"
+  }, {
+    "level" : 25,
+    "move" : "Minimize"
+  }, {
+    "level" : 28,
+    "move" : "Stored Power"
+  }, {
+    "level" : 31,
+    "move" : "Metronome"
+  }, {
+    "level" : 34,
+    "move" : "Cosmic Power"
+  }, {
+    "level" : 37,
+    "move" : "Lucky Chant"
+  }, {
+    "level" : 40,
+    "move" : "Body Slam"
+  }, {
+    "level" : 43,
+    "move" : "Softboiled"
+  }, {
+    "level" : 46,
+    "move" : "Moonblast"
+  }, {
+    "level" : 49,
+    "move" : "Gravity"
+  }, {
+    "level" : 50,
+    "move" : "Meteor Mash"
+  }, {
+    "level" : 55,
+    "move" : "Healing Wish"
+  }, {
+    "level" : 58,
+    "move" : "After You"
+  } ],
+  "eggMoves" : [ "Amnesia", "Aromatherapy", "Belly Drum", "Covet", "Fake Tears", "Heal Pulse", "Metronome", "Mimic", "Misty Terrain", "Present", "Splash", "Stored Power", "Tickle", "Wish" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dual Wingbeat", "Dynamic Punch", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Flash", "Grass Knot", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Meteor Beam", "Metronome", "Mud Slap", "Mystical Fire", "Play Rough", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Soft Boiled", "Solar Beam", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse" ],
+  "encounters" : [ ]
+}

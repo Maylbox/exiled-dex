@@ -1,0 +1,90 @@
+{
+  "dex" : 420,
+  "speciesId" : "SPECIES_ZORUA",
+  "name" : "Zorua",
+  "types" : [ "Dark", null ],
+  "abilities" : [ "Illusion", "None", "None" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 75,
+  "baseExp" : 66,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 6400,
+  "heightM" : 0.7,
+  "weightKg" : 12.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Gray",
+  "category" : "Tricky Fox",
+  "friendship" : 70,
+  "description" : "To protect themselves from danger, they\nhide their true identities by transforming\ninto people and Pokémon. Apparently, it\noften transforms into a silent child.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_ZOROARK",
+    "method" : "level",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 65,
+    "def" : 40,
+    "spe" : 65,
+    "spa" : 80,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 5,
+    "move" : "Pursuit"
+  }, {
+    "level" : 9,
+    "move" : "Fake Tears"
+  }, {
+    "level" : 13,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 17,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 21,
+    "move" : "Scary Face"
+  }, {
+    "level" : 25,
+    "move" : "Taunt"
+  }, {
+    "level" : 29,
+    "move" : "Foul Play"
+  }, {
+    "level" : 33,
+    "move" : "Torment"
+  }, {
+    "level" : 37,
+    "move" : "Agility"
+  }, {
+    "level" : 41,
+    "move" : "Embargo"
+  }, {
+    "level" : 45,
+    "move" : "Punishment"
+  }, {
+    "level" : 49,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 53,
+    "move" : "Imprison"
+  }, {
+    "level" : 57,
+    "move" : "Night Daze"
+  } ],
+  "eggMoves" : [ "Captivate", "Copycat", "Counter", "Dark Pulse", "Detect", "Extrasensory", "Memento", "Snatch", "Sucker Punch" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Calm Mind", "Counter", "Covet", "Cut", "Dark Pulse", "Dig", "Double Team", "Endure", "Facade", "Grass Knot", "Hex", "Hone Claws", "Knock Off", "Protect", "Psych Up", "Rain Dance", "Rest", "Roar", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Taunt", "Thief", "Torment", "Toxic", "U Turn" ],
+  "encounters" : [ ]
+}

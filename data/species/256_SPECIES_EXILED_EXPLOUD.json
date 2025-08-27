@@ -1,0 +1,110 @@
+{
+  "dex" : 256,
+  "speciesId" : "SPECIES_EXILED_EXPLOUD",
+  "name" : "Exiled Exploud",
+  "types" : [ "Fire", "Steel" ],
+  "abilities" : [ "Blaze", "Punk Rock", "Soundproof" ],
+  "evYield" : {
+    "hp" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 184,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 84.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Deafening",
+  "friendship" : 70,
+  "description" : "It has sound-generating organs all over\nits body. It communicates with others by\nadjusting the tone and volume of the cries\nit emits.",
+  "preEvolutionId" : "SPECIES_EXILED_LOUDRED",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 124,
+    "atk" : 51,
+    "def" : 79,
+    "spe" : 62,
+    "spa" : 133,
+    "spd" : 101
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Metal Burst"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Metal Burst"
+  }, {
+    "level" : 1,
+    "move" : "Overdrive"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 6,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 9,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 13,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 17,
+    "move" : "Echoed Voice"
+  }, {
+    "level" : 19,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 24,
+    "move" : "Snarl"
+  }, {
+    "level" : 29,
+    "move" : "Incinerate"
+  }, {
+    "level" : 32,
+    "move" : "Grudge"
+  }, {
+    "level" : 36,
+    "move" : "Flame Burst"
+  }, {
+    "level" : 40,
+    "move" : "Mirror Shot"
+  }, {
+    "level" : 44,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 47,
+    "move" : "Sunny Day"
+  }, {
+    "level" : 52,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 55,
+    "move" : "Psychic Noise"
+  }, {
+    "level" : 59,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 61,
+    "move" : "Clangorous Soul"
+  }, {
+    "level" : 66,
+    "move" : "Steel Beam"
+  }, {
+    "level" : 71,
+    "move" : "Boomburst"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Body Press", "Calm Mind", "Cut", "Dragon Pulse", "Earth Power", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Flash Cannon", "Focus Blast", "Gyro Ball", "Hex", "Hidden Power", "Ice Fang", "Iron Defense", "Iron Head", "Knock Off", "Meteor Beam", "Mystical Fire", "Overheat", "Protect", "Psychic", "Psychic Fangs", "Reflect", "Rock Smash", "Rock Tomb", "Safeguard", "Shadow Ball", "Sludge Bomb", "Smart Strike", "Strength", "Sunny Day", "Taunt", "Thunder", "Thunder Fang", "Thunderbolt", "Torment", "Volt Switch", "Will O Wisp" ],
+  "encounters" : [ ]
+}

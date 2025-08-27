@@ -1,0 +1,101 @@
+{
+  "dex" : 63,
+  "speciesId" : "SPECIES_EXILED_MACHOP",
+  "name" : "Exiled Machop",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Overgrow", "Harvest", "Seed Sower" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 75.0,
+  "femalePct" : 25.0,
+  "catchRate" : 180,
+  "baseExp" : 88,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 19.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Florist",
+  "friendship" : 70,
+  "description" : "They hatch with less muscle mass than their\ncounterparts and lack the instinctive drive to\ngrow stronger. Instead of training, they care\nfor the local flora.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_MACHOKE",
+    "method" : "level",
+    "param" : "17"
+  } ],
+  "baseStats" : {
+    "hp" : 51,
+    "atk" : 47,
+    "def" : 54,
+    "spe" : 40,
+    "spa" : 54,
+    "spd" : 61
+  },
+  "heldItems" : {
+    "common" : "Miracle Seed"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 6,
+    "move" : "Comet Punch"
+  }, {
+    "level" : 9,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 13,
+    "move" : "Bullet Seed"
+  }, {
+    "level" : 17,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 19,
+    "move" : "Grasswhistle"
+  }, {
+    "level" : 22,
+    "move" : "Sleep Powder"
+  }, {
+    "level" : 25,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 28,
+    "move" : "Growth"
+  }, {
+    "level" : 32,
+    "move" : "Grassy Glide"
+  }, {
+    "level" : 36,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 39,
+    "move" : "Grass Knot"
+  }, {
+    "level" : 41,
+    "move" : "Grassy Terrain"
+  }, {
+    "level" : 46,
+    "move" : "Giga Drain"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Aura Sphere", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Bullet Seed", "Calm Mind", "Cut", "Double Team", "Drain Punch", "Energy Ball", "Facade", "False Swipe", "First Impression", "Flash", "Focus Blast", "Giga Drain", "Grass Knot", "Grassy Glide", "Hone Claws", "Hyper Beam", "Knock Off", "Low Kick", "Poison Jab", "Power Up Punch", "Power Whip", "Protect", "Reflect", "Rest", "Return", "Rock Smash", "Safeguard", "Sludge Bomb", "Solar Beam", "Solar Blade", "Strength", "Substitute", "Sunny Day", "Swords Dance", "Taunt", "Toxic", "Trailblaze", "Triple Axel", "Venoshock", "Wild Charge" ],
+  "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
+    "area" : "Deep Woods0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 11
+  } ]
+}

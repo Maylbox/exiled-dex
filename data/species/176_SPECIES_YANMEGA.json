@@ -1,0 +1,130 @@
+{
+  "dex" : 176,
+  "speciesId" : "SPECIES_YANMEGA",
+  "name" : "Yanmega",
+  "types" : [ "Bug", "Dragon" ],
+  "abilities" : [ "Speed Boost", "Tinted Lens", "Frisk" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 30,
+  "baseExp" : 0,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.9,
+  "weightKg" : 51.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Ogre Darner",
+  "friendship" : 70,
+  "description" : "This six-legged Pokémon is easily capable\nof transporting an adult in flight. It is\nadept at biting apart foes while flying\nby at high speed.",
+  "preEvolutionId" : "SPECIES_YANMA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 86,
+    "atk" : 76,
+    "def" : 86,
+    "spe" : 95,
+    "spa" : 116,
+    "spd" : 56
+  },
+  "heldItems" : {
+    "common" : "Wide Lens"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Air Slash"
+  }, {
+    "level" : 1,
+    "move" : "Air Slash"
+  }, {
+    "level" : 1,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 1,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 1,
+    "move" : "Foresight"
+  }, {
+    "level" : 1,
+    "move" : "Night Slash"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 11,
+    "move" : "Double Team"
+  }, {
+    "level" : 14,
+    "move" : "Sonic Boom"
+  }, {
+    "level" : 17,
+    "move" : "Detect"
+  }, {
+    "level" : 22,
+    "move" : "Supersonic"
+  }, {
+    "level" : 27,
+    "move" : "Uproar"
+  }, {
+    "level" : 30,
+    "move" : "Pursuit"
+  }, {
+    "level" : 33,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 38,
+    "move" : "Feint"
+  }, {
+    "level" : 43,
+    "move" : "Slash"
+  }, {
+    "level" : 46,
+    "move" : "Screech"
+  }, {
+    "level" : 49,
+    "move" : "U Turn"
+  }, {
+    "level" : 54,
+    "move" : "Air Slash"
+  }, {
+    "level" : 57,
+    "move" : "Bug Buzz"
+  }, {
+    "level" : 64,
+    "move" : "Heat Wave"
+  }, {
+    "level" : 69,
+    "move" : "Earth Power"
+  }, {
+    "level" : 72,
+    "move" : "Nasty Plot"
+  } ],
+  "eggMoves" : [ "Double Edge", "Feint", "Feint Attack", "Leech Life", "Pursuit", "Reversal", "Secret Power", "Signal Beam", "Silver Wind", "Whirlwind" ],
+  "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Crunch", "Defog", "Double Edge", "Double Team", "Dream Eater", "Dual Wingbeat", "Endure", "Facade", "Flash", "Giga Drain", "Giga Impact", "Hyper Beam", "Leech Life", "Mud Slap", "Protect", "Psych Up", "Psychic", "Rest", "Roost", "Shadow Ball", "Silver Wind", "Sleep Talk", "Snore", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Toxic", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
+    "area" : "Route 115",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 45,
+    "max" : 48,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route120",
+    "bucketKey" : "Land",
+    "area" : "Route 120",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 51,
+    "max" : 54,
+    "slot" : 6
+  } ]
+}

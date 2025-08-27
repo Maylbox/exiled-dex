@@ -1,0 +1,107 @@
+{
+  "dex" : 532,
+  "speciesId" : "SPECIES_STEENEE",
+  "name" : "Steenee",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Leaf Guard", "Oblivious", "Sweet Veil" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 120,
+  "baseExp" : 102,
+  "eggGroups" : [ "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.7,
+  "weightKg" : 8.2,
+  "growthRate" : "Medium Slow",
+  "color" : "Purple",
+  "category" : "Fruit",
+  "friendship" : 70,
+  "description" : "The sepals on its head developed to\nprotect its body. These are quite hard, so\neven if pecked by bird Pokémon, this\nPokémon is totally fine.",
+  "preEvolutionId" : "SPECIES_BOUNSWEET",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_TSAREENA",
+    "method" : "move",
+    "param" : "MOVE_STOMP"
+  } ],
+  "baseStats" : {
+    "hp" : 52,
+    "atk" : 40,
+    "def" : 48,
+    "spe" : 62,
+    "spa" : 40,
+    "spd" : 48
+  },
+  "heldItems" : {
+    "common" : "Grassy Seed"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Bounce"
+  }, {
+    "level" : 1,
+    "move" : "Bounce"
+  }, {
+    "level" : 1,
+    "move" : "Play Nice"
+  }, {
+    "level" : 1,
+    "move" : "Play Rough"
+  }, {
+    "level" : 1,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 1,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 1,
+    "move" : "Seed Bomb"
+  }, {
+    "level" : 1,
+    "move" : "Splash"
+  }, {
+    "level" : 5,
+    "move" : "Play Nice"
+  }, {
+    "level" : 9,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 13,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 17,
+    "move" : "Sweet Scent"
+  }, {
+    "level" : 18,
+    "move" : "Double Slap"
+  }, {
+    "level" : 21,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 25,
+    "move" : "Teeter Dance"
+  }, {
+    "level" : 29,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 33,
+    "move" : "Stomp"
+  }, {
+    "level" : 37,
+    "move" : "Captivate"
+  }, {
+    "level" : 41,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 45,
+    "move" : "Leaf Storm"
+  }, {
+    "level" : 48,
+    "move" : "Grav Apple"
+  } ],
+  "eggMoves" : [ "Acupressure", "Charm", "Feint", "Grass Whistle", "Play Rough", "Synthesis" ],
+  "teachableMoves" : [ "Attract", "Bullet Seed", "Covet", "Dazzling Gleam", "Double Team", "Endure", "Energy Ball", "Facade", "Giga Drain", "Grass Knot", "Grassy Glide", "Knock Off", "Light Screen", "Play Rough", "Protect", "Reflect", "Rest", "Safeguard", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Toxic", "Trailblaze", "Triple Axel" ],
+  "encounters" : [ ]
+}

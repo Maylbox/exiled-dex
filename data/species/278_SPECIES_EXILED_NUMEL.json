@@ -1,0 +1,108 @@
+{
+  "dex" : 278,
+  "speciesId" : "SPECIES_EXILED_NUMEL",
+  "name" : "Exiled Numel",
+  "types" : [ "Fire", "Water" ],
+  "abilities" : [ "Oblivious", "Simple", "Own Tempo" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.7,
+  "weightKg" : 24.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Numb",
+  "friendship" : 70,
+  "description" : "A Numel stores boiling magma in the hump\non its back. It is a hardy Pokémon that can\ntransport a 220-pound load. It has served\nhumans at work since long ago.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EXILED_CAMERUPT",
+    "method" : "level",
+    "param" : "33"
+  } ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 26,
+    "def" : 60,
+    "spe" : 14,
+    "spa" : 62,
+    "spd" : 68
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Bubble"
+  }, {
+    "level" : 8,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 12,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 15,
+    "move" : "Scald"
+  }, {
+    "level" : 19,
+    "move" : "Amnesia"
+  }, {
+    "level" : 22,
+    "move" : "Lava Plume"
+  }, {
+    "level" : 26,
+    "move" : "Earth Power"
+  }, {
+    "level" : 29,
+    "move" : "Curse"
+  }, {
+    "level" : 31,
+    "move" : "Water Pulse"
+  }, {
+    "level" : 36,
+    "move" : "Yawn"
+  }, {
+    "level" : 40,
+    "move" : "Earthquake"
+  }, {
+    "level" : 43,
+    "move" : "Rest"
+  }, {
+    "level" : 47,
+    "move" : "Sleep Talk"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Aura Sphere", "Body Press", "Bulk Up", "Bulldoze", "Calm Mind", "Dive", "Earth Power", "Earthquake", "Energy Ball", "Fire Blast", "Flamethrower", "Flash Cannon", "Flip Turn", "Focus Blast", "Gyro Ball", "High Horsepower", "Iron Defense", "Iron Head", "Light Screen", "Meteor Beam", "Mystical Fire", "Overheat", "Protect", "Rain Dance", "Reflect", "Rest", "Return", "Rock Polish", "Rock Smash", "Rock Tomb", "Safeguard", "Scald", "Shadow Ball", "Sleep Talk", "Stealth Rock", "Stone Edge", "Strength", "Substitute", "Surf", "Swords Dance", "Trick Room", "Water Pulse", "Waterfall", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "Underwater_Route126",
+    "bucketKey" : "Water",
+    "area" : "Underwater_Route 126",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 4
+  }, {
+    "areaKey" : "Underwater_Route124",
+    "bucketKey" : "Water",
+    "area" : "Underwater_Route 124",
+    "bucket" : "Water",
+    "rateBase" : 4,
+    "min" : 30,
+    "max" : 35,
+    "slot" : 4
+  } ]
+}

@@ -1,0 +1,97 @@
+{
+  "dex" : 392,
+  "speciesId" : "SPECIES_THROH",
+  "name" : "Throh",
+  "types" : [ "Fighting", null ],
+  "abilities" : [ "Guts", "Inner Focus", "Mold Breaker" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 45,
+  "baseExp" : 163,
+  "eggGroups" : [ "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.3,
+  "weightKg" : 55.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Judo",
+  "friendship" : 70,
+  "description" : "When it tightens its belt, it becomes\nstronger. Wild Throh use vines to weave\ntheir own belts. It changes belts as it\ngets more powerful.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 120,
+    "atk" : 100,
+    "def" : 85,
+    "spe" : 45,
+    "spa" : 30,
+    "spd" : 85
+  },
+  "heldItems" : {
+    "common" : "Black Belt"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bide"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Mat Block"
+  }, {
+    "level" : 5,
+    "move" : "Seismic Toss"
+  }, {
+    "level" : 9,
+    "move" : "Vital Throw"
+  }, {
+    "level" : 13,
+    "move" : "Revenge"
+  }, {
+    "level" : 17,
+    "move" : "Storm Throw"
+  }, {
+    "level" : 21,
+    "move" : "Body Slam"
+  }, {
+    "level" : 25,
+    "move" : "Storm Throw"
+  }, {
+    "level" : 29,
+    "move" : "Circle Throw"
+  }, {
+    "level" : 33,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 35,
+    "move" : "Assurance"
+  }, {
+    "level" : 37,
+    "move" : "Wide Guard"
+  }, {
+    "level" : 41,
+    "move" : "Superpower"
+  }, {
+    "level" : 45,
+    "move" : "Reversal"
+  }, {
+    "level" : 52,
+    "move" : "Focus Punch"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Dig", "Double Team", "Earthquake", "Endure", "Facade", "Fire Punch", "Focus Blast", "Giga Impact", "Grass Knot", "Ice Punch", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Sleep Talk", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thunder Punch", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "LilycoveCity",
+    "bucketKey" : "Land",
+    "area" : "Lilycove City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 53,
+    "max" : 55,
+    "slot" : 9
+  } ]
+}

@@ -1,0 +1,108 @@
+{
+  "dex" : 296,
+  "speciesId" : "SPECIES_ANORITH",
+  "name" : "Anorith",
+  "types" : [ "Rock", "Bug" ],
+  "abilities" : [ "Battle Armor", "None", "Swift Swim" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 119,
+  "eggGroups" : [ "Water 3" ],
+  "hatchSteps" : 7680,
+  "heightM" : 0.7,
+  "weightKg" : 12.5,
+  "growthRate" : "Erratic",
+  "color" : "Gray",
+  "category" : "Old Shrimp",
+  "friendship" : 70,
+  "description" : "It was resurrected from a fossil using the\npower of science. It swims by undulating\nthe eight wings at its sides. They were\nfeet that adapted to life in the sea.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_ARMALDO",
+    "method" : "level",
+    "param" : "32"
+  } ],
+  "baseStats" : {
+    "hp" : 45,
+    "atk" : 95,
+    "def" : 50,
+    "spe" : 75,
+    "spa" : 40,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Pounce"
+  }, {
+    "level" : 1,
+    "move" : "Rapid Spin"
+  }, {
+    "level" : 4,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 7,
+    "move" : "Aqua Jet"
+  }, {
+    "level" : 10,
+    "move" : "Fury Cutter"
+  }, {
+    "level" : 13,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 17,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 21,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 25,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 29,
+    "move" : "Brine"
+  }, {
+    "level" : 34,
+    "move" : "Slash"
+  }, {
+    "level" : 39,
+    "move" : "Crush Claw"
+  }, {
+    "level" : 44,
+    "move" : "X Scissor"
+  }, {
+    "level" : 49,
+    "move" : "Protect"
+  }, {
+    "level" : 55,
+    "move" : "Rock Blast"
+  } ],
+  "eggMoves" : [ "Aqua Jet", "Cross Poison", "Curse", "Iron Defense", "Knock Off", "Rapid Spin", "Sand Attack", "Screech", "Water Pulse" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Cut", "Dig", "Double Edge", "Double Team", "Earth Power", "Endure", "Facade", "False Swipe", "Fury Cutter", "Hone Claws", "Iron Defense", "Knock Off", "Meteor Beam", "Mud Slap", "Protect", "Rest", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Water Pulse", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_Stevens Room",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 15,
+    "slot" : 2
+  }, {
+    "areaKey" : "GraniteCave_StevensRoom",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_Stevens Room",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 15,
+    "slot" : 3
+  } ]
+}

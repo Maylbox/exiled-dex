@@ -1,0 +1,114 @@
+{
+  "dex" : 375,
+  "speciesId" : "SPECIES_PIGNITE",
+  "name" : "Pignite",
+  "types" : [ "Fire", "Fighting" ],
+  "abilities" : [ "Blaze", "Thick Fat", "Flame Body" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 146,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 55.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Fire Pig",
+  "friendship" : 70,
+  "description" : "The more it eats, the more fuel it has\nto make the fire in its stomach stronger.\nWhen it is angered, the intensity of the\nflame increases.",
+  "preEvolutionId" : "SPECIES_TEPIG",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_EMBOAR",
+    "method" : "level",
+    "param" : "36"
+  } ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 93,
+    "def" : 55,
+    "spe" : 55,
+    "spa" : 70,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Arm Thrust"
+  }, {
+    "level" : 1,
+    "move" : "Arm Thrust"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Odor Sleuth"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 3,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 7,
+    "move" : "Ember"
+  }, {
+    "level" : 9,
+    "move" : "Odor Sleuth"
+  }, {
+    "level" : 13,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 15,
+    "move" : "Flame Charge"
+  }, {
+    "level" : 17,
+    "move" : "Arm Thrust"
+  }, {
+    "level" : 20,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 23,
+    "move" : "Rollout"
+  }, {
+    "level" : 28,
+    "move" : "Take Down"
+  }, {
+    "level" : 31,
+    "move" : "Heat Crash"
+  }, {
+    "level" : 36,
+    "move" : "Assurance"
+  }, {
+    "level" : 39,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 44,
+    "move" : "Head Smash"
+  }, {
+    "level" : 47,
+    "move" : "Roar"
+  }, {
+    "level" : 52,
+    "move" : "Flare Blitz"
+  } ],
+  "eggMoves" : [ "Body Slam", "Burn Up", "Covet", "Curse", "Endeavor", "Heavy Slam", "Magnitude", "Sleep Talk", "Sucker Punch", "Superpower", "Thrash", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Grass Knot", "Gyro Ball", "High Horsepower", "Knock Off", "Low Kick", "Mud Slap", "Overheat", "Poison Jab", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sleep Talk", "Snore", "Solar Beam", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thunder Punch", "Toxic", "Trailblaze", "Wild Charge", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
+    "area" : "Lavaridge Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 8
+  } ]
+}

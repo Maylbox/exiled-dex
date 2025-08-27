@@ -1,0 +1,240 @@
+{
+  "dex" : 305,
+  "speciesId" : "SPECIES_DUSCLOPS",
+  "name" : "Dusclops",
+  "types" : [ "Ghost", null ],
+  "abilities" : [ "Pressure", "None", "Frisk" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 0,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 6400,
+  "heightM" : 1.6,
+  "weightKg" : 30.6,
+  "growthRate" : "Fast",
+  "color" : "Black",
+  "category" : "Beckon",
+  "friendship" : 35,
+  "description" : "It is thought that its body is hollow with\nonly a spectral ball of fire burning inside.\nHowever, no one has been able to\nconfirm this theory as fact.",
+  "preEvolutionId" : "SPECIES_DUSKULL",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_DUSKNOIR",
+    "method" : "trade_item",
+    "param" : "ITEM_REAPER_CLOTH"
+  }, {
+    "toSpeciesId" : "SPECIES_DUSKNOIR",
+    "method" : "item",
+    "param" : "ITEM_REAPER_CLOTH"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 70,
+    "def" : 130,
+    "spe" : 25,
+    "spa" : 60,
+    "spd" : 130
+  },
+  "heldItems" : {
+    "common" : "Spell Tag"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Shadow Punch"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Bind"
+  }, {
+    "level" : 1,
+    "move" : "Disable"
+  }, {
+    "level" : 1,
+    "move" : "Fire Punch"
+  }, {
+    "level" : 1,
+    "move" : "Future Sight"
+  }, {
+    "level" : 1,
+    "move" : "Gravity"
+  }, {
+    "level" : 1,
+    "move" : "Ice Punch"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Night Shade"
+  }, {
+    "level" : 1,
+    "move" : "Shadow Punch"
+  }, {
+    "level" : 1,
+    "move" : "Thunderpunch"
+  }, {
+    "level" : 6,
+    "move" : "Disable"
+  }, {
+    "level" : 9,
+    "move" : "Astonish"
+  }, {
+    "level" : 14,
+    "move" : "Foresight"
+  }, {
+    "level" : 17,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 22,
+    "move" : "Pursuit"
+  }, {
+    "level" : 25,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 30,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 37,
+    "move" : "Shadow Punch"
+  }, {
+    "level" : 40,
+    "move" : "Hex"
+  }, {
+    "level" : 45,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 52,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 57,
+    "move" : "Payback"
+  }, {
+    "level" : 64,
+    "move" : "Future Sight"
+  } ],
+  "eggMoves" : [ "Dark Pulse", "Destiny Bond", "Feint Attack", "Grudge", "Haze", "Imprison", "Memento", "Ominous Wind", "Pain Split", "Skill Swap" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Calm Mind", "Charge Beam", "Counter", "Dark Pulse", "Double Edge", "Double Team", "Dream Eater", "Dynamic Punch", "Earthquake", "Endure", "Facade", "Fire Punch", "Flash", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Leech Life", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "MtPyre_1F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
+    "area" : "Route 121",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 52,
+    "max" : 55,
+    "slot" : 2
+  }, {
+    "areaKey" : "MtPyre_2F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 3
+  }, {
+    "areaKey" : "MtPyre_3F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 3
+  }, {
+    "areaKey" : "MtPyre_4F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 3
+  }, {
+    "areaKey" : "MtPyre_5F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 3
+  }, {
+    "areaKey" : "MtPyre_6F",
+    "bucketKey" : "Land",
+    "area" : "Mt Pyre_6F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 51,
+    "max" : 56,
+    "slot" : 3
+  }, {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_1",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 2
+  }, {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_1",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 3
+  }, {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_1",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 4
+  }, {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_1",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 5
+  }, {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_1",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 8
+  }, {
+    "areaKey" : "BattlePike_1",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_1",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 9
+  } ]
+}

@@ -1,0 +1,104 @@
+{
+  "dex" : 591,
+  "speciesId" : "SPECIES_ARCTOVISH",
+  "name" : "Arctovish",
+  "types" : [ "Water", "Ice" ],
+  "abilities" : [ "Water Absorb", "Ice Body", "Slush Rush" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : null,
+  "femalePct" : null,
+  "catchRate" : 45,
+  "baseExp" : 177,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 8960,
+  "heightM" : 2.0,
+  "weightKg" : 175.0,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Fossil",
+  "friendship" : 70,
+  "description" : "Though it's able to capture prey by\nfreezing its surroundings, it has trouble\neating the prey afterward because its\nmouth is on top of its head.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 90,
+    "def" : 100,
+    "spe" : 55,
+    "spa" : 80,
+    "spd" : 90
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 1,
+    "move" : "Water Gun"
+  }, {
+    "level" : 7,
+    "move" : "Protect"
+  }, {
+    "level" : 14,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 21,
+    "move" : "Ancient Power"
+  }, {
+    "level" : 28,
+    "move" : "Bite"
+  }, {
+    "level" : 35,
+    "move" : "Aurora Veil"
+  }, {
+    "level" : 42,
+    "move" : "Freeze Dry"
+  }, {
+    "level" : 49,
+    "move" : "Super Fang"
+  }, {
+    "level" : 56,
+    "move" : "Crunch"
+  }, {
+    "level" : 63,
+    "move" : "Fishious Rend"
+  }, {
+    "level" : 70,
+    "move" : "Icicle Crash"
+  }, {
+    "level" : 77,
+    "move" : "Blizzard"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Aurora Veil", "Avalanche", "Blizzard", "Body Slam", "Crunch", "Dive", "Endure", "Facade", "Giga Impact", "Hyper Beam", "Ice Beam", "Ice Fang", "Icicle Crash", "Icy Wind", "Iron Defense", "Iron Head", "Meteor Beam", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sleep Talk", "Snore", "Stone Edge", "Surf", "Waterfall" ],
+  "encounters" : [ {
+    "areaKey" : "MirageTower_2F",
+    "bucketKey" : "Land",
+    "area" : "Mirage Tower_2F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 10
+  }, {
+    "areaKey" : "MirageTower_3F",
+    "bucketKey" : "Land",
+    "area" : "Mirage Tower_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 10
+  }, {
+    "areaKey" : "MirageTower_4F",
+    "bucketKey" : "Land",
+    "area" : "Mirage Tower_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 45,
+    "slot" : 10
+  } ]
+}

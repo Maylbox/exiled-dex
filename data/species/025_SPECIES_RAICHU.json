@@ -1,0 +1,116 @@
+{
+  "dex" : 25,
+  "speciesId" : "SPECIES_RAICHU",
+  "name" : "Raichu",
+  "types" : [ "Electric", "Fighting" ],
+  "abilities" : [ "Guts", "Scrappy", "Volt Absorb" ],
+  "evYield" : {
+    "spe" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field", "Fairy" ],
+  "hatchSteps" : 2560,
+  "heightM" : 0.8,
+  "weightKg" : 30.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Mouse",
+  "friendship" : 70,
+  "description" : "If it stores too much electricity, its\nbehavior turns aggressive. To avoid this,\nit occasionally discharges excess energy\nand calms itself down.",
+  "preEvolutionId" : "SPECIES_PIKACHU",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 115,
+    "def" : 70,
+    "spe" : 110,
+    "spa" : 45,
+    "spd" : 90
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 1,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 1,
+    "move" : "Thundershock"
+  }, {
+    "level" : 7,
+    "move" : "Play Nice"
+  }, {
+    "level" : 10,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 13,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 18,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 21,
+    "move" : "Feint"
+  }, {
+    "level" : 23,
+    "move" : "Double Team"
+  }, {
+    "level" : 26,
+    "move" : "Spark"
+  }, {
+    "level" : 29,
+    "move" : "Nuzzle"
+  }, {
+    "level" : 34,
+    "move" : "Discharge"
+  }, {
+    "level" : 37,
+    "move" : "Body Slam"
+  }, {
+    "level" : 42,
+    "move" : "Thunderbolt"
+  }, {
+    "level" : 45,
+    "move" : "Agility"
+  }, {
+    "level" : 50,
+    "move" : "Wild Charge"
+  }, {
+    "level" : 53,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 58,
+    "move" : "Zippy Zap"
+  }, {
+    "level" : 65,
+    "move" : "Close Combat"
+  } ],
+  "eggMoves" : [ "Bestow", "Bide", "Charge", "Disarming Voice", "Double Slap", "Electric Terrain", "Encore", "Endure", "Fake Out", "Flail", "Lucky Chant", "Present", "Reversal", "Thunder Punch", "Tickle", "Wish" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Safeguard", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle", "Wild Charge" ],
+  "encounters" : [ {
+    "areaKey" : "NewMauville_Inside",
+    "bucketKey" : "Land",
+    "area" : "New Mauville_Inside",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 55,
+    "max" : 57,
+    "slot" : 3
+  }, {
+    "areaKey" : "NewMauville_Entrance",
+    "bucketKey" : "Land",
+    "area" : "New Mauville_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 55,
+    "max" : 57,
+    "slot" : 3
+  } ]
+}

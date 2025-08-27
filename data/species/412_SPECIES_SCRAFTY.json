@@ -1,0 +1,113 @@
+{
+  "dex" : 412,
+  "speciesId" : "SPECIES_SCRAFTY",
+  "name" : "Scrafty",
+  "types" : [ "Dark", "Fighting" ],
+  "abilities" : [ "Shed Skin", "Moxie", "Intimidate" ],
+  "evYield" : {
+    "def" : 1,
+    "spd" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 171,
+  "eggGroups" : [ "Field", "Dragon" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.1,
+  "weightKg" : 30.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Hoodlum",
+  "friendship" : 70,
+  "description" : "Groups of them beat up anything that\nenters their territory. The one with the\nbiggest crest is the group leader, and\nis the most respected.",
+  "preEvolutionId" : "SPECIES_SCRAGGY",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 100,
+    "def" : 115,
+    "spe" : 58,
+    "spa" : 35,
+    "spd" : 115
+  },
+  "heldItems" : {
+    "common" : "Shed Shell"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Low Kick"
+  }, {
+    "level" : 1,
+    "move" : "Low Sweep"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 5,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 9,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 12,
+    "move" : "Swagger"
+  }, {
+    "level" : 16,
+    "move" : "Low Kick"
+  }, {
+    "level" : 20,
+    "move" : "Payback"
+  }, {
+    "level" : 23,
+    "move" : "Brick Break"
+  }, {
+    "level" : 27,
+    "move" : "Chip Away"
+  }, {
+    "level" : 31,
+    "move" : "Hi Jump Kick"
+  }, {
+    "level" : 34,
+    "move" : "Scary Face"
+  }, {
+    "level" : 38,
+    "move" : "Crunch"
+  }, {
+    "level" : 45,
+    "move" : "Facade"
+  }, {
+    "level" : 51,
+    "move" : "Rock Climb"
+  }, {
+    "level" : 58,
+    "move" : "Focus Punch"
+  }, {
+    "level" : 65,
+    "move" : "Head Smash"
+  }, {
+    "level" : 69,
+    "move" : "Dragon Dance"
+  }, {
+    "level" : 71,
+    "move" : "Close Combat"
+  } ],
+  "eggMoves" : [ "Acid Spray", "Amnesia", "Counter", "Detect", "Dragon Dance", "Drain Punch", "Fake Out", "Feint Attack", "Fire Punch", "Ice Punch", "Power Up Punch", "Quick Guard", "Thunder Punch", "Zen Headbutt" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Counter", "Crunch", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Drain Punch", "Endure", "Facade", "Fire Punch", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Punch", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Sludge Bomb", "Smack Down", "Snatch", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Taunt", "Thief", "Thunder Punch", "Torment", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_B2F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 6
+  } ]
+}

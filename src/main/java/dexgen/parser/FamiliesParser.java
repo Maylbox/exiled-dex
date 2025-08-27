@@ -18,6 +18,12 @@ public class FamiliesParser {
             Pattern.compile("\\.(expYield|friendship)\\s*=\\s*([A-Z_]+)(?:\\(([^)]+)\\))?");
 
     private static final Pattern P_NAME     = Pattern.compile("speciesName\\s*=\\s*_\\(\"([^\"]+)\"\\)");
+    // .speciesName = _("Bulbasaur")
+    private static final Pattern P_NAME_SIMPLE =
+            Pattern.compile("speciesName\\s*=\\s*_\\(\"([^\"]+)\"\\)");
+    // .speciesName = HANDLE_EXPANDED_SPECIES_NAME("Short", "Long")
+    private static final Pattern P_NAME_HANDLE =
+            Pattern.compile("speciesName\\s*=\\s*HANDLE_EXPANDED_SPECIES_NAME\\s*\\(\\s*\"([^\"]+)\"\\s*,\\s*\"([^\"]+)\"\\s*\\)");
     private static final Pattern P_CATEGORY = Pattern.compile("categoryName\\s*=\\s*_\\(\"([^\"]+)\"\\)");
     private static final Pattern P_DESC_BLOCK =
             Pattern.compile("description\\s*=\\s*COMPOUND_STRING\\(([^)]*)\\)");
@@ -75,7 +81,14 @@ public class FamiliesParser {
 
             String body = text.substring(bodyStart + 1, bodyEnd); // inside {...}
 
-            String name = find(P_NAME, body);
+            String name = null;
+            Matcher mhName = P_NAME_HANDLE.matcher(body);
+            if (mhName.find()) {
+                name = mhName.group(2);                // take the long/full name (e.g., "Centiskorch")
+            } else {
+                Matcher msName = P_NAME_SIMPLE.matcher(body);
+                if (msName.find()) name = msName.group(1);
+            }
             String category = find(P_CATEGORY, body);
             String desc = null;
             Matcher db = P_DESC_BLOCK.matcher(body);

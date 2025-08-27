@@ -1,0 +1,99 @@
+{
+  "dex" : 408,
+  "speciesId" : "SPECIES_DARUMAKA",
+  "name" : "Darumaka",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Hustle", "Keen Eye", "Inner Focus" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 63,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 37.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Red",
+  "category" : "Zen Charm",
+  "friendship" : 70,
+  "description" : "When its internal fire is burning, it\ncannot calm down and it runs around.\nWhen the fire diminishes, it pulls its\nlimbs into its body and falls asleep.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_DARMANITAN_STANDARD_MODE",
+    "method" : "level",
+    "param" : "35"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 90,
+    "def" : 45,
+    "spe" : 50,
+    "spa" : 15,
+    "spd" : 45
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 3,
+    "move" : "Rollout"
+  }, {
+    "level" : 6,
+    "move" : "Incinerate"
+  }, {
+    "level" : 9,
+    "move" : "Rage"
+  }, {
+    "level" : 11,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 14,
+    "move" : "Headbutt"
+  }, {
+    "level" : 17,
+    "move" : "Uproar"
+  }, {
+    "level" : 19,
+    "move" : "Facade"
+  }, {
+    "level" : 22,
+    "move" : "Fire Punch"
+  }, {
+    "level" : 25,
+    "move" : "Work Up"
+  }, {
+    "level" : 27,
+    "move" : "Thrash"
+  }, {
+    "level" : 30,
+    "move" : "Belly Drum"
+  }, {
+    "level" : 33,
+    "move" : "Flare Blitz"
+  }, {
+    "level" : 35,
+    "move" : "Taunt"
+  }, {
+    "level" : 39,
+    "move" : "Superpower"
+  }, {
+    "level" : 42,
+    "move" : "Overheat"
+  } ],
+  "eggMoves" : [ "Encore", "Endure", "Extrasensory", "Flame Wheel", "Focus Energy", "Focus Punch", "Hammer Arm", "Sleep Talk", "Snatch", "Take Down", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Brick Break", "Dig", "Double Team", "Endure", "Facade", "Fire Blast", "Fire Fang", "Fire Punch", "Flamethrower", "Grass Knot", "Gyro Ball", "Mega Kick", "Mega Punch", "Overheat", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Toxic", "U Turn", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "FieryPath",
+    "bucketKey" : "Land",
+    "area" : "Fiery Path",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 28,
+    "max" : 32,
+    "slot" : 0
+  } ]
+}

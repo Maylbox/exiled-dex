@@ -1,0 +1,101 @@
+{
+  "dex" : 400,
+  "speciesId" : "SPECIES_LILLIGANT_HISUIAN",
+  "name" : "Hisuian Lilligant",
+  "types" : [ "Grass", "Fighting" ],
+  "abilities" : [ "Chlorophyll", "Hustle", "Leaf Guard" ],
+  "evYield" : {
+    "atk" : 1,
+    "spe" : 1
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 75,
+  "baseExp" : 168,
+  "eggGroups" : [ "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.2,
+  "weightKg" : 19.2,
+  "growthRate" : "Medium Fast",
+  "color" : "Green",
+  "category" : "Spinning",
+  "friendship" : 70,
+  "description" : "Its well-developed legs are the result of\na life spent on mountains covered in deep\nsnow. The scent it exudes from its flower\ncrown heartens those in proximity.",
+  "preEvolutionId" : "SPECIES_PETILIL",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 105,
+    "def" : 75,
+    "spe" : 105,
+    "spa" : 50,
+    "spd" : 75
+  },
+  "heldItems" : {
+    "common" : "Absorb Bulb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Brick Break"
+  }, {
+    "level" : 1,
+    "move" : "Axe Kick"
+  }, {
+    "level" : 1,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 1,
+    "move" : "Brick Break"
+  }, {
+    "level" : 1,
+    "move" : "Growth"
+  }, {
+    "level" : 1,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 1,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 1,
+    "move" : "Synthesis"
+  }, {
+    "level" : 1,
+    "move" : "Teeter Dance"
+  }, {
+    "level" : 1,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 10,
+    "move" : "Teeter Dance"
+  }, {
+    "level" : 18,
+    "move" : "Sleep Powder"
+  }, {
+    "level" : 26,
+    "move" : "Grassy Glide"
+  }, {
+    "level" : 33,
+    "move" : "Recover"
+  }, {
+    "level" : 38,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 46,
+    "move" : "Leaf Blade"
+  }, {
+    "level" : 50,
+    "move" : "Petal Blizzard"
+  }, {
+    "level" : 56,
+    "move" : "Close Combat"
+  }, {
+    "level" : 60,
+    "move" : "Victory Dance"
+  }, {
+    "level" : 65,
+    "move" : "Solar Blade"
+  } ],
+  "eggMoves" : [ "Bide", "Charm", "Encore", "Endure", "Grass Whistle", "Healing Wish", "Ingrain", "Natural Gift", "Sweet Scent", "Worry Seed" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Brick Break", "Bullet Seed", "Defog", "Drain Punch", "Endure", "Energy Ball", "Facade", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Low Kick", "Mega Kick", "Metronome", "Poison Jab", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Smash", "Sleep Talk", "Solar Beam", "Solar Blade", "Sunny Day", "Swords Dance", "Trailblaze", "Triple Axel" ],
+  "encounters" : [ ]
+}

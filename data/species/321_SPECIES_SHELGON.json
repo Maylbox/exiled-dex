@@ -1,0 +1,95 @@
+{
+  "dex" : 321,
+  "speciesId" : "SPECIES_SHELGON",
+  "name" : "Shelgon",
+  "types" : [ "Dragon", null ],
+  "abilities" : [ "Rock Head", "None", "Overcoat" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Dragon" ],
+  "hatchSteps" : 10240,
+  "heightM" : 1.1,
+  "weightKg" : 110.5,
+  "growthRate" : "Slow",
+  "color" : "White",
+  "category" : "Endurance",
+  "friendship" : 35,
+  "description" : "It hardly eats while it awaits evolution.\nIt becomes hardier by enduring hunger.\nIts shell peels off the instant it begins\nto evolve.",
+  "preEvolutionId" : "SPECIES_BAGON",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SALAMENCE",
+    "method" : "level",
+    "param" : "50"
+  } ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 95,
+    "def" : 100,
+    "spe" : 50,
+    "spa" : 60,
+    "spd" : 50
+  },
+  "heldItems" : {
+    "common" : "Dragon Fang"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Protect"
+  }, {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 1,
+    "move" : "Ember"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 15,
+    "move" : "Headbutt"
+  }, {
+    "level" : 20,
+    "move" : "Scary Face"
+  }, {
+    "level" : 25,
+    "move" : "Crunch"
+  }, {
+    "level" : 33,
+    "move" : "Dragon Claw"
+  }, {
+    "level" : 39,
+    "move" : "Zen Headbutt"
+  }, {
+    "level" : 46,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 53,
+    "move" : "Flamethrower"
+  }, {
+    "level" : 60,
+    "move" : "Outrage"
+  }, {
+    "level" : 67,
+    "move" : "Double Edge"
+  } ],
+  "eggMoves" : [ "Defense Curl", "Dragon Dance", "Dragon Pulse", "Dragon Rage", "Dragon Rush", "Endure", "Fire Fang", "Hydro Pump", "Thrash", "Twister" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Crunch", "Cut", "Defense Curl", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Fury Cutter", "Hone Claws", "Iron Defense", "Iron Head", "Mud Slap", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Shadow Claw", "Sleep Talk", "Snore", "Strength", "Sunny Day", "Swagger", "Thunder Fang", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
+    "area" : "Route 115",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 45,
+    "max" : 48,
+    "slot" : 7
+  } ]
+}

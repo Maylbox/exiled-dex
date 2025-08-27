@@ -1,0 +1,143 @@
+{
+  "dex" : 582,
+  "speciesId" : "SPECIES_GRIMMSNARL",
+  "name" : "Grimmsnarl",
+  "types" : [ "Dark", "Fairy" ],
+  "abilities" : [ "Prankster", "Frisk", "Pickpocket" ],
+  "evYield" : {
+    "atk" : 3
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 45,
+  "baseExp" : 255,
+  "eggGroups" : [ "Fairy", "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 61.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Purple",
+  "category" : "Bulk Up",
+  "friendship" : 70,
+  "description" : "With the hair wrapped around its body\nhelping to enhance its muscles, this\nPokémon can overwhelm even Machamp.",
+  "preEvolutionId" : "SPECIES_MORGREM",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 120,
+    "def" : 65,
+    "spe" : 60,
+    "spa" : 95,
+    "spd" : 75
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Spirit Break"
+  }, {
+    "level" : 1,
+    "move" : "Bulk Up"
+  }, {
+    "level" : 1,
+    "move" : "Covet"
+  }, {
+    "level" : 1,
+    "move" : "Fake Out"
+  }, {
+    "level" : 1,
+    "move" : "False Surrender"
+  }, {
+    "level" : 1,
+    "move" : "Light Screen"
+  }, {
+    "level" : 1,
+    "move" : "Reflect"
+  }, {
+    "level" : 1,
+    "move" : "Spirit Break"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 4,
+    "move" : "Bite"
+  }, {
+    "level" : 8,
+    "move" : "Flatter"
+  }, {
+    "level" : 12,
+    "move" : "Fake Tears"
+  }, {
+    "level" : 16,
+    "move" : "Assurance"
+  }, {
+    "level" : 20,
+    "move" : "Swagger"
+  }, {
+    "level" : 24,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 28,
+    "move" : "Torment"
+  }, {
+    "level" : 35,
+    "move" : "Dark Pulse"
+  }, {
+    "level" : 40,
+    "move" : "Nasty Plot"
+  }, {
+    "level" : 48,
+    "move" : "Play Rough"
+  }, {
+    "level" : 54,
+    "move" : "Foul Play"
+  }, {
+    "level" : 58,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 62,
+    "move" : "Drain Punch"
+  }, {
+    "level" : 68,
+    "move" : "Stomping Tantrum"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Crunch", "Dark Pulse", "Dazzling Gleam", "Drain Punch", "Endure", "Facade", "Fire Punch", "Focus Blast", "Giga Impact", "Hyper Beam", "Ice Punch", "Leech Life", "Light Screen", "Low Kick", "Mega Kick", "Mega Punch", "Metronome", "Play Rough", "Power Up Punch", "Power Whip", "Protect", "Reflect", "Rest", "Shadow Claw", "Sleep Talk", "Snore", "Swagger", "Taunt", "Thief", "Thunder Punch", "Thunder Wave", "Torment", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 3
+  }, {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 3
+  }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 3
+  }, {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
+    "area" : "Mossdeep City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 67,
+    "max" : 69,
+    "slot" : 3
+  } ]
+}

@@ -1,0 +1,105 @@
+{
+  "dex" : 592,
+  "speciesId" : "SPECIES_DURALUDON",
+  "name" : "Duraludon",
+  "types" : [ "Steel", "Dragon" ],
+  "abilities" : [ "Light Metal", "Heavy Metal", "Stalwart" ],
+  "evYield" : {
+    "spa" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 187,
+  "eggGroups" : [ "Mineral", "Dragon" ],
+  "hatchSteps" : 7680,
+  "heightM" : 1.8,
+  "weightKg" : 40.0,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Alloy",
+  "friendship" : 70,
+  "description" : "Its body resembles polished metal, and\nit's both lightweight and strong. The only\ndrawback is that it rusts easily.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_ARCHALUDON",
+    "method" : "item",
+    "param" : "ITEM_METAL_ALLOY"
+  } ],
+  "baseStats" : {
+    "hp" : 70,
+    "atk" : 95,
+    "def" : 115,
+    "spe" : 85,
+    "spa" : 120,
+    "spd" : 50
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 1,
+    "move" : "Rock Smash"
+  }, {
+    "level" : 6,
+    "move" : "Metal Sound"
+  }, {
+    "level" : 11,
+    "move" : "Roar"
+  }, {
+    "level" : 18,
+    "move" : "Breaking Swipe"
+  }, {
+    "level" : 23,
+    "move" : "Dragon Tail"
+  }, {
+    "level" : 27,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 32,
+    "move" : "Laser Focus"
+  }, {
+    "level" : 37,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 41,
+    "move" : "Flash Cannon"
+  }, {
+    "level" : 46,
+    "move" : "Metal Burst"
+  }, {
+    "level" : 51,
+    "move" : "Iron Head"
+  }, {
+    "level" : 55,
+    "move" : "Earth Power"
+  }, {
+    "level" : 57,
+    "move" : "Hyper Beam"
+  }, {
+    "level" : 60,
+    "move" : "Meteor Beam"
+  }, {
+    "level" : 62,
+    "move" : "Thunderbolt"
+  }, {
+    "level" : 65,
+    "move" : "Aura Sphere"
+  } ],
+  "eggMoves" : [ "Mirror Coat", "Night Slash", "Slash" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Brick Break", "Dark Pulse", "Double Edge", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Flash Cannon", "Giga Impact", "Gyro Ball", "Hone Claws", "Hyper Beam", "Iron Defense", "Iron Head", "Light Screen", "Mirror Coat", "Protect", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Snore", "Solar Beam", "Stealth Rock", "Stone Edge", "Swords Dance", "Thunder", "Thunder Wave", "Thunderbolt" ],
+  "encounters" : [ {
+    "areaKey" : "MeteorFalls_1F_1R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 11
+  } ]
+}

@@ -1,0 +1,66 @@
+{
+  "dex" : 39,
+  "speciesId" : "SPECIES_IGGLYBUFF",
+  "name" : "Igglybuff",
+  "types" : [ "Fairy", null ],
+  "abilities" : [ "Cute Charm", "Competitive", "Friend Guard" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 170,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 2560,
+  "heightM" : 0.3,
+  "weightKg" : 1.0,
+  "growthRate" : "Fast",
+  "color" : "Pink",
+  "category" : "Balloon",
+  "friendship" : 70,
+  "description" : "Its soft and pliable body is very bouncy.\nWhen it sings continuously with all its\nmight, its body steadily turns a deepening\npink color.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_JIGGLYPUFF",
+    "method" : "friendship",
+    "param" : "0"
+  } ],
+  "baseStats" : {
+    "hp" : 90,
+    "atk" : 30,
+    "def" : 15,
+    "spe" : 15,
+    "spa" : 40,
+    "spd" : 20
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Copycat"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Sing"
+  }, {
+    "level" : 4,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 8,
+    "move" : "Sweet Kiss"
+  }, {
+    "level" : 12,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 16,
+    "move" : "Disable"
+  }, {
+    "level" : 20,
+    "move" : "Charm"
+  } ],
+  "eggMoves" : [ "Captivate", "Covet", "Fake Tears", "Feint Attack", "Gravity", "Heal Pulse", "Last Resort", "Misty Terrain", "Perish Song", "Present", "Punishment", "Sleep Talk", "Wish" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Counter", "Covet", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Fire Blast", "Flamethrower", "Flash", "Grass Knot", "Icy Wind", "Light Screen", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Rollout", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thunder Wave", "Toxic", "Trailblaze", "Water Pulse", "Wild Charge" ],
+  "encounters" : [ ]
+}

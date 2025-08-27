@@ -1,0 +1,122 @@
+{
+  "dex" : 623,
+  "speciesId" : "SPECIES_TINKATON",
+  "name" : "Tinkaton",
+  "types" : [ "Fairy", "Steel" ],
+  "abilities" : [ "Mold Breaker", "Own Tempo", "Super Luck" ],
+  "evYield" : {
+    "spd" : 3
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 45,
+  "baseExp" : 253,
+  "eggGroups" : [ "Fairy" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.7,
+  "weightKg" : 112.8,
+  "growthRate" : "Medium Slow",
+  "color" : "Pink",
+  "category" : "Hammer",
+  "friendship" : 70,
+  "description" : "The hammer tops 220 pounds, yet it\ngets swung around easily by\nTinkaton as it steals whatever it pleases\nand carries its plunder back home.",
+  "preEvolutionId" : "SPECIES_TINKATUFF",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 125,
+    "def" : 109,
+    "spe" : 94,
+    "spa" : 70,
+    "spd" : 107
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Iron Head"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Baby Doll Eyes"
+  }, {
+    "level" : 1,
+    "move" : "Covet"
+  }, {
+    "level" : 1,
+    "move" : "Fake Out"
+  }, {
+    "level" : 1,
+    "move" : "Iron Head"
+  }, {
+    "level" : 5,
+    "move" : "Metal Claw"
+  }, {
+    "level" : 9,
+    "move" : "Rock Smash"
+  }, {
+    "level" : 15,
+    "move" : "Sweet Kiss"
+  }, {
+    "level" : 20,
+    "move" : "Brutal Swing"
+  }, {
+    "level" : 26,
+    "move" : "Slam"
+  }, {
+    "level" : 29,
+    "move" : "Smart Strike"
+  }, {
+    "level" : 34,
+    "move" : "Play Rough"
+  }, {
+    "level" : 38,
+    "move" : "Flatter"
+  }, {
+    "level" : 45,
+    "move" : "Gigaton Hammer"
+  }, {
+    "level" : 49,
+    "move" : "Skitter Smack"
+  }, {
+    "level" : 53,
+    "move" : "Knock Off"
+  }, {
+    "level" : 56,
+    "move" : "Earthquake"
+  }, {
+    "level" : 63,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 67,
+    "move" : "Ice Hammer"
+  }, {
+    "level" : 72,
+    "move" : "Foul Play"
+  }, {
+    "level" : 76,
+    "move" : "Wood Hammer"
+  }, {
+    "level" : 86,
+    "move" : "Behemoth Bash"
+  }, {
+    "level" : 90,
+    "move" : "Shift Gear"
+  }, {
+    "level" : 98,
+    "move" : "Magical Torque"
+  } ],
+  "eggMoves" : [ "Feint", "Ice Hammer", "Quash" ],
+  "teachableMoves" : [ "Brick Break", "Bulldoze", "Covet", "Endure", "Facade", "Flash Cannon", "Knock Off", "Light Screen", "Metronome", "Play Rough", "Protect", "Reflect", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Sleep Talk", "Smack Down", "Stealth Rock", "Stone Edge", "Swords Dance", "Thief", "Thunder Wave" ],
+  "encounters" : [ {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_B2F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 7
+  } ]
+}

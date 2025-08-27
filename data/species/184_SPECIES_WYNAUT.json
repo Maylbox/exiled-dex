@@ -1,0 +1,174 @@
+{
+  "dex" : 184,
+  "speciesId" : "SPECIES_WYNAUT",
+  "name" : "Wynaut",
+  "types" : [ "Psychic", null ],
+  "abilities" : [ "Shadow Tag", "None", "Telepathy" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 125,
+  "baseExp" : 0,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 14.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Bright",
+  "friendship" : 70,
+  "description" : "A Wynaut loves to eat sweet fruits.\nIt cleverly picks fruits using its earlike\narms. They gather in fruit gardens, drawn\nby the fragrance.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_WOBBUFFET",
+    "method" : "level",
+    "param" : "15"
+  } ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 23,
+    "def" : 48,
+    "spe" : 23,
+    "spa" : 23,
+    "spd" : 48
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Amnesia"
+  }, {
+    "level" : 1,
+    "move" : "Charm"
+  }, {
+    "level" : 1,
+    "move" : "Counter"
+  }, {
+    "level" : 1,
+    "move" : "Destiny Bond"
+  }, {
+    "level" : 1,
+    "move" : "Encore"
+  }, {
+    "level" : 1,
+    "move" : "Mirror Coat"
+  }, {
+    "level" : 1,
+    "move" : "Safeguard"
+  }, {
+    "level" : 1,
+    "move" : "Splash"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Counter", "Mirror Coat", "Safeguard" ],
+  "encounters" : [ {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 30,
+    "max" : 30,
+    "slot" : 0
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 35,
+    "max" : 35,
+    "slot" : 1
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 25,
+    "max" : 25,
+    "slot" : 2
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 40,
+    "max" : 40,
+    "slot" : 3
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 20,
+    "max" : 20,
+    "slot" : 4
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 45,
+    "max" : 45,
+    "slot" : 5
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 15,
+    "max" : 15,
+    "slot" : 6
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 50,
+    "max" : 50,
+    "slot" : 7
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 10,
+    "max" : 10,
+    "slot" : 8
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 9
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 10,
+    "max" : 10,
+    "slot" : 10
+  }, {
+    "areaKey" : "Route130",
+    "bucketKey" : "Land",
+    "area" : "Route 130",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 11
+  } ]
+}

@@ -1,0 +1,101 @@
+{
+  "dex" : 601,
+  "speciesId" : "SPECIES_MEOWSCARADA",
+  "name" : "Meowscarada",
+  "types" : [ "Grass", "Dark" ],
+  "abilities" : [ "Overgrow", "None", "Protean" ],
+  "evYield" : {
+    "spe" : 3
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 265,
+  "eggGroups" : [ "Field", "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 31.2,
+  "growthRate" : "Medium Slow",
+  "color" : "Green",
+  "category" : "Magician",
+  "friendship" : 70,
+  "description" : "This Pokémon uses the reflective\nfur lining its cape to camouflage the\nstem of its flower, creating the\nillusion that the flower is floating.",
+  "preEvolutionId" : "SPECIES_FLORAGATO",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 76,
+    "atk" : 110,
+    "def" : 70,
+    "spe" : 123,
+    "spa" : 81,
+    "spd" : 70
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Night Slash"
+  }, {
+    "level" : 1,
+    "move" : "Night Slash"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 6,
+    "move" : "Leafage"
+  }, {
+    "level" : 8,
+    "move" : "Bite"
+  }, {
+    "level" : 10,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 12,
+    "move" : "Razor Leaf"
+  }, {
+    "level" : 15,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 17,
+    "move" : "Seed Bomb"
+  }, {
+    "level" : 21,
+    "move" : "U Turn"
+  }, {
+    "level" : 27,
+    "move" : "Worry Seed"
+  }, {
+    "level" : 33,
+    "move" : "Slash"
+  }, {
+    "level" : 40,
+    "move" : "Energy Ball"
+  }, {
+    "level" : 44,
+    "move" : "Play Rough"
+  }, {
+    "level" : 48,
+    "move" : "Knock Off"
+  }, {
+    "level" : 51,
+    "move" : "Flower Trick"
+  }, {
+    "level" : 54,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 59,
+    "move" : "Triple Axel"
+  }, {
+    "level" : 61,
+    "move" : "Grassy Glide"
+  }, {
+    "level" : 72,
+    "move" : "Wicked Blow"
+  } ],
+  "eggMoves" : [ "Ally Switch", "Copycat", "Leech Seed", "Petal Blizzard", "Sucker Punch" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Aura Sphere", "Brick Break", "Bullet Seed", "Dark Pulse", "Double Team", "Endure", "Energy Ball", "Facade", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hone Claws", "Hyper Beam", "Knock Off", "Low Kick", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Rest", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Solar Beam", "Swift", "Taunt", "Thief", "Thunder Punch", "Trailblaze", "Trick Room", "Triple Axel", "U Turn" ],
+  "encounters" : [ ]
+}

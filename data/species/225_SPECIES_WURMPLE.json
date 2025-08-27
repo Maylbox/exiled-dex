@@ -1,0 +1,79 @@
+{
+  "dex" : 225,
+  "speciesId" : "SPECIES_WURMPLE",
+  "name" : "Wurmple",
+  "types" : [ "Bug", null ],
+  "abilities" : [ "Shield Dust", "None", "Run Away" ],
+  "evYield" : {
+    "hp" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 54,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.3,
+  "weightKg" : 3.6,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Worm",
+  "friendship" : 70,
+  "description" : "It sticks to tree branches and eats\nleaves. The thread it spits from its mouth,\nwhich becomes gooey when it touches\nair, slows the movement of its foes.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SILCOON",
+    "method" : "level_silcoon",
+    "param" : "7"
+  }, {
+    "toSpeciesId" : "SPECIES_CASCOON",
+    "method" : "level_cascoon",
+    "param" : "7"
+  } ],
+  "baseStats" : {
+    "hp" : 45,
+    "atk" : 45,
+    "def" : 35,
+    "spe" : 20,
+    "spa" : 20,
+    "spd" : 30
+  },
+  "heldItems" : {
+    "common" : "Pecha Berry",
+    "rare" : "Bright Powder"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "String Shot"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 15,
+    "move" : "Bug Bite"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Electroweb", "Snore" ],
+  "encounters" : [ {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
+    "area" : "Rustboro City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 5
+  }, {
+    "areaKey" : "RustboroCity0",
+    "bucketKey" : "Land",
+    "area" : "Rustboro City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 7
+  } ]
+}

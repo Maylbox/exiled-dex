@@ -1,0 +1,100 @@
+{
+  "dex" : 94,
+  "speciesId" : "SPECIES_MAROWAK_ALOLAN",
+  "name" : "Alolan Marowak",
+  "types" : [ "Fire", "Ghost" ],
+  "abilities" : [ "Cursed Body", "Lightning Rod", "Rock Head" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 34.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Purple",
+  "category" : "Bone Keeper",
+  "friendship" : 70,
+  "description" : null,
+  "preEvolutionId" : "SPECIES_CUBONE",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 80,
+    "def" : 110,
+    "spe" : 45,
+    "spa" : 50,
+    "spd" : 80
+  },
+  "heldItems" : {
+    "common" : "Thick Club"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Shadow Bone"
+  }, {
+    "level" : 1,
+    "move" : "Double Edge"
+  }, {
+    "level" : 1,
+    "move" : "False Swipe"
+  }, {
+    "level" : 1,
+    "move" : "Fire Spin"
+  }, {
+    "level" : 1,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Headbutt"
+  }, {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "Retaliate"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 12,
+    "move" : "Flame Wheel"
+  }, {
+    "level" : 16,
+    "move" : "Hex"
+  }, {
+    "level" : 20,
+    "move" : "Fling"
+  }, {
+    "level" : 24,
+    "move" : "Stomping Tantrum"
+  }, {
+    "level" : 31,
+    "move" : "Bone Rush"
+  }, {
+    "level" : 36,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 42,
+    "move" : "Endeavor"
+  }, {
+    "level" : 48,
+    "move" : "Bonemerang"
+  }, {
+    "level" : 54,
+    "move" : "Thrash"
+  }, {
+    "level" : 60,
+    "move" : "Flare Blitz"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Belly Drum", "Chip Away", "Curse", "Detect", "Double Kick", "Endure", "Iron Head", "Perish Song", "Screech", "Skull Bash" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Blizzard", "Body Slam", "Brick Break", "Bulldoze", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Dream Eater", "Earth Power", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Giga Impact", "Hex", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Seismic Toss", "Shadow Ball", "Shadow Bone", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Toxic", "Will O Wisp" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,185 @@
+{
+  "dex" : 288,
+  "speciesId" : "SPECIES_ALTARIA",
+  "name" : "Altaria",
+  "types" : [ "Dragon", "Fairy" ],
+  "abilities" : [ "Natural Cure", "Fluffy", "Cloud Nine" ],
+  "evYield" : {
+    "spd" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Flying", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.1,
+  "weightKg" : 20.6,
+  "growthRate" : "Erratic",
+  "color" : "Blue",
+  "category" : "Humming",
+  "friendship" : 70,
+  "description" : "It hums in a beautiful soprano voice.\nIt flies among white clouds in the blue\nsky. It launches intensely hot fireballs\nfrom its mouth.",
+  "preEvolutionId" : "SPECIES_SWABLU",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 85,
+    "atk" : 70,
+    "def" : 100,
+    "spe" : 80,
+    "spa" : 70,
+    "spd" : 105
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 1,
+    "move" : "Astonish"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Pluck"
+  }, {
+    "level" : 1,
+    "move" : "Sing"
+  }, {
+    "level" : 1,
+    "move" : "Sky Attack"
+  }, {
+    "level" : 3,
+    "move" : "Astonish"
+  }, {
+    "level" : 5,
+    "move" : "Sing"
+  }, {
+    "level" : 7,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 9,
+    "move" : "Safeguard"
+  }, {
+    "level" : 11,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 14,
+    "move" : "Mist"
+  }, {
+    "level" : 15,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 17,
+    "move" : "Round"
+  }, {
+    "level" : 20,
+    "move" : "Natural Gift"
+  }, {
+    "level" : 23,
+    "move" : "Take Down"
+  }, {
+    "level" : 26,
+    "move" : "Refresh"
+  }, {
+    "level" : 30,
+    "move" : "Dragon Dance"
+  }, {
+    "level" : 35,
+    "move" : "Dragon Breath"
+  }, {
+    "level" : 40,
+    "move" : "Dragon Claw"
+  }, {
+    "level" : 46,
+    "move" : "Perish Song"
+  }, {
+    "level" : 52,
+    "move" : "Moonblast"
+  }, {
+    "level" : 59,
+    "move" : "Sky Attack"
+  }, {
+    "level" : 62,
+    "move" : "Floaty Fall"
+  }, {
+    "level" : 66,
+    "move" : "Torch Song"
+  }, {
+    "level" : 75,
+    "move" : "Boomburst"
+  } ],
+  "eggMoves" : [ "Agility", "Dragon Rush", "Feather Dance", "Haze", "Hyper Voice", "Play Rough", "Power Swap", "Pursuit", "Rage", "Roost", "Steel Wing" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Attract", "Body Slam", "Brave Bird", "Bulldoze", "Dazzling Gleam", "Defog", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dream Eater", "Dual Wingbeat", "Earthquake", "Endure", "Facade", "False Swipe", "Fire Blast", "Flamethrower", "Fly", "Giga Impact", "Hone Claws", "Hyper Beam", "Ice Beam", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Rain Dance", "Rest", "Roar", "Rock Smash", "Roost", "Safeguard", "Sleep Talk", "Snore", "Snowscape", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "Trailblaze", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "Route115",
+    "bucketKey" : "Land",
+    "area" : "Route 115",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 45,
+    "max" : 48,
+    "slot" : 2
+  }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 9
+  }, {
+    "areaKey" : "SkyPillar_1F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 10
+  }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 9
+  }, {
+    "areaKey" : "SkyPillar_3F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_3F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 10
+  }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 9
+  }, {
+    "areaKey" : "SkyPillar_5F",
+    "bucketKey" : "Land",
+    "area" : "Sky Pillar_5F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 75,
+    "max" : 76,
+    "slot" : 10
+  } ]
+}

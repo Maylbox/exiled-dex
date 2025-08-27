@@ -1,0 +1,107 @@
+{
+  "dex" : 395,
+  "speciesId" : "SPECIES_WHIRLIPEDE",
+  "name" : "Whirlipede",
+  "types" : [ "Bug", "Poison" ],
+  "abilities" : [ "Poison Point", "Swarm", "Speed Boost" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 126,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.2,
+  "weightKg" : 58.5,
+  "growthRate" : "Medium Slow",
+  "color" : "Gray",
+  "category" : "Curlipede",
+  "friendship" : 70,
+  "description" : "Storing energy for evolution, it sits.\nBut when attacked, it spins its body at\nhigh speed like a wheel and then\ncrashes furiously into its opponent.",
+  "preEvolutionId" : "SPECIES_VENIPEDE",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_SCOLIPEDE",
+    "method" : "level",
+    "param" : "30"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 55,
+    "def" : 99,
+    "spe" : 47,
+    "spa" : 40,
+    "spd" : 79
+  },
+  "heldItems" : {
+    "common" : "Poison Barb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Mortal Spin"
+  }, {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 1,
+    "move" : "Mortal Spin"
+  }, {
+    "level" : 1,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 1,
+    "move" : "Pounce"
+  }, {
+    "level" : 1,
+    "move" : "Rollout"
+  }, {
+    "level" : 1,
+    "move" : "Screech"
+  }, {
+    "level" : 5,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 8,
+    "move" : "Screech"
+  }, {
+    "level" : 12,
+    "move" : "Pursuit"
+  }, {
+    "level" : 15,
+    "move" : "Protect"
+  }, {
+    "level" : 19,
+    "move" : "Poison Tail"
+  }, {
+    "level" : 22,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 28,
+    "move" : "Venoshock"
+  }, {
+    "level" : 32,
+    "move" : "Agility"
+  }, {
+    "level" : 37,
+    "move" : "Steamroller"
+  }, {
+    "level" : 41,
+    "move" : "Toxic"
+  }, {
+    "level" : 43,
+    "move" : "Venom Drench"
+  }, {
+    "level" : 46,
+    "move" : "Rock Climb"
+  }, {
+    "level" : 50,
+    "move" : "Double Edge"
+  } ],
+  "eggMoves" : [ "Pin Missile", "Rock Climb", "Spikes", "Take Down", "Toxic Spikes", "Twineedle" ],
+  "teachableMoves" : [ "Attract", "Defense Curl", "Double Edge", "Double Team", "Endure", "Facade", "Fury Cutter", "Gyro Ball", "Hex", "Iron Defense", "Poison Jab", "Protect", "Rest", "Rock Smash", "Rollout", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Toxic", "Venoshock" ],
+  "encounters" : [ ]
+}

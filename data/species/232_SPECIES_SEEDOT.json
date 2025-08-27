@@ -1,0 +1,92 @@
+{
+  "dex" : 232,
+  "speciesId" : "SPECIES_SEEDOT",
+  "name" : "Seedot",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Chlorophyll", "Early Bird", "Pickpocket" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 255,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field", "Grass" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.5,
+  "weightKg" : 4.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Acorn",
+  "friendship" : 70,
+  "description" : "It hangs off branches and absorbs\nnutrients. When it finishes eating, its\nbody becomes so heavy that it drops to\nthe ground with a thump.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_NUZLEAF",
+    "method" : "level",
+    "param" : "14"
+  } ],
+  "baseStats" : {
+    "hp" : 40,
+    "atk" : 40,
+    "def" : 50,
+    "spe" : 30,
+    "spa" : 30,
+    "spd" : 30
+  },
+  "heldItems" : {
+    "common" : "Power Herb"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 3,
+    "move" : "Absorb"
+  }, {
+    "level" : 6,
+    "move" : "Astonish"
+  }, {
+    "level" : 9,
+    "move" : "Growth"
+  }, {
+    "level" : 12,
+    "move" : "Rollout"
+  }, {
+    "level" : 15,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 18,
+    "move" : "Payback"
+  }, {
+    "level" : 21,
+    "move" : "Headbutt"
+  }, {
+    "level" : 24,
+    "move" : "Sunny Day"
+  }, {
+    "level" : 27,
+    "move" : "Synthesis"
+  }, {
+    "level" : 30,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 33,
+    "move" : "Explosion"
+  } ],
+  "eggMoves" : [ "Amnesia", "Beat Up", "Bullet Seed", "Defog", "Foul Play", "Grassy Terrain", "Leech Seed", "Nasty Plot", "Power Swap", "Quick Attack", "Razor Wind", "Take Down", "Worry Seed" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bullet Seed", "Defense Curl", "Defog", "Dig", "Double Edge", "Double Team", "Endure", "Energy Ball", "Explosion", "Facade", "False Swipe", "Flash", "Giga Drain", "Grass Knot", "Grassy Glide", "Protect", "Rain Dance", "Rest", "Rock Smash", "Rollout", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swords Dance", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "Route102",
+    "bucketKey" : "Land",
+    "area" : "Route 102",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 5,
+    "max" : 6,
+    "slot" : 1
+  } ]
+}

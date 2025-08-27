@@ -1,0 +1,101 @@
+{
+  "dex" : 40,
+  "speciesId" : "SPECIES_JIGGLYPUFF",
+  "name" : "Jigglypuff",
+  "types" : [ "Fairy", null ],
+  "abilities" : [ "Cute Charm", "Competitive", "Friend Guard" ],
+  "evYield" : {
+    "hp" : 2
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 170,
+  "baseExp" : 0,
+  "eggGroups" : [ "Fairy" ],
+  "hatchSteps" : 2560,
+  "heightM" : 0.5,
+  "weightKg" : 5.5,
+  "growthRate" : "Fast",
+  "color" : "Pink",
+  "category" : "Balloon",
+  "friendship" : 70,
+  "description" : "Nothing can avoid falling asleep hearing a\nJigglypuff's song. The sound waves of its\nsinging voice match the brain waves of\nsomeone in a deep sleep.",
+  "preEvolutionId" : "SPECIES_IGGLYBUFF",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_WIGGLYTUFF",
+    "method" : "item",
+    "param" : "ITEM_MOON_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 115,
+    "atk" : 45,
+    "def" : 20,
+    "spe" : 20,
+    "spa" : 45,
+    "spd" : 25
+  },
+  "heldItems" : {
+    "common" : "Moon Stone"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Charm"
+  }, {
+    "level" : 3,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 5,
+    "move" : "Pound"
+  }, {
+    "level" : 9,
+    "move" : "Play Nice"
+  }, {
+    "level" : 11,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 14,
+    "move" : "Disable"
+  }, {
+    "level" : 17,
+    "move" : "Covet"
+  }, {
+    "level" : 20,
+    "move" : "Rollout"
+  }, {
+    "level" : 22,
+    "move" : "Round"
+  }, {
+    "level" : 25,
+    "move" : "Spit Up"
+  }, {
+    "level" : 25,
+    "move" : "Stockpile"
+  }, {
+    "level" : 25,
+    "move" : "Swallow"
+  }, {
+    "level" : 27,
+    "move" : "Wake Up Slap"
+  }, {
+    "level" : 30,
+    "move" : "Rest"
+  }, {
+    "level" : 32,
+    "move" : "Body Slam"
+  }, {
+    "level" : 35,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 38,
+    "move" : "Moonblast"
+  }, {
+    "level" : 41,
+    "move" : "Hyper Voice"
+  }, {
+    "level" : 45,
+    "move" : "Double Edge"
+  } ],
+  "eggMoves" : [ "Captivate", "Covet", "Fake Tears", "Feint Attack", "Gravity", "Heal Pulse", "Last Resort", "Misty Terrain", "Perish Song", "Present", "Punishment", "Sleep Talk", "Wish" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Dark Pulse", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Flash", "Grass Knot", "Gyro Ball", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Play Rough", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rollout", "Safeguard", "Sandstorm", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Water Pulse", "Wild Charge" ],
+  "encounters" : [ ]
+}

@@ -1,0 +1,222 @@
+{
+  "dex" : 165,
+  "speciesId" : "SPECIES_MAREEP",
+  "name" : "Mareep",
+  "types" : [ "Electric", null ],
+  "abilities" : [ "Static", "Fluffy", "Plus" ],
+  "evYield" : {
+    "spa" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 235,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 7.8,
+  "growthRate" : "Medium Slow",
+  "color" : "White",
+  "category" : "Wool",
+  "friendship" : 70,
+  "description" : "Its fluffy wool rubs together and builds\na static charge. The more energy is\ncharged, the more brightly the lightbulb\nat the tip of its tail glows.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_FLAAFFY",
+    "method" : "level",
+    "param" : "15"
+  } ],
+  "baseStats" : {
+    "hp" : 55,
+    "atk" : 40,
+    "def" : 40,
+    "spe" : 35,
+    "spa" : 65,
+    "spd" : 45
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 8,
+    "move" : "Parabolic Charge"
+  }, {
+    "level" : 11,
+    "move" : "Cotton Spore"
+  }, {
+    "level" : 15,
+    "move" : "Flash"
+  }, {
+    "level" : 18,
+    "move" : "Take Down"
+  }, {
+    "level" : 22,
+    "move" : "Electro Ball"
+  }, {
+    "level" : 25,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 29,
+    "move" : "Power Gem"
+  }, {
+    "level" : 32,
+    "move" : "Discharge"
+  }, {
+    "level" : 36,
+    "move" : "Cotton Guard"
+  }, {
+    "level" : 39,
+    "move" : "Dazzling Gleam"
+  }, {
+    "level" : 43,
+    "move" : "Light Screen"
+  }, {
+    "level" : 46,
+    "move" : "Thunder"
+  } ],
+  "eggMoves" : [ "After You", "Agility", "Body Slam", "Charge", "Eerie Impulse", "Electric Terrain", "Flatter", "Iron Tail", "Odor Sleuth", "Sand Attack", "Screech", "Take Down" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Charge Beam", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Electroweb", "Endure", "Facade", "Flash", "Light Screen", "Protect", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shock Wave", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ {
+    "areaKey" : "SafariZone_Southeast",
+    "bucketKey" : "Land",
+    "area" : "Safari Zone_Southeast",
+    "bucket" : "Land",
+    "rateBase" : 25,
+    "min" : 34,
+    "max" : 34,
+    "slot" : 1
+  }, {
+    "areaKey" : "SafariZone_Southeast",
+    "bucketKey" : "Land",
+    "area" : "Safari Zone_Southeast",
+    "bucket" : "Land",
+    "rateBase" : 25,
+    "min" : 36,
+    "max" : 36,
+    "slot" : 3
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 7,
+    "max" : 7,
+    "slot" : 0
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 9,
+    "max" : 9,
+    "slot" : 1
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 2
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 11,
+    "max" : 11,
+    "slot" : 3
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 7,
+    "max" : 7,
+    "slot" : 4
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 9,
+    "max" : 9,
+    "slot" : 5
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 13,
+    "max" : 13,
+    "slot" : 6
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 3,
+    "max" : 3,
+    "slot" : 7
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 8
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 11,
+    "max" : 11,
+    "slot" : 9
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 10
+  }, {
+    "areaKey" : "AlteringCave2",
+    "bucketKey" : "Land",
+    "area" : "Altering Cave2",
+    "bucket" : "Land",
+    "rateBase" : 7,
+    "min" : 11,
+    "max" : 11,
+    "slot" : 11
+  }, {
+    "areaKey" : "OldaleTown0",
+    "bucketKey" : "Land",
+    "area" : "Oldale Town0",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 4,
+    "max" : 5,
+    "slot" : 6
+  } ]
+}

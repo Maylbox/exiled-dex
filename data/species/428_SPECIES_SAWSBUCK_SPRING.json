@@ -1,0 +1,107 @@
+{
+  "dex" : 428,
+  "speciesId" : "SPECIES_SAWSBUCK_SPRING",
+  "name" : "Sawsbuck",
+  "types" : [ "Normal", "Grass" ],
+  "abilities" : [ "Reckless", "Sap Sipper", "Serene Grace" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 166,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.9,
+  "weightKg" : 92.5,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Season",
+  "friendship" : 70,
+  "description" : "Some people call Sawsbuck the harbingers\nof spring because the plants growing on\nits horns change according to the season.\nThe leader possesses magnificent horns.",
+  "preEvolutionId" : "SPECIES_DEERLING_SPRING",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 105,
+    "def" : 80,
+    "spe" : 101,
+    "spa" : 50,
+    "spd" : 75
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Horn Leech"
+  }, {
+    "level" : 1,
+    "move" : "Camouflage"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Horn Leech"
+  }, {
+    "level" : 1,
+    "move" : "Megahorn"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Growl"
+  }, {
+    "level" : 7,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 10,
+    "move" : "Double Kick"
+  }, {
+    "level" : 13,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 16,
+    "move" : "Feint Attack"
+  }, {
+    "level" : 20,
+    "move" : "Take Down"
+  }, {
+    "level" : 24,
+    "move" : "Jump Kick"
+  }, {
+    "level" : 28,
+    "move" : "Glare"
+  }, {
+    "level" : 34,
+    "move" : "Horn Leech"
+  }, {
+    "level" : 36,
+    "move" : "Triple Kick"
+  }, {
+    "level" : 44,
+    "move" : "Nature Power"
+  }, {
+    "level" : 48,
+    "move" : "Knock Off"
+  }, {
+    "level" : 52,
+    "move" : "Double Edge"
+  }, {
+    "level" : 60,
+    "move" : "Wood Hammer"
+  }, {
+    "level" : 66,
+    "move" : "Grassy Glide"
+  }, {
+    "level" : 70,
+    "move" : "Play Rough"
+  } ],
+  "eggMoves" : [ "Agility", "Baton Pass", "Fake Tears", "Grass Whistle", "Headbutt", "Natural Gift", "Odor Sleuth", "Sleep Talk", "Synthesis", "Worry Seed" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bulldoze", "Bullet Seed", "Cut", "Dig", "Double Edge", "Double Team", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "High Horsepower", "Hyper Beam", "Light Screen", "Play Rough", "Protect", "Rain Dance", "Rest", "Rock Smash", "Safeguard", "Shadow Ball", "Sleep Talk", "Smart Strike", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swords Dance", "Thunder Wave", "Toxic", "Trailblaze", "Wild Charge" ],
+  "encounters" : [ ]
+}

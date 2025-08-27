@@ -1,0 +1,101 @@
+{
+  "dex" : 363,
+  "speciesId" : "SPECIES_HIPPOWDON",
+  "name" : "Hippowdon",
+  "types" : [ "Ground", null ],
+  "abilities" : [ "Sand Stream", "None", "Sand Force" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 60,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 7680,
+  "heightM" : 2.0,
+  "weightKg" : 300.0,
+  "growthRate" : "Slow",
+  "color" : "Brown",
+  "category" : "Heavyweight",
+  "friendship" : 70,
+  "description" : "It is surprisingly quick to anger.\nIt brandishes its gaping mouth in a\ndisplay of fearsome strength and raises\nvast quantities of sand while attacking.",
+  "preEvolutionId" : "SPECIES_HIPPOPOTAS",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 108,
+    "atk" : 112,
+    "def" : 118,
+    "spe" : 47,
+    "spa" : 68,
+    "spd" : 72
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 1,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Fang"
+  }, {
+    "level" : 1,
+    "move" : "Yawn"
+  }, {
+    "level" : 12,
+    "move" : "Sand Tomb"
+  }, {
+    "level" : 16,
+    "move" : "Dig"
+  }, {
+    "level" : 20,
+    "move" : "Crunch"
+  }, {
+    "level" : 24,
+    "move" : "Sandstorm"
+  }, {
+    "level" : 28,
+    "move" : "Take Down"
+  }, {
+    "level" : 32,
+    "move" : "Roar"
+  }, {
+    "level" : 38,
+    "move" : "Rest"
+  }, {
+    "level" : 44,
+    "move" : "Earthquake"
+  }, {
+    "level" : 50,
+    "move" : "Double Edge"
+  }, {
+    "level" : 56,
+    "move" : "Fissure"
+  }, {
+    "level" : 62,
+    "move" : "Slack Off"
+  } ],
+  "eggMoves" : [ "Body Slam", "Curse", "Revenge", "Sand Tomb", "Slack Off", "Sleep Talk", "Spit Up", "Stockpile", "Swallow", "Whirlwind" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Bulldoze", "Crunch", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Fang", "Giga Impact", "High Horsepower", "Hyper Beam", "Ice Fang", "Iron Head", "Mud Slap", "Protect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Thunder Fang", "Toxic", "Water Pulse" ],
+  "encounters" : [ {
+    "areaKey" : "Route111",
+    "bucketKey" : "Land",
+    "area" : "Route 111",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 43,
+    "max" : 46,
+    "slot" : 3
+  } ]
+}

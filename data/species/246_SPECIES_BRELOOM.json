@@ -1,0 +1,152 @@
+{
+  "dex" : 246,
+  "speciesId" : "SPECIES_BRELOOM",
+  "name" : "Breloom",
+  "types" : [ "Grass", "Fighting" ],
+  "abilities" : [ "Effect Spore", "Poison Heal", "Technician" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 90,
+  "baseExp" : 0,
+  "eggGroups" : [ "Fairy", "Grass" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.2,
+  "weightKg" : 39.2,
+  "growthRate" : "Fluctuating",
+  "color" : "Green",
+  "category" : "Mushroom",
+  "friendship" : 70,
+  "description" : "It scatters spores from holes in the cap\non its head. It loves warm and humid\nclimates. It feeds on trees and plants in\nfields and forests.",
+  "preEvolutionId" : "SPECIES_SHROOMISH",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 60,
+    "atk" : 130,
+    "def" : 80,
+    "spe" : 70,
+    "spa" : 60,
+    "spd" : 60
+  },
+  "heldItems" : {
+    "common" : "Tiny Mushroom",
+    "rare" : "Big Mushroom"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 1,
+    "move" : "Absorb"
+  }, {
+    "level" : 1,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 1,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 1,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 8,
+    "move" : "Leech Seed"
+  }, {
+    "level" : 12,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 15,
+    "move" : "Headbutt"
+  }, {
+    "level" : 19,
+    "move" : "Feint"
+  }, {
+    "level" : 22,
+    "move" : "Counter"
+  }, {
+    "level" : 23,
+    "move" : "Mach Punch"
+  }, {
+    "level" : 28,
+    "move" : "Force Palm"
+  }, {
+    "level" : 33,
+    "move" : "Mind Reader"
+  }, {
+    "level" : 39,
+    "move" : "Sky Uppercut"
+  }, {
+    "level" : 44,
+    "move" : "Seed Bomb"
+  }, {
+    "level" : 50,
+    "move" : "Dynamicpunch"
+  }, {
+    "level" : 65,
+    "move" : "Spore"
+  } ],
+  "eggMoves" : [ "Bullet Seed", "Charm", "Drain Punch", "Fake Tears", "Focus Punch", "Helping Hand", "Natural Gift", "Seed Bomb", "Wake Up Slap", "Worry Seed" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Bullet Seed", "Counter", "Cut", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Focus Blast", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Hyper Beam", "Low Kick", "Mega Kick", "Mega Punch", "Mud Slap", "Poison Jab", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Seismic Toss", "Sleep Talk", "Sludge Bomb", "Snatch", "Snore", "Solar Beam", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swift", "Swords Dance", "Thunder Punch", "Toxic", "Venoshock" ],
+  "encounters" : [ {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_3",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 2
+  }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_3",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 3
+  }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_3",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 4
+  }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_3",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 5
+  }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_3",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 8
+  }, {
+    "areaKey" : "BattlePike_3",
+    "bucketKey" : "Land",
+    "area" : "Battle Pike_3",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 5,
+    "max" : 5,
+    "slot" : 9
+  } ]
+}

@@ -1,0 +1,227 @@
+{
+  "dex" : 615,
+  "speciesId" : "SPECIES_GARGANACL",
+  "name" : "Garganacl",
+  "types" : [ "Rock", null ],
+  "abilities" : [ "Purifying Salt", "Sturdy", "Clear Body" ],
+  "evYield" : {
+    "def" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 250,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.3,
+  "weightKg" : 240.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Rock Salt",
+  "friendship" : 70,
+  "description" : "Garganacl will rub its fingertips\ntogether and sprinkle injured\nPokémon with salt. Even severe wounds will\npromptly heal afterward.",
+  "preEvolutionId" : "SPECIES_NACLSTACK",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 100,
+    "def" : 130,
+    "spe" : 35,
+    "spa" : 45,
+    "spd" : 90
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 1,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 1,
+    "move" : "Salt Cure"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Rock Polish"
+  }, {
+    "level" : 12,
+    "move" : "Smack Down"
+  }, {
+    "level" : 15,
+    "move" : "Headbutt"
+  }, {
+    "level" : 19,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 23,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 28,
+    "move" : "Recover"
+  }, {
+    "level" : 31,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 36,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 39,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 43,
+    "move" : "Earthquake"
+  }, {
+    "level" : 47,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 53,
+    "move" : "Body Press"
+  }, {
+    "level" : 55,
+    "move" : "Thunderpunch"
+  }, {
+    "level" : 59,
+    "move" : "Iron Head"
+  }, {
+    "level" : 63,
+    "move" : "Curse"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Curse", "Fissure", "Power Gem" ],
+  "teachableMoves" : [ "Avalanche", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Dig", "Double Edge", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Fire Punch", "Flash Cannon", "Giga Impact", "Hyper Beam", "Ice Punch", "Iron Defense", "Iron Head", "Meteor Beam", "Protect", "Rain Dance", "Rest", "Rock Polish", "Rock Slide", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Stealth Rock", "Stone Edge", "Sunny Day", "Thunder Punch" ],
+  "encounters" : [ {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 9
+  }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 9
+  }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_B1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 9
+  }, {
+    "areaKey" : "VictoryRoad_B1F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_B1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 10
+  }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_B2F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 9
+  }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_B2F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 10
+  }, {
+    "areaKey" : "MagmaHideout_1F",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 6
+  }, {
+    "areaKey" : "MagmaHideout_2F_1R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 6
+  }, {
+    "areaKey" : "MagmaHideout_2F_2R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 6
+  }, {
+    "areaKey" : "MagmaHideout_3F_1R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 6
+  }, {
+    "areaKey" : "MagmaHideout_3F_2R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 6
+  }, {
+    "areaKey" : "MagmaHideout_4F",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 6
+  }, {
+    "areaKey" : "MagmaHideout_3F_3R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 6
+  }, {
+    "areaKey" : "MagmaHideout_2F_3R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 6
+  } ]
+}

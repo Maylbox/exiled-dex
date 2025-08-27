@@ -1,0 +1,81 @@
+{
+  "dex" : 31,
+  "speciesId" : "SPECIES_NIDORAN_M",
+  "name" : "Nidoran♂",
+  "types" : [ "Poison", null ],
+  "abilities" : [ "Poison Point", "Rivalry", "Hustle" ],
+  "evYield" : {
+    "atk" : 1
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 235,
+  "baseExp" : 0,
+  "eggGroups" : [ "Monster", "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 9.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Purple",
+  "category" : "Poison Pin",
+  "friendship" : 70,
+  "description" : "The male Nidoran has developed muscles\nthat freely move its ears in any direction.\nEven the slightest sound does not escape\nthis Pokémon's notice.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_NIDORINO",
+    "method" : "level",
+    "param" : "16"
+  } ],
+  "baseStats" : {
+    "hp" : 46,
+    "atk" : 57,
+    "def" : 40,
+    "spe" : 50,
+    "spa" : 40,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 7,
+    "move" : "Focus Energy"
+  }, {
+    "level" : 9,
+    "move" : "Double Kick"
+  }, {
+    "level" : 13,
+    "move" : "Poison Sting"
+  }, {
+    "level" : 19,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 21,
+    "move" : "Horn Attack"
+  }, {
+    "level" : 25,
+    "move" : "Helping Hand"
+  }, {
+    "level" : 31,
+    "move" : "Toxic Spikes"
+  }, {
+    "level" : 33,
+    "move" : "Flatter"
+  }, {
+    "level" : 37,
+    "move" : "Poison Jab"
+  }, {
+    "level" : 43,
+    "move" : "Captivate"
+  }, {
+    "level" : 45,
+    "move" : "Horn Drill"
+  } ],
+  "eggMoves" : [ "Amnesia", "Beat Up", "Chip Away", "Confusion", "Counter", "Disable", "Endure", "Head Smash", "Iron Tail", "Poison Tail", "Sucker Punch", "Supersonic", "Take Down", "Venom Drench" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Counter", "Cut", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Endure", "Facade", "Hone Claws", "Ice Beam", "Mud Slap", "Poison Jab", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Shadow Claw", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Smart Strike", "Snore", "Strength", "Sunny Day", "Swagger", "Thief", "Thunder", "Thunderbolt", "Toxic", "Venoshock", "Water Pulse" ],
+  "encounters" : [ ]
+}

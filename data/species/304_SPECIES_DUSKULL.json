@@ -1,0 +1,107 @@
+{
+  "dex" : 304,
+  "speciesId" : "SPECIES_DUSKULL",
+  "name" : "Duskull",
+  "types" : [ "Ghost", null ],
+  "abilities" : [ "Levitate", "None", "Frisk" ],
+  "evYield" : {
+    "spd" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 0,
+  "eggGroups" : [ "Amorphous" ],
+  "hatchSteps" : 6400,
+  "heightM" : 0.8,
+  "weightKg" : 15.0,
+  "growthRate" : "Fast",
+  "color" : "Black",
+  "category" : "Requiem",
+  "friendship" : 35,
+  "description" : "A glare from its single scarlet eye makes\neven burly grown-ups freeze in utter fear.\nIt is a nocturnal Pokémon that roams\nabout under the cloak of darkness.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_DUSCLOPS",
+    "method" : "level",
+    "param" : "37"
+  } ],
+  "baseStats" : {
+    "hp" : 20,
+    "atk" : 40,
+    "def" : 90,
+    "spe" : 25,
+    "spa" : 30,
+    "spd" : 90
+  },
+  "heldItems" : {
+    "common" : "Spell Tag"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Night Shade"
+  }, {
+    "level" : 6,
+    "move" : "Pound"
+  }, {
+    "level" : 9,
+    "move" : "Astonish"
+  }, {
+    "level" : 14,
+    "move" : "Foresight"
+  }, {
+    "level" : 17,
+    "move" : "Shadow Sneak"
+  }, {
+    "level" : 22,
+    "move" : "Pursuit"
+  }, {
+    "level" : 25,
+    "move" : "Will O Wisp"
+  }, {
+    "level" : 30,
+    "move" : "Confuse Ray"
+  }, {
+    "level" : 33,
+    "move" : "Curse"
+  }, {
+    "level" : 38,
+    "move" : "Hex"
+  }, {
+    "level" : 41,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 46,
+    "move" : "Mean Look"
+  }, {
+    "level" : 49,
+    "move" : "Payback"
+  }, {
+    "level" : 54,
+    "move" : "Future Sight"
+  } ],
+  "eggMoves" : [ "Dark Pulse", "Destiny Bond", "Feint Attack", "Grudge", "Haze", "Imprison", "Memento", "Ominous Wind", "Pain Split", "Skill Swap" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Calm Mind", "Charge Beam", "Dark Pulse", "Double Edge", "Double Team", "Dream Eater", "Endure", "Facade", "Flash", "Hex", "Ice Beam", "Icy Wind", "Leech Life", "Protect", "Psych Up", "Psychic", "Rain Dance", "Rest", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Taunt", "Thief", "Torment", "Toxic", "Trick Room", "Will O Wisp" ],
+  "encounters" : [ {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_B1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 17,
+    "slot" : 4
+  }, {
+    "areaKey" : "GraniteCave_B1F",
+    "bucketKey" : "Land",
+    "area" : "Granite Cave_B1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 15,
+    "max" : 17,
+    "slot" : 6
+  } ]
+}

@@ -1,0 +1,122 @@
+{
+  "dex" : 221,
+  "speciesId" : "SPECIES_MIGHTYENA",
+  "name" : "Mightyena",
+  "types" : [ "Dark", null ],
+  "abilities" : [ "Intimidate", "Quick Feet", "Moxie" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 127,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.0,
+  "weightKg" : 37.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Bite",
+  "friendship" : 70,
+  "description" : "In the wild, Mightyena live in a pack.\nThey never defy their leader's orders.\nThey defeat foes with perfectly\ncoordinated teamwork.",
+  "preEvolutionId" : "SPECIES_POOCHYENA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 72,
+    "atk" : 98,
+    "def" : 70,
+    "spe" : 85,
+    "spa" : 60,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Snarl"
+  }, {
+    "level" : 1,
+    "move" : "Bite"
+  }, {
+    "level" : 1,
+    "move" : "Crunch"
+  }, {
+    "level" : 1,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 1,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 1,
+    "move" : "Sand Attack"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Thief"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Fang"
+  }, {
+    "level" : 13,
+    "move" : "Howl"
+  }, {
+    "level" : 13,
+    "move" : "Leer"
+  }, {
+    "level" : 16,
+    "move" : "Roar"
+  }, {
+    "level" : 20,
+    "move" : "Swagger"
+  }, {
+    "level" : 24,
+    "move" : "Assurance"
+  }, {
+    "level" : 28,
+    "move" : "Scary Face"
+  }, {
+    "level" : 36,
+    "move" : "Taunt"
+  }, {
+    "level" : 44,
+    "move" : "Yawn"
+  }, {
+    "level" : 48,
+    "move" : "Jaw Lock"
+  }, {
+    "level" : 52,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 56,
+    "move" : "Play Rough"
+  }, {
+    "level" : 62,
+    "move" : "Close Combat"
+  }, {
+    "level" : 68,
+    "move" : "Dire Claw"
+  } ],
+  "eggMoves" : [ "Astonish", "Covet", "Fire Fang", "Ice Fang", "Leer", "Me First", "Play Rough", "Poison Fang", "Sleep Talk", "Snatch", "Sucker Punch", "Thunder Fang", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Counter", "Covet", "Crunch", "Dark Pulse", "Dig", "Double Edge", "Double Team", "Endure", "Facade", "Fire Fang", "Giga Impact", "Hyper Beam", "Ice Fang", "Mud Slap", "Play Rough", "Protect", "Psych Up", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Rock Smash", "Shadow Ball", "Sleep Talk", "Snatch", "Snore", "Strength", "Sunny Day", "Swagger", "Taunt", "Thief", "Thunder Fang", "Torment", "Toxic", "Trailblaze" ],
+  "encounters" : [ {
+    "areaKey" : "Route121",
+    "bucketKey" : "Land",
+    "area" : "Route 121",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 52,
+    "max" : 55,
+    "slot" : 4
+  }, {
+    "areaKey" : "Route123",
+    "bucketKey" : "Land",
+    "area" : "Route 123",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 52,
+    "max" : 55,
+    "slot" : 4
+  } ]
+}

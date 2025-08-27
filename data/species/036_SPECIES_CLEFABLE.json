@@ -1,0 +1,160 @@
+{
+  "dex" : 36,
+  "speciesId" : "SPECIES_CLEFABLE",
+  "name" : "Clefable",
+  "types" : [ "Fairy", null ],
+  "abilities" : [ "Cute Charm", "Magic Guard", "Unaware" ],
+  "evYield" : {
+    "hp" : 3
+  },
+  "malePct" : 25.0,
+  "femalePct" : 75.0,
+  "catchRate" : 25,
+  "baseExp" : 129,
+  "eggGroups" : [ "Fairy" ],
+  "hatchSteps" : 2560,
+  "heightM" : 1.3,
+  "weightKg" : 40.0,
+  "growthRate" : "Fast",
+  "color" : "Pink",
+  "category" : "Fairy",
+  "friendship" : 140,
+  "description" : "A Clefable uses its wings to skip lightly \nas if it were flying. Its bouncy step\nlets it even walk on water. On quiet,\nmoonlit nights, it strolls on lakes.",
+  "preEvolutionId" : "SPECIES_CLEFAIRY",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 95,
+    "atk" : 70,
+    "def" : 73,
+    "spe" : 60,
+    "spa" : 95,
+    "spd" : 90
+  },
+  "heldItems" : {
+    "common" : "Moon Stone"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Amnesia"
+  }, {
+    "level" : 1,
+    "move" : "Aromatherapy"
+  }, {
+    "level" : 1,
+    "move" : "Belly Drum"
+  }, {
+    "level" : 1,
+    "move" : "Covet"
+  }, {
+    "level" : 1,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 1,
+    "move" : "Encore"
+  }, {
+    "level" : 1,
+    "move" : "Fake Tears"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Heal Pulse"
+  }, {
+    "level" : 1,
+    "move" : "Metronome"
+  }, {
+    "level" : 1,
+    "move" : "Mimic"
+  }, {
+    "level" : 1,
+    "move" : "Misty Terrain"
+  }, {
+    "level" : 1,
+    "move" : "Pound"
+  }, {
+    "level" : 1,
+    "move" : "Present"
+  }, {
+    "level" : 1,
+    "move" : "Splash"
+  }, {
+    "level" : 1,
+    "move" : "Spotlight"
+  }, {
+    "level" : 1,
+    "move" : "Stored Power"
+  }, {
+    "level" : 1,
+    "move" : "Tickle"
+  }, {
+    "level" : 1,
+    "move" : "Wish"
+  }, {
+    "level" : 7,
+    "move" : "Sing"
+  }, {
+    "level" : 10,
+    "move" : "Doubleslap"
+  }, {
+    "level" : 13,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 16,
+    "move" : "Follow Me"
+  }, {
+    "level" : 19,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 22,
+    "move" : "Wish"
+  }, {
+    "level" : 25,
+    "move" : "Minimize"
+  }, {
+    "level" : 28,
+    "move" : "Stored Power"
+  }, {
+    "level" : 31,
+    "move" : "Metronome"
+  }, {
+    "level" : 34,
+    "move" : "Cosmic Power"
+  }, {
+    "level" : 37,
+    "move" : "Lucky Chant"
+  }, {
+    "level" : 40,
+    "move" : "Body Slam"
+  }, {
+    "level" : 43,
+    "move" : "Softboiled"
+  }, {
+    "level" : 46,
+    "move" : "Moonblast"
+  }, {
+    "level" : 49,
+    "move" : "Gravity"
+  }, {
+    "level" : 50,
+    "move" : "Meteor Mash"
+  }, {
+    "level" : 55,
+    "move" : "Healing Wish"
+  }, {
+    "level" : 58,
+    "move" : "After You"
+  } ],
+  "eggMoves" : [ "Amnesia", "Aromatherapy", "Belly Drum", "Covet", "Fake Tears", "Heal Pulse", "Metronome", "Mimic", "Misty Terrain", "Present", "Splash", "Stored Power", "Tickle", "Wish" ],
+  "teachableMoves" : [ "Attract", "Blizzard", "Body Slam", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dual Wingbeat", "Dynamic Punch", "Endure", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Flash", "Focus Blast", "Giga Impact", "Grass Knot", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Meteor Beam", "Metronome", "Mud Slap", "Mystical Fire", "Play Rough", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Safeguard", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Soft Boiled", "Solar Beam", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Water Pulse" ],
+  "encounters" : [ {
+    "areaKey" : "MossdeepCity",
+    "bucketKey" : "Land",
+    "area" : "Mossdeep City",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 67,
+    "max" : 69,
+    "slot" : 0
+  } ]
+}

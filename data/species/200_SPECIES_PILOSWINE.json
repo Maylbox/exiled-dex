@@ -1,0 +1,103 @@
+{
+  "dex" : 200,
+  "speciesId" : "SPECIES_PILOSWINE",
+  "name" : "Piloswine",
+  "types" : [ "Ice", "Ground" ],
+  "abilities" : [ "Oblivious", "Snow Cloak", "Thick Fat" ],
+  "evYield" : {
+    "hp" : 1,
+    "atk" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 0,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.1,
+  "weightKg" : 55.8,
+  "growthRate" : "Slow",
+  "color" : "Brown",
+  "category" : "Swine",
+  "friendship" : 70,
+  "description" : "A Piloswine is covered by a thick coat\nof long hair for enduring freezing cold.\nIt uses its tusks to dig up food that has\nbeen buried under ice.",
+  "preEvolutionId" : "SPECIES_SWINUB",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_MAMOSWINE",
+    "method" : "move",
+    "param" : "MOVE_ANCIENT_POWER"
+  } ],
+  "baseStats" : {
+    "hp" : 100,
+    "atk" : 100,
+    "def" : 80,
+    "spe" : 50,
+    "spa" : 60,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 1,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 1,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 1,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 1,
+    "move" : "Odor Sleuth"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 5,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 8,
+    "move" : "Ice Shard"
+  }, {
+    "level" : 11,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 14,
+    "move" : "Endure"
+  }, {
+    "level" : 18,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 21,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 30,
+    "move" : "Slash"
+  }, {
+    "level" : 33,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 37,
+    "move" : "Mist"
+  }, {
+    "level" : 41,
+    "move" : "Thrash"
+  }, {
+    "level" : 46,
+    "move" : "Earthquake"
+  }, {
+    "level" : 52,
+    "move" : "Icicle Crash"
+  }, {
+    "level" : 58,
+    "move" : "Amnesia"
+  } ],
+  "eggMoves" : [ "Ancient Power", "Avalanche", "Bite", "Body Slam", "Curse", "Double Edge", "Fissure", "Freeze Dry", "Icicle Crash", "Icicle Spear", "Mud Shot", "Stealth Rock", "Take Down" ],
+  "teachableMoves" : [ "Attract", "Avalanche", "Blizzard", "Body Slam", "Bulldoze", "Defense Curl", "Dig", "Double Edge", "Double Team", "Earth Power", "Earthquake", "Endure", "Facade", "Giga Impact", "High Horsepower", "Hyper Beam", "Ice Beam", "Ice Fang", "Icicle Crash", "Icy Wind", "Light Screen", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Snowscape", "Stealth Rock", "Stone Edge", "Strength", "Swagger", "Toxic", "Trailblaze" ],
+  "encounters" : [ ]
+}

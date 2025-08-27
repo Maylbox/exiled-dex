@@ -1,0 +1,96 @@
+{
+  "dex" : 551,
+  "speciesId" : "SPECIES_RABOOT",
+  "name" : "Raboot",
+  "types" : [ "Fire", null ],
+  "abilities" : [ "Blaze", "None", "Libero" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 87.5,
+  "femalePct" : 12.5,
+  "catchRate" : 45,
+  "baseExp" : 147,
+  "eggGroups" : [ "Field", "Human Like" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 9.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Gray",
+  "category" : "Rabbit",
+  "friendship" : 70,
+  "description" : "Its thick and fluffy fur protects it\nfrom the cold and enables it to use\nhotter fire moves.",
+  "preEvolutionId" : "SPECIES_SCORBUNNY",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CINDERACE",
+    "method" : "level",
+    "param" : "35"
+  } ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 86,
+    "def" : 60,
+    "spe" : 94,
+    "spa" : 55,
+    "spd" : 60
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 1,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 1,
+    "move" : "Growl"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 6,
+    "move" : "Ember"
+  }, {
+    "level" : 8,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 12,
+    "move" : "Double Kick"
+  }, {
+    "level" : 14,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 17,
+    "move" : "Flame Charge"
+  }, {
+    "level" : 19,
+    "move" : "Mud Shot"
+  }, {
+    "level" : 24,
+    "move" : "Agility"
+  }, {
+    "level" : 30,
+    "move" : "Headbutt"
+  }, {
+    "level" : 36,
+    "move" : "Counter"
+  }, {
+    "level" : 42,
+    "move" : "Bounce"
+  }, {
+    "level" : 48,
+    "move" : "Double Edge"
+  } ],
+  "eggMoves" : [ "High Jump Kick", "Sand Attack", "Sucker Punch", "Super Fang" ],
+  "teachableMoves" : [ "Acrobatics", "Attract", "Blaze Kick", "Bulk Up", "Counter", "Double Edge", "Endure", "Facade", "Fire Blast", "Fire Fang", "Flamethrower", "Low Kick", "Mega Kick", "Overheat", "Protect", "Rest", "Sleep Talk", "Snore", "Sunny Day", "Swift", "Swords Dance", "Taunt", "Trailblaze", "U Turn" ],
+  "encounters" : [ {
+    "areaKey" : "LavaridgeTown0",
+    "bucketKey" : "Land",
+    "area" : "Lavaridge Town0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 30,
+    "max" : 34,
+    "slot" : 10
+  } ]
+}

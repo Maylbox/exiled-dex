@@ -1,0 +1,108 @@
+{
+  "dex" : 103,
+  "speciesId" : "SPECIES_TANGELA",
+  "name" : "Tangela",
+  "types" : [ "Grass", null ],
+  "abilities" : [ "Chlorophyll", "Leaf Guard", "Regenerator" ],
+  "evYield" : {
+    "def" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Grass" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.0,
+  "weightKg" : 35.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Blue",
+  "category" : "Vine",
+  "friendship" : 70,
+  "description" : "Its vines snap off easily and painlessly\nif they are grabbed, allowing it to make a\nquick getaway. The lost vines are replaced\nby new growth the very next day.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_TANGROWTH",
+    "method" : "move",
+    "param" : "MOVE_ANCIENT_POWER"
+  } ],
+  "baseStats" : {
+    "hp" : 65,
+    "atk" : 55,
+    "def" : 115,
+    "spe" : 60,
+    "spa" : 100,
+    "spd" : 40
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Constrict"
+  }, {
+    "level" : 1,
+    "move" : "Ingrain"
+  }, {
+    "level" : 4,
+    "move" : "Sleep Powder"
+  }, {
+    "level" : 7,
+    "move" : "Vine Whip"
+  }, {
+    "level" : 10,
+    "move" : "Absorb"
+  }, {
+    "level" : 14,
+    "move" : "Poisonpowder"
+  }, {
+    "level" : 17,
+    "move" : "Bind"
+  }, {
+    "level" : 20,
+    "move" : "Growth"
+  }, {
+    "level" : 23,
+    "move" : "Mega Drain"
+  }, {
+    "level" : 27,
+    "move" : "Knock Off"
+  }, {
+    "level" : 30,
+    "move" : "Stun Spore"
+  }, {
+    "level" : 33,
+    "move" : "Natural Gift"
+  }, {
+    "level" : 36,
+    "move" : "Giga Drain"
+  }, {
+    "level" : 38,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 41,
+    "move" : "Slam"
+  }, {
+    "level" : 44,
+    "move" : "Tickle"
+  }, {
+    "level" : 46,
+    "move" : "Wring Out"
+  }, {
+    "level" : 48,
+    "move" : "Grassy Terrain"
+  }, {
+    "level" : 50,
+    "move" : "Power Whip"
+  } ],
+  "eggMoves" : [ "Amnesia", "Confusion", "Endeavor", "Flail", "Giga Drain", "Leaf Storm", "Leech Seed", "Mega Drain", "Natural Gift", "Nature Power", "Power Swap", "Rage Powder", "Wake Up Slap" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Bullet Seed", "Cut", "Double Edge", "Double Team", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Hyper Beam", "Knock Off", "Power Whip", "Protect", "Psych Up", "Reflect", "Rest", "Rock Smash", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "DeepWoods0",
+    "bucketKey" : "Land",
+    "area" : "Deep Woods0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 10
+  } ]
+}

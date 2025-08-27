@@ -1,0 +1,107 @@
+{
+  "dex" : 482,
+  "speciesId" : "SPECIES_MEOWSTIC_FEMALE",
+  "name" : "Meowstic",
+  "types" : [ "Psychic", null ],
+  "abilities" : [ "Keen Eye", "Infiltrator", "Competitive" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 0.0,
+  "femalePct" : 100.0,
+  "catchRate" : 75,
+  "baseExp" : 163,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.6,
+  "weightKg" : 8.5,
+  "growthRate" : "Medium Fast",
+  "color" : "White",
+  "category" : "Constraint",
+  "friendship" : 70,
+  "description" : "Females are a bit more selfish and\naggressive than males. If they\ndon't get what they want, they will\ntorment you with their psychic abilities.",
+  "preEvolutionId" : "SPECIES_ESPURR",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 74,
+    "atk" : 48,
+    "def" : 76,
+    "spe" : 104,
+    "spa" : 83,
+    "spd" : 81
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Confusion"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Magical Leaf"
+  }, {
+    "level" : 1,
+    "move" : "Me First"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 1,
+    "move" : "Stored Power"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 5,
+    "move" : "Covet"
+  }, {
+    "level" : 9,
+    "move" : "Confusion"
+  }, {
+    "level" : 13,
+    "move" : "Light Screen"
+  }, {
+    "level" : 17,
+    "move" : "Psybeam"
+  }, {
+    "level" : 19,
+    "move" : "Fake Out"
+  }, {
+    "level" : 22,
+    "move" : "Disarming Voice"
+  }, {
+    "level" : 25,
+    "move" : "Psyshock"
+  }, {
+    "level" : 31,
+    "move" : "Shadow Ball"
+  }, {
+    "level" : 35,
+    "move" : "Extrasensory"
+  }, {
+    "level" : 40,
+    "move" : "Psychic"
+  }, {
+    "level" : 43,
+    "move" : "Role Play"
+  }, {
+    "level" : 45,
+    "move" : "Signal Beam"
+  }, {
+    "level" : 48,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 50,
+    "move" : "Future Sight"
+  }, {
+    "level" : 53,
+    "move" : "Stored Power"
+  }, {
+    "level" : 57,
+    "move" : "Expanding Force"
+  } ],
+  "eggMoves" : [ "Assist", "Barrier", "Trick", "Yawn" ],
+  "teachableMoves" : [ "Attract", "Calm Mind", "Charge Beam", "Covet", "Cut", "Dark Pulse", "Dig", "Double Team", "Dream Eater", "Endure", "Energy Ball", "Facade", "Flash", "Giga Impact", "Hyper Beam", "Light Screen", "Play Rough", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Safeguard", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Sunny Day", "Swagger", "Swift", "Thunder Wave", "Thunderbolt", "Torment", "Toxic", "Trailblaze", "Trick Room" ],
+  "encounters" : [ ]
+}

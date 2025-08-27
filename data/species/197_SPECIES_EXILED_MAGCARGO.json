@@ -1,0 +1,107 @@
+{
+  "dex" : 197,
+  "speciesId" : "SPECIES_EXILED_MAGCARGO",
+  "name" : "Exiled Magcargo",
+  "types" : [ "Ice", "Poison" ],
+  "abilities" : [ "Slush Rush", "Ice Body", "Glacial Toxins" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 75,
+  "baseExp" : 154,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.8,
+  "weightKg" : 55.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Lava",
+  "friendship" : 70,
+  "description" : "The shell on its back is made of hardened\nmagma. Tens of thousands of years spent\nliving in volcanic craters have turned\nMagcargo's bodies into magma.",
+  "preEvolutionId" : "SPECIES_EXILED_SLUGMA",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 94,
+    "atk" : 113,
+    "def" : 90,
+    "spe" : 10,
+    "spa" : 106,
+    "spd" : 106
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Sludge Bomb"
+  }, {
+    "level" : 1,
+    "move" : "Powder Snow"
+  }, {
+    "level" : 1,
+    "move" : "Recover"
+  }, {
+    "level" : 1,
+    "move" : "Shell Smash"
+  }, {
+    "level" : 1,
+    "move" : "Sludge Bomb"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Harden"
+  }, {
+    "level" : 10,
+    "move" : "Icy Wind"
+  }, {
+    "level" : 15,
+    "move" : "Ancientpower"
+  }, {
+    "level" : 20,
+    "move" : "Aurora Beam"
+  }, {
+    "level" : 25,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 30,
+    "move" : "Ice Shard"
+  }, {
+    "level" : 35,
+    "move" : "Weather Ball"
+  }, {
+    "level" : 41,
+    "move" : "Avalanche"
+  }, {
+    "level" : 44,
+    "move" : "Freeze Dry"
+  }, {
+    "level" : 47,
+    "move" : "Amnesia"
+  }, {
+    "level" : 51,
+    "move" : "Blizzard"
+  }, {
+    "level" : 54,
+    "move" : "Ice Spinner"
+  }, {
+    "level" : 58,
+    "move" : "Sludge Wave"
+  }, {
+    "level" : 61,
+    "move" : "Toxic Spikes"
+  }, {
+    "level" : 63,
+    "move" : "Venoshock"
+  }, {
+    "level" : 65,
+    "move" : "Mortal Spin"
+  }, {
+    "level" : 68,
+    "move" : "Mountain Gale"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Aurora Veil", "Avalanche", "Body Press", "Body Slam", "Bulk Up", "Bulldoze", "Calm Mind", "Dazzling Gleam", "Defog", "Earth Power", "Earthquake", "Facade", "Flash", "Focus Blast", "Giga Drain", "Giga Impact", "Gyro Ball", "Hidden Power", "Ice Fang", "Icicle Crash", "Iron Defense", "Iron Head", "Knock Off", "Leech Life", "Light Screen", "Meteor Beam", "Mirror Coat", "Poison Jab", "Protect", "Reflect", "Rest", "Return", "Rock Slide", "Rock Smash", "Rock Tomb", "Safeguard", "Secret Power", "Shadow Ball", "Sludge Bomb", "Sludge Wave", "Smack Down", "Snowscape", "Stealth Rock", "Stone Edge", "Strength", "Swords Dance", "Toxic", "Trick Room", "Triple Axel" ],
+  "encounters" : [ ]
+}

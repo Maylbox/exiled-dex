@@ -1,0 +1,91 @@
+{
+  "dex" : 451,
+  "speciesId" : "SPECIES_DRUDDIGON",
+  "name" : "Druddigon",
+  "types" : [ "Dragon", null ],
+  "abilities" : [ "Rough Skin", "Sheer Force", "Mold Breaker" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 170,
+  "eggGroups" : [ "Dragon", "Monster" ],
+  "hatchSteps" : 7680,
+  "heightM" : 1.6,
+  "weightKg" : 139.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Red",
+  "category" : "Cave",
+  "friendship" : 70,
+  "description" : "It warms its body by absorbing sunlight\nwith its wings. When its body temperature\nfalls, it can no longer move. It uses its\nsharp claws to catch prey.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 97,
+    "atk" : 120,
+    "def" : 90,
+    "spe" : 52,
+    "spa" : 60,
+    "spd" : 90
+  },
+  "heldItems" : {
+    "common" : "Dragon Fang"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 5,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 9,
+    "move" : "Bite"
+  }, {
+    "level" : 13,
+    "move" : "Scary Face"
+  }, {
+    "level" : 18,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 21,
+    "move" : "Slash"
+  }, {
+    "level" : 25,
+    "move" : "Crunch"
+  }, {
+    "level" : 27,
+    "move" : "Dragon Claw"
+  }, {
+    "level" : 31,
+    "move" : "Chip Away"
+  }, {
+    "level" : 35,
+    "move" : "Revenge"
+  }, {
+    "level" : 40,
+    "move" : "Night Slash"
+  }, {
+    "level" : 45,
+    "move" : "Dragon Tail"
+  }, {
+    "level" : 49,
+    "move" : "Rock Climb"
+  }, {
+    "level" : 55,
+    "move" : "Superpower"
+  }, {
+    "level" : 62,
+    "move" : "Outrage"
+  }, {
+    "level" : 70,
+    "move" : "Dragon Hammer"
+  } ],
+  "eggMoves" : [ "Crush Claw", "Feint Attack", "Fire Fang", "Glare", "Iron Tail", "Metal Claw", "Poison Tail", "Pursuit", "Snatch", "Sucker Punch", "Thunder Fang" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Bulldoze", "Charge Beam", "Crunch", "Cut", "Dark Pulse", "Dig", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dual Wingbeat", "Earthquake", "Endure", "Facade", "Fire Fang", "Fire Punch", "Flamethrower", "Flash Cannon", "Focus Blast", "Giga Impact", "Hone Claws", "Hyper Beam", "Iron Head", "Mega Punch", "Power Up Punch", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Smash", "Rock Tomb", "Shadow Claw", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Smack Down", "Snatch", "Snore", "Stealth Rock", "Strength", "Sunny Day", "Surf", "Swagger", "Taunt", "Thunder Fang", "Thunder Punch", "Torment", "Toxic" ],
+  "encounters" : [ ]
+}

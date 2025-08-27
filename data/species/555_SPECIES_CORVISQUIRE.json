@@ -1,0 +1,75 @@
+{
+  "dex" : 555,
+  "speciesId" : "SPECIES_CORVISQUIRE",
+  "name" : "Corvisquire",
+  "types" : [ "Flying", null ],
+  "abilities" : [ "Keen Eye", "Unnerve", "Big Pecks" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 120,
+  "baseExp" : 128,
+  "eggGroups" : [ "Flying" ],
+  "hatchSteps" : 3840,
+  "heightM" : 0.8,
+  "weightKg" : 16.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Blue",
+  "category" : "Raven",
+  "friendship" : 70,
+  "description" : "Smart enough to use tools in battle,\nthese Pokémon have been seen picking up\nrocks and flinging them or using ropes\nto wrap up enemies.",
+  "preEvolutionId" : "SPECIES_ROOKIDEE",
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_CORVIKNIGHT",
+    "method" : "level",
+    "param" : "38"
+  } ],
+  "baseStats" : {
+    "hp" : 68,
+    "atk" : 67,
+    "def" : 55,
+    "spe" : 77,
+    "spa" : 43,
+    "spd" : 55
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Hone Claws"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Peck"
+  }, {
+    "level" : 1,
+    "move" : "Power Trip"
+  }, {
+    "level" : 12,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 16,
+    "move" : "Pluck"
+  }, {
+    "level" : 22,
+    "move" : "Taunt"
+  }, {
+    "level" : 28,
+    "move" : "Scary Face"
+  }, {
+    "level" : 34,
+    "move" : "Drill Peck"
+  }, {
+    "level" : 40,
+    "move" : "Swagger"
+  }, {
+    "level" : 46,
+    "move" : "Brave Bird"
+  } ],
+  "eggMoves" : [ "Defog", "Rock Smash", "Roost", "Sand Attack", "Sky Attack", "Spite", "Tailwind" ],
+  "teachableMoves" : [ "Aerial Ace", "Air Slash", "Attract", "Brave Bird", "Defog", "Dual Wingbeat", "Endure", "Facade", "Fly", "Hone Claws", "Protect", "Rest", "Rock Smash", "Roost", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "U Turn" ],
+  "encounters" : [ ]
+}

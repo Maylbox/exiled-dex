@@ -1,0 +1,89 @@
+{
+  "dex" : 195,
+  "speciesId" : "SPECIES_URSALUNA_BLOODMOON",
+  "name" : "Ursaluna",
+  "types" : [ "Ground", "Normal" ],
+  "abilities" : [ "Minds Eye", "None", "None" ],
+  "evYield" : {
+    "spa" : 3
+  },
+  "malePct" : 100.0,
+  "femalePct" : 0.0,
+  "catchRate" : 5,
+  "baseExp" : 275,
+  "eggGroups" : [ "Field" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.7,
+  "weightKg" : 333.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Brown",
+  "category" : "Peat",
+  "friendship" : 70,
+  "description" : "It crossed the sea and drifted\nashore in a new land. Surviving in this\nplace led it to take on a unique\nappearance and gain special powers.",
+  "preEvolutionId" : "SPECIES_URSARING",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 113,
+    "atk" : 70,
+    "def" : 120,
+    "spe" : 52,
+    "spa" : 135,
+    "spd" : 65
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Headlong Rush"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Lick"
+  }, {
+    "level" : 1,
+    "move" : "Moonlight"
+  }, {
+    "level" : 1,
+    "move" : "Scratch"
+  }, {
+    "level" : 8,
+    "move" : "Fury Swipes"
+  }, {
+    "level" : 13,
+    "move" : "Payback"
+  }, {
+    "level" : 17,
+    "move" : "Harden"
+  }, {
+    "level" : 22,
+    "move" : "Slash"
+  }, {
+    "level" : 25,
+    "move" : "Play Nice"
+  }, {
+    "level" : 35,
+    "move" : "Scary Face"
+  }, {
+    "level" : 41,
+    "move" : "Rest"
+  }, {
+    "level" : 41,
+    "move" : "Snore"
+  }, {
+    "level" : 48,
+    "move" : "Earth Power"
+  }, {
+    "level" : 56,
+    "move" : "Moonblast"
+  }, {
+    "level" : 64,
+    "move" : "Hammer Arm"
+  }, {
+    "level" : 70,
+    "move" : "Blood Moon"
+  } ],
+  "eggMoves" : [ "Belly Drum", "Chip Away", "Close Combat", "Counter", "Cross Chop", "Crunch", "Double Edge", "Fake Tears", "Metal Claw", "Night Slash", "Play Rough", "Seismic Toss", "Sleep Talk", "Take Down", "Yawn" ],
+  "teachableMoves" : [ "Avalanche", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Calm Mind", "Counter", "Crunch", "Dig", "Double Edge", "Earth Power", "Earthquake", "Endure", "Facade", "Fire Punch", "Focus Blast", "Fury Cutter", "Giga Impact", "High Horsepower", "Hyper Beam", "Ice Punch", "Low Kick", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Tomb", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Smack Down", "Snore", "Stone Edge", "Sunny Day", "Swift", "Swords Dance", "Taunt", "Thief", "Thunder Punch", "Trailblaze" ],
+  "encounters" : [ ]
+}

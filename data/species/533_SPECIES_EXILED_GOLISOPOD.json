@@ -1,0 +1,155 @@
+{
+  "dex" : 533,
+  "speciesId" : "SPECIES_EXILED_GOLISOPOD",
+  "name" : "Exiled Golisopod",
+  "types" : [ "Steel", "Fighting" ],
+  "abilities" : [ "Tough Claws", "Sheer Force", "Anger Shell" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 186,
+  "eggGroups" : [ "No Eggs Discovered" ],
+  "hatchSteps" : 5120,
+  "heightM" : 2.0,
+  "weightKg" : 108.0,
+  "growthRate" : "Slow",
+  "color" : "Gray",
+  "category" : "Hard Scale",
+  "friendship" : 70,
+  "description" : "It battles skillfully with its six arms,\nwith a flashing slash of its giant sharp\nclaws, it cleaves seawater--or even\nair--right in two.",
+  "preEvolutionId" : "SPECIES_EXILED_WIMPOD",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 54,
+    "atk" : 155,
+    "def" : 115,
+    "spe" : 95,
+    "spa" : 41,
+    "spd" : 110
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "First Impression"
+  }, {
+    "level" : 1,
+    "move" : "Brick Break"
+  }, {
+    "level" : 1,
+    "move" : "Bullet Punch"
+  }, {
+    "level" : 1,
+    "move" : "Close Combat"
+  }, {
+    "level" : 1,
+    "move" : "Cut"
+  }, {
+    "level" : 1,
+    "move" : "Dual Chop"
+  }, {
+    "level" : 1,
+    "move" : "First Impression"
+  }, {
+    "level" : 1,
+    "move" : "Knock Off"
+  }, {
+    "level" : 1,
+    "move" : "Leech Life"
+  }, {
+    "level" : 1,
+    "move" : "Liquidation"
+  }, {
+    "level" : 1,
+    "move" : "Rock Smash"
+  }, {
+    "level" : 1,
+    "move" : "Smart Strike"
+  }, {
+    "level" : 7,
+    "move" : "Rock Smash"
+  }, {
+    "level" : 10,
+    "move" : "Cut"
+  }, {
+    "level" : 13,
+    "move" : "Pursuit"
+  }, {
+    "level" : 16,
+    "move" : "Swords Dance"
+  }, {
+    "level" : 21,
+    "move" : "Crush Claw"
+  }, {
+    "level" : 26,
+    "move" : "Razor Shell"
+  }, {
+    "level" : 31,
+    "move" : "Sucker Punch"
+  }, {
+    "level" : 37,
+    "move" : "Iron Defense"
+  }, {
+    "level" : 41,
+    "move" : "X Scissor"
+  }, {
+    "level" : 43,
+    "move" : "Smart Strike"
+  }, {
+    "level" : 46,
+    "move" : "Superpower"
+  }, {
+    "level" : 50,
+    "move" : "Liquidation"
+  }, {
+    "level" : 53,
+    "move" : "Brick Break"
+  }, {
+    "level" : 55,
+    "move" : "Iron Head"
+  }, {
+    "level" : 57,
+    "move" : "Dual Chop"
+  }, {
+    "level" : 60,
+    "move" : "Close Combat"
+  }, {
+    "level" : 67,
+    "move" : "Victory Dance"
+  }, {
+    "level" : 70,
+    "move" : "Meteor Mash"
+  } ],
+  "eggMoves" : [ ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Covet", "Cut", "Dragon Claw", "Drain Punch", "Earthquake", "Facade", "First Impression", "Flip Turn", "High Horsepower", "Hone Claws", "Iron Defense", "Iron Head", "Knock Off", "Leech Life", "Play Rough", "Poison Jab", "Power Up Punch", "Protect", "Psyshock", "Reflect", "Return", "Rock Slide", "Rock Smash", "Rock Tomb", "Secret Power", "Shadow Claw", "Smart Strike", "Stone Edge", "Strength", "Swords Dance", "Thief", "Trailblaze", "U Turn", "Volt Tackle", "Waterfall", "Wild Charge", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "MeteorFalls_B1F_2R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_B1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 11
+  }, {
+    "areaKey" : "MeteorFalls_1F_2R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_1F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 11
+  }, {
+    "areaKey" : "MeteorFalls_B1F_1R",
+    "bucketKey" : "Land",
+    "area" : "Meteor Falls_B1F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 80,
+    "max" : 83,
+    "slot" : 11
+  } ]
+}

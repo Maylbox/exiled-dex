@@ -1,0 +1,181 @@
+{
+  "dex" : 73,
+  "speciesId" : "SPECIES_GOLEM",
+  "name" : "Golem",
+  "types" : [ "Rock", "Ground" ],
+  "abilities" : [ "Rock Head", "Sturdy", "Sand Veil" ],
+  "evYield" : {
+    "def" : 3
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 3840,
+  "heightM" : 1.4,
+  "weightKg" : 300.0,
+  "growthRate" : "Medium Slow",
+  "color" : "Brown",
+  "category" : "Megaton",
+  "friendship" : 70,
+  "description" : "It is said to live in volcanic craters\non mountain peaks. Once a year, it sheds\nits hide and grows larger. The shed hide\ncrumbles and returns to the soil.",
+  "preEvolutionId" : "SPECIES_GRAVELER",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 120,
+    "def" : 130,
+    "spe" : 45,
+    "spa" : 55,
+    "spd" : 65
+  },
+  "heldItems" : {
+    "common" : "Everstone"
+  },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 1,
+    "move" : "Defense Curl"
+  }, {
+    "level" : 1,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 1,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 1,
+    "move" : "Rock Polish"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 4,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 6,
+    "move" : "Rock Polish"
+  }, {
+    "level" : 10,
+    "move" : "Steamroller"
+  }, {
+    "level" : 12,
+    "move" : "Magnitude"
+  }, {
+    "level" : 16,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 18,
+    "move" : "Smack Down"
+  }, {
+    "level" : 22,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 24,
+    "move" : "Self Destruct"
+  }, {
+    "level" : 30,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 34,
+    "move" : "Rock Blast"
+  }, {
+    "level" : 40,
+    "move" : "Earthquake"
+  }, {
+    "level" : 44,
+    "move" : "Explosion"
+  }, {
+    "level" : 46,
+    "move" : "Headlong Rush"
+  }, {
+    "level" : 50,
+    "move" : "Double Edge"
+  }, {
+    "level" : 54,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 60,
+    "move" : "Heavy Slam"
+  }, {
+    "level" : 71,
+    "move" : "Head Smash"
+  } ],
+  "eggMoves" : [ "Autotomize", "Block", "Curse", "Endure", "Flail", "Focus Punch", "Hammer Arm", "Mega Punch", "Rock Climb", "Wide Guard" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Brick Break", "Bulldoze", "Counter", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Focus Blast", "Fury Cutter", "Giga Impact", "Gyro Ball", "High Horsepower", "Hyper Beam", "Iron Defense", "Iron Head", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Power Up Punch", "Protect", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Seismic Toss", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Thunder Punch", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "MagmaHideout_1F",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 0
+  }, {
+    "areaKey" : "MagmaHideout_2F_1R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 0
+  }, {
+    "areaKey" : "MagmaHideout_2F_2R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 0
+  }, {
+    "areaKey" : "MagmaHideout_3F_1R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 0
+  }, {
+    "areaKey" : "MagmaHideout_3F_2R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 0
+  }, {
+    "areaKey" : "MagmaHideout_4F",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 0
+  }, {
+    "areaKey" : "MagmaHideout_3F_3R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 0
+  }, {
+    "areaKey" : "MagmaHideout_2F_3R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 0
+  } ]
+}

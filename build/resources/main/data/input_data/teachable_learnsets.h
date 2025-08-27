@@ -1145,7 +1145,6 @@ static const u16 sFearowTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_SWORDS_DANCE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SPEAROW
@@ -1345,6 +1344,7 @@ static const u16 sPikachuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_BULK_UP, 
     MOVE_UNAVAILABLE,
 };
 
@@ -1404,6 +1404,8 @@ static const u16 sRaichuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_BULK_UP,
+    MOVE_DRAIN_PUNCH, 
     MOVE_UNAVAILABLE,
 };
 

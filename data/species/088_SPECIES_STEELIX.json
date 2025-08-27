@@ -1,0 +1,208 @@
+{
+  "dex" : 88,
+  "speciesId" : "SPECIES_STEELIX",
+  "name" : "Steelix",
+  "types" : [ "Steel", "Ground" ],
+  "abilities" : [ "Sheer Force", "Sturdy", "Speed Boost" ],
+  "evYield" : {
+    "def" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 25,
+  "baseExp" : 0,
+  "eggGroups" : [ "Mineral" ],
+  "hatchSteps" : 6400,
+  "heightM" : 9.2,
+  "weightKg" : 400.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Gray",
+  "category" : "Iron Snake",
+  "friendship" : 70,
+  "description" : "Steelix live even further underground\nthan Onix. This Pokémon is known to dig\ntoward the earth's core, reaching a depth\nof over six-tenths of a mile underground.",
+  "preEvolutionId" : "SPECIES_ONIX",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 75,
+    "atk" : 85,
+    "def" : 200,
+    "spe" : 50,
+    "spa" : 55,
+    "spd" : 65
+  },
+  "heldItems" : {
+    "common" : "Metal Coat"
+  },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Bind"
+  }, {
+    "level" : 1,
+    "move" : "Fire Fang"
+  }, {
+    "level" : 1,
+    "move" : "Harden"
+  }, {
+    "level" : 1,
+    "move" : "Ice Fang"
+  }, {
+    "level" : 1,
+    "move" : "Mud Sport"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 1,
+    "move" : "Thunder Fang"
+  }, {
+    "level" : 4,
+    "move" : "Curse"
+  }, {
+    "level" : 7,
+    "move" : "Rock Throw"
+  }, {
+    "level" : 10,
+    "move" : "Rock Tomb"
+  }, {
+    "level" : 13,
+    "move" : "Rage"
+  }, {
+    "level" : 16,
+    "move" : "Stealth Rock"
+  }, {
+    "level" : 19,
+    "move" : "Autotomize"
+  }, {
+    "level" : 20,
+    "move" : "Gyro Ball"
+  }, {
+    "level" : 22,
+    "move" : "Smack Down"
+  }, {
+    "level" : 25,
+    "move" : "Dragonbreath"
+  }, {
+    "level" : 28,
+    "move" : "Slam"
+  }, {
+    "level" : 31,
+    "move" : "Screech"
+  }, {
+    "level" : 34,
+    "move" : "Rock Slide"
+  }, {
+    "level" : 37,
+    "move" : "Crunch"
+  }, {
+    "level" : 40,
+    "move" : "Iron Tail"
+  }, {
+    "level" : 43,
+    "move" : "Dig"
+  }, {
+    "level" : 46,
+    "move" : "Stone Edge"
+  }, {
+    "level" : 49,
+    "move" : "Double Edge"
+  }, {
+    "level" : 52,
+    "move" : "Accelerock"
+  }, {
+    "level" : 60,
+    "move" : "Earthquake"
+  } ],
+  "eggMoves" : [ "Block", "Defense Curl", "Flail", "Heavy Slam", "Rock Blast", "Rock Climb", "Rollout", "Rototiller", "Stealth Rock", "Wide Guard" ],
+  "teachableMoves" : [ "Attract", "Body Press", "Body Slam", "Bulldoze", "Crunch", "Cut", "Dark Pulse", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dragon Pulse", "Dragon Tail", "Earth Power", "Earthquake", "Endure", "Explosion", "Facade", "Fire Fang", "Flash Cannon", "Giga Impact", "Gyro Ball", "High Horsepower", "Hyper Beam", "Ice Fang", "Iron Defense", "Iron Head", "Meteor Beam", "Mud Slap", "Protect", "Psych Up", "Psychic Fangs", "Rest", "Roar", "Rock Polish", "Rock Slide", "Rock Smash", "Rock Tomb", "Rollout", "Sandstorm", "Sleep Talk", "Smack Down", "Snore", "Stealth Rock", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Taunt", "Thunder Fang", "Torment", "Toxic" ],
+  "encounters" : [ {
+    "areaKey" : "VictoryRoad_1F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 0
+  }, {
+    "areaKey" : "VictoryRoad_B2F",
+    "bucketKey" : "Land",
+    "area" : "Victory Road_B2F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 79,
+    "max" : 85,
+    "slot" : 3
+  }, {
+    "areaKey" : "MagmaHideout_1F",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_1F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 2
+  }, {
+    "areaKey" : "MagmaHideout_2F_1R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 2
+  }, {
+    "areaKey" : "MagmaHideout_2F_2R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 2
+  }, {
+    "areaKey" : "MagmaHideout_3F_1R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_1R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 2
+  }, {
+    "areaKey" : "MagmaHideout_3F_2R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_2R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 2
+  }, {
+    "areaKey" : "MagmaHideout_4F",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_4F",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 2
+  }, {
+    "areaKey" : "MagmaHideout_3F_3R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_3F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 2
+  }, {
+    "areaKey" : "MagmaHideout_2F_3R",
+    "bucketKey" : "Land",
+    "area" : "Magma Hideout_2F_3R",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 57,
+    "max" : 59,
+    "slot" : 2
+  } ]
+}

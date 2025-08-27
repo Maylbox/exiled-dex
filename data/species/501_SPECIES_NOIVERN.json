@@ -1,0 +1,128 @@
+{
+  "dex" : 501,
+  "speciesId" : "SPECIES_NOIVERN",
+  "name" : "Noivern",
+  "types" : [ "Flying", "Dragon" ],
+  "abilities" : [ "Frisk", "Infiltrator", "Punk Rock" ],
+  "evYield" : {
+    "spe" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 187,
+  "eggGroups" : [ "Flying", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 1.5,
+  "weightKg" : 85.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Purple",
+  "category" : "Sound Wave",
+  "friendship" : 70,
+  "description" : "They fly around on moonless nights and\nattack careless prey. The ultrasonic\nwaves it emits from its ears can reduce\na large boulder to pebbles.",
+  "preEvolutionId" : "SPECIES_NOIBAT",
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 85,
+    "atk" : 70,
+    "def" : 80,
+    "spe" : 123,
+    "spa" : 97,
+    "spd" : 80
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Aeroblast"
+  }, {
+    "level" : 1,
+    "move" : "Aeroblast"
+  }, {
+    "level" : 1,
+    "move" : "Boomburst"
+  }, {
+    "level" : 1,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 1,
+    "move" : "Hurricane"
+  }, {
+    "level" : 1,
+    "move" : "Moonlight"
+  }, {
+    "level" : 1,
+    "move" : "Screech"
+  }, {
+    "level" : 1,
+    "move" : "Supersonic"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 5,
+    "move" : "Absorb"
+  }, {
+    "level" : 11,
+    "move" : "Gust"
+  }, {
+    "level" : 13,
+    "move" : "Bite"
+  }, {
+    "level" : 16,
+    "move" : "Wing Attack"
+  }, {
+    "level" : 18,
+    "move" : "Agility"
+  }, {
+    "level" : 23,
+    "move" : "Dragon Pulse"
+  }, {
+    "level" : 27,
+    "move" : "Roost"
+  }, {
+    "level" : 31,
+    "move" : "Dual Wingbeat"
+  }, {
+    "level" : 35,
+    "move" : "Tailwind"
+  }, {
+    "level" : 40,
+    "move" : "Whirlwind"
+  }, {
+    "level" : 43,
+    "move" : "Super Fang"
+  }, {
+    "level" : 48,
+    "move" : "Aura Sphere"
+  }, {
+    "level" : 62,
+    "move" : "Hurricane"
+  }, {
+    "level" : 65,
+    "move" : "Boomburst"
+  }, {
+    "level" : 69,
+    "move" : "Overdrive"
+  } ],
+  "eggMoves" : [ "Outrage", "Snatch", "Switcheroo", "Tailwind" ],
+  "teachableMoves" : [ "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Body Slam", "Brick Break", "Cut", "Dark Pulse", "Defog", "Double Edge", "Double Team", "Draco Meteor", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Dream Eater", "Dual Wingbeat", "Endure", "Facade", "Flamethrower", "Fly", "Focus Blast", "Giga Impact", "Hone Claws", "Hyper Beam", "Leech Life", "Protect", "Psychic", "Rest", "Roost", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Steel Wing", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Torment", "Toxic", "U Turn", "Water Pulse", "Wild Charge", "X Scissor" ],
+  "encounters" : [ {
+    "areaKey" : "CaveOfOrigin_Entrance",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_Entrance",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 0
+  }, {
+    "areaKey" : "CaveOfOrigin_1F",
+    "bucketKey" : "Land",
+    "area" : "Cave Of Origin_1F",
+    "bucket" : "Land",
+    "rateBase" : 4,
+    "min" : 75,
+    "max" : 77,
+    "slot" : 0
+  } ]
+}

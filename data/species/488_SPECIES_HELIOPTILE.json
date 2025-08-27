@@ -1,0 +1,99 @@
+{
+  "dex" : 488,
+  "speciesId" : "SPECIES_HELIOPTILE",
+  "name" : "Helioptile",
+  "types" : [ "Electric", "Normal" ],
+  "abilities" : [ "Dry Skin", "Sand Veil", "Solar Power" ],
+  "evYield" : {
+    "spe" : 1
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 190,
+  "baseExp" : 58,
+  "eggGroups" : [ "Monster", "Dragon" ],
+  "hatchSteps" : 5120,
+  "heightM" : 0.5,
+  "weightKg" : 6.0,
+  "growthRate" : "Medium Fast",
+  "color" : "Yellow",
+  "category" : "Generator",
+  "friendship" : 70,
+  "description" : "They make their home in deserts.\nThey can generate their own energy from\nbasking in the sun, so eating food is not\na requirement.",
+  "preEvolutionId" : null,
+  "evolution" : [ {
+    "toSpeciesId" : "SPECIES_HELIOLISK",
+    "method" : "item",
+    "param" : "ITEM_SUN_STONE"
+  } ],
+  "baseStats" : {
+    "hp" : 44,
+    "atk" : 38,
+    "def" : 33,
+    "spe" : 70,
+    "spa" : 61,
+    "spd" : 43
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Mud Slap"
+  }, {
+    "level" : 1,
+    "move" : "Tail Whip"
+  }, {
+    "level" : 4,
+    "move" : "Pound"
+  }, {
+    "level" : 8,
+    "move" : "Thunder Shock"
+  }, {
+    "level" : 12,
+    "move" : "Quick Attack"
+  }, {
+    "level" : 16,
+    "move" : "Charge"
+  }, {
+    "level" : 20,
+    "move" : "Bulldoze"
+  }, {
+    "level" : 24,
+    "move" : "Volt Switch"
+  }, {
+    "level" : 28,
+    "move" : "Parabolic Charge"
+  }, {
+    "level" : 32,
+    "move" : "Thunder Wave"
+  }, {
+    "level" : 36,
+    "move" : "Thunderbolt"
+  }, {
+    "level" : 40,
+    "move" : "Electrify"
+  }, {
+    "level" : 44,
+    "move" : "Thunder"
+  } ],
+  "eggMoves" : [ "Agility", "Camouflage", "Electric Terrain", "Glare" ],
+  "teachableMoves" : [ "Attract", "Bulldoze", "Charge Beam", "Cut", "Dark Pulse", "Dig", "Double Team", "Dragon Tail", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Light Screen", "Mud Slap", "Protect", "Psych Up", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Sandstorm", "Shock Wave", "Sleep Talk", "Snore", "Surf", "Swagger", "Swift", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "U Turn", "Volt Switch", "Wild Charge" ],
+  "encounters" : [ {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
+    "area" : "Mauville City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 22,
+    "max" : 24,
+    "slot" : 1
+  }, {
+    "areaKey" : "MauvilleCity0",
+    "bucketKey" : "Land",
+    "area" : "Mauville City0",
+    "bucket" : "Land",
+    "rateBase" : 10,
+    "min" : 22,
+    "max" : 24,
+    "slot" : 8
+  } ]
+}

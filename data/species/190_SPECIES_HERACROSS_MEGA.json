@@ -1,0 +1,95 @@
+{
+  "dex" : 190,
+  "speciesId" : "SPECIES_HERACROSS_MEGA",
+  "name" : "Heracross - Mega",
+  "types" : [ "Bug", "Fighting" ],
+  "abilities" : [ "Skill Link", "Skill Link", "Skill Link" ],
+  "evYield" : {
+    "atk" : 2
+  },
+  "malePct" : 50.0,
+  "femalePct" : 50.0,
+  "catchRate" : 45,
+  "baseExp" : 210,
+  "eggGroups" : [ "Bug" ],
+  "hatchSteps" : 6400,
+  "heightM" : 1.7,
+  "weightKg" : 62.5,
+  "growthRate" : "Slow",
+  "color" : "Blue",
+  "category" : "Single Horn",
+  "friendship" : 70,
+  "description" : "A tremendous influx of energy builds it up,\nbut when Mega Evolution ends, Heracross\nis bothered by terrible soreness in its\nmuscles.",
+  "preEvolutionId" : null,
+  "evolution" : [ ],
+  "baseStats" : {
+    "hp" : 80,
+    "atk" : 185,
+    "def" : 115,
+    "spe" : 75,
+    "spa" : 40,
+    "spd" : 105
+  },
+  "heldItems" : { },
+  "levelUpMoves" : [ {
+    "level" : 1,
+    "move" : "Arm Thrust"
+  }, {
+    "level" : 1,
+    "move" : "Bullet Seed"
+  }, {
+    "level" : 1,
+    "move" : "Horn Attack"
+  }, {
+    "level" : 1,
+    "move" : "Leer"
+  }, {
+    "level" : 1,
+    "move" : "Night Slash"
+  }, {
+    "level" : 1,
+    "move" : "Pounce"
+  }, {
+    "level" : 1,
+    "move" : "Tackle"
+  }, {
+    "level" : 7,
+    "move" : "Feint"
+  }, {
+    "level" : 10,
+    "move" : "Aerial Ace"
+  }, {
+    "level" : 16,
+    "move" : "Bug Bite"
+  }, {
+    "level" : 19,
+    "move" : "Counter"
+  }, {
+    "level" : 25,
+    "move" : "Fury Attack"
+  }, {
+    "level" : 28,
+    "move" : "Brick Break"
+  }, {
+    "level" : 31,
+    "move" : "Pin Missile"
+  }, {
+    "level" : 34,
+    "move" : "Take Down"
+  }, {
+    "level" : 37,
+    "move" : "Megahorn"
+  }, {
+    "level" : 43,
+    "move" : "Close Combat"
+  }, {
+    "level" : 46,
+    "move" : "Reversal"
+  }, {
+    "level" : 70,
+    "move" : "First Impression"
+  } ],
+  "eggMoves" : [ "Bide", "Double Edge", "Flail", "Focus Punch", "Harden", "Megahorn", "Pursuit", "Revenge", "Rock Blast", "Seismic Toss" ],
+  "teachableMoves" : [ "Aerial Ace", "Attract", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Bullet Seed", "Calm Mind", "Counter", "Cut", "Dig", "Double Edge", "Double Team", "Earthquake", "Endure", "Facade", "False Swipe", "Focus Blast", "Fury Cutter", "Giga Impact", "High Horsepower", "Hyper Beam", "Iron Defense", "Knock Off", "Low Kick", "Protect", "Rain Dance", "Rest", "Rock Slide", "Rock Smash", "Rock Tomb", "Seismic Toss", "Shadow Claw", "Sleep Talk", "Smack Down", "Smart Strike", "Snore", "Stone Edge", "Strength", "Sunny Day", "Swagger", "Swords Dance", "Thief", "Toxic", "Trailblaze", "Venoshock" ],
+  "encounters" : [ ]
+}
