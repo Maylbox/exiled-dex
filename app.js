@@ -156,10 +156,7 @@ function splitSpeciesBaseAndForm(speciesId) {
 
   const GLOBAL_SUFFIXES = [
     'MEGA','MEGA_X','MEGA_Y','GIGANTAMAX',
-    'ALOLA','ALOLAN',
-    'HISUI','HISUIAN',
-    'GALAR','GALARIAN',
-    'PALDEA','PALDEAN',
+    'ALOLA','ALOLAN','HISUI','HISUIAN','GALAR','GALARIAN','PALDEA','PALDEAN',
     'EXILED'
   ];
 
@@ -168,26 +165,34 @@ function splitSpeciesBaseAndForm(speciesId) {
     return { baseId: sid.startsWith('SPECIES_') ? sid : ('SPECIES_' + sid), formKey: null };
   }
 
-  // ✅ NEW: if the very first token is EXILED, drop it (so EXILED_CAMERUPT → CAMERUPT)
   if (toks[0] === 'EXILED') toks = toks.slice(1);
 
-  // walk from right trimming global suffixes off the end (mega/paldean/etc)
+  // trim known global suffixes off the end
   let cut = toks.length;
   while (cut > 0 && GLOBAL_SUFFIXES.includes(toks[cut - 1])) cut--;
 
-   if (toks[0] === 'NIDORAN' && (toks[1] === 'F' || toks[1] === 'M')) {
-      const cut2 = toks.length;
-      // trim global suffixes off the end (same as normal path)
-      let end = cut2;
-      while (end > 0 && GLOBAL_SUFFIXES.includes(toks[end - 1])) end--;
+  // Nidoran special-case
+  if (toks[0] === 'NIDORAN' && (toks[1] === 'F' || toks[1] === 'M')) {
+    const end = cut;
+    const baseId = 'SPECIES_NIDORAN_' + toks[1];
+    const tail   = toks.slice(2, end);
+    const formKey = tail.length ? tail.join('_') : null;
+    return { baseId, formKey };
+  }
 
-      const baseId = 'SPECIES_NIDORAN_' + toks[1];
-      const tail   = toks.slice(2, end);
-      const formKey = tail.length ? tail.join('_') : null;
-      return { baseId, formKey };
-    }
+  // ✅ Base names that *must* keep the underscore (no form split)
+  const KEEP_UNDERSCORE = new Set([
+    'JANGMO_O','HAKAMO_O','KOMMO_O',
+    'HO_OH','PORYGON_Z','MR_MIME','MIME_JR','TYPE_NULL',
+    // add more here if you bump into them
+  ]);
 
-  // base = first token; formKey = rest (until `cut`)
+  const core = toks.slice(0, cut).join('_');     // everything before any global suffix
+  if (KEEP_UNDERSCORE.has(core)) {
+    return { baseId: 'SPECIES_' + core, formKey: null };
+  }
+
+  // Default behavior: base = first token, form = the rest (before global suffix)
   const baseToken = toks[0] || '';
   const tail = toks.slice(1, cut);
   const formKey = tail.length ? tail.join('_') : null;
