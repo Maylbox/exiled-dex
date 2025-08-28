@@ -15,5 +15,25 @@
 
   "SPECIES_URSALUNA_BLOODMOON": "assets/pokemon/ursaluna/bloodmoon/front.png",
 
-  "SPECIES_WOOPER_PALDEAN": "assets/pokemon/wooper/wooper_paldean/front.png"
+  "SPECIES_DARMANITAN_ZEN_MODE" : "assets/pokemon/darmanitan/zen_mode/anim_front.png",
+
+  "SPECIES_AEGISLASH_BLADE" : "assets/pokemon/aegislash/blade/anim_front.png",
+  "SPECIES_AEGISLASH_SHIELD": "assets/pokemon/aegislash/anim_front.png",
+
+  "SPECIES_ORICORIO_BAILE" : "assets/pokemon/oricorio/front.png",
+  "SPECIES_ORICORIO_PAU" : "assets/pokemon/oricorio/pau/front.png",
+  "SPECIES_ORICORIO_POM_POM" : "assets/pokemon/oricorio/pom_pom/front.png",
+  "SPECIES_ORICORIO_SENSU" : "assets/pokemon/oricorio/sensu/front.png",
+
+  "SPECIES_LYCANROC_DUSK": "assets/pokemon/lycanroc/dusk/anim_front.png",
+  "SPECIES_LYCANROC_MIDDAY": "assets/pokemon/lycanroc/anim_front.png",
+  "SPECIES_LYCANROC_MIDNIGHT": "assets/pokemon/lycanroc/midnight/anim_front.png",
+
+  "SPECIES_TOXTRICITY_AMPED": "assets/pokemon/toxtricity/front.png",
+  "SPECIES_TOXTRICITY_LOW_KEY": "assets/pokemon/toxtricity/low_key/front.png",
+
+  "SPECIES_WOOPER_PALDEAN": "assets/pokemon/wooper/wooper_paldean/front.png",
+
+  "SPECIES_PALAFIN_HERO": "assets/pokemon/palafin/hero/front.png",
+  "SPECIES_PALAFIN_ZERO": "assets/pokemon/palafin/front.png"
 }

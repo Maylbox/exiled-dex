@@ -13,5 +13,27 @@
   "SPECIES_BASCULEGION_FEMALE": "Basculegion♀",
   "SPECIES_BASCULEGION_MALE": "Basculegion♂",
 
-  "SPECIES_URSALUNA_BLOODMOON": "Ursaluna Bloodmoon"
+  "SPECIES_URSALUNA_BLOODMOON": "Ursaluna Bloodmoon",
+
+  "SPECIES_DARMANITAN_ZEN_MODE" : "Darmanitan Zen Mode",
+
+  "SPECIES_AEGISLASH_BLADE" : "Aegislash Blade",
+  "SPECIES_AEGISLASH_SHIELD": "Aegislash Shield",
+
+  "SPECIES_ORICORIO_BAILE" : "Oricorio Baile",
+  "SPECIES_ORICORIO_PAU" : "Oricorio Pau",
+  "SPECIES_ORICORIO_POM_POM" : "Oricorio Pom Pom",
+  "SPECIES_ORICORIO_SENSU" : "Oricorio Sensu",
+
+  "SPECIES_LYCANROC_DUSK": "Lycanroc Dusk",
+  "SPECIES_LYCANROC_MIDDAY": "Lycanroc Midday",
+  "SPECIES_LYCANROC_MIDNIGHT": "Lycanroc Midnight",
+
+  "SPECIES_TOXTRICITY_AMPED": "Toxtricity Amped",
+  "SPECIES_TOXTRICITY_LOW_KEY": "Toxtricity Low Key",
+
+  "SPECIES_PALAFIN_HERO": "Palafin Hero",
+  "SPECIES_PALAFIN_ZERO": "Palafin Zero",
+
+  "": ""
 }
