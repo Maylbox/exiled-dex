@@ -1129,7 +1129,7 @@
 }, {
   "dex" : 94,
   "speciesId" : "SPECIES_MAROWAK_ALOLAN_TOTEM",
-  "name" : "Marowak",
+  "name" : "Alolan Marowak",
   "types" : [ "Fire", "Ghost" ],
   "abilities" : [ "Rock Head", "None", "None" ],
   "color" : "Purple",
@@ -1598,6 +1598,14 @@
   "abilities" : [ "Overgrow", "Leaf Guard", "Triage" ],
   "color" : "Green",
   "file" : "species/146_SPECIES_BAYLEEF.json"
+}, {
+  "dex" : 147,
+  "speciesId" : "SPECIES_MEGANIUM",
+  "name" : "Meganium",
+  "types" : [ "Grass", "Fairy" ],
+  "abilities" : [ "Overgrow", "Leaf Guard", "Triage" ],
+  "color" : "Green",
+  "file" : "species/147_SPECIES_MEGANIUM.json"
 }, {
   "dex" : 148,
   "speciesId" : "SPECIES_CYNDAQUIL",
@@ -4214,22 +4222,6 @@
   "abilities" : [ "Hustle", "Keen Eye", "Inner Focus" ],
   "color" : "Red",
   "file" : "species/408_SPECIES_DARUMAKA.json"
-}, {
-  "dex" : 409,
-  "speciesId" : "SPECIES_DARMANITAN_GALARIAN_STANDARD_MODE",
-  "name" : "Darmanitan",
-  "types" : [ "Ice", null ],
-  "abilities" : [ "Gorilla Tactics", "None", "Zen Mode" ],
-  "color" : "White",
-  "file" : "species/409_SPECIES_DARMANITAN_GALARIAN_STANDARD_MODE.json"
-}, {
-  "dex" : 409,
-  "speciesId" : "SPECIES_DARMANITAN_GALARIAN_ZEN_MODE",
-  "name" : "Darmanitan",
-  "types" : [ "Ice", "Fire" ],
-  "abilities" : [ "Gorilla Tactics", "None", "Zen Mode" ],
-  "color" : "White",
-  "file" : "species/409_SPECIES_DARMANITAN_GALARIAN_ZEN_MODE.json"
 }, {
   "dex" : 409,
   "speciesId" : "SPECIES_DARMANITAN_STANDARD_MODE",

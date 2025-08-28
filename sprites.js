@@ -1,7 +1,7 @@
 // sprites.js
 // Sprite path resolution + fallback chain for images
 
-import { FORMS_MAP } from './dataLoader.js';
+import { FORMS_MAP, SPRITE_OVERRIDES } from './dataLoader.js';
 import { makePlaceholder } from './uiUtils.js';
 
 // ----- module-private constants -----
@@ -84,6 +84,62 @@ export function speciesBaseFolder(speciesId, fallbackName) {
   return baseFromName.toLowerCase().replace(/[^a-z0-9_-]+/g,'');
 }
 
+/** Normalize any override value into an array of URLs (fallback chain). */
+function normalizeOverrideValue(v) {
+  if (!v) return [];
+  if (typeof v === 'string') return [v];
+  if (Array.isArray(v)) return v.filter(Boolean);
+  if (typeof v === 'object') {
+    // Common shapes:
+    // { chain:[...paths] }
+    if (Array.isArray(v.chain)) return v.chain.filter(Boolean);
+    // { anim_front, front } → prefer anim then front
+    const out = [];
+    if (v.anim_front) out.push(v.anim_front);
+    if (v.front) out.push(v.front);
+    return out;
+  }
+  return [];
+}
+
+/**
+ * Find an override chain for a species/form/variant, if any.
+ * Supports:
+ *   "SPECIES_PIKACHU": "custom/path.png"
+ *   "SPECIES_PIKACHU": ["p1.png","p2.png"]
+ *   "SPECIES_PIKACHU": { front:"...", anim_front:"..." }
+ *   "SPECIES_ROTOM": { forms: { HEAT:{front:"..."}, WASH:{chain:[...]} } }
+ *   "SPECIES_PIKACHU": { mega:{...}, alolan:{...}, ... } // per-variant
+ */
+function resolveOverrideChain(speciesId, formKey, variant) {
+  const sid = String(speciesId || '').toUpperCase();
+  const root = SPRITE_OVERRIDES?.[sid];
+  if (!root) return [];
+
+  // try per-form first if object
+  if (formKey && typeof root === 'object' && root.forms) {
+    const forForm = root.forms[formKey] || root.forms[formKey.replace(/_FORM$/, '')];
+    if (forForm) {
+      // allow nested variant override inside a form
+      if (variant && typeof forForm === 'object' && forForm[variant]) {
+        const v = normalizeOverrideValue(forForm[variant]);
+        if (v.length) return v;
+      }
+      const v = normalizeOverrideValue(forForm);
+      if (v.length) return v;
+    }
+  }
+
+  // try variant level on the root object (e.g., { mega:{...}, alolan:{...} })
+  if (variant && typeof root === 'object' && root[variant]) {
+    const v = normalizeOverrideValue(root[variant]);
+    if (v.length) return v;
+  }
+
+  // finally, apply the root override as-is
+  return normalizeOverrideValue(root);
+}
+
 // ----- main export -----
 export function spriteHTML(speciesId, name) {
   const sid = String(speciesId || '').toUpperCase();
@@ -119,8 +175,8 @@ export function spriteHTML(speciesId, name) {
   }
   const formDir = formSubfolder ? `${baseDir}/${formSubfolder}` : baseDir;
 
-  // build fallback chain
-  const chain = variant === 'exiled'
+  // default chain
+  const defaultChain = (variant === 'exiled'
     ? [
         `${exiledDir}/anim_front.png`,
         `${exiledDir}/front.png`,
@@ -152,7 +208,18 @@ export function spriteHTML(speciesId, name) {
         `${baseDir}/paldean/front.png`,
         `${SPRITE_ROOT}exiled_${baseFolder}/anim_front.png`,
         `${SPRITE_ROOT}exiled_${baseFolder}/front.png`,
-      ];
+      ]);
+
+  // override chain (prepended)
+  const overrideChain = resolveOverrideChain(sid, formKey, variant) || [];
+
+  // de-dupe while preserving order: overrides first, then defaults
+  const seen = new Set();
+  const chain = [...overrideChain, ...defaultChain].filter(p => {
+    if (!p || seen.has(p)) return false;
+    seen.add(p);
+    return true;
+  });
 
   const safeAlt = nm.replace(/"/g,'&quot;');
   const placeholder = makePlaceholder(nm);
@@ -172,7 +239,6 @@ export function spriteHTML(speciesId, name) {
 
 // ----- global error handler (advances data-fallback) -----
 (function installSpriteErrorHandler(){
-  // Avoid double-install across HMR or multiple imports.
   if (window.__SPRITE_ERROR_HANDLER_INSTALLED__) return;
   window.__SPRITE_ERROR_HANDLER_INSTALLED__ = true;
 
@@ -201,5 +267,5 @@ export function spriteHTML(speciesId, name) {
         img.src = makePlaceholder(label);
       } catch (_) {}
     }
-  }, true); // capture
+  }, true);
 })();

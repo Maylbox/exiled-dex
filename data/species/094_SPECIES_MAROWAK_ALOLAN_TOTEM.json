@@ -1,7 +1,7 @@
 {
   "dex" : 94,
   "speciesId" : "SPECIES_MAROWAK_ALOLAN_TOTEM",
-  "name" : "Marowak",
+  "name" : "Alolan Marowak",
   "types" : [ "Fire", "Ghost" ],
   "abilities" : [ "Rock Head", "None", "None" ],
   "evYield" : {

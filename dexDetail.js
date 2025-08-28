@@ -2,7 +2,7 @@
 // Detail page
 
 import { app } from './app.js';
-import { INDEX, fetchJSON, tArea, tBucket } from './dataLoader.js';
+import { INDEX, fetchJSON, tArea, tBucket, tName } from './dataLoader.js';
 import { colorToHex, fmtNum, fmtEv } from './uiUtils.js';
 import { moveChip } from './moves.js';
 import { spriteHTML } from './sprites.js';
@@ -10,7 +10,6 @@ import { renderEvolutionTree } from './evolution.js';
 import { navMini } from './dexList.js';
 
 export async function renderDexDetail(dex, speciesId) {
-  // Pick the exact species if provided, else the first with that dex
   let s = speciesId
     ? INDEX.find(x => x.dex === dex && x.speciesId === speciesId)
     : INDEX.find(x => x.dex === dex);
@@ -23,11 +22,14 @@ export async function renderDexDetail(dex, speciesId) {
   const file = s.file || `${String(s.dex).padStart(3, '0')}_${s.speciesId}.json`;
   const data = await fetchJSON(`data/${file}`);
 
-  // Accent color (CSS var used by your theme)
+  // Accent color
   const accent = colorToHex(data.color || s.color || 'Gray');
   document.documentElement.style.setProperty('--accent', accent);
 
   const dex3 = String(data.dex).padStart(3, '0');
+
+  // --- display name with overrides ---
+  const displayName = tName(s, data.name);
 
   // Moves
   const eggs  = (data.eggMoves || []).map(m => moveChip(m)).join('');
@@ -63,7 +65,7 @@ export async function renderDexDetail(dex, speciesId) {
   // Evolution tree
   const evoHTML = await renderEvolutionTree(data);
 
-  // Prev/next (ordered by INDEX as-is)
+  // Prev/next
   const i = INDEX.findIndex(e => e.speciesId === s.speciesId);
   const prevEntry = i > 0 ? INDEX[i - 1] : null;
   const nextEntry = i < INDEX.length - 1 ? INDEX[i + 1] : null;
@@ -78,9 +80,9 @@ export async function renderDexDetail(dex, speciesId) {
     <div class="detail">
       <div class="hero" style="border-color:${accent}">
         <div style="display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap">
-          <div class="thumb" style="width:220px">${spriteHTML(s.speciesId, data.name)}</div>
+          <div class="thumb" style="width:220px">${spriteHTML(s.speciesId, displayName)}</div>
           <div>
-            <h1>${data.name} <small>#${dex3}</small></h1>
+            <h1>${displayName} <small>#${dex3}</small></h1>
             <div class="pills" style="margin:.25rem 0 .5rem 0">${types}</div>
 
             <div class="kv kv-hero">
@@ -150,7 +152,7 @@ export async function renderDexDetail(dex, speciesId) {
   `;
 }
 
-// --- local helpers (kept here for the stats block) ---
+// --- local helpers ---
 function renderStats(stats) {
   const keys = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
   const rows = keys.map(k => {

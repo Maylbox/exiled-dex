@@ -1,0 +1,19 @@
+{
+  "SPECIES_ROTOM_FAN": "assets/pokemon/rotom/fan/anim_front.png",
+  "SPECIES_ROTOM_FROST": "assets/pokemon/rotom/frost/anim_front.png",
+  "SPECIES_ROTOM_HEAT": "assets/pokemon/rotom/heat/anim_front.png",
+  "SPECIES_ROTOM_MOW": "assets/pokemon/rotom/mow/anim_front.png",
+  "SPECIES_ROTOM_WASH": "assets/pokemon/rotom/wash/anim_front.png",
+
+  "SPECIES_CASTFORM_RAINY": "assets/pokemon/castform/rainy/anim_front.png",
+  "SPECIES_CASTFORM_SNOWY": "assets/pokemon/castform/snowy/anim_front.png",
+  "SPECIES_CASTFORM_SUNNY": "assets/pokemon/castform/sunny/anim_front.png",
+
+  "SPECIES_BASCULIN_WHITE_STRIPED": "assets/pokemon/basculin/white_striped/anim_front.png",
+  "SPECIES_BASCULEGION_FEMALE": "assets/pokemon/basculegion/female/front.png",
+  "SPECIES_BASCULEGION_MALE": "assets/pokemon/basculegion/front.png",
+
+  "SPECIES_URSALUNA_BLOODMOON": "assets/pokemon/ursaluna/bloodmoon/front.png",
+
+  "SPECIES_WOOPER_PALDEAN": "assets/pokemon/wooper/wooper_paldean/front.png"
+}

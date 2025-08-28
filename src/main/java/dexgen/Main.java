@@ -27,14 +27,18 @@ public class Main {
     // Return tag code for an id, or null for the "blanket/base" form
     private static String tagForId(String id){
         if (id == null) return null;
-        if (id.contains("_MEGA_X")) return "MX";
-        if (id.contains("_MEGA_Y")) return "MY";
-        if (id.contains("_MEGA"))   return "M";
+        // MEGA only when it's a true suffix
+        if (id.matches(".*_MEGA_X$")) return "MX";
+        if (id.matches(".*_MEGA_Y$")) return "MY";
+        if (id.matches(".*_MEGA$"))   return "M";
+
         if (id.startsWith("SPECIES_EXILED_")) return "E";
-        if (id.endsWith("_ALOLAN"))  return "A";
-        if (id.endsWith("_HISUIAN")) return "H";
-        if (id.endsWith("_GALARIAN"))return "G";
-        if (id.endsWith("_PALDEAN")) return "P";
+
+        // Regionals can appear before other tokens (e.g., _GALARIAN_ZEN_MODE)
+        if (id.matches(".*_ALOLAN(?:_|$).*"))   return "A";
+        if (id.matches(".*_HISUIAN(?:_|$).*"))  return "H";
+        if (id.matches(".*_GALARIAN(?:_|$).*")) return "G";
+        if (id.matches(".*_PALDEAN(?:_|$).*"))  return "P";
         return null;
     }
 
@@ -43,8 +47,11 @@ public class Main {
         if (id == null) return null;
         String base = id;
         base = base.replaceFirst("^SPECIES_EXILED_", "SPECIES_");
-        base = base.replaceFirst("_MEGA(?:_[A-Z])?$", "");
-        base = base.replaceFirst("_(ALOLAN|HISUIAN|GALARIAN|PALDEAN)$", "");
+        // MEGA only if it's the trailing form suffix
+        base = base.replaceFirst("_MEGA(?:_[XY])?$", "");
+        // Regionals can be followed by other tokens, keep your broader rule
+        base = base.replaceFirst("_(ALOLAN|HISUIAN|GALARIAN|PALDEAN)(?=_|$)", "");
+        base = base.replaceAll("__+", "_").replaceFirst("_$", "");
         return base;
     }
     public static void main(String[] args) throws Exception {
@@ -144,11 +151,11 @@ public class Main {
             }
 
             // Always map MEGAs to the base dex and rename for display
-            Species base = s;
 
-            if (s.speciesId().contains("_MEGA")) {
-                String baseIdMega = s.speciesId().replaceFirst("_MEGA(?:_[A-Z])?$", "");
-                base = byId.getOrDefault(baseIdMega, s);
+
+            if (s.speciesId().matches(".*_MEGA(?:_[XY])?$")) {
+                String baseIdMega = s.speciesId().replaceFirst("_MEGA(?:_[XY])?$", "");
+                Species base = byId.getOrDefault(baseIdMega, s);
 
                 if (s.speciesId().endsWith("_MEGA_X"))      displayName = base.name() + " - Mega X";
                 else if (s.speciesId().endsWith("_MEGA_Y")) displayName = base.name() + " - Mega Y";
@@ -163,8 +170,8 @@ public class Main {
                         s.description(), base.speciesId(), s.evolution(), s.baseStats(),
                         s.heldItems(), s.levelUpMoves(), s.eggMoves(), s.teachableMoves(), s.encounters()
                 );
-
-            } else if (s.speciesId().startsWith("SPECIES_EXILED_")) {
+            }else if (s.speciesId().startsWith("SPECIES_EXILED_")) {
+                Species base = s;
                 String baseIdExiled = s.speciesId().replaceFirst("^SPECIES_EXILED_", "SPECIES_");
                 base = byId.getOrDefault(baseIdExiled, s);
                 displayName = "Exiled " + base.name();
@@ -182,6 +189,7 @@ public class Main {
             } else {
                 String region = regionalAdjective(s.speciesId());
                 if (region != null) {
+                    Species base = s;
                     String baseIdRegional = regionalBaseId(s.speciesId());   // e.g. SPECIES_VULPIX
                     base = byId.getOrDefault(baseIdRegional, s);
                     displayName = region + " " + base.name();                 // "Alolan Vulpix"
@@ -326,14 +334,15 @@ public class Main {
     }
 
     private static String regionalAdjective(String id){
-        if (id.endsWith("_ALOLAN"))  return "Alolan";
-        if (id.endsWith("_GALARIAN"))return "Galarian";
-        if (id.endsWith("_HISUIAN")) return "Hisuian";
-        if (id.endsWith("_PALDEAN")) return "Paldean";
+        if (id.matches(".*_ALOLAN(?:_|$).*"))   return "Alolan";
+        if (id.matches(".*_GALARIAN(?:_|$).*")) return "Galarian";
+        if (id.matches(".*_HISUIAN(?:_|$).*"))  return "Hisuian";
+        if (id.matches(".*_PALDEAN(?:_|$).*"))  return "Paldean";
         return null;
     }
     private static String regionalBaseId(String id){
-        return id.replaceFirst("_(ALOLAN|GALARIAN|HISUIAN|PALDEAN)$", "");
+        String out = id.replaceFirst("_(ALOLAN|GALARIAN|HISUIAN|PALDEAN)(?=_|$)", "");
+        return out.replaceAll("__+", "_").replaceFirst("_$", "");
     }
 
 
