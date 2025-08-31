@@ -287,6 +287,18 @@ public class Main {
             idx.put("color", s.color());
 // IMPORTANT: include subfolder so the SPA fetches data/species/<file>
             idx.put("file", "species/" + filename);
+            Set<String> moveSet = new LinkedHashSet<>();
+            for (var lm : lvlMoves) {
+                if (lm != null && lm.move() != null) moveSet.add(lm.move());
+            }
+            for (var em : eggMoves) {
+                if (em != null) moveSet.add(em);
+            }
+            for (var tm : teachableMoves) {
+                if (tm != null) moveSet.add(tm);
+            }
+
+            idx.put("moves", new ArrayList<>(moveSet));
             index.add(idx);
         }
 

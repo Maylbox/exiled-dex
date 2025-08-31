@@ -24,11 +24,18 @@ export function renderDexList() {
   if (q) {
     list = INDEX.filter(s => {
       const display = (tName(s, s.name) || s.name || '').toLowerCase();
+      const types   = (s.types || []).join(' ').toLowerCase();
+      const abils   = (s.abilities || []).join(' ').toLowerCase();
+
+      // collect every move name across sources
+      const moves = (s.moves || []).join(' ').toLowerCase();
+
       return (
         String(s.dex).includes(q) ||
         display.includes(q) ||
-        (s.types || []).join(' ').toLowerCase().includes(q) ||
-        (s.abilities || []).join(' ').toLowerCase().includes(q)
+        types.includes(q) ||
+        abils.includes(q) ||
+        moves.includes(q)            // ← NEW: search by move
       );
     });
   }
