@@ -72,7 +72,7 @@ export function colorToHex(name = '') {
     Pink:   '#ec4899',
     Purple: '#8b5cf6',
     Red:    '#ef4444',
-    White:  '#1f1f1f',
+    White:  '#ADD8E6',
     Yellow: '#eab308',
   };
   return T[name] || '#8ab4ff';
