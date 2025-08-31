@@ -45,10 +45,28 @@ function buildSuggest() {
 
 // helper: split into tokens, supports quotes
 function splitQuery(q = '') {
-  const out = [];
-  const re = /"([^"]+)"|(\S+)/g;
+  // first, grab words/quoted chunks
+  const parts = [];
+  const re = /"([^"]*)"|\S+/g;
   let m;
-  while ((m = re.exec(q)) !== null) out.push(m[1] ?? m[2]);
+  while ((m = re.exec(q)) !== null) parts.push(m[1] ?? m[0]);
+
+  // now merge runs after a prefix until the next prefix
+  const out = [];
+  for (let i = 0; i < parts.length; i++) {
+    const w = parts[i];
+    const p = w.match(/^(\w+):(.*)$/);
+    if (!p) { out.push(w); continue; }
+
+    let prefix = p[1].toLowerCase();
+    let value  = p[2] ?? '';
+
+    // accumulate words that are NOT a new prefix
+    while (i + 1 < parts.length && !/^\w+:/.test(parts[i + 1])) {
+      value += (value ? ' ' : '') + parts[++i];
+    }
+    out.push(`${prefix}:${value}`);
+  }
   return out;
 }
 
