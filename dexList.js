@@ -22,12 +22,15 @@ export function renderDexList() {
 
   let list = INDEX;
   if (q) {
-    list = INDEX.filter(s =>
-      String(s.dex).includes(q) ||
-      s.name.toLowerCase().includes(q) ||
-      (s.types || []).join(' ').toLowerCase().includes(q) ||
-      (s.abilities || []).join(' ').toLowerCase().includes(q)
-    );
+    list = INDEX.filter(s => {
+      const display = (tName(s, s.name) || s.name || '').toLowerCase();
+      return (
+        String(s.dex).includes(q) ||
+        display.includes(q) ||
+        (s.types || []).join(' ').toLowerCase().includes(q) ||
+        (s.abilities || []).join(' ').toLowerCase().includes(q)
+      );
+    });
   }
 
   const cards = list.map(s => {
