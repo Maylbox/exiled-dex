@@ -50,7 +50,12 @@ export async function renderDexDetail(dex, speciesId) {
 
   // Level-up moves
   const levelUps = (data.levelUpMoves || [])
-    .map(m => `<tr><td>${m.level}</td><td>${m.move}</td></tr>`)
+    .map(m => `
+      <tr>
+        <td style="width:64px">${m.level}</td>
+        <td>${moveChip(m.move)}</td>
+      </tr>
+    `)
     .join('');
 
   // Encounters

@@ -110,7 +110,8 @@ main{padding:1rem}
 .hero h1{margin:.2rem 0}
 .hero small{opacity:.8}
 .hero .meta{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.35rem}
-
+.table td .badge.move { vertical-align: middle; }
+.table td .badge.move .icon { margin-right:.35rem; }
 .kv{display:grid;grid-template-columns:140px 1fr;gap:.4rem .8rem;margin:1rem 0}
 .section{margin:1.2rem 0}
 .h2{font-weight:700;margin-bottom:.5rem}
