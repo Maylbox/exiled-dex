@@ -38,5 +38,8 @@
   "SPECIES_PALAFIN_ZERO": "assets/pokemon/palafin/front.png",
 
   "SPECIES_MEOWSTIC_FEMALE": "assets/pokemon/meowstic/female/anim_front.png",
-  "SPECIES_MEOWSTIC_MALE": "assets/pokemon/meowstic/anim_front.png"
+  "SPECIES_MEOWSTIC_MALE": "assets/pokemon/meowstic/anim_front.png",
+
+  "SPECIES_INDEEDEE_FEMALE": "assets/pokemon/indeedee/female/front.png",
+  "SPECIES_INDEEDEE_MALE": "assets/pokemon/indeedee/front.png"
 }
