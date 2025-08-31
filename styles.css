@@ -298,7 +298,87 @@ a.badge.move:not([class*="type-"]):hover{ border-color:var(--accent); }
 .dex-nav-btn .mini .label{ font-size:.8rem; line-height:1.1; text-align:left; opacity:.95; }
 .dex-nav-btn.prev .mini{ flex-direction:row-reverse; text-align:right; }
 
+.searchbar { position: relative; display: grid; gap: .35rem; }
 
+.suggest {
+  position: absolute; top: 100%; left: 0; z-index: 30;
+  margin-top: .25rem; min-width: 260px;
+  background: #0f1012; border: 1px solid #2a2c31; border-radius: .6rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,.35); padding: .25rem;
+}
+.suggest.hidden { display: none; }
+.suggest .item {
+  display: flex; align-items: center; gap: .5rem;
+  padding: .5rem .6rem; border-radius: .5rem; cursor: pointer;
+}
+.suggest .item kbd {
+  font-size: .8rem; opacity:.75; border:1px solid #2a2c31;
+  padding:.05rem .35rem; border-radius:.3rem;
+}
+.suggest .item:hover, .suggest .item.active { background: #16181c; }
+/* consistent search height + true vertical centering */
+:root { --q-h: 36px; }                 /* tweak to taste: 34–40px works well */
+
+header { display:flex; align-items:center; } /* you already have this */
+
+.searchbar { display:flex; align-items:center; }  /* ensure wrapper centers */
+
+.searchbar input[type="search"]{
+  height: var(--q-h);
+  line-height: var(--q-h);             /* centers the text vertically */
+  padding: 0 .75rem;                   /* vertical = 0; height handles it */
+  appearance: none;
+  -webkit-appearance: none;            /* remove UA quirks (incl. the X) */
+  vertical-align: middle;
+}
+
+/* keep the dropdown snug under the field */
+.suggest { top: calc(100% + .25rem); } /* replaces top:100% + margin-top */
+
+
+.q-wrap{
+  position: relative;
+  width: 320px; max-width: 48vw;
+}
+
+.q-wrap #q {
+  position: relative;
+  width: 100%;
+  padding: .5rem .7rem;
+  border: 1px solid #2a2b2e;
+  border-radius: 8px;
+  background: #121316;
+  /* make text invisible but keep caret visible */
+  color: transparent;
+  caret-color: var(--fg);
+}
+
+.q-wrap #q::placeholder { color: #666; } /* still shows placeholder */
+
+#q-ghost{
+  position: absolute; inset: 0;
+  padding: .5rem .7rem;
+  border-radius: 8px;
+  pointer-events: none;      /* clicks go to the real input */
+  white-space: pre-wrap;     /* preserve spaces */
+  color: var(--fg);
+  font: inherit;             /* align metrics with input */
+}
+
+/* “chip-like” look for complete tags */
+.q-tag{
+  display: inline-flex; align-items: center;
+  padding: .12rem .45rem;
+  margin: 0 .12rem 0 0;
+  border: 1px solid #2b2f35;
+  border-radius: 999px;
+  background: rgba(0,0,0,.25);
+  line-height: 1.1;
+}
+
+/* mute the prefix, highlight the value a bit */
+.q-tag .q-prefix { opacity: .85; margin-right: .15rem; }
+.q-tag .q-value  { font-weight: 600; }
 
 
 /* stats */
