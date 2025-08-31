@@ -64,7 +64,7 @@ export function fmtEv(ev = {}) {
 /** Map Pokédex color names to a UI accent hex value. */
 export function colorToHex(name = '') {
   const T = {
-    Black:  '#111111',
+    Black:  '#624d4e',
     Blue:   '#3b82f6',
     Brown:  '#8b5e3c',
     Gray:   '#6b7280',
