@@ -59,13 +59,19 @@ export async function renderDexDetail(dex, speciesId) {
     .join('');
 
   // Encounters
-  const enc = (data.encounters || [])
+  const encRows = (data.encounters || [])
+    .filter(e => {
+      const label = tArea(e.areaKey, e.area);   // i18n’d label
+      return e.area !== "Unused" && label !== "Unused";
+    })
     .map(e => {
       const areaLabel   = tArea(e.areaKey,   e.area);
       const bucketLabel = tBucket(e.bucketKey, e.bucket);
       return `<tr><td>${areaLabel}</td><td>${bucketLabel}</td><td>${e.min}–${e.max}</td><td>${e.slot}</td><td>${e.rateBase ?? ''}</td></tr>`;
     })
     .join('');
+
+  const enc = encRows || `<tr><td colspan="5" style="opacity:.8">—</td></tr>`;
 
   // Evolution tree
   const evoHTML = await renderEvolutionTree(data);
