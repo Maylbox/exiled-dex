@@ -40,10 +40,20 @@ export async function renderDexDetail(dex, speciesId) {
     .filter(Boolean)
     .map(t => `<span class="pill type-${t} filled">${t}</span>`)
     .join('');
+
+  // Filter out "None" and remove duplicates (case-insensitive, keeps first)
+  const seen = new Set();
   const abilities = (data.abilities || [])
-    .filter(Boolean)
+    .filter(a => a && a !== "None")
+    .filter(a => {
+      const key = String(a).toLowerCase().trim();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
     .map(a => `<span class="badge">${a}</span>`)
     .join('');
+
 
   // Stats
   const stats = renderStats(data.baseStats || {});
