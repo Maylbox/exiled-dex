@@ -97,7 +97,7 @@
     "move" : "Zippy Zap"
   } ],
   "eggMoves" : [ "Bestow", "Bide", "Charge", "Disarming Voice", "Double Slap", "Electric Terrain", "Encore", "Endure", "Fake Out", "Flail", "Lucky Chant", "Present", "Reversal", "Thunder Punch", "Tickle", "Wish" ],
-  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle", "Wild Charge" ],
+  "teachableMoves" : [ "Attract", "Body Slam", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Double Team", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle", "Wild Charge" ],
   "encounters" : [ {
     "areaKey" : "SafariZone_South",
     "bucketKey" : "Land",

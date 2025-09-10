@@ -97,5 +97,14 @@
   } ],
   "eggMoves" : [ "Captivate", "Covet", "Fake Tears", "Feint Attack", "Gravity", "Heal Pulse", "Last Resort", "Misty Terrain", "Perish Song", "Present", "Punishment", "Sleep Talk", "Wish" ],
   "teachableMoves" : [ "Attract", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Dark Pulse", "Dazzling Gleam", "Defense Curl", "Dig", "Double Edge", "Double Team", "Drain Punch", "Dream Eater", "Dynamic Punch", "Endure", "Energy Ball", "Facade", "Fire Blast", "Fire Punch", "Flamethrower", "Flash", "Grass Knot", "Gyro Ball", "Ice Beam", "Ice Punch", "Icy Wind", "Knock Off", "Light Screen", "Mega Kick", "Mega Punch", "Metronome", "Mud Slap", "Play Rough", "Power Up Punch", "Protect", "Psych Up", "Psychic", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rollout", "Safeguard", "Sandstorm", "Seismic Toss", "Shadow Ball", "Shock Wave", "Sleep Talk", "Snatch", "Snore", "Solar Beam", "Stealth Rock", "Strength", "Sunny Day", "Swagger", "Swift", "Taunt", "Thief", "Thunder", "Thunder Punch", "Thunder Wave", "Thunderbolt", "Toxic", "Trailblaze", "Water Pulse", "Wild Charge" ],
-  "encounters" : [ ]
+  "encounters" : [ {
+    "areaKey" : "Route116",
+    "bucketKey" : "Land",
+    "area" : "Route 116",
+    "bucket" : "Land",
+    "rateBase" : 20,
+    "min" : 8,
+    "max" : 10,
+    "slot" : 7
+  } ]
 }

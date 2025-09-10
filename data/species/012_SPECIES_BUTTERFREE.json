@@ -35,6 +35,9 @@
     "common" : "Silver Powder"
   },
   "levelUpMoves" : [ {
+    "level" : 0,
+    "move" : "Confusion"
+  }, {
     "level" : 1,
     "move" : "Aeroblast"
   }, {
@@ -45,10 +48,10 @@
     "move" : "Gust"
   }, {
     "level" : 10,
-    "move" : "Gust"
+    "move" : "Air Slash"
   }, {
     "level" : 11,
-    "move" : "Psybeam"
+    "move" : "Electroweb"
   }, {
     "level" : 13,
     "move" : "Poisonpowder"
@@ -78,7 +81,7 @@
     "move" : "Bug Buzz"
   }, {
     "level" : 35,
-    "move" : "Rage Powder"
+    "move" : "Psychic"
   }, {
     "level" : 37,
     "move" : "Twin Beam"

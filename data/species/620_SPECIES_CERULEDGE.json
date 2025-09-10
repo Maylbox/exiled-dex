@@ -111,7 +111,7 @@
     "move" : "Close Combat"
   } ],
   "eggMoves" : [ "Destiny Bond", "Disable", "Spite" ],
-  "teachableMoves" : [ "Brick Break", "Bulk Up", "Dragon Claw", "Endure", "Facade", "False Swipe", "Fire Blast", "Flamethrower", "Hex", "Iron Defense", "Iron Head", "Light Screen", "Overheat", "Poison Jab", "Protect", "Psych Up", "Reflect", "Rest", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Solar Blade", "Sunny Day", "Swords Dance", "Taunt", "Will O Wisp", "X Scissor" ],
+  "teachableMoves" : [ "Brick Break", "Bulk Up", "Cut", "Dragon Claw", "Endure", "Facade", "False Swipe", "Fire Blast", "Flamethrower", "Hex", "Iron Defense", "Iron Head", "Light Screen", "Overheat", "Poison Jab", "Protect", "Psych Up", "Reflect", "Rest", "Rock Smash", "Shadow Ball", "Shadow Claw", "Sleep Talk", "Solar Blade", "Strength", "Sunny Day", "Swords Dance", "Taunt", "Will O Wisp", "X Scissor" ],
   "encounters" : [ {
     "areaKey" : "MtPyre_1F",
     "bucketKey" : "Land",

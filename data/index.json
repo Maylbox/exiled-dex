@@ -159,7 +159,7 @@
   "abilities" : [ "Compound Eyes", "None", "Tinted Lens" ],
   "color" : "White",
   "file" : "species/012_SPECIES_BUTTERFREE.json",
-  "moves" : [ "Aeroblast", "Confusion", "Gust", "Psybeam", "Poisonpowder", "Sleep Powder", "Stun Spore", "Struggle Bug", "Silver Wind", "Supersonic", "Heal Order", "Air Cutter", "Bug Buzz", "Rage Powder", "Twin Beam", "Tailwind", "Hurricane", "Quiver Dance", "Bleakwind Storm", "Acrobatics", "Aerial Ace", "Air Slash", "Attract", "Defog", "Double Edge", "Double Team", "Dream Eater", "Dual Wingbeat", "Electroweb", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Hyper Beam", "Iron Defense", "Protect", "Psych Up", "Psychic", "Rain Dance", "Reflect", "Rest", "Roost", "Safeguard", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn", "Venoshock" ]
+  "moves" : [ "Confusion", "Aeroblast", "Gust", "Air Slash", "Electroweb", "Poisonpowder", "Sleep Powder", "Stun Spore", "Struggle Bug", "Silver Wind", "Supersonic", "Heal Order", "Air Cutter", "Bug Buzz", "Psychic", "Twin Beam", "Tailwind", "Hurricane", "Quiver Dance", "Bleakwind Storm", "Acrobatics", "Aerial Ace", "Attract", "Defog", "Double Edge", "Double Team", "Dream Eater", "Dual Wingbeat", "Endure", "Energy Ball", "Facade", "Flash", "Giga Drain", "Giga Impact", "Hyper Beam", "Iron Defense", "Protect", "Psych Up", "Rain Dance", "Reflect", "Rest", "Roost", "Safeguard", "Shadow Ball", "Sleep Talk", "Snore", "Solar Beam", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn", "Venoshock" ]
 }, {
   "dex" : 12,
   "speciesId" : "SPECIES_EXILED_BUTTERFREE",
@@ -213,7 +213,7 @@
   "abilities" : [ "Keen Eye", "Tangled Feet", "Big Pecks" ],
   "color" : "Brown",
   "file" : "species/016_SPECIES_PIDGEY.json",
-  "moves" : [ "Tackle", "Featherdance", "Gust", "Quick Attack", "Take Down", "Return", "Roost", "Agility", "Fly", "Tailwind", "Whirlwind", "Mirror Move", "Air Slash", "Hurricane", "Air Cutter", "Brave Bird", "Defog", "Feint Attack", "Foresight", "Pursuit", "Steel Wing", "Uproar", "Aerial Ace", "Attract", "Double Edge", "Double Team", "Endure", "Facade", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ]
+  "moves" : [ "Tackle", "Featherdance", "Peck", "Quick Attack", "Take Down", "Return", "Roost", "Agility", "Fly", "Tailwind", "Whirlwind", "Mirror Move", "Air Slash", "Hurricane", "Air Cutter", "Brave Bird", "Defog", "Feint Attack", "Foresight", "Pursuit", "Steel Wing", "Uproar", "Aerial Ace", "Attract", "Double Edge", "Double Team", "Endure", "Facade", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ]
 }, {
   "dex" : 17,
   "speciesId" : "SPECIES_PIDGEOTTO",
@@ -222,7 +222,7 @@
   "abilities" : [ "Keen Eye", "Tangled Feet", "Big Pecks" ],
   "color" : "Brown",
   "file" : "species/017_SPECIES_PIDGEOTTO.json",
-  "moves" : [ "Dual Wingbeat", "Gust", "Sand Attack", "Featherdance", "Quick Attack", "Take Down", "Return", "Roost", "Agility", "Air Slash", "Whirlwind", "Tailwind", "Mirror Move", "Hurricane", "Air Cutter", "Brave Bird", "Defog", "Feint Attack", "Foresight", "Pursuit", "Steel Wing", "Uproar", "Aerial Ace", "Attract", "Double Edge", "Double Team", "Endure", "Facade", "Fly", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ]
+  "moves" : [ "Dual Wingbeat", "Peck", "Sand Attack", "Featherdance", "Quick Attack", "Take Down", "Return", "Roost", "Agility", "Air Slash", "Whirlwind", "Tailwind", "Mirror Move", "Hurricane", "Air Cutter", "Brave Bird", "Defog", "Feint Attack", "Foresight", "Pursuit", "Steel Wing", "Uproar", "Aerial Ace", "Attract", "Double Edge", "Double Team", "Endure", "Facade", "Fly", "Mud Slap", "Protect", "Rain Dance", "Reflect", "Rest", "Sleep Talk", "Snore", "Sunny Day", "Swagger", "Swift", "Thief", "Toxic", "U Turn" ]
 }, {
   "dex" : 18,
   "speciesId" : "SPECIES_PIDGEOT",
@@ -303,7 +303,7 @@
   "abilities" : [ "Static", "Cute Charm", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Bestow", "Bide", "Charge", "Disarming Voice", "Double Slap", "Electric Terrain", "Encore", "Endure", "Fake Out", "Flail", "Lucky Chant", "Present", "Reversal", "Thunder Punch", "Tickle", "Wish", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Bestow", "Bide", "Charge", "Disarming Voice", "Double Slap", "Electric Terrain", "Encore", "Endure", "Fake Out", "Flail", "Lucky Chant", "Present", "Reversal", "Thunder Punch", "Tickle", "Wish", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_ALOLA_CAP",
@@ -312,7 +312,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_ALOLA_CAP.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_BELLE",
@@ -321,7 +321,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_BELLE.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_COSPLAY",
@@ -330,7 +330,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_COSPLAY.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_HOENN_CAP",
@@ -339,7 +339,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_HOENN_CAP.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_KALOS_CAP",
@@ -348,7 +348,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_KALOS_CAP.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_LIBRE",
@@ -357,7 +357,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_LIBRE.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_ORIGINAL_CAP",
@@ -366,7 +366,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_ORIGINAL_CAP.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_PARTNER",
@@ -375,7 +375,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_PARTNER.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_PARTNER_CAP",
@@ -384,7 +384,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_PARTNER_CAP.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_PH_D",
@@ -393,7 +393,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_PH_D.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_POP_STAR",
@@ -402,7 +402,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_POP_STAR.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_ROCK_STAR",
@@ -411,7 +411,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_ROCK_STAR.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_SINNOH_CAP",
@@ -420,7 +420,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_SINNOH_CAP.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_UNOVA_CAP",
@@ -429,7 +429,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_UNOVA_CAP.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 24,
   "speciesId" : "SPECIES_PIKACHU_WORLD_CAP",
@@ -438,7 +438,7 @@
   "abilities" : [ "Static", "None", "Lightning Rod" ],
   "color" : "Yellow",
   "file" : "species/024_SPECIES_PIKACHU_WORLD_CAP.json",
-  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Bulk Up", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
+  "moves" : [ "Mach Punch", "Nuzzle", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball", "Thunder Wave", "Feint", "Double Team", "Spark", "Discharge", "Body Slam", "Thunderbolt", "Agility", "Wild Charge", "Light Screen", "Zippy Zap", "Attract", "Brick Break", "Calm Mind", "Charge Beam", "Counter", "Covet", "Defense Curl", "Dig", "Double Edge", "Dynamic Punch", "Electroweb", "Endure", "Facade", "Flash", "Grass Knot", "Knock Off", "Mega Kick", "Mega Punch", "Mud Slap", "Play Rough", "Protect", "Rain Dance", "Reflect", "Rest", "Rock Smash", "Rollout", "Seismic Toss", "Shock Wave", "Sleep Talk", "Snore", "Strength", "Surf", "Swagger", "Swift", "Thief", "Thunder", "Thunder Punch", "Toxic", "Trailblaze", "Volt Switch", "Volt Tackle" ]
 }, {
   "dex" : 25,
   "speciesId" : "SPECIES_RAICHU",
@@ -7008,7 +7008,7 @@
   "abilities" : [ "Flash Fire", "None", "Weak Armor" ],
   "color" : "Purple",
   "file" : "species/620_SPECIES_CERULEDGE.json",
-  "moves" : [ "Shadow Claw", "Astonish", "Ember", "Night Slash", "Quick Guard", "Shadow Sneak", "Solar Blade", "Wide Guard", "Clear Smog", "Fire Spin", "Will O Wisp", "Night Shade", "Flame Charge", "Incinerate", "Lava Plume", "Flamethrower", "Flare Blitz", "Bitter Blade", "Psycho Cut", "Swords Dance", "Cut", "Poltergeist", "X Scissor", "Bulk Up", "Close Combat", "Destiny Bond", "Disable", "Spite", "Brick Break", "Dragon Claw", "Endure", "Facade", "False Swipe", "Fire Blast", "Hex", "Iron Defense", "Iron Head", "Light Screen", "Overheat", "Poison Jab", "Protect", "Psych Up", "Reflect", "Rest", "Shadow Ball", "Sleep Talk", "Sunny Day", "Taunt" ]
+  "moves" : [ "Shadow Claw", "Astonish", "Ember", "Night Slash", "Quick Guard", "Shadow Sneak", "Solar Blade", "Wide Guard", "Clear Smog", "Fire Spin", "Will O Wisp", "Night Shade", "Flame Charge", "Incinerate", "Lava Plume", "Flamethrower", "Flare Blitz", "Bitter Blade", "Psycho Cut", "Swords Dance", "Cut", "Poltergeist", "X Scissor", "Bulk Up", "Close Combat", "Destiny Bond", "Disable", "Spite", "Brick Break", "Dragon Claw", "Endure", "Facade", "False Swipe", "Fire Blast", "Hex", "Iron Defense", "Iron Head", "Light Screen", "Overheat", "Poison Jab", "Protect", "Psych Up", "Reflect", "Rest", "Rock Smash", "Shadow Ball", "Sleep Talk", "Strength", "Sunny Day", "Taunt" ]
 }, {
   "dex" : 621,
   "speciesId" : "SPECIES_FLITTLE",

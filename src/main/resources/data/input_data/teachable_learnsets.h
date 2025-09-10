@@ -1344,7 +1344,6 @@ static const u16 sPikachuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
-    MOVE_BULK_UP, 
     MOVE_UNAVAILABLE,
 };
 
@@ -1404,8 +1403,6 @@ static const u16 sRaichuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
-    MOVE_BULK_UP,
-    MOVE_DRAIN_PUNCH, 
     MOVE_UNAVAILABLE,
 };
 
@@ -46825,6 +46822,9 @@ static const u16 sCeruledgeTeachableLearnset[] = {
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SWORDS_DANCE,
+    MOVE_CUT,
+    MOVE_STRENGTH,
+    MOVE_ROCK_SMASH,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CHARCADET

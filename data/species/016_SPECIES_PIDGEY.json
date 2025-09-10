@@ -24,7 +24,7 @@
   "evolution" : [ {
     "toSpeciesId" : "SPECIES_PIDGEOTTO",
     "method" : "level",
-    "param" : "18"
+    "param" : "17"
   } ],
   "baseStats" : {
     "hp" : 40,
@@ -43,7 +43,7 @@
     "move" : "Featherdance"
   }, {
     "level" : 9,
-    "move" : "Gust"
+    "move" : "Peck"
   }, {
     "level" : 13,
     "move" : "Quick Attack"

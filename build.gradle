@@ -7,9 +7,15 @@ plugins {
 group = 'ee.dex'
 version = '0.1.0'
 
-java { toolchain { languageVersion = JavaLanguageVersion.of(21) } }
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(21) }
+}
 
-application { mainClass = 'dexgen.Main' }
+application {
+    mainClass = 'dexgen.Main'
+    // Make the default run/task JVM use UTF-8
+    applicationDefaultJvmArgs = ['-Dfile.encoding=UTF-8']
+}
 
 repositories { mavenCentral() }
 
@@ -17,11 +23,10 @@ dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.2'
     implementation 'org.apache.poi:poi:5.2.5'
     implementation 'org.apache.poi:poi-ooxml:5.2.5'
-    implementation 'commons-io:commons-io:2.16.1'   // <-- correct coords
+    implementation 'commons-io:commons-io:2.16.1'
 
     // optional until you render HTML
     implementation 'io.pebbletemplates:pebble:3.2.2'
-    // remove duplicate jackson line
 }
 
 test { useJUnitPlatform() }
@@ -31,11 +36,24 @@ tasks.register('generateSite', JavaExec) {
     description = 'Parse game data → /docs'
     classpath = sourceSets.main.runtimeClasspath
     mainClass = 'dexgen.Main'
+    // Force UTF-8 for this JavaExec too
+    jvmArgs '-Dfile.encoding=UTF-8'
 }
 
 tasks.register('copyAssets', Copy) {
-    from('src/main/resources/assets')               // <-- correct source
+    from('src/main/resources/assets')
     into('docs/assets')
 }
 
 tasks.named('generateSite').configure { finalizedBy('copyAssets') }
+
+// ----- UTF-8 everywhere -----
+// Compile with UTF-8 so Java source with literals is read correctly.
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+// Any JavaExec task (run, generateSite, custom) gets UTF-8.
+tasks.withType(JavaExec).configureEach {
+    jvmArgs += ['-Dfile.encoding=UTF-8']
+}

@@ -25,10 +25,10 @@
   "baseStats" : {
     "hp" : 140,
     "atk" : 70,
-    "def" : 45,
-    "spe" : 45,
-    "spa" : 85,
-    "spd" : 50
+    "def" : 60,
+    "spe" : 53,
+    "spa" : 95,
+    "spd" : 65
   },
   "heldItems" : {
     "common" : "Moon Stone"

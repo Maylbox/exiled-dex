@@ -90,15 +90,6 @@
     "max" : 10,
     "slot" : 6
   }, {
-    "areaKey" : "Route116",
-    "bucketKey" : "Land",
-    "area" : "Route 116",
-    "bucket" : "Land",
-    "rateBase" : 20,
-    "min" : 8,
-    "max" : 10,
-    "slot" : 7
-  }, {
     "areaKey" : "DesertUnderpass",
     "bucketKey" : "Land",
     "area" : "Desert Underpass",

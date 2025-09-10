@@ -401,7 +401,7 @@ const struct WildPokemon gRoute116_LandMons[] =
     { 8, 10, SPECIES_EKANS },
     { 8, 10, SPECIES_GRIMER },
     { 8, 10, SPECIES_WHISMUR },
-    { 8, 10, SPECIES_WHISMUR },
+    { 8, 10, SPECIES_JIGGLYPUFF },
     { 8, 10, SPECIES_LEDYBA },
     { 8, 10, SPECIES_HONEDGE },
     { 8, 10, SPECIES_NINCADA },
