@@ -1,7 +1,7 @@
 // app.js
 // App shell: boots data, wires routing, exposes the #app element.
 
-import { setupDexDetailArrowNav } from './keybinds.js';
+import { setupDexDetailArrowNav, setupEscapeBackNav } from './keybinds.js';
 import { init, DEX_MAX } from './dataLoader.js';
 import { el } from './uiUtils.js';
 import { renderDexDetail } from './dexDetail.js';
@@ -97,5 +97,6 @@ searchBox.addEventListener('input', () => {
 (async () => {
   await init();   // loads index, i18n, forms, move types
   setupDexDetailArrowNav();
+  setupEscapeBackNav();
   route();        // initial render
 })();

@@ -66,3 +66,31 @@ export function setupSearchKeybinds({ input, menuEl, buildMenuItems, renderSugge
   input.addEventListener('keydown', keyHandler);
   return () => input.removeEventListener('keydown', keyHandler);
 }
+// ---------- 3) Global: ESC navigates back (without touching inputs) ----------
+export function setupEscapeBackNav() {
+  if (window.__escBackBound) return; // avoid double-binding (HMR, etc.)
+  window.__escBackBound = true;
+
+  window.addEventListener('keydown', (e) => {
+    // Let inputs/textarea/select/contenteditable keep Esc for themselves
+    if (inEditable(e)) return;
+    if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+    if (e.key !== 'Escape') return;
+
+    // If we're not on home, try to go back. If there's no history entry, fall back to home.
+    const before = location.hash;
+    if (!before) return; // already on home
+
+    e.preventDefault();
+    history.back();
+
+    // Fallback: if nothing changed after a tick, clear the hash to go home.
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        if (location.hash === before) {
+          location.hash = ''; // home
+        }
+      }, 0);
+    });
+  });
+}
