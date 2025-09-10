@@ -1,6 +1,7 @@
 // dexList.js
 // Pokédex grid page
 
+import { setupSearchKeybinds } from './keybinds.js';
 import { INDEX, tName } from './dataLoader.js';
 import { spriteHTML } from './sprites.js';
 import { el } from './uiUtils.js';
@@ -22,6 +23,8 @@ function norm(s = '') {
 }
 
 let SUGGEST = null;
+let searchUIInitialized = false;
+
 function buildSuggest() {
   if (SUGGEST) return SUGGEST;
   const uniq = (arr) => Array.from(new Set(arr)).filter(Boolean);
@@ -228,12 +231,14 @@ function adjustHeaderOffset() {
 }
 
 function setupSearchUI(){
+  if (searchUIInitialized) return;   // ← guard against double-binding
   const input  = document.querySelector('#q');
   const menuEl = document.querySelector('#q-menu');
   if (!input || !menuEl) return;
 
+  searchUIInitialized = true;        // ← mark as initialized once we know we’ll bind
+
   let idx = 0;
-  let suppressBlurClose = false;
 
   const openMenu    = ()=> { const items = buildMenuItems(input); idx = 0; renderSuggest(menuEl, items, idx); };
   const refreshMenu = ()=> { if (menuEl.classList.contains('hidden')) return; const items = buildMenuItems(input); idx = Math.min(idx, items.length-1); renderSuggest(menuEl, items, idx); };
@@ -243,23 +248,16 @@ function setupSearchUI(){
 
   // Close when input loses focus *and* the new focus isn't inside the menu
   input.addEventListener('focusout', (e)=>{
-    // If the next focused element is inside the menu (e.g., during click),
-    // let the menu handler decide; otherwise close.
     const to = e.relatedTarget;
-    if (!to || !to.closest || !to.closest('#q-menu')) {
-      closeMenu();
-    }
+    if (!to || !to.closest || !to.closest('#q-menu')) closeMenu();
   });
 
   // Also close on click/tap anywhere outside input+menu (robust on mobile)
-  // Use capture so it runs before other handlers that might stopPropagation.
   const outsideCloser = (e)=>{
     const t = e.target;
     if (!t.closest('#q') && !t.closest('#q-menu')) closeMenu();
   };
   document.addEventListener('pointerdown', outsideCloser, true);
-
-  // Clean up listener if you ever re-init setupSearchUI (optional)
   window.addEventListener('beforeunload', ()=> {
     document.removeEventListener('pointerdown', outsideCloser, true);
   });
@@ -269,31 +267,19 @@ function setupSearchUI(){
     renderDexList();
   });
 
-  input.addEventListener('keydown', (e)=>{
-    const items = Array.from(menuEl.querySelectorAll('.item'));
-    if (e.key === 'Tab'){ closeMenu(); return; }   // tab away = close
-    if (!items.length) return;
-    if (e.key === 'ArrowDown'){ e.preventDefault(); idx = (idx+1)%items.length; renderSuggest(menuEl, buildMenuItems(input), idx); }
-    else if (e.key === 'ArrowUp'){ e.preventDefault(); idx = (idx-1+items.length)%items.length; renderSuggest(menuEl, buildMenuItems(input), idx); }
-    else if (e.key === 'Enter'){
-      e.preventDefault();
-      const it = items[idx];
-      applyMenuChoice(input, {
-        mode: it.dataset.mode,
-        key: it.dataset.key,
-        prefix: it.dataset.prefix,
-        label: it.dataset.value
-      });
-      idx = 0;
-      renderSuggest(menuEl, buildMenuItems(input), idx);
-    }
-    else if (e.key === 'Escape'){ closeMenu(); }
-    else { setTimeout(refreshMenu, 0); }
+  // --- hook up the scoped keyboard navigation for the menu (from keybinds.js) ---
+  setupSearchKeybinds({
+    input,
+    menuEl,
+    buildMenuItems,
+    renderSuggest,
+    applyMenuChoice,
+    closeMenu,
   });
 
-  // Keep menu open when clicking a suggestion
+  // Keep menu open when clicking a suggestion (apply without blurring)
   menuEl.addEventListener('mousedown', (e)=>{
-    e.preventDefault();                 // keep focus in input (no blur)
+    e.preventDefault();
     const it = e.target.closest('.item'); if(!it) return;
     applyMenuChoice(input, {
       mode: it.dataset.mode,
@@ -307,10 +293,14 @@ function setupSearchUI(){
   });
 }
 
-if (document.readyState !== 'loading') { setupSearchUI(); adjustHeaderOffset(); }
-else document.addEventListener('DOMContentLoaded', () => { setupSearchUI(); adjustHeaderOffset(); });
-
 export function renderDexList() {
+  // initialize the search UI only the first time we render the Dex list
+  if (!searchUIInitialized) {
+    setupSearchUI();
+    adjustHeaderOffset();
+    searchUIInitialized = true;
+  }
+
   const qRaw = getQuery();
   const tokens = splitQuery(qRaw);
   let list = INDEX;
@@ -331,31 +321,25 @@ export function renderDexList() {
       // build a predicate per token
       return tokens.every(tokRaw => {
         const tok = norm(tokRaw);
-        // prefixed?
         const m = tok.match(/^(\w+):(.*)$/);
         if (m) {
           const [, prefix, val] = m;
-          if (!val) return true; // empty value -> ignore
+          if (!val) return true;
           switch (prefix) {
             case 'pokemon':
             case 'poke':
             case 'name':
               return display.startsWith(val);
-
             case 'move':
             case 'moves':
-              return movesArr.some(m => m.startsWith(val));
-
+              return movesArr.some(mv => mv.startsWith(val));
             case 'ability':
             case 'abilities':
-              return abilsArr.some(a => a.startsWith(val));
-
+              return abilsArr.some(ab => ab.startsWith(val));
             case 'type':
             case 'types':
-              return typesArr.some(t => t.startsWith(val));
-
+              return typesArr.some(tp => tp.startsWith(val));
             default:
-              // keep broad fallback as "contains" so unprefixed queries behave like before
               return (
                 dexStr.includes(tok) ||
                 display.includes(tok) ||
@@ -396,6 +380,7 @@ export function renderDexList() {
 
   app.innerHTML = `<div class="grid">${cards}</div><footer>${list.length} shown</footer>`;
 }
+
 
 // Small prev/next button used by the detail page
 export function navMini(entry, dir) {
