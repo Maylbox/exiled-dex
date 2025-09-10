@@ -170,7 +170,7 @@ function buildMenuItems(input) {
   const cat = SUGGEST[p.prefix];
   const needle = norm(p.value);
   const filtered = needle
-    ? cat.filter(x => x.n.includes(needle))
+    ? cat.filter(x => x.n.startsWith(needle))
     : cat;
 
   // Limit to top N for performance
@@ -318,11 +318,15 @@ export function renderDexList() {
   if (tokens.length) {
     list = INDEX.filter(s => {
       // precompute haystacks per entry
-      const display = norm(tName(s, s.name) || s.name || '');
-      const typesStr = norm((s.types || []).filter(Boolean).join(' '));
-      const abilsStr = norm((s.abilities || []).filter(Boolean).join(' '));
-      const movesStr = norm((s.moves || []).join(' ')); // from index.json (added earlier)
-      const dexStr   = norm(String(s.dex));
+      const display   = norm(tName(s, s.name) || s.name || '');
+      const typesArr  = (s.types || []).map(norm);
+      const abilsArr  = (s.abilities || []).map(norm);
+      const movesArr  = (s.moves || []).map(norm);
+
+      const typesStr  = typesArr.join(' ');
+      const abilsStr  = abilsArr.join(' ');
+      const movesStr  = movesArr.join(' ');
+      const dexStr    = norm(String(s.dex));
 
       // build a predicate per token
       return tokens.every(tokRaw => {
@@ -336,18 +340,22 @@ export function renderDexList() {
             case 'pokemon':
             case 'poke':
             case 'name':
-              return display.includes(val);
+              return display.startsWith(val);
+
             case 'move':
             case 'moves':
-              return movesStr.includes(val);
+              return movesArr.some(m => m.startsWith(val));
+
             case 'ability':
             case 'abilities':
-              return abilsStr.includes(val);
+              return abilsArr.some(a => a.startsWith(val));
+
             case 'type':
             case 'types':
-              return typesStr.includes(val);
+              return typesArr.some(t => t.startsWith(val));
+
             default:
-              // unknown prefix -> treat as broad token
+              // keep broad fallback as "contains" so unprefixed queries behave like before
               return (
                 dexStr.includes(tok) ||
                 display.includes(tok) ||
