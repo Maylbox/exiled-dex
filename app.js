@@ -39,6 +39,23 @@ function route() {
     return;
   }
 
+  // Trainers list
+  if (raw === 'trainers') {
+    searchBox.classList.add('hidden');
+    (await import('./trainersList.js')).renderTrainersList();
+    return;
+  }
+
+  // Trainer detail: #trainers/TRAINER_SOMETHING
+  {
+    const m = raw.match(/^trainers\/([A-Z0-9_]+)$/);
+    if (m) {
+      searchBox.classList.add('hidden');
+      (await import('./trainerDetail.js')).renderTrainerDetail(m[1]);
+      return;
+    }
+  }
+
   renderNotFound();
 }
 
