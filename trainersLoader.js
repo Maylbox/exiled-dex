@@ -3,7 +3,7 @@
 
 import { fetchJSON } from './dataLoader.js'; // for parity; we’ll use our own fetchText here
 
-export const TRAINERS_DATA_URL = 'data/trainers.party';
+export const TRAINERS_DATA_URL = 'data/trainers/trainers.party';
 
 // in-memory caches
 let TRAINERS_INDEX = [];                // lightweight cards [{id,name,class,pic,gender,double,partyCount,firstMon}]

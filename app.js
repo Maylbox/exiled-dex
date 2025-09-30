@@ -11,9 +11,9 @@ export const app = el('#app');
 const searchBox = el('#q');
 
 // --- routing ---
-function route() {
+async function route() {
   const raw = location.hash.replace(/^#/, '');
-  // Dex list (supports #dex and #dex?q=...)
+
   if (raw === 'dex' || raw.startsWith('dex?')) {
     searchBox.classList.remove('hidden');
     const m = raw.match(/^dex\?q=(.*)$/);
@@ -22,15 +22,10 @@ function route() {
     return;
   }
 
-  // Hide search outside of the dex list
   searchBox.classList.add('hidden');
 
-  if (!raw) {
-    renderHome();
-    return;
-  }
+  if (!raw) { renderHome(); return; }
 
-  // Detail: #dex/<number>[/<SPECIES_ID>]
   const dm = raw.match(/^dex\/(\d+)(?:\/([A-Z0-9_]+))?$/);
   if (dm) {
     const dex = Number(dm[1]);
@@ -41,8 +36,8 @@ function route() {
 
   // Trainers list
   if (raw === 'trainers') {
-    searchBox.classList.add('hidden');
-    (await import('./trainersList.js')).renderTrainersList();
+    const m = await import('./trainersList.js');
+    m.renderTrainersList();
     return;
   }
 
@@ -50,8 +45,8 @@ function route() {
   {
     const m = raw.match(/^trainers\/([A-Z0-9_]+)$/);
     if (m) {
-      searchBox.classList.add('hidden');
-      (await import('./trainerDetail.js')).renderTrainerDetail(m[1]);
+      const mod = await import('./trainerDetail.js');
+      mod.renderTrainerDetail(m[1]);
       return;
     }
   }
