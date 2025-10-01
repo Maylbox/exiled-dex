@@ -1,15 +1,15 @@
-// trainerDetail.js
 import { app } from './app.js';
 import { loadTrainers, getTrainerById } from './trainersLoader.js';
 import { spriteHTML } from './sprites.js';
 import { moveChip } from './moves.js';
-import { fmtNum } from './uiUtils.js';
+import { fmtNum, makePlaceholder } from './uiUtils.js';
+import { tArea } from './dataLoader.js';
 
 function kv(label, val) {
   return `<div>${label}</div><div><span class="badge">${val || '—'}</span></div>`;
 }
 
-function statChips(obj, cls) {
+function statChips(obj) {
   if (!obj) return '';
   const map = { hp:'HP', atk:'Atk', def:'Def', spa:'SpA', spd:'SpD', spe:'Spe' };
   return Object.entries(map)
@@ -18,12 +18,12 @@ function statChips(obj, cls) {
     .join(' ');
 }
 
-function renderPokemonCard(p, idx) {
-  const ivs = statChips(p.ivs, 'ivs');
-  const evs = statChips(p.evs, 'evs');
+function renderPokemonCard(p) {
+  const ivs = statChips(p.ivs);
+  const evs = statChips(p.evs);
   const moves = (p.moves || []).map(m => moveChip(m)).join('');
 
-  const rightMeta = [
+  const meta = [
     p.level ? `<span class="badge">Lv. ${p.level}</span>` : '',
     p.nature ? `<span class="badge">${p.nature}</span>` : '',
     p.ability ? `<span class="badge">${p.ability}</span>` : '',
@@ -40,7 +40,7 @@ function renderPokemonCard(p, idx) {
         <div class="thumb" style="width:160px">${spriteHTML(p.speciesRaw, p.speciesRaw)}</div>
         <div style="flex:1">
           <h2 style="margin:.2rem 0">${p.nickname ? `${p.nickname} ` : ''}<small>${p.speciesRaw}</small></h2>
-          <div class="chiplist">${rightMeta}</div>
+          <div class="chiplist">${meta}</div>
 
           <div class="section" style="margin:.6rem 0 0">
             <div class="h2">Moves</div>
@@ -58,6 +58,13 @@ function renderPokemonCard(p, idx) {
   `;
 }
 
+function portraitHTML(name) {
+  const ph = makePlaceholder(name || 'Trainer');
+  return `<div class="thumb" style="width:220px">
+    <img class="sprite" src="${ph}" alt="${name || 'Trainer'}">
+  </div>`;
+}
+
 export async function renderTrainerDetail(id) {
   await loadTrainers();
   const t = getTrainerById(id);
@@ -69,8 +76,7 @@ export async function renderTrainerDetail(id) {
   const meta = `
     <div class="kv kv-hero">
       ${kv('Class', t.class)}
-      ${kv('Gender', t.gender)}
-      ${kv('Music', t.music)}
+      ${kv('Location', t.location ? tArea(t.location, t.location) : '—')}
       ${kv('Double Battle', t.double ? 'Yes' : 'No')}
       ${t.items?.length ? kv('Items', t.items.join(', ')) : ''}
       ${t.ai?.length ? kv('AI', t.ai.join(' / ')) : ''}
@@ -82,8 +88,13 @@ export async function renderTrainerDetail(id) {
   app.innerHTML = `
     <div class="detail">
       <div class="hero">
-        <h1 style="margin:.2rem 0">${t.name} <small>${t.id}</small></h1>
-        ${meta}
+        <div style="display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap">
+          ${portraitHTML(t.name)}
+          <div style="flex:1">
+            <h1 style="margin:.2rem 0">${t.name}</h1>
+            ${meta}
+          </div>
+        </div>
       </div>
 
       <div class="section">

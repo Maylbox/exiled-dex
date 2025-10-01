@@ -1,7 +1,7 @@
-// trainersList.js
 import { el } from './uiUtils.js';
 import { spriteHTML } from './sprites.js';
 import { loadTrainers, getTrainerIndex } from './trainersLoader.js';
+import { tArea } from './dataLoader.js';
 
 const app = el('#app');
 
@@ -10,7 +10,6 @@ export async function renderTrainersList() {
   const list = getTrainerIndex();
 
   const cards = list.map(t => {
-    // Thumbnail: show first Pokémon sprite if available, else a placeholder mugshot block
     const thumb = t.firstMon
       ? spriteHTML(t.firstMon.speciesRaw, t.firstMon.speciesRaw)
       : `<div style="width:100%;height:100%;display:grid;place-items:center;color:#888">No party</div>`;
@@ -21,8 +20,8 @@ export async function renderTrainersList() {
         <div class="dex">${t.class}${t.double ? ' · Doubles' : ''}</div>
         <div class="name">${t.name}</div>
         <div class="pills">
-          <span class="badge">${t.gender || '—'}</span>
           <span class="badge">Party: ${t.partyCount}</span>
+          ${t.location ? `<span class="badge">${tArea(t.location, t.location)}</span>` : ''}
         </div>
       </div>
     `;
